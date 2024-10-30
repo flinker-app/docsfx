@@ -1,0 +1,13 @@
+footer {
+    background-color: #e8e6df;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navbar-brand {
+    display: none !important;
+}

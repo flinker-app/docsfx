@@ -1,0 +1,38 @@
+- name: Home
+  href: README.md
+
+- name: IFC VIEWER in Webbrowser
+
+- name: IFC Viewer FAQ
+  href: faq-ifc-viewer.md
+
+- name: IFC VIEWER in Teams
+
+- name: Setup
+  href: setting-up-the-ifc-viewer-in-microsoft-teams.md
+- name: Integrations
+  items:
+    - name: IFC GPT
+      href: ifc-gpt.md
+    - name: IFC GPT FAQ
+      href: ifc-gpt-faq.md
+    - name: BCF Integration
+      href: ifc-bcf.md
+    - name: Document Linking
+      href: ifc-docslink.md
+
+- name: IFC VIEWER in SharePoint
+
+- name: Setup for Admins
+  href: viewer-app-installation-with-admin-approval.md
+- name: Usage
+  href: using-ifc-viewer-in-sharepoint.md
+
+- name: SHARE for SharePoint
+
+- name: Setup for Admins
+  href: installation.md
+- name: Features
+  href: share-features.md
+- name: SHARE FAQ
+  href: faq-share-add-on-for-microsoft-sharepoint.md
