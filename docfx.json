@@ -10,8 +10,6 @@
           "_site/**"
         ]
       },
-            { "files": "_media/**/*.{png,jpg,jpeg,gif}", "dest": "docsfx/_media" } 
-
     ],
     "resource": [
       {
