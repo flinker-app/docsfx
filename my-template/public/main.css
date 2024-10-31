@@ -8,6 +8,6 @@ footer {
     align-items: flex-start;
 }
 
-.navbar-brand {
+.navbar-brand #logo{
     display: none !important;
 }
