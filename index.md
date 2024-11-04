@@ -258,8 +258,7 @@ Discover the full potential of Microsoft Add-ons with these guides and documenta
 All our products have been designed specifically for Microsoft 365. That means our solutions fit seamlessly with your existing Microsoft infrastructure.
 <div class="horizontal-card-container"> 
 
-  <!-- Share Card -->
-  <a href="https://appsource.microsoft.com/de-de/product/office/WA200007197?src=docs&mktcmpid=docs_home" class="horizontal-card">
+  <a href="/docs/share-features.html" class="horizontal-card">
     <img 
       src="https://store-images.s-microsoft.com/image/apps.8710.f4a5189b-9a64-4251-b3ad-9fe54b90332c.a6ddbdcf-71af-4b0a-9ac8-1fddd491d66d.4a1843fb-411a-42b1-b5f4-d83bdb3b72d1.png" 
       alt="Share">
@@ -269,8 +268,7 @@ All our products have been designed specifically for Microsoft 365. That means o
     </div>
   </a>
 
-  <!-- IFC Viewer Card -->
-  <a href="https://appsource.microsoft.com/de-de/product/office/wa200006238?src=docs&mktcmpid=docs_home" class="horizontal-card">
+  <a href="/docs/viewer-app-installation-with-admin-approval.html" class="horizontal-card">
     <img 
       src="https://store-images.s-microsoft.com/image/apps.12309.c24477af-2aeb-444a-9f51-3442091a108b.7f8441a4-87aa-4f3c-b52a-2f18c329ec78.fe7c80b2-03e4-4f1f-8dc5-c08984c0d3ec.png" 
       alt="IFC Viewer">
@@ -280,8 +278,7 @@ All our products have been designed specifically for Microsoft 365. That means o
     </div>
   </a>
 
-  <!-- Open IFC Viewer Card -->
-  <a href="https://appsource.microsoft.com/de-de/product/office/WA200007412?src=docs&mktcmpid=docs_home" class="horizontal-card">
+  <a href="http://localhost:8080/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html" class="horizontal-card">
     <img 
       src="https://store-images.s-microsoft.com/image/apps.12309.c24477af-2aeb-444a-9f51-3442091a108b.7f8441a4-87aa-4f3c-b52a-2f18c329ec78.fe7c80b2-03e4-4f1f-8dc5-c08984c0d3ec.png" 
       alt="Open IFC Viewer" >
