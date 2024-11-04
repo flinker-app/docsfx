@@ -1,5 +1,5 @@
-- name: Home
-  href: README.md
+- name: Get started
+  href: ../index.md
 
 - name: IFC Viewer
   expanded: true

@@ -4,6 +4,7 @@ description: Official Flinker documentation for Teams and SharePoint apps. Learn
 keywords: Flinker, Teams Apps, SharePoint Apps, IFC Viewer, BIM Viewer, Sharing Permissions, Permissions Management, Documentation
 _disableAffix: true
 _disableBreadcrumb: true
+_disableNextArticle: true
 ---
 
 <style>
