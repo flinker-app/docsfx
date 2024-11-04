@@ -48,8 +48,8 @@ _disableNextArticle: true
   .vertical-card img,
   .horizontal-card img {
     width: 100%;
-    height: 100px; /* Fixed height for images */
-    object-fit: contain;
+    height: 160px; /* Fixed height for images */
+    object-fit: cover;
     border-top-left-radius: 2px; /* Match smaller border radius */
     border-top-right-radius: 2px;
   }
@@ -188,7 +188,7 @@ All our products have been designed specifically for Microsoft 365. That means o
 <div class="horizontal-card-container"> 
   <a href="/docs/share-features.html" class="horizontal-card">
     <img 
-      src="https://store-images.s-microsoft.com/image/apps.8710.f4a5189b-9a64-4251-b3ad-9fe54b90332c.a6ddbdcf-71af-4b0a-9ac8-1fddd491d66d.4a1843fb-411a-42b1-b5f4-d83bdb3b72d1.png" 
+      src="/_media/list-permissions-in-share-app.png" 
       alt="Share">
     <div class="horizontal-card-content">
       <h3 class="card-title">Share</h3>
@@ -197,7 +197,7 @@ All our products have been designed specifically for Microsoft 365. That means o
   </a>
   <a href="/docs/viewer-app-installation-with-admin-approval.html" class="horizontal-card">
     <img 
-      src="https://store-images.s-microsoft.com/image/apps.12309.c24477af-2aeb-444a-9f51-3442091a108b.7f8441a4-87aa-4f3c-b52a-2f18c329ec78.fe7c80b2-03e4-4f1f-8dc5-c08984c0d3ec.png" 
+      src="/_media/sharepoint-document-library-view-ifc-file.png" 
       alt="IFC Viewer">
     <div class="horizontal-card-content">
       <h3 class="card-title">IFC Viewer in SharePoint</h3>
@@ -206,7 +206,7 @@ All our products have been designed specifically for Microsoft 365. That means o
   </a>
   <a href="/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html" class="horizontal-card">
     <img 
-      src="https://store-images.s-microsoft.com/image/apps.12309.c24477af-2aeb-444a-9f51-3442091a108b.7f8441a4-87aa-4f3c-b52a-2f18c329ec78.fe7c80b2-03e4-4f1f-8dc5-c08984c0d3ec.png" 
+      src="/_media/teams-apps-ifc-viewer-ifc-files-from-settings-load-automatically.png" 
       alt="IFC Viewer in Teams">
     <div class="horizontal-card-content">
       <h3 class="card-title">IFC Viewer in Teams</h3>
