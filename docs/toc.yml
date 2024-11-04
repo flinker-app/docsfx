@@ -40,12 +40,9 @@
 - name: SHARE
   expanded: true
   items:
-    - name: Share for SharePoint
-      expanded: true
-      items:
-        - name: Setup for Admins
-          href: installation.md
-        - name: Features
-          href: share-features.md
-        - name: SHARE FAQ
-          href: faq-share-add-on-for-microsoft-sharepoint.md
+    - name: Setup for Admins
+      href: installation.md
+    - name: Features
+      href: share-features.md
+    - name: SHARE FAQ
+      href: faq-share-add-on-for-microsoft-sharepoint.md
