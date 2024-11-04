@@ -1,8 +1,8 @@
 - name: Documentation
   href: docs/
 
-- name: Website
-  href: https://www.flinker.app/
+# - name: Website
+#   href: https://www.flinker.app/
 
-- name: Customer Portal
-  href: https://flinkerapp.sharepoint.com/sites/documentation
+# - name: Customer Portal
+#   href: https://flinkerapp.sharepoint.com/sites/documentation
