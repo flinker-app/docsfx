@@ -236,9 +236,9 @@ Discover the full potential of Microsoft Add-ons with these guides and documenta
   <!-- Card 2 -->
   <div class="vertical-card">
     <div class="vertical-card-content">
-      <h3 class="card-title">Usage</h3>
+      <h3 class="card-title">Features</h3>
       <p class="card-description">Learn how to use the Microsoft 365 Add-ons effectively.</p>
-      <a href="/docs/faq-share-add-on-for-microsoft-sharepoint.html" class="card-link">Share app usage</a>
+      <a href="/docs/share-features.html" class="card-link">Share app features</a>
       <a href="/docs/faq-ifc-viewer.html" class="card-link">IFC Viewer app FAQs</a>
     </div>
   </div>

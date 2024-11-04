@@ -12,3 +12,22 @@ footer {
     width: 24px;
     height: 24px;
 }
+
+article h1  {
+    margin-bottom: 1rem;
+}
+
+article h2  {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+article h3  {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+article h4  {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

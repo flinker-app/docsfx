@@ -10,7 +10,7 @@ The following key features are offered with the SHARE Add-on for SharePoint:
 
 ## SHARE vs. Standard SharePoint
 
-| **Feature**                     | **Gain**                                                                                              | **SHARE Add-on (Enterprise)** | **SHARE Add-on (Free)** | **Standard SharePoint** |
+| Feature                     | Gain                                                                                              | SHARE Add-on (Enterprise) | SHARE Add-on (Free) | Standard SharePoint |
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------|-------------------------|-------------------------|
 | **User permissions**            | Tailor user permissions to specific needs                                                                        | ✔️                            | ✔️                      | ✔️                      |
 | **Folder access**               | Customized access for each folder                                                                                 | ✔️                            | ✔️                      | ✔️                      |
@@ -24,7 +24,7 @@ The following key features are offered with the SHARE Add-on for SharePoint:
 | **Permission templates**        | Create own permission templates in Excel to set up new SharePoint sites or MS Teams fast and secure                         | ✔️                            | ❌                      | ❌                      |
 | **MultiShare**                  | Share multiple files or data at the same time securely with multiple users and send them a notification message.                                                | ✔️                            | ❌                      | ❌                      |
 
-### **Default Sharing Features in Standard SharePoint**
+### Default Sharing Features in Standard SharePoint
 
 Standard SharePoint offers several default sharing features to facilitate collaboration and access management in AEC project management and beyond:
 
@@ -50,7 +50,6 @@ Standard SharePoint offers several default sharing features to facilitate collab
 
 The **SHARE Add-on** enhances these default sharing methods by providing advanced control, detailed reporting, and bulk management features, ensuring a more secure and efficient access management experience.
 
----
 
 Feel free to reach out to us if you need further customization or additional features!
 
