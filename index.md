@@ -33,15 +33,14 @@ _disableNextArticle: true
   .benefit-item {
     flex: 1 1 calc(33.333% - 20px); /* Three cards per row */
     max-width: calc(33.333% - 20px);
-    border: 1px solid #e1e1e1;
+    border: 1px solid #e1e1e16e;
     border-radius: 2px; /* Smaller border radius */
     text-align: left;
     color: inherit;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(100, 100, 100, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
     text-decoration: none; /* Remove underline for links */
   }
 
@@ -76,12 +75,10 @@ _disableNextArticle: true
     flex-grow: 1;
     margin: 0;
     margin-bottom: 4px;
-    color: #666;
   }
 
   /* Links within cards */
   .card-link {
-    color: #0078d4;
     text-decoration: none;
     margin-top: 5px;
     font-size: 0.95em;
