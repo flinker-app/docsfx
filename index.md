@@ -282,7 +282,7 @@ All our products have been designed specifically for Microsoft 365. That means o
       src="https://store-images.s-microsoft.com/image/apps.12309.c24477af-2aeb-444a-9f51-3442091a108b.7f8441a4-87aa-4f3c-b52a-2f18c329ec78.fe7c80b2-03e4-4f1f-8dc5-c08984c0d3ec.png" 
       alt="IFC Viewer">
     <div class="horizontal-card-content">
-      <h3 class="card-title">IFC Viewer</h3>
+      <h3 class="card-title">IFC Viewer in SharePoint</h3>
       <p class="card-description">Seamlessly view IFC files directly in SharePoint.</p>
     </div>
   </a>
@@ -293,7 +293,7 @@ All our products have been designed specifically for Microsoft 365. That means o
       src="https://store-images.s-microsoft.com/image/apps.12309.c24477af-2aeb-444a-9f51-3442091a108b.7f8441a4-87aa-4f3c-b52a-2f18c329ec78.fe7c80b2-03e4-4f1f-8dc5-c08984c0d3ec.png" 
       alt="Open IFC Viewer" >
     <div class="horizontal-card-content">
-      <h3 class="card-title">Open IFC Viewer</h3>
+      <h3 class="card-title">IFC Viewer in Teams</h3>
       <p class="card-description">Seamlessly view IFC files directly in Teams.</p>
     </div>
   </a>

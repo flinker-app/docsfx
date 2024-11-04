@@ -2,17 +2,21 @@
 #### A Microsoft Add-on to turn your Microsoft SharePoint sites into enterprise-level secure virtual data rooms for cross company colllaboration
 
 ### Questions
-- [Where can I download or add the SHARE app to my SharePoint site?](#where-can-i-download-or-add-the-share-app-to-my-sharepoint-site)
-- [I have requested the Share Add-on what happens now?](#i-have-requested-the-share-add-on-what-happens-now)
-- [My IT security department has further questions what shall I do?](#my-it-security-department-has-further-questions-what-shall-i-do)
-- [We have setup the Share Add-on where do I find it?](#we-have-setup-the-share-add-on-where-do-i-find-it)
-- [What features does the SHARE Add-on have?](#what-features-does-the-share-add-on-have)
-- [Which content can be managed with the Microsoft SHARE Add-on?](#which-content-can-be-managed-with-the-microsoft-share-add-on)
-- [Can Microsoft Teams tabs and content be assigned permissions?](#can-microsoft-teams-tabs-and-content-be-assigned-permissions)
-- [Can Microsoft Teams tabs be completely hidden for certain users or user groups?](#can-microsoft-teams-tabs-be-completely-hidden-for-certain-users-or-user-groups)
-- [Can the Microsoft Planner be managed with the SHARE Add-On?](#can-the-microsoft-planner-be-managed-with-the-share-add-on)
-- [Are there alternatives to manage tasks and user groups on a SharePoint page, a Microsoft Teams team, or in so-called Microsoft CDEs/SharePoint project or data rooms with Flinker or the SHARE Add-On?](#are-there-alternatives-to-manage-tasks-and-user-groups-on-a-sharepoint-page-a-microsoft-teams-team-or-in-so-called-microsoft-cdessharepoint-project-or-data-rooms-with-flinker-or-the-share-add-on)
-- [Can the access to websites be managed with the SHARE Add-On?](#can-the-access-to-websites-be-managed-with-the-share-add-on)
+- [FAQ for SHARE](#faq-for-share)
+      - [A Microsoft Add-on to turn your Microsoft SharePoint sites into enterprise-level secure virtual data rooms for cross company colllaboration](#a-microsoft-add-on-to-turn-your-microsoft-sharepoint-sites-into-enterprise-level-secure-virtual-data-rooms-for-cross-company-colllaboration)
+    - [Questions](#questions)
+    - [Answers](#answers)
+      - [Where can I download or add the SHARE app to my SharePoint site?](#where-can-i-download-or-add-the-share-app-to-my-sharepoint-site)
+      - [I have requested the Share Add-on what happens now?](#i-have-requested-the-share-add-on-what-happens-now)
+      - [My IT security department has further questions what shall I do?](#my-it-security-department-has-further-questions-what-shall-i-do)
+      - [We have setup the Share Add-on where do I find it?](#we-have-setup-the-share-add-on-where-do-i-find-it)
+      - [What features does the SHARE Add-on have?](#what-features-does-the-share-add-on-have)
+      - [Which content can be managed with the Microsoft SHARE Add-on?](#which-content-can-be-managed-with-the-microsoft-share-add-on)
+      - [Can Microsoft Teams tabs and content be assigned permissions?](#can-microsoft-teams-tabs-and-content-be-assigned-permissions)
+      - [Can Microsoft Teams tabs be completely hidden for certain users or user groups?](#can-microsoft-teams-tabs-be-completely-hidden-for-certain-users-or-user-groups)
+      - [Can the Microsoft Planner be managed with the SHARE Add-On?](#can-the-microsoft-planner-be-managed-with-the-share-add-on)
+      - [Are there alternatives to manage tasks and user groups on a SharePoint page, a Microsoft Teams team, or in so-called Microsoft CDEs/SharePoint project or data rooms with Flinker or the SHARE Add-On?](#are-there-alternatives-to-manage-tasks-and-user-groups-on-a-sharepoint-page-a-microsoft-teams-team-or-in-so-called-microsoft-cdessharepoint-project-or-data-rooms-with-flinker-or-the-share-add-on)
+      - [Can the access to websites be managed with the SHARE Add-On?](#can-the-access-to-websites-be-managed-with-the-share-add-on)
 
 ### Answers
 
@@ -71,7 +75,6 @@ Yes, there are great alternatives to the Microsoft Planner app. For your task ma
 #### Can the access to websites be managed with the SHARE Add-On?
 
 Yes, with the SHARE Add-On, you can manage access to external websites that you have embedded as tabs in Microsoft Teams or on a SharePoint page.
-
 
 
 

@@ -2,9 +2,13 @@
 #### A secure and privacy first GPT integration for the Microsoft IFC Add-on that will revolutionize your IFC project management.
 
 ### Questions
-- [What can I input in the search field?](#what-can-i-input-in-the-search-field)
-- [What languages are supported for my IFC prompts?](#what-languages-are-supported-for-my-prompts)
-- [Is the Microsoft IFC GPT feature secure?](#is-ifc-gpt-microsoft-secure)
+- [FAQ for IFC GPT](#faq-for-ifc-gpt)
+      - [A secure and privacy first GPT integration for the Microsoft IFC Add-on that will revolutionize your IFC project management.](#a-secure-and-privacy-first-gpt-integration-for-the-microsoft-ifc-add-on-that-will-revolutionize-your-ifc-project-management)
+    - [Questions](#questions)
+    - [Answers](#answers)
+      - [What can I input in the search field?](#what-can-i-input-in-the-search-field)
+      - [What languages are supported for my IFC GPT prompts/questions?](#what-languages-are-supported-for-my-ifc-gpt-promptsquestions)
+      - [Is the Microsoft IFC GPT feature secure?](#is-the-microsoft-ifc-gpt-feature-secure)
 
 ### Answers
 

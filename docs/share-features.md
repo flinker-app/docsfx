@@ -3,32 +3,63 @@
 The following key features are offered with the SHARE Add-on for SharePoint:
 
 * **⚽ Easy integration with SharePoint:** Admins can add the SHARE Microsoft Add-On with just a view clicks from the Microsoft AppSource store as an Add-On app to SharePoint. It can be added to selected SharePoint sites or all sites in the organization.
-* **🔒 Data protection and data security:** The Add-On uses the SharePoint Framework (SPFx) technology and installs directly on your SharePoint server, ensuring all operations are performed on your own server without transferring data to external servers or third parties.
+* **🔒 Data protection and security:** The Add-On uses the SharePoint Framework (SPFx) technology and installs directly on your SharePoint server, ensuring all operations are performed on your own server without transferring data to external servers or third parties.
 * **🎨 Customizable user permissions:** SHARE users can assign any permissions to internal or external Microsoft users or user groups for all data, documents, URLs, Microsoft lists or folders at any level of the SharePoint sites and folder directories.
 * **🕵️‍♂️ Shared folders report:** SHARE users can see what folders are shared on one simple report for the whole SharePoint site to enhance security.
-* **👥 Secure file sharing to multi users:** MultiLinker enables users to efficiently select and directly send multiple file links boosting document sharing.
+* **👥 Secure multi file sharing to multi users:** MultiLinker enables users to efficiently select and directly send multiple file links to multiple users boosting document sharing.
 
-## SHARE vs. SharePoint standard
+## SHARE vs. Standard SharePoint
 
-| Feature                                | Gain                                    | SHARE Add-on (Enterprise) | SHARE Add-on (Free) | Standard SharePoint |
-|----------------------------------------|------------------------------------------------|--------------|-----------------------|---------------------|
-| **User permissions**      | Tailor user permissions to specific needs      | ☑️           | ☑️                    | ☑️                  |
- **Folder access**   | Customized access for each folder  | ☑️           | ☑️                    | ☑️                  |
- **Customize groups**   | Create user groups for same authorization levels   | ☑️           | ☑️                    | ☑️                  |
-  **Customize authorizations**   | Define who can view, edit, or share content with precision  | ☑️           | ☑️                    | ☑️                  |
-| **Access report**   | Manage and oversee access rights for multiple SharePoint sites and teams | ☑️           | ☑️                    | ⬜                  |
-| **Bulk editing**   | Quickly change access settings across folders and teams | ☑️           | ⬜                    | ⬜                  |
-| **Quick editing** | Adjust permissions within SharePoint by clicking| ☑️           | ⬜                    | ⬜                  |
-| **External organizations**   | Grant access and authorizations to external organizations and notify users | ☑️           | ⬜                    | ⬜                  |
-|**Permission templates**               | Create own permission templates to setup new SharePoint sites or MS Teams fast and secure | ☑️           | ⬜                    | ⬜                  |**   | Manage and oversee access rights for multiple SharePoint sites and teams | ☑️           | ⬜                    | ⬜                  |
-| **External websites** | Manage access to embedded external websites    | ☑️           | ⬜                    | ⬜                  |
-| **MultiShare** | Share files securely with multiple users    | ☑️           | ⬜                    | ⬜              
+| **Feature**                     | **Gain**                                                                                              | **SHARE Add-on (Enterprise)** | **SHARE Add-on (Free)** | **Standard SharePoint** |
+|---------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------|-------------------------|-------------------------|
+| **User permissions**            | Tailor user permissions to specific needs                                                                        | ✔️                            | ✔️                      | ✔️                      |
+| **Folder access**               | Customized access for each folder                                                                                 | ✔️                            | ✔️                      | ✔️                      |
+| **Customize groups**            | Create user groups for same authorization levels                                                                  | ✔️                            | ✔️                      | ✔️                      |
+| **Customize authorizations**    | Define who can view, edit, or share content with precision                                                       | ✔️                            | ✔️                      | ✔️                      |
+| **External organizations**    | Grant access and authorizations to external organizations and notify users                                                      | ✔️                            | ✔️                      | ✔️                      |
+| **External websites**    | Manage access to embedded external websites                                                      | ✔️                            | ✔️                      | ✔️                      |
+| **Access report**               | Manage and oversee access rights for SharePoint sites and Teams                                                   | ✔️                            | ✔️                      | ❌                      |
+| **Bulk editing**                | Bulk change access settings across folders                                                                       | ✔️                            | ❌                      | ❌                      |
+| **Quick editing**               | Adjust permissions within SharePoint by clicking for groups, authorization levels, folders, websites, MS Lists, etc.                                                                   | ✔️                            | ❌                      | ❌                      |
+| **Permission templates**        | Create own permission templates in Excel to set up new SharePoint sites or MS Teams fast and secure                         | ✔️                            | ❌                      | ❌                      |
+| **MultiShare**                  | Share multiple files or data at the same time securely with multiple users and send them a notification message.                                                | ✔️                            | ❌                      | ❌                      |
+
+### **Default Sharing Features in Standard SharePoint**
+
+Standard SharePoint offers several default sharing features to facilitate collaboration and access management in AEC project management and beyond:
+
+1. **Share with Specific People:**
+   - **Feature:** Allows you to invite specific individuals by entering their email addresses.
+   - **Permissions:** You can assign view or edit permissions.
+   - **Use Case:** Ideal for sharing sensitive documents with a limited audience.
+
+2. **Share with Anyone with the Link:**
+   - **Feature:** Generates a shareable link that can be used by anyone who has it.
+   - **Permissions:** Options to allow editing or view-only access, and set expiration dates.
+   - **Use Case:** Suitable for sharing non-sensitive information quickly with a broad audience.
+
+3. **Share within Your Organization:**
+   - **Feature:** Enables sharing with anyone within your organization without requiring external email addresses.
+   - **Permissions:** View or edit permissions can be set.
+   - **Use Case:** Perfect for internal collaboration where external access is not needed.
+
+4. **Share with People in Your Organization:**
+   - **Feature:** Similar to sharing within the organization but includes more detailed management and reporting capabilities.
+   - **Permissions:** Comprehensive control over access levels.
+   - **Use Case:** Best for managing internal sharing practices with enhanced oversight.
+
+The **SHARE Add-on** enhances these default sharing methods by providing advanced control, detailed reporting, and bulk management features, ensuring a more secure and efficient access management experience.
+
+---
+
+Feel free to reach out to us if you need further customization or additional features!
+
 
 ## Users and Benefits
 
 The SHARE App is used by a variety of users, depending on company size, typically from project management or IT security and governance teams. It helps customers efficiently manage SharePoint sites, control access permissions, improve collaboration, and ensure data security and compliance.
 
->**💡 Empowered your organization by maintaining long-term flexibility with Microsoft. Turn your Microsoft SharePoint and Teams into a hyper useful Common Data Environment (CDE) everbody is already in and enjoys!**
+>**💡 Empowered your data and organization by maintaining long-term flexibility with Microsoft. Turn your Microsoft SharePoint and Teams into a hyper useful Common Data Environment (CDE) everbody is already in and enjoys!**
 
 #### Project & Workspace Managers
 * **Project Managers**: Streamlined project collaboration and document sharing, ensuring all team members have access to the latest information.

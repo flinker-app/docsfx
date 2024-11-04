@@ -9,5 +9,6 @@ footer {
 }
 
 .navbar-brand #logo{
-    display: none !important;
+    width: 24px;
+    height: 24px;
 }

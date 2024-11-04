@@ -3,6 +3,8 @@
 
 - name: IFC VIEWER in Webbrowser
 
+- name: Features
+  href: ifc-viewer.md
 - name: IFC Viewer FAQ
   href: faq-ifc-viewer.md
 
@@ -11,6 +13,7 @@
 - name: Setup
   href: setting-up-the-ifc-viewer-in-microsoft-teams.md
 - name: Integrations
+  expanded: true
   items:
     - name: IFC GPT
       href: ifc-gpt.md

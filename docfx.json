@@ -25,11 +25,11 @@
       "my-template"
     ],
     "globalMetadata": {
-      "_appLogoPath": "",
-      "_appName": "Home",
+      "_appName": "",
       "_appTitle": "docs",
       "_enableNewTab": true,
-      "_appFaviconPath": "https://cdn.prod.website-files.com/62c5bbce6bd5588d4aeb6a81/62c5bbce6bd5588304eb6c61_flinker%20fav%20icon.png",
+      "_appLogoPath": "/_media/flinker-icon.png",
+      "_appFaviconPath": "/_media/flinker-icon.png",
       "_appFooter": "<div id=\"footer\" style=\" flex-direction: column;display: flex;\"><span style=\"margin-top: 10px;\"><a href=\"https://docs.flinker.app/\" target=\"_blank\">Home</a> | <a href=\"https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/\" target=\"_blank\">Support</a> | <a href=\"https://www.flinker.app/data-protection\" target=\"_blank\">Privacy</a></span><img src=\"/_media/microsoft-partner-logo.jpeg\" alt=\"Microsoft Partner\" style=\"margin-top: 20px; margin-bottom: 20px; max-width: 100px;\" /><span>&copy; 2024 Flinker GmbH. All rights reserved.</span></div>",
       "_enableSearch": true,
       "pdf": true
