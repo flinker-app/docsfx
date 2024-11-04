@@ -73,20 +73,15 @@ _disableBreadcrumb: true
 
 /* Card title */
 .card-title {
-  font-size: 1.2em; /* Smaller font size */
+  font-size: 1em; /* Smaller font size */
   margin-bottom: 8px;
 }
 
 /* Card description */
 .card-description {
-  font-size: 0.95em; /* Smaller font size */
   flex-grow: 1; /* Pushes the content to fill the space */
-}
-
-/* Link inside the card */
-.card-link {
-  margin-top: 10px;
-  transition: color 0.2s;
+  margin: 0;
+  margin-bottom: 4px;
 }
 
 /* Container for the horizontal cards */
@@ -104,7 +99,7 @@ _disableBreadcrumb: true
 .horizontal-card {
   border: 1px solid #e1e1e1;
   border-radius: 2px; /* Smaller border radius */
-  width: 600px; /* Wider width for horizontal layout */
+  width: 340px; /* Wider width for horizontal layout */
   text-decoration: none;
   color: inherit;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -121,16 +116,17 @@ _disableBreadcrumb: true
 
 /* Image styling for horizontal cards */
 .horizontal-card img {
-  width: 100px; /* Small image on the left */
-  height: 100px;
+  width: 40px; /* Small image on the left */
+  height: 40px;
   object-fit: cover;
   border-radius: 2px;
-  margin-right: 20px; /* Space between image and content */
+  margin-right: 10px; /* Space between image and content */
+  margin-left: 10px;
 }
 
 /* Card content for horizontal cards */
 .horizontal-card-content {
-  padding: 15px; /* Padding around content */
+  padding: 10px; /* Padding around content */
   display: flex;
   flex-direction: column;
 }
@@ -258,11 +254,8 @@ Discover the full potential of Microsoft Add-ons with these guides and documenta
   </div>  
 </div>
 
-## Add-Ons
-
-#### For Microsoft 365 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/240px-Microsoft_logo.svg.png" alt="Teams" width="26" height="auto" style="vertical-align:top; margin-left: 10px">
+## Add-Ons For Microsoft 365
 All our products have been designed specifically for Microsoft 365. That means our solutions fit seamlessly with your existing Microsoft infrastructure.
-
 <div class="horizontal-card-container"> 
 
   <!-- Share Card -->
@@ -306,7 +299,7 @@ All our products have been designed specifically for Microsoft 365. That means o
 <div class="benefits-container">
 
 <div class="benefit-item">
-  <span class="benefit-icon">🔗</span>
+  <span class="benefit-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/240px-Microsoft_logo.svg.png" alt="Teams" width="26" height="auto" style=" max-width: unset"></span>
   <span class="benefit-text">Seamless integration with Microsoft 365</span>
 </div>
 
