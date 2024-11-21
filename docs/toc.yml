@@ -44,5 +44,7 @@
       href: share-features.md
     - name: Setup for Admins
       href: installation.md
+    - name: Upgrade to latest version
+      href: upgrade-share-app.md
     - name: FAQ
       href: faq-share-add-on-for-microsoft-sharepoint.md
