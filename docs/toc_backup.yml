@@ -4,26 +4,6 @@
 - name: IFC Viewer
   expanded: true
   items:
-    - name: Integrations
-          expanded: true
-          items:
-            - name: IFC GPT
-              href: ifc-gpt.md
-            - name: Document Linking
-              href: ifc-docslink.md 
-            - name: IFC Microsoft Excel
-              href: ifc-excel.md
-            - name: IFC Microsoft PowerBI
-              href: ifc-powerbi.md
-            - name: IFC Microsoft Power Automate
-              href: ifc-power-automate.md
-            - name: IFC Microsoft Power Apps
-              href: ifc-power-apps.md
-            - name: IFC Microsoft Lists
-              href: ifc-lists.md
-            - name: BCF
-              href: ifc-bcf.md
-                           
     - name: In Webbrowser
       expanded: true
       items:
@@ -37,7 +17,18 @@
       items:
         - name: Setup
           href: setting-up-the-ifc-viewer-in-microsoft-teams.md
-        
+        - name: Integrations
+          expanded: true
+          items:
+            - name: IFC GPT
+              href: ifc-gpt.md
+            - name: IFC GPT FAQ
+              href: ifc-gpt-faq.md
+            - name: BCF
+              href: ifc-bcf.md
+            - name: Document Linking
+              href: ifc-docslink.md
+
     - name: In SharePoint
       expanded: true
       items:
