@@ -17,7 +17,7 @@ We look forward to exploring how an IFC GPT integration can enhance your organiz
 * Combine multiple prompts in your IFC query
 * Clear search by typing "reset all"
 
-## Benfits
+## Benefits
 
 * ✅ **Enhanced Efficiency**: Work faster and more efficient as in IFC browser, saving valuable time
 * ✅ **Improved Decision-Making**: Do not oversee IFC data and gain better insights from your IFC model for more informed and accurate decisions
