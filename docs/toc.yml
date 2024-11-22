@@ -14,7 +14,7 @@
             - name: IFC Microsoft Excel
               href: ifc-excel.md
             - name: IFC Microsoft PowerBI
-              href: ifc-powerbi.md
+              href: ifc-power-bi.md
             - name: IFC Microsoft Power Automate
               href: ifc-power-automate.md
             - name: IFC Microsoft Power Apps
