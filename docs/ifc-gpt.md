@@ -1,5 +1,7 @@
 # IFC GPT
 
+## Introduction
+
 The IFC GPT integration can bring advanced AI capabilities to your BIM workflows, streamlining data analysis and delivering valuable insights from your IFC models. This feature can automate complex tasks and enhance decision-making, making your projects more efficient.
 
 If you'd like to learn more about how this integration can benefit your workflow, our team is ready to discuss the possibilities with you.
@@ -7,6 +9,22 @@ If you'd like to learn more about how this integration can benefit your workflow
 [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 
 We look forward to exploring how an IFC GPT integration can enhance your organization's efficiency.
+
+## Features
+
+* Search and query single or multiple IFC files with natural language
+* Query for prosa words (stings) or other data formats like numbers, IDs etc.
+* Combine multiple prompts in your IFC query
+* Clear search by typing "reset all"
+
+## Benfits
+
+✅ **Enhanced Efficiency**: Work faster and more efficient as in IFC browser, saving valuable time
+✅ **Improved Decision-Making**: Do not oversee IFC data and gain better insights from your IFC model for more informed and accurate decisions
+✅ **Natural Language Queries**: Easily search and query IFC files using natural language, making data retrieval intuitive and accessible for anybody in your team
+✅ **Comprehensive Data Analysis**: Combine multiple prompts to perform complex queries, providing a thorough analysis of your BIM data
+✅ **Privacy and Security**: Ensure your data remains secure with client-side processing and no external file uploads
+✅ **Multilingual Support**: Interact with your IFC files in any major language, accommodating diverse project teams
 
 ## FAQ 
 
