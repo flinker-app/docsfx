@@ -33,7 +33,7 @@ A secure and privacy first GPT integration for the Microsoft IFC Add-on that wil
 
 The IFC Excel integration enhances project management by providing real-time access to critical IFC data, enabling project managers to make informed decisions quickly. It automates data extraction and synchronization. You can extract data easily and connect your IFC data with Excel calculations in real time. These novel IFC possibilites with Excel will reduce manual tasks and ensuring that all team members have access to the most up-to-date information in Excel or PowerBI.
 
-### Can I customize the data queries in Excel?
+### Can I customize data queries in Excel?
 
 Yes, you can customize data queries in Excel to fit your specific project needs once you have setup the IFC synchronization. The IFC GPT integration allows you to use natural language to search and query data from IFC files. The Excel integration will allow you to write phyton scripts or PowerBI reports on your IFC data in real time. This makes it easy to generate tailored reports and insights that are relevant to your project.
 

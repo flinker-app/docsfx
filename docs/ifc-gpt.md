@@ -19,12 +19,12 @@ We look forward to exploring how an IFC GPT integration can enhance your organiz
 
 ## Benfits
 
-✅ **Enhanced Efficiency**: Work faster and more efficient as in IFC browser, saving valuable time
-✅ **Improved Decision-Making**: Do not oversee IFC data and gain better insights from your IFC model for more informed and accurate decisions
-✅ **Natural Language Queries**: Easily search and query IFC files using natural language, making data retrieval intuitive and accessible for anybody in your team
-✅ **Comprehensive Data Analysis**: Combine multiple prompts to perform complex queries, providing a thorough analysis of your BIM data
-✅ **Privacy and Security**: Ensure your data remains secure with client-side processing and no external file uploads
-✅ **Multilingual Support**: Interact with your IFC files in any major language, accommodating diverse project teams
+* ✅ **Enhanced Efficiency**: Work faster and more efficient as in IFC browser, saving valuable time
+* ✅ **Improved Decision-Making**: Do not oversee IFC data and gain better insights from your IFC model for more informed and accurate decisions
+* ✅ **Natural Language Queries**: Easily search and query IFC files using natural language, making data retrieval intuitive and accessible for anybody in your team
+* ✅ **Comprehensive Data Analysis**: Combine multiple prompts to perform complex queries, providing a thorough analysis of your BIM data
+* ✅ **Privacy and Security**: Ensure your data remains secure with client-side processing and no external file uploads
+* ✅ **Multilingual Support**: Interact with your IFC files in any major language, accommodating diverse project teams
 
 ## FAQ 
 
