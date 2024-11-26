@@ -1,7 +1,7 @@
 ---
 title: Flinker Documentation - Teams & SharePoint Apps IFC Viewer & Permissions Management
 description: Official Flinker documentation for Teams and SharePoint apps. Learn how to use the IFC Viewer for BIM files and manage sharing and permissions with our comprehensive guides.
-keywords: Flinker, Teams Apps, SharePoint Apps, IFC Viewer, BIM Viewer, Sharing Permissions, Permissions Management, Documentation
+keywords: Flinker, Teams Apps, SharePoint Apps, IFC, IFC Viewer, BIM Viewer, Sharing Permissions, Permissions Management, Documentation, IFC GPT, IFC Microsoft, AI, PowerBI, Power Automate
 _disableAffix: true
 _disableBreadcrumb: true
 _disableNextArticle: true
