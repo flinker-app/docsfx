@@ -1,3 +1,10 @@
+---
+title: FAQ for IFC Viewer
+description: Frequently asked questions about the IFC Viewer, an open, free, fast, and privacy-first online IFC viewer for project work with 3D/BIM models.
+keywords: IFC Viewer, Microsoft Teams, BIM, 3D models, SharePoint, project collaboration
+canonical_url: https://docs.flinker.app/docs/faq-ifc-viewer.html
+---
+
 # FAQ for IFC Viewer 
 
 An open, free, fast and privacy first online IFC viewer for project work with 3D/BIM models

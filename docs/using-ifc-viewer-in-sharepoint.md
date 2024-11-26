@@ -1,3 +1,10 @@
+---
+title: Using IFC Viewer in SharePoint
+description: Learn how to use the IFC Viewer app in SharePoint to view IFC files and add it as a web part on your site's homepage.
+keywords: IFC Viewer, SharePoint, web part, document library, view IFC files
+canonical_url: https://docs.flinker.app/docs/using-ifc-viewer-in-sharepoint.html
+---
+
 # Using IFC Viewer in SharePoint
 
 Once you have successfully installed the IFC Viewer app in SharePoint, follow these steps to use it for viewing IFC files and integrating it as a web part on your site's homepage.

@@ -2,6 +2,7 @@
 title: IFC Microsoft Power BI Integration
 description: Learn how to integrate IFC data into Microsoft Power BI for real-time project collaboration and data analytics.
 keywords: IFC, Microsoft Power BI, data integration, project collaboration, data analytics
+canonical_url: https://docs.flinker.app/docs/ifc-power-bi.html
 ---
 
 # IFC Microsoft Power BI

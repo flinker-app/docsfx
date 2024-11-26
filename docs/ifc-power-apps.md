@@ -1,3 +1,10 @@
+---
+title: IFC Microsoft Power Apps
+description: Integrate IFC data into customized Microsoft Power Apps for enhanced project collaboration.
+keywords: IFC, Microsoft Power Apps, project collaboration, data integration
+canonical_url: https://docs.flinker.app/docs/ifc-power-apps.html
+---
+
 # IFC Microsoft Power Apps
 
 With this feature, users integrate IFC data into their customized Microsoft Power Apps and make the IFC data available for organization's customm Microsoft Power apps and dashboards. This integration simplifies project collaboration by ensuring that all relevant data can be reviewed in any kind Power Apps.

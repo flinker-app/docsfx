@@ -1,3 +1,10 @@
+---
+title: Setting Up the IFC Viewer in Microsoft Teams
+description: Step-by-step guide to set up the IFC Viewer in Microsoft Teams for enhanced collaboration and data privacy.
+keywords: IFC Viewer, Microsoft Teams, 3D models, collaboration, data privacy
+canonical_url: https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html
+---
+
 > [!TIP]  
 > Why Choose the IFC Viewer for  Teams?
 > - **Integrated Experience**: View and interact with 3D IFC models directly in Teams channels.  

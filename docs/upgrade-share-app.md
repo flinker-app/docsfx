@@ -1,3 +1,10 @@
+---
+title: Upgrade Share App to the Latest Version
+description: Learn how to upgrade your Share App to the latest version to enjoy enhanced features, security improvements, and performance boosts.
+keywords: Share App, upgrade, SharePoint, App Store, App Catalog, latest version
+canonical_url: https://docs.flinker.app/docs/upgrade-share-app.html
+---
+
 # Upgrade Share App to the Latest Version
 
 > [!TIP]

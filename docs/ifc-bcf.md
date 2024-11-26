@@ -1,3 +1,10 @@
+---
+title: BCF Integration
+description: Learn about the BCF (BIM Collaboration Format) integration for seamless issue tracking and communication in SharePoint and Teams.
+keywords: BCF, BIM, Collaboration, SharePoint, Teams, Integration
+canonical_url: https://docs.flinker.app/docs/ifc-bcf.html
+---
+
 # BCF Integration
 
 The BCF (BIM Collaboration Format) integration can bring seamless issue tracking and communication to your SharePoint and Teams environments.

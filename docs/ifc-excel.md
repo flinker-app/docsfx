@@ -1,3 +1,10 @@
+---
+title: IFC Microsoft Excel Integration
+description: Learn how the IFC Excel integration enhances BIM workflows by simplifying data analysis and extracting insights from IFC models in Microsoft Excel.
+keywords: IFC, Excel, BIM, data analysis, integration, synchronization, Microsoft 365, real-time updates
+canonical_url: https://docs.flinker.app/docs/ifc-excel.html
+---
+
 # IFC Microsoft Excel
 
 ## Introduction

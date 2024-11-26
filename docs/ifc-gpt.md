@@ -1,3 +1,10 @@
+---
+title: IFC GPT Integration
+description: Learn how the IFC GPT integration can enhance your BIM workflows with advanced AI capabilities.
+keywords: IFC GPT, BIM, AI, data analysis, natural language queries
+canonical_url: https://docs.flinker.app/docs/ifc-gpt.html
+---
+
 # IFC GPT
 
 ## Introduction

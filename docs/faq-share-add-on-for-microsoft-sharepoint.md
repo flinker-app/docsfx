@@ -1,3 +1,10 @@
+---
+title: FAQ for SHARE Add-on for Microsoft SharePoint
+description: Frequently asked questions about the SHARE Add-on for Microsoft SharePoint, including setup, features, and permissions management.
+keywords: SHARE Add-on, Microsoft SharePoint, virtual data rooms, cross company collaboration, IT security, Microsoft Teams, permissions management
+canonical_url: https://docs.flinker.app/docs/faq-share-add-on-for-microsoft-sharepoint.html
+---
+
 # FAQ for SHARE 
 
 A Microsoft Add-on to turn your Microsoft SharePoint sites into enterprise-level secure virtual data rooms for cross company colllaboration

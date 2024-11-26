@@ -1,3 +1,10 @@
+---
+title: IFC Viewer Integration in Microsoft Teams: Quick Guide
+description: A comprehensive guide on using the IFC Viewer within Microsoft Teams, including managing IFC files and collaborative features.
+keywords: IFC Viewer, Microsoft Teams, Spatial Structures, SharePoint, Model Configuration, Collaboration
+canonical_url: https://docs.flinker.app/docs/teams-ifc-viewer-quick-guide.html
+---
+
 ### IFC Viewer Integration in Microsoft Teams: Quick Guide
 
 #### Overview

@@ -1,3 +1,10 @@
+---
+title: Share App Installation
+description: Step-by-step guide to install and manage the Share App in SharePoint.
+keywords: SharePoint, Teams, Access Control, Installation, Permissions
+canonical_url: https://docs.flinker.app/docs/installation.html
+---
+
 # Share App Installation
 
 > [!TIP]  

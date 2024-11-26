@@ -1,3 +1,10 @@
+---
+title: SHARE Add-on for SharePoint
+description: Overview of key features and benefits of the SHARE Add-on for SharePoint, including user permissions, data protection, and customizable access controls.
+keywords: SHARE Add-on, SharePoint, data protection, user permissions, access control, Microsoft AppSource, SPFx, multi file sharing
+canonical_url: https://docs.flinker.app/docs/share-features.html
+---
+
 # Feature Overview
 
 The following key features are offered with the SHARE Add-on for SharePoint:

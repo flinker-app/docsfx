@@ -1,3 +1,10 @@
+---
+title: Online GPT IFC Viewer
+description: Unlock the full potential of your project management with our open, free, and fast IFC viewer—the perfect solution for professionals seeking a reliable and privacy-first tool.
+keywords: IFC viewer, GPT, project management, 3D models, privacy, SharePoint, Microsoft Teams
+canonical_url: https://docs.flinker.app/docs/ifc-viewer.html
+---
+
 # Online GPT IFC Viewer 
 
 Unlock the full potential of your project management with our open, free, and fast IFC viewer—the perfect solution for professionals seeking a reliable and privacy-first tool. Designed to handle IFC and 3D models seamlessly, our GPT-powered online IFC viewer revolutionizes the way you collaborate and manage construction projects.

@@ -1,3 +1,10 @@
+---
+title: SHARE App Permission Setup
+description: A comprehensive guide for admins to set up SharePoint and Microsoft Teams permissions using the SHARE app.
+keywords: SHARE app, SharePoint, Microsoft Teams, permissions, setup, guide
+canonical_url: https://docs.flinker.app/docs/share-app-setup.html
+---
+
 # User Documentation for the SHARE App permission setup
 
 This guide is intended to help admins to setup SharePoint and Microsoft Teams permissions based on a permissions template which is often a permission matrix in an Excel table, e.g. an Excel table with user groups, folder structure and the prefered access rights for each user group and folders.
