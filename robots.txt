@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /private/
+Disallow: /temp/
+Disallow: /drafts/
+Sitemap: https://docs.flinker.app/sitemap.xml
