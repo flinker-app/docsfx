@@ -1,3 +1,9 @@
+---
+title: Document Linking Integration with IFC
+description: Automatically access related documents and resources stored in SharePoint and Teams directly from the IFC model view.
+keywords: IFC, document linking, SharePoint, Teams, project collaboration
+---
+
 # Document Linking Integration
 
 With this feature, users can automatically access related documents and resources stored in SharePoint and Teams directly from the IFC model view. This integration simplifies project collaboration by ensuring that all relevant files are instantly available alongside your BIM models.

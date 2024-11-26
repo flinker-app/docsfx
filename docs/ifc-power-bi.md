@@ -1,3 +1,9 @@
+---
+title: IFC Microsoft Power BI Integration
+description: Learn how to integrate IFC data into Microsoft Power BI for real-time project collaboration and data analytics.
+keywords: IFC, Microsoft Power BI, data integration, project collaboration, data analytics
+---
+
 # IFC Microsoft Power BI
 
 With this feature, users integrate IFC data into their customized Microsoft Power BI reports and workflows in real time. This integration simplifies project collaboration by ensuring that all relevant data can be reviewed in any kind Power BI reports and data analytics within the organization.
