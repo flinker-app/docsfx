@@ -2,6 +2,7 @@
 title: Document Linking Integration with IFC
 description: Automatically access related documents and resources stored in SharePoint and Teams directly from the IFC model view.
 keywords: IFC, document linking, SharePoint, Teams, project collaboration
+canonical_url: https://docs.flinker.app/docs/ifc-docslink.html
 ---
 
 # Document Linking Integration
