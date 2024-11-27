@@ -25,6 +25,9 @@
       "modern",
       "my-template"
     ],
+    "sitemap": {
+      "baseUrl": "https://docs.flinker.app"
+    },
     "globalMetadata": {
       "_appName": "",
       "_appTitle": "docs",
