@@ -41,36 +41,36 @@ The IFC Microsoft Excel integration leverages advanced AI to enhance your BIM wo
 
 ## How it works
 
-1. Generate an IFC query and generate a linked IFC data Microsoft Excel Online Synchronization 
+1. Generate an IFC query and generate a linked IFC data Microsoft Excel Online synchronization: 
 ![Link your IFC data query to Microsoft Excel Online](/_media/link-your-ifc-data-query-to-microsoft-excel-online.png)
 
-2. Find the SharePoint location of your IFC Excel Online Synchronisation
+2. Find the SharePoint location of your IFC Excel Online synchronisation:
 ![Find your IFC Excel Online Synchronization](/_media/find-your-ifc-excel-online-synchronization.png)
 
-3. Work with your IFC synchronization with the endlos possibilities in Microsoft Excel, e.g. adding data formatting, pivot tables, charts, calucations, PowerBI, etc.
+3. Work with your IFC synchronization with endles possibilities in Microsoft Excel, e.g. adding data formatting, pivot tables, charts, calucations, PowerBI, etc.
 
-E.g. add formattings:
+E.g. **add formatting**s:
 ![Format your IFC Excel Online Synchronization](/_media/format-your-ifc-excel-online-synchronization.png)
 
-E.g. add functions and calucations scripts:
+E.g. **add functions and calucations**:
 ![Insert Excel functions to your IFC Excel Online Synchronization](/_media/insert-excel-functions-to-your-ifc-excel-online-synchronization.png)
 
-E.g. add pivto tables and pivot charts:
+E.g. **add pivot tables and pivot charts**:
 ![Add Pivot Tables and Charts to your IFC Excel Online Synchronization](/_media/add-pivot-tables-and-charts-to-your-ifc-excel-online-synchronization.png)
 
-E.g. add python scripts:
+E.g. **add python scripts**:
 ![Add automated workflows to your IFC Excel Online Synchronization](/_media/add-automated-workflows-to-your-ifc-excel-online-synchronization.png)
 
-E.g. add Microsoft Power Automate workflows:
+E.g. **add Microsoft Power Automate workflows**:
 ![Add Microsoft Power Automate to your IFC Excel Online Synchronization](/_media/add-microsoft-power-automate-to-your-ifc-excel-online-synchronization.png)
 
-E.g. add IFC data to data models:
+E.g. **add IFC data to data models**:
 ![Add your IFC Excel Online Synchronization to your data models](/_media/add-your-ifc-excel-online-synchronization-to-your-data-models.png)
 
-E.g. add to Microsoft Power BI workflows:
+E.g. **add to Microsoft Power BI workflows**:
 ![Integrate your IFC Excel Online Synchronization to your Microsoft Power BI](/_media/integrate-your-ifc-excel-online-synchronization-to-your-microsoft-power-bi.png)
 
-4. Share your IFC Excel online Synchronizations with your team or embed in Microsoft Teams:
+4. **Share your IFC Excel online synchronizations** with colleagues, teams or embed in Microsoft Teams channels:
 ![Share your IFC Excel Online Synchronization](/_media/share-your-ifc-excel-online-synchronization.png)
 
 
@@ -85,10 +85,10 @@ E.g. add to Microsoft Power BI workflows:
 
 ## FAQs 
 
-A secure and privacy first GPT integration for the Microsoft IFC Add-on that will revolutionize your IFC project management and data processing in Microsoft Excel.
+A secure and privacy first IFC Microsoft Excel integration that will revolutionize your IFC project management and IFC data processing in Microsoft Excel and MS 365.
 
 1. **Where are the Excel Online files stored?**  
-    In your own SharePoint.  
+    In your own SharePoint. The default save location is the location of your IFC files in the SharePoint site. The location of the IFC Excel synchronization can be updated of course.
 
 2. **Is a new Excel Online link created for each query?**  
    Yes, a new Excel Online table is created for each query.  
