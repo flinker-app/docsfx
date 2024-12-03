@@ -42,10 +42,37 @@ The IFC Microsoft Excel integration leverages advanced AI to enhance your BIM wo
 ## How it works
 
 1. Generate an IFC query and generate a linked IFC data Microsoft Excel Online Synchronization 
+![Link your IFC data query to Microsoft Excel Online](/_media/link-your-ifc-data-query-to-microsoft-excel-online.png)
 
 2. Find the SharePoint location of your IFC Excel Online Synchronisation
+![Find your IFC Excel Online Synchronization](/_media/find-your-ifc-excel-online-synchronization.png)
 
-3. Work with your IFC synchronization with the endlos possibilities in Excel, e.g. adding data formatting, calucations, PowerBI, etc.
+3. Work with your IFC synchronization with the endlos possibilities in Microsoft Excel, e.g. adding data formatting, pivot tables, charts, calucations, PowerBI, etc.
+
+E.g. add formattings:
+![Format your IFC Excel Online Synchronization](/_media/format-your-ifc-excel-online-synchronization.png)
+
+E.g. add functions and calucations scripts:
+![Insert Excel functions to your IFC Excel Online Synchronization](/_media/insert-excel-functions-to-your-ifc-excel-online-synchronization.png)
+
+E.g. add pivto tables and pivot charts:
+![Add Pivot Tables and Charts to your IFC Excel Online Synchronization](/_media/add-pivot-tables-and-charts-to-your-ifc-excel-online-synchronization.png)
+
+E.g. add python scripts:
+![Add automated workflows to your IFC Excel Online Synchronization](/_media/add-automated-workflows-to-your-ifc-excel-online-synchronization.png)
+
+E.g. add Microsoft Power Automate workflows:
+![Add Microsoft Power Automate to your IFC Excel Online Synchronization](/_media/add-microsoft-power-automate-to-your-ifc-excel-online-synchronization.png)
+
+E.g. add IFC data to data models:
+![Add your IFC Excel Online Synchronization to your data models](/_media/add-your-ifc-excel-online-synchronization-to-your-data-models.png)
+
+E.g. add to Microsoft Power BI workflows:
+![Integrate your IFC Excel Online Synchronization to your Microsoft Power BI](/_media/integrate-your-ifc-excel-online-synchronization-to-your-microsoft-power-bi.png)
+
+4. Share your IFC Excel online Synchronizations with your team or embed in Microsoft Teams:
+![Share your IFC Excel Online Synchronization](/_media/share-your-ifc-excel-online-synchronization.png)
+
 
 ## Use Cases
 
@@ -55,16 +82,6 @@ The IFC Microsoft Excel integration leverages advanced AI to enhance your BIM wo
 4. Leverage Excel add-ins of your choice to send the IFC data from Excel to other tools.  
 5. For quick and temporary calculations, you can also send local extracts as download files (without live linkage to the IFC models).
 
-![Link your IFC data query to Microsoft Excel Online](/_media/link-ifc-data-query-excel-online.png)
-![Find your IFC Excel Online synchronization](/_media/find-ifc-excel-online-synchronization.png)
-![Add Pivot Tables and Charts to your IFC Excel Online Synchronization](/_media/add-pivot-tables-charts-ifc-excel-synchronization.png)
-![Format your IFC Excel Online Synchronization](/_media/format-ifc-excel-online-synchronization.png)
-![Add automated workflows to your IFC Excel Online Synchronization](/_media/add-automated-workflows-ifc-excel-synchronization.png)
-![Add Microsoft Power Automate to your IFC Excel Online Synchronization](/_media/add-power-automate-ifc-excel-synchronization.png)
-![Insert Excel functions to your IFC Excel Online Synchronization](/_media/insert-excel-functions-ifc-excel-synchronization.png)
-![Share your IFC Excel Online Synchronization](/_media/share-ifc-excel-online-synchronization.png)
-![Add your IFC Excel Online Synchronization to your data models](/_media/add-ifc-excel-synchronization-data-models.png)
-![Integrate your IFC Excel Online Synchronization to your Microsoft Power Bi](/_media/integrate-ifc-excel-synchronization-power-bi.png)
 
 ## FAQs 
 
@@ -94,6 +111,7 @@ A secure and privacy first GPT integration for the Microsoft IFC Add-on that wil
     Your files stay with you and your organization! We do not upload your files anywhere. This is one of the big benefits when your company works with our Microsoft Add-Ons: There is no need to download your files and upload it again in external software platforms.
 
     All file processing is client-side. That means all processing takes place in your SharePoint and MS Teams tenant without sending files to external parties. This ensures full privacy and security. For more details, see [Microsoft App Compliance](https://learn.microsoft.com/en-us/microsoft-365-app-certification/teams/flinker-gmbh-open-ifc-viewer?pivots=general)
+
 
 ## Contact
 
