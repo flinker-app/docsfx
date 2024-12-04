@@ -6,6 +6,7 @@ canonical_url: https://docs.flinker.app/docs/ifc-excel.html
 ---
 
 # IFC Microsoft Excel
+![Link your IFC data query to Microsoft Excel Online Docs Hero Picture](/_media/ifc-excel-hero.png)
 
 ## Simplify Your Workflow with IFC Microsoft Excel Integration
 
@@ -47,12 +48,12 @@ The IFC Microsoft Excel integration leverages advanced AI to enhance your BIM wo
 2. Find the SharePoint location of your IFC Excel Online synchronisation:
 ![Find your IFC Excel Online Synchronization](/_media/find-your-ifc-excel-online-synchronization.png)
 
-3. Work with your IFC synchronization with endles possibilities in Microsoft Excel, e.g. adding data formatting, pivot tables, charts, calucations, PowerBI, etc.
+3. Work with your IFC synchronization with endles possibilities in Microsoft Excel, e.g. adding data formatting, pivot tables, charts, calculations, PowerBI, etc.
 
-E.g. **add formatting**s:
+E.g. **add data formattings**:
 ![Format your IFC Excel Online Synchronization](/_media/format-your-ifc-excel-online-synchronization.png)
 
-E.g. **add functions and calucations**:
+E.g. **add functions and calculations**:
 ![Insert Excel functions to your IFC Excel Online Synchronization](/_media/insert-excel-functions-to-your-ifc-excel-online-synchronization.png)
 
 E.g. **add pivot tables and pivot charts**:
