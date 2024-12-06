@@ -73,7 +73,27 @@ Verify that your IFC properties data is now loaded into the Power BI report. You
 
 ---
 
-### 9. Create Visualizations for BIM Analysis
-Use Power BI’s visualization tools to analyze your IFC data. Create interactive charts, graphs, and dashboards to gain insights into your building model’s properties, element performance, and project metrics.
+### 9. Create BIM Data Visualizations in Power BI
+
+After loading your IFC-based fields (e.g., `Attributes.Class`, `Volume_in_m3`, `PropertySets.Materials_and_Finishes.Structural_Material`) into Power BI, create visuals to analyze construction elements and materials:
+
+- **Horizontal Bar Chart (Volume by IFC Class):**  
+  1. Select the **Bar Chart** visual.
+  2. Add `Attributes.Class` to the Axis, and `Volume_in_m3` to Values (summed).
+  3. Compare volumes of IFC classes (IFCBEAM, IFCSLAB, IFCWALLSTANDARDCASE) at a glance.
+
+- **Donut Chart (Material Composition):**  
+  1. Choose the **Donut Chart** visual.
+  2. Place `PropertySets.Materials_and_Finishes.Structural_Material` in the Legend and `Volume_in_m3` in Values.
+  3. View the percentage split of materials (Concrete, Steel, Masonry) instantly.
+
+- **Matrix Table (Hierarchical Quantity Takeoff):**  
+  1. Insert a **Matrix** visual.
+  2. Add `Attributes.Class` to Rows, `PropertySets.Materials_and_Finishes.Structural_Material` beneath it for hierarchy, and `Volume_in_m3` to Values.
+  3. Drill down to detail-level quantities for each element-class and material combination.
+
+These visuals turn raw IFC data into actionable insights, aiding in material planning, cost estimation, and overall BIM-based project decision-making.
+
+
 
 ![In Power BI: Create visuals to analyze IFC file](/_media/in-powerbi-app-create-visuals-to-analyze-ifc-file.png)
