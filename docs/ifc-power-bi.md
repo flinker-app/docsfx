@@ -7,8 +7,6 @@ canonical_url: https://docs.flinker.app/docs/ifc-power-bi.html
 
 # How to Integrate IFC Properties with Excel and Power BI for BIM Analytics
 
-**Keywords:** IFC, BIM, Excel, Power BI, IFC properties, IFCBeam, IFCColumn, IFCSlab, IFCWall, data synchronization, construction analytics
-
 In this step-by-step guide, you will learn how to query IFC categories, sync their properties to Excel, and then bring that data into Power BI to create interactive visualizations.
 
 ## Prerequisites
