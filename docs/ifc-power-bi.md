@@ -17,7 +17,6 @@ In this step-by-step guide, you will learn how to query IFC categories, sync the
 - Power BI account or Power BI Desktop installed.
 - Organizational login credentials to Power BI.
 
----
 
 ## Step-by-Step Process
 
@@ -26,21 +25,18 @@ Start by querying the relevant IFC categories (such as IFCBeam, IFCColumn, IFCSl
 
 ![Query IFC categories (IFCBeam, IFCColumn, IFCSlab, IFCWall) and click Sync to Excel](/_media/query-ifc-categories-ifcbeam-ifccolumn-ifcslab-ifcwall-and-click-sync-to-excel.png)
 
----
 
 ### 2. Click the Link to the Excel File and Open File Location
 Access the Excel file containing the queried IFC properties by clicking the provided link. Open the folder where the Excel file containing your IFC properties was generated or updated.
 
 ![Click link to open Excel file with the queried properties and go to file location](/_media/click-link-to-open-excel-file-with-the-queried-properties-and-go-to-file-location.png)
 
----
 
 ### 3. Select the Excel File and Copy the Direct Link
 In your SharePoint Online, select the Excel file and copy its direct link. This link will be used to connect Power BI to your IFC data source.
 
 ![Select Excel file with properties and copy direct link in details pane](/_media/select-excel-file-with-properties-and-copy-direct-link-in-details-pane.png)
 
----
 
 ### 4. Open Power BI and Start a New Report
 Open your web browser and navigate to the Power BI web app. Sign in with your organizational credentials. From the main Power BI workspace, start by creating a new report.
@@ -50,28 +46,24 @@ Within Power BI, click on **New Report** and select **Excel** as your data sourc
 
 ![In Power BI: Click New Report and select Excel as the data source](/_media/in-powerbi-app-click-new-report-and-select-excel-as-datasource.png)
 
----
 
 ### 6. Paste the Excel Link into Power BI
 When prompted, paste the direct link to the IFC properties Excel file you previously copied. Sign in with your organizational account if required.
 
 ![In Power BI: Paste direct Excel file link and select your organizational account to sign in](/_media/in-powerbi-app-paste-direct-excel-file-link-and-select-orgaccount-to-signin.png)
 
----
 
 ### 7. Choose Your IFC Data
 Select the appropriate table (e.g., IFCProperties) that contains the IFC data you need and click **Create** to load it into Power BI.
 
 ![In Power BI: Choose data (IFCProperties) and click on Create](/_media/in-powerbi-app-choose-data-ifcproperties-and-click-on-create.png)
 
----
 
 ### 8. Confirm Your Data Is Loaded
 Verify that your IFC properties data is now loaded into the Power BI report. You should see all the relevant fields and columns ready for analysis and visualization.
 
 ![In Power BI: IFCProperties data is loaded and visuals can be created](/_media/in-powerbi-app-ifcproperties-data-is-loaded-and-visuals-can-be-created.png)
 
----
 
 ### 9. Create BIM Data Visualizations in Power BI
 
