@@ -16,8 +16,6 @@ Track tasks and issues using a standardized format for improved clarity and orga
 ### Visualize and Organize Your Work  
 Choose the view that fits your workflow best:  
 
-- ![Calendar View](/_media/bcftopics-as-calendarview-in-micrsoftlists.png)  
-  *Plan and monitor deadlines easily with the Calendar View.*  
 
 - ![List Items View](/_media/bcftopics-as-listitems-in-micrsoftlists.png)  
   *Organize and prioritize tasks efficiently with the List Items View.*  
@@ -25,6 +23,8 @@ Choose the view that fits your workflow best:
 - ![Kanban Board View](/_media/bcftopics-as-canbanboard-in-micrsoftlists.png)  
   *Visualize progress and manage tasks seamlessly with the Kanban Board View.*  
 
+- ![Calendar View](/_media/bcftopics-as-calendarview-in-micrsoftlists.png)  
+  *Plan and monitor deadlines easily with the Calendar View.*  
 ### Improve Workflow Efficiency  
 By integrating BCF topics into Microsoft Lists, you eliminate manual processes, reduce errors, and ensure all issues are tracked effectively. Your teams can collaborate in real time, improving productivity and project outcomes.  
 
@@ -32,6 +32,6 @@ By integrating BCF topics into Microsoft Lists, you eliminate manual processes, 
 
 Discover how BCF integration with Microsoft Lists can transform your project workflows and collaboration. Schedule a meeting with our support team to see it in action.  
 
-**[Book a Meeting Now]((https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)**  
+**[Book a Meeting Now](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)**  
 
 We look forward to helping you simplify issue management and drive project success!  
