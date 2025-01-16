@@ -79,3 +79,9 @@ To sync with Microsoft Lists:
 
 This seamless synchronization bridges the gap between BIM collaboration and Microsoft's productivity tools, fostering an integrated project management environment.
 
+## FAQs 
+
+A secure and privacy first IFC viewer with a BCF integration that will revolutionize your IFC and BCF project management in Microsoft 365.
+
+1. **What happens when new issues are imported into the MS Viewer alongside existing issues?**  
+    BCFs with the same ID are updated, while BCFs with new IDs, i.e., new issues, are added as new issues.

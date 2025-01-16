@@ -34,4 +34,14 @@ Discover how BCF integration with Microsoft Lists can transform your project wor
 
 **[Book a Meeting Now](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)**  
 
-We look forward to helping you simplify issue management and drive project success!  
+We look forward to helping you simplify issue management and drive project success!
+
+## FAQs 
+
+A secure and privacy first IFC viewer with a deep Microsoft List integration that will revolutionize your IFC project management and IFC data processing in Microsoft 365.
+
+1. **Can Autodesk Navisworks export xml conflict lists be automatically integrated into with Micosoft Lists?**  
+    Yes, absolutely. The XML is converted into a complete BCF file, which is then pushed into Microsoft Lists.
+
+2. **Are all the details from the Navisworks XML transferred to Microsoft Lists, including photos?**  
+    Yes, including the photos. The photos can also be viewed directly in the Microsoft Lists ticket.
