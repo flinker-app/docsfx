@@ -7,9 +7,14 @@ canonical_url: https://docs.flinker.app/docs/ifc-power-bi.html
 
 # How to Integrate IFC Properties with Excel and Power BI for BIM Analytics
 
+![In Power BI: Create visuals to analyze IFC file](/_media/in-powerbi-app-create-visuals-to-analyze-ifc-files-banner.png)
+
+
+## Introduction
+
 In this step-by-step guide, you will learn how to query IFC categories, sync their properties to Excel, and then bring that data into Power BI to create interactive visualizations.
 
-## Prerequisites
+### Prerequisites
 - IFC file with properties already generated.
 - Access to an online Excel file location (e.g., OneDrive or SharePoint).
 - Power BI account or Power BI Desktop installed.

@@ -19,6 +19,8 @@
           href: ifc-power-apps.md
         - name: BCF
           href: ifc-bcf.md
+        - name: Navisworks
+          href: bcf-navisworks.md
         - name: IFC Microsoft Lists
           href: ifc-lists.md
         - name: Document Linking
