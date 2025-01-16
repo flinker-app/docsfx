@@ -23,6 +23,8 @@
           href: ifc-lists.md
         - name: Document Linking
           href: ifc-docslink.md
+        - name: COBie
+          href: ifc-cobie.md  
                            
     - name: In Webbrowser
       expanded: true
