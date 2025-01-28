@@ -18,7 +18,7 @@ canonical_url: https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-micros
 
 Follow these steps to set up the IFC Viewer in your Microsoft Teams environment.
 
-# Setup
+## Setup
 
 It just takes 2 minutes.
 
