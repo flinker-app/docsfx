@@ -81,14 +81,37 @@ That's it! You've successfully set up the IFC Viewer in your Microsoft Teams env
 
 ## FAQ
 
-1. **Which permissions need to be granted with the setup?**
+1. **What is the IFC Viewer and how does it benefit my team?**
+
+    The IFC Viewer is a tool integrated into Microsoft Teams that allows you to view and interact with IFC and BCF files directly within your Teams environment. It enables collaboration by enabling team members to access and review 3D models without leaving Teams, enhancing productivity and communication.
+
+2. **How easy is it to set up the IFC Viewer in Microsoft Teams?**
+
+    Setting up the IFC Viewer is straightforward. Simply add the IFC Viewer tab to your Teams channel, configure the settings to point to your IFC files stored in SharePoint or locally, and you're ready to go. The viewer will automatically load the files whenever the tab is opened.
+
+3. **Which permissions need to be granted with the setup?**
 
     You need to grant read permissions for the IFC Viewer to access your SharePoint and Teams IFC files. If you can't grant these permissions, you can still load local files from your desktop. In this case, only you will see the IFC models. Other team members can also load local IFC models without granting permissions. To set up a global or master model in a Teams tab, permissions are required to load SharePoint IFC files from your Microsoft 365 tenant.
 
-2. **Why do you need to grant permissions?**
+4. **Why do you need to grant permissions?**
 
     The IFC Viewer needs permission to read IFC and BCF files stored in your company's SharePoint. This allows the viewer to load your data directly. No external data processing or uploads occur; everything stays within your Microsoft 365 tenant.
 
-3. **Does the IFC Viewer Microsoft Add-on or any service upload or process data externally out of my own Microsoft 365 tenant?**
+5. **Does the IFC Viewer Microsoft Add-on or any service upload or process data externally out of my own Microsoft 365 tenant?**
 
     No. Your data stays within your Microsoft 365 tenant and SharePoint, serving as the app's backend. There is no external data processing or uploads, ensuring maximum data security for your company.
+
+6. **Is my data secure when using the IFC Viewer?**
+
+    Yes, your data remains secure within your Microsoft 365 tenant. The IFC Viewer does not upload or process data externally. All data stays within your company's SharePoint and Microsoft 365 environment, ensuring maximum data security and compliance with your organization's policies.
+
+
+## Contact
+
+If you'd like to learn more about how this integration can benefit your workflow, our team is ready to discuss the possibilities with you.
+
+[**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
+
+We look forward to exploring how an IFC Microsoft Viewer and it's integrations can enhance your organization's efficiency.
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
