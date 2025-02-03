@@ -1,94 +1,122 @@
 ---
-title: IFC Microsoft Power BI Integration
-description: Learn how to integrate IFC data into Microsoft Power BI for real-time project collaboration and data analytics.
-keywords: IFC, BIM, Excel, Power BI, IFC properties, IFCBeam, IFCColumn, IFCSlab, IFCWall, building information modeling, data synchronization, construction analytics
+title: IFC Viewer for Microsoft Power BI
+description: Discover how the IFC Viewer for Microsoft Power BI streamlines BIM workflows by automating data extraction, synchronization, and analysis of IFC models in Power BI.
+keywords: IFC, Power BI, BIM, data extraction, data synchronization, Microsoft 365, real-time data, project management, SharePoint, Microsoft Teams
 canonical_url: https://docs.flinker.app/docs/ifc-power-bi.html
 ---
 
-# How to Integrate IFC Properties with Excel and Power BI for BIM Analytics
+<!-- # IFC Microsoft Power BI
+![Link your IFC data query to Microsoft Excel Online Docs Hero Picture](/_media/ifc-excel-hero.png) -->
 
-![In Power BI: Create visuals to analyze IFC file](/_media/in-powerbi-app-create-visuals-to-analyze-ifc-files-banner.png)
+# IFC Viewer for Microsoft Power BI
 
+## Overview
+The **IFC Viewer** is a powerful and intuitive app designed for **Microsoft Power BI**, available on **Microsoft AppSource**. This tool enables users to seamlessly visualize and analyze **Industry Foundation Classes (IFC) models** within Power BI, making it an essential asset for professionals in **construction, architecture, engineering, building maintenance, and property management** who need to interact with BIM data effectively.
 
-## Introduction
+## Key Features
 
-In this step-by-step guide, you will learn how to query IFC categories, sync their properties to Excel, and then bring that data into Power BI to create interactive visualizations.
+### 🔍 **Instant Data Visualization**
+- Select any **IFC element** within the 3D model to **instantly view** its properties and metadata in Power BI.
+- The IFC Viewer for Microsoft Power Bi dynamically links **IFC attributes** to Power BI dashboards for real-time analysis.
 
-### Prerequisites
-- IFC file with properties already generated.
-- Access to an online Excel file location (e.g., OneDrive or SharePoint).
-- Power BI account or Power BI Desktop installed.
-- Organizational login credentials to Power BI.
+![Select any element](/_media/select-any-element-of-ifc-model-to-view-its-data-on-the-spot.png)
 
-
-## Step-by-Step Process
-
-### 1. Query IFC Categories
-Start by querying the relevant IFC categories (such as IFCBeam, IFCColumn, IFCSlab, IFCWall) from your BIM environment. Make sure you have exported these categories to Excel or can sync them directly.
-
-![Query IFC categories (IFCBeam, IFCColumn, IFCSlab, IFCWall) and click Sync to Excel](/_media/query-ifc-categories-ifcbeam-ifccolumn-ifcslab-ifcwall-and-click-sync-to-excel.png)
+<video width="640" height="360" controls>
+  <source src="/_media/select-any-elements-in-ifc-model-to-show-its-data-in-power-bi.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
-### 2. Click the Link to the Excel File and Open File Location
-Access the Excel file containing the queried IFC properties by clicking the provided link. Open the folder where the Excel file containing your IFC properties was generated or updated.
+### 🎯 **Custom Filtering & Selection**
+- **Apply custom filters** to isolate specific **IFC types** (e.g., walls, beams, doors, railings, etc.).
+- Click on **filtered IFC components** to highlight corresponding elements in the 3D viewer.
+- Intuitive heatmaps and treemaps categorize elements based on type and attributes.
 
-![Click link to open Excel file with the queried properties and go to file location](/_media/click-link-to-open-excel-file-with-the-queried-properties-and-go-to-file-location.png)
+![Custom Filters](/_media/create-and-select-any-filters-of-choice-view-in-ifc-power-bi-viewer-microsoft-app.png)
 
+![Click on filters](/_media/click-on-your-costum-filters-to-view-the-items-in-ifc-viewer-instantly.png)
 
-### 3. Select the Excel File and Copy the Direct Link
-In your SharePoint Online, select the Excel file and copy its direct link. This link will be used to connect Power BI to your IFC data source.
+### 🔄 **Seamless Integration with Power BI & Microsoft 365**
+- Easily sync and **export IFC data** to **SharePoint, Microsoft Teams, and Excel**.
+- Support for **IFC2X3 & IFC4** file formats, ensuring broad compatibility with BIM software.
+- Interactive **hover-over analytics** that display key attributes instantly.
 
-![Select Excel file with properties and copy direct link in details pane](/_media/select-excel-file-with-properties-and-copy-direct-link-in-details-pane.png)
+![Hover over filters](/_media/hover-over-custom-filters-and-select-any-ifc-elements-such-as-ifc-types.png)
 
+<video width="640" height="360" controls>
+  <source src="/_media/select-any-filters-in-ifc-power-bi-microsoft-app.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-### 4. Open Power BI and Start a New Report
-Open your web browser and navigate to the Power BI web app. Sign in with your organizational credentials. From the main Power BI workspace, start by creating a new report.
+### 📊 **Advanced Data Interaction**
+- Analyze IFC **element quantities** directly in Power BI.
+- View **hierarchical model structures** with a structured **model tree**.
+- Enhance project management and decision-making through **data-driven insights**.
 
-### 5. Click "New Report" and Choose Excel as the Data Source
-Within Power BI, click on **New Report** and select **Excel** as your data source to begin connecting your IFC properties from the Excel file.
-
-![In Power BI: Click New Report and select Excel as the data source](/_media/in-powerbi-app-click-new-report-and-select-excel-as-datasource.png)
-
-
-### 6. Paste the Excel Link into Power BI
-When prompted, paste the direct link to the IFC properties Excel file you previously copied. Sign in with your organizational account if required.
-
-![In Power BI: Paste direct Excel file link and select your organizational account to sign in](/_media/in-powerbi-app-paste-direct-excel-file-link-and-select-orgaccount-to-signin.png)
-
-
-### 7. Choose Your IFC Data
-Select the appropriate table (e.g., IFCProperties) that contains the IFC data you need and click **Create** to load it into Power BI.
-
-![In Power BI: Choose data (IFCProperties) and click on Create](/_media/in-powerbi-app-choose-data-ifcproperties-and-click-on-create.png)
+### 📈 **Comprehensive Reporting**
+- **Create detailed reports** for **Microsoft Teams**, **SharePoint**, and **email subscriptions**.
+- **Push and work with data** seamlessly across other **Microsoft apps**, enhancing collaboration and productivity.
 
 
-### 8. Confirm Your Data Is Loaded
-Verify that your IFC properties data is now loaded into the Power BI report. You should see all the relevant fields and columns ready for analysis and visualization.
+## Use Cases
+- **Building Lifecycle Management** – Track and analyze construction progress using IFC data.
+- **Facility Management** – Improve maintenance planning by integrating BIM data into Power BI dashboards.
+- **Cost Estimation & Quantity Takeoffs** – Extract and analyze component quantities directly from IFC models.
+- **Regulatory Compliance** – Ensure that buildings meet legal and environmental standards through data-driven analysis.
+- **Collaboration Across Teams** – Share real-time insights with stakeholders using Power BI’s interactive features.
 
-![In Power BI: IFCProperties data is loaded and visuals can be created](/_media/in-powerbi-app-ifcproperties-data-is-loaded-and-visuals-can-be-created.png)
+## Who is it for?
+The **IFC Viewer** is ideal for:
+- **BIM Managers & Coordinators** managing large-scale IFC models.
+- **Construction and Facility Managers** who need real-time data on building components.
+- **Architects & Engineers** requiring detailed IFC model breakdowns.
+- **Power BI Analysts** integrating BIM data into dashboards.
+
+## How It Works
+1. **Select** any IFC files in your SharePoint tenant.
+2. **Select** any element in the 3D viewer to view its associated data.
+3. **Filter** components based on IFC types, attributes, or properties.
+4. **Analyze & interact** with the model data using Power BI’s visualization tools.
+5. **Export & share insights** via Microsoft Teams, SharePoint, or Excel.
+
+![Power BI Integration](/_media/ifc-viewer-app-microsoft-power-bi-in-microsoft-appsource-store.png)
+
+## Why Choose IFC Viewer?
+✅ **Enhanced Power BI BIM visualization**  
+✅ **Seamless integration with Microsoft 365**  
+✅ **Interactive & customizable data insights**  
+✅ **No additional software required – runs within Power BI**  
+✅ **Optimized for performance on large-scale models**  
+
+## FAQs
+
+### 1. What file formats does the IFC Viewer support?
+The IFC Viewer supports **IFC2X3** and **IFC4** formats, ensuring compatibility with most BIM applications.
+
+### 2. Can I use this app with SharePoint or Microsoft Teams?
+Yes! The app allows you to **export and sync IFC data** with SharePoint, Teams, and Excel for seamless collaboration.
+
+### 3. How does filtering work in the IFC Viewer?
+You can apply **custom filters** to isolate IFC elements based on type, attributes, or categories. Clicking on a filtered element will highlight the corresponding component in the 3D model.
+
+### 4. Do I need additional software to use IFC Viewer in Power BI?
+No, the IFC Viewer runs **entirely within Power BI** and does not require additional software installations.
+
+### 5. How does the app handle large-scale IFC models?
+The IFC Viewer is **optimized for performance**, ensuring smooth interaction and visualization, even with **complex, large-scale models**.
+
+## Get Started Today!
+<!-- 📌 Available now on **[Microsoft AppSource](https://appsource.microsoft.com/)**.
+
+🚀 **Transform your BIM data into actionable insights with IFC Viewer for Power BI!** 
 
 
-### 9. Create BIM Data Visualizations in Power BI
+## Contact -->
 
-After loading your IFC-based fields (e.g., `Attributes.Class`, `Volume_in_m3`, `PropertySets.Materials_and_Finishes.Structural_Material`) into Power BI, create visuals to analyze construction elements and materials:
+If you'd like to learn more about how this integration can benefit your workflow, our team is ready to discuss the possibilities with you.
 
-- **Horizontal Bar Chart (Volume by IFC Class):**  
-  1. Select the **Bar Chart** visual.
-  2. Add `Attributes.Class` to the Axis, and `Volume_in_m3` to Values (summed).
-  3. Compare volumes of IFC classes (IFCBEAM, IFCSLAB, IFCWALLSTANDARDCASE) at a glance.
+[**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 
-- **Donut Chart (Material Composition):**  
-  1. Choose the **Donut Chart** visual.
-  2. Place `PropertySets.Materials_and_Finishes.Structural_Material` in the Legend and `Volume_in_m3` in Values.
-  3. View the percentage split of materials (Concrete, Steel, Masonry) instantly.
+We look forward to exploring how an IFC Microsoft Excel integration can enhance your organization's efficiency.
 
-- **Matrix Table (Hierarchical Quantity Takeoff):**  
-  1. Insert a **Matrix** visual.
-  2. Add `Attributes.Class` to Rows, `PropertySets.Materials_and_Finishes.Structural_Material` beneath it for hierarchy, and `Volume_in_m3` to Values.
-  3. Drill down to detail-level quantities for each element-class and material combination.
-
-These visuals turn raw IFC data into actionable insights, aiding in material planning, cost estimation, and overall BIM-based project decision-making.
-
-
-
-![In Power BI: Create visuals to analyze IFC file](/_media/in-powerbi-app-create-visuals-to-analyze-ifc-file.png)
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
