@@ -1,50 +1,59 @@
+- name: Docs
 - name: Get started
   href: ../index.md
 
-- name: Online IFC Viewer
-- name: Features
-  href: ifc-viewer.md
-- name: FAQ
-  href: faq-ifc-viewer.md
-- name: IFC GPT
-  href: ifc-gpt.md
-- name: BCF
-  href: ifc-bcf.md
-- name: COBie
-  href: ifc-cobie.md
-- name: Navisworks
-  href: bcf-navisworks.md
+- name: IFC & BCF 
+- name: Base Features
+  expanded: true
+  items:
+    - name: Features
+      href: ifc-viewer.md
+    - name: FAQ
+      href: faq-ifc-viewer.md
+    - name: BCF
+      href: ifc-bcf.md
+- name: Advanced Features
+  expanded: true
+  items:
+    - name: IFC GPT
+      href: ifc-gpt.md
+    - name: COBie
+      href: ifc-cobie.md
+    - name: Navisworks
+      href: bcf-navisworks.md
 
-- name: Microsoft Apps for IFC 🔌
-- name: Microsoft Teams
+- name: Microsoft Apps 🔌
   expanded: true
   items:
-    - name: Setup
-      href: setting-up-the-ifc-viewer-in-microsoft-teams.md
-    - name: Link Documents
-      href: ifc-docslink.md
-    - name: Save BCF to Microsoft Lists
-      href: ifc-lists.md
-    - name: Save IFC to Microsoft Power BI
-      href: ifc-excel-power-bi.md
-    - name: Save IFC to Microsoft Excel Online
-      href: ifc-excel.md
-- name: Microsoft SharePoint
-  expanded: true
-  items:
-    - name: Setup for Admins
-      href: viewer-app-installation-with-admin-approval.md
-    - name: Usage
-      href: using-ifc-viewer-in-sharepoint.md
-- name: Microsoft Power BI
-  expanded: true
-  items:
-    - name: IFC Viewer for Microsoft Power BI
-      href: ifc-power-bi.md
-- name: IFC Microsoft Power Automate
-  href: ifc-power-automate.md
-- name: IFC Microsoft Power Apps
-  href: ifc-power-apps.md
+    - name: Microsoft Teams
+      expanded: true
+      items:
+        - name: Setup
+          href: setting-up-the-ifc-viewer-in-microsoft-teams.md
+        - name: Link Documents
+          href: ifc-docslink.md
+        - name: Save BCF to Microsoft Lists
+          href: ifc-lists.md
+        - name: Save IFC to Microsoft Power BI
+          href: ifc-excel-power-bi.md
+        - name: Save IFC to Microsoft Excel Online
+          href: ifc-excel.md
+    - name: Microsoft SharePoint
+      expanded: true
+      items:
+        - name: Setup for Admins
+          href: viewer-app-installation-with-admin-approval.md
+        - name: Usage
+          href: using-ifc-viewer-in-sharepoint.md
+    - name: Microsoft Power BI
+      expanded: true
+      items:
+        - name: 3D Viewer for Microsoft Power BI
+          href: ifc-power-bi.md
+    - name: Microsoft Power Automate
+      href: ifc-power-automate.md
+    - name: Microsoft Power Apps
+      href: ifc-power-apps.md
 
 - name: Share
 - name: Features
