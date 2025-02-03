@@ -9,22 +9,24 @@
       items:
         - name: IFC GPT
           href: ifc-gpt.md
+        - name: SharePoint Documents Link
+          href: ifc-docslink.md
+        - name: BCF
+          href: ifc-bcf.md
+        - name: IFC Microsoft Lists
+          href: ifc-lists.md
+        - name: Navisworks
+          href: bcf-navisworks.md
         - name: IFC Microsoft Excel
           href: ifc-excel.md
+        - name: Link Queries to Power BI
+          href: ifc-excel-power-bi.md
         - name: IFC Microsoft PowerBI
           href: ifc-power-bi.md
         - name: IFC Microsoft Power Automate
           href: ifc-power-automate.md
         - name: IFC Microsoft Power Apps
           href: ifc-power-apps.md
-        - name: BCF
-          href: ifc-bcf.md
-        - name: Navisworks
-          href: bcf-navisworks.md
-        - name: IFC Microsoft Lists
-          href: ifc-lists.md
-        - name: Document Linking
-          href: ifc-docslink.md
         - name: COBie
           href: ifc-cobie.md  
                            
