@@ -43,7 +43,7 @@ Do you use IFC files in your SharePoint? With the IFC Viewer for SharePoint and 
 
 ## Can Microsoft Teams tabs and content be assigned permissions?
 
-With the SHARE Add-on, you can currently manage content in Microsoft Teams for any definable user groups. That means you can, for example, block content displayed in Microsoft Teams tabs for specific users or user groups, so that they do not see any content or data in the tabs. This is possible with all data, content, URLs, or applications that you store or manage in Microsoft 365 or SharePoint. If you want to display an application from an external provider in a Microsoft Teams tab and block it for certain user groups, please contact us at [support@flinker.app](mailto:support@flinker.app). We will gladly examine your case and inform you about the feasibility of your request based on the current development status of the Microsoft Add-Ons.
+With the SHARE Add-on, you can currently manage content in Microsoft Teams for any definable user groups. That means you can, for example, block content displayed in Microsoft Teams tabs for specific users or user groups, so that they do not see any content or data in the tabs. This is possible with all data, content, URLs, or applications that you store or manage in Microsoft 365 or SharePoint. If you want to display an application from an external provider in a Microsoft Teams tab and block it for certain user groups, please contact us at [support@flinker.app](mailto:support@flinker.app). We will gladly examine your case and inform you about the feasibility of your request based on the current development status of the Microsoft Apps.
 
 
 ## Can Microsoft Teams tabs be completely hidden for certain users or user groups?

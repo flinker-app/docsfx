@@ -154,7 +154,7 @@ _disableNextArticle: true
 
 # Documentation and Support
 
-Microsoft 365 Add-ons for secure project management between teams and companies. Discover the full potential of Microsoft Add-ons with these guides and documentation. Enhance your team collaboration and security across Microsoft SharePoint and Teams.
+Microsoft 365 Apps for secure project management between teams and companies. Discover the full potential of Microsoft Apps with these guides and documentation. Enhance your team collaboration and security across Microsoft SharePoint and Teams.
 
 <!-- Vertical Cards -->
 <div class="vertical-card-container">
@@ -182,7 +182,7 @@ Microsoft 365 Add-ons for secure project management between teams and companies.
   </div>  
 </div>
 
-## Add-Ons for Microsoft 365
+## Apps for Microsoft 365
 All our products have been designed specifically for Microsoft 365. That means our solutions fit seamlessly with your existing Microsoft infrastructure.
 
 <!-- Horizontal Cards -->

@@ -11,7 +11,7 @@ An open, free, fast and privacy first online IFC viewer for project work with 3D
 
 ## Can the IFC Viewer also be added as a tab in Microsoft Teams?
 
-Absolutely! We have developed the Microsoft Teams Add-On **"Open IFC Viewer"** so you can add the IFC Viewer as a tab in Microsoft Teams with just one click. However, adding Add-Ons or apps in Microsoft Teams must be allowed by your organization. A quick guide on how to add the IFC Viewer as a new tab can be found here. If your company does not yet allow adding apps from the Microsoft Teams App Store, please contact your IT administrators.
+Absolutely! We have developed the Microsoft Teams Add-On **"Open IFC Viewer"** so you can add the IFC Viewer as a tab in Microsoft Teams with just one click. However, adding Apps or apps in Microsoft Teams must be allowed by your organization. A quick guide on how to add the IFC Viewer as a new tab can be found here. If your company does not yet allow adding apps from the Microsoft Teams App Store, please contact your IT administrators.
 
 
 ## How can I embed the IFC Viewer in Microsoft Teams if my organization does not allow adding apps from the App Store?

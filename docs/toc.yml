@@ -3,7 +3,7 @@
   href: ../index.md
 
 - name: IFC & BCF 
-- name: Base Features
+- name: Base IFC Viewer
   expanded: true
   items:
     - name: Features
@@ -12,7 +12,7 @@
       href: faq-ifc-viewer.md
     - name: BCF
       href: ifc-bcf.md
-- name: Advanced Features
+- name: Advanced IFC
   expanded: true
   items:
     - name: IFC GPT
@@ -25,7 +25,7 @@
 - name: Microsoft Apps 🔌
   expanded: true
   items:
-    - name: Microsoft Teams
+    - name: Teams IFC Viewer
       expanded: true
       items:
         - name: Setup
@@ -38,21 +38,21 @@
           href: ifc-excel-power-bi.md
         - name: Save IFC to Microsoft Excel Online
           href: ifc-excel.md
-    - name: Microsoft SharePoint
+    - name: SharePoint IFC Viewer
       expanded: true
       items:
         - name: Setup for Admins
           href: viewer-app-installation-with-admin-approval.md
         - name: Usage
           href: using-ifc-viewer-in-sharepoint.md
-    - name: Microsoft Power BI
+    - name: Power BI IFC Viewer
       expanded: true
       items:
         - name: 3D Viewer for Microsoft Power BI
           href: ifc-power-bi.md
-    - name: Microsoft Power Automate
+    - name: Power Automate
       href: ifc-power-automate.md
-    - name: Microsoft Power Apps
+    - name: Power Apps
       href: ifc-power-apps.md
 
 - name: Share
