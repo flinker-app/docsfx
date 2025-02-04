@@ -21,11 +21,11 @@ The **IFC Viewer** is a powerful and intuitive app designed for **Microsoft Powe
 
 ![Select any element](/_media/select-any-element-of-ifc-model-to-view-its-data-on-the-spot.png)
 
-<video width="640" height="360" controls>
+#### Watch here how you could use the IFC Power BI app and start building your interactive live dashboards:
+<video width="800" height="450" controls>
   <source src="/_media/select-any-elements-in-ifc-model-to-show-its-data-in-power-bi.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
 
 ### 🎯 **Custom Filtering & Selection**
 - **Apply custom filters** to isolate specific **IFC types** (e.g., walls, beams, doors, railings, etc.).
@@ -43,7 +43,8 @@ The **IFC Viewer** is a powerful and intuitive app designed for **Microsoft Powe
 
 ![Hover over filters](/_media/hover-over-custom-filters-and-select-any-ifc-elements-such-as-ifc-types.png)
 
-<video width="640" height="360" controls>
+#### Watch here how you could use the IFC Power BI app and start building your interactive live dashboards:
+<video width="800" height="450" controls>
   <source src="/_media/select-any-filters-in-ifc-power-bi-microsoft-app.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -54,7 +55,8 @@ The **IFC Viewer** is a powerful and intuitive app designed for **Microsoft Powe
 - Enhance project management and decision-making through **data-driven insights**.
 
 ### 📈 **Comprehensive Reporting**
-- **Create detailed reports** for **Microsoft Teams**, **SharePoint**, and **email subscriptions**.
+- **Create detailed reports** in Power BI for **Microsoft Teams**, **SharePoint** sites, or set **email report subscriptions**.
+- **Embed** your Power BI reports anywhere in your organization for various audiences.
 - **Push and work with data** seamlessly across other **Microsoft apps**, enhancing collaboration and productivity.
 
 
@@ -66,14 +68,15 @@ The **IFC Viewer** is a powerful and intuitive app designed for **Microsoft Powe
 - **Collaboration Across Teams** – Share real-time insights with stakeholders using Power BI’s interactive features.
 
 ## Who is it for?
-The **IFC Viewer** is ideal for:
-- **BIM Managers & Coordinators** managing large-scale IFC models.
-- **Construction and Facility Managers** who need real-time data on building components.
-- **Architects & Engineers** requiring detailed IFC model breakdowns.
-- **Power BI Analysts** integrating BIM data into dashboards.
+The **IFC Viewer Power BI** Microsoft app is ideal for:
+- **BIM Managers & Coordinators** managing large-scale IFC models
+- **Construction and Facility Managers** who need real-time data on building components
+- **Architects & Engineers** requiring detailed IFC model breakdowns
+- **Power BI Analysts** integrating BIM data into dashboards
+- **Project managers** viewing 3D models without fears and huzzles
 
 ## How It Works
-1. **Select** any IFC files in your SharePoint tenant.
+1. **Select** any IFC files from your SharePoint tenant.
 2. **Select** any element in the 3D viewer to view its associated data.
 3. **Filter** components based on IFC types, attributes, or properties.
 4. **Analyze & interact** with the model data using Power BI’s visualization tools.
@@ -82,11 +85,13 @@ The **IFC Viewer** is ideal for:
 ![Power BI Integration](/_media/ifc-viewer-app-microsoft-power-bi-in-microsoft-appsource-store.png)
 
 ## Why Choose IFC Viewer?
-✅ **Enhanced Power BI BIM visualization**  
+✅ **Enhanced Power BI BIM and 3D visualization**  
 ✅ **Seamless integration with Microsoft 365**  
 ✅ **Interactive & customizable data insights**  
 ✅ **No additional software required – runs within Power BI**  
 ✅ **Optimized for performance on large-scale models**  
+✅ **Self-hosted Microsoft app**
+
 
 ## FAQs
 
@@ -104,6 +109,9 @@ No, the IFC Viewer runs **entirely within Power BI** and does not require additi
 
 ### 5. How does the app handle large-scale IFC models?
 The IFC Viewer is **optimized for performance**, ensuring smooth interaction and visualization, even with **complex, large-scale models**.
+
+### 6. What does self-hosted Microsoft app mean?
+The IFC Power BI app uses your own SharePoint as the only server. Your Microsoft 365 is hosting the app without external connection. You have choosen a very secure software tool!
 
 ## Get Started Today!
 <!-- 📌 Available now on **[Microsoft AppSource](https://appsource.microsoft.com/)**.
