@@ -121,10 +121,10 @@ The IFC Power BI app uses your own SharePoint as the only server. Your Microsoft
 
 ## Contact -->
 
-If you'd like to learn more about how this integration can benefit your workflow, our team is ready to discuss the possibilities with you.
+If you would like to get the IFC Viewer Microsoft Power BI App please book a meeting with us to get a test licence.
 
 [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 
-We look forward to exploring how an IFC Microsoft Excel integration can enhance your organization's efficiency.
+We look forward to exploring how an IFC Microsoft Power BI App can enhance your data analytics.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
