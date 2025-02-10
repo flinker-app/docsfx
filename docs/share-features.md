@@ -63,7 +63,7 @@ Feel free to reach out to us if you need further customization or additional fea
 
 ## Users and Benefits
 
-The SHARE App is used by a variety of users, depending on company size, typically from project management or IT security and governance teams. It helps customers efficiently manage SharePoint sites, control access permissions, improve collaboration, and ensure data security and compliance.
+The Protect app is used by a variety of users, depending on company size, typically from project management or IT security and governance teams. It helps customers efficiently manage SharePoint sites, control access permissions, improve collaboration, and ensure data security and compliance.
 
 >**💡 Empowered your data and organization by maintaining long-term flexibility with Microsoft. Turn your Microsoft SharePoint and Teams into a hyper useful Common Data Environment (CDE) everbody is already in and enjoys!**
 

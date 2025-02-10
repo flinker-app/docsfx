@@ -1,11 +1,11 @@
 ---
-title: Share App Installation
-description: Step-by-step guide to install and manage the Share App in SharePoint.
+title: Protect app Installation
+description: Step-by-step guide to install and manage the Protect app in SharePoint.
 keywords: SharePoint, Teams, Access Control, Installation, Permissions
 canonical_url: https://docs.flinker.app/docs/installation.html
 ---
 
-# Share App Installation
+# Protect app Installation
 
 > [!TIP]  
 > Why Choose Our SharePoint and Teams Access Control Tool?  
@@ -18,20 +18,20 @@ canonical_url: https://docs.flinker.app/docs/installation.html
 > - 🚨 **App must be installed by a SharePoint administrator!**
 
 
-## 1. Add Share App from the App Catalog or AppSource
+## 1. Add Protect app from the App Catalog or AppSource
 
-You can add the Share App to your site directly through the App Catalog or AppSource link.
+You can add the Protect app to your site directly through the App Catalog or AppSource link.
 
 ### Option 1: From AppSource
 
 1. Visit the [AppSource link](https://appsource.microsoft.com/en-us/product/office/WA200007197?src=docs&mktcmpid=docs_installation).
-2. Click on "Get it now" to proceed with adding the Share App to your environment.
+2. Click on "Get it now" to proceed with adding the Protect app to your environment.
 
 ### Option 2: From the App Catalog
 
 1. Go to your App Catalog site: `https://yourdomain.sharepoint.com/sites/appcatalog/_layouts/15/appStore.aspx/appDetail/WA200007197`. Replace `yourdomain` with your specific domain.
 
-## 2. Add the Share App
+## 2. Add the Protect app
 
 1.  Click on "Add to Apps site" to start the installation process.
 
@@ -45,12 +45,12 @@ You can add the Share App to your site directly through the App Catalog or AppSo
 
 1. The admin or site owner needs to manually add the app to a specifc site.
 2. Go to the site where you want to add the app.
-3. Navigate to "My apps" and select "Share App".
-4. Click on "Add" to add the Share App to the site.
+3. Navigate to "My apps" and select "Protect app".
+4. Click on "Add" to add the Protect app to the site.
 
-![Add Share App from My Apps](/_media/sharepoint-site-myapps-share-app-add.png)
+![Add Protect app from My Apps](/_media/sharepoint-site-myapps-share-app-add.png)
 
-## 3. Manage Permissions for the Share App
+## 3. Manage Permissions for the Protect app
 
 1. Navigate to the document library where your content is stored.
 2. Select the folder or file for which you want to manage permissions.

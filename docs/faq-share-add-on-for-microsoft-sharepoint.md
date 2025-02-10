@@ -9,14 +9,14 @@ canonical_url: https://docs.flinker.app/docs/faq-share-add-on-for-microsoft-shar
 
 A Microsoft Add-on to turn your Microsoft SharePoint sites into enterprise-level secure virtual data rooms for cross company colllaboration
 
-## Where can I download or add the SHARE app to my SharePoint site?
+## Where can I download or add the Protect app to my SharePoint site?
 
-Please visit [AppSource link](https://appsource.microsoft.com/en-us/product/office/WA200007197?src=docs&mktcmpid=docs_installation) to add the Share App. You need to be a SharePoint administrator to complete the setup. Click on "Get it now" to proceed with adding the Share App to your environment.
+Please visit [AppSource link](https://appsource.microsoft.com/en-us/product/office/WA200007197?src=docs&mktcmpid=docs_installation) to add the Protect app. You need to be a SharePoint administrator to complete the setup. Click on "Get it now" to proceed with adding the Protect app to your environment.
 If you are not an SharePoint administrator yourself please forward the SharePoint Administrator this setup guidline: [Setup for Admins](https://docs.flinker.app/docs/installation.html)
 
 ## I have requested the Share Add-on what happens now?
 
-Usually nothing. Why? Your SharePoint administrator will receive a notification about your requests. Please speak to your SharePoint administrator in person. SharePoint administrator can oversee notifications regularly because they receive many requests emails daily. By default do not expect the SharePoint administrator will setup the Share App upon your first request but rather expect that you will need to talk to the SharePoint administrator in person and remind him about your request. If you work in a company and you get your SharePoint Add-on timely after your first request - great, you are lucky!
+Usually nothing. Why? Your SharePoint administrator will receive a notification about your requests. Please speak to your SharePoint administrator in person. SharePoint administrator can oversee notifications regularly because they receive many requests emails daily. By default do not expect the SharePoint administrator will setup the Protect app upon your first request but rather expect that you will need to talk to the SharePoint administrator in person and remind him about your request. If you work in a company and you get your SharePoint Add-on timely after your first request - great, you are lucky!
 
 ## My IT security department has further questions what shall I do?
 

@@ -1,14 +1,14 @@
 ---
-title: Upgrade Share App to the Latest Version
-description: Learn how to upgrade your Share App to the latest version to enjoy enhanced features, security improvements, and performance boosts.
-keywords: Share App, upgrade, SharePoint, App Store, App Catalog, latest version
+title: Upgrade Protect app to the Latest Version
+description: Learn how to upgrade your Protect app to the latest version to enjoy enhanced features, security improvements, and performance boosts.
+keywords: Protect app, upgrade, SharePoint, App Store, App Catalog, latest version
 canonical_url: https://docs.flinker.app/docs/upgrade-share-app.html
 ---
 
-# Upgrade Share App to the Latest Version
+# Upgrade Protect app to the Latest Version
 
 > [!TIP]
-> **Why Upgrade Your Share App?**
+> **Why Upgrade Your Protect app?**
 > - **Enhanced Features**: Gain access to the latest functionalities that improve your workflow.
 > - **Security Improvements**: Protect your data with the newest security patches and updates.
 > - **Performance Boosts**: Experience faster and more reliable app performance.
@@ -16,9 +16,9 @@ canonical_url: https://docs.flinker.app/docs/upgrade-share-app.html
 > [!Note]
 > - 🚨 **Admin Permissions Required**: Only SharePoint administrators can perform the app upgrade.
 
-## 1. Upgrade Share App from the Site App Store
+## 1. Upgrade Protect app from the Site App Store
 
-You can upgrade the Share App in your site directly through the App Store.
+You can upgrade the Protect app in your site directly through the App Store.
 
 1. **Go to your site App Store**:
    
@@ -32,15 +32,15 @@ You can upgrade the Share App in your site directly through the App Store.
    
    If an update is available, you will see an **Upgrade** button or a notification indicating that an update is available.
    
-   ![Share App Details Page](/_media/sharepoint-site-app-details-upgrade.png)
+   ![Protect app Details Page](/_media/sharepoint-site-app-details-upgrade.png)
 
 3. **Upgrade the App**:
    
    Click the **Upgrade** button and ensure that the version information reflects the latest version.
 
-## 2. Upgrade Share App from the App Catalog
+## 2. Upgrade Protect app from the App Catalog
 
-Alternatively, administrators can upgrade the Share App directly from the SharePoint App Catalog. This method is particularly useful for managing apps across multiple sites.
+Alternatively, administrators can upgrade the Protect app directly from the SharePoint App Catalog. This method is particularly useful for managing apps across multiple sites.
 
 1. **Access the App Catalog**:
    
@@ -52,16 +52,16 @@ Alternatively, administrators can upgrade the Share App directly from the ShareP
    
    Replace `yourdomain` with your specific domain.
 
-2. **Select the Share App**:
+2. **Select the Protect app**:
    
-   In the App Catalog, select the **Share App** you wish to upgrade.
+   In the App Catalog, select the **Protect app** you wish to upgrade.
 
 3. **Upgrade to the Latest Version**:
    
    - Click on **Upgrade Store App**.
    - Confirm any prompts to replace the existing app.
 
-   ![Upgrade Share App from App Catalog](/_media/sharepoint-appcatalog-upgrade-store-app.png)
+   ![Upgrade Protect app from App Catalog](/_media/sharepoint-appcatalog-upgrade-store-app.png)
 
 4. **Confirm the Upgrade**:
    

@@ -163,20 +163,20 @@ Microsoft 365 Apps for secure project management between teams and companies. Di
       <h3 class="card-title">Setup</h3>
       <a href="/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html" class="card-link">IFC Viewer setup in Teams</a>
       <a href="/docs/viewer-app-installation-with-admin-approval.html" class="card-link">IFC Viewer setup in SharePoint</a>
-      <a href="/docs/installation.html" class="card-link">Share setup</a>
+      <a href="/docs/installation.html" class="card-link">Protect app setup</a>
     </div>
   </div>
   <div class="vertical-card">
     <div class="vertical-card-content">
       <h3 class="card-title">Features</h3>
-      <a href="/docs/share-features.html" class="card-link">Share app features</a>
+      <a href="/docs/share-features.html" class="card-link">Protect app features</a>
       <a href="/docs/faq-ifc-viewer.html" class="card-link">IFC Viewer app FAQs</a>
     </div>
   </div>
   <div class="vertical-card">
     <div class="vertical-card-content">
       <h3 class="card-title">FAQs</h3>
-      <a href="/docs/faq-share-add-on-for-microsoft-sharepoint.html" class="card-link">Share app FAQs</a>
+      <a href="/docs/faq-share-add-on-for-microsoft-sharepoint.html" class="card-link">Protect app FAQs</a>
       <a href="/docs/faq-ifc-viewer.html" class="card-link">IFC Viewer app FAQs</a>
     </div>
   </div>  
@@ -219,8 +219,8 @@ All our products have been designed specifically for Microsoft 365. That means o
       src="/_media/list-permissions-in-share-app.png" 
       alt="Share">
     <div class="horizontal-card-content">
-      <h3 class="card-title">Share</h3>
-      <p class="card-description">Simplify sharing in SharePoint and Teams.</p>
+      <h3 class="card-title">Protect</h3>
+      <p class="card-description">Secure your shared data in SharePoint and Teams.</p>
     </div>
   </a>
 </div>

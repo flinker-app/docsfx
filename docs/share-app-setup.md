@@ -1,11 +1,11 @@
 ---
-title: SHARE App Permission Setup
-description: A comprehensive guide for admins to set up SharePoint and Microsoft Teams permissions using the SHARE app.
-keywords: SHARE app, SharePoint, Microsoft Teams, permissions, setup, guide
+title: Protect app Permission Setup
+description: A comprehensive guide for admins to set up SharePoint and Microsoft Teams permissions using the Protect app.
+keywords: Protect app, SharePoint, Microsoft Teams, permissions, setup, guide
 canonical_url: https://docs.flinker.app/docs/share-app-setup.html
 ---
 
-# User Documentation for the SHARE App permission setup
+# User Documentation for the Protect app permission setup
 
 This guide is intended to help admins to setup SharePoint and Microsoft Teams permissions based on a permissions template which is often a permission matrix in an Excel table, e.g. an Excel table with user groups, folder structure and the prefered access rights for each user group and folders.
 
@@ -24,9 +24,9 @@ This guide is intended to help admins to setup SharePoint and Microsoft Teams pe
 
 Create a new SharePoint page or use an existing SharePoint page in your organisation.
 
-### 1.2 Install Share App on SharePoint Page
+### 1.2 Install Protect app on SharePoint Page
 
-Install the Share App on your SharePoint page by a simple click: [Installation Link](https://appsource.microsoft.com/de-de/product/office/WA200007197?tab=Overview)
+Install the Protect app on your SharePoint page by a simple click: [Installation Link](https://appsource.microsoft.com/de-de/product/office/WA200007197?tab=Overview)
 ![Foto](/_media/MSFT-AppSource-Share-App.png)
 
 
@@ -49,10 +49,10 @@ If you are already syncing the SharePoint site with your local OneDrive on your 
 ### 2.2 Create SharePoint Permission Groups
 
 Create permission groups on SharePoint.
-To do so open the SHARE app from any given folder:
+To do so open the Protect app from any given folder:
 ![Foto](/_media/open-share-app.png)
 
-Click on the "home" icon on the top left in the open app window of the SHARE app:
+Click on the "home" icon on the top left in the open app window of the Protect app:
 ![Foto](/_media/click-on-home-in-share-app.png)
 
 Now click on the button with the group icon:
@@ -89,16 +89,16 @@ You have now linked the security group with the SharePoint group.
 
 ## Set Permissions
 
-### 4.1 Download Template File from Share App
+### 4.1 Download Template File from Protect app
 
-To download the template file from the Share App click on the download icon on the top right in the SHARE App:
+To download the template file from the Protect app click on the download icon on the top right in the Protect app:
 ![Foto](/_media/download-permissions-template.png)
 
 
 ### 4.2 Set Permissions in Excel
 
 Set permissions or permission levels in Excel. 
-The list of created permission groups can be found when you click on the key icon in the SHARE app:
+The list of created permission groups can be found when you click on the key icon in the Protect app:
 ![Foto](/_media/set-authority-levels.png)
 
 
@@ -106,9 +106,9 @@ To use these authorisation levels just copy the text and paste them into the Exc
 ![Foto](/_media/select-authority-levels.png)
 
 
-### 4.3 Upload Template File to Share App
+### 4.3 Upload Template File to Protect app
 
-Upload the template file to the Share App, review the preview and save it.
+Upload the template file to the Protect app, review the preview and save it.
 ![Foto](/_media/upload-the-permission-template.png)
 
 You have now setup all permissions successfully!
@@ -132,4 +132,4 @@ If you have any further questions or need assistance, you can reach us through t
 
 ---
 
-Thank you for using the SHARE app! Please share with us your feedback and ideas any time 🙏.
+Thank you for using the Protect app! Please share with us your feedback and ideas any time 🙏.
