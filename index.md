@@ -187,15 +187,6 @@ All our products have been designed specifically for Microsoft 365. That means o
 
 <!-- Horizontal Cards -->
 <div class="horizontal-card-container"> 
-  <a href="/docs/share-features.html" class="horizontal-card">
-    <img 
-      src="/_media/list-permissions-in-share-app.png" 
-      alt="Share">
-    <div class="horizontal-card-content">
-      <h3 class="card-title">Share</h3>
-      <p class="card-description">Simplify sharing in SharePoint and Teams.</p>
-    </div>
-  </a>
   <a href="/docs/viewer-app-installation-with-admin-approval.html" class="horizontal-card">
     <img 
       src="/_media/sharepoint-document-library-view-ifc-file.png" 
@@ -214,7 +205,24 @@ All our products have been designed specifically for Microsoft 365. That means o
       <p class="card-description">Seamlessly view IFC files directly in Teams.</p>
     </div>
   </a>
-
+  <a href="/docs/ifc-power-bi.html" class="horizontal-card">
+    <img 
+      src="/_media/ifc-viewer-app-microsoft-power-bi-in-microsoft-appsource-store.png" 
+      alt="IFC Viewer in Teams">
+    <div class="horizontal-card-content">
+      <h3 class="card-title">IFC Viewer in Power BI</h3>
+      <p class="card-description">Seamlessly view IFC files directly in Power BI.</p>
+    </div>
+  </a>
+  <a href="/docs/share-features.html" class="horizontal-card">
+    <img 
+      src="/_media/list-permissions-in-share-app.png" 
+      alt="Share">
+    <div class="horizontal-card-content">
+      <h3 class="card-title">Share</h3>
+      <p class="card-description">Simplify sharing in SharePoint and Teams.</p>
+    </div>
+  </a>
 </div>
 
 ## Benefits
