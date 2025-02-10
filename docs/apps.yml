@@ -1,0 +1,33 @@
+### YamlMime:Dashboard
+---
+title: Microsoft Apps
+documentType: dashboard
+items:
+  - name: Teams IFC Viewer
+    description: Free IFC viewer integrated with SharePoint and Microsoft Teams for seamless BIM collaboration
+    thumbnail: /_media/teams-apps-ifc-viewer-ifc-files-from-settings-load-automatically.png
+    homepage: setting-up-the-ifc-viewer-in-microsoft-teams.html
+  - name: SharePoint IFC Viewer
+    description: Free IFC viewer integrated with SharePoint and Microsoft Teams for seamless BIM collaboration
+    thumbnail: /_media/sharepoint-document-library-view-ifc-file.png
+    homepage: viewer-app-installation-with-admin-approval.html
+  - name: Power BI IFC Viewer
+    description: Free IFC viewer integrated with SharePoint and Microsoft Teams for seamless BIM collaboration
+    thumbnail: /_media/ifc-viewer-app-microsoft-power-bi-in-microsoft-appsource-store.png
+    homepage: ifc-power-bi.html
+  # - name: DocLinkChecker
+  #   description: |
+  #     Validate links in documents and check for orphaned attachments in the .attachments folder. 
+  #     The tool indicates whether there are errors or warnings, so it can be used in a CI pipeline.
+  #     It can also clean up orphaned attachments automatically.
+  #     This tool is part of the DocFx Companion Tools set that can be installed using Chocolatey. 
+  #   type: External
+  #   thumbnail: images/doclinkchecker.screenshot.png
+  #   homepage: https://github.com/Ellerbach/docfx-companion-tools
+  #   repository:
+  #     type: git
+  #     url: "https://github.com/Ellerbach/docfx-companion-tools/tree/main/src/DocLinkChecker"
+  #   license: MIT
+  #   usage:
+  #     init: "git clone https://github.com/Ellerbach/docfx-companion-tools.git"
+  #     command: "DocLinkChecker -d <docs folder> [-vac]"

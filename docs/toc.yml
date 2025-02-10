@@ -23,6 +23,7 @@
       href: bcf-navisworks.md
 
 - name: Microsoft Apps 🔌
+  href: apps.yml
   expanded: true
   items:
     - name: Teams IFC Viewer
@@ -64,3 +65,7 @@
   href: upgrade-share-app.md
 - name: FAQ
   href: faq-share-add-on-for-microsoft-sharepoint.md
+- name: Tutorials
+  items:
+    - name: Share specific folder with externals
+      href: tutorial-to-share-sharepoint-folders-with-externals.md
