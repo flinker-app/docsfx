@@ -64,7 +64,7 @@
 - name: Upgrade to latest version
   href: upgrade-share-app.md
 - name: FAQ
-  href: faq-share-add-on-for-microsoft-sharepoint.md
+  href: faq-share-app-for-microsoft-sharepoint.md
 - name: Tutorials
   items:
     - name: Share specific folder with externals

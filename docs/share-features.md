@@ -1,23 +1,23 @@
 ---
-title: SHARE Add-on for SharePoint
-description: Overview of key features and benefits of the SHARE Add-on for SharePoint, including user permissions, data protection, and customizable access controls.
-keywords: SHARE Add-on, SharePoint, data protection, user permissions, access control, Microsoft AppSource, SPFx, multi file sharing
+title: Permissions app for SharePoint
+description: Overview of key features and benefits of the Permissions app for SharePoint, including user permissions, data protection, and customizable access controls.
+keywords: Permissions app, SharePoint, data protection, user permissions, access control, Microsoft AppSource, SPFx, multi file sharing
 canonical_url: https://docs.flinker.app/docs/share-features.html
 ---
 
 # Feature Overview
 
-The following key features are offered with the SHARE Add-on for SharePoint:
+The following key features are offered with the Protect app for SharePoint:
 
-* **⚽ Easy integration with SharePoint:** Admins can add the SHARE Microsoft Add-On with just a view clicks from the Microsoft AppSource store as an Add-On app to SharePoint. It can be added to selected SharePoint sites or all sites in the organization.
-* **🔒 Data protection and security:** The Add-On uses the SharePoint Framework (SPFx) technology and installs directly on your SharePoint server, ensuring all operations are performed on your own server without transferring data to external servers or third parties.
-* **🎨 Customizable user permissions:** SHARE users can assign any permissions to internal or external Microsoft users or user groups for all data, documents, URLs, Microsoft lists or folders at any level of the SharePoint sites and folder directories.
-* **🕵️‍♂️ Shared folders report:** SHARE users can see what folders are shared on one simple report for the whole SharePoint site to enhance security.
+* **⚽ Easy integration with SharePoint:** Admins can add the Protect app with just a view clicks from the Microsoft AppSource store as an app app to SharePoint. It can be added to selected SharePoint sites or all sites in the organization.
+* **🔒 Data protection and security:** The app uses the SharePoint Framework (SPFx) technology and installs directly on your SharePoint server, ensuring all operations are performed on your own server without transferring data to external servers or third parties.
+* **🎨 Customizable user permissions:** Protect app users can assign any permissions to internal or external Microsoft users or user groups for all data, documents, URLs, Microsoft lists or folders at any level of the SharePoint sites and folder directories.
+* **🕵️‍♂️ Shared folders report:** Protect app users can see what folders are shared on one simple report for the whole SharePoint site to enhance security.
 * **👥 Secure multi file sharing to multi users:** MultiLinker enables users to efficiently select and directly send multiple file links to multiple users boosting document sharing.
 
-## SHARE vs. Standard SharePoint
+## Protect app vs. Standard SharePoint
 
-| Feature                     | Gain                                                                                              | SHARE Add-on (Enterprise) | SHARE Add-on (Free) | Standard SharePoint |
+| Feature                     | Gain                                                                                              | Protect app (Enterprise) | Protect app (Free) | Standard SharePoint |
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------|-------------------------|-------------------------|
 | **User permissions**            | Tailor user permissions to specific needs                                                                        | ✔️                            | ✔️                      | ✔️                      |
 | **Folder access**               | Customized access for each folder                                                                                 | ✔️                            | ✔️                      | ✔️                      |
@@ -55,7 +55,7 @@ Standard SharePoint offers several default sharing features to facilitate collab
    - **Permissions:** Comprehensive control over access levels.
    - **Use Case:** Best for managing internal sharing practices with enhanced oversight.
 
-The **SHARE Add-on** enhances these default sharing methods by providing advanced control, detailed reporting, and bulk management features, ensuring a more secure and efficient access management experience.
+The **Protect app** enhances these default sharing methods by providing advanced control, detailed reporting, and bulk management features, ensuring a more secure and efficient access management experience.
 
 
 Feel free to reach out to us if you need further customization or additional features!

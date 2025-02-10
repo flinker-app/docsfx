@@ -97,7 +97,7 @@ That's it! You've successfully set up the IFC Viewer in your Microsoft Teams env
 
     The IFC Viewer needs permission to read IFC and BCF files stored in your company's SharePoint. This allows the viewer to load your data directly. No external data processing or uploads occur; everything stays within your Microsoft 365 tenant.
 
-5. **Does the IFC Viewer Microsoft Add-on or any service upload or process data externally out of my own Microsoft 365 tenant?**
+5. **Does the IFC Viewer Microsoft app or any service upload or process data externally out of my own Microsoft 365 tenant?**
 
     No. Your data stays within your Microsoft 365 tenant and SharePoint, serving as the app's backend. There is no external data processing or uploads, ensuring maximum data security for your company.
 

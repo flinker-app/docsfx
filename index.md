@@ -176,7 +176,7 @@ Microsoft 365 Apps for secure project management between teams and companies. Di
   <div class="vertical-card">
     <div class="vertical-card-content">
       <h3 class="card-title">FAQs</h3>
-      <a href="/docs/faq-share-add-on-for-microsoft-sharepoint.html" class="card-link">Protect app FAQs</a>
+      <a href="/docs/faq-share-app-for-microsoft-sharepoint.html" class="card-link">Protect app FAQs</a>
       <a href="/docs/faq-ifc-viewer.html" class="card-link">IFC Viewer app FAQs</a>
     </div>
   </div>  

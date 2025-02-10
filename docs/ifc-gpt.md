@@ -35,7 +35,7 @@ We look forward to exploring how an IFC GPT integration can enhance your organiz
 
 ## FAQ 
 
-A secure and privacy first GPT integration for the Microsoft IFC Add-on that will revolutionize your IFC project management.
+A secure and privacy first GPT integration for the Microsoft IFC app that will revolutionize your IFC project management.
 
 ### What can I input in the search field?
 
