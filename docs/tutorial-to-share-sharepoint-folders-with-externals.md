@@ -1,37 +1,33 @@
-# Sharing a specific SharePoint folder with many external users
+# Sharing a specific SharePoint folder with external users
 
-This guide shows you how to share a dedicated SharePoint folder with external users. 
+This guide shows you how to share a dedicated SharePoint folder with external users using groups.
 
 ## Create Groups and Add External Users
 We’ll cover two approaches:
-
-Use **security groups** when you:
-- Want group management through Microsoft 365 Admin Center and Azure AD.
-- Need to integrate the groups with other Microsoft 365 services.
-
-Use **SharePoint groups** when you:
-- Need site owners and non-admin users to manage group membership directly.
-- Don’t need to integrate the groups with other Office 365 services.
   
-### Using SharePoint groups
+### Option 1: Using SharePoint groups
 
 1. **Create a SharePoint group for each set of external users** in your SharePoint site.
 2. **Create a dedicated folder** in your document library for each external group.
 3. **Grant each SharePoint group access** to its designated folder.
 4. **Add external users** to their appropriate SharePoint group.  
-   > When external users are added, they typically receive an invitation email that includes a link to the site’s root—not directly to the intended folder.
+When external users are added, they typically receive an invitation email that includes a link to the site’s root—not directly to the intended folder.
+> [!NOTE]
+> Use **SharePoint groups** when you:
+> - Need site owners and non-admin users to manage group membership directly.
+> - Don’t need to integrate the groups with other Office 365 services.
 
-
-
-### Using security groups (via Microsoft 365 Admin Center)
+### Option 2: Using security groups (via Microsoft 365 Admin Center)
 
 1. **Work with IT** to create security groups in Microsoft 365 Admin Center.  
    For detailed instructions, see [Create, edit, or delete a security group](https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
 2. **Create a dedicated folder** in your document library for each external group.
 3. **Grant each security group access** to its designated folder.
 4. **Add external users as guest accounts** to their corresponding Microsoft 365 security group.
-
-
+> [!NOTE]
+> Use **security groups** when you:
+> - Want group management through Microsoft 365 Admin Center and Azure AD.
+> - Need to integrate the groups with other Microsoft 365 services.
 
 ## Share the Access Link
 
@@ -49,7 +45,7 @@ Regardless of whether you used SharePoint groups or Microsoft 365 security group
    
    <img src="/_media/share-external-folder-only-people-with-existing-access.png" alt="Share external folder link that works only for people with existing access" style="max-width:350px;" />
 
-4. Enter the group you want to notify and Click **Send** (or **Copy link**, then manually email it to your external users).
+4. Enter the group (SharePoint group or security group) you want to notify and Click **Send** (or **Copy link**, then manually email it to your external users).
    
    <img src="/_media/share-external-folder-with-sharepoint-group.png" alt="Screenshot showing how to share a folder with a SharePoint group" style="max-width:350px;" />
 
@@ -58,35 +54,37 @@ Regardless of whether you used SharePoint groups or Microsoft 365 security group
 ## Experience for the Recipient
 When an external user receives a direct link, here’s what they can expect:
 
-### 1. Open the Shared Link
+### Open the Shared Link
 
 1. The recipient receives an email or link shared by the Microsoft environment owner.
 2. Click on the **Open** or **Open in browser** link provided.
    
    <img src="/_media/invited-you-to-view-a-folder-email.png" alt="Folder invitation email" style="max-width:350px;" />
+
+### Option 1: Recipient has a Microsoft account
+1. When someone who has a Microsoft account wants to access the content, Microsoft asks them to **sign in** to their account.
    
-3. If prompted, enter the **email address** that the file or folder was shared with (your non-Microsoft email address).
+   <img src="/_media/sign-in-filed-for-microsoft-organisation-accounts.png" alt="Enter your non-Microsoft email" style="max-width:350px;" />
+2. And **requests permission** to view their name, email address, and photo to verify their identity.
+   
+   <img src="/_media/microsoft-requests-permission-fir-sign-in.png" alt="Enter your non-Microsoft email" style="max-width:350px;" />
+
+### Option 2: Recipient doesn't have a Microsoft account
+Non-Microsoft accounts can access the resources via a temporary passcode:
+
+1. If prompted, enter the **email address** that the file or folder was shared with (your non-Microsoft email address).
    
    <img src="/_media/to-open-the-shared-link-enter-your-non-microsoft-account-email.png" alt="Enter your non-Microsoft email" style="max-width:350px;" />
 
-### 2. Check Your Email for a Verification Code
-
-1. After entering your non-Microsoft email address, you will receive an email containing a **verification code**.
+2. After entering your non-Microsoft email address, you will receive an email containing a **verification code**.
    
    <img src="/_media/email-with-code-to-verify-your-non-microsoft-account-to-access-shared-folder.png" alt="Email with the code to verify non-Microsoft account" style="max-width:350px;" />
 
-### 3. Enter the Verification Code
-
-1. Copy the **verification code** from the email.
-2. Return to the browser tab or window where you were prompted to verify.
-3. Paste or type the code into the provided field.
+3. Copy the **verification code** from the email. Return to the browser tab or window where you were prompted to verify. Paste or type the code into the provided field.
    
    <img src="/_media/to-open-secure-link-enter-code-from-non-microsoft-account-email.png" alt="Enter the code to access the secure link" style="max-width:350px;" />
 
-### 4. Access the Shared File or Folder
-
-- Once the code is verified, your non-Microsoft account is granted secure access to the shared content.
-- You will now see the **file** or **folder** you were invited to view, edit, or collaborate on (depending on the permissions set by the owner).
+1. Once the code is verified, your non-Microsoft account is granted secure access to the shared content. You will now see the **file** or **folder** you were invited to view, edit, or collaborate on (depending on the permissions set by the owner).
    
    <img src="/_media/user-with-non-microsoft-account-will-be-granted-access-to-the-shared-file-or-folder.png" alt="User with non-Microsoft account now has access" style="max-width:350px;" />
 
