@@ -68,8 +68,8 @@
   items:
     - name: Create Groups and Folders
       href: create-sharepoint-group-and-folder-structure.md
-    - name: Permissions Template for Groups and Folders
-      href: permissions-template-for-sharepoint-groups-and-folders.md
+    - name: Set Permissions for Groups and Folders
+      href: permissions-for-sharepoint-groups-and-folders.md
     - name: Invite users or add members to site
       href: tutorial-to-invite-users-or-add-members-to-sharepoint-site.md
     - name: Share specific folder with externals
