@@ -32,6 +32,6 @@ article h4  {
     margin-bottom: 1rem;
 }
 
-article p, li {
+article p, article li {
     margin-top: 1rem;
 }

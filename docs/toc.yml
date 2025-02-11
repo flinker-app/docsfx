@@ -64,6 +64,7 @@
 - name: Upgrade to latest version
   href: upgrade-share-app.md
 - name: Tutorials
+  href: protect-tutorials.yml
   expanded: true
   items:
     - name: Create Groups and Folders

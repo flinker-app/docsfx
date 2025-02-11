@@ -1,0 +1,14 @@
+### YamlMime:Dashboard
+---
+title: Tutorials for permissions management in SharePoint using the Protect App
+documentType: dashboard
+expanded: true
+items:
+  - name: Create Groups and Folders
+    href: create-sharepoint-group-and-folder-structure.html
+  - name: Set Permissions for Groups and Folders
+    href: permissions-for-sharepoint-groups-and-folders.html
+  - name: Invite users or add members to site
+    href: tutorial-to-invite-users-or-add-members-to-sharepoint-site.html
+  - name: Share specific folder with externals
+    href: tutorial-to-share-sharepoint-folders-with-externals.html

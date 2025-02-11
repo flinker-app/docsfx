@@ -1,26 +1,44 @@
 {{!Licensed to the .NET Foundation under one or more agreements. The .NET Foundation licenses this file to you under the MIT license.}}
 {{!master(layout/_master.tmpl)}}
 <h1>{{title}}</h1>
+
 {{#items.Length}}
 <div id="template-container">
-{{#items}}
+  {{#items}}
   <div class="card">
-    <a href="{{homepage}}"><img src="{{thumbnail}}" class="card-img-top" alt="{{name}}"></a>
+    <a href="{{href}}">
+      {{#thumbnail}}
+        <img src="{{thumbnail}}" class="card-img-top" alt="{{name}}">
+      {{/thumbnail}}
+      {{^thumbnail}}
+        <div class="card-img-placeholder"></div>
+      {{/thumbnail}}
+    </a>
+
     <div class="card-body flex-fill">
-      <h5 class="card-title"><a href="{{homepage}}" class="card-link">{{name}}</a></h5>
+      <h5 class="card-title">
+        <a href="{{href}}" class="card-link">{{name}}</a>
+      </h5>
       <p class="card-text">{{{description}}}</p>
     </div>
+
     <div class="card-body flex-grow-0">
       {{#usage}}
       <div class="">
-        {{#config}}<div class="list-group-item"><c>docfx.json</c>: <code>{{config}}</code></div>{{/config}}
-        {{#command}}<div class="list-group-item"><c>docfx</c>: <code>{{command}}</code></div>{{/command}}
-        {{#init}}<div class="list-group-item"><c>docfx init</c>: <code>{{init}}</code></div>{{/init}}
+        {{#config}}
+          <div class="list-group-item"><c>docfx.json</c>: <code>{{config}}</code></div>
+        {{/config}}
+        {{#command}}
+          <div class="list-group-item"><c>docfx</c>: <code>{{command}}</code></div>
+        {{/command}}
+        {{#init}}
+          <div class="list-group-item"><c>docfx init</c>: <code>{{init}}</code></div>
+        {{/init}}
       </div>
       {{/usage}}
     </div>
   </div>
-{{/items}}
+  {{/items}}
 </div>
 {{/items.Length}}
 
@@ -37,6 +55,17 @@
   .card > img {
     height: 16rem;
     object-fit: cover;
+  }
+
+  .card-img-placeholder {
+    width: 100%;
+    background-color: #e9ecef; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d; 
+    font-weight: bold;
+    font-size: 1.2rem;
   }
 
   #template-container {
