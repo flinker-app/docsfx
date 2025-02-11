@@ -29,7 +29,7 @@
     - name: Teams IFC Viewer
       expanded: true
       items:
-        - name: Setup
+        - name: Installation
           href: setting-up-the-ifc-viewer-in-microsoft-teams.md
         - name: Link Documents
           href: ifc-docslink.md
@@ -42,7 +42,7 @@
     - name: SharePoint IFC Viewer
       expanded: true
       items:
-        - name: Setup for Admins
+        - name: Installation for Admins
           href: viewer-app-installation-with-admin-approval.md
         - name: Usage
           href: using-ifc-viewer-in-sharepoint.md

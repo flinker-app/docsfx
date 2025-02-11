@@ -17,19 +17,19 @@ The **IFC Viewer** is a powerful and intuitive app designed for **Microsoft Powe
 
 ## Key Features
 
-### 🔍 **Instant Data Visualization**
+### 🔍 Instant Data Visualization
 - Select any **IFC element** within the 3D model to **instantly view** its properties and metadata in Power BI.
 - The IFC Viewer for Microsoft Power Bi dynamically links **IFC attributes** to Power BI dashboards for real-time analysis.
 
 ![Select any element](/_media/select-any-element-of-ifc-model-to-view-its-data-on-the-spot.png)
 
 #### Watch here how you could use the IFC Power BI app and start building your interactive live dashboards:
-<video width="800" height="450" controls>
+<video width="100%" height="auto" controls>
   <source src="/_media/select-any-elements-in-ifc-model-to-show-its-data-in-power-bi.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-### 🎯 **Custom Filtering & Selection**
+### 🎯 Custom Filtering & Selection
 - **Apply custom filters** to isolate specific **IFC types** (e.g., walls, beams, doors, railings, etc.).
 - Click on **filtered IFC components** to highlight corresponding elements in the 3D viewer.
 - Intuitive heatmaps and treemaps categorize elements based on type and attributes.
@@ -38,7 +38,7 @@ The **IFC Viewer** is a powerful and intuitive app designed for **Microsoft Powe
 
 ![Click on filters](/_media/click-on-your-costum-filters-to-view-the-items-in-ifc-viewer-instantly.png)
 
-### 🔄 **Seamless Integration with Power BI & Microsoft 365**
+### 🔄 Seamless Integration with Power BI & Microsoft 365
 - Easily sync and **export IFC data** to **SharePoint, Microsoft Teams, and Excel**.
 - Support for **IFC2X3 & IFC4** file formats, ensuring broad compatibility with BIM software.
 - Interactive **hover-over analytics** that display key attributes instantly.
@@ -46,17 +46,17 @@ The **IFC Viewer** is a powerful and intuitive app designed for **Microsoft Powe
 ![Hover over filters](/_media/hover-over-custom-filters-and-select-any-ifc-elements-such-as-ifc-types.png)
 
 #### Watch here how you could use the IFC Power BI app and start building your interactive live dashboards:
-<video width="800" height="450" controls>
+<video width="100%" height="auto" controls>
   <source src="/_media/select-any-filters-in-ifc-power-bi-microsoft-app.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-### 📊 **Advanced Data Interaction**
+### 📊 Advanced Data Interaction
 - Analyze IFC **element quantities** directly in Power BI.
 - View **hierarchical model structures** with a structured **model tree**.
 - Enhance project management and decision-making through **data-driven insights**.
 
-### 📈 **Comprehensive Reporting**
+### 📈 Comprehensive Reporting
 - **Create detailed reports** in Power BI for **Microsoft Teams**, **SharePoint** sites, or set **email report subscriptions**.
 - **Embed** your Power BI reports anywhere in your organization for various audiences.
 - **Push and work with data** seamlessly across other **Microsoft apps**, enhancing collaboration and productivity.

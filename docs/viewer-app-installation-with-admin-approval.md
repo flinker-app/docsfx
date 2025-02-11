@@ -5,6 +5,11 @@ keywords: IFC Viewer, SharePoint, Installation, Admin Approval, App Catalog, App
 canonical_url: https://docs.flinker.app/docs/viewer-app-installation-with-admin-approval.html
 ---
 
+# IFC Viewer Installation
+
+This guide provides detailed steps for installing the IFC Viewer.
+
+
 > [!TIP]  
 > Why Choose the IFC Viewer for SharePoint?
 > - **Integrated Experience**: View and interact with 3D IFC models directly in SharePoint Pages and Document Libraries.  
@@ -15,10 +20,6 @@ canonical_url: https://docs.flinker.app/docs/viewer-app-installation-with-admin-
 > - 🛡️ **Privacy First: Your Data Stays With You!** We do not upload your files anywhere. All processing is client-side, ensuring full privacy and security.
 > - 🚨 **App must be installed by a SharePoint administrator!**
 
-
-# IFC Viewer Installation
-
-This guide provides detailed steps for installing the IFC Viewer.
 
 ```mermaid
 flowchart LR
