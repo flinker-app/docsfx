@@ -1,80 +1,62 @@
 # Sharing a specific SharePoint folder with many external users
 
-This guide shows you how to share a dedicated SharePoint folder with external users. We’ll cover two approaches:
+This guide shows you how to share a dedicated SharePoint folder with external users. 
 
-1. Use **SharePoint groups** when you:
-   - Need site owners and non-admin users to manage group membership directly.
-   - Don’t need to integrate the groups with other Office 365 services.
+## Create Groups and Add External Users
+We’ll cover two approaches:
 
-1. Use **security groups** when you:
-   - Want group management through Microsoft 365 Admin Center and Azure AD.
-   - Need to integrate the groups with other Microsoft 365 services.
+Use **security groups** when you:
+- Want group management through Microsoft 365 Admin Center and Azure AD.
+- Need to integrate the groups with other Microsoft 365 services.
 
-## Method 1: Using SharePoint groups
-
-### 1. Create and configure groups
+Use **SharePoint groups** when you:
+- Need site owners and non-admin users to manage group membership directly.
+- Don’t need to integrate the groups with other Office 365 services.
+  
+### Using SharePoint groups
 
 1. **Create a SharePoint group for each set of external users** in your SharePoint site.
 2. **Create a dedicated folder** in your document library for each external group.
 3. **Grant each SharePoint group access** to its designated folder.
-
-### 2. Add users and share access link
-
-1. **Add external users** to their appropriate SharePoint group.  
+4. **Add external users** to their appropriate SharePoint group.  
    > When external users are added, they typically receive an invitation email that includes a link to the site’s root—not directly to the intended folder.
-2. **Reshare the “Only people with existing access” link** to provide a direct link to the folder:  
 
-   1. **Select the folder** you want to share and click **Share**.
-   
-      <img src="/_media/select-folder-and-click-on-share.png" alt="Select folder and click on share" style="max-width:350px;" />
-   
-   2. In the **Send Link** window, **click “Link Settings”** to modify the link type.
-   
-      <img src="/_media/in-share-folder-click-on-link-settings.png" alt="In share folder click on link settings" style="max-width:350px;" />
-   
-   3. Choose **“People with existing access”** (this ensures only those already granted permissions in the group can access).
-   
-      <img src="/_media/share-external-folder-only-people-with-existing-access.png" alt="Share external folder link that works only for people with existing access" style="max-width:350px;" />
-   
-   4. Enter the group you want to notify and Click **Send** (or **Copy link**, then manually email it to your external users).
-   
-      <img src="/_media/share-external-folder-with-sharepoint-group.png" alt="Screenshot showing how to share a folder with a SharePoint group" style="max-width:350px;" />
-   
-   5. The external users will get an email containing a URL that takes them directly to the specific folder.
 
-## Method 2: Using security groups (via Microsoft 365 Admin Center)
 
-### 1. Create and configure groups
+### Using security groups (via Microsoft 365 Admin Center)
 
 1. **Work with IT** to create security groups in Microsoft 365 Admin Center.  
    For detailed instructions, see [Create, edit, or delete a security group](https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
 2. **Create a dedicated folder** in your document library for each external group.
 3. **Grant each security group access** to its designated folder.
+4. **Add external users as guest accounts** to their corresponding Microsoft 365 security group.
 
-### 2. Add users and share access link
 
-1. **Add external users as guest accounts** to their corresponding Microsoft 365 security group.
-2. **Reshare the “Only people with existing access” link** to the specific folder to notify the users directly:
 
-   1. **Select the folder** you want to share and click **Share**.
+## Share the Access Link
+
+Regardless of whether you used SharePoint groups or Microsoft 365 security groups, the next step is to share a direct link to the folder. This ensures external users can quickly access the correct location.
+
+1. **Select the folder** you want to share and click **Share**.
    
-      <img src="/_media/select-folder-and-click-on-share.png" alt="Select folder and click on share" style="max-width:350px;" />
+   <img src="/_media/select-folder-and-click-on-share.png" alt="Select folder and click on share" style="max-width:350px;" />
+
+2. In the **Send Link** window, **click “Link Settings”** to modify the link type.
    
-   2. In the **Send Link** window, **click “Link Settings”** to modify the link type.
+   <img src="/_media/in-share-folder-click-on-link-settings.png" alt="In share folder click on link settings" style="max-width:350px;" />
+
+3. Choose **“People with existing access”** (this ensures only those already granted permissions in the group can access).
    
-      <img src="/_media/in-share-folder-click-on-link-settings.png" alt="In share folder click on link settings" style="max-width:350px;" />
+   <img src="/_media/share-external-folder-only-people-with-existing-access.png" alt="Share external folder link that works only for people with existing access" style="max-width:350px;" />
+
+4. Enter the group you want to notify and Click **Send** (or **Copy link**, then manually email it to your external users).
    
-   3. Choose **“People with existing access”** (this ensures only those already granted permissions in the group can access).
-   
-      <img src="/_media/share-external-folder-only-people-with-existing-access.png" alt="Share external folder link that works only for people with existing access" style="max-width:350px;" />
-   
-   4. Enter the group you want to notify and Click **Send** (or **Copy link**, then manually email it to your external users).
-   
-      <img src="/_media/share-external-folder-with-mail-enabled-security-group.png" alt="Screenshot showing how to share a folder with a mail-enabled security group" style="max-width:350px;" />
-   
-   5. The external users will get an email containing a URL that takes them directly to the specific folder.
+   <img src="/_media/share-external-folder-with-sharepoint-group.png" alt="Screenshot showing how to share a folder with a SharePoint group" style="max-width:350px;" />
+
+5. The external users will get an email containing a URL that takes them directly to the specific folder.
 
 ## Experience for the Recipient
+When an external user receives a direct link, here’s what they can expect:
 
 ### 1. Open the Shared Link
 
