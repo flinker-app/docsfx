@@ -59,13 +59,21 @@
 - name: Protect
 - name: Features
   href: share-features.md
-- name: Setup for Admins
+- name: Installation for Admins
   href: installation.md
 - name: Upgrade to latest version
   href: upgrade-share-app.md
-- name: FAQ
-  href: faq-share-app-for-microsoft-sharepoint.md
 - name: Tutorials
+  expanded: true
   items:
+    - name: Create Groups and Folders
+      href: create-sharepoint-group-and-folder-structure.md
+    - name: Permissions Template for Groups and Folders
+      href: permissions-template-for-sharepoint-groups-and-folders.md
+    - name: Invite users or add members to site
+      href: tutorial-to-invite-users-or-add-members-to-sharepoint-site.md
     - name: Share specific folder with externals
       href: tutorial-to-share-sharepoint-folders-with-externals.md
+- name: FAQ
+  href: faq-share-app-for-microsoft-sharepoint.md
+

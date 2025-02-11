@@ -8,9 +8,8 @@ We’ll cover two approaches:
 ### Option 1: Using SharePoint groups
 
 1. **Create a SharePoint group for each set of external users** in your SharePoint site.
-2. **Create a dedicated folder** in your document library for each external group.
-3. **Grant each SharePoint group access** to its designated folder.
-4. **Add external users** to their appropriate SharePoint group.  
+2. **Grant each SharePoint group access** to its designated folder.
+3. **Add external users** to their appropriate SharePoint group.  
 When external users are added, they typically receive an invitation email that includes a link to the site’s root—not directly to the intended folder.
 > [!NOTE]
 > Use **SharePoint groups** when you:
@@ -21,9 +20,8 @@ When external users are added, they typically receive an invitation email that i
 
 1. **Work with IT** to create security groups in Microsoft 365 Admin Center.  
    For detailed instructions, see [Create, edit, or delete a security group](https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
-2. **Create a dedicated folder** in your document library for each external group.
-3. **Grant each security group access** to its designated folder.
-4. **Add external users as guest accounts** to their corresponding Microsoft 365 security group.
+2. **Grant each security group access** to its designated folder.
+3. **Add external users as guest accounts** to their corresponding Microsoft 365 security group.
 > [!NOTE]
 > Use **security groups** when you:
 > - Want group management through Microsoft 365 Admin Center and Azure AD.
