@@ -1,76 +1,162 @@
 {{!Licensed to the .NET Foundation under one or more agreements. The .NET Foundation licenses this file to you under the MIT license.}}
 {{!master(layout/_master.tmpl)}}
+
 <h1>{{title}}</h1>
 
 {{#items.Length}}
-<div id="template-container">
+<div class="vertical-card-container">
   {{#items}}
-  <div class="card">
-    <a href="{{href}}">
-      {{#thumbnail}}
-        <img src="{{thumbnail}}" class="card-img-top" alt="{{name}}">
-      {{/thumbnail}}
-      {{^thumbnail}}
-        <div class="card-img-placeholder"></div>
-      {{/thumbnail}}
-    </a>
+  <div class="vertical-card">
+    {{#thumbnail}}
+      <img src="{{thumbnail}}" alt="{{name}}" />
+    {{/thumbnail}}
+    {{^thumbnail}}
+      <!-- Fallback if no thumbnail is provided -->
+    {{/thumbnail}}
 
-    <div class="card-body flex-fill">
-      <h5 class="card-title">
-        <a href="{{href}}" class="card-link">{{name}}</a>
-      </h5>
-      <p class="card-text">{{{description}}}</p>
-    </div>
+    <div class="vertical-card-content">
+      <h3 class="card-title">{{name}}</h3>
+      <p class="card-description">{{{description}}}</p>
+      
+      <!-- If you want the title to link somewhere, you could do: -->
+      <!-- <h3 class="card-title"><a href="{{href}}" class="card-link">{{name}}</a></h3> -->
 
-    <div class="card-body flex-grow-0">
+      <!-- usage block (optional) -->
       {{#usage}}
-      <div class="">
-        {{#config}}
-          <div class="list-group-item"><c>docfx.json</c>: <code>{{config}}</code></div>
-        {{/config}}
-        {{#command}}
-          <div class="list-group-item"><c>docfx</c>: <code>{{command}}</code></div>
-        {{/command}}
-        {{#init}}
-          <div class="list-group-item"><c>docfx init</c>: <code>{{init}}</code></div>
-        {{/init}}
-      </div>
+        <div class="usage-block">
+          {{#config}}
+          <div class="list-group-item">
+            <strong>docfx.json:</strong> <code>{{config}}</code>
+          </div>
+          {{/config}}
+          {{#command}}
+          <div class="list-group-item">
+            <strong>docfx:</strong> <code>{{command}}</code>
+          </div>
+          {{/command}}
+          {{#init}}
+          <div class="list-group-item">
+            <strong>docfx init:</strong> <code>{{init}}</code>
+          </div>
+          {{/init}}
+        </div>
       {{/usage}}
+
+      <!-- Link or button at bottom, if desired -->
+      <a href="{{href}}" class="card-link" style="margin-top:auto;">Learn More</a>
     </div>
   </div>
   {{/items}}
 </div>
 {{/items.Length}}
 
-<style type="text/css">
-  .affix {
-    display: none !important;
+<style>
+  /* ===============================================
+     Copied / Adapted from your design snippet
+     =============================================== */
+
+  /* Reset box-sizing for consistency */
+  * {
+    box-sizing: border-box;
   }
 
-  .card {
-    width: 24rem;
-    margin: 1rem;
-  }
-
-  .card > img {
-    height: 16rem;
-    object-fit: cover;
-  }
-
-  .card-img-placeholder {
-    width: 100%;
-    background-color: #e9ecef; 
+  /* Container for the vertical cards */
+  .vertical-card-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #6c757d; 
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
-
-  #template-container {
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center; /* Center the cards */
+    gap: 20px; /* Space between cards */
+    margin: 20px 0;
+    align-items: stretch;
+    width: 100%; /* Ensure full width within wrapper */
+  }
+
+  /* Individual vertical card styling */
+  .vertical-card {
+    flex: 1 1 calc(33.333% - 20px); /* Three cards per row on large screens */
+    max-width: calc(33.333% - 20px);
+    border: 1px solid #e1e1e16e;
+    border-radius: 2px; /* Smaller border radius */
+    text-align: left;
+    color: inherit;
+    box-shadow: 0 2px 4px rgba(100, 100, 100, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none; /* Remove underline for links */
+  }
+
+  /* Image styling for vertical cards */
+  .vertical-card img {
+    width: 100%;
+    height: 160px; /* Fixed height for images */
+    object-fit: cover;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+  }
+
+  /* Card content for vertical cards */
+  .vertical-card-content {
+    padding: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Card title */
+  .card-title {
+    font-size: 1em; /* Smaller font size */
+    margin-bottom: 8px;
+    margin-top: 0;
+  }
+
+  /* Card description */
+  .card-description {
+    flex-grow: 1;
+    margin: 0;
+    margin-bottom: 4px;
+  }
+
+  /* usage block styling, if desired */
+  .usage-block .list-group-item {
+    margin-bottom: 4px;
+    font-size: 0.9em;
+    background: #f8f9fa;
+    padding: 6px;
+    border-radius: 2px;
+  }
+
+  /* Links within cards */
+  .card-link {
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: 0.95em;
+    color: #0078d4; /* Example link color */
+  }
+
+  .card-link:hover {
+    text-decoration: underline;
+  }
+
+  /* Hover effect on card */
+  .vertical-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(100, 100, 100, 0.15);
+  }
+
+  /* Responsive design: 2 cards per row for medium screens */
+  @media (max-width: 1400px) {
+    .vertical-card {
+      flex: 1 1 calc(50% - 20px); 
+      max-width: calc(50% - 20px);
+    }
+  }
+
+  /* Responsive design: single card per row for smaller screens */
+  @media (max-width: 768px) {
+    .vertical-card {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
   }
 </style>
