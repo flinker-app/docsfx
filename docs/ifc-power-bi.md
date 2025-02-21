@@ -12,7 +12,7 @@ canonical_url: https://docs.flinker.app/docs/ifc-power-bi.html
 
 <iframe title="ifc-large" style="width: 100%; aspect-ratio: 16 / 10;" width="100%" src="https://app.powerbi.com/view?r=eyJrIjoiOTgwNmVhYjYtZGFlMS00MGU4LTg4NTItMWU4OWQ3MmU1MDA5IiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
-> [**Start Your Free Trial**](https://forms.office.com/Pages/ResponsePage.aspx?id=80C2RLBJBEOcmMYdC8DcAv_odHNyO6hPmEPl0zHkt4FUNlo0TEtXWDE1SVlIWkZOOUdXUDJMTlhTRC4u)
+> [**Start Your Free Trial**](https://appsource.microsoft.com/en-us/product/power-bi-visuals/flinkergmbh1644589155747.ifc-viewer)
 
 ## Overview
 The **IFC Viewer** is a powerful and intuitive app designed for **Microsoft Power BI**, available on **Microsoft AppSource**. This tool enables users to seamlessly visualize and analyze **Industry Foundation Classes (IFC) models** within Power BI, making it an essential asset for professionals in **construction, architecture, engineering, building maintenance, and property management** who need to interact with BIM data effectively.
