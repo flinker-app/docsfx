@@ -46,6 +46,8 @@
           href: viewer-app-installation-with-admin-approval.md
         - name: Usage
           href: using-ifc-viewer-in-sharepoint.md
+        - name: Load multiple files
+          href: load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.md
     - name: Power BI IFC Viewer
       expanded: true
       items:
