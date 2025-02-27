@@ -12,7 +12,9 @@ canonical_url: https://docs.flinker.app/docs/ifc-power-bi.html
 
 <iframe title="ifc-large" style="width: 100%; aspect-ratio: 16 / 10;" width="100%" src="https://app.powerbi.com/view?r=eyJrIjoiOTgwNmVhYjYtZGFlMS00MGU4LTg4NTItMWU4OWQ3MmU1MDA5IiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
-> [**Start Your Free Trial**](https://appsource.microsoft.com/en-us/product/power-bi-visuals/flinkergmbh1644589155747.ifc-viewer)
+> Available now on **[Microsoft AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/flinkergmbh1644589155747.ifc-viewer?src=docs&mktcmpid=ifc_power_pi)**.
+
+> Need custom Power BI dashboards with integrated data sources? [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/).
 
 ## Overview
 The **IFC Viewer** is a powerful and intuitive app designed for **Microsoft Power BI**, available on **Microsoft AppSource**. This tool enables users to seamlessly visualize and analyze **Industry Foundation Classes (IFC) models** within Power BI, making it an essential asset for professionals in **construction, architecture, engineering, building maintenance, and property management** who need to interact with BIM data effectively.
@@ -118,17 +120,6 @@ The IFC Viewer is **optimized for performance**, ensuring smooth interaction and
 The IFC Power BI app uses your own SharePoint as the only server. Your Microsoft 365 is hosting the app without external connection. You have choosen a very secure software tool!
 
 ## Get Started Today!
-<!-- 📌 Available now on **[Microsoft AppSource](https://appsource.microsoft.com/)**.
+> Available now on **[Microsoft AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/flinkergmbh1644589155747.ifc-viewer?src=docs&mktcmpid=ifc_power_pi)**.
 
-🚀 **Transform your BIM data into actionable insights with IFC Viewer for Power BI!** 
-
-
-## Contact -->
-
-If you would like to get the IFC Viewer Microsoft Power BI App please book a meeting with us to get a test licence.
-
-[**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
-
-We look forward to exploring how an IFC Microsoft Power BI App can enhance your data analytics.
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+> Need custom Power BI dashboards with integrated data sources? [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/).
