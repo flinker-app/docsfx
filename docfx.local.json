@@ -1,0 +1,43 @@
+{
+    "build": {
+      "content": [
+        {
+          "files": [
+            "**/*.{md,yml}",
+            "404.html"
+          ],
+          "exclude": [
+            "_site/**"
+          ]
+        }
+      ],
+      "resource": [
+        {
+          "files": [
+            "_media/**",
+            "favicon.ico"
+          ]
+        }
+      ],
+      "output": "_site",
+      "template": [
+        "default",
+        "modern",
+        "my-template"
+      ],
+      "sitemap": {
+        "baseUrl": "https://docs.flinker.app"
+      },
+      "globalMetadata": {
+        "_appName": "",
+        "_appTitle": "docs",
+        "_enableNewTab": true,
+        "_appLogoPath": "/_media/flinker-icon.png",
+        "_appFaviconPath": "favicon.ico",
+        "_sitemap": true,
+        "_appFooter": "<div id=\"footer\" style=\" flex-direction: column;display: flex;\"><span style=\"margin-top: 10px;\"><a href=\"https://docs.flinker.app/\" target=\"_blank\">Home</a> | <a href=\"https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/\" target=\"_blank\">Support</a> | <a href=\"https://www.flinker.app/data-protection\" target=\"_blank\">Privacy</a> | <!-- LinkedIn JavaScript SDK --><script src=\"https://platform.linkedin.com/in.js\" type=\"text/javascript\">lang: en_US</script><!-- LinkedIn Follow Company Button --><script type=\"IN/FollowCompany\" data-id=\"77044265\"></script></span><img src=\"/_media/microsoft-partner-logo.jpeg\" alt=\"Microsoft Partner\" style=\"margin-top: 20px; margin-bottom: 20px; max-width: 100px;\" /><span>&copy; 2025 Flinker GmbH. All rights reserved.</span></div>",
+        "_enableSearch": true,
+        "_disableContribution": true
+      }
+    }
+  }
