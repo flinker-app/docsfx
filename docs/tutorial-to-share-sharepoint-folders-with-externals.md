@@ -87,8 +87,7 @@ Non-Microsoft accounts can access the resources via a temporary passcode:
    <img src="/_media/user-with-non-microsoft-account-will-be-granted-access-to-the-shared-file-or-folder.png" alt="User with non-Microsoft account now has access" style="max-width:350px;" />
 
 ## Managing shared folders with the Protect app
-
-Our custom [Protect app](share-features.html) is designed to simplify the administration of external sharing by providing a centralized dashboard. Once you’ve assigned permissions to multiple users and groups across various folders, our app lets you view and manage these permissions all in one place, streamlining your permission management process:
+Our custom [Protect app](~/docs/share-features.md) is designed to simplify the administration of external sharing by providing a centralized dashboard. Once you’ve assigned permissions to multiple users and groups across various folders, our app lets you view and manage these permissions all in one place, streamlining your permission management process:
 
 - **Centralized Overview:** Get a complete view of permissions across multiple folders and groups.
 - **Real-Time Management:** Quickly update or revoke permissions with immediate effect across your SharePoint site.
