@@ -37,8 +37,13 @@ After editing the parameters, apply the changes in Power BI by selecting **Apply
 
 ### Step 5: Confirm Loaded Properties and Model
 
+Sometimes, you may need to refresh the visual by removing and adding it again. To do this, right-click on the visual and select **Remove**. Then, add the visual back to your report.
+
+![Remove and Add Visual in Power BI Desktop](/_media/power-bi-desktop-app-remove-and-add-visual.png)
+
 Once applied, ensure that the properties and IFC model are loaded correctly within your Power BI project.
 
 ![Loaded Properties and IFC Model](/_media/power-bi-desktop-app-loaded-properties-and-model.png)
 
 You are now ready to visualize your IFC model directly in Power BI using the IFC Viewer.
+
