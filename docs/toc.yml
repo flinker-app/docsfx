@@ -53,6 +53,8 @@
       items:
         - name: Installation
           href: ifc-viewer-installation-for-power-bi.md
+        - name: Usage
+          href: ifc-viewer-usage-for-power-bi.md
         - name: 3D Viewer for Microsoft Power BI
           href: ifc-power-bi.md
     - name: Power Automate
