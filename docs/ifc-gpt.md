@@ -5,6 +5,7 @@ keywords: IFC GPT, BIM, AI, data analysis, natural language queries
 canonical_url: https://docs.flinker.app/docs/ifc-gpt.html
 ---
 
+
 # IFC GPT
 
 ## Introduction
