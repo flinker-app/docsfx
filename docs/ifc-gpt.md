@@ -8,7 +8,7 @@ canonical_url: https://docs.flinker.app/docs/ifc-gpt.html
 
 # IFC GPT
 
-## Introduction
+### Introduction
 
 The IFC GPT integration can bring advanced AI capabilities to your BIM workflows, streamlining data analysis and delivering valuable insights from your IFC models. This feature can automate complex tasks and enhance decision-making, making your projects more efficient.
 
