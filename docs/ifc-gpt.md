@@ -8,7 +8,7 @@ canonical_url: https://docs.flinker.app/docs/ifc-gpt.html
 
 # IFC GPT
 
-### Introduction
+## Introduction
 
 The IFC GPT integration can bring advanced AI capabilities to your BIM workflows, streamlining data analysis and delivering valuable insights from your IFC models. This feature can automate complex tasks and enhance decision-making, making your projects more efficient.
 
@@ -54,5 +54,8 @@ Your files stay with you and your organization! We do not upload your files anyw
 
 All file processing is client-side. That means all processing takes place in your SharePoint and MS Teams tenant without sending files to external parties. This ensures full privacy and security. For more details, see [Microsoft App Compliance](https://learn.microsoft.com/en-us/microsoft-365-app-certification/teams/flinker-gmbh-open-ifc-viewer?pivots=general)
 
+### What the hell is IFC GPT?
+
+IFC GPT is the natural language search in the IFC viewer.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
