@@ -105,10 +105,6 @@ That's it! You've successfully set up the IFC Viewer in your Microsoft Teams env
 
     Yes, your data remains secure within your Microsoft 365 tenant. The IFC Viewer does not upload or process data externally. All data stays within your company's SharePoint and Microsoft 365 environment, ensuring maximum data security and compliance with your organization's policies.
 
-7. **laksfdhldhlks my data secure when using the IFC Viewer?**
-
-    Yes, your data remains secure within your Microsoft 365 tenant. The IFC Viewer does not upload or process data externally. All data stays within your company's SharePoint and Microsoft 365 environment, ensuring maximum data security and compliance with your organization's policies.
-
 
 ## Contact
 
