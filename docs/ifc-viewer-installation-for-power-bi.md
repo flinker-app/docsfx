@@ -1,21 +1,15 @@
 ---
-title: 3D IFC Viewer Installation for Power BI
+title: Install 3D IFC Viewer for Power BI
 description: Clear, step-by-step guide for installing and managing the IFC Viewer in Power BI.
 keywords: Power BI, IFC Viewer, Installation, 3D, BIM, Visual
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-installation-for-power-bi.html
 ---
 
-# 3D IFC Viewer Installation for Power BI
-
-> [!TIP]  
-> **Why Choose Our IFC Viewer for Power BI?**  
-> - **Clear Visualization:** Instantly view and interact with IFC models within Power BI for better insights.  
-> - **Seamless Integration:** Easily integrate with existing Power BI reports and dashboards.  
-> - **Enhanced Collaboration:** Share interactive IFC models for improved teamwork and communication.
+# Install 3D IFC Viewer for Power BI
 
 ## 1. Install IFC Viewer from Microsoft AppSource
 1. Go to the [IFC Viewer AppSource page](https://appsource.microsoft.com/en-us/product/power-bi-visuals/flinkergmbh1644589155747.ifc-viewer).
-2. Click **Get it now** to add the visual to your Power BI account.
+2. Flollow the **Steps to Use the IFC Viewer in Power BI**.
 
 ## 2. Enable Custom Visual Imports (Admins Only)
 
@@ -38,5 +32,9 @@ Optional step. Use only if you want to centrally deploy IFC Viewer so all users 
 
 ![Organizational Visuals Screenshot](/_media/add-ifc-viewer-to-organizational-visuals.png)
 
+
+## 4. Licensing Information
+
+For detailed information on licensing for Power BI visuals, please refer to the [Power BI Visuals Licensing FAQ](https://learn.microsoft.com/en-us/power-bi/developer/visuals/licensing-faq). This resource provides answers to common questions regarding licensing, distribution, and usage of custom visuals in Power BI.
 
 
