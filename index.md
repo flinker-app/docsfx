@@ -166,24 +166,30 @@ Discover the full potential of Microsoft Apps with these guides and documentatio
 <div class="vertical-card-container">
   <div class="vertical-card">
     <div class="vertical-card-content">
-      <h3 class="card-title">Setup</h3>
-      <a href="/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html" class="card-link">IFC Viewer setup in Teams</a>
-      <a href="/docs/viewer-app-installation-with-admin-approval.html" class="card-link">IFC Viewer setup in SharePoint</a>
-      <a href="/docs/installation.html" class="card-link">Protect app setup</a>
+      <h3 class="card-title">Installation Setup Guide</h3>
+      <a href="/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html" class="card-link">IFC Viewer Setup in Microsoft Teams</a>
+      <a href="/docs/viewer-app-installation-with-admin-approval.html" class="card-link">IFC Viewer Setup in SharePoint</a>
+      <a href="https://docs.flinker.app/docs/ifc-power-bi.html" class="card-link">IFC Viewer Setup in Power BI</a>
+      <a href="/docs/installation.html" class="card-link">Protect App Setup</a>
     </div>
   </div>
   <div class="vertical-card">
     <div class="vertical-card-content">
       <h3 class="card-title">Features</h3>
-      <a href="/docs/share-features.html" class="card-link">Protect app features</a>
-      <a href="/docs/faq-ifc-viewer.html" class="card-link">IFC Viewer app FAQs</a>
+      <a href="https://docs.flinker.app/docs/ifc-viewer.html" class="card-link">Base IFC Viewer features</a>
+      <a href="https://docs.flinker.app/docs/ifc-bcf.html" class="card-link">BCF Integration</a>
+      <a href="https://docs.flinker.app/docs/ifc-gpt.html" class="card-link">AI Search</a>
+      <a href="https://docs.flinker.app/docs/ifc-power-bi.html" class="card-link">Power BI features</a>
+      <a href="/docs/share-features.html" class="card-link">Protect App features</a>
     </div>
   </div>
   <div class="vertical-card">
     <div class="vertical-card-content">
-      <h3 class="card-title">FAQs</h3>
-      <a href="/docs/faq-share-app-for-microsoft-sharepoint.html" class="card-link">Protect app FAQs</a>
-      <a href="/docs/faq-ifc-viewer.html" class="card-link">IFC Viewer app FAQs</a>
+      <h3 class="card-title">Frequently Asked Questions</h3>
+      <a href="https://docs.flinker.app/docs/faq-ifc-viewer.html" class="card-link">IFC Viewer FAQ's</a>
+      <a href="https://docs.flinker.app/docs/ifc-bcf.html" class="card-link">BCF Integration FAQ's</a>
+      <a href="https://docs.flinker.app/docs/ifc-gpt.html" class="card-link">IFC GPT FAQ's</a>
+      <a href="https://docs.flinker.app/docs/faq-share-app-for-microsoft-sharepoint.html" class="card-link">Protect App FAQ's</a>
     </div>
   </div>  
 </div>
