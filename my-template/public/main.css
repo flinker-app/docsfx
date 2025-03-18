@@ -8,30 +8,85 @@ footer {
     align-items: flex-start;
 }
 
-.navbar-brand #logo{
+.navbar-brand #logo {
     width: 24px;
     height: 24px;
 }
 
-article h1  {
+article h1 {
     margin-bottom: 1rem;
 }
 
-article h2  {
+article h2 {
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
-article h3  {
+article h3 {
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
-article h4  {
+article h4 {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-article p, article li {
+article p,
+article li {
     margin-top: 1rem;
+}
+
+
+details {
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    transition: all 0.3s ease;
+}
+
+details:first-of-type {
+    border-radius: 4px 4px 0 0;
+    /* round top corners */
+}
+
+details:last-of-type {
+    border-radius: 0 0 4px 4px;
+    /* round bottom corners */
+}
+
+/* Remove the top border from every <details> except the first one */
+details:not(:first-of-type) {
+    border-top: none;
+}
+
+summary {
+    cursor: pointer;
+    padding: 0.5em 1em;
+    margin: 0;
+    border-radius: 4px 4px 0 0;
+    outline: none;
+    list-style: none;
+    font-weight: bolder;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] summary {
+    color: #000;
+    border-bottom: var(--bs-border-width) solid var(--bs-border-color);
+}
+
+details>*:not(summary) {
+    padding: 0.5em 1em;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    margin: 0;
+}
+
+details ul,
+details ol {
+    margin-left: 1em;
+    /* Adjust as needed */
+    padding-left: 1em;
 }
