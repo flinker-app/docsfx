@@ -103,7 +103,7 @@ A secure and privacy first IFC Microsoft Excel integration that will revolutioni
 
 5. **Can I customize data queries in Excel?**
 
-    Yes, you can customize data queries in Excel to fit your specific project needs once you have setup the IFC synchronization. The IFC GPT integration allows you to use natural language to search and query data from IFC files. The Excel integration will allow you to write phyton scripts or PowerBI reports on your IFC data in real time. This makes it easy to generate tailored reports and insights that are relevant to your project.
+    Yes, you can customize data queries in Excel to fit your specific project needs once you have setup the IFC synchronization. The AI Search integration allows you to use natural language to search and query data from IFC files. The Excel integration will allow you to write phyton scripts or PowerBI reports on your IFC data in real time. This makes it easy to generate tailored reports and insights that are relevant to your project.
 
 6. **Is the Microsoft IFC Excel feature secure?**
 
