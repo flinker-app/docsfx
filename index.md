@@ -154,7 +154,13 @@ _disableNextArticle: true
 
 # Documentation and Support
 
-Microsoft 365 Apps for secure project management between teams and companies. Discover the full potential of Microsoft Apps with these guides and documentation. Enhance your team collaboration and security across Microsoft SharePoint and Teams.
+### Welcome to Flinker's Documentation!<br>
+This documentation guides you through **setting up**, **using**, and **troubleshooting** Flinker within Microsoft 365.<br> 
+It includes installation steps, feature explanations, and answers to **frequently asked questions**.
+
+**_Flinker_** provides tools within Microsoft 365 to help construction teams collaborate on BIM models, track project issues, and manage their data securely without needing to leave the Microsoft environment.
+
+Discover the full potential of Microsoft Apps with these guides and documentation. Enhance your team collaboration and security across Microsoft SharePoint and Teams.
 
 <!-- Vertical Cards -->
 <div class="vertical-card-container">
@@ -183,7 +189,7 @@ Microsoft 365 Apps for secure project management between teams and companies. Di
 </div>
 
 ## Apps for Microsoft 365
-All our products have been designed specifically for Microsoft 365. That means our solutions fit seamlessly with your existing Microsoft infrastructure.
+All our products are built to integrate seamlessly with your existing Microsoft 365 setup (*SharePoint*, *Teams*, or *Power BI*) to streamline your project management and collaboration.
 
 <!-- Horizontal Cards -->
 <div class="horizontal-card-container"> 
@@ -193,7 +199,7 @@ All our products have been designed specifically for Microsoft 365. That means o
       alt="IFC Viewer">
     <div class="horizontal-card-content">
       <h3 class="card-title">IFC Viewer in SharePoint</h3>
-      <p class="card-description">Seamlessly view IFC files directly in SharePoint.</p>
+      <p class="card-description">View and interact with IFC files directly in SharePoint for seamless project collaboration.</p>
     </div>
   </a>
   <a href="/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html" class="horizontal-card">
@@ -202,7 +208,7 @@ All our products have been designed specifically for Microsoft 365. That means o
       alt="IFC Viewer in Teams">
     <div class="horizontal-card-content">
       <h3 class="card-title">IFC Viewer in Teams</h3>
-      <p class="card-description">Seamlessly view IFC files directly in Teams.</p>
+      <p class="card-description">View and interact with IFC files directly in SharePoint for seamless project collaboration.</p>
     </div>
   </a>
   <a href="/docs/ifc-power-bi.html" class="horizontal-card">
@@ -211,7 +217,7 @@ All our products have been designed specifically for Microsoft 365. That means o
       alt="IFC Viewer in Teams">
     <div class="horizontal-card-content">
       <h3 class="card-title">IFC Viewer in Power BI</h3>
-      <p class="card-description">Seamlessly view IFC files directly in Power BI.</p>
+      <p class="card-description">Visualize your IFC files in Power BI to gain insights and create reports.</p>
     </div>
   </a>
   <a href="/docs/share-features.html" class="horizontal-card">
@@ -220,7 +226,7 @@ All our products have been designed specifically for Microsoft 365. That means o
       alt="Share">
     <div class="horizontal-card-content">
       <h3 class="card-title">Protect</h3>
-      <p class="card-description">Secure your shared data in SharePoint and Teams.</p>
+      <p class="card-description">Secure your project data by managing file permissions within SharePoint and Teams.</p>
     </div>
   </a>
 </div>
