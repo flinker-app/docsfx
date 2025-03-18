@@ -17,9 +17,9 @@ To use a SharePoint file, locate your IFC file, right-click the file, and select
 
 ![Copy Direct Link of SharePoint IFC File](/_media/copy-direct-link-of-sharepoint-ifc-file.png)
 
-### Step 2: Edit Parameters in Power BI Desktop
+### Step 2: Download Sample Report and Edit Parameters in Power BI Desktop
 
-Open your Power BI Desktop application and navigate to **Edit Parameters** under the **Home** tab.
+Download the sample Power BI report from AppSource. Open it your Power BI Desktop application and navigate to **Edit Parameters** under the **Home** tab.
 
 ![Power BI Desktop - Edit Parameters](/_media/power-bi-desktop-app-edit-parameters.png)
 
