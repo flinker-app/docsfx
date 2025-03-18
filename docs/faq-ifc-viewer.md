@@ -30,16 +30,16 @@ Yes, you can determine which users or user groups can see the 3D or IFC model in
 
 ## Q: What happens if my IFC model takes too long to load? 
 If your model is taking too long to load, try the following:  
-1️⃣ Check your internet speed</strong> – A slow connection can delay loading.<br>  
-2️⃣ Reduce the number of open applications</strong> – Free up memory for better performance.<br>  
-3️⃣ Ensure your IFC file is optimized</strong> – Large, unoptimized models may take longer to load.  
+1. Check your internet speed</strong> – A slow connection can delay loading.<br>  
+2. Reduce the number of open applications</strong> – Free up memory for better performance.<br>  
+3. Ensure your IFC file is optimized</strong> – Large, unoptimized models may take longer to load.  
 
 
 ## Q: Can I view multiple IFC models at the same time?  
 
 Yes! You can load multiple models in the IFC Viewer both in the Teams and in the SharePoint App by adding multiple IFC files from your SharePoint library.  
--See here how to add multiple files in the IFC SharePoint viewer: [Click here](https://docs.flinker.app/docs/load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.html).  
--For the Teams IFC Viewer, follow this guide: [Click here](https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html#step-3-set-up-the-tab).  
+- See here how to add multiple files in the IFC SharePoint viewer: [Click here](https://docs.flinker.app/docs/load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.html).  
+- For the Teams IFC Viewer, follow this guide: [Click here](https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html#step-3-set-up-the-tab).  
 
 ## Q: Does the IFC Viewer support Autodesk Revit or Navisworks files?  
 
