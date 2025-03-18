@@ -1,22 +1,22 @@
 ---
-title: IFC GPT Integration
-description: Learn how the IFC GPT integration can enhance your BIM workflows with advanced AI capabilities.
-keywords: IFC GPT, BIM, AI, data analysis, natural language queries
-canonical_url: https://docs.flinker.app/docs/ifc-gpt.html
+title: AI Search Integration
+description: Learn how the AI Search integration can enhance your BIM workflows with advanced AI capabilities.
+keywords: AI Search, BIM, AI, data analysis, natural language queries
+canonical_url: https://docs.flinker.app/docs/ai-search.html
 ---
 
 
-# IFC GPT
+# AI Search
 
 ## Introduction
 
-The IFC GPT integration can bring advanced AI capabilities to your BIM workflows, streamlining data analysis and delivering valuable insights from your IFC models. This feature can automate complex tasks and enhance decision-making, making your projects more efficient.
+The AI Search integration can bring advanced AI capabilities to your BIM workflows, streamlining data analysis and delivering valuable insights from your IFC models. This feature can automate complex tasks and enhance decision-making, making your projects more efficient.
 
 If you'd like to learn more about how this integration can benefit your workflow, our team is ready to discuss the possibilities with you.
 
 [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 
-We look forward to exploring how an IFC GPT integration can enhance your organization's efficiency.
+We look forward to exploring how an AI Search integration can enhance your organization's efficiency.
 
 ## Features
 
@@ -42,11 +42,11 @@ A secure and privacy first GPT integration for the Microsoft IFC app that will r
 
 You can ask your IFC file anything. Of course your questions should be relevant to the data in the IFC file. You cannot chat with data that is not contained yet in your IFC file - this is understandable.
 
-### What languages are supported for my IFC GPT prompts/questions?
+### What languages are supported for my AI Search prompts/questions?
 
 You can prompt and chat with your IFC file in any major world language. Just as you would do with GPT and other Large language Models (LLMs).
 
-### Is the Microsoft IFC GPT feature secure?
+### Is the Microsoft AI Search feature secure?
 
 Absolutely, as any of our privacy-first Microsoft Apps. It is as secure as it could be with Microsoft. Azure AI is an enterpise level security technology and is used by the largest organizations worldwide. 
 

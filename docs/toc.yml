@@ -15,8 +15,8 @@
 - name: Advanced IFC
   expanded: true
   items:
-    - name: IFC GPT
-      href: ifc-gpt.md
+    - name: AI Search
+      href: ai-search.md
     - name: COBie
       href: ifc-cobie.md
     - name: Navisworks
