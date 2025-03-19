@@ -176,8 +176,9 @@ Discover the full potential of Microsoft Apps with these guides and documentatio
   <div class="vertical-card">
     <div class="vertical-card-content">
       <h3 class="card-title">Features</h3>
-      <a href="/docs/ifc-viewer.html" class="card-link">Base IFC Viewer features</a>
+      <a href="/docs/ifc-viewer.html" class="card-link">IFC Viewer features</a>
       <a href="/docs/ifc-bcf.html" class="card-link">BCF Integration</a>
+      <a href="https://docs.flinker.app/docs/faq-ifc-viewer.html="card-link">Clipping Tool</a>
       <a href="/docs/ai-search.html" class="card-link">AI Search</a>
       <a href="/docs/ifc-power-bi.html" class="card-link">Power BI features</a>
       <a href="/docs/share-features.html" class="card-link">Protect App features</a>
