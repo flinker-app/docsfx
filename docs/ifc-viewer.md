@@ -14,8 +14,7 @@ Unlock the full potential of your project management with our open, free, and fa
 
 ## Get Started with IFC Viewer
 
->To access the Online IFC Viewer for Microsoft<br>
->**Click here: 👉 https://viewer.flinker.app/**
+>To access the Online IFC Viewer<br> **Click here: 👉 [viewer.flinker.app](https://viewer.flinker.app/)**
 
 <iframe src="https://viewer.flinker.app/" width="100%" height="500px"></iframe>
 
