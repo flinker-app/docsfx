@@ -73,7 +73,6 @@ summary::-webkit-details-marker {
 }
 
 details[open] summary {
-    color: #000;
     border-bottom: var(--bs-border-width) solid var(--bs-border-color);
 }
 
