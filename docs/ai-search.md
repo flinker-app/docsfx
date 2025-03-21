@@ -6,33 +6,32 @@ canonical_url: https://docs.flinker.app/docs/ai-search.html
 ---
 
 
-# AI Search
+# AI Search 
 
-## Introduction
+### 🔍You can now easily find specific components and data inside your IFC models. 
 
-The AI Search integration can bring advanced AI capabilities to your BIM workflows, streamlining data analysis and delivering valuable insights from your IFC models. This feature can automate complex tasks and enhance decision-making, making your projects more efficient.
+The **AI Search** integration can bring advanced AI capabilities to your BIM workflows, streamlining data analysis and delivering valuable insights from your IFC models. This feature can automate complex tasks and enhance decision-making, making your projects more efficient. 
 
-If you'd like to learn more about how this integration can benefit your workflow, our team is ready to discuss the possibilities with you.
+<!-- ### Sample questions in natural language:
 
-[**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
-
-We look forward to exploring how an AI Search integration can enhance your organization's efficiency.
+-*“How many steel beams are in the model?”*<br>
+-*“Show me all windows on the second floor.”*<br>
+-*“What’s the total area of the walls?”*<br> -->
 
 ## Features
 
-* Search and query single or multiple IFC files with natural language
-* Query for prosa words (stings) or other data formats like numbers, IDs etc.
-* Combine multiple prompts in your IFC query
-* Clear search by typing "reset all"
+* Search in multiple Models: Search components in single or multiple IFC files.
+* Look-up Data Formats: Query for prosa words (stings) or other data formats like numbers, IDs etc.
+* Advanced Queries: Combine multiple prompts for more specific results (e.g., *“Show me all steel beams and columns on the first floor”*).
+* Reset Search: Easily clear your search with one click *“reset all”*.
 
 ## Benefits
 
-* ✅ **Enhanced Efficiency**: Work faster and more efficient as in IFC browser, saving valuable time
-* ✅ **Improved Decision-Making**: Do not oversee IFC data and gain better insights from your IFC model for more informed and accurate decisions
-* ✅ **Natural Language Queries**: Easily search and query IFC files using natural language, making data retrieval intuitive and accessible for anybody in your team
-* ✅ **Comprehensive Data Analysis**: Combine multiple prompts to perform complex queries, providing a thorough analysis of your BIM data
-* ✅ **Privacy and Security**: Ensure your data remains secure with client-side processing and no external file uploads
-* ✅ **Multilingual Support**: Interact with your IFC files in any major language, accommodating diverse project teams
+✅ **Faster Searching**: Quickly find what you need with natural language queries. No need for technical jargon.<br>
+✅ **Accurate Decision-Making**: Easy access to model data for more accurate decisions to avoid overseeing data.<br>
+✅ **User-Friendly**: Anyone on your team, no matter their technical knowledge, can search the model intuitively.<br>
+✅ **Comprehensive Data Analysis**: Combine multiple search queries to dive deeper into your BIM data.<br>
+✅ **Multilingual Support**: Interact with your IFC files in any major language, accommodating diverse project teams.<br>
 
 ## FAQ 
 
@@ -53,6 +52,3 @@ Absolutely, as any of our privacy-first Microsoft Apps. It is as secure as it co
 Your files stay with you and your organization! We do not upload your files anywhere. This is one of the big benefits when your company works with our Microsoft Apps: There is no need to download your files and upload it again in external software platforms.
 
 All file processing is client-side. That means all processing takes place in your SharePoint and MS Teams tenant without sending files to external parties. This ensures full privacy and security. For more details, see [Microsoft App Compliance](https://learn.microsoft.com/en-us/microsoft-365-app-certification/teams/flinker-gmbh-open-ifc-viewer?pivots=general)
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
