@@ -158,7 +158,8 @@ _disableNextArticle: true
 This documentation guides you through **setting up**, **using**, and **troubleshooting** Flinker within Microsoft 365.<br> 
 It includes installation steps, feature explanations, and answers to **frequently asked questions**.
 
-**_Flinker_** provides tools within Microsoft 365 to help construction teams collaborate on BIM models, track project issues, and manage their data securely without needing to leave the Microsoft environment.
+Flinker is a suite of self-hosted Microsoft 365 apps designed to empower project managers and teams in real estate and infrastructure development, design, construction, and property management. 
+Our BIM-driven tools enable secure project management, seamless IFC model collaboration, a SharePoint CDE and custom workflow creation using open standards with Microsoft 365.
 
 Discover the full potential of Microsoft Apps with these guides and documentation. Enhance your team collaboration and security across Microsoft SharePoint and Teams.
 
