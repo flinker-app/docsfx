@@ -1,8 +1,8 @@
-- name: Docs 🤷
+- name: DOCS 🤷
 - name: Get started
   href: ../index.md
 
-- name: BIM Tools 🧊
+- name: BIM TOOLS 🧊
 - name: BIM Features
   expanded: true
   items:
@@ -59,7 +59,7 @@
     - name: Power Apps
       href: ifc-power-apps.md
 
-- name: SharePoint Protect 🛡️
+- name: PROTECT 🛡️
 - name: Features
   href: share-features.md
 - name: Installation for Admins
@@ -68,7 +68,7 @@
   href: upgrade-share-app.md
 - name: Tutorials
   href: protect-tutorials.yml
-  expanded: true
+  expanded: false
   items:
     - name: Create Groups and Folders
       href: create-sharepoint-group-and-folder-structure.md
