@@ -1,11 +1,11 @@
-# 📘 Microsoft Lists + BCF Integration  
+# 📘**Microsoft Lists + BCF Integration**
 
 ## Track BIM Issues Like a Pro!
 
 Managing BIM issues is now as *easy* as managing a to-do list.<br>
 ***Flinker*** turn BIM issues *(like BCF topics)* into **clear, actionable tasks inside Microsoft Lists**. No more messy spreadsheets or forgotten tasks, just smooth and organized collaboration.
 
-### 🔷**Key Benefits**  
+### ✅ Key Benefits 
 
 **Cross-Team Tracking**<br>
 🔹Stay on top of project issues across multiple teams and projects—all in *one place*.
@@ -26,7 +26,7 @@ Managing BIM issues is now as *easy* as managing a to-do list.<br>
 * *Due date*
 
 
-### 🔷**Choose Your Favorite View**
+### ✅ Choose Your Favorite View
 
 **List View** - Clean and simple. Great for sorting and scanning quickly.<br>
 ![List Items View](/_media/bcftopics-as-listitems-in-micrsoftlists.png)  
@@ -37,7 +37,7 @@ Managing BIM issues is now as *easy* as managing a to-do list.<br>
 **Calendar View** - See all your deadlines and milestones at a glance. Perfect for project managers.<br>
 ![Calendar View](/_media/bcftopics-as-calendarview-in-micrsoftlists.png)
 
-### 🔷**What You’ll Love About This Integration**
+### ✅ What You’ll Love About This Integration
 
 **No More Manual Work** <br>
  BCF topics are synced automatically into Microsoft Lists that's saving time and avoiding mistakes.
@@ -51,7 +51,7 @@ Managing BIM issues is now as *easy* as managing a to-do list.<br>
 **Keep Everyone Aligned** <br>
 Everyone sees the same up-to-date information. No confusion, no version mess-ups.
 
-### 🔷**Real-World Example:**
+### ✅ Real-World Example:
 Let’s say your BIM model has a clash issue between a pipe and a beam.<br>
 🔹Here’s what happens with ***Flinker***:
 1. The clash is saved as a BCF topic 
