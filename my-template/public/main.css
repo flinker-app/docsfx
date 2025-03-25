@@ -89,3 +89,7 @@ details ol {
     /* Adjust as needed */
     padding-left: 1em;
 }
+
+.indent-paragraph {
+  margin-left: 2em;
+}
