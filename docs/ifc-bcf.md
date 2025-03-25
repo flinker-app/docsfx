@@ -5,15 +5,36 @@ keywords: BCF, BIM, Collaboration, SharePoint, Teams, Integration
 canonical_url: https://docs.flinker.app/docs/ifc-bcf.html
 ---
 
-# BCF Integration
+## 📘 BCF Integration
 
-The BCF (BIM Collaboration Format) integration can bring seamless issue tracking and communication to your SharePoint and Teams environments.
+Integrate the **BIM Collaboration Format (BCF)** into your SharePoint and Teams workflows to streamline issue tracking and improve project communication.
 
-If you're interested in learning how this integration can improve your BIM processes within SharePoint and Teams, our team is ready to discuss it with you.
+### ✅ What is BCF?
 
-[**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
+**BCF** (BIM Collaboration Format) is an open standard that lets you share model-based issues across your team. It keeps comments and issue details connected to the 3D model—so everyone sees exactly what needs attention, with the full context.
 
-We are excited to explore how a BCF integration with SharePoint and Teams can enhance your project management and collaboration.
+🔹 Works across BIM tools  
+🔹 Keeps discussions model-linked  
+🔹 Improves clarity and accountability
 
+### ✅ Benefits of BCF Integration
+
+🔹 **Seamless Issue Tracking**:  
+&emsp;&emsp;Manage BCF topics directly inside Microsoft 365—no external tools needed.
+
+🔹 **Enhanced Collaboration**:  
+&emsp;&emsp;Link issues to exact model components and collaborate in real-time with your team inside SharePoint and Teams.
+
+🔹 **Better Workflow Efficiency**:  
+&emsp;&emsp;Keep everything in one place: models, issues, and updates—without switching platforms.
+
+### ➡️ How to Get Started
+
+To see how ***Flinker*** can bring BCF workflows into your Microsoft 365 setup:
+
+> [!div class="nextstepaction"]
+>[**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
+
+We’ll show you how to manage issues, assign tasks, and collaborate on model data. right where your team already works.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
