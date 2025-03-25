@@ -13,6 +13,10 @@ footer {
     height: 24px;
 }
 
+.indent-paragraph {
+  margin-left: 2em;
+}
+
 article h1 {
     margin-bottom: 1rem;
 }
@@ -88,8 +92,4 @@ details ol {
     margin-left: 1em;
     /* Adjust as needed */
     padding-left: 1em;
-}
-
-.indent-paragraph {
-  margin-left: 2em;
 }
