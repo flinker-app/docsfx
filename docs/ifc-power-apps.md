@@ -17,5 +17,4 @@ We look forward to showing you how Microsoft Power App linking to IFC can improv
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 

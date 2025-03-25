@@ -113,5 +113,3 @@ If you'd like to learn more about how this integration can benefit your workflow
 [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 
 We look forward to exploring how an IFC Microsoft Viewer and it's integrations can enhance your organization's efficiency.
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

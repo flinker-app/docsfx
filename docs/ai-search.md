@@ -6,34 +6,39 @@ canonical_url: https://docs.flinker.app/docs/ai-search.html
 ---
 
 
-# AI Search 
+# 🔍 AI Search 
 
-### 🔍You can now easily find specific components and data inside your IFC models. 
+### You can now easily find specific components and data inside your IFC models.  
 
-The **AI Search** integration can bring advanced AI capabilities to your BIM workflows, streamlining data analysis and delivering valuable insights from your IFC models. This feature can automate complex tasks and enhance decision-making, making your projects more efficient. 
+The **AI Search** integration can bring advanced AI capabilities to your BIM workflows, streamlining data analysis and delivering valuable insights from your IFC models. This feature can automate complex tasks and enhance decision-making, making your projects more efficient.
 
-<!-- ### Sample questions in natural language:
-
--*“How many steel beams are in the model?”*<br>
--*“Show me all windows on the second floor.”*<br>
--*“What’s the total area of the walls?”*<br> -->
+### Sample questions in natural language: <br>
+> *“How many steel beams are in the model?”*<br>
+> *“Show me all windows on the second floor.”*<br>
+> *“What’s the total area of the walls?”*<br> 
 
 ## Features
 
-* Search in multiple Models: Search components in single or multiple IFC files.
-* Look-up Data Formats: Query for prosa words (stings) or other data formats like numbers, IDs etc.
-* Advanced Queries: Combine multiple prompts for more specific results (e.g., *“Show me all steel beams and columns on the first floor”*).
-* Reset Search: Easily clear your search with one click *“reset all”*.
+🔹  Search in multiple Models: Search components in single or multiple IFC files.<br>
+🔹  Look-up Data Formats: Query for prosa words (stings) or other data formats like numbers, IDs etc.<br>
+🔹  Advanced Queries: Combine multiple prompts for more specific results <br>
+&emsp;&emsp;(e.g., *“Show me all steel beams and columns on the first floor”*).<br>
+🔹  Reset Search: Easily clear your search with one click *“reset all”*.
 
 ## Benefits
 
-✅ **Faster Searching**: Quickly find what you need with natural language queries. No need for technical jargon.<br>
-✅ **Accurate Decision-Making**: Easy access to model data for more accurate decisions to avoid overseeing data.<br>
-✅ **User-Friendly**: Anyone on your team, no matter their technical knowledge, can search the model intuitively.<br>
-✅ **Comprehensive Data Analysis**: Combine multiple search queries to dive deeper into your BIM data.<br>
-✅ **Multilingual Support**: Interact with your IFC files in any major language, accommodating diverse project teams.<br>
+**Faster Searching**: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Quickly find what you need with natural language queries. No need for technical jargon.<br>
+**Accurate Decision-Making**: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Easy access to model data for more accurate decisions to avoid overseeing data.<br>
+**User-Friendly**: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Anyone on your team, no matter their technical knowledge, can search the model intuitively.<br>
+**Comprehensive Data Analysis**: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Combine multiple search queries to dive deeper into your BIM data.<br>
+**Multilingual Support**: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Interact with your IFC files in any major language, accommodating diverse project teams.<br>
 
-## FAQ 
+## 💬 FAQ 
 
 A secure and privacy first GPT integration for the Microsoft IFC app that will revolutionize your IFC project management.
 
