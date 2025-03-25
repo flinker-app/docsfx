@@ -14,7 +14,7 @@ footer {
 }
 
 .indent-paragraph {
-  margin-left: 2em;
+    margin-left: 2em;
 }
 
 article h1 {
@@ -92,4 +92,34 @@ details ol {
     margin-left: 1em;
     /* Adjust as needed */
     padding-left: 1em;
+}
+
+:root {
+    /* Brand Colors */
+    --theme-body-background: #0779ff;
+    --theme-control-border: #0779ff;
+}
+
+
+.nextstepaction a {
+    color: var(--bs-body-bg);
+    border-width: 1px;
+    border-color: var(--theme-control-border);
+    background-color: var(--theme-body-background);
+    text-align: center;
+    cursor: pointer;
+    border-radius: .25rem;
+    justify-content: center;
+    padding-block: calc(.375em - 1px);
+    padding-inline: .75em;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: Segoe UI, SegoeUI, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.nextstepaction a::after {
+    padding-left: .75em;
 }

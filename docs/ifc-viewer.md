@@ -12,13 +12,13 @@ canonical_url: https://docs.flinker.app/docs/ifc-viewer.html
 
 Unlock the full potential of your project management with our open, free, and fast IFC viewer—the perfect solution for professionals seeking a reliable and privacy-first tool. Designed to handle IFC and 3D models seamlessly, our IFC Viewer revolutionizes the way you collaborate and manage construction projects.
 
-## ✅ Get Started with IFC Viewer
+## Get Started with IFC Viewer
 
 >To access the Online IFC Viewer<br> **Click here: 👉 [viewer.flinker.app](https://viewer.flinker.app/)**
 
 <iframe src="https://viewer.flinker.app/" width="100%" height="500px"></iframe>
 
-## ✅ Why Choose IFC Viewer? <br>
+## Why Choose IFC Viewer? <br>
 
 - **Load 10x Larger Files**:
   Microsoft Teams and SharePoint tenant’s computing power that will provide you a faster and more secure IFC Viewer. <br> 

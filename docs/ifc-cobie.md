@@ -9,14 +9,14 @@ canonical_url: https://docs.flinker.app/docs/ifc-cobie.html
 
 ### Bring structure and clarity to your building data with Flinker’s easy COBie export
 
-## ✅ What is COBie?
+## What is COBie?
 **COBie** *(Construction-Operations Building information exchange)* is a data format used to deliver building information in a structured spreadsheet format. It’s commonly used in the handover stage to give facility managers all the details they need, like equipment lists, contact info, spaces, and more.<br>
 
 🔹 Output is usually a well-organized Excel file<br>
 🔹 Makes it easier to manage buildings after construction<br>
 🔹 Compatible with government and commercial BIM requirements<br>
 
-## ✅ How Flinker supports COBie
+## How Flinker supports COBie
 With ***Flinker***, you can export your IFC models into COBie spreadsheets with no fuss and no extra software. Just open your model and export in a few clicks. We make sure the right IFC properties are mapped to the right COBie fields.
 
 > [!TIP]

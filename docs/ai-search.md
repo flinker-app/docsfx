@@ -17,7 +17,7 @@ The **AI Search** integration can bring advanced AI capabilities to your BIM wor
 > *“Show me all windows on the second floor.”*<br>
 > *“What’s the total area of the walls?”*<br> 
 
-## ✅ Features
+## Features
 
 🔹  Search in multiple Models: Search components in single or multiple IFC files.<br>
 🔹  Look-up Data Formats: Query for prosa words (stings) or other data formats like numbers, IDs etc.<br>
@@ -25,7 +25,7 @@ The **AI Search** integration can bring advanced AI capabilities to your BIM wor
 &emsp;&emsp;(e.g., *“Show me all steel beams and columns on the first floor”*).<br>
 🔹  Reset Search: Easily clear your search with one click *“reset all”*.
 
-## ✅ Benefits
+## Benefits
 
 **Faster Searching**: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;Quickly find what you need with natural language queries. No need for technical jargon.<br>
