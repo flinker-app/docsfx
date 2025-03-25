@@ -1,4 +1,4 @@
-# 📘**Microsoft Lists + BCF Integration**
+# 📘Microsoft Lists + BCF Integration
 
 ## Track BIM Issues Like a Pro!
 
@@ -61,7 +61,7 @@ Let’s say your BIM model has a clash issue between a pipe and a beam.<br>
 
 **Boom**. Clash fixed, team happy, project on track.
 
-### 📫**Want a Demo?**
+### 📫Want a Demo?
 
 >**[Book a meeting with us](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)**  and we’ll show you how BCF + Microsoft Lists can simplify your project workflows.
 

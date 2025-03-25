@@ -15,7 +15,3 @@ If you're interested in learning more about how our Document Linking feature can
 
 We look forward to showing you how automatic document linking can improve your project workflows and collaboration.
 
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-

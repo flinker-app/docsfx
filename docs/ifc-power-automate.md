@@ -15,7 +15,3 @@ If you're interested in learning more about how our IFC Microsoft Power Automate
 
 We look forward to showing you how automatic Power Automate linking can improve your project workflows and collaboration.
 
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-

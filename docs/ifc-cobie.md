@@ -37,7 +37,4 @@ Here’s how to do it:
 ### 💬 Need Help?
 
 > [!div class="nextstepaction"]
-> [**Talk to us**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+> [Talk to us](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)

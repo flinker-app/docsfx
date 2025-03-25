@@ -122,4 +122,3 @@ If you'd like to learn more about how this integration can benefit your workflow
 
 We look forward to exploring how an IFC Microsoft Excel integration can enhance your organization's efficiency.
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
