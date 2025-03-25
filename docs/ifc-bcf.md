@@ -30,7 +30,7 @@ Integrate the **BIM Collaboration Format (BCF)** into your SharePoint and Teams 
 
 ### ➡️ How to Get Started
 
-To see how ***Flinker*** can bring BCF workflows into your Microsoft 365 setup:
+See how ***Flinker*** can bring BCF workflows into your Microsoft 365 setup
 
 > [!div class="nextstepaction"]
 >[**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
