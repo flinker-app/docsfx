@@ -11,7 +11,7 @@ Integrate the **BIM Collaboration Format (BCF)** into your SharePoint and Teams 
 
 ### ✅ What is BCF?
 
-**BCF** (BIM Collaboration Format) is an open standard that lets you share model-based issues across your team. It keeps comments and issue details connected to the 3D model—so everyone sees exactly what needs attention, with the full context.
+**BCF** (BIM Collaboration Format) is an open standard that lets you share model-based issues across your team. It keeps comments and issue details connected to the 3D model so everyone sees exactly what needs attention, with the full context.
 
 🔹 Works across BIM tools  
 🔹 Keeps discussions model-linked  
@@ -20,13 +20,13 @@ Integrate the **BIM Collaboration Format (BCF)** into your SharePoint and Teams 
 ### ✅ Benefits of BCF Integration
 
 🔹 **Seamless Issue Tracking**:  
-&emsp;&emsp;Manage BCF topics directly inside Microsoft 365—no external tools needed.
+&emsp;&emsp;Manage BCF topics directly inside Microsoft 365.
 
 🔹 **Enhanced Collaboration**:  
 &emsp;&emsp;Link issues to exact model components and collaborate in real-time with your team inside SharePoint and Teams.
 
 🔹 **Better Workflow Efficiency**:  
-&emsp;&emsp;Keep everything in one place: models, issues, and updates—without switching platforms.
+&emsp;&emsp;Keep everything in one place: models, issues, and updates without switching platforms.
 
 ### ➡️ How to Get Started
 
