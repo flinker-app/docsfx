@@ -1,33 +1,30 @@
-- name: Docs
+- name: DOCS 🤷
 - name: Get started
   href: ../index.md
 
-- name: IFC & BCF 
-- name: Base IFC Viewer
+- name: BIM TOOLS 🧊
+- name: BIM Features
   expanded: true
   items:
-    - name: Features
+    - name: Online IFC Viewer
       href: ifc-viewer.md
-    - name: FAQ
-      href: faq-ifc-viewer.md
-    - name: BCF
+    - name: BCF Topics
       href: ifc-bcf.md
-- name: Advanced IFC
-  expanded: true
-  items:
     - name: AI Search
       href: ai-search.md
     - name: COBie
       href: ifc-cobie.md
     - name: Navisworks
       href: bcf-navisworks.md
+    - name: FAQ
+      href: faq-ifc-viewer.md
 
-- name: Microsoft Apps 🔌
+- name: Microsoft Apps
   href: apps.yml
   expanded: true
   items:
     - name: Teams IFC Viewer
-      expanded: true
+      expanded: false
       items:
         - name: Installation
           href: setting-up-the-ifc-viewer-in-microsoft-teams.md
@@ -40,7 +37,7 @@
         - name: Save IFC to Microsoft Excel Online
           href: ifc-excel.md
     - name: SharePoint IFC Viewer
-      expanded: true
+      expanded: false
       items:
         - name: Installation for Admins
           href: viewer-app-installation-with-admin-approval.md
@@ -49,7 +46,7 @@
         - name: Load multiple files
           href: load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.md
     - name: Power BI IFC Viewer
-      expanded: true
+      expanded: false
       items:
         - name: Installation
           href: ifc-viewer-installation-for-power-bi.md
@@ -62,7 +59,7 @@
     - name: Power Apps
       href: ifc-power-apps.md
 
-- name: Protect
+- name: PROTECT 🛡️
 - name: Features
   href: share-features.md
 - name: Installation for Admins
@@ -71,7 +68,7 @@
   href: upgrade-share-app.md
 - name: Tutorials
   href: protect-tutorials.yml
-  expanded: true
+  expanded: false
   items:
     - name: Create Groups and Folders
       href: create-sharepoint-group-and-folder-structure.md
