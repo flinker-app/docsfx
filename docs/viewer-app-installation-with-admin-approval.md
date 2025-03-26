@@ -9,63 +9,9 @@ canonical_url: https://docs.flinker.app/docs/viewer-app-installation-with-admin-
 
 This guide provides detailed steps for installing the IFC Viewer.
 
-
-> [!TIP]  
-> Why Choose the IFC Viewer for SharePoint?
-> - **Integrated Experience**: View and interact with 3D IFC models directly in SharePoint Pages and Document Libraries.  
-> - **Enhanced Collaboration**: Facilitate real-time teamwork among architects, engineers, and managers.  
-> - **Data Privacy and Security**: Ensures your files stay within Microsoft 365.  
-
 > [!Note]
-> - 🛡️ **Privacy First: Your Data Stays With You!** We do not upload your files anywhere. All processing is client-side, ensuring full privacy and security.
-> - 🚨 **App must be installed by a SharePoint administrator!**
-
-
-```mermaid
-flowchart LR
-    subgraph SearchApp[Search App]
-      style SearchApp fill:transparent,stroke:transparent,rounded
-      A((🔍))
-      style A fill:#f0f0f0,stroke:#f0f0f0,stroke-width:1px,rounded
-    end
-
-      subgraph AdminApproval[<br>Add App]
-        style AdminApproval fill:transparent,stroke:transparent,rounded
-        C{🚨}
-        style C fill:#f0f0f0,stroke:#f0f0f0,stroke-width:1px,rounded
-      end
-
-      subgraph EnableAdd[Add To All Sites]
-        style EnableAdd fill:transparent,stroke:transparent,rounded
-        D((🌐🌐🌐))
-        style D fill:#f0f0f0,stroke:#f0f0f0,stroke-width:1px,rounded
-      end
-
-      subgraph OnlyEnable[Only Enable]
-        style OnlyEnable fill:transparent,stroke:transparent,rounded
-        E((🔓))
-        style E fill:#f0f0f0,stroke:#f0f0f0,stroke-width:1px,rounded
-      end
-
-        subgraph ManualAdd[Add To Specific Site]
-        style ManualAdd fill:transparent,stroke:transparent,rounded
-        F((🌐))
-        style F fill:#f0f0f0,stroke:#f0f0f0,stroke-width:1px,rounded
-        end
-
-    subgraph ManagePermissions[Use App]
-      style ManagePermissions fill:transparent,stroke:transparent,rounded
-      G((✅))
-      style G fill:#f0f0f0,stroke:#f0f0f0,stroke-width:1px,rounded
-    end
-
-    A --> C
-    C --> D
-    C --> E
-    D --> G
-    E --> F
-    F --> G
-```
+> - **Privacy First: Your Data Stays With You!** We do not upload your files anywhere. All processing is client-side, ensuring full privacy and security.
+> - **App must be installed by a SharePoint administrator!**
 
 ## 1. Add IFC Viewer from the App Catalog or AppSource
 

@@ -9,14 +9,8 @@ canonical_url: https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-micros
 
 Follow these steps to set up the IFC Viewer in your Microsoft Teams environment.
 
-> [!TIP]  
-> Why Choose the IFC Viewer for  Teams?
-> - **Integrated Experience**: View and interact with 3D IFC models directly in Teams channels.  
-> - **Enhanced Collaboration**: Facilitate real-time teamwork among architects, engineers, and managers.  
-> - **Data Privacy and Security**: Ensures your files stay within Microsoft 365.  
-
 > [!Note]
-> - 🛡️ **Privacy First: Your Data Stays With You!** We do not upload your files anywhere. All processing is client-side, ensuring full privacy and security. For more details, see [Microsoft App Compliance](https://learn.microsoft.com/en-us/microsoft-365-app-certification/teams/flinker-gmbh-open-ifc-viewer?pivots=general).
+> - **Privacy First: Your Data Stays With You!** We do not upload your files anywhere. All processing is client-side, ensuring full privacy and security. For more details, see [Microsoft App Compliance](https://learn.microsoft.com/en-us/microsoft-365-app-certification/teams/flinker-gmbh-open-ifc-viewer?pivots=general).
 
 ## Setup
 
@@ -110,6 +104,7 @@ That's it! You've successfully set up the IFC Viewer in your Microsoft Teams env
 
 If you'd like to learn more about how this integration can benefit your workflow, our team is ready to discuss the possibilities with you.
 
-[**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
+> [!div class="nextstepaction"]
+> [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 
 We look forward to exploring how an IFC Microsoft Viewer and it's integrations can enhance your organization's efficiency.

@@ -118,7 +118,8 @@ A secure and privacy first IFC Microsoft Excel integration that will revolutioni
 
 If you'd like to learn more about how this integration can benefit your workflow, our team is ready to discuss the possibilities with you.
 
-[**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
+> [!div class="nextstepaction"]
+> [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 
 We look forward to exploring how an IFC Microsoft Excel integration can enhance your organization's efficiency.
 

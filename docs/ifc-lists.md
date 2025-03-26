@@ -2,23 +2,23 @@
 
 ## Track BIM Issues Like a Pro!
 
-Managing BIM issues is now as *easy* as managing a to-do list.<br>
+Managing BIM issues is now as *easy* as managing a to-do list.
 ***Flinker*** turn BIM issues *(like BCF topics)* into **clear, actionable tasks inside Microsoft Lists**. No more messy spreadsheets or forgotten tasks, just smooth and organized collaboration.
 
 ### Key Benefits 
 
-**Cross-Team Tracking**<br>
-🔹Stay on top of project issues across multiple teams and projects—all in *one place*.
+**Cross-Team Tracking**
+-Stay on top of project issues across multiple teams and projects—all in *one place*.
 
-**All Tasks in One View**<br>
-🔹Use Microsoft Lists to manage BCF issues + other tasks, like:
+**All Tasks in One View**
+-Use Microsoft Lists to manage BCF issues + other tasks, like:
 
 * *Site visits*
 * *Approvals*
 * *Internal to-dos*
 
-**Easy to Search & Filter**<br>
-🔹Quickly *find* any issue or task by:
+**Easy to Search & Filter**
+-Quickly *find* any issue or task by:
 
 * *Title*
 * *Status*
@@ -28,32 +28,32 @@ Managing BIM issues is now as *easy* as managing a to-do list.<br>
 
 ### Choose Your Favorite View
 
-**List View** - Clean and simple. Great for sorting and scanning quickly.<br>
+**List View** - Clean and simple. Great for sorting and scanning quickly.
 ![List Items View](/_media/bcftopics-as-listitems-in-micrsoftlists.png)  
 
-**Kanban Board View** - Drag and drop issues across categories like “To Do,” “In Progress,” and “Done.”<br>
+**Kanban Board View** - Drag and drop issues across categories like “To Do,” “In Progress,” and “Done.”
 ![Kanban Board View](/_media/bcftopics-as-canbanboard-in-micrsoftlists.png)  
 
-**Calendar View** - See all your deadlines and milestones at a glance. Perfect for project managers.<br>
+**Calendar View** - See all your deadlines and milestones at a glance. Perfect for project managers.
 ![Calendar View](/_media/bcftopics-as-calendarview-in-micrsoftlists.png)
 
 ### What You’ll Love About This Integration
 
-**No More Manual Work** <br>
+**No More Manual Work** 
  BCF topics are synced automatically into Microsoft Lists that's saving time and avoiding mistakes.
 
-**Use Microsoft 365 Tools You Already Know** <br>
+**Use Microsoft 365 Tools You Already Know** 
  No new apps to learn! Just your SharePoint and Teams + a superpowered list.
 
-**Real-Time Team Collaboration** <br>
+**Real-Time Team Collaboration** 
  Comment on issues, assign teammates, and get updates. All from one central spot.
 
-**Keep Everyone Aligned** <br>
+**Keep Everyone Aligned** 
 Everyone sees the same up-to-date information. No confusion, no version mess-ups.
 
 ### Real-World Example:
-Let’s say your BIM model has a clash issue between a pipe and a beam.<br>
-🔹Here’s what happens with ***Flinker***:
+Let’s say your BIM model has a clash issue between a pipe and a beam.
+-Here’s what happens with ***Flinker***:
 1. The clash is saved as a BCF topic 
 2. It’s automatically added to your Microsoft List 
 3. You assign it to your colleague 
@@ -63,7 +63,8 @@ Let’s say your BIM model has a clash issue between a pipe and a beam.<br>
 
 ### 📫Want a Demo?
 
->**[Book a meeting with us](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)**  and we’ll show you how BCF + Microsoft Lists can simplify your project workflows.
+> [!div class="nextstepaction"]
+> [Book a meeting with us](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)**  and we’ll show you how BCF + Microsoft Lists can simplify your project workflows.
 
 
 ## 💬 FAQs 

@@ -26,6 +26,8 @@
     - name: Teams IFC Viewer
       expanded: false
       items:
+        - name: Introduction
+          href: ifc-viewer-for-teams.md
         - name: Installation
           href: setting-up-the-ifc-viewer-in-microsoft-teams.md
         - name: Link Documents
@@ -39,7 +41,9 @@
     - name: SharePoint IFC Viewer
       expanded: false
       items:
-        - name: Installation for Admins
+        - name: Introduction
+          href: ifc-viewer-for-sharepoint.md
+        - name: Installation
           href: viewer-app-installation-with-admin-approval.md
         - name: Usage
           href: using-ifc-viewer-in-sharepoint.md
@@ -48,12 +52,12 @@
     - name: Power BI IFC Viewer
       expanded: false
       items:
+        - name: Introduction
+          href: ifc-power-bi.md
         - name: Installation
           href: ifc-viewer-installation-for-power-bi.md
         - name: Usage
           href: ifc-viewer-usage-for-power-bi.md
-        - name: 3D Viewer for Microsoft Power BI
-          href: ifc-power-bi.md
     - name: Power Automate
       href: ifc-power-automate.md
     - name: Power Apps

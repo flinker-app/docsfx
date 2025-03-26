@@ -14,8 +14,8 @@ canonical_url: https://docs.flinker.app/docs/installation.html
 > - **Secure External Collaboration**: Grant safe access to external users without compromising security.  
 
 > [!Note]
-> - 🛡️ **Privacy First: Your Data Stays With You!** No files or data are transferred or uploaded anywhere. All permission management is handled directly within SharePoint, ensuring full privacy and security.
-> - 🚨 **App must be installed by a SharePoint administrator!**
+> - **Privacy First: Your Data Stays With You!** No files or data are transferred or uploaded anywhere. All permission management is handled directly within SharePoint, ensuring full privacy and security.
+> - **App must be installed by a SharePoint administrator!**
 
 
 ## 1. Add Protect app from the App Catalog or AppSource
