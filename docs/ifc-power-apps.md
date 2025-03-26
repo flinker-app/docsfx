@@ -11,7 +11,8 @@ With this feature, users integrate IFC data into their customized Microsoft Powe
 
 If you're interested in learning more about how our IFC Microsoft Power App feature can enhance your IFC viewer experience, feel free to schedule a meeting with our support team.
 
-[**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
+> [!div class="nextstepaction"]
+> [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 
 We look forward to showing you how Microsoft Power App linking to IFC can improve your project workflows and collaboration.
 

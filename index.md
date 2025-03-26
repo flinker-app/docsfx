@@ -8,162 +8,17 @@ _disableBreadcrumb: true
 _disableNextArticle: true
 ---
 
-<style>
-
-  /* Reset box-sizing for consistency */
-  * {
-    box-sizing: border-box;
-  }
-
-  /* Container for the vertical cards */
-  .vertical-card-container,
-  .horizontal-card-container,
-  .benefits-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Center the cards */
-    gap: 20px; /* Space between cards */
-    margin: 20px 0;
-    align-items: stretch;
-    width: 100%; /* Ensure full width within wrapper */
-  }
-
-  /* Individual vertical card styling */
-  .vertical-card,
-  .horizontal-card,
-  .benefit-item {
-    flex: 1 1 calc(33.333% - 20px); /* Three cards per row */
-    max-width: calc(33.333% - 20px);
-    border: 1px solid #e1e1e16e;
-    border-radius: 2px; /* Smaller border radius */
-    text-align: left;
-    color: inherit;
-    box-shadow: 0 2px 4px rgba(100, 100, 100, 0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none; /* Remove underline for links */
-  }
-
-  /* Image styling for vertical cards */
-  .vertical-card img,
-  .horizontal-card img {
-    width: 100%;
-    height: 160px; /* Fixed height for images */
-    object-fit: cover;
-    border-top-left-radius: 2px; /* Match smaller border radius */
-    border-top-right-radius: 2px;
-  }
-
-  /* Card content for vertical cards */
-  .vertical-card-content,
-  .horizontal-card-content {
-    padding: 15px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* Card title */
-  .card-title {
-    font-size: 1em; /* Smaller font size */
-    margin-bottom: 8px;
-    margin-top: 0;
-  }
-
-  /* Card description */
-  .card-description {
-    flex-grow: 1;
-    margin: 0;
-    margin-bottom: 4px;
-  }
-
-  /* Links within cards */
-  .card-link {
-    text-decoration: none;
-    margin-top: 5px;
-    font-size: 0.95em;
-  }
-
-  .card-link:hover {
-    text-decoration: underline;
-  }
-
-  /* Benefits Item Specific */
-  .benefit-item {
-    align-items: center;
-    flex-direction: row;
-    padding: 20px;
-  }
-
-  .benefit-icon {
-    font-size: 1.5em;
-    margin-right: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .benefit-text {
-    font-size: 1em;
-  }
-
-  /* Responsive Design */
-  @media (max-width: 1200px) {
-    .vertical-card,
-    .horizontal-card,
-    .benefit-item {
-      flex: 1 1 calc(50% - 20px); /* Two cards per row */
-      max-width: calc(50% - 20px);
-    }
-  }
-
-  @media (max-width: 768px) {
-    .vertical-card,
-    .horizontal-card,
-    .benefit-item {
-      flex: 1 1 100%; /* Single card per row */
-      max-width: 100%;
-    }
-
-    .horizontal-card {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .horizontal-card img {
-      margin-right: 0;
-      margin-bottom: 10px;
-    }
-
-    .horizontal-card-content {
-      text-align: center;
-    }
-
-    .benefit-item {
-      flex-direction: column;
-      text-align: center;
-    }
-
-    .benefit-icon {
-      margin-right: 0;
-      margin-bottom: 10px;
-    }
-  }
-</style>
-
 # 📘 Documentation and Support
 
-## 🙋‍♂️ Welcome to Flinker's Documentation!<br>
-This documentation guides you through **setting up**, **using**, and **troubleshooting** Flinker within Microsoft 365.<br> 
+This documentation guides you through **setting up**, **using**, and **troubleshooting** Flinker within Microsoft 365. 
 
-### What is ***Flinker***?
-It is a suite of Microsoft 365 apps designed to streamline BIM workflows for real estate and infrastructure teams.  <br>
-Our tools support: <br>
-🔹 IFC model viewing and collaboration <br>
-🔹 Issue tracking and BCF workflows <br>
-🔹 Secure SharePoint CDE setup <br>
-🔹 Custom workflow automations using open standards <br>
+### What is Flinker?
+It is a suite of Microsoft 365 apps designed to streamline BIM workflows for real estate and infrastructure teams.  
+Our tools support: 
+- IFC model viewing and collaboration 
+- Issue tracking and BCF workflows 
+- Secure SharePoint CDE setup 
+- Custom workflow automations using open standards 
 
 All within your existing Microsoft 365 environment. No new software required.
 
@@ -183,7 +38,7 @@ All within your existing Microsoft 365 environment. No new software required.
       <h3 class="card-title">Features</h3>
       <a href="/docs/ifc-viewer.html" class="card-link">IFC Viewer features</a>
       <a href="/docs/ifc-bcf.html" class="card-link">BCF Integration</a>
-      <a href="/docs/faq-ifc-viewer.html"card-link">Clipping Tool</a>
+      <a href="/docs/faq-ifc-viewer.html" class="card-link">Clipping Tool</a>
       <a href="/docs/ai-search.html" class="card-link">AI Search</a>
       <a href="/docs/ifc-power-bi.html" class="card-link">Power BI features</a>
       <a href="/docs/share-features.html" class="card-link">Protect App features</a>
@@ -253,15 +108,15 @@ All our products are built to integrate seamlessly with your existing Microsoft 
     <span class="benefit-text">Seamless integration with Microsoft 365</span>
   </div>
   <div class="benefit-item">
-    <span class="benefit-icon">🔒</span>
+    <span class="benefit-icon"><i class="ms-Icon ms-Icon--LockSolid"></i></span>
     <span class="benefit-text">100% privacy first and data sovereignty</span>
   </div>
   <div class="benefit-item">
-    <span class="benefit-icon">🛡️</span>
+    <span class="benefit-icon"><i class="ms-Icon ms-Icon--ProtectionCenterLogo32"></i></span>
     <span class="benefit-text">As secure as Microsoft can be</span>
   </div>
   <div class="benefit-item">
-    <span class="benefit-icon">🔑</span>
+    <span class="benefit-icon"><i class="ms-Icon ms-Icon--Signin"></i></span>
     <span class="benefit-text">Single Sign-On for any users</span>
   </div>
 

@@ -11,7 +11,8 @@ With this feature, users integrate IFC data into their Microsoft 365 Power Autom
 
 If you're interested in learning more about how our IFC Microsoft Power Automate feature can enhance your IFC viewer experience in Microsft 365, SharePoint and Teams, feel free to schedule a meeting with our support team.
 
-[**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
+> [!div class="nextstepaction"]
+> [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 
 We look forward to showing you how automatic Power Automate linking can improve your project workflows and collaboration.
 
