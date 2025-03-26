@@ -64,7 +64,7 @@ Let’s say your BIM model has a clash issue between a pipe and a beam.
 ### 📫Want a Demo?
 
 > [!div class="nextstepaction"]
->**[Book a meeting with us](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)**  and we’ll show you how BCF + Microsoft Lists can simplify your project workflows.
+> [Book a meeting with us](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)**  and we’ll show you how BCF + Microsoft Lists can simplify your project workflows.
 
 
 ## 💬 FAQs 

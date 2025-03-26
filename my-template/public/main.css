@@ -30,6 +30,10 @@ strong {
   margin-left: 2em;
 }
 
+.indent-paragraph {
+    margin-left: 2em;
+}
+
 article h1 {
   margin-bottom: 1rem;
 }
