@@ -30,6 +30,8 @@ Select the team where you want to add the IFC Viewer and click "Set up a tab" or
 
 ### Step 3: Set Up the Tab
 Choose the specific team and channel where you want to set up the IFC Viewer tab, then click "Set up."
+You can also add the tab to multiple teams and chats.   
+
 
 ![Select Team and Setup Tab](/_media/teams-apps-ifc-viewer-select-team-and-setup-tab.png)
 
@@ -53,7 +55,8 @@ Click "Connect" to grant permissions for the IFC Viewer to access your files. Th
 > If you see a message saying that _"This app requires your admin’s approval,"_ it simply means that your organization's security settings require admin approval before third-party apps can access your files. In this case, you will need to contact your IT admin for approval.
 
 ### Step 5: Copy Links of IFC Files
-Go to the Files tab and copy the links of the IFC files you want to view in the IFC Viewer.
+Go to the Files tab and copy the links of the IFC files you want to view in the IFC Viewer. 
+- If the link is on OneDrive, you need to copy the SharePoint link from OneDrive. If it's on an external drive, you need to upload it to SharePoint or Teams first. 
 
 ![Copy Links of IFC Files](/_media/teams-apps-ifc-viewer-in-files-tab-copy-links-of-ifc-files.png)
 
@@ -68,37 +71,122 @@ Paste the copied IFC file links, and save the settings. Pasting IFC file links f
 
 ### Done! IFC Files Load Automatically
 IFC files will load automatically according to the settings whenever you open the tab.
+You can restrict upload permissions by adjusting SharePoint settings or using the Protect App. 
 
 ![IFC Files from Settings Load Automatically](/_media/teams-apps-ifc-viewer-ifc-files-from-settings-load-automatically.png)
 
 That's it! You've successfully set up the IFC Viewer in your Microsoft Teams environment.
 
-## FAQ
+## FAQ's - *IFC Viewer - Teams*
 
-1. **What is the IFC Viewer and how does it benefit my team?**
+<details>
+<summary>How can I open an IFC file inside Microsoft Teams?</summary>
 
-    The IFC Viewer is a tool integrated into Microsoft Teams that allows you to view and interact with IFC and BCF files directly within your Teams environment. It enables collaboration by enabling team members to access and review 3D models without leaving Teams, enhancing productivity and communication.
+> Microsoft Teams does not support IFC files by default, so you need to install Flinker’s IFC Viewer app from the Microsoft Teams App Store. Here's an easy guide to set it up: [IFC Viewer in Microsoft Teams - Quick Guide](https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html).
+    
+</details>
+<details>
+<summary>
+Is it necessary to choose which chat or team I should set up the IFC Viewer?</summary>
 
-2. **How easy is it to set up the IFC Viewer in Microsoft Teams?**
+> Yes, you must choose a chat or team because the IFC Viewer works inside Microsoft Teams conversations or project channels. It must be linked to at least one chat/team to function. 
+</details>  
+<details>
+<summary>  
+Can I link it to multiple chats and teams?</summary>
 
-    Setting up the IFC Viewer is straightforward. Simply add the IFC Viewer tab to your Teams channel, configure the settings to point to your IFC files stored in SharePoint or locally, and you're ready to go. The viewer will automatically load the files whenever the tab is opened.
+> Yes! You can add the IFC Viewer tab to multiple teams and chats.   
+</details>  
+<details>
+<summary>Where do I get the IFC file link?</summary>
+   
+> You can get the file link from SharePoint or Teams by:
+> * Going to SharePoint/Teams Files Tab.
+> * Right-clicking the IFC file and selecting ‘Copy link.’
+> * Pasting it into the IFC Viewer setup screen.
+</details>  
+<details>
+<summary>What if my file is stored on OneDrive or an external drive?</summary>
 
-3. **Which permissions need to be granted with the setup?**
+> - If it's on OneDrive, you need to copy the SharePoint link from OneDrive. 
+> - If it's on an external drive, you need to upload it to SharePoint or Teams first.   
 
-    You need to grant read permissions for the IFC Viewer to access your SharePoint and Teams IFC files. If you can't grant these permissions, you can still load local files from your desktop. In this case, only you will see the IFC models. Other team members can also load local IFC models without granting permissions. To set up a global or master model in a Teams tab, permissions are required to load SharePoint IFC files from your Microsoft 365 tenant.
+</details>  
+<details>
+<summary>Will everyone in my selected chats or teams also see every file I uploaded?</summary>
+    
+> Only files that are linked to the IFC viewer Tab are also visible to other team members. If the user opens a file using "Open IFC" button, the file will visible to you only and it is temporary. This temporary file will not automatically show whenever the tab is reopened. 
+> Also, if you want to restrict certain people from viewing the file, you must adjust file permissions in SharePoint or use the Protect App.
+</details>  
+<details>
+<summary>Can I remove or change the files that are automatically opening whenenever the tab is opened?</summary>
 
-4. **Why do you need to grant permissions?**
+> Yes! You can remove or replace files in IFC Viewer at any time.
+</details>  
+<details>
+<summary>Can I set some files to open automatically but not others?</summary>
 
-    The IFC Viewer needs permission to read IFC and BCF files stored in your company's SharePoint. This allows the viewer to load your data directly. No external data processing or uploads occur; everything stays within your Microsoft 365 tenant.
+> No, all files added in the initial setup are loaded automatically. You can, however, remove files later if you don’t want them to open by default.
+</details>  
+<details>
+<summary>What happens if I forget to upload files during setup?</summary>
 
-5. **Does the IFC Viewer Microsoft app or any service upload or process data externally out of my own Microsoft 365 tenant?**
+> No worries! You can upload additional IFC files later inside the Models category. No need to redo the setup process.
+</details>  
+<details>
+<summary>Which permissions need to be granted with the setup?</summary>
 
-    No. Your data stays within your Microsoft 365 tenant and SharePoint, serving as the app's backend. There is no external data processing or uploads, ensuring maximum data security for your company.
+> You need to grant read permissions for the IFC Viewer to access your SharePoint and Teams IFC files. If you can't grant these permissions, you can still load local files from your desktop. In this case, only you will see the IFC models. Other team members can also load local IFC models without granting permissions. To set up a global or master model in a Teams tab, permissions are required to load SharePoint IFC files from your Microsoft 365 tenant.
+</details>  
+<details>
+<summary>Can IFC Viewer edit or delete my files, or is it just viewing them?</summary>
 
-6. **Is my data secure when using the IFC Viewer?**
+> It only reads your files to display or view the model. It does not edit or delete files.
 
-    Yes, your data remains secure within your Microsoft 365 tenant. The IFC Viewer does not upload or process data externally. All data stays within your company's SharePoint and Microsoft 365 environment, ensuring maximum data security and compliance with your organization's policies.
+</details>  
+<details>
+<summary>Why do you need to grant permissions?</summary>
 
+> The IFC Viewer needs permission to read IFC and BCF files stored in your company's SharePoint. This allows the viewer to load your data directly. No external data processing or uploads occur; everything stays within your Microsoft 365 tenant.
+</details>
+
+<details>
+<summary>Does the IFC Viewer store my files somewhere?</summary>
+
+> No. Your data stays within your Microsoft 365 tenant and SharePoint, serving as the app's backend. There is no external data processing or uploads, ensuring maximum data security for your company.
+</details>  
+
+<details>
+<summary>Is my data secure when using the IFC Viewer?</summary>
+
+> Yes, your data remains secure within your Microsoft 365 tenant. The IFC Viewer does not upload or process data externally. All data stays within your company's SharePoint and Microsoft 365 environment, ensuring maximum data security and compliance with your organization's policies.
+</details>  
+
+<details>
+<summary>Can anyone in my team upload files, or only me?</summary>
+
+> By default, anyone in the Teams chat can upload files. You can restrict upload permissions by adjusting SharePoint settings or using the Protect App. 
+</details>  
+
+<details>
+<summary>Can I control who can upload files?</summary>
+
+> Yes! You can use Microsoft security groups or SharePoint permissions to decide who can upload files.
+</details>  
+
+<details>
+<summary>Why do I have to keep uploading my files whenever the tab is opened?</summary>
+
+> * If you upload files during the initial setup, they will always load automatically when the IFC Viewer tab is opened. You can remove or replace auto-loading files later in the Models category.
+> * If you didn’t set auto-loading, you must manually open files each time.   
+</details>  
+
+<details>
+<summary>Does everyone see whenever I open a file or which part I am viewing at?</summary>
+
+> No. Opening an IFC file is private—other users in Teams do not get a notification when you open a file inside IFC Viewer.
+> Everyone sees their own individual view. The model does not sync in real-time unless using an external screen-sharing tool.   
+</details> 
 
 ## Contact
 
