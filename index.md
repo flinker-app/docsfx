@@ -36,12 +36,12 @@ All within your existing Microsoft 365 environment. No new software required.
   <div class="vertical-card">
     <div class="vertical-card-content">
       <h3 class="card-title">Features</h3>
-      <a href="/docs/ifc-viewer.html" class="card-link">IFC Viewer features</a>
-      <a href="/docs/ifc-bcf.html" class="card-link">BCF Integration</a>
+      <a href="/docs/ifc-viewer.html" class="card-link">Online IFC Viewer</a>
+      <a href="/docs/ifc-bcf.html" class="card-link">BCF Topics</a>
       <a href="/docs/faq-ifc-viewer.html" class="card-link">Clipping Tool</a>
       <a href="/docs/ai-search.html" class="card-link">AI Search</a>
-      <a href="/docs/ifc-power-bi.html" class="card-link">Power BI features</a>
-      <a href="/docs/share-features.html" class="card-link">Protect App features</a>
+      <a href="/docs/ifc-power-bi.html" class="card-link">Power BI Visual</a>
+      <a href="/docs/share-features.html" class="card-link">SharePoint Protect</a>
     </div>
   </div>
   <div class="vertical-card">
@@ -60,7 +60,7 @@ All our products are built to integrate seamlessly with your existing Microsoft 
 
 <!-- Horizontal Cards -->
 <div class="horizontal-card-container"> 
-  <a href="/docs/viewer-app-installation-with-admin-approval.html" class="horizontal-card">
+  <a href="/docs/ifc-viewer-for-sharepoint.html" class="horizontal-card">
     <img 
       src="/_media/sharepoint-document-library-view-ifc-file.png" 
       alt="IFC Viewer">
@@ -102,17 +102,15 @@ All our products are built to integrate seamlessly with your existing Microsoft 
 
 <div class="benefits-container">
   <div class="benefit-item">
-    <span class="benefit-icon">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/240px-Microsoft_logo.svg.png" alt="Microsoft" width="26" height="auto" style="max-width: unset;">
-    </span>
+    <span class="benefit-icon"><i class="ms-Icon ms-Icon--AppIconDefaultAdd"></i></span>
     <span class="benefit-text">Seamless integration with Microsoft 365</span>
   </div>
   <div class="benefit-item">
-    <span class="benefit-icon"><i class="ms-Icon ms-Icon--LockSolid"></i></span>
+    <span class="benefit-icon"><i class="ms-Icon ms-Icon--Lock"></i></span>
     <span class="benefit-text">100% privacy first and data sovereignty</span>
   </div>
   <div class="benefit-item">
-    <span class="benefit-icon"><i class="ms-Icon ms-Icon--ProtectionCenterLogo32"></i></span>
+    <span class="benefit-icon"><i class="ms-Icon ms-Icon--Shield"></i></span>
     <span class="benefit-text">As secure as Microsoft can be</span>
   </div>
   <div class="benefit-item">

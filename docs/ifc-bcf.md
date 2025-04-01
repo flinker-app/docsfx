@@ -7,6 +7,8 @@ canonical_url: https://docs.flinker.app/docs/ifc-bcf.html
 
 ## 📘 BCF Integration
 
+<iframe src="https://viewer.flinker.app/examples/bcf.html" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+
 Integrate the **BIM Collaboration Format (BCF)** into your SharePoint and Teams workflows to streamline issue tracking and improve project communication.
 
 ### What is BCF?
