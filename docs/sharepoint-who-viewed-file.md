@@ -11,9 +11,8 @@ canonical_url: https://docs.flinker.app/docs/sharepoint-view-tracking.html
 
 Knowing who has viewed or accessed files helps you stay compliant, improve collaboration, and ensure accountability. SharePoint offers several built-in tools—plus deeper integrations with Microsoft 365—to give you visibility into file activity.
 
----
 
-## ✅ Check File Activity in the Document Library
+## Check File Activity in the Document Library
 
 For quick visibility on recent interactions:
 
@@ -27,9 +26,8 @@ For quick visibility on recent interactions:
 > [!TIP]  
 > This panel only shows **recent** actions and doesn’t include the full view history.
 
----
 
-## 📊 Use Site Usage Reports for Trends
+## Use Site Usage Reports for Trends
 
 To understand how your SharePoint content is used at a higher level:
 
@@ -44,9 +42,8 @@ To understand how your SharePoint content is used at a higher level:
 > [!NOTE]  
 > These reports are **aggregated** and do **not** include individual usernames.
 
----
 
-## 🔐 Access Audit Logs via Microsoft Purview
+## Access Audit Logs via Microsoft Purview
 
 Need to know exactly *who* opened or viewed a file? Use the built-in audit logs:
 
@@ -68,7 +65,7 @@ You’ll see:
 
 ---
 
-## ⚙️ Build Custom Logs with Power Automate
+## Build Custom Logs with Power Automate
 
 Want a lightweight, no-code solution?
 
@@ -79,7 +76,7 @@ This gives you full control—without requiring premium Microsoft 365 plans.
 
 ---
 
-## 📋 Summary
+## Summary
 
 | Method                      | Shows Who Viewed | License Required      | Best For                      |
 |----------------------------|------------------|------------------------|-------------------------------|
