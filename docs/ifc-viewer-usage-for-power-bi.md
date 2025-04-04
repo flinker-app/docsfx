@@ -27,6 +27,8 @@ Download the sample Power BI report from AppSource. Open it your Power BI Deskto
 
 Paste the copied IFC file link into the respective parameter field in Power BI. Confirm your changes by clicking **OK**.
 
+> Be sure to use the correct SharePoint file path. Shared links will not work. Follow the steps in Step 1 carefully to obtain a direct file path.
+
 ![Edit Parameters and Paste File Link](/_media/power-bi-desktop-app-edit-parameters-and-paste-file-link.png)
 
 ### Step 4: Apply Changes
@@ -34,6 +36,12 @@ Paste the copied IFC file link into the respective parameter field in Power BI. 
 After editing the parameters, apply the changes in Power BI by selecting **Apply Changes** from the prompt or toolbar.
 
 ![Apply Changes in Power BI Desktop](/_media/power-bi-desktop-app-apply-changes.png)
+
+### Step 5: Sign In with Your Organization Account
+
+After applying changes, sign in to your Microsoft organization account to securely access web content. Follow the on-screen prompts to provide your corporate credentials.
+
+![Sign In with Your Organization Account](/_media/powerbi-signin-with-your-org-account-and-access-web-content.png)
 
 ### Step 5: Confirm Loaded Properties and Model
 
