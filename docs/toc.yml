@@ -53,6 +53,8 @@
           href: using-ifc-viewer-in-sharepoint.md
         - name: Load multiple files
           href: load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.md
+        - name: Upgrade to latest version
+          href: upgrade-sharepoint-ifc-viewer-app.md
     - name: Power BI IFC Viewer
       expanded: false
       items:
