@@ -43,7 +43,7 @@ After applying changes, sign in to your Microsoft organization account to secure
 
 ![Sign In with Your Organization Account](/_media/powerbi-signin-with-your-org-account-and-access-web-content.png)
 
-### Step 5: Confirm Loaded Properties and Model
+### Confirm Loaded Properties and Model
 
 Sometimes, you may need to refresh the visual by removing and adding it again. To do this, right-click on the visual and select **Remove**. Then, add the visual back to your report.
 
