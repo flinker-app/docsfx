@@ -32,6 +32,8 @@
           href: setting-up-the-ifc-viewer-in-microsoft-teams.md
         - name: Link Documents
           href: ifc-docslink.md
+        - name: Update BCF files
+          href: update-bcf-files-in-microsoft-teams.md
         - name: Save BCF to Microsoft Lists
           href: ifc-lists.md
         - name: Save IFC to Microsoft Power BI
