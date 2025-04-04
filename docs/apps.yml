@@ -2,25 +2,19 @@
 ---
 title: Microsoft Apps
 documentType: dashboard
+_disableAffix: true
+_disableBreadcrumb: true
+_disableNextArticle: true
 items:
   - name: Teams IFC Viewer
-    description: 
-      -Add 3D model viewing directly inside Teams channels.
-      -Collaborate in real-time with architects, engineers, and managers.
-      -Everything stays in Teams so no need for file downloads.
+    description: Add 3D model viewing directly inside Teams channels. Collaborate in real-time with architects, engineers, and managers. Everything stays in Teams so no need for file downloads.
     thumbnail: /_media/teams-apps-ifc-viewer-ifc-files-from-settings-load-automatically.png
     href: setting-up-the-ifc-viewer-in-microsoft-teams.html
   - name: SharePoint IFC Viewer
-    description: 
-      -View large BIM models directly inside SharePoint Document Libraries.
-      -Embed IFC files into SharePoint pages for a seamless workflow.
-      -No external servers. It is 100% privacy-first.
+    description: View large BIM models directly inside SharePoint Document Libraries. Embed IFC files into SharePoint pages for a seamless workflow. No external servers. It is 100% privacy-first.
     thumbnail: /_media/sharepoint-document-library-view-ifc-file.png
     href: viewer-app-installation-with-admin-approval.html
   - name: Power BI IFC Viewer
-    description: 
-      -Analyze IFC data visually inside Power BI dashboards.
-      -Connect BIM data to reports, graphs, and business insights.
-      -Improve decision-making with real-time data analysis.
+    description: Analyze IFC data visually inside Power BI dashboards. Connect BIM data to reports, graphs, and business insights. Improve decision-making with real-time data analysis.
     thumbnail: /_media/ifc-viewer-app-microsoft-power-bi-in-microsoft-appsource-store.png
     href: ifc-power-bi.html

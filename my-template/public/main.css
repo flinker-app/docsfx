@@ -1,8 +1,13 @@
 @import url('https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css');
 
+:root {
+  /* Brand Colors */
+  --theme-body-background: #0779ff;
+  --theme-control-border: #0779ff;
+}
 
 .ms-Icon {
-  color: var(--bs-link-color);
+  color: var(--theme-control-border);
 }
 
 b,
@@ -13,7 +18,15 @@ strong {
 .navbar-brand #logo {
   width: 24px;
   height: 24px;
+  margin-right: 10px;
 }
+
+.navbar-brand {
+  font-size: 1.15em;
+  font-weight: 600;
+}
+
+
 
 /* .toc li.active:not(.expanded) {
   background-color: var(--bs-secondary-bg);
@@ -28,10 +41,6 @@ strong {
 
 .indent-paragraph {
   margin-left: 2em;
-}
-
-.indent-paragraph {
-    margin-left: 2em;
 }
 
 article h1 {
@@ -56,6 +65,25 @@ article h4 {
 article p,
 article li {
   margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.alert {
+  margin-top: 1rem;
+  border: none;
+  /* border-radius: 0.2rem; */
+  /* background-color: #f1f1f1; */
+
+}
+
+.alert h5 {
+  text-transform: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.alert h5::before {
+  font-size: 1rem;
 }
 
 
@@ -111,11 +139,6 @@ details ol {
   padding-left: 1em;
 }
 
-:root {
-  /* Brand Colors */
-  --theme-body-background: #0779ff;
-  --theme-control-border: #0779ff;
-}
 
 /* nextstepaction button https://learn.microsoft.com/de-de/contribute/content/markdown-reference#next-step-action*/
 
@@ -203,8 +226,10 @@ footer {
   border-radius: 2px;
   text-align: left;
   color: inherit;
-  box-shadow: 0 2px 4px rgba(100, 100, 100, 0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 2px var(--bs-border-color-translucent);
+  border: 1px solid var(--theme-border-white-high-contrast);
+  /* box-shadow: 0 1.6px 3.6px 0 var(--bs-border-color-translucent), 0 .3px .9px 0 var(--bs-border-color-translucent); */
+  border-radius: .375rem !important;
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -256,7 +281,7 @@ footer {
 }
 
 .benefit-icon {
-  font-size: 1.5em;
+  font-size: 2em;
   margin-right: 15px;
   display: flex;
   align-items: center;
