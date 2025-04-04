@@ -38,6 +38,8 @@
           href: ifc-excel-power-bi.md
         - name: Save IFC to Microsoft Excel Online
           href: ifc-excel.md
+        - name: FAQs
+          href: faq-for-ifc-viewer-in-teams.md
     - name: SharePoint IFC Viewer
       expanded: false
       items:
