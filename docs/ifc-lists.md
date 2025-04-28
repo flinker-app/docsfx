@@ -25,10 +25,19 @@ Quickly *find* any issue or task by:
 
 ## How to Set Up Microsoft Lists Sync for Your BCF Topics
 
-### Insert the Microsoft List URL
-Copy and paste the Microsoft list URL into your Teams IFC Viewer app tab settings. 
+### Create Your Microsoft List
+To ensure seamless integration, create a Microsoft List with exactly these columns and types:
+- **Guid** *(Text)*
+- **Title** *(Text)*
+- **Description** *(Multiline Text)*
+- **Status** *(Choice)*
+- **AssignedTo** *(Choice)*
+- **DueDate** *(Date)*
 
-![Connect SharePoint List](/_media/connect-sharepoint-list-to-teams-ifc-viewer.png)  
+### Insert the Microsoft List URL
+Copy and paste the Microsoft List URL into your Teams IFC Viewer app tab settings.
+
+![Connect SharePoint List](/_media/connect-sharepoint-list-to-teams-ifc-viewer.png)
 
 ### Automatic Topic Sync via SharePoint
 When you click the **Save to SharePoint/Teams** button, topics from your linked SharePoint file are automatically saved and synced to Microsoft Lists in real time.
