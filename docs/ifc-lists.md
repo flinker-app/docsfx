@@ -11,31 +11,48 @@ Managing BIM issues is now as *easy* as managing a to-do list.
 -Stay on top of project issues across multiple teams and projects—all in *one place*.
 
 **All Tasks in One View**
--Use Microsoft Lists to manage BCF issues + other tasks, like:
-
-* *Site visits*
-* *Approvals*
-* *Internal to-dos*
+Use Microsoft Lists to manage BCF issues + other tasks, like:
+- ✅ Site visits
+- ✅ Approvals
+- ✅ Internal to-dos
 
 **Easy to Search & Filter**
--Quickly *find* any issue or task by:
+Quickly *find* any issue or task by:
+- ✅ Title
+- ✅ Status
+- ✅ Assigned person
+- ✅ Due date
 
-* *Title*
-* *Status*
-* *Assigned person*
-* *Due date*
+## How to Set Up Microsoft Lists Sync for Your BCF Topics
 
+### Create Your Microsoft List
+To ensure seamless integration, create a Microsoft List with exactly these columns and types:
+- **Guid** *(Text)*
+- **Title** *(Text)*
+- **Description** *(Multiline Text)*
+- **Status** *(Choice)*
+- **AssignedTo** *(Choice)*
+- **DueDate** *(Date)*
+
+### Insert the Microsoft List URL
+Copy and paste the Microsoft List URL into your Teams IFC Viewer app tab settings.
+
+![Connect SharePoint List](/_media/connect-sharepoint-list-to-teams-ifc-viewer.png)
+
+### Automatic Topic Sync via SharePoint
+When you click the **Save to SharePoint/Teams** button, topics from your linked SharePoint file are automatically saved and synced to Microsoft Lists in real time.
 
 ### Choose Your Favorite View
+With Microsoft Lists, you enjoy a full suite of powerful features including versatile display options—you can easily switch between multiple views or even create custom views to perfectly match your workflow needs.
 
-**List View** - Clean and simple. Great for sorting and scanning quickly.
-![List Items View](/_media/bcftopics-as-listitems-in-micrsoftlists.png)  
+- **List View** - Clean and simple. Great for sorting and scanning quickly.
+  ![List Items View](/_media/bcftopics-as-listitems-in-micrsoftlists.png)  
 
-**Kanban Board View** - Drag and drop issues across categories like “To Do,” “In Progress,” and “Done.”
-![Kanban Board View](/_media/bcftopics-as-canbanboard-in-micrsoftlists.png)  
+- **Kanban Board View** - Drag and drop issues across categories like “To Do,” “In Progress,” and “Done.”
+  ![Kanban Board View](/_media/bcftopics-as-canbanboard-in-micrsoftlists.png)  
 
-**Calendar View** - See all your deadlines and milestones at a glance. Perfect for project managers.
-![Calendar View](/_media/bcftopics-as-calendarview-in-micrsoftlists.png)
+- **Calendar View** - See all your deadlines and milestones at a glance. Perfect for project managers.
+  ![Calendar View](/_media/bcftopics-as-calendarview-in-micrsoftlists.png)
 
 ### What You’ll Love About This Integration
 
@@ -64,8 +81,7 @@ Let’s say your BIM model has a clash issue between a pipe and a beam.
 ### 📫Want a Demo?
 
 > [!div class="nextstepaction"]
-> [Book a meeting with us](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)**  and we’ll show you how BCF + Microsoft Lists can simplify your project workflows.
-
+> [Book a meeting with us](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)  and we’ll show you how BCF + Microsoft Lists can simplify your project workflows.
 
 ## 💬 FAQs 
 

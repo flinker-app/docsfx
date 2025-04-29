@@ -10,6 +10,8 @@
       href: ifc-viewer.md
     - name: BCF Topics
       href: ifc-bcf.md
+    - name: Large IFC models
+      href: load-large-ifc-models.md
     - name: AI Search
       href: ai-search.md
     - name: COBie
@@ -32,12 +34,16 @@
           href: setting-up-the-ifc-viewer-in-microsoft-teams.md
         - name: Link Documents
           href: ifc-docslink.md
+        - name: Update BCF files
+          href: update-bcf-files-in-microsoft-teams.md
         - name: Save BCF to Microsoft Lists
           href: ifc-lists.md
         - name: Save IFC to Microsoft Power BI
           href: ifc-excel-power-bi.md
         - name: Save IFC to Microsoft Excel Online
           href: ifc-excel.md
+        - name: FAQs
+          href: faq-for-ifc-viewer-in-teams.md
     - name: SharePoint IFC Viewer
       expanded: false
       items:
@@ -49,6 +55,8 @@
           href: using-ifc-viewer-in-sharepoint.md
         - name: Load multiple files
           href: load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.md
+        - name: Upgrade to latest version
+          href: upgrade-sharepoint-ifc-viewer-app.md
     - name: Power BI IFC Viewer
       expanded: false
       items:
