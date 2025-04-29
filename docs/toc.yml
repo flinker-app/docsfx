@@ -57,6 +57,8 @@
           href: load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.md
         - name: Upgrade to latest version
           href: upgrade-sharepoint-ifc-viewer-app.md
+        - name: Enable guest user access
+          href: enable-guest-user-access-to-sharepoint-app.md
     - name: Power BI IFC Viewer
       expanded: false
       items:
@@ -78,6 +80,8 @@
   href: installation.md
 - name: Upgrade to latest version
   href: upgrade-share-app.md
+- name: Enable guest user access
+  href: enable-guest-user-access-to-sharepoint-app.md
 - name: Tutorials
   href: protect-tutorials.yml
   expanded: false
