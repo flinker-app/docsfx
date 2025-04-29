@@ -13,7 +13,7 @@ Follow this step-by-step guide to integrate and use the IFC Viewer within Power 
 
 You can use a direct SharePoint IFC file link by authenticating with your Microsoft organization account. Alternatively, anonymous or public file links from sources such as GitHub, Autodesk, Trimble, or Google Drive are also supported.
 
-To use a SharePoint file, locate your IFC file, right-click the file, and select **Copy link** to get a direct link to the IFC file.
+To use a SharePoint file, locate your IFC file, click on the file, and select **Details** from the menu. Under the **Details** pane, find the **Path** section and copy the plain file path (not the sharing link). This direct path is required for the IFC Viewer to access the file correctly.
 
 ![Copy Direct Link of SharePoint IFC File](/_media/copy-direct-link-of-sharepoint-ifc-file.png)
 
