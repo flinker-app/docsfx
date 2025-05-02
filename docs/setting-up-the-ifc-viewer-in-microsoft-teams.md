@@ -35,7 +35,7 @@ You can also add the tab to multiple teams and chats.
 
 ![Select Team and Setup Tab](/_media/teams-apps-ifc-viewer-select-team-and-setup-tab.png)
 
-After setting up the tab, the settings window will automatically appear. To load models automatically whenever the tab is opened you can add the SharePoint and Teams .ifc file links now or return to this window later to add them as needed. Click "Save" to add the tab.
+After setting up the tab, the settings window will automatically appear. To load IFC/BCF files automatically whenever the tab is opened you can add the SharePoint and Teams file links now or return to this window later to add them as needed. Click "Save" to add the tab.
 
 ![Tab Settings to Connect with Your Files](/_media/teams-apps-ifc-viewer-tab-settings-paste-ifc-file-links-and-save.png)
 
@@ -54,9 +54,16 @@ Click "Connect" to grant permissions for the IFC Viewer to access your files. Th
 > 
 > If you see a message saying that _"This app requires your admin’s approval,"_ it simply means that your organization's security settings require admin approval before third-party apps can access your files. In this case, you will need to contact your IT admin for approval.
 
-### Step 5: Copy Links of IFC Files
-Go to the Files tab and copy the links of the IFC files you want to view in the IFC Viewer. 
-- If the link is on OneDrive, you need to copy the SharePoint link from OneDrive. If it's on an external drive, you need to upload it to SharePoint or Teams first. 
+### Step 5: Copy Links of IFC/BCF Files or Folders
+Go to the Files tab and copy the links of the files you want to view in the IFC Viewer.
+Supported links are:
+- Individual **IFC** or **BCF** file links,
+- A **folder** link that contains multiple IFC/BCF files you want to display together
+- If the link is on OneDrive/SharePoint, you need to copy the link from OneDrive/SharePoint. 
+- If it's on an external drive, you need to upload it to SharePoint or Teams first.
+
+> [!Note]
+> When you open the IFC Viewer tab, you will only be able to load and view files if you have permission to open the file links that were pasted into the settings. If you do not have access to a specific file or folder, it will not appear in the viewer. **Make sure you have the necessary permissions in SharePoint or Teams to view the linked files.**
 
 ![Copy Links of IFC Files](/_media/teams-apps-ifc-viewer-in-files-tab-copy-links-of-ifc-files.png)
 
@@ -65,12 +72,12 @@ Return to the tab settings.
 
 ![Return to the tab settings](/_media/teams-apps-ifc-viewer-tab-settings-to-connect-with-your-files.png)
 
-Paste the copied IFC file links, and save the settings. Pasting IFC file links from SharePoint or Teams ensures that these files will load automatically whenever the tab is opened.
+Paste the copied file links, and save the settings. Pasting file links from SharePoint or Teams ensures that these files will load automatically whenever the tab is opened.
 
 ![Paste IFC File Links and Save](/_media/teams-apps-ifc-viewer-tab-settings-paste-ifc-file-links-and-save.png)
 
 ### Done! IFC Files Load Automatically
-IFC files will load automatically according to the settings whenever you open the tab.
+IFC and BCF files will load automatically according to the settings whenever you open the tab.
 You can restrict upload permissions by adjusting SharePoint settings or using the Protect App. 
 
 ![IFC Files from Settings Load Automatically](/_media/teams-apps-ifc-viewer-ifc-files-from-settings-load-automatically.png)
