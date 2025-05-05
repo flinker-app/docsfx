@@ -1,11 +1,5 @@
 # Release Notes
 
-## 2.0.3.0 (2.0.3.0) - 2025-05-05
-
-**Full Changelog**: https://github.com/flinker-app/ifc-sharepoint/compare/2.0.2.0...2.0.3.0
-
----
-
 ## Test release (2.0.2.0) - 2025-05-05
 
 test description
