@@ -26,13 +26,27 @@ Quickly *find* any issue or task by:
 ## How to Set Up Microsoft Lists Sync for Your BCF Topics
 
 ### Create Your Microsoft List
-To ensure seamless integration, create a Microsoft List with exactly these columns and types:
-- **Guid** *(Text)*
-- **Title** *(Text)*
-- **Description** *(Multiline Text)*
-- **Status** *(Choice)*
-- **AssignedTo** *(Choice)*
-- **DueDate** *(Date)*
+
+To ensure seamless integration, your Microsoft List must include the following **required** columns and types:
+
+* **Guid** *(Text)*
+* **Title** *(Text)*
+
+All other columns are **optional**. If a column is present, the integration will map and update it.
+
+**Optional columns (add as needed):**
+
+* **Description** *(Multiline Text)*
+* **Status** *(Choice)*
+* **AssignedTo** *(Choice)*
+* **TopicType** *(Choice)*
+* **Priority** *(Choice)*
+* **Stage** *(Choice)*
+* **DueDate** *(Date)*
+* **CreationDate** *(Date)*
+* **CreationAuthor** *(Text)*
+* **ModifiedDate** *(Date)*
+* **ModifiedAuthor** *(Text)*
 
 ### Insert the Microsoft List URL
 Copy and paste the Microsoft List URL into your Teams IFC Viewer app tab settings.
