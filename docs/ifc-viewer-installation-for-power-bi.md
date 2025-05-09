@@ -35,14 +35,14 @@ Optional step. Use only if you want to centrally deploy IFC Viewer so all users 
 
 ## 4. Licensing Information
 
-Licensing for the Power BI IFC Viewer Visual is free in Desktop and Publish to Web, but a license is needed for Power BI Online.
+You can use the Power BI IFC Viewer Visual for free in Power BI Desktop and Publish to Web, but a license is needed for Power BI Online.
 
 
-| Environment                          | Power BI Visual Licence required?     |
-| ------------------------------------ | --------------------------- | ------------------------------------------------ |
-| **Power BI Desktop**                 | **No** – always free                             |
-| **Power BI Online**                   | **Yes** (blocked until user has a licence)      |
-| **Publish to Web**                   | **No** – always free for anonymous viewers |
+| Feature            | Power BI IFC Viewer Free | Power BI IFC Viewer Solo/Team/Business Plan |
+|------------------------|-------------------------------|-------------------------------|
+| View IFC models and edit visual in Power BI Desktop   | ✅          | ✅                |
+| View IFC models in public reports (Publish to Web)     | ✅          | ✅                             |
+| View IFC models and edit visual in Power BI Online    | ❌           | ✅           |
 
 
 For detailed information on licensing for Power BI visuals, please refer to the [Power BI Visuals Licensing FAQ](https://learn.microsoft.com/en-us/power-bi/developer/visuals/licensing-faq). This resource provides answers to common questions regarding licensing, distribution, and usage of custom visuals in Power BI.
