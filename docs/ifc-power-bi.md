@@ -25,7 +25,7 @@ The **IFC Viewer** is a powerful and intuitive app designed for **Microsoft Powe
 | Privacy: User controls data storage |✅|❌|
 | Link model to external data (cost, schedule) |✅|❌|
 | Create 3D views with custom charts & KPIs |✅|❌|
-| Integarte with Microsoft 365 (Lists, Excel, SharePoint) |✅|❌|
+| Integrate with Microsoft 365 (Lists, Excel, SharePoint) |✅|❌|
 | Add custom workflows to your data |✅|❌|
 
 ## Key features
