@@ -17,54 +17,82 @@ The **IFC Viewer** is a powerful and intuitive app designed for **Microsoft Powe
 > [!NOTE]
 > Need custom Power BI dashboards with integrated data sources? [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/).
 
-## Key Features
+## Why choose IFC Viewer for Power BI?
 
-### 🔍 Instant Data Visualization
-- Select any **IFC element** within the 3D model to **instantly view** its properties and metadata in Power BI.
-- The IFC Viewer for Microsoft Power Bi dynamically links **IFC attributes** to Power BI dashboards for real-time analysis.
+| Feature | Power BI IFC Viewer | Standard IFC Viewer |
+| ----------------------------- |:------------------:|:------------------:|
+| Link model elements directly to external data (cost, schedule)    |✅|❌|
+| Embed 3D views alongside customizable charts, KPIs and reports    |✅|❌|
+| Use slicers to highlight or isolate elements by any property      |✅|✅|
+| Click between model and charts to explore related data            |✅|❌|
+| Publish interactive reports to Power BI Service or Microsoft 365  |✅|❌|
+| Schedule automatic updates of both geometry and linked data       |✅|❌|
+| Add any Power BI visual (maps, R/Python) alongside the model      |✅|❌|
+| No additional software/login required                             |✅|❌|
+| Users control where data is stored                                |✅|❌|
 
-![Select any element](/_media/select-any-element-of-ifc-model-to-view-its-data-on-the-spot.png)
 
-#### Watch here how you could use the IFC Power BI app and start building your interactive live dashboards:
-<video width="100%" height="auto" controls>
-  <source src="/_media/select-any-elements-in-ifc-model-to-show-its-data-in-power-bi.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+## Key features
 
-### 🎯 Custom Filtering & Selection
-- **Apply custom filters** to isolate specific **IFC types** (e.g., walls, beams, doors, railings, etc.).
-- Click on **filtered IFC components** to highlight corresponding elements in the 3D viewer.
-- Intuitive heatmaps and treemaps categorize elements based on type and attributes.
+### 1. Instant IFC model import
 
-![Custom Filters](/_media/create-and-select-any-filters-of-choice-view-in-ifc-power-bi-viewer-microsoft-app.png)
+Just copy-paste links from SharePoint, databases, or cloud storage, and see your 3D IFC models visualized instantly and interactively within Power BI.
+- Real-time IFC data extraction
+- Instant 3D visualization
+- Compatible with Power BI-supported sources
 
-![Click on filters](/_media/click-on-your-costum-filters-to-view-the-items-in-ifc-viewer-instantly.png)
-
-### 🔄 Seamless Integration with Power BI & Microsoft 365
-- Easily sync and **export IFC data** to **SharePoint, Microsoft Teams, and Excel**.
-- Support for **IFC2X3 & IFC4** file formats, ensuring broad compatibility with BIM software.
-- Interactive **hover-over analytics** that display key attributes instantly.
-
-![Hover over filters](/_media/hover-over-custom-filters-and-select-any-ifc-elements-such-as-ifc-types.png)
-
-#### Watch here how you could use the IFC Power BI app and start building your interactive live dashboards:
-<video width="100%" height="auto" controls>
+### 2. Interactive Data
+- The IFC Viewer Visual dynamically links **IFC attributes** to Power BI dashboards for real-time analysis.
+  
+  <video width="100%" height="auto" controls>
   <source src="/_media/select-any-filters-in-ifc-power-bi-microsoft-app.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-### 📊 Advanced Data Interaction
-- Analyze IFC **element quantities** directly in Power BI.
-- View **hierarchical model structures** with a structured **model tree**.
-- Enhance project management and decision-making through **data-driven insights**.
+- Select any **IFC element** within the 3D model to **instantly view** its properties and metadata in Power BI.
+  
+  ![Select any element](/_media/select-any-element-of-ifc-model-to-view-its-data-on-the-spot.png)
 
-### 📈 Comprehensive Reporting
+- Interactive **hover-over analytics** that display key attributes instantly.
+  
+  ![Hover over filters](/_media/hover-over-custom-filters-and-select-any-ifc-elements-such-as-ifc-types.png)
+
+### 3. Custom Filtering & Selection
+- **Apply custom filters** to isolate specific **IFC types** (e.g., walls, beams, doors, railings, etc.).
+- Click on **filtered IFC components** to highlight corresponding elements in the 3D viewer.
+  
+  ![Click on filters](/_media/click-on-your-costum-filters-to-view-the-items-in-ifc-viewer-instantly.png)
+- Intuitive heatmaps and treemaps categorize elements based on type and attributes.
+
+### 4. Save filters and views
+
+- With Power BI’s bookmark feature – whether personal or report-level – you can pin your favorite views and switch in seconds.
+  
+  <video width="100%" height="auto" controls>
+  <source src="/_media/bookmarks-in-power-bi-ifc-viewer-visual.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+### 5. Seamless integration with Power BI & Microsoft 365
+- Easily **load IFC data** from **SharePoint, Microsoft Teams, and Excel**.
 - **Create detailed reports** in Power BI for **Microsoft Teams**, **SharePoint** sites, or set **email report subscriptions**.
 - **Embed** your Power BI reports anywhere in your organization for various audiences.
-- **Push and work with data** seamlessly across other **Microsoft apps**, enhancing collaboration and productivity.
+
+### 5. Automatic data refresh
+
+- Power BI’s automatic refresh keeps your dashboards updated with the latest IFC data.
+- Schedule refreshes or trigger them manually for flexibility.
+- Works with cloud sources like SharePoint and OneDrive for real-time insights.
+
+### 6. Connect external data sources
+Connect external data sources such as schedules, costs, or sensor data to enhance your dashboards.
+- **Integrate project timelines** from scheduling tools for side-by-side visualization with IFC models.
+- **Combine cost and asset data** for unified project tracking and analysis.
+- **Add IoT sensor feeds** for live building performance insights.
+- **Link external databases** for a complete project overview in Power BI.
 
 
-## Use Cases
+## Use cases
 - **Building Lifecycle Management** – Track and analyze construction progress using IFC data.
 - **Facility Management** – Improve maintenance planning by integrating BIM data into Power BI dashboards.
 - **Cost Estimation & Quantity Takeoffs** – Extract and analyze component quantities directly from IFC models.
@@ -79,7 +107,7 @@ The **IFC Viewer Power BI** Microsoft app is ideal for:
 - **Power BI Analysts** integrating BIM data into dashboards
 - **Project managers** viewing 3D models without fears and huzzles
 
-## How It Works
+## How it works?
 1. **Select** any IFC files from your SharePoint tenant.
 2. **Select** any element in the 3D viewer to view its associated data.
 3. **Filter** components based on IFC types, attributes, or properties.
@@ -87,15 +115,6 @@ The **IFC Viewer Power BI** Microsoft app is ideal for:
 5. **Export & share insights** via Microsoft Teams, SharePoint, or Excel.
 
 ![Power BI Integration](/_media/ifc-viewer-app-microsoft-power-bi-in-microsoft-appsource-store.png)
-
-## Why Choose IFC Viewer?
-✅ **Enhanced Power BI BIM and 3D visualization**  
-✅ **Seamless integration with Microsoft 365**  
-✅ **Interactive & customizable data insights**  
-✅ **No additional software required – runs within Power BI**  
-✅ **Optimized for performance on large-scale models**  
-✅ **Self-hosted Microsoft app**
-
 
 ## FAQs
 
