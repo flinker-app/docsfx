@@ -20,17 +20,13 @@ The **IFC Viewer** is a powerful and intuitive app designed for **Microsoft Powe
 ## Why choose IFC Viewer for Power BI?
 
 | Feature | Power BI IFC Viewer | Standard IFC Viewer |
-| ----------------------------- |:------------------:|:------------------:|
-| Link model elements directly to external data (cost, schedule)    |✅|❌|
-| Embed 3D views alongside customizable charts, KPIs and reports    |✅|❌|
-| Use slicers to highlight or isolate elements by any property      |✅|✅|
-| Click between model and charts to explore related data            |✅|❌|
-| Publish interactive reports to Power BI Service or Microsoft 365  |✅|❌|
-| Schedule automatic updates of both geometry and linked data       |✅|❌|
-| Add any Power BI visual (maps, R/Python) alongside the model      |✅|❌|
-| No additional software/login required                             |✅|❌|
-| Users control where data is stored                                |✅|❌|
-
+| ------- |:------------------:|:------------------:|
+| No extra software/login |✅|❌|
+| Privacy: User controls data storage |✅|❌|
+| Link model to external data (cost, schedule) |✅|❌|
+| Create 3D views with custom charts & KPIs |✅|❌|
+| Integarte with Microsoft 365 (Lists, Excel, SharePoint) |✅|❌|
+| Add custom workflows to your data |✅|❌|
 
 ## Key features
 
