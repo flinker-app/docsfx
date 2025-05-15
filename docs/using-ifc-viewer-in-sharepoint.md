@@ -45,13 +45,14 @@ Once you have successfully installed the IFC Viewer app in SharePoint, follow th
 3. **Configure the IFC Viewer Web Part:**
    - Once the web part is added, click on it to edit.
    - Paste the link to the IFC file you want to display.
-   - [Download sample IFC file from buildingSMART](https://github.com/buildingSMART/BCF-XML/blob/release_3_0/Test%20Cases/IFCs/Architectural.ifc)
-   - [Download sample BCF file from buildingSMART](https://github.com/buildingSMART/BCF-XML/blob/release_3_0/Test%20Cases/v3.0/Visualization/Component%20selection/component%20selection.bcf)
    - After configuring the link, click "Republish" to save the changes.
 
    ![Edit and Paste Link](/_media/sharepoint-site-edit-home-page-edit-ifc-viewer-webpart-and-paste-link-and-republish.png)
 
-4. **View the Published Page:**
+   > [!NOTE]
+   > Download sample [IFC file](https://github.com/buildingSMART/BCF-XML/blob/release_3_0/Test%20Cases/IFCs/Architectural.ifc) and [BCF file](https://github.com/buildingSMART/BCF-XML/blob/release_3_0/Test%20Cases/v3.0/Visualization/Component%20selection/component%20selection.bcf) from buildingSMART and upload the files your SharePoint site
+
+1. **View the Published Page:**
    - After republishing, the IFC Viewer web part will be visible on the homepage, displaying the linked IFC file.
 
    ![Published Home Page with IFC Viewer Web Part](/_media/sharepoint-site-published-home-page-with-ifc-viewer-webpart.png)
