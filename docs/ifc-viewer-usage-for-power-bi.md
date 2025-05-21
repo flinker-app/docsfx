@@ -11,11 +11,23 @@ You can use the 3D IFC Viewer in Power BI either by quickly starting with the re
 
 ## Option 1: Quick start with the sample report
 
-### 1. Obtain the IFC file link
+### 1. Obtain the IFC file path
 
 You can use a direct SharePoint IFC file link by authenticating with your Microsoft organization account. Alternatively, anonymous or public file links from sources such as GitHub, Autodesk, Trimble, or Google Drive are also supported.
 
+**Local file**
+
+To use a local IFC file, first copy its file path. In Windows, open File Explorer and navigate to your IFC file. Right-click the file, and select **Copy as path**. This copies the full file path (e.g., `C:\Users\YourName\Documents\example.ifc`) to your clipboard.
+
+> [!NOTE]
+> Make sure there are no quotation marks (`"`) at the start or end of the file path you paste. If you see any, delete them before proceeding.
+
+**SharePoint file**
+
 To use a SharePoint file, locate your IFC file, click on the file, and select **Details** from the menu. Under the **Details** pane, find the **Path** section and copy the plain file path (not the sharing link). This direct path is required for the IFC Viewer to access the file correctly.
+
+> [!NOTE]
+> Be sure to use the correct SharePoint file path. Shared links will not work. Follow the steps in Step 1 carefully to obtain a direct file path.
 
 ![Copy Direct Link of SharePoint IFC File](/_media/copy-direct-link-of-sharepoint-ifc-file.png)
 
@@ -29,8 +41,6 @@ Download the [sample Power BI report](https://appsource.microsoft.com/en-us/prod
 
 Paste the copied IFC file link into the respective parameter field in Power BI. Confirm your changes by clicking **OK**.
 
-> Be sure to use the correct SharePoint file path. Shared links will not work. Follow the steps in Step 1 carefully to obtain a direct file path.
-
 ![Edit Parameters and Paste File Link](/_media/power-bi-desktop-app-edit-parameters-and-paste-file-link.png)
 
 ### 4. Apply changes
@@ -41,7 +51,7 @@ After editing the parameters, apply the changes in Power BI by selecting **Apply
 
 ### 5. Sign in with your organization account
 
-After applying changes, sign in to your Microsoft organization account to securely access web content. Follow the on-screen prompts to provide your corporate credentials.
+If you are using a SharePoint file, Power BI may prompt you to sign in with your Microsoft organization account to access the file. Sign in to your Microsoft organization account to securely access SharePoint files. Follow the on-screen prompts to provide your corporate credentials.
 
 ![Sign In with Your Organization Account](/_media/powerbi-signin-with-your-org-account-and-access-web-content.png)
 
@@ -70,19 +80,28 @@ If you already have an empty Power BI report or an existing report and want to i
 
 ![Copy Power BI Query to Load IFC Files](/_media/copy-power-bi-query-to-load-ifc-files.png)
 
+### 2. Paste the query into your own report
+
 5. Open your own report, go to **Transform Data**, right-click in the Queries pane, and select **Paste**.
-6. Adjust the file path parameter if needed.
+6. Adjust the file location parameter if needed.
 7. Click **Close & Apply** to save the changes and load the data into your report.
 
-### 2. Add the IFC Viewer Visual from AppSource
+### 3. Add the IFC Viewer Visual from AppSource
 
 1. In Power BI Desktop, go to the Visualizations pane and click on **Get more visuals (… )** to search the IFC Viewer visual in the Appstore and add the IFC Viewer visual to your report.
 2. Once added, find the IFC Viewer icon in the Visualizations pane and click it to add the visual to your report canvas.
-3. Bind the `IFC Chunks` and `GUIDS` (or similar) fields from your `IFC` query table to the corresponding data fields in the IFC Viewer visual, ensuring the GUID is used as the linking key.
+### 3. Bind the required fields to the IFC Viewer visual
+
+- Drag and drop the `IFC Chunks` field from your `IFC` query table to the **IFC Chunks** data field of the IFC Viewer visual. This field contains the binary or text data representing the IFC model and is essential for rendering the 3D model in the viewer.
+
+- Drag and drop the `GUIDS` field from your `IFC` query table to the **IDs** data field of the IFC Viewer visual. This field contains the unique identifiers for each element in the IFC model and is used to link the IFC data to other tables or visuals in your report.
+
+> [!NOTE]
+> In the IFC Viewer Visual you can show or hide individual building elements (such as walls, floors, doors, windows, columns, beams, stairs etc.) by their unique GlobalId (GUID) e.g. `3zE3wwXjt4f9f19eugD1Q0`. Other IFC objects (property sets, materials, etc.) may also have GUIDs, but they don’t map one-to-one to a visible element in your scene.
 
 ![Bind IFC Query Fields to Power BI Visual's Data Fields](/_media/bind-ifc-query-fields-to-power-bi-visuals-data-fields.png)
 
-### 3. Optional: Link IFC Data to your existing data
+### 4. Optional: Link IFC Data to your existing data
 
 1. In the **Model** view, select your existing data table.
 2. Click **Manage Relationships** > **New**.
