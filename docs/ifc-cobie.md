@@ -5,7 +5,7 @@ keywords: COBie, Facility Management, Integration, Import, Export, API
 canonical_url: https://docs.flinker.app/docs/ifc-cobie.html
 ---
 
-# 📘 COBie Integration
+# COBie Integration
 
 ### Bring structure and clarity to your building data with Flinker’s easy COBie export
 
@@ -22,7 +22,7 @@ With ***Flinker***, you can export your IFC models into COBie spreadsheets with 
 > [!TIP]
 > Want the best results? Make sure your IFC file is structured properly with standard object types and classifications (like IFCWall, IFCDoor, etc). The cleaner the data, the prettier the COBie sheet
 
-## ➡️ How to Export COBie from Flinker
+## How to Export COBie from Flinker
 
 > [!IMPORTANT]
 > **You need to upload an IFC file first before exporting COBie.**
@@ -34,7 +34,7 @@ Here’s how to do it:
 4. Choose your preferred export settings (if available)
 5. Hit **Export** and your spreadsheet will be ready in seconds! 📥
 
-### 💬 Need Help?
+### Need Help?
 
 > [!div class="nextstepaction"]
 > [Talk to us](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)

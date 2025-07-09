@@ -5,7 +5,7 @@ keywords: BCF, BIM, Collaboration, SharePoint, Teams, Integration
 canonical_url: https://docs.flinker.app/docs/ifc-bcf.html
 ---
 
-## 📘 BCF Integration
+## BCF Integration
 
 <iframe src="https://viewer.flinker.app/examples/bcf.html" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
 
@@ -46,7 +46,7 @@ When you create new topics, these elements are captured automatically, providing
 
 This simplifies communication and ensures everyone stays aligned with clear visual context.
 
-### ➡️ How to Get Started
+### How to Get Started
 
 See how ***Flinker*** can bring BCF workflows into your Microsoft 365 setup.
 

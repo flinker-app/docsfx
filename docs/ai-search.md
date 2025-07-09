@@ -6,7 +6,7 @@ canonical_url: https://docs.flinker.app/docs/ai-search.html
 ---
 
 
-# 🔍 AI Search 
+# AI Search 
 
 ### You can now easily find specific components and data inside your IFC models.  
 
@@ -38,7 +38,7 @@ Combine multiple search queries to dive deeper into your BIM data.
 - **Multilingual Support**: 
 Interact with your IFC files in any major language, accommodating diverse project teams.
 
-## 💬 FAQ 
+## FAQ 
 
 A secure and privacy first GPT integration for the Microsoft IFC app that will revolutionize your IFC project management.
 

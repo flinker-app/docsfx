@@ -1,4 +1,4 @@
-# 📘 Microsoft Lists + BCF integration
+# Microsoft Lists and BCF integration
 
 ## Track BIM issues like a pro!
 
@@ -8,7 +8,7 @@ Managing BIM issues is now as *easy* as managing a to-do list.
 ### Key benefits
 
 **Cross-team tracking**  
-Stay on top of project issues across multiple teams and projects—all in *one place*.
+Stay on top of project issues across multiple teams and projects - all in *one place*.
 
 **All tasks in one view**  
 Use Microsoft Lists to manage BCF issues + other tasks, like:
@@ -62,7 +62,7 @@ When you click the **Save to SharePoint/Teams** button, loaded topics are automa
 
 ### 4. Choose your favorite view
 
-With Microsoft Lists, you enjoy a full suite of powerful features including versatile display options—you can easily switch between multiple views or even create custom views to perfectly match your workflow needs.
+With Microsoft Lists, you enjoy a full suite of powerful features including versatile display options - you can easily switch between multiple views or even create custom views to perfectly match your workflow needs.
 
 - **List view** - Clean and simple. Great for sorting and scanning quickly.
   ![List Items View](/_media/bcftopics-as-listitems-in-micrsoftlists.png)  
@@ -98,12 +98,12 @@ Let’s say your BIM model has a clash issue between a pipe and a beam.
 
 **Boom**. Clash fixed, team happy, project on track.
 
-## 📫 Want a demo?
+## Want a demo?
 
 > [!div class="nextstepaction"]
 > [Book a meeting with us](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/) and we’ll show you how BCF + Microsoft Lists can simplify your project workflows.
 
-## 💬 FAQs
+## FAQs
 
 A secure and privacy-first IFC viewer with a deep Microsoft List integration that will revolutionize your IFC project management and IFC data processing in Microsoft 365.
 

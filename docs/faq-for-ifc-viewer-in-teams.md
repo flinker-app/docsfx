@@ -92,7 +92,7 @@ Is it necessary to choose which chat or team I should set up the IFC Viewer?</su
 <details>
 <summary>Can I control who can modify the auto-loading files?</summary>
 
-> In Microsoft Teams, not everyone has access to modify tab settings. Typically, only team owners—and sometimes IT administrators—have the permissions needed to change or configure a tab’s settings. Regular team members usually have limited control, which helps ensure that key configurations remain consistent across the team.
+> In Microsoft Teams, not everyone has access to modify tab settings. Typically, only team owners - and sometimes IT administrators - have the permissions needed to change or configure a tab’s settings. Regular team members usually have limited control, which helps ensure that key configurations remain consistent across the team.
 </details>  
 
 <details>
@@ -105,6 +105,6 @@ Is it necessary to choose which chat or team I should set up the IFC Viewer?</su
 <details>
 <summary>Does everyone see whenever I open a file or which part I am viewing at?</summary>
 
-> No. Opening an IFC file is private—other users in Teams do not get a notification when you open a file inside IFC Viewer.
+> No. Opening an IFC file is private - other users in Teams do not get a notification when you open a file inside IFC Viewer.
 > Everyone sees their own individual view. The model does not sync in real-time unless using an external screen-sharing tool.   
 </details> 

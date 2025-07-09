@@ -8,7 +8,7 @@ _disableBreadcrumb: true
 _disableNextArticle: true
 ---
 
-# 📘 Documentation and Support
+# Documentation and Support
 
 This documentation guides you through **setting up**, **using**, and **troubleshooting** Flinker within Microsoft 365. 
 
@@ -117,7 +117,6 @@ All our products are built to integrate seamlessly with your existing Microsoft 
     <span class="benefit-icon"><i class="ms-Icon ms-Icon--Signin"></i></span>
     <span class="benefit-text">Single Sign-On for any users</span>
   </div>
-
 </div>
 
 ## Support

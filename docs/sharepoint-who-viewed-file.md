@@ -5,11 +5,11 @@ keywords: SharePoint, File Activity, Microsoft 365, Purview, Audit Logs, Power A
 canonical_url: https://docs.flinker.app/docs/sharepoint-view-tracking.html
 ---
 
-# 📘 How to See Who Viewed Files in SharePoint
+# How to See Who Viewed Files in SharePoint
 
 ### Track document access across your SharePoint and Teams environments
 
-Knowing who has viewed or accessed files helps you stay compliant, improve collaboration, and ensure accountability. SharePoint offers several built-in tools—plus deeper integrations with Microsoft 365—to give you visibility into file activity.
+Knowing who has viewed or accessed files helps you stay compliant, improve collaboration, and ensure accountability. SharePoint offers several built-in tools - plus deeper integrations with Microsoft 365 - to give you visibility into file activity.
 
 ## Check File Activity in the Document Library
 
@@ -27,9 +27,9 @@ For quick visibility on recent interactions:
 
 > [!NOTE]  
 > This feature currently works **only for Office file types** (Word, Excel, PowerPoint).  
-> **PDFs, images, ZIP files, CAD models, and other formats are not supported**—you won’t see a “View” count for these files.
+> **PDFs, images, ZIP files, CAD models, and other formats are not supported** - you won’t see a “View” count for these files.
 
-### ✅ What to do instead for PDFs and other file types
+### What to do instead for PDFs and other file types
 
 If you want to track access to **all file types**, including PDFs:
 
@@ -42,7 +42,7 @@ These methods give you full transparency across **any file format**, not just Of
 
 Even for `.docx` files, the **“1 View”** indicator might not appear in the details pane. Here are the most common reasons:
 
-### 🔒 Missing Admin Settings or Permissions
+### Missing Admin Settings or Permissions
 
 | Reason | What to check |
 |--------|---------------|
@@ -70,7 +70,7 @@ Even for `.docx` files, the **“1 View”** indicator might not appear in the d
 > [!NOTE]  
 > If the option is not visible, it’s likely because **Microsoft Graph or Delve is turned off tenant-wide**. You need to enable them first (see next section).
 
-## ✅ Ensure Microsoft Graph & Delve Are Enabled
+## Ensure Microsoft Graph & Delve Are Enabled
 
 To show viewer info, your Microsoft 365 tenant must allow **activity-based insights** from Microsoft Graph.
 
@@ -83,7 +83,7 @@ To show viewer info, your Microsoft 365 tenant must allow **activity-based insig
 
 > These settings must be changed by a **Global Admin**.
 
-## 🧪 Advanced: Enable with PowerShell (for admins)
+## Advanced: Enable with PowerShell (for admins)
 
 If you want to enable viewer info programmatically:
 
@@ -116,13 +116,13 @@ To understand how your SharePoint content is used at a higher level:
 
 ## Access Audit Logs via Microsoft Purview
 
-Need to know exactly *who* opened or viewed a file—even if it's a PDF, image, or CAD model?  
+Need to know exactly *who* opened or viewed a file - even if it's a PDF, image, or CAD model?  
 With **Microsoft Purview Audit Logs**, you can search activity across your SharePoint and Teams environment in just a few clicks.
 
 > [!IMPORTANT]  
 > This requires **Microsoft 365 E5** or **Purview Audit (Standard)**. You also need to have **audit logging enabled** (usually on by default for E5 tenants).
 
-### ⚡ Quick Workflow: How to Check Who Viewed a File
+### Quick Workflow: How to Check Who Viewed a File
 
 1. Go to [**Microsoft Purview Compliance Center**](https://compliance.microsoft.com/)
 2. In the left menu, select **Audit**
@@ -144,11 +144,11 @@ You’ll now see:
 > [!TIP]  
 > You can export the results as a `.csv` file and even automate reporting if needed.
 
-### 🧩 Use Case Example
+### Use Case Example
 
 Want to check if external partners have opened a shared PDF?
 
-Just search by file name and set a date range. You’ll instantly know if, when, and by whom it was accessed—**even if the file type is not an Office document**.
+Just search by file name and set a date range. You’ll instantly know if, when, and by whom it was accessed - **even if the file type is not an Office document**.
 
 > [!NOTE]  
 > If you don’t see the Audit menu, contact your IT admin to ensure you have the correct role (e.g. **Compliance Management** or **Audit Reader**).
@@ -160,12 +160,12 @@ Want a lightweight, no-code solution?
 - Use **Power Automate** to log every file open or edit in a SharePoint List
 - Or create a **Read Confirmation Flow**, where users confirm when they’ve accessed a file
 
-This gives you full control—without requiring premium Microsoft 365 plans.
+This gives you full control - without requiring premium Microsoft 365 plans.
 
 > [!NOTE]  
 > This method is flexible but not automatic for views. For PDF tracking, you may need to trigger flows based on file downloads or specific user interactions.
 
-## 📋 Summary
+## Summary
 
 | Method                      | Supports All File Types | Shows Who Viewed | License Required      | Best For                      |
 |----------------------------|--------------------------|------------------|------------------------|-------------------------------|
@@ -174,7 +174,7 @@ This gives you full control—without requiring premium Microsoft 365 plans.
 | Microsoft Purview Logs     | ✅                       | ✅ Yes           | Microsoft 365 E5       | Full audit trail              |
 | Power Automate Logging     | ✅ (customizable)        | ✅ Yes (custom)  | No (basic flows)       | Custom tracking               |
 
-### 💬 Need Help?
+### Need Help?
 
 > [!div class="nextstepaction"]
 > [Talk to us](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)

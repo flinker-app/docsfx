@@ -10,7 +10,7 @@ We’ll cover two approaches:
 1. **Create a SharePoint group for each set of external users** in your SharePoint site.
 2. **Grant each SharePoint group access** to its designated folder.
 3. **Add external users** to their appropriate SharePoint group.  
-When external users are added, they typically receive an invitation email that includes a link to the site’s root—not directly to the intended folder.
+When external users are added, they typically receive an invitation email that includes a link to the site’s root - not directly to the intended folder.
 > [!NOTE]
 > Use **SharePoint groups** when you:
 > - Need site owners and non-admin users to manage group membership directly.

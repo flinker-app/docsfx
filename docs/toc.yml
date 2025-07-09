@@ -1,83 +1,79 @@
-- name: DOCS 🤷
+- name: DOCS
 - name: Get started
   href: ../index.md
 
-- name: BIM TOOLS 🧊
-- name: BIM Features
-  expanded: true
-  items:
-    - name: Online IFC Viewer
-      href: ifc-viewer.md
-    - name: BCF Topics
-      href: ifc-bcf.md
-    - name: Saving Filters and Viewpoints
-      href: bcf-viewpoints.md
-    - name: Large IFC models
-      href: load-large-ifc-models.md
-    - name: AI Search
-      href: ai-search.md
-    - name: COBie
-      href: ifc-cobie.md
-    - name: Navisworks
-      href: bcf-navisworks.md
-    - name: FAQ
-      href: faq-ifc-viewer.md
+- name: BIM TOOLS
+- name: Online IFC Viewer
+  href: ifc-viewer.md
+- name: BCF Topics
+  href: ifc-bcf.md
+- name: Saving Filters and Viewpoints
+  href: bcf-viewpoints.md
+- name: Large IFC models
+  href: load-large-ifc-models.md
+- name: AI Search
+  href: ai-search.md
+- name: COBie
+  href: ifc-cobie.md
+- name: Navisworks
+  href: bcf-navisworks.md
+- name: FAQ
+  href: faq-ifc-viewer.md
 
-- name: Microsoft Apps
-  href: apps.yml
-  expanded: true
+- name: MICROSOFT APPS
+- name: Teams IFC Viewer
+  expanded: false
   items:
-    - name: Teams IFC Viewer
-      expanded: false
-      items:
-        - name: Introduction
-          href: ifc-viewer-for-teams.md
-        - name: Installation
-          href: setting-up-the-ifc-viewer-in-microsoft-teams.md
-        - name: Link Documents
-          href: ifc-docslink.md
-        - name: Update BCF files
-          href: update-bcf-files-in-microsoft-teams.md
-        - name: Save BCF to Microsoft Lists
-          href: ifc-lists.md
-        - name: Save IFC to Microsoft Power BI
-          href: ifc-excel-power-bi.md
-        - name: Save IFC to Microsoft Excel Online
-          href: ifc-excel.md
-        - name: FAQs
-          href: faq-for-ifc-viewer-in-teams.md
-    - name: SharePoint IFC Viewer
-      expanded: false
-      items:
-        - name: Introduction
-          href: ifc-viewer-for-sharepoint.md
-        - name: Installation
-          href: viewer-app-installation-with-admin-approval.md
-        - name: Usage
-          href: using-ifc-viewer-in-sharepoint.md
-        - name: Load multiple files
-          href: load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.md
-        - name: Upgrade to latest version
-          href: upgrade-sharepoint-ifc-viewer-app.md
-        - name: Enable guest user access
-          href: enable-guest-user-access-to-sharepoint-app.md
-    - name: Power BI IFC Viewer
-      expanded: false
-      items:
-        - name: Introduction
-          href: ifc-power-bi.md
-        - name: Installation
-          href: ifc-viewer-installation-for-power-bi.md
-        - name: Usage
-          href: ifc-viewer-usage-for-power-bi.md
-        - name: Use cases
-          href: use-cases-for-ifc-visual-in-power-bi.md
-    - name: Power Automate
-      href: ifc-power-automate.md
-    - name: Power Apps
-      href: ifc-power-apps.md
+    - name: Introduction
+      href: ifc-viewer-for-teams.md
+    - name: Installation
+      href: setting-up-the-ifc-viewer-in-microsoft-teams.md
+    - name: Link Documents
+      href: ifc-docslink.md
+    - name: Update BCF files
+      href: update-bcf-files-in-microsoft-teams.md
+    - name: Save BCF to Microsoft Lists
+      href: ifc-lists.md
+    - name: Save IFC to Microsoft Power BI
+      href: ifc-excel-power-bi.md
+    - name: Save IFC to Microsoft Excel Online
+      href: ifc-excel.md
+    - name: FAQs
+      href: faq-for-ifc-viewer-in-teams.md
+- name: SharePoint IFC Viewer
+  expanded: false
+  items:
+    - name: Introduction
+      href: ifc-viewer-for-sharepoint.md
+    - name: Installation
+      href: viewer-app-installation-with-admin-approval.md
+    - name: Usage
+      href: using-ifc-viewer-in-sharepoint.md
+    - name: Load multiple files
+      href: load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.md
+    - name: Upgrade to latest version
+      href: upgrade-sharepoint-ifc-viewer-app.md
+    - name: Enable guest user access
+      href: enable-guest-user-access-to-sharepoint-app.md
+- name: Power BI IFC Viewer
+  expanded: false
+  items:
+    - name: Introduction
+      href: ifc-power-bi.md
+    - name: Installation
+      href: ifc-viewer-installation-for-power-bi.md
+    - name: Usage
+      href: ifc-viewer-usage-for-power-bi.md
+    - name: Use cases
+      href: use-cases-for-ifc-visual-in-power-bi.md
+- name: Excel IFC Viewer
+  href: ifc-viewer-for-microsoft-excel.md
+- name: Power Automate
+  href: ifc-power-automate.md
+- name: Power Apps
+  href: ifc-power-apps.md
 
-- name: PROTECT 🛡️
+- name: PROTECT
 - name: Features
   href: share-features.md
 - name: Installation for Admins
@@ -101,7 +97,7 @@
 - name: FAQ
   href: faq-share-app-for-microsoft-sharepoint.md
 
-- name: RESOURCES 📚
+- name: RESOURCES
 - name: Changelog
   href: releases.md
 
