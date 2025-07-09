@@ -280,12 +280,25 @@ footer {
   padding: 20px;
 }
 
+.benefit-item a {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  color: unset;
+}
+
 .benefit-icon {
   font-size: 2em;
   margin-right: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.benefit-icon img {
+  width: 50px;
+  max-width: none;
 }
 
 .benefit-text {

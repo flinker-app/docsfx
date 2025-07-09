@@ -8,16 +8,15 @@ _disableBreadcrumb: true
 _disableNextArticle: true
 ---
 
-# Documentation and Support
+# Documentation
 
 This documentation guides you through **setting up**, **using**, and **troubleshooting** Flinker within Microsoft 365. 
 
 ### What is Flinker?
-It is a suite of Microsoft 365 apps designed to streamline BIM workflows for real estate and infrastructure teams.  
-Our tools support: 
+It is a suite of Microsoft 365 apps designed to streamline BIM workflows for real estate and infrastructure teams:
 - IFC model viewing and collaboration 
 - Issue tracking and BCF workflows 
-- Secure SharePoint CDE setup 
+- Secure SharePoint Common Data Environment (CDE) setup 
 - Custom workflow automations using open standards 
 
 All within your existing Microsoft 365 environment. No new software required.
@@ -55,47 +54,114 @@ All within your existing Microsoft 365 environment. No new software required.
   </div>  
 </div>
 
-## Apps for Microsoft 365
-All our products are built to integrate seamlessly with your existing Microsoft 365 setup (*SharePoint*, *Teams*, or *Power BI*) to streamline your project management and collaboration.
+## Microsoft Partner
+All our products are built to integrate seamlessly with your existing Microsoft 365 setup to streamline your project management and collaboration.
 
-<!-- Horizontal Cards -->
-<div class="horizontal-card-container"> 
-  <a href="/docs/ifc-viewer-for-sharepoint.html" class="horizontal-card">
-    <img 
-      src="/_media/sharepoint-document-library-view-ifc-file.png" 
-      alt="IFC Viewer">
-    <div class="horizontal-card-content">
-      <h3 class="card-title">IFC Viewer in SharePoint</h3>
-      <p class="card-description">View and interact with IFC files directly in SharePoint for seamless project collaboration.</p>
-    </div>
-  </a>
-  <a href="/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html" class="horizontal-card">
-    <img 
-      src="/_media/teams-apps-ifc-viewer-ifc-files-from-settings-load-automatically.png" 
-      alt="IFC Viewer in Teams">
-    <div class="horizontal-card-content">
-      <h3 class="card-title">IFC Viewer in Teams</h3>
-      <p class="card-description">View and interact with IFC files directly in SharePoint for seamless project collaboration.</p>
-    </div>
-  </a>
-  <a href="/docs/ifc-power-bi.html" class="horizontal-card">
-    <img 
-      src="/_media/ifc-viewer-app-microsoft-power-bi-in-microsoft-appsource-store.png" 
-      alt="IFC Viewer in Teams">
-    <div class="horizontal-card-content">
-      <h3 class="card-title">IFC Viewer in Power BI</h3>
-      <p class="card-description">Visualize your IFC files in Power BI to gain insights and create reports.</p>
-    </div>
-  </a>
-  <a href="/docs/share-features.html" class="horizontal-card">
-    <img 
-      src="/_media/list-permissions-in-share-app.png" 
-      alt="Share">
-    <div class="horizontal-card-content">
-      <h3 class="card-title">Protect</h3>
-      <p class="card-description">Secure your project data by managing file permissions within SharePoint and Teams.</p>
-    </div>
-  </a>
+<div class="benefits-container">
+  <div class="benefit-item">
+    <a href="/docs/ifc-viewer-for-teams.html">
+      <span class="benefit-icon">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg"
+          alt="Microsoft Teams Logo"
+        >
+      </span>
+      <span class="benefit-text">
+        <b>Teams IFC Viewer</b> - View and interact with IFC and BCF files directly in Teams.
+      </span>
+    </a>
+  </div>
+
+  <div class="benefit-item">
+    <a href="/docs/ifc-viewer-for-sharepoint.html">
+      <span class="benefit-icon">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Microsoft_Office_SharePoint_%282019%E2%80%93present%29.svg"
+          alt="Microsoft SharePoint Logo"
+        >
+      </span>
+      <span class="benefit-text">
+        <b>SharePoint IFC Viewer</b> - View and interact with IFC and BCF files directly in SharePoint.
+      </span>
+    </a>
+  </div>
+
+  <div class="benefit-item">
+    <a href="/docs/ifc-viewer-for-microsoft-excel.html">
+      <span class="benefit-icon">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg"
+          alt="Microsoft Excel Logo"
+        >
+      </span>
+      <span class="benefit-text">
+        <b>Excel IFC Viewer</b> - Visualize, export and link IFC data right inside Excel.
+      </span>
+    </a>
+  </div>
+
+  <div class="benefit-item">
+    <a href="/docs/ifc-power-bi.html">
+      <span class="benefit-icon">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
+          alt="Microsoft Power BI Logo"
+        >
+      </span>
+      <span class="benefit-text">
+        <b>Power BI IFC Viewer</b> - Visualize and link your IFC data in Power BI with custom data.
+      </span>
+    </a>
+  </div>
+
+  <div class="benefit-item">
+    <a href="/docs/share-features.html">
+      <span class="benefit-icon">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Microsoft_Office_SharePoint_%282019%E2%80%93present%29.svg"
+          alt="Microsoft SharePoint Logo"
+        >
+      </span>
+      <span class="benefit-text">
+        <b>SharePoint Protect</b> - Secure your project data by managing file permissions within SharePoint and Teams.
+      </span>
+    </a>
+  </div>
+</div>
+
+## openBIM Standards
+We provide comprehensive file support centered around open, industry-standard formats, including IFC (Industry Foundation Classes) for exchanging BIM data and BCF (BIM Collaboration Format) for structured communication about BIM issues.
+
+<div class="benefits-container">
+  <div class="benefit-item">
+    <a href="/docs/ifc-viewer.html">
+      <span class="benefit-icon">
+        <img
+          style="clip-path: inset(19%);"
+          src="https://www.buildingsmart.org/wp-content/uploads/2024/07/bsi-icon-download.png"
+          alt="Microsoft Power BI Logo"
+        >
+      </span>
+      <span class="benefit-text">
+        <b>.IFC</b>
+      </span>
+    </a>
+  </div>
+
+  <div class="benefit-item">
+    <a href="/docs/ifc-viewer.html">
+      <span class="benefit-icon">
+        <img
+          style="clip-path: inset(19%);"
+          src="https://www.buildingsmart.org/wp-content/uploads/2024/07/bcf-icon-download.png"
+          alt="Microsoft SharePoint Logo"
+        >
+      </span>
+      <span class="benefit-text">
+        <b>.BCF</b>
+      </span>
+    </a>
+  </div>
 </div>
 
 ## Benefits
@@ -103,19 +169,27 @@ All our products are built to integrate seamlessly with your existing Microsoft 
 <div class="benefits-container">
   <div class="benefit-item">
     <span class="benefit-icon"><i class="ms-Icon ms-Icon--AppIconDefaultAdd"></i></span>
-    <span class="benefit-text">Seamless integration with Microsoft 365</span>
+    <span class="benefit-text"><b>No new software</b> - Utilize your existing Microsoft tools.</span>
   </div>
   <div class="benefit-item">
     <span class="benefit-icon"><i class="ms-Icon ms-Icon--Lock"></i></span>
-    <span class="benefit-text">100% privacy first and data sovereignty</span>
+    <span class="benefit-text"><b>Data stays yours</b> - 100% privacy first and data sovereignty</span>
   </div>
   <div class="benefit-item">
     <span class="benefit-icon"><i class="ms-Icon ms-Icon--Shield"></i></span>
-    <span class="benefit-text">As secure as Microsoft can be</span>
+    <span class="benefit-text"><b>Enterprise-grade security</b> - Built on Microsoft's security standards.</span>
   </div>
   <div class="benefit-item">
     <span class="benefit-icon"><i class="ms-Icon ms-Icon--Signin"></i></span>
-    <span class="benefit-text">Single Sign-On for any users</span>
+    <span class="benefit-text"><b>Single Sign-On</b> for any users</span>
+  </div>
+  <div class="benefit-item">
+    <span class="benefit-icon"><i class="ms-Icon ms-Icon--BookAnswers"></i></span>
+    <span class="benefit-text"><b>Zero training overhead</b> for existing Microsoft users.</span>
+  </div>
+  <div class="benefit-item">
+    <span class="benefit-icon"><i class="ms-Icon ms-Icon--Flow"></i></span>
+    <span class="benefit-text"><b>Built-in automation</b> using Power Automate and Power BI.</span>
   </div>
 </div>
 
