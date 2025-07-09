@@ -2,21 +2,20 @@
 - name: Get started
   href: ../index.md
 
-- name: BIM TOOLS
-- name: Online IFC Viewer
+- name: OPEN BIM
+- name: IFC
   href: ifc-viewer.md
-- name: BCF Topics
+- name: BCF
   href: ifc-bcf.md
-- name: Saving Filters and Viewpoints
-  href: bcf-viewpoints.md
-- name: Large IFC models
-  href: load-large-ifc-models.md
-- name: AI Search
-  href: ai-search.md
+  items:
+  - name: Saving Filters and Viewpoints
+    href: bcf-viewpoints.md
+  - name: Import from Navisworks
+    href: bcf-navisworks.md
 - name: COBie
   href: ifc-cobie.md
-- name: Navisworks
-  href: bcf-navisworks.md
+- name: AI Search
+  href: ai-search.md
 - name: FAQ
   href: faq-ifc-viewer.md
 

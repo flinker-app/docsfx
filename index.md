@@ -149,7 +149,7 @@ We provide comprehensive file support centered around open, industry-standard fo
   </div>
 
   <div class="benefit-item">
-    <a href="/docs/ifc-viewer.html">
+    <a href="/docs/ifc-bcf.html">
       <span class="benefit-icon">
         <img
           style="clip-path: inset(19%);"
