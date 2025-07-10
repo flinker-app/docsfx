@@ -45,6 +45,19 @@ Click "Connect" to grant permissions for the IFC Viewer to access your files. Th
 ![Connect and Grant Permissions to Read Your Files](/_media/teams-apps-ifc-viewer-click-connect-and-grant-permissions-to-read-your-files.png)
 
 
+#### Admin’s approval
+If your organization requires admin approval, [click here to grant permissions](https://login.microsoftonline.com/organizations/v2.0/adminconsent?client_id=c8f57ea5-d1b6-41a7-a2c2-d10e99d97a97&redirect_uri=https%3A%2F%2Fteamsifcviewer.flinker.app%2Fauth-end.html&scope=https://graph.microsoft.com/Files.Read.All%20https://graph.microsoft.com/offline_access%20openid%20profile&state=12345abc)
+
+When you connect, the IFC Viewer will request these scopes:
+
+- **Files.Read.All**  
+  Read files on behalf of the signed-in user.  
+  _Type: Delegated permission_
+
+- **User.Read**  
+  Sign you in and allow the app to read your basic profile.  
+  _Type: Delegated permission_
+
 > [!Note]
 > **Why Do You Need to Grant File Read Permissions?**
 > 
@@ -53,6 +66,7 @@ Click "Connect" to grant permissions for the IFC Viewer to access your files. Th
 > **Your files are not transferred externally**. The app operates **within the SharePoint and Teams environment**, ensuring that all data remains securely within your organization's ecosystem.
 > 
 > If you see a message saying that _"This app requires your admin’s approval,"_ it simply means that your organization's security settings require admin approval before third-party apps can access your files. In this case, you will need to contact your IT admin for approval.
+
 
 ### Step 5: Copy Links of IFC/BCF Files or Folders
 Go to the Files tab and copy the links of the files you want to view in the IFC Viewer.
