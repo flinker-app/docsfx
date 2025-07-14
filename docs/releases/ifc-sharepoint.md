@@ -1,4 +1,11 @@
- ## 2.1.0.0 (2.1.0.0) - 2025-05-16
+ ## 2.2.0.0 (2.2.0.0) - 2025-07-14
+
+## What's Changed
+* Save bcf topics to microsoft list
+
+---
+
+## 2.1.0.0 (2.1.0.0) - 2025-05-16
 
 **Features**
 - Open/load multiple BCF from SharePoint webpart and List view
