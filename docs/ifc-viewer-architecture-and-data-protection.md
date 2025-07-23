@@ -1,9 +1,9 @@
-# Architecture and Data Protection Overview
+# Architecture and Data Protection
 
 The Flinker IFC Viewer Apps for Microsoft 365 (SharePoint, Teams, Power BI, Excel) are fully integrated into your Microsoft 365 environment and operate exclusively within your own tenant.
 
-> [!IMPORTANT]
-> **Enterprise-Grade Security:**  
+> [!Note]
+> **Why Choose Flinker Microsoft BIM Apps? Enterprise-Grade Security:**  
 > Thanks to this architecture, the Flinker IFC Viewer App is especially suitable for large enterprises and organizations with highly sensitive data and extremely strict security or compliance requirements.  
 > No data leaves your Microsoft 365 tenant—making it an ideal choice for corporations, public sector institutions, or any company with rigorous IT governance and data protection standards.
 
@@ -13,8 +13,7 @@ The Flinker IFC Viewer Apps for Microsoft 365 (SharePoint, Teams, Power BI, Exce
 - The Flinker IFC Viewer apps run entirely within your organization's Microsoft 365 environment (SharePoint, Teams, Power BI, or Excel).
 - Installation and all access take place under your IT governance and security settings.
 
-![IFC Viewer for Microsoft 365 by Flinker](_media/ifc-viewer-architecture-customer-tenant-flinker-app.png.png)
-
+![IFC Viewer for Microsoft 365 by Flinker](/_media/ifc-viewer-architecture-customer-tenant-flinker-app.png)
 
 ## Processing and Protection of Sensitive Data
 
@@ -51,7 +50,7 @@ To ensure secure authentication and enable anonymous usage analytics, the follow
 
 
 
-## Component Overview and Data Flows
+## Component and Data Flows
 
 - **User:** Accesses the app via Microsoft Teams, SharePoint, Power BI, or Excel.
 - **IFC Viewer App:** Installed and operated directly in your Microsoft 365 tenant.

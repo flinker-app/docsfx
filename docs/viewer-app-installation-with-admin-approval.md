@@ -59,7 +59,7 @@ You can add the IFC Viewer to your site directly through the App Catalog or AppS
 Congratulations! You have successfully installed and started using the IFC Viewer app in SharePoint.
 
 
-## Permissions and Deployment: IFC Viewer for SharePoint
+## Permissions and Deployment
 
 The Flinker IFC Viewer for SharePoint is provided as a SharePoint Framework (SPFx) solution.  
 This allows seamless integration directly into your SharePoint Online environment and ensures strict adherence to your tenant’s security and compliance standards.
