@@ -43,6 +43,42 @@ Bring your BIM models directly into Excel with the IFC Viewer add-in, no extra i
 - **User-Friendly Interface**  
   Simple and intuitive interface makes BIM accessible for Excel users of all skill levels.
 
+## Permissions
+
+The Flinker IFC Viewer Add-in for Microsoft Excel is a task pane add-in that enables users to view and analyze IFC files directly within Excel.
+
+### Required Permissions
+
+The add-in requires the following permission:
+
+- **ReadWriteDocument**  
+  The add-in requests the `ReadWriteDocument` permission.  
+  This allows the add-in to read from and write to the currently open Excel document.
+
+  > **Note:**  
+  > The add-in does *not* have access to any other files, drives, or external storage locations.  
+  > Access is strictly limited to the Excel document in which the add-in is installed.
+
+### App Domains
+
+The add-in communicates only with the following domains:
+
+- `https://excel.flinker.app`
+- `https://flinker.app`
+
+No other external servers or cloud services are contacted.
+
+### Data Security and Privacy
+
+- No data from your Excel document is transmitted to external parties, except as technically required for the add-in to function (for example, loading add-in components from the Flinker CDN).
+- For full details on privacy and security, please refer to our [Architecture and Privacy Overview](https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html).
+
+### Summary
+
+- **Full (read & write) access only to the currently opened Excel document**
+- **No communication with third-party servers outside of Flinker**
+- **Highest standards for data privacy and security**
+
 
 > [!div class="nextstepaction"]
 > [Get the App](https://appsource.microsoft.com/en-us/product/office/WA200008867?src=docs&mktcmpid=ifc_excel)

@@ -48,3 +48,38 @@ You can use the Power BI IFC Viewer Visual for free in Power BI Desktop and Publ
 For detailed information on licensing for Power BI visuals, please refer to the [Power BI Visuals Licensing FAQ](https://learn.microsoft.com/en-us/power-bi/developer/visuals/licensing-faq). This resource provides answers to common questions regarding licensing, distribution, and usage of custom visuals in Power BI.
 
 
+## 5. Permissions Required by the IFC Viewer Visual
+
+The Flinker IFC Viewer for Power BI visual requires the following permissions for optimal operation:
+
+- **Web Access:**  
+  The visual loads resources and assets from the following domains:
+  - `https://viewer.flinker.app/` (Flinker Viewer core)
+  - `https://docs.flinker.app/` (documentation/help)
+  - `https://api.flinker.app/` (Flinker API endpoints)
+  - `https://unpkg.com` (public JS/CDN resources)
+  - `https://api.simplesvg.com/` and `https://api.iconify.design/` (icons)
+  - `https://forms.office.com/` (for feedback or surveys)
+
+- **Local Storage:**  
+  The visual uses your browser’s local storage to store settings or temporary data, improving your experience.
+
+- **Export Content (optional):**  
+  Users can export content (such as images or SVGs) from the visual if this permission is enabled.
+
+> **Note:**  
+> The IFC Viewer for Power BI **never transmits your actual report data, IFC model content, or sensitive business information to external servers**.  
+> All data displayed in the visual is processed locally within the Power BI session and is only accessible to authorized viewers in your workspace.  
+> Web access is strictly for loading assets, icons, and optional help/documentation.
+
+---
+
+## 6. Security & Privacy
+
+- All communications are encrypted (HTTPS).
+- **No project, IFC, or report data is ever sent to Flinker or any third party.**
+- The visual is suitable for enterprises with strict security and compliance requirements.
+- For further details, see the [Architecture and Data Protection Overview](https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html).
+
+
+*Last updated: July 2025*
