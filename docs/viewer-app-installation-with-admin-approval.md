@@ -57,3 +57,43 @@ You can add the IFC Viewer to your site directly through the App Catalog or AppS
 ![View IFC File](/_media/sharepoint-document-library-view-ifc-file.png)
 
 Congratulations! You have successfully installed and started using the IFC Viewer app in SharePoint.
+
+
+## Permissions and Deployment: IFC Viewer for SharePoint
+
+The Flinker IFC Viewer for SharePoint is provided as a SharePoint Framework (SPFx) solution.  
+This allows seamless integration directly into your SharePoint Online environment and ensures strict adherence to your tenant’s security and compliance standards.
+
+### Key Points
+
+- **SPFx Solution**  
+  The IFC Viewer is deployed as a SharePoint Framework (SPFx) client-side solution package (`.sppkg` file).  
+  This means:
+  - The app runs entirely within your SharePoint tenant—no external processing of your data.
+  - All assets and code are managed within your Microsoft 365 environment.
+
+- **Permissions**  
+  - The IFC Viewer only requires the permissions necessary to run as an SPFx web part and extension within your tenant.
+  - No additional API permissions (such as Graph API or external data access) are required unless you explicitly configure advanced integrations.
+  - The app uses the permissions and roles defined in your SharePoint and Microsoft 365 security policies.
+
+- **Assets and Features**  
+  - The app includes the deployment of client-side assets (JavaScript, CSS, images) as part of the solution.
+  - Features include the registration of custom actions and SPFx web parts for easy access to IFC model viewing directly in SharePoint.
+
+- **Developer Information**  
+  - **Publisher:** Flinker GmbH  
+  - [Privacy Policy](https://www.flinker.app/data-protection)  
+  - [Terms of Use](https://www.flinker.app/terms)
+
+### Security and Privacy
+
+- The IFC Viewer for SharePoint **does not transmit your SharePoint or IFC data to any external server**.
+- All data processing remains within your Microsoft 365 tenant.
+- The app is suitable for use in highly regulated or security-sensitive environments.
+
+For further details on privacy, data flows, and technical security measures, see the [Architecture and Data Protection Overview](https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html).
+
+
+
+*Last updated: July 2025*

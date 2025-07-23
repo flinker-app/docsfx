@@ -2,6 +2,8 @@
 - name: Get started
   href: ../index.md
 
+- name: Architecture & Security
+  href: ifc-viewer-architecture-and-data-protection.md
 - name: OPEN BIM
 - name: IFC
   href: ifc-viewer.md
