@@ -2,7 +2,7 @@
 
 _Last updated: July 2025_
 
-> [!IMPORTANT]
+> [!Note]
 > **This page describes the specific architecture and data protection measures for the Open IFC Viewer for Microsoft Teams.**  
 > For a general overview of Flinker’s tenant-only philosophy and company-wide privacy standards, please see  
 > [General Architecture & Data Protection](https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html).

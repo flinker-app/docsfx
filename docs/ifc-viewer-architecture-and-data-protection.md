@@ -14,7 +14,7 @@ This sets Flinker's Microsoft BIM Apps for Microsft 365 apart from many SaaS com
 > [!IMPORTANT]
 > **Why Choose Flinker Microsoft BIM Apps? Enterprise-Grade Security:**  
 > Thanks to this architecture, the Flinker IFC Viewer App is especially suitable for large enterprises and organizations with highly sensitive data and extremely strict security or compliance requirements.  
-> No data leaves your Microsoft 365 tenant—making it an ideal choice for corporations, public sector institutions, or any company with rigorous IT governance and data protection standards.
+> No data leaves your Microsoft 365 tenant. This makes it an ideal choice for corporations, public sector institutions, or any company with rigorous IT governance and data protection standards.
 
 
 ## Integration and Operating Model
