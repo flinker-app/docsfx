@@ -72,7 +72,6 @@ The Flinker IFC Viewer for Power BI visual requires the following permissions fo
 > All data displayed in the visual is processed locally within the Power BI session and is only accessible to authorized viewers in your workspace.  
 > Web access is strictly for loading assets, icons, and optional help/documentation.
 
----
 
 ## 6. Security & Privacy
 

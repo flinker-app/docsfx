@@ -27,6 +27,8 @@
   items:
     - name: Introduction
       href: ifc-viewer-for-teams.md
+    - name: Privacy and Security
+      href: open-ifc-viewer-teams-architecture-and-data-protection.md
     - name: Installation
       href: setting-up-the-ifc-viewer-in-microsoft-teams.md
     - name: Link Documents
