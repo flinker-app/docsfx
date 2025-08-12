@@ -7,6 +7,11 @@ canonical_url: https://docs.flinker.app/docs/install-ifc-file-handler-for-sharep
 
 # Install the IFC Viewer File‑Handler for SharePoint
 
+<video width="100%" height="auto" autoplay>
+  <source src="/_media/sharepoint-open-ifc-with-file-handler.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 To enable your users to open IFC files directly by **clicking on filenames in SharePoint or OneDrive** a tenant administrator must grant consent for the IFC Viewer File‑Handler.
 
 ## 1. Admin approval
