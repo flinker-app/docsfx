@@ -1,17 +1,42 @@
-# Save BCF Issues to a Microsoft SharePoint List
+---
+title: Connect BCF to Microsoft List
+description: Sync BCF issues with Microsoft Lists in SharePoint/Teams while preserving full BCF data in your BCF file.
+keywords: BCF, Microsoft List, Microsoft Lists, SharePoint, Teams, BIM, IFC, issue tracking, integration, Flinker
+canonical_url: https://docs.flinker.app/docs/save-bcf-to-sharepoint-lists.html
+---
 
-Managing BIM issues is now as easy as managing a to-do list. Flinker turns BIM issues into **clear, actionable tasks inside Microsoft Lists**. No more messy spreadsheets or forgotten tasks, just smooth and organized collaboration.
+# Connect BCF to Microsoft List
 
-## How to set up Microsoft SharePoint List sync for your BCF issues
+Our SharePoint IFC Viewer webpart can read and write BCF topics from both a **BCF file** and a **Microsoft SharePoint List**. This lets you manage issue metadata in Microsoft Lists while still keeping the full BCF detail (like viewpoints) in a BCF file.
+
+## What it does
+
+* **On open (load behavior)**
+
+  * If a **BCF URL** is set in the web part settings, topics are loaded from the BCF file.
+  * If a **Microsoft List URL** is set, topics are **also** loaded from the SharePoint List.
+  * If both are set, the web part loads topics from **both** sources.
+
+* **On save (write behavior)**
+
+  * When you click **Save to SharePoint/Teams** in the SharePoint IFC Viewer webpart, topics are saved **to the Microsoft List** (for metadata) **and** **to the BCF file** (for full BCF content).
+
+* **What’s stored where**
+
+  * **Microsoft List**: issue metadata only (see mapped fields below).
+    *Not stored in the List:* Viewpoints, snapshots, camera/clipping, component selections, and similar visual BCF properties.
+  * **BCF file**: the **full** BCF topic including viewpoints, clipping, and other visual/geometry details.
+
+## How to connect the Microsoft List to your BCF issues
 
 ### 1. Create your Microsoft List
 
-To ensure seamless integration, your Microsoft List must include the following **required columns and types**:
+Include these **required columns** and types:
+
 * **Guid** *(Text)*
 * **Title** *(Text)*
 
-
-**Optional columns** (add as needed):
+**Optional columns** (add as needed; if present, they’ll be mapped and updated):
 
 * **Description** *(Multiline Text)*
 * **Status** *(Choice)*
@@ -25,13 +50,12 @@ To ensure seamless integration, your Microsoft List must include the following *
 * **ModifiedDate** *(Date)*
 * **ModifiedAuthor** *(Text)*
 
-If a column is present, the integration will map and update it.
+### 2. Insert the URLs in the web part settings
 
-### 2. Insert the Microsoft List URL
+* Paste the **Microsoft List URL** (List names with special characters are not supported) into the SharePoint IFC Viewer web part settings.
+* Paste the **BCF URL** so all topic data is also saved as a BCF file. You can use an existing BCF or a sample BCF.
 
-- Copy and paste the **Microsoft List URL** (List names with special characters are not supported) into your SharePoint IFC Viewer Webpart settings.
-- Copy and paste the **BCF URL** in the SharePoint IFC Viewer Webpart settings to ensure all topic data is also saved as a BCF file. You can use an existing BCF file, or you can create a sample BCF file.
+### 3. Save to Microsoft List (and BCF)
 
-### 3. Save to Microsoft List 
-
-When you click the **Save to SharePoint/Teams** button, loaded topics are automatically saved to your Microsoft List.
+* Click **Save to SharePoint/Teams** in the SharePoint IFC Viewer webpart.
+  The web part writes topic metadata to the **Microsoft List** and writes the full topic (including viewpoints/clipping) to the **BCF file**.

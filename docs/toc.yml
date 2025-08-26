@@ -48,7 +48,7 @@
   items:
     - name: Introduction
       href: ifc-viewer-for-sharepoint.md
-    - name: Installation
+    - name: Install app
       href: viewer-app-installation-with-admin-approval.md
     - name: Install file handler
       href: ifc-file-handler-for-sharepoint.md
@@ -56,7 +56,7 @@
       href: using-ifc-viewer-in-sharepoint.md
     - name: Load multiple files
       href: load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.md
-    - name: Save BCF to Microsoft Lists
+    - name: Connect BCF to Microsoft List
       href: save-bcf-to-sharepoint-lists.md
     - name: Upgrade to latest version
       href: upgrade-sharepoint-ifc-viewer-app.md
