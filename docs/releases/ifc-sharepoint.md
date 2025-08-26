@@ -1,4 +1,10 @@
- ## 2.2.0.0 (2.2.0.0) - 2025-07-14
+ ##  (2.3.0.0) - 2025-08-26
+
+- Load BCF Topics from Microsoft List into the viewer webpart
+
+---
+
+## 2.2.0.0 (2.2.0.0) - 2025-07-14
 
 ## What's Changed
 * Save bcf topics to microsoft list
