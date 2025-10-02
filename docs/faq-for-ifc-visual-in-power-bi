@@ -1,0 +1,33 @@
+---
+title: FAQs for IFC Visual in Power BI
+description: Frequently asked questions about the IFC Visual for Microsoft Power BI, covering setup, usage, licensing, and troubleshooting.
+keywords: FAQs, IFC Visual, Power BI, 3D models, BIM, data visualization, reports, Desktop, Service
+canonical_url: https://docs.flinker.app/docs/faq-for-ifc-visual-in-power-bi.html
+---
+
+# FAQs - IFC Visual - Power BI
+
+## Licensing
+
+In this article, we will explain how licensing for the IFC Power BI Visual works. While licensing and all circumstances surrounding it can easily get complicated and overlapping, we will try to provide answers to the questions you may have.
+
+### How does the IFC Power BI Visual license work?
+Your subscription will automatically renew at the end of each renewal period. If you decide to cancel your subscription, contact our customer support team at least 30 days prior to the renewal date. You can review the full Terms & Conditions [here](https://flinker.app/terms/).
+
+### What does the IFC Power BI Visual license include?
+It includes access to Pro, Business or the Enterprise Plan and all the future product updates.
+
+### I have already purchased the Power BI subscription. Do I still have to purchase the IFC Visual Power BI license to use the visuals?
+Yes. The IFC Visual Power BI licensing model is not tied to Microsoft’s subscription-based plans in any way. We are a plug-in solution in the 3D and data visualization field of the Power BI tool. In order to successfully use our custom visuals when creating your Power BI reports, you need to buy an IFC Visual Power BI license as well. As such, IFC Visual Power BI visuals aren’t covered by a Power BI Premium subscription, which has no relation to the usage of the IFC Visual Power BI licenses. Although Power BI Premium capacity enables the sharing of data with anyone, this is not the case with the sharing of IFC reports that use the IFC Visual for Power BI custom visual. An IFC Visual Power BI license is also necessary when viewing (consuming) reports via the Power BI service.
+
+### I want to embed my Power BI reports into an app. Can I use IFC Visual Power BI visuals with Power BI Embedded?
+In short—yes, you can.  
+In addition to the per-user pricing, our embedded pricing solution is very similar to the one you are used to from Microsoft—depending on the node (A1, A2, A3, etc.) you are using within the company. Companies or ISVs who use Microsoft Power BI Embedded (A1–A6 SKUs) can include IFC Visual for Power BI reports and dashboards into their application or service.  
+Please contact our sales team at sales@flinker.app to get a quote.
+
+### I want to share my reports from Power BI Desktop with clients, can i use the default "Share" Button from the Power BI App and select view only?
+You can do so an share the report by generating a link via the default Share feature in the Power BI App. However, the persons you share the report with will see all the data tables of the report but not the 3D visual as this would require a licence. However, the people you would share the report with via the default "Share" button would be able to download your full pbi fill including all the data.
+
+### I want to share our reports in emails, social media, and websites. Can I do that with reports that use the IFC Visual for Power BI, using the Power BI Publish to web option?
+We support you when publishing your reports if those are meant for general public use and we won’t charge you any additional cost. If you are using this option for in-company dashboards, reports, and analysis meant for internal use, then you are required to have a license.
+
