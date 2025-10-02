@@ -73,6 +73,8 @@
       href: ifc-viewer-usage-for-power-bi.md
     - name: Use cases
       href: use-cases-for-ifc-visual-in-power-bi.md
+    - name: FAQs
+      href: faq-for-ifc-visual-in-power-bi.md
 - name: Excel IFC Viewer
   href: ifc-viewer-for-microsoft-excel.md
 - name: Power Automate
