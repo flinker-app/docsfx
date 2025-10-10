@@ -9,7 +9,7 @@ canonical_url: https://docs.flinker.app/docs/guest-access-sharepoint-app.html
 
 This guide describes how to give guest users minimal, read-only access to individual apps within the SharePoint app, enabling external users to access necessary SPFx components.
 
-## Step 1: Temporarily enable the 'Everyone' claim
+## 1. Temporarily enable the 'Everyone' claim
 
 You need to temporarily enable the *Everyone* claim, including permissions for both internal and external users. 
 
@@ -25,7 +25,7 @@ Set-PnPTenant -ShowEveryoneClaim $true
 
 Replace `yourtenantname` with your SharePoint tenant name.
 
-## Step 2: Navigate to the specific app
+## 2. Navigate to the specific app
 
 - Go to your SharePoint App Catalog:
 ```
@@ -34,7 +34,7 @@ https://yourtenantname.sharepoint.com/sites/appcatalog/AppCatalog/Forms/AllItems
 
 Replace `yourtenantname` with your SharePoint tenant name.
 
-## Step 3: Share the app
+## 3. Share the app
 
 - Locate the specific app file you wish to share.
 - Click the **ellipsis (...)** next to the app file.
@@ -45,6 +45,36 @@ Replace `yourtenantname` with your SharePoint tenant name.
 - Click **Share** to confirm.
 
 ![Share app](/_media/share-app-with-guest-users-in-app-catalog.png)
+
+### 3.1 Share the specific asset folder in **ClientSideAssets** (sometimes required)
+
+> [!NOTE]
+> Whether you this step depends on how your tenant allows external sharing.
+
+1. Open the assets library:
+   `https://<tenant>.sharepoint.com/sites/appcatalog/ClientSideAssets/AllItems.aspx`
+2. **Find your app’s folder** (the folder name looks like a long GUID):
+3. Select **that folder**.
+4. Select **Share**.
+5. Enter **Everyone** in the users/groups box.
+6. Set permissions to **Read**.
+7. Uncheck **Send an email invitation**
+8. Click **Share** to confirm.
+
+![Share app](/_media/share-app-assets-with-guest-users-in-app-catalog.png)
+
+### 3.2 App Catalog site sharing & permissions (sometimes required)
+
+> [!NOTE]
+> Whether you this step depends on how your tenant allows external sharing.
+
+Go to your **App Catalog site** → **Settings** (Site details).
+Look at **External file sharing**:
+  * **“Only people in your organization”** → Usually OK. You can create an **Organization** link on the app’s asset folder (Step 5).
+  * **“No external sharing”** → You **can’t** share the folder with guests. Either:
+
+    * Ask an admin to switch the site to **Existing guests** temporarily so you can complete Step 5, **or**
+    * Skip sharing and use the **Microsoft 365 CDN** approach to serve assets (recommended for stricter environments).
 
 ## Step 4: Disable the 'Everyone' claim
 
