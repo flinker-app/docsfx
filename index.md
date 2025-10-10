@@ -62,7 +62,7 @@ All our products are built to integrate seamlessly with your existing Microsoft 
     <a href="/docs/ifc-viewer-for-teams.html">
       <span class="benefit-icon">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg"
+          src="_media\Microsoft_Office_Teams_Logo.svg"
           alt="Microsoft Teams Logo"
         >
       </span>
@@ -76,7 +76,7 @@ All our products are built to integrate seamlessly with your existing Microsoft 
     <a href="/docs/ifc-viewer-for-sharepoint.html">
       <span class="benefit-icon">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Microsoft_Office_SharePoint_%282019%E2%80%93present%29.svg"
+          src="_media\Microsoft_Office_SharePoint_Logo.svg"
           alt="Microsoft SharePoint Logo"
         >
       </span>
@@ -90,7 +90,7 @@ All our products are built to integrate seamlessly with your existing Microsoft 
     <a href="/docs/ifc-viewer-for-microsoft-excel.html">
       <span class="benefit-icon">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg"
+          src="_media\Microsoft_Office_Excel_Logo.svg"
           alt="Microsoft Excel Logo"
         >
       </span>
@@ -104,7 +104,7 @@ All our products are built to integrate seamlessly with your existing Microsoft 
     <a href="/docs/ifc-power-bi.html">
       <span class="benefit-icon">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
+          src="_media\Power_BI_Logo.svg"
           alt="Microsoft Power BI Logo"
         >
       </span>
@@ -118,7 +118,7 @@ All our products are built to integrate seamlessly with your existing Microsoft 
     <a href="/docs/share-features.html">
       <span class="benefit-icon">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Microsoft_Office_SharePoint_%282019%E2%80%93present%29.svg"
+          src="_media\Microsoft_Office_SharePoint_Logo.svg"
           alt="Microsoft SharePoint Logo"
         >
       </span>
