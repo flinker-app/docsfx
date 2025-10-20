@@ -10,14 +10,16 @@ _disableNextArticle: true
 
 # Documentation
 
-This documentation guides you through **setting up**, **using**, and **troubleshooting** Flinker within Microsoft 365. 
+This documentation guides you through **setting up**, **using**, and **troubleshooting** Flinker within Microsoft 365.
 
 ### What is Flinker?
+
 It is a suite of Microsoft 365 apps designed to streamline BIM workflows for real estate and infrastructure teams:
-- IFC model viewing and collaboration 
-- Issue tracking and BCF workflows 
-- Secure SharePoint Common Data Environment (CDE) setup 
-- Custom workflow automations using open standards 
+
+- IFC model viewing and collaboration
+- Issue tracking and BCF workflows
+- Secure SharePoint Common Data Environment (CDE) setup
+- Custom workflow automations using open standards
 
 All within your existing Microsoft 365 environment. No new software required.
 
@@ -55,6 +57,7 @@ All within your existing Microsoft 365 environment. No new software required.
 </div>
 
 ## Microsoft Partner
+
 All our products are built to integrate seamlessly with your existing Microsoft 365 setup to streamline your project management and collaboration.
 
 <div class="benefits-container">
@@ -130,6 +133,7 @@ All our products are built to integrate seamlessly with your existing Microsoft 
 </div>
 
 ## openBIM Standards
+
 We provide comprehensive file support centered around open, industry-standard formats, including IFC (Industry Foundation Classes) for exchanging BIM data and BCF (BIM Collaboration Format) for structured communication about BIM issues.
 
 <div class="benefits-container">
@@ -162,6 +166,22 @@ We provide comprehensive file support centered around open, industry-standard fo
       </span>
     </a>
   </div>
+
+  <div class="benefit-item">
+    <a href="/docs/ifc-ids.html">
+      <span class="benefit-icon">
+        <img
+          style="clip-path: inset(19%);"
+          src="https://www.buildingsmart.org/wp-content/uploads/2024/07/ids-icon-download.png"
+          alt="Microsoft SharePoint Logo"
+        >
+      </span>
+      <span class="benefit-text">
+        <b>.IDS</b>
+      </span>
+    </a>
+  </div>
+
 </div>
 
 ## Benefits
