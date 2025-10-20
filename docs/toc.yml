@@ -7,13 +7,15 @@
 - name: OPEN BIM
 - name: IFC
   href: ifc-viewer.md
+- name: IDS
+  href: ifc-ids.md
 - name: BCF
   href: ifc-bcf.md
   items:
-  - name: Saving Filters and Viewpoints
-    href: bcf-viewpoints.md
-  - name: Import from Navisworks
-    href: bcf-navisworks.md
+    - name: Saving Filters and Viewpoints
+      href: bcf-viewpoints.md
+    - name: Import from Navisworks
+      href: bcf-navisworks.md
 - name: COBie
   href: ifc-cobie.md
 - name: AI Search
@@ -109,4 +111,3 @@
 - name: RESOURCES
 - name: Changelog
   href: releases.md
-
