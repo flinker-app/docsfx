@@ -7,6 +7,10 @@
 - name: OPEN BIM
 - name: IFC
   href: ifc-viewer.md
+  items:
+    - name: IFC Infrastructure
+      href: ifc-infra.md
+
 - name: IDS
   href: ifc-ids.md
 - name: BCF
