@@ -5,9 +5,9 @@ keywords: Power BI, IFC Viewer, license key, activation, Flinker
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-license-key-for-power-bi.html
 ---
 
-# Activate the IFC Viewer for Power BI with a License Key
+# Unlock Advanced Features
 
-Flinker Pro and Premium subscriptions unlock advanced IFC Viewer capabilities in Power BI by activating the visual with a license key. This guide shows you when the key is needed and how to add it to your reports.
+Unlock advanced features in the IFC Viewer for Power BI by activating your visual with a Flinker Pro or Premium license key. Entering your license key enables enhanced capabilities and premium tools within your Power BI reports. Follow this guide to learn when a license key is required and how to add it to your reports.
 
 ## Get your license key
 
