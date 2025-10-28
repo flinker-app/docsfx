@@ -77,6 +77,10 @@
       href: ifc-viewer-installation-for-power-bi.md
     - name: Usage
       href: ifc-viewer-usage-for-power-bi.md
+    - name: Color elements
+      href: ifc-viewer-color-rules-for-power-bi.md
+    - name: Load all properties
+      href: ifc-viewer-data-extension-for-power-bi.md
     - name: Use cases
       href: use-cases-for-ifc-visual-in-power-bi.md
     - name: FAQs
@@ -115,3 +119,5 @@
 - name: RESOURCES
 - name: Changelog
   href: releases.md
+
+
