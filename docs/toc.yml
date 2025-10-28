@@ -81,6 +81,8 @@
       href: ifc-viewer-color-rules-for-power-bi.md
     - name: Load all properties
       href: ifc-viewer-data-extension-for-power-bi.md
+    - name: Set license key
+      href: ifc-viewer-license-key-for-power-bi.md
     - name: Use cases
       href: use-cases-for-ifc-visual-in-power-bi.md
     - name: FAQs
@@ -119,5 +121,3 @@
 - name: RESOURCES
 - name: Changelog
   href: releases.md
-
-
