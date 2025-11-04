@@ -52,6 +52,16 @@ After connecting, ensure the IFC API endpoint privacy level is set to "Organizat
 
 ![Set privacy level to Organizational](/_media/privacy-levels-for-api-for-access-web-content-in-power-bi.png)
 
+### Apply changes and refresh data
+
+After configuring the parameters and privacy settings:
+
+1. Click **Apply Changes** if Power BI does not start loading automatically.
+
+> [!NOTE]
+> The initial load can take several minutes (or longer for very large models) while the IFC API processes and optimizes the model for Power BI. Once the API has finished processing and the optimized data is stored in the report, subsequent opens or refreshes load much faster.
+
+
 ### When to choose IFC API
 
 - You work with large, complex IFCs and hit memory or refresh limits.
