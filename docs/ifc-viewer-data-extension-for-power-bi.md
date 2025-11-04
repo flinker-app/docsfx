@@ -59,7 +59,7 @@ After configuring the parameters and privacy settings:
 1. Click **Apply Changes** if Power BI does not start loading automatically.
 
 > [!NOTE]
-> The initial load can take several minutes (or longer for very large models) while the IFC API processes and optimizes the model for Power BI. Once the API has finished processing and the optimized data is stored in the report, subsequent opens or refreshes load much faster.
+> The initial load can take several minutes (or longer for very large models) while the IFC API processes and optimizes the model for Power BI. Once the API has finished processing and the optimized data is stored in the report, subsequent opens load much faster.
 
 
 ### When to choose IFC API
