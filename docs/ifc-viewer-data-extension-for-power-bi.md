@@ -46,6 +46,12 @@ After enabling the API, Power BI may prompt for credentials to access the IFC AP
 
 ![Access Web content sign-in for IFC API](/_media/sign-in-for-api-for-access-web-content-in-power-bi.png)
 
+After connecting, ensure the IFC API endpoint privacy level is set to "Organizational":
+ 
+1. Set the **Privacy level** to **Organizational**, then click **Save**.
+
+![Set privacy level to Organizational](/_media/privacy-levels-for-api-for-access-web-content-in-power-bi.png)
+
 ### When to choose IFC API
 
 - You work with large, complex IFCs and hit memory or refresh limits.
