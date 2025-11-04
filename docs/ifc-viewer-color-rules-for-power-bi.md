@@ -51,7 +51,8 @@ Use this mode when the color should come from the dataset:
         "" -- default
     )
    ``` 
-    - This DAX formula allows complex element filtering - walls turn red and any element containing "door" in its name becomes blue. Elements not matching any condition keep their default appearance.
+   ![Conditional formatting using manual color rules](/_media/create-colors-column-in-power-bi-visual.png)
+    - This DAX formula allows complex element filtering - walls turn red and any element containing "door" in its name becomes blue. Elements not matching any condition keep their default appearance. 
     - Leverage any DAX logic including CONTAINS, CONTAINSSTRING, comparison operators (<, >, =), AND/OR conditions, or numerical checks. Examples:
       ```
       -- Multiple string checks
@@ -66,12 +67,13 @@ Use this mode when the color should come from the dataset:
           'IFC'[FireRating] = "EI60"
       )
       ```
-2. Select the IFC Viewer visual on your report canvas.
-3. Open Format visual > Element colors > Color rules and set Format style to Field value.
-4. Pick the column that holds the color code under What field should we base this on? (for example, IFC[Colors] or Colors[Color]).
-5. Confirm with OK. The visual now reads the hex or color name from your dataset and applies it directly to each element.
+1. Select the IFC Viewer visual on your report canvas.
+2. Open Format visual > Element colors > Color rules and set Format style to Field value.
+   ![Conditional formatting using a color field](/_media/color-conditional-formatting-with-field-value-in-power-bi-visual.png)
+3. Pick the column that holds the color code under What field should we base this on? (for example, IFC[Colors] or Colors[Color]).
+4. Confirm with OK. The visual now reads the hex or color name from your dataset and applies it directly to each element.
 
-![Conditional formatting using a color field](/_media/color-conditional-formatting-with-field-value-in-power-bi-visual.png)
+
 
 > [!TIP]
 > Field‑value formatting keeps palettes consistent across visuals. Reuse the same color table for other charts and slicers so that statuses or disciplines always appear with the same color.
