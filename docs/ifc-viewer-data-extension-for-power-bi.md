@@ -37,7 +37,7 @@ When enabled, our IFC API pre-processes and converts IFC into a compact, Power B
 
 ![Edit Parameters and enable IFC API](/_media/edit-parameters-and-use-ifc-api-in-power-bi.png)
 
-### Sign in (Access Web content)
+### Sign in and set privacy levels
 
 After enabling the API, Power BI may prompt for credentials to access the IFC API endpoint.
 
@@ -46,7 +46,11 @@ After enabling the API, Power BI may prompt for credentials to access the IFC AP
 
 ![Access Web content sign-in for IFC API](/_media/sign-in-for-api-for-access-web-content-in-power-bi.png)
 
-After connecting, ensure the IFC API endpoint privacy level is set to "Organizational":
+If you are using a SharePoint file, Power BI may prompt you to sign in with your Microsoft organization account to access the file.
+
+![Access Web content sign-in for SharePoint](/_media/powerbi-signin-with-your-org-account-and-access-web-content.png)
+
+After connecting, ensure the privacy level is set to "Organizational":
  
 1. Set the **Privacy level** to **Organizational**, then click **Save**.
 
