@@ -6,7 +6,6 @@
 
 ## 2.2.0.0 (2.2.0.0) - 2025-07-14
 
-## What's Changed
 * Save bcf topics to microsoft list
 
 ---
