@@ -1,6 +1,5 @@
  ### 3.1.0 (3.1.0) - 2025-11-26
 
-## What’s Changed
 * Improving the eye-icon button for model visibility and adding toolbar badges
 * Added IFC loading worker support for specific domains.
 * Enabled loading multiple local IFC files simultaneously.
@@ -53,7 +52,6 @@
 
 ### 2.2.0 (2.2.0) - 2025-04-25
 
-## What's Changed
 * Moved BCF Topics List UI below model viewer
 * Fixed loading of BFC file without adding new viewpoints
 * Add viewpoint on BCF topic creation
@@ -70,7 +68,6 @@
 
 ### 2.1.7 (2.1.7) - 2025-03-20
 
-## What's Changed
 * Fixed context menu loading for SharePoint list view, properties in table are now selectable
 * Fixed loading floor plans (model does not turn black anymore)
 * Selection information shows correct color in dark mode
@@ -80,7 +77,6 @@
 
 ### 2.1.5 (2.1.5) - 2025-03-07
 
-## What's Changed
 * Search and filter with ai generated IDS files by ifc classes and properties (property sets, property names and property values)
 * Open IDS files from computer to set filter
 
@@ -88,7 +84,6 @@
 
 ### 2.1.4 (2.1.4) - 2025-03-04
 
-## What's Changed
 * New UI to toggle left panel
 * Possibility to use the mesarement and clipper at the same time
 * Move clipping, measurements and plans to left navigation
