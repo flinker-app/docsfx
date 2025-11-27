@@ -1,6 +1,7 @@
  ### 2.4.0.0 - 2025-11-27
 
-- Improved loading UI
+- Enhanced loading experience
+- Streamlined licensing process
 
 ### 2.3.0.0 - 2025-08-26
 
