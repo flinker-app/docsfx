@@ -1,9 +1,34 @@
----
 title: FAQs for IFC Visual in Power BI
-description: Frequently asked questions about the IFC Visual for Microsoft Power BI, covering setup, usage, licensing, and troubleshooting.
-keywords: FAQs, IFC Visual, Power BI, 3D models, BIM, data visualization, reports, Desktop, Service
+description: Answers to licensing, sharing, and embedding questions for the IFC Visual custom visual in Microsoft Power BI.
+summary: Comprehensive FAQs covering licensing, report sharing, embedding, and usage details for the IFC Visual in Power BI.
+slug: faq-for-ifc-visual-in-power-bi
 canonical_url: https://docs.flinker.app/docs/faq-for-ifc-visual-in-power-bi.html
----
+lang: en
+robots: index,follow
+keywords:
+	- IFC Visual
+	- Power BI
+	- custom visual
+	- licensing
+	- sharing reports
+	- embedding
+	- Publish to web
+	- Azure AD
+	- Entra ID
+	- B2B guests
+	- Premium capacity
+	- Power BI Embedded
+tags:
+	- power-bi
+	- ifc
+	- visual
+	- licensing
+	- sharing
+	- embedding
+audience: users, admins, isv
+product: power-bi
+feature: ifc-visual
+ms.date: 2025-12-04
 
 # FAQs - IFC Visual - Power BI
 
