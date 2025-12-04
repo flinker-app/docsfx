@@ -1,3 +1,4 @@
+---
 title: FAQs for IFC Visual in Power BI
 description: Answers to licensing, sharing, and embedding questions for the IFC Visual custom visual in Microsoft Power BI.
 summary: Comprehensive FAQs covering licensing, report sharing, embedding, and usage details for the IFC Visual in Power BI.
@@ -29,6 +30,7 @@ audience: users, admins, isv
 product: power-bi
 feature: ifc-visual
 ms.date: 2025-12-04
+---
 
 # FAQs - IFC Visual - Power BI
 
