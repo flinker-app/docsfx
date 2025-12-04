@@ -8,9 +8,9 @@ canonical_url: https://docs.flinker.app/docs/ifc-loading-and-optimisation-in-pow
 
 # Loading and Optimisation with the IFC Data in Power BI
 
-This page explains what happens when you load IFC data into Power BI and how to optimise the process.
+This page explains what happens when you parse and load IFC data into Power BI.
 
-## Step 1 – IFC Optimisation & Data Refresh (IFC query)
+## Process Step 1 – IFC Optimisation & Data Refresh (IFC query)
 
 **Goal:** Turn raw IFC files into efficient Power BI tables.
 
@@ -49,7 +49,7 @@ For reliable performance:
   * Your data source is reachable
   * Your machine has sufficient RAM/CPU
 
-## Step 2 – Report Opening & Visualising the Data
+## Process Step 2 – Report Opening & Visualising the Data
 
 **Goal:** Open the report and work with the already-loaded IFC tables.
 

@@ -71,22 +71,24 @@
 - name: Power BI IFC Viewer
   expanded: false
   items:
-    - name: Introduction
+    - name: Overview
       href: ifc-power-bi.md
-    - name: Installation
+    - name: Use cases & scenarios
+      href: use-cases-for-ifc-visual-in-power-bi.md
+    - name: Set up
       href: ifc-viewer-installation-for-power-bi.md
-    - name: Usage
+    - name: Build reports
       href: ifc-viewer-usage-for-power-bi.md
     - name: Color elements
       href: ifc-viewer-color-rules-for-power-bi.md
-    - name: Load all data
+    - name: Load full model data
       href: ifc-viewer-data-extension-for-power-bi.md
-    - name: Optimization & Load Times
+    - name: Performance & load times
       href: ifc-viewer-optimization-and-load-times-for-power-bi.md
-    - name: Unlock Advanced Features
+    - name: Activate advanced features
       href: ifc-viewer-license-key-for-power-bi.md
-    - name: Use cases
-      href: use-cases-for-ifc-visual-in-power-bi.md
+    - name: Share reports with external users
+      href: sharing-power-bi-ifc-reports-with-external-users.md
     - name: FAQs
       href: faq-for-ifc-visual-in-power-bi.md
 - name: Excel IFC Viewer
