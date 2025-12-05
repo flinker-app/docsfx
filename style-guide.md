@@ -120,3 +120,16 @@ Include example:
 - Don’t paste large screenshots of code.
 - Don’t duplicate content across pages; use includes.
 - Don’t use internal project code names in public docs.
+
+## 10. Sample FAQs
+
+# Teams IFC Viewer – FAQ
+
+## Privacy & data
+
+### Does the Teams IFC Viewer send any telemetry or IFC data to Flinker?
+
+No. The Teams IFC Viewer does **not** send any IFC or BCF content to Flinker.  
+Only minimal technical metadata is processed, as described in the *Architecture & Data Protection* documentation.
+
+

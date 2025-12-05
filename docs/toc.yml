@@ -49,6 +49,8 @@
       href: upgrade-sharepoint-ifc-viewer-app.md
     - name: Enable guest user access
       href: enable-guest-user-access-to-sharepoint-app.md
+    - name: FAQs
+      href: faq-for-ifc-viewer-in-sharepoint.md
 - name: Teams IFC Viewer
   expanded: false
   items:
