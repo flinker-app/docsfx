@@ -8,6 +8,8 @@ items:
     href: create-sharepoint-group-and-folder-structure.html
   - name: Set Permissions for Groups and Folders
     href: permissions-for-sharepoint-groups-and-folders.html
+  - name: Hide a folder with specific permissions
+    href: hide-sharepoint-folder-with-protect-app.html
   - name: Invite users or add members to site
     href: tutorial-to-invite-users-or-add-members-to-sharepoint-site.html
   - name: Share specific folder with externals
