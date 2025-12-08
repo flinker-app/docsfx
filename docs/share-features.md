@@ -9,27 +9,27 @@ canonical_url: https://docs.flinker.app/docs/share-features.html
 
 The following key features are offered with the Protect app for SharePoint:
 
-* **⚽ Easy integration with SharePoint:** Admins can add the Protect app with just a view clicks from the Microsoft AppSource store as an app app to SharePoint. It can be added to selected SharePoint sites or all sites in the organization.
-* **🔒 Data protection and security:** The app uses the SharePoint Framework (SPFx) technology and installs directly on your SharePoint server, ensuring all operations are performed on your own server without transferring data to external servers or third parties.
-* **🎨 Customizable user permissions:** Protect app users can assign any permissions to internal or external Microsoft users or user groups for all data, documents, URLs, Microsoft lists or folders at any level of the SharePoint sites and folder directories.
-* **🕵️‍♂️ Shared folders report:** Protect app users can see what folders are shared on one simple report for the whole SharePoint site to enhance security.
-* **👥 Secure multi file sharing to multi users:** MultiLinker enables users to efficiently select and directly send multiple file links to multiple users boosting document sharing.
+* **Easy integration with SharePoint:** Admins can add the Protect app with just a view clicks from the Microsoft AppSource store as an app app to SharePoint. It can be added to selected SharePoint sites or all sites in the organization.
+* **Data protection and security:** The app uses the SharePoint Framework (SPFx) technology and installs directly on your SharePoint server, ensuring all operations are performed on your own server without transferring data to external servers or third parties.
+* **Customizable user permissions:** Protect app users can assign any permissions to internal or external Microsoft users or user groups for all data, documents, URLs, Microsoft lists or folders at any level of the SharePoint sites and folder directories.
+* **Shared folders report:** Protect app users can see what folders are shared on one simple report for the whole SharePoint site to enhance security.
+* **Secure multi file sharing to multi users:** MultiLinker enables users to efficiently select and directly send multiple file links to multiple users boosting document sharing.
 
 ## Protect app vs. Standard SharePoint
 
 | Feature                     | Gain                                                                                              | Protect app (Enterprise) | Protect app (Free) | Standard SharePoint |
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------|-------------------------|-------------------------|
-| **User permissions**            | Tailor user permissions to specific needs                                                                        | ✔️                            | ✔️                      | ✔️                      |
-| **Folder access**               | Customized access for each folder                                                                                 | ✔️                            | ✔️                      | ✔️                      |
-| **Customize groups**            | Create user groups for same authorization levels                                                                  | ✔️                            | ✔️                      | ✔️                      |
-| **Customize authorizations**    | Define who can view, edit, or share content with precision                                                       | ✔️                            | ✔️                      | ✔️                      |
-| **External organizations**    | Grant access and authorizations to external organizations and notify users                                                      | ✔️                            | ✔️                      | ✔️                      |
-| **External websites**    | Manage access to embedded external websites                                                      | ✔️                            | ✔️                      | ✔️                      |
-| **Access report**               | Manage and oversee access rights for SharePoint sites and Teams                                                   | ✔️                            | ✔️                      | ❌                      |
-| **Bulk editing**                | Bulk change access settings across folders                                                                       | ✔️                            | ❌                      | ❌                      |
-| **Quick editing**               | Adjust permissions within SharePoint by clicking for groups, authorization levels, folders, websites, MS Lists, etc.                                                                   | ✔️                            | ❌                      | ❌                      |
-| **Permission templates**        | Create own permission templates in Excel to set up new SharePoint sites or MS Teams fast and secure                         | ✔️                            | ❌                      | ❌                      |
-| **MultiShare**                  | Share multiple files or data at the same time securely with multiple users and send them a notification message.                                                | ✔️                            | ❌                      | ❌                      |
+| **User permissions**            | Tailor user permissions to specific needs                                                                        | ✓                            | ✓                      | ✓                      |
+| **Folder access**               | Customized access for each folder                                                                                 | ✓                            | ✓                      | ✓                      |
+| **Customize groups**            | Create user groups for same authorization levels                                                                  | ✓                            | ✓                      | ✓                      |
+| **Customize authorizations**    | Define who can view, edit, or share content with precision                                                       | ✓                            | ✓                      | ✓                      |
+| **External organizations**    | Grant access and authorizations to external organizations and notify users                                                      | ✓                            | ✓                      | ✓                      |
+| **External websites**    | Manage access to embedded external websites                                                      | ✓                            | ✓                      | ✓                      |
+| **Access report**               | Manage and oversee access rights for SharePoint sites and Teams                                                   | ✓                            | ✓                      | ✗                      |
+| **Bulk editing**                | Bulk change access settings across folders                                                                       | ✓                            | ✗                      | ✗                      |
+| **Quick editing**               | Adjust permissions within SharePoint by clicking for groups, authorization levels, folders, websites, MS Lists, etc.                                                                   | ✓                            | ✗                      | ✗                      |
+| **Permission templates**        | Create own permission templates in Excel to set up new SharePoint sites or MS Teams fast and secure                         | ✓                            | ✗                      | ✗                      |
+| **MultiShare**                  | Share multiple files or data at the same time securely with multiple users and send them a notification message.                                                | ✓                            | ✗                      | ✗                      |
 
 ### Default Sharing Features in Standard SharePoint
 

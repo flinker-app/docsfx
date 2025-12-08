@@ -169,10 +169,10 @@ This gives you full control - without requiring premium Microsoft 365 plans.
 
 | Method                      | Supports All File Types | Shows Who Viewed | License Required      | Best For                      |
 |----------------------------|--------------------------|------------------|------------------------|-------------------------------|
-| File Details Pane          | ❌ Office only           | Limited          | No                     | Quick checks for docx/xlsx    |
-| Site Usage Reports         | ✅                       | No               | No                     | General usage trends          |
-| Microsoft Purview Logs     | ✅                       | ✅ Yes           | Microsoft 365 E5       | Full audit trail              |
-| Power Automate Logging     | ✅ (customizable)        | ✅ Yes (custom)  | No (basic flows)       | Custom tracking               |
+| File Details Pane          | ✗ (Office only)         | Limited          | ✗                     | Quick checks for docx/xlsx    |
+| Site Usage Reports         | ✓                      | ✗               | ✗                     | General usage trends          |
+| Microsoft Purview Logs     | ✓                      | ✓               | Microsoft 365 E5       | Full audit trail              |
+| Power Automate Logging     | ✓ (customizable)       | ✓ (custom)      | ✗                     | Custom tracking               |
 
 ### Need Help?
 

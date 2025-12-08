@@ -13,10 +13,10 @@ canonical_url: https://docs.flinker.app/docs/ifc-viewer-for-teams.html
 
 | Feature | Teams IFC Viewer | Standard IFC Viewer |
 | ------- |:------------------:|:------------------:|
-| No extra software/login |✅|❌|
-| Privacy: User controls data storage |✅|❌|
-| View IFC & BCF files in Teams |✅|❌|
-| All project stakeholders have easy access to BIM data |✅|❌|
-| Integrate with Microsoft 365 (Lists, Excel, SharePoint) |✅|❌|
-| Add custom workflows to your data |✅|❌|
-| AI-ready data architecture |✅|❌|
+| No extra software/login | ✓ | ✗ |
+| Privacy: User controls data storage | ✓ | ✗ |
+| View IFC & BCF files in Teams | ✓ | ✗ |
+| All project stakeholders have easy access to BIM data | ✓ | ✗ |
+| Integrate with Microsoft 365 (Lists, Excel, SharePoint) | ✓ | ✗ |
+| Add custom workflows to your data | ✓ | ✗ |
+| AI-ready data architecture | ✓ | ✗ |
