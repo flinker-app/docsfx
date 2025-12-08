@@ -18,13 +18,13 @@ Bring your BIM models directly into Excel with the IFC Viewer add-in, no extra i
 
 | Feature | Excel IFC Viewer | Standard IFC Viewer |
 | ------- |:------------------:|:------------------:|
-| No extra software/login |✅|❌|
-| Privacy: User controls data storage |✅|❌|
-| Link model to external data (cost, schedule) |✅|❌|
-| Create 3D views with custom charts & KPIs |✅|❌|
-| Integrate with Microsoft 365 (Lists, Excel, SharePoint) |✅|❌|
-| Add custom workflows to your data |✅|❌|
-| AI-ready data architecture |✅|❌|
+| No extra software/login | ✓ | ✗ |
+| Privacy: User controls data storage | ✓ | ✗ |
+| Link model to external data (cost, schedule) | ✓ | ✗ |
+| Create 3D views with custom charts & KPIs | ✓ | ✗ |
+| Integrate with Microsoft 365 (Lists, Excel, SharePoint) | ✓ | ✗ |
+| Add custom workflows to your data | ✓ | ✗ |
+| AI-ready data architecture | ✓ | ✗ |
 
 ## Key Features
 

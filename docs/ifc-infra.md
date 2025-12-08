@@ -5,7 +5,7 @@ keywords: Infra, IFC 4.3, Infrastructure, Alignment, Station, Clipping, Navigati
 canonical_url: https://docs.flinker.app/docs/ifc-infra.html
 ---
 
-## Infrastructure Integration
+# Infrastructure Integration
 
 The **Infrastructure Integration** feature in **Flinker** brings powerful tools for visualizing and interacting with **IFC 4.3 infrastructure models**.  
 It focuses on **alignments**, **station navigation**, and **clipping planes**, helping users explore and analyze roads, bridges, and rail models with engineering precision.
@@ -15,9 +15,7 @@ With Infra, you can load IFC models containing _IfcAlignment_ entities, navigate
 ![Infra Alignment Navigation](/_media/ifc-infra.png)
 _Example of alignment navigation with station visualization and clipping section in Flinker._
 
----
-
-### What is Infra?
+## What is Infra?
 
 **Infra** is a specialized viewer module that enhances the visualization and analysis of **IFC 4.3 infrastructure entities**, primarily focusing on:
 
@@ -28,9 +26,7 @@ _Example of alignment navigation with station visualization and clipping section
 
 It provides engineers with smooth camera navigation along the alignment path and real-time clipping tools to inspect geometry at any chainage point.
 
----
-
-### Why Use Infra?
+## Why Use Infra?
 
 **Precision**  
 Move the camera along exact chainage positions (e.g., 0+060, 0+140) and visualize model sections at any station.
@@ -41,9 +37,7 @@ Display or hide alignment paths and station markers for simplified infrastructur
 **Control**  
 Enable dynamic clipping to generate cross-sectional views for detailed analysis or coordination.
 
----
-
-### Benefits of Infra Integration
+## Benefits of Infra Integration
 
 - **IFC 4.3 Alignment Support**:  
   Load and visualize _IfcAlignment_ entities directly within the web viewer.
@@ -60,9 +54,7 @@ Enable dynamic clipping to generate cross-sectional views for detailed analysis 
 - **Visual Feedback**:  
   Real-time station highlighting and tagging directly in the 3D view.
 
----
-
-### How to Use Infra in Flinker
+## How to Use Infra in Flinker
 
 Follow these steps to work with the **Infra** feature inside Flinker:
 
@@ -87,16 +79,12 @@ Follow these steps to work with the **Infra** feature inside Flinker:
    - Enable **Show Stations** to display KP markers.
    - Enable **Clipping Section** to generate a cross-section view at the current KP.
 
----
-
-### Automatic Detection and Station Control
+## Automatic Detection and Station Control
 
 The Infra system automatically detects all _IfcAlignment_ elements within the model and computes their station points for navigation.  
 Users can dynamically move through these points, inspect geometry transitions, and clip the model at any station for quick sectioning or visualization.
 
----
-
-### Practical Examples
+## Practical Examples
 
 - **Road Design Review**:  
   Navigate along a highway alignment and examine bridge and tunnel entries at each station.
@@ -107,9 +95,7 @@ Users can dynamically move through these points, inspect geometry transitions, a
 - **Rail Alignment Inspection**:  
   Switch between multiple rail alignments and visualize elevation transitions interactively.
 
----
-
-### How to Get Started
+## How to Get Started
 
 See how **_Flinker_** brings **Infra-based alignment navigation** into your infrastructure workflows.
 
