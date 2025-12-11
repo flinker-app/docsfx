@@ -20,4 +20,4 @@
 ## Power BI IFC Viewer
 > [!NOTE]
 > Updates for the Power BI IFC Viewer are applied automatically; no manual update is required.
-[!INCLUDE [my-markdown-block](releases/ifc-powerbi.md)]
+[!INCLUDE [my-markdown-block](releases/ifc-powerbi-visual.md)]
