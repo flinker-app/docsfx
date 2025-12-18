@@ -10,6 +10,8 @@
   items:
     - name: IFC Infrastructure
       href: ifc-infra.md
+    - name: IFC Search
+      href: ifc-search.md
 
 - name: IDS
   href: ifc-ids.md
