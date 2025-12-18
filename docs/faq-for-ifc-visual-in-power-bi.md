@@ -1,8 +1,35 @@
 ---
 title: FAQs for IFC Visual in Power BI
-description: Frequently asked questions about the IFC Visual for Microsoft Power BI, covering setup, usage, licensing, and troubleshooting.
-keywords: FAQs, IFC Visual, Power BI, 3D models, BIM, data visualization, reports, Desktop, Service
+description: Answers to licensing, sharing, and embedding questions for the IFC Visual custom visual in Microsoft Power BI.
+summary: Comprehensive FAQs covering licensing, report sharing, embedding, and usage details for the IFC Visual in Power BI.
+slug: faq-for-ifc-visual-in-power-bi
 canonical_url: https://docs.flinker.app/docs/faq-for-ifc-visual-in-power-bi.html
+lang: en
+robots: index,follow
+keywords:
+	- IFC Visual
+	- Power BI
+	- custom visual
+	- licensing
+	- sharing reports
+	- embedding
+	- Publish to web
+	- Azure AD
+	- Entra ID
+	- B2B guests
+	- Premium capacity
+	- Power BI Embedded
+tags:
+	- power-bi
+	- ifc
+	- visual
+	- licensing
+	- sharing
+	- embedding
+audience: users, admins, isv
+product: power-bi
+feature: ifc-visual
+ms.date: 2025-12-04
 ---
 
 # FAQs - IFC Visual - Power BI
@@ -15,10 +42,12 @@ In this article, we will explain how licensing for the IFC Power BI Visual works
 Your subscription will automatically renew at the end of each renewal period. If you decide to cancel your subscription, contact our customer support team at least 30 days prior to the renewal date. You can review the full Terms & Conditions [here](https://flinker.app/terms/).
 
 ### What does the IFC Power BI Visual license include?
-It includes access to Pro, Business or the Enterprise Plan and all the future product updates.
+It includes access to Pro, Business, Enterprise or the Embed Plan and all the future product updates.
 
 ### I have already purchased the Power BI subscription. Do I still have to purchase the IFC Visual Power BI license to use the visuals?
 Yes. The IFC Visual Power BI licensing model is not tied to Microsoft’s subscription-based plans in any way. We are a plug-in solution in the 3D and data visualization field of the Power BI tool. In order to successfully use our custom visuals when creating your Power BI reports, you need to buy an IFC Visual Power BI license as well. As such, IFC Visual Power BI visuals aren’t covered by a Power BI Premium subscription, which has no relation to the usage of the IFC Visual Power BI licenses. Although Power BI Premium capacity enables the sharing of data with anyone, this is not the case with the sharing of IFC reports that use the IFC Visual for Power BI custom visual. An IFC Visual Power BI license is also necessary when viewing (consuming) reports via the Power BI service.
+
+## Sharing reports
 
 ### I want to embed my Power BI reports into an app. Can I use IFC Visual Power BI visuals with Power BI Embedded?
 In short—yes, you can.  
@@ -30,4 +59,19 @@ You can do so an share the report by generating a link via the default Share fea
 
 ### I want to share our reports in emails, social media, and websites. Can I do that with reports that use the IFC Visual for Power BI, using the Power BI Publish to web option?
 We support you when publishing your reports if those are meant for general public use and we won’t charge you any additional cost. If you are using this option for in-company dashboards, reports, and analysis meant for internal use, then you are required to have a license.
+
+### Can I share a Power BI report via a simple password-protected link?
+No. Power BI supports only:
+- Secure, signed-in access (Microsoft Entra ID/Azure AD) with permissions/RLS, or
+- Fully public access via “Publish to web” (no sign-in).
+
+Use instead:
+- Entra B2B guests: Share the report or an App. Publisher needs Pro/PPU; guests need Pro/PPU or can view via Premium/Fabric capacity.
+- SharePoint/Teams: Embed the report; same sign-in and permissions as Power BI.
+- Power BI Embedded: Your own portal for many externals; capacity-based licensing.
+- Publish to web: Public demos only, never confidential data.
+
+Note: A custom password page in front of a public link is not real security.
+See also: [Sharing Power BI IFC reports with external users](sharing-power-bi-ifc-reports-with-external-users.md).
+
 

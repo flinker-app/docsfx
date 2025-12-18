@@ -6,17 +6,20 @@
 - [Use links in documentation](https://learn.microsoft.com/en-us/contribute/content/how-to-write-links)
 
 ## Local development
-To build the docset, run:
 
+### Live reload (recommended)
+1. Install dependencies (one-time): `npm install`
+2. Build once to create `_site`: `npm run build`
+3. Start watch + live reload: `npm run watch`
+
+This runs `docfx build` on Markdown/YAML changes and serves `_site` at http://localhost:8080 with BrowserSync auto-reloading the page.
+
+### Manual DocFX serve
+If you prefer the CLI only:
 ````
 docfx docfx.json --serve
 ````
-Now you can preview the website on http://localhost:8080.
-
-To preview your local changes, save changes then run this command in a new terminal to rebuild the website:
-```
-docfx docfx.json
-```
+This hosts the last build on http://localhost:8080; rerun `docfx docfx.json` after edits to regenerate `_site`.
 
 ### Local and faster builds
 

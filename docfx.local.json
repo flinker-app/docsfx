@@ -41,6 +41,6 @@
     "_appfooter": "<div id=\\\"footer\\\" style=\\\" flex-direction: column;display: flex;\\\"><span style=\\\"margin-top: 16px;\\\">Flinker Docs with 💙</span></div>",
     "_enableSearch": true,
     "_disableContribution": true,
-    "pdf": true
+    "pdf": false
   }
 }

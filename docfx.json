@@ -37,10 +37,10 @@
       "_appFaviconPath": "favicon.ico",
       "_googleAnalyticsTagId": "G-SCD5MD3NQ2",
       "_sitemap": true,
-      "_appFooter": "<div class=\"footer-layout\">\n  <ul class=\"links\" data-bi-name=\"footerlinks\">\n    <li><a href=\"https://docs.flinker.app/\">Docs</a></li>\n    <li><a href=\"https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/\">Support</a></li>\n    <li><a href=\"https://www.flinker.app/data-protection\">Privacy</a></li>\n  <li>© Flinker 2025, Microsoft Partner</li>\n  <li><!-- LinkedIn JavaScript SDK --><script src=\"https://platform.linkedin.com/in.js\" type=\"text/javascript\">lang: en_US</script><!-- LinkedIn Follow Company Button --><script type=\"IN/FollowCompany\" data-id=\"77044265\"></script></li>   </ul>\n</div>",
+      "_appFooter": "<div class=\"footer-layout\">\n  <ul class=\"links\" data-bi-name=\"footerlinks\">\n    <li><a href=\"https://docs.flinker.app/\">Docs</a></li>\n    <li><a href=\"https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/\">Support</a></li>\n    <li><a href=\"https://www.flinker.app/data-protection\">Privacy</a></li>\n  <li>© Flinker 2025, Microsoft Partner</li>\n  <li><!-- LinkedIn JavaScript SDK --><script src=\"https://platform.linkedin.com/in.js\" type=\"text/javascript\">lang: en_US</script><!-- LinkedIn Follow Company Button --><script type=\"IN/FollowCompany\" data-id=\"77044265\" data-counter=\"right\"></script></li>   </ul>\n</div>",
       "_enableSearch": true,
       "_disableContribution": true,
-      "pdf": true
+      "pdf": false
     }
   }
 }

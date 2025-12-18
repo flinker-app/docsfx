@@ -7,6 +7,10 @@
 - name: OPEN BIM
 - name: IFC
   href: ifc-viewer.md
+  items:
+    - name: IFC Infrastructure
+      href: ifc-infra.md
+
 - name: IDS
   href: ifc-ids.md
 - name: BCF
@@ -18,63 +22,75 @@
       href: bcf-navisworks.md
 - name: COBie
   href: ifc-cobie.md
-- name: AI Search
-  href: ai-search.md
 - name: FAQ
   href: faq-ifc-viewer.md
 
 - name: MICROSOFT APPS
-- name: Teams IFC Viewer
-  expanded: false
-  items:
-    - name: Introduction
-      href: ifc-viewer-for-teams.md
-    - name: Privacy and Security
-      href: open-ifc-viewer-teams-architecture-and-data-protection.md
-    - name: Installation
-      href: setting-up-the-ifc-viewer-in-microsoft-teams.md
-    - name: Link Documents
-      href: ifc-docslink.md
-    - name: Update BCF files
-      href: update-bcf-files-in-microsoft-teams.md
-    - name: Save BCF to Microsoft Lists
-      href: ifc-lists.md
-    - name: Save IFC to Microsoft Power BI
-      href: ifc-excel-power-bi.md
-    - name: Save IFC to Microsoft Excel Online
-      href: ifc-excel.md
-    - name: FAQs
-      href: faq-for-ifc-viewer-in-teams.md
 - name: SharePoint IFC Viewer
   expanded: false
   items:
-    - name: Introduction
+    - name: Overview
       href: ifc-viewer-for-sharepoint.md
-    - name: Install app
+    - name: Security & Privacy
+      href: ifc-viewer-sharepoint-architecture-and-data-protection.md
+    - name: Set up IFC Viewer in SharePoint
       href: viewer-app-installation-with-admin-approval.md
-    - name: Install file handler
+    - name: Install IFC file handler
       href: ifc-file-handler-for-sharepoint.md
-    - name: Usage
+    - name: Use IFC Viewer in SharePoint
       href: using-ifc-viewer-in-sharepoint.md
-    - name: Load multiple files
+    - name: Load multiple IFC & BCF files
       href: load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.md
-    - name: Connect BCF to Microsoft List
+    - name: Connect BCF issues to Microsoft Lists
       href: save-bcf-to-sharepoint-lists.md
     - name: Upgrade to latest version
       href: upgrade-sharepoint-ifc-viewer-app.md
     - name: Enable guest user access
       href: enable-guest-user-access-to-sharepoint-app.md
+    - name: FAQs
+      href: faq-for-ifc-viewer-in-sharepoint.md
+- name: Teams IFC Viewer
+  expanded: false
+  items:
+    - name: Overview
+      href: ifc-viewer-for-teams.md
+    - name: Security & Privacy
+      href: open-ifc-viewer-teams-architecture-and-data-protection.md
+    - name: Set up IFC Viewer in Teams
+      href: setting-up-the-ifc-viewer-in-microsoft-teams.md
+    - name: Link documents to model elements
+      href: ifc-docslink.md
+    - name: Update BCF
+      href: update-bcf-files-in-microsoft-teams.md
+    - name: Save BCF issues to Microsoft Lists
+      href: ifc-lists.md
+    - name: Save IFC to Excel Online
+      href: ifc-excel.md
+    - name: Save IFC to Microsoft Power BI
+      href: ifc-excel-power-bi.md
+    - name: FAQs
+      href: faq-for-ifc-viewer-in-teams.md
 - name: Power BI IFC Viewer
   expanded: false
   items:
-    - name: Introduction
+    - name: Overview
       href: ifc-power-bi.md
-    - name: Installation
-      href: ifc-viewer-installation-for-power-bi.md
-    - name: Usage
-      href: ifc-viewer-usage-for-power-bi.md
-    - name: Use cases
+    - name: Use cases & scenarios
       href: use-cases-for-ifc-visual-in-power-bi.md
+    - name: Visual setup
+      href: ifc-viewer-installation-for-power-bi.md
+    - name: Build reports
+      href: ifc-viewer-usage-for-power-bi.md
+    - name: Color elements
+      href: ifc-viewer-color-rules-for-power-bi.md
+    - name: Load full model data
+      href: ifc-viewer-data-extension-for-power-bi.md
+    - name: Performance & load times
+      href: ifc-viewer-optimization-and-load-times-for-power-bi.md
+    - name: Activate advanced features
+      href: ifc-viewer-license-key-for-power-bi.md
+    - name: Share reports with external users
+      href: sharing-power-bi-ifc-reports-with-external-users.md
     - name: FAQs
       href: faq-for-ifc-visual-in-power-bi.md
 - name: Excel IFC Viewer
@@ -101,6 +117,8 @@
       href: create-sharepoint-group-and-folder-structure.md
     - name: Set Permissions for Groups and Folders
       href: permissions-for-sharepoint-groups-and-folders.md
+    - name: Hide a folder with specific permissions
+      href: hide-sharepoint-folder-with-protect-app.md
     - name: Invite users or add members to site
       href: tutorial-to-invite-users-or-add-members-to-sharepoint-site.md
     - name: Share specific folder with externals

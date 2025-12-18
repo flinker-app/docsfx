@@ -15,6 +15,18 @@ strong {
   font-weight: 600;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; 
+}
+
+a.external[href]:after {
+    margin-left: 0.5em;
+}
+
 .navbar-brand #logo {
   width: 24px;
   height: 24px;
@@ -27,9 +39,27 @@ strong {
 }
 
 
+.affix h5, .affix .h5 {
+    font-weight: 500;
+    text-transform: none;
+    font-size: 18px;
+    letter-spacing: inherit;
+}
 
-/* .toc li.active:not(.expanded) {
-  background-color: var(--bs-secondary-bg);
+.affix .border-bottom {
+    border-bottom: none !important;
+}
+
+
+.toc li {
+    margin: 0;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    padding-left: .85rem;
+}
+
+ .toc li.active:not(.expanded) {
+  background-color: var(--bs-tertiary-bg);
   font-weight: 600;
   color: var(--bs-body-color) !important;
   border-radius: 2px;
@@ -37,7 +67,7 @@ strong {
 
 .toc .active a {
   color: var(--bs-body-color) !important;
-} */
+}
 
 .indent-paragraph {
   margin-left: 2em;
@@ -49,7 +79,7 @@ article h1 {
 
 article h2 {
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 article h3 {
@@ -70,9 +100,10 @@ article li {
 
 .alert {
   margin-top: 1rem;
-  border: none;
+  /* border: none; */
   /* border-radius: 0.2rem; */
-  /* background-color: #f1f1f1; */
+  color: var(--bs-body-color);
+  background-color: var(--bs-tertiary-bg);
 
 }
 
@@ -84,6 +115,7 @@ article li {
 
 .alert h5::before {
   font-size: 1rem;
+  top: .15em !important;
 }
 
 
@@ -303,6 +335,30 @@ footer {
 
 .benefit-text {
   font-size: 1em;
+}
+
+/* Tables */
+
+article table {
+  width: 100%;
+  border-collapse: collapse;
+  border-left: 1px solid var(--bs-border-color, #d9d9d9);
+  border-right: 1px solid var(--bs-border-color, #d9d9d9);
+}
+
+article table th,
+article table td {
+  padding: 0.75rem;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid var(--bs-border-color, #d9d9d9);
+  border-bottom: 1px solid var(--bs-border-color, #d9d9d9);
+  text-align: left  !important;
+}
+
+article table th {
+  background-color: var(--bs-secondary-bg, #f8f9fa);
+  font-weight: 600;
 }
 
 @media (max-width: 1200px) {
