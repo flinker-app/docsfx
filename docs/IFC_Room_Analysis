@@ -53,7 +53,6 @@ Gone are the days of manually setting colors for every room type. This dashboard
 
 To get the best results when loading your own data, ensure your IFC file meets these criteria:
 
-* **Schema:** IFC2x3 or IFC4.
 * **Entity Requirement:** The file **must** contain `IfcSpace` entities. Files containing only geometry (meshes) without space definitions will not show room data.
 * **Containment:** Spaces should be correctly associated with `IfcBuildingStorey` levels.
 
@@ -63,4 +62,4 @@ To get the best results when loading your own data, ensure your IFC file meets t
 
 Explore the dashboard below. You can filter by Level, Room Usage, or select individual elements in the 3D viewer to see their specific properties.
 
-<iframe title="IFC Space Analytics" width="100%" height="700" src="https://app.powerbi.com/view?r=YOUR_GENERATED_LINK_HERE" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="IFC Space Analytics" width="100%" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiZWMzZmJiN2QtOTg3OS00M2ZiLTgzYzItZTAyNDE4YWQ2NjRmIiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
