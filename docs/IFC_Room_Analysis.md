@@ -3,25 +3,25 @@ uid: ifc-space-analytics
 title: IFC Space Analytics & Occupancy Dashboard
 ---
 
-# 🏢 IFC Space Analytics & Occupancy Dashboard
+# IFC Space Analytics & Occupancy Dashboard
+
+<iframe title="IFC Space Analytics" width="100%" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiZWMzZmJiN2QtOTg3OS00M2ZiLTgzYzItZTAyNDE4YWQ2NjRmIiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
+
+Explore the dashboard above. You can filter by Level, Room Usage, or select individual elements in the 3D viewer to see their specific properties.
 
 ## Overview
 The **IFC Space Analytics Dashboard** is a powerful Power BI template designed to bridge the gap between BIM (Building Information Modeling) data and Facility Management operations. By directly ingesting `.ifc` files, this report transforms raw geometry and property data into actionable insights regarding space usage, occupancy distribution, and volumetric analysis.
 
 This tool is essential for **BIM Managers**, **Facility Managers**, and **Owner Operators** looking to visualize their asset performance without needing complex BIM authoring software.
 
----
-
-## 🌟 Key Features
+## Key Features
 
 * **Automated Usage Detection:** A smart algorithm that identifies room functions regardless of the naming convention used in the source file (Revit, ArchiCAD, etc.).
 * **Data-Driven 3D Visualization:** A fully interactive 3D viewer that color-codes spaces based on their function dynamically.
 * **Consistency Across Visuals:** The color palette used in the 3D model is automatically synchronized with all charts and tables in the report.
 * **Performance Optimized:** Built on a high-performance Power Query ETL process designed to handle large IFC datasets efficiently.
 
----
-
-## ⚙️ Technical Logic: The "Priority Matrix"
+## Technical Logic: The "Priority Matrix"
 
 One of the biggest challenges in IFC data is inconsistent naming. Some files use `Occupancy`, others use `Category`, and some stick to standard IFC properties.
 
@@ -29,37 +29,25 @@ To solve this, this dashboard utilizes a **DAX Priority Matrix**. It scans the m
 
 | Priority Level | Data Source | Property Scanned | Description |
 | :--- | :--- | :--- | :--- |
-| **1️⃣ Standard** | **IFC Standard** | `Pset_SpaceCommon` > `OccupancyType` | The most reliable, standard-compliant method. |
-| **2️⃣ Software** | **Revit / Authoring Tool** | `Category Description` | Checks for software-specific categories often exported by default. |
-| **3️⃣ Convention** | **Direct Naming** | `SpaceUsage`, `RoomFunction`, `Usage` | Looks for explicit, user-defined parameters commonly used in FM. |
-| **4️⃣ Inference** | **Fuzzy Matching** | *Keywords search* | Scans all properties for text containing "Usage" or "Occupancy". |
-| **5️⃣ Fallback** | **Default** | *Unassigned* | If no data is found, it is flagged for the BIM Manager to review. |
+| **1. Standard** | **IFC Standard** | `Pset_SpaceCommon` > `OccupancyType` | The most reliable, standard-compliant method. |
+| **2. Software** | **Revit / Authoring Tool** | `Category Description` | Checks for software-specific categories often exported by default. |
+| **3. Convention** | **Direct Naming** | `SpaceUsage`, `RoomFunction`, `Usage` | Looks for explicit, user-defined parameters commonly used in FM. |
+| **4. Inference** | **Fuzzy Matching** | *Keywords search* | Scans all properties for text containing "Usage" or "Occupancy". |
+| **5. Fallback** | **Default** | *Unassigned* | If no data is found, it is flagged for the BIM Manager to review. |
 
 > **Note:** This logic ensures that 99% of spaces get a meaningful label without manual mapping.
 
----
-
-## 🎨 Dynamic Coloring System
+## Dynamic Coloring System
 
 Gone are the days of manually setting colors for every room type. This dashboard features an **Algorithmic Coloring Engine**:
 
-1.  **Auto-Generation:** It calculates a unique color based on the text value of the Room Usage.
-2.  **Consistency:** "Kitchen" will always appear in the same specific color, and "Office" in another, ensuring consistent reporting across different projects.
-3.  **Scalability:** The system supports an infinite number of room types. Even if a new function like "Laboratory" appears, it automatically gets a distinct color.
+1. **Auto-Generation:** It calculates a unique color based on the text value of the Room Usage.
+2. **Consistency:** "Kitchen" will always appear in the same specific color, and "Office" in another, ensuring consistent reporting across different projects.
+3. **Scalability:** The system supports an infinite number of room types. Even if a new function like "Laboratory" appears, it automatically gets a distinct color.
 
----
-
-## 📋 Prerequisites for IFC Files
+## Prerequisites for IFC Files
 
 To get the best results when loading your own data, ensure your IFC file meets these criteria:
 
 * **Entity Requirement:** The file **must** contain `IfcSpace` entities. Files containing only geometry (meshes) without space definitions will not show room data.
 * **Containment:** Spaces should be correctly associated with `IfcBuildingStorey` levels.
-
----
-
-## 🚀 Interactive Report
-
-Explore the dashboard below. You can filter by Level, Room Usage, or select individual elements in the 3D viewer to see their specific properties.
-
-<iframe title="IFC Space Analytics" width="100%" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiZWMzZmJiN2QtOTg3OS00M2ZiLTgzYzItZTAyNDE4YWQ2NjRmIiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
