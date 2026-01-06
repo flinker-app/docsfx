@@ -20,8 +20,11 @@
       href: bcf-viewpoints.md
     - name: Import from Navisworks
       href: bcf-navisworks.md
-- name: COBie
-  href: ifc-cobie.md
+- name: Copilot for IFC
+  href: copilot-for-ifc.md
+  items:
+    - name: API
+      href: copilot-for-ifc-api.md
 - name: FAQ
   href: faq-ifc-viewer.md
 
