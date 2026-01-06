@@ -80,6 +80,9 @@
       href: ifc-power-bi.md
     - name: Use cases & scenarios
       href: use-cases-for-ifc-visual-in-power-bi.md
+      items:
+        - name: Room Analysis and Occupancy Dashboard
+          href: IFC_Room_Analysis.md
     - name: Visual setup
       href: ifc-viewer-installation-for-power-bi.md
     - name: Build reports
