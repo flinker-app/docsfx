@@ -80,11 +80,6 @@
   items:
     - name: Overview
       href: ifc-power-bi.md
-    - name: Use cases & scenarios
-      href: use-cases-for-ifc-visual-in-power-bi.md
-      items:
-        - name: Room Analysis and Occupancy Dashboard
-          href: IFC_Room_Analysis.md
     - name: Visual setup
       href: ifc-viewer-installation-for-power-bi.md
     - name: Build reports
@@ -101,6 +96,12 @@
       href: sharing-power-bi-ifc-reports-with-external-users.md
     - name: FAQs
       href: faq-for-ifc-visual-in-power-bi.md
+    - name: Report Templates
+      expanded: true
+      href: power-bi-report-templates.yml
+      items:
+        - name: Room Analysis and Occupancy Dashboard
+          href: IFC_Room_Analysis.md
 - name: Excel IFC Viewer
   href: ifc-viewer-for-microsoft-excel.md
 - name: Power Automate

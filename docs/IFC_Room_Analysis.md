@@ -5,7 +5,7 @@ title: IFC Space Analytics & Occupancy Dashboard
 
 # IFC Space Analytics & Occupancy Dashboard
 
-<iframe title="IFC Space Analytics" width="100%" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiZWMzZmJiN2QtOTg3OS00M2ZiLTgzYzItZTAyNDE4YWQ2NjRmIiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="IFC Space Analytics" style="width: 100%; aspect-ratio: 16 / 10;" width="100%" src="https://app.powerbi.com/view?r=eyJrIjoiZWMzZmJiN2QtOTg3OS00M2ZiLTgzYzItZTAyNDE4YWQ2NjRmIiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 Explore the dashboard above. You can filter by Level, Room Usage, or select individual elements in the 3D viewer to see their specific properties.
 

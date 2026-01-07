@@ -1,0 +1,10 @@
+### YamlMime:Dashboard
+---
+title: Report Templates for the IFC Viewer Visual in Power BI
+description: Explore practical Report Templates for integrating IFC Viewer Visual with Power BI to enhance BIM workflows, project management, and data-driven decision-making.
+documentType: dashboard
+expanded: true
+items:
+  - name: IFC Space Analytics & Occupancy Dashboard
+    description: Analyze room usage, occupancy rates, and space utilization with this comprehensive dashboard template.
+    href: IFC_Room_Analysis.html

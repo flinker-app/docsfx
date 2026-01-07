@@ -40,6 +40,15 @@ ms.date: 2025-12-04
 
 The IFC Viewer supports **IFC2X3** and **IFC4** formats, ensuring compatibility with most BIM applications.
 
+### Can I combine multiple data sources in one dashboard?
+Yes, Power BI allows you to connect and visualize data from IFC models alongside schedules, costs, sensors, and more.
+
+### Is coding required to use the IFC Viewer Visual in Power BI?
+No coding is needed. The integration is designed for business users and BIM professionals.
+
+### Can I add the IFC Viewer Visual to existing Power BI reports?
+Yes, you can add the IFC Viewer Visual to any existing Power BI report by inserting it as a visual from the marketplace and connecting it to your model data.
+
 ### Can I use this app with SharePoint or Microsoft Teams?
 
 Yes! The app allows you to **export and sync IFC data** with SharePoint, Teams, and Excel for seamless collaboration.
