@@ -72,19 +72,6 @@ Copilot for IFC is optimized for IFC exploration, analysis, and controlled edits
 - Exporting results (for example CSV, images, and generated IFC files)
 - Editing *copies* of IFC files (for example adding quantities or updating properties)
 
-## Copilot for IFC Pro (GPT-5 Pro)
-
-Copilot for IFC Pro is built for demanding workflows and enterprise-grade needs:
-
-- Access to **GPT-5 Pro models** for better reasoning on complex, multi-step tasks
-- Better results on large models, advanced analysis, and IFC editing workflows
-- Priority support options for teams
-
-Upgrade instantly:
-
-> [!div class="nextstepaction"]
-> [Get Pro](https://buy.stripe.com/dRm9AS1Ue8he8sAfzhcZa00)
-
 ## FAQs
 
 **Do you upload my IFC model to the cloud?**  

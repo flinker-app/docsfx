@@ -23,6 +23,8 @@
 - name: Copilot for IFC
   href: copilot-for-ifc.md
   items:
+    - name: Pro
+      href: copilot-for-ifc-pro.md
     - name: API
       href: copilot-for-ifc-api.md
 - name: FAQ
