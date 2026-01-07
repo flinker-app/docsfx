@@ -34,6 +34,32 @@ ms.date: 2025-12-04
 
 # FAQs - IFC Visual - Power BI
 
+## IFC Viewer basics
+
+### What file formats does the IFC Viewer support?
+
+The IFC Viewer supports **IFC2X3** and **IFC4** formats, ensuring compatibility with most BIM applications.
+
+### Can I use this app with SharePoint or Microsoft Teams?
+
+Yes! The app allows you to **export and sync IFC data** with SharePoint, Teams, and Excel for seamless collaboration.
+
+### How does filtering work in the IFC Viewer?
+
+You can apply **custom filters** to isolate IFC elements based on type, attributes, or categories. Clicking on a filtered element will highlight the corresponding component in the 3D model.
+
+### Do I need additional software to use IFC Viewer in Power BI?
+
+No, the IFC Viewer runs **entirely within Power BI** and does not require additional software installations.
+
+### How does the app handle large-scale IFC models?
+
+The IFC Viewer is **optimized for performance**, ensuring smooth interaction and visualization, even with **complex, large-scale models**.
+
+### What does self-hosted Microsoft app mean?
+
+The IFC Power BI app uses your own SharePoint as the only server. Your Microsoft 365 hosts the app without external connections. You have chosen a very secure software setup.
+
 ## Licensing
 
 In this article, we will explain how licensing for the IFC Power BI Visual works. While licensing and all circumstances surrounding it can easily get complicated and overlapping, we will try to provide answers to the questions you may have.
@@ -73,5 +99,4 @@ Use instead:
 
 Note: A custom password page in front of a public link is not real security.
 See also: [Sharing Power BI IFC reports with external users](sharing-power-bi-ifc-reports-with-external-users.md).
-
 
