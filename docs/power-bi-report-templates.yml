@@ -7,6 +7,10 @@ _disableAffix: true
 _disableNextArticle: true
 expanded: true
 items:
+  - name: Multi-file Loading & Coloring Sample
+    thumbnail: /_media/select-any-parts-in-ifc-viewer-app-to-get-its-data-instantly-in-power-bi.png
+    description: Load multiple IFC files via Folder/Subfolder loading and explore advanced coloring examples.
+    href: IFC_Multi_File_Loading.html
   - name: IFC Space Analytics & Occupancy Dashboard
     thumbnail: /_media/space-analysis-power-bi-report.png
     description: Analyze room usage, occupancy rates, and space utilization with this comprehensive dashboard template.

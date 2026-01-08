@@ -102,6 +102,8 @@
       expanded: true
       href: power-bi-report-templates.yml
       items:
+        - name: Multi-file Loading & Coloring Sample
+          href: IFC_Multi_File_Loading.md
         - name: Room Analysis and Occupancy Dashboard
           href: IFC_Room_Analysis.md
 - name: Excel IFC Viewer
