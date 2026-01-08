@@ -8,7 +8,7 @@ _disableNextArticle: true
 expanded: true
 items:
   - name: Multi-file Loading & Coloring Sample
-    thumbnail: /_media/select-any-parts-in-ifc-viewer-app-to-get-its-data-instantly-in-power-bi.png
+    thumbnail: /_media/multiple-file-loading-power-bi-report.png
     description: Load multiple IFC files via Folder/Subfolder loading and explore advanced coloring examples.
     href: IFC_Multi_File_Loading.html
   - name: IFC Space Analytics & Occupancy Dashboard
