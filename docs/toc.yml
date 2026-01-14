@@ -99,6 +99,8 @@
           href: IFC_Multi_File_Loading.md
         - name: Room Analysis and Occupancy Dashboard
           href: IFC_Room_Analysis.md
+        - name: 4D Construction Dashboard
+          href: IFC_4DPlanning.md
 - name: Excel IFC Viewer
   href: ifc-viewer-for-microsoft-excel.md
 - name: Power Automate
