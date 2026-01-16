@@ -5,7 +5,7 @@ title: IFC Space Analytics & Occupancy Dashboard
 
 # IFC Space Analytics & Occupancy Dashboard
 
-<iframe title="IFC Space Analytics" style="width: 100%; aspect-ratio: 16 / 10;" width="100%" src="https://app.powerbi.com/view?r=eyJrIjoiZWMzZmJiN2QtOTg3OS00M2ZiLTgzYzItZTAyNDE4YWQ2NjRmIiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="IFC Space Analytics" style="width: 100%; aspect-ratio: 16 / 9;" src="https://app.powerbi.com/reportEmbed?reportId=39247cb4-5338-457b-bd45-65c2edf38d12&autoAuth=true&ctid=44b640f3-49b0-4304-9c98-c61d0bc0dc02" frameborder="0" allowFullScreen="true"></iframe>
 
 Explore the dashboard above. You can filter by Level, Room Usage, or select individual elements in the 3D viewer to see their specific properties.
 
@@ -13,6 +13,26 @@ Explore the dashboard above. You can filter by Level, Room Usage, or select indi
 The **IFC Space Analytics Dashboard** is a powerful Power BI template designed to bridge the gap between BIM (Building Information Modeling) data and Facility Management operations. By directly ingesting `.ifc` files, this report transforms raw geometry and property data into actionable insights regarding space usage, occupancy distribution, and volumetric analysis.
 
 This tool is essential for **BIM Managers**, **Facility Managers**, and **Owner Operators** looking to visualize their asset performance without needing complex BIM authoring software.
+
+---
+
+## Report Structure: Overview vs. Detail
+
+To provide both high-level insights and granular engineering data, the dashboard is split into two distinct views:
+
+### 1. Space Overview (Executive View)
+Designed for stakeholders who need quick answers. This page features:
+* **Interactive 3D Viewer:** A large, central visualization color-coded by Room Function.
+* **Gauge Chart:** An instant visual indicator showing the total **Number of Rooms** in the filtered selection.
+* **Usage Summary List:** A color-coded table displaying room types (e.g., Office, Corridor) alongside their count and total area, replacing complex engineering grids.
+
+### 2. Quantity Takeoff (Detailed View)
+Designed for engineers and estimators. Accessible via the **"Show Extended Room Details"** navigation button, this page includes:
+* **Detailed Matrix:** A comprehensive table listing every room with its specific properties (Perimeter, Height, Volume).
+* **Advanced Filtering:** Granular control to filter data by Level, Usage, or Name.
+* **Raw Property Data:** Access to technical IFC parameters for validation.
+
+---
 
 ## Key Features
 
@@ -27,11 +47,11 @@ One of the biggest challenges in IFC data is inconsistent naming. Some files use
 
 To solve this, this dashboard utilizes a **DAX Priority Matrix**. It scans the model for space usage data in the following hierarchical order:
 
-| Priority Level | Data Source | Property Scanned | Description |
+| Level | Data Source | Property Scanned | Description |
 | :--- | :--- | :--- | :--- |
-| **1. Standard** | **IFC Standard** | `Pset_SpaceCommon` > `OccupancyType` | The most reliable, standard-compliant method. |
-| **2. Software** | **Revit / Authoring Tool** | `Category Description` | Checks for software-specific categories often exported by default. |
-| **3. Convention** | **Direct Naming** | `SpaceUsage`, `RoomFunction`, `Usage` | Looks for explicit, user-defined parameters commonly used in FM. |
+| **1. Standard** | **IFC Standard** | `Pset_SpaceCommon` / `OccupancyType` | The most reliable, standard-compliant method. |
+| **2. Software** | **Authoring Tool** | `Category Description` | Checks for software-specific categories often exported by default. |
+| **3. Convention** | **Direct Naming** | `SpaceUsage`, `Usage` | Looks for explicit, user-defined parameters commonly used in FM. |
 | **4. Inference** | **Fuzzy Matching** | *Keywords search* | Scans all properties for text containing "Usage" or "Occupancy". |
 | **5. Fallback** | **Default** | *Unassigned* | If no data is found, it is flagged for the BIM Manager to review. |
 
