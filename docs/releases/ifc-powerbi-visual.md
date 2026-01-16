@@ -1,4 +1,9 @@
- ### 3.3.0.0 - 2025-12-11
+ ### 3.4.0.0 - 2026-01-16
+
+* Updated report template with multi-ifc loading, attributes parsing and coloring
+
+
+### 3.3.0.0 - 2025-12-11
 
 - [Color Elements](https://docs.flinker.app/docs/ifc-viewer-color-rules-for-power-bi.html)
 
