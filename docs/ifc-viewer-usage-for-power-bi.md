@@ -43,6 +43,12 @@ The following file paths are supported:
 
 - **Public cloud file link**: Alternatively, anonymous or public file links from sources such as GitHub, Autodesk, Trimble, or Google Drive are also supported.
 
+#### Folder loading
+
+To load multiple IFC files at once, paste a folder path into `Filepath` (instead of a single `.ifc` file). Set **Subfolders** to `TRUE` if you want to include IFC files from nested folders, then click **OK**.
+
+![Edit Parameters for folder loading](/_media/edit-parameters-in-power-bi-connector-for-folder-loading.png)
+
 
 ### 3. Apply changes
 
@@ -113,4 +119,3 @@ If you already have an empty Power BI report or an existing report and want to i
 ![Link IFC Visual Data to Existing Data](/_media/link-ifc-visual-data-to-existing-data.png)
 
 You have now successfully integrated the 3D IFC Viewer into an existing or blank Power BI report. The IFC files will be loaded via the M functions and linked to your dataset by GUID, enabling seamless 3D visualization.
-

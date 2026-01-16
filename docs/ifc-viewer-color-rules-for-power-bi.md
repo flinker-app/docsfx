@@ -7,7 +7,9 @@ canonical_url: https://docs.flinker.app/docs/ifc-viewer-color-rules-for-power-bi
 
 # Color IFC Elements in the Power BI Viewer
 
-Conditional formatting lets you highlight model elements directly inside the IFC Viewer visual so that stakeholders can instantly see phases, disciplines, or QA findings. Power BI supports two conditional-formatting modes—pick the one that matches how you want to manage colors.
+<iframe title="ifc-coloring" style="width: 100%; aspect-ratio: 16 / 10;" width="100%" src="https://app.powerbi.com/view?r=eyJrIjoiOTgwNmVhYjYtZGFlMS00MGU4LTg4NTItMWU4OWQ3MmU1MDA5IiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9&pageName=acea90a710adc19ac142" frameborder="0" allowFullScreen="true"></iframe>
+
+Conditional formatting lets you highlight model elements directly inside the IFC Viewer visual so that stakeholders can instantly see phases, disciplines, or QA findings. Power BI supports two conditional-formatting modes-pick the one that matches how you want to manage colors.
 
 ## Option 1: Set Colors Manually
 
@@ -77,4 +79,3 @@ Use this mode when the color should come from the dataset:
 
 > [!TIP]
 > Field‑value formatting keeps palettes consistent across visuals. Reuse the same color table for other charts and slicers so that statuses or disciplines always appear with the same color.
-
