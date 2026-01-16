@@ -15,3 +15,7 @@ items:
     thumbnail: /_media/space-analysis-power-bi-report.png
     description: Analyze room usage, occupancy rates, and space utilization with this comprehensive dashboard template.
     href: IFC_Room_Analysis.html
+  - name: 4D Construction Dashboard
+    thumbnail: /_media/4d-construction-thumb.png
+    description: Visualize construction timelines (4D), validate schedules, and track costs with a digital twin interface.
+    href: IFC_4DPlanning.html

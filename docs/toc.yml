@@ -2,7 +2,7 @@
 - name: Get started
   href: ../index.md
 
-- name: Architecture & Security
+- name: Security & Privacy
   href: ifc-viewer-architecture-and-data-protection.md
 - name: OPEN BIM
 - name: IFC
@@ -22,13 +22,6 @@
       href: bcf-viewpoints.md
     - name: Import from Navisworks
       href: bcf-navisworks.md
-- name: Copilot for IFC
-  href: copilot-for-ifc.md
-  items:
-    - name: Pro
-      href: copilot-for-ifc-pro.md
-    - name: API
-      href: copilot-for-ifc-api.md
 - name: FAQ
   href: faq-ifc-viewer.md
 
@@ -106,6 +99,8 @@
           href: IFC_Multi_File_Loading.md
         - name: Room Analysis and Occupancy Dashboard
           href: IFC_Room_Analysis.md
+        - name: 4D Construction Dashboard
+          href: IFC_4DPlanning.md
 - name: Excel IFC Viewer
   href: ifc-viewer-for-microsoft-excel.md
 - name: Power Automate
@@ -113,32 +108,42 @@
 - name: Power Apps
   href: ifc-power-apps.md
 
-- name: PROTECT
-- name: Features
-  href: share-features.md
-- name: Installation for Admins
-  href: installation.md
-- name: Upgrade to latest version
-  href: upgrade-share-app.md
-- name: Enable guest user access
-  href: enable-guest-user-access-to-sharepoint-app.md
-- name: Tutorials
-  href: protect-tutorials.yml
+- name: Protect
   expanded: false
   items:
-    - name: Create Groups and Folders
-      href: create-sharepoint-group-and-folder-structure.md
-    - name: Set Permissions for Groups and Folders
-      href: permissions-for-sharepoint-groups-and-folders.md
-    - name: Hide a folder with specific permissions
-      href: hide-sharepoint-folder-with-protect-app.md
-    - name: Invite users or add members to site
-      href: tutorial-to-invite-users-or-add-members-to-sharepoint-site.md
-    - name: Share specific folder with externals
-      href: tutorial-to-share-sharepoint-folders-with-externals.md
-- name: FAQ
-  href: faq-share-app-for-microsoft-sharepoint.md
+    - name: Features
+      href: share-features.md
+    - name: Installation for Admins
+      href: installation.md
+    - name: Upgrade to latest version
+      href: upgrade-share-app.md
+    - name: Enable guest user access
+      href: enable-guest-user-access-to-sharepoint-app.md
+    - name: Tutorials
+      href: protect-tutorials.yml
+      expanded: false
+      items:
+        - name: Create Groups and Folders
+          href: create-sharepoint-group-and-folder-structure.md
+        - name: Set Permissions for Groups and Folders
+          href: permissions-for-sharepoint-groups-and-folders.md
+        - name: Hide a folder with specific permissions
+          href: hide-sharepoint-folder-with-protect-app.md
+        - name: Invite users or add members to site
+          href: tutorial-to-invite-users-or-add-members-to-sharepoint-site.md
+        - name: Share specific folder with externals
+          href: tutorial-to-share-sharepoint-folders-with-externals.md
+    - name: FAQ
+      href: faq-share-app-for-microsoft-sharepoint.md
 
+- name: WEB APPS & API
+- name: Copilot for IFC
+  href: copilot-for-ifc.md
+  items:
+    - name: Pro
+      href: copilot-for-ifc-pro.md
+    - name: API
+      href: copilot-for-ifc-api.md
 - name: RESOURCES
 - name: Changelog
   href: releases.md
