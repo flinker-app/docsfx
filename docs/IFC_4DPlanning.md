@@ -5,7 +5,7 @@ title: 4D Construction Dashboard
 
 # Technical Documentation: 4D Construction Dashboard
 
-<iframe title="ifcviewer_4D" width="100%" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiYzU4MDAzOWQtODA1MC00MmY5LWE1ZjMtMTBkOGU4NzFjOGI5IiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="ifcviewer_4D" style="width: 100%; aspect-ratio: 16 / 9;" src="https://app.powerbi.com/reportEmbed?reportId=fe804611-31ce-453a-94fd-bfd5debaaf1a&autoAuth=true&ctid=44b640f3-49b0-4304-9c98-c61d0bc0dc02" frameborder="0" allowFullScreen="true"></iframe>
 
 ## Executive Overview
 The **4D Construction Dashboard** serves as a specialized **Digital Twin**, integrating Building Information Modeling (IFC Data) with Construction Scheduling and Management. By linking the physical model (**ifc**) directly to the project schedule, it provides stakeholders with a "time-machine" view of the project's progress.
@@ -48,15 +48,14 @@ This is the primary dataset driving the Gantt chart and 4D simulation.
 
 ---
 
-### 3. Sheet: ResourceToTask (Cost & Resources)
-This sheet handles the "4D" aspect (Cost) by linking resources to specific activities.
+### 3. Sheet: ResourceToTask (Resource Allocation)
+This sheet handles the resource allocation logic by linking specific resources to project activities.
 > **Important:** The sheet name must remain exactly **ResourceToTask**.
 
 | Attribute Name | Data Type | Description & Usage |
 | :--- | :--- | :--- |
 | **ResourceGUID** | Text | Unique ID for the resource (Labor, Material, Equipment). |
-| **ActivityID** | Text | **Foreign Key.** This **MUST match** an **ActivityID** from the **Task_Table**. It links the cost to the schedule. |
-| **Cost** | Currency | The financial value associated with this resource allocation. |
+| **ActivityID** | Text | **Foreign Key.** This **MUST match** an **ActivityID** from the **Task_Table**. It creates the relationship between the resource and the schedule task. |
 
 ![Resource Table Example](../_media/resource-table-screenshot.png)
 
@@ -69,20 +68,20 @@ This sheet handles the "4D" aspect (Cost) by linking resources to specific activ
 ### How to Link Your Data
 The dashboard is designed to be dynamic. You don't need to edit the Power BI file structure; simply update the connection parameter.
 
-1.  Open the Power BI Report (**.pbix**).
-2.  Go to **Home** > **Transform Data** > **Edit Parameters**.
-3.  Locate the parameter named **4D_Planning_Template**.
-4.  Paste the full file path of your local Excel file.
-    * *Example:* `C:\Users\Name\Projects\4D_Schedule.xlsx`
-5.  Click **OK** and then **Apply Changes**.
+1.  Open the Power BI Report (**.pbix**).
+2.  Go to **Home** > **Transform Data** > **Edit Parameters**.
+3.  Locate the parameter named **4D_Planning_Template**.
+4.  Paste the full file path of your local Excel file.
+    * *Example:* `C:\Users\Name\Projects\4D_Schedule.xlsx`
+5.  Click **OK** and then **Apply Changes**.
 
 ### How to Update Progress
 As the project moves forward, you only need to update the Excel file:
-1.  Open your linked Excel Workbook.
-2.  Update the **Status** column (e.g., change specific tasks from "In Progress" to "Completed").
-3.  Update **PercentageComplete** and **Actual** dates if necessary.
-4.  **Save** the Excel file.
-5.  In Power BI (or the Web Viewer), click the **Refresh** button. The Dashboard, Gantt Chart, and 3D Coloring will update instantly.
+1.  Open your linked Excel Workbook.
+2.  Update the **Status** column (e.g., change specific tasks from "In Progress" to "Completed").
+3.  Update **PercentageComplete** and **Actual** dates if necessary.
+4.  **Save** the Excel file.
+5.  In Power BI (or the Web Viewer), click the **Refresh** button. The Dashboard, Gantt Chart, and 3D Coloring will update instantly.
 
 ---
 
