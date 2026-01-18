@@ -3,9 +3,9 @@ uid: IFC_4DPlanning
 title: 4D Construction Dashboard
 ---
 
-# Technical Documentation: 4D Construction Dashboard
+# 4D Construction Dashboard
 
-<iframe title="ifcviewer_4D" style="width: 100%; aspect-ratio: 16 / 9;" src="https://app.powerbi.com/reportEmbed?reportId=fe804611-31ce-453a-94fd-bfd5debaaf1a&autoAuth=true&ctid=44b640f3-49b0-4304-9c98-c61d0bc0dc02" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="ifcviewer_4D" style="width: 100%; aspect-ratio: 16 / 9;" src="https://app.powerbi.com/view?r=eyJrIjoiZmIzMWIwYzAtMzQ3My00MTUxLThhODAtNzlmZDFlNTA4Y2U2IiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 ## Executive Overview
 The **4D Construction Dashboard** serves as a specialized **Digital Twin**, integrating Building Information Modeling (IFC Data) with Construction Scheduling and Management. By linking the physical model (**ifc**) directly to the project schedule, it provides stakeholders with a "time-machine" view of the project's progress.
