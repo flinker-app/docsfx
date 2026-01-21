@@ -32,22 +32,6 @@ Optional step. Use only if you want to centrally deploy IFC Viewer so all users 
 
 ![Organizational Visuals Screenshot](/_media/add-ifc-viewer-to-organizational-visuals.png)
 
-
-## 4. Licensing Information
-
-You can use the Power BI IFC Viewer Visual for free in Power BI Desktop and Publish to Web, but a license is needed for Power BI Online.
-
-
-| Feature            | Standard Power BI | Power BI IFC Viewer Free | Power BI IFC Viewer Solo/Team/Business Plan |
-|--------------------|------------------|-------------------------|--------------------------------------------|
-| View IFC models and create/edit visual in Power BI Desktop   | ✗ | ✓ | ✓ |
-| View IFC models in public reports (Publish to Web)           | ✗ | ✓ | ✓ |
-| View IFC models and create/edit visual in Power BI Online    | ✗ | ✗ | ✓ |
-
-
-For detailed information on licensing for Power BI visuals, please refer to the [Power BI Visuals Licensing FAQ](https://learn.microsoft.com/en-us/power-bi/developer/visuals/licensing-faq). This resource provides answers to common questions regarding licensing, distribution, and usage of custom visuals in Power BI.
-
-
 ## 5. Permissions Required by the IFC Viewer Visual
 
 The Flinker IFC Viewer for Power BI visual requires the following permissions for optimal operation:
