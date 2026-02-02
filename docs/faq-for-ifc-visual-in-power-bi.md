@@ -84,10 +84,13 @@ This is usually fixed by **reloading the page after selecting your billing count
 
 ![Microsoft Marketplace billing country and language](/_media/pbi-ifc-visual-problem-billing-country-not-available.png)
 
-### I made the license purchase in Microsoft Store, but I can’t find a license key in the email
+### Can’t find the license key email after purchase?
 Single-user licenses purchased directly via Microsoft AppSource do not come with a license key email. These licenses are managed entirely in your own Microsoft 365 tenant. Go to **admin.microsoft.com** → **Billing** → **Licenses**, find **IFC Visual**, and assign it to the user. This is the same place where other Microsoft licenses are managed. All actions are on the customer side; Flinker cannot access or manage your Microsoft 365 licenses.
 
-### I have already purchased the Power BI subscription. Do I still have to purchase the IFC Visual Power BI license to use the visuals?
+### How do I buy a monthly “Publish to web” license?
+You can purchase a single-user Business license via Microsoft AppSource at https://marketplace.microsoft.com/en-us/product/flinkergmbh1644589155747.ifc-viewer?tab=PlansAndPrice, or purchase a Business tenant license directly from Flinker at https://flinker.app/products/power-bi-ifc-viewer/.
+
+### Do I need an IFC Visual license if I already have Power BI?
 Yes. The IFC Visual Power BI licensing model is not tied to Microsoft’s subscription-based plans in any way. We are a plug-in solution in the 3D and data visualization field of the Power BI tool. In order to successfully use our custom visuals when creating your Power BI reports, you need to buy an IFC Visual Power BI license as well. As such, IFC Visual Power BI visuals aren’t covered by a Power BI Premium subscription, which has no relation to the usage of the IFC Visual Power BI licenses. Although Power BI Premium capacity enables the sharing of data with anyone, this is not the case with the sharing of IFC reports that use the IFC Visual for Power BI custom visual. An IFC Visual Power BI license is also necessary when viewing (consuming) reports via the Power BI service.
 
 
