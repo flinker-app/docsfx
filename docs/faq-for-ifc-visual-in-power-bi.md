@@ -79,13 +79,13 @@ Your subscription will automatically renew at the end of each renewal period. If
 ### What does the IFC Power BI Visual license include?
 It includes access to Pro, Business, Enterprise or the Embed Plan and all the future product updates.
 
-### Marketplace says “Not available in selected billing region” — why?
+### Marketplace says “Not available in selected billing region", why?
 This is usually fixed by **reloading the page after selecting your billing country** in Microsoft Marketplace. Also ensure the Marketplace **Billing region** and **Language** match (as in the screenshot, e.g., *Norway* + *Bokmål – Norge*). If the problem persists, contact sales@flinker.app.
 
 ![Microsoft Marketplace billing country and language](/_media/pbi-ifc-visual-problem-billing-country-not-available.png)
 
 ### Can’t find the license key email after purchase?
-Single-user licenses purchased directly via Microsoft AppSource do not come with a license key email. These licenses are managed entirely in your own Microsoft 365 tenant. Go to **admin.microsoft.com** → **Billing** → **Licenses**, find **IFC Visual**, and assign it to the user. This is the same place where other Microsoft licenses are managed. All actions are on the customer side; Flinker cannot access or manage your Microsoft 365 licenses.
+Single-user licenses purchased directly via Microsoft AppSource do not come with a license key email. These licenses are managed entirely in your own Microsoft 365 tenant. Go to **admin.microsoft.com** → **Billing** → **Licenses**, find **IFC Visual**, and assign it to the user. This is the same place where other Microsoft licenses are managed. No key is needed; assigning the license in Microsoft 365 is sufficient. All actions are on the customer side; Flinker cannot access or manage your Microsoft 365 licenses.
 
 ### How do I buy a monthly “Publish to web” license?
 You can purchase a single-user Business license via Microsoft AppSource at https://marketplace.microsoft.com/en-us/product/flinkergmbh1644589155747.ifc-viewer?tab=PlansAndPrice, or purchase a Business tenant license directly from Flinker at https://flinker.app/products/power-bi-ifc-viewer/.
