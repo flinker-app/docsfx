@@ -101,6 +101,8 @@
           href: IFC_Room_Analysis.md
         - name: 4D Construction Dashboard
           href: IFC_4DPlanning.md
+        - name: IFC to GIS Map Dashboard
+          href: IFC_Map.md  
 - name: Excel IFC Viewer
   href: ifc-viewer-for-microsoft-excel.md
 - name: Power Automate

@@ -19,3 +19,7 @@ items:
     thumbnail: /_media/4d-construction-thumb.png
     description: Visualize construction timelines (4D), validate schedules, and track costs with a digital twin interface.
     href: IFC_4DPlanning.html
+  - name: IFC to GIS Map Dashboard
+    thumbnail: /_media/IFC_Map.png
+    description: Visualize multi-project portfolios on an interactive map using extracted IFC geospatial metadata and hybrid geocoding.
+    href: IFC_Map.html
