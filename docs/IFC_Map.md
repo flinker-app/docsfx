@@ -181,7 +181,7 @@ The query reads IFC files line-by-line to extract metadata from multiple entity 
 ## Technical Specifications
 
 ### Supported IFC Versions
-- IFC4 (recommended)
+- IFC4 (fully supported)
 - IFC2x3 (fully supported)
 - IFC2x2 (legacy support)
 
@@ -203,7 +203,7 @@ The query reads IFC files line-by-line to extract metadata from multiple entity 
 
 ---
 
-## How to Set Up the Parameter in Power BI
+## How to add your files and Set Up the files Parameter in Power BI
 
 ### Step 1: Open Power Query Editor
 1. Open your Power BI file
