@@ -1,4 +1,8 @@
- ### 3.4.0.0 - 2026-01-16
+ ### 3.5.0.0 - 2026-02-10
+
+- Added support to load full properties with mez connector
+
+### 3.4.0.0 - 2026-01-16
 
 * Updated report template with multi-ifc loading, attributes parsing and coloring
 
