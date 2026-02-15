@@ -105,6 +105,8 @@
           href: IFC_Map.md  
 - name: Excel IFC Viewer
   href: ifc-viewer-for-microsoft-excel.md
+- name: Project IFC Viewer
+  href: ifc-viewer-project.md
 - name: Power Automate
   href: ifc-power-automate.md
 - name: Power Apps
