@@ -15,8 +15,6 @@ The **IFC GIS Dashboard** is a specialized solution designed to manage and visua
 
 It solves a critical industry challenge: **Unstructured Data**. IFC files often vary in quality and schema compliance. This tool employs an engineering-first extraction engine to normalize data across different authoring tools (Revit, ArchiCAD, Tekla, VectorWorks, DDS-CAD) without requiring manual data entry.
 
----
-
 ## Data Extraction Logic
 The dashboard does not rely on simple property sets (Psets). Instead, it parses the raw STEP physical file structure to retrieve "Trusted Data" from the native IFC Schema hierarchy:
 
@@ -36,8 +34,6 @@ The extraction engine handles variations in IFC file formatting from different a
 | DDS-CAD | `#123= IFCPROJECT('guid',...` | ✅ Supported |
 | VectorWorks | `#123=IFCPROJECT('guid',...` | ✅ Supported |
 
----
-
 ## Ideal IFC Specifications
 For optimal performance and automatic georeferencing, input IFC files should adhere to the following standards:
 
@@ -47,8 +43,6 @@ For optimal performance and automatic georeferencing, input IFC files should adh
 * **Hierarchy:** The model should strictly follow the `IfcProject -> IfcSite -> IfcBuilding` containment tree.
 
 > **Note:** If explicit coordinates are missing, the dashboard will attempt to use the Project Address (City, Country) for approximate location via Azure Maps geocoding.
-
----
 
 ## Automated Fallback Logic
 Real-world IFC files frequently lack standard metadata. To ensure no project is left behind, the extraction query implements a **Cascading Fallback Logic**. It prioritizes high-fidelity data sources and automatically "falls back" to secondary options if the primary data is missing (`$`, `null`, or invalid).
@@ -63,8 +57,6 @@ Real-world IFC files frequently lack standard metadata. To ensure no project is 
 
 * **GUID Protection:** The system includes a strict validation layer that detects and rejects "False Descriptions" (e.g., if a GUID is accidentally written into a Name field), ensuring clean readable text in the report.
 
----
-
 ## Location Status Indicators
 The dashboard provides visual feedback on the quality of location data for each project:
 
@@ -76,8 +68,6 @@ The dashboard provides visual feedback on the quality of location data for each 
 
 Projects with "Unknown" status will not appear on the map but remain visible in the project list with a warning indicator.
 
----
-
 ## Project Color System
 Each project is automatically assigned a unique color based on its GUID hash. This ensures:
 
@@ -86,8 +76,6 @@ Each project is automatically assigned a unique color based on its GUID hash. Th
 * **No Manual Input:** Colors are generated algorithmically
 
 The color palette includes professional tones suitable for executive presentations.
-
----
 
 ## Multi-File Loading Strategy
 The dashboard is architected to handle multiple IFC files simultaneously through a single connection parameter.
@@ -98,16 +86,14 @@ You do not need to create separate queries for each file. Use the **Semicolon De
 **Example String:**
 ```text
 C:\Projects\Tower_Block_A.ifc; C:\Projects\Hospital_Zone_B.ifc; C:\Projects\Stadium_Roof.ifc
+```
 
 ### Supported File Sources
 | Source | Example Path |
 | :--- | :--- |
-canonical_url: https://docs.flinker.app/docs/IFC_Map.html
+| Local File System | `C:\Projects\Building_A.ifc` |
+| Network Share | `\\Server\BIM\Tower.ifc` |
 | SharePoint/OneDrive | `https://company.sharepoint.com/.../file.ifc` |
-
-
-
----
 
 ## Dashboard Components
 
@@ -131,8 +117,6 @@ Detailed view when a project is selected:
 - File Information (Author, Application, IFC Version)
 - Address Information
 
----
-
 ## Troubleshooting
 
 ### Projects Not Appearing on Map
@@ -148,8 +132,6 @@ Detailed view when a project is selected:
 | "Default Project" name | Original IFC has no Project Name - edit in authoring tool |
 | "Unknown" author | `IfcPerson` not populated in source file |
 | Missing storeys | `IfcBuildingStorey` entities not properly linked |
-
----
 
 ## Performance & Best Practices
 
@@ -177,8 +159,6 @@ The query reads IFC files line-by-line to extract metadata from multiple entity 
 
 > **Note:** Actual performance varies based on file complexity, machine specifications, and network speed (for SharePoint/network files). Test with your specific files to establish baseline refresh times.
 
----
-
 ## Technical Specifications
 
 ### Supported IFC Versions
@@ -201,8 +181,6 @@ The query reads IFC files line-by-line to extract metadata from multiple entity 
 | `IfcApplication` | Name, Version |
 | `IfcPerson` | Author Name |
 | `IfcOrganization` | Organization Name |
-
----
 
 ## How to add your files and Set Up the files Parameter in Power BI
 
