@@ -1,3 +1,10 @@
+---
+title: Load and Save BCF Files in Microsoft Teams
+description: Learn how to load, review, and save BCF files in Microsoft Teams using the Teams IFC Viewer and SharePoint links.
+keywords: BCF in Microsoft Teams, Teams IFC Viewer, load BCF file, save BCF file, SharePoint BCF workflow
+canonical_url: https://docs.flinker.app/docs/update-bcf-files-in-microsoft-teams.html
+---
+
 # Loading and Saving BCF Files with Microsoft Teams
 
 This guide explains how you can work with BCF files in Microsoft Teams.

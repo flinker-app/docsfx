@@ -1,3 +1,10 @@
+---
+title: Microsoft Lists and BCF Integration
+description: Connect BCF issues with Microsoft Lists to track BIM tasks across teams while preserving full BCF context.
+keywords: Microsoft Lists BCF, BIM issue tracking, IFC Lists integration, Teams BIM workflow, Flinker BCF sync
+canonical_url: https://docs.flinker.app/docs/ifc-lists.html
+---
+
 # Microsoft Lists and BCF integration
 
 ## Track BIM issues like a pro!
