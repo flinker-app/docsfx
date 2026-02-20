@@ -1,7 +1,7 @@
 ---
 title: IFC Viewer for SharePoint - Architecture and Data Protection
 description: Architecture, data flows, permissions, and data protection for the IFC Viewer SPFx WebPart in SharePoint Online. Explains tenant-bound storage, security, and technical metadata handling for IT and compliance.
-summary: How the IFC Viewer SPFx WebPart works in SharePoint: tenant-only storage, client-side rendering, supported hosts, permissions, and GDPR-aligned metadata processing.
+summary: "How the IFC Viewer SPFx WebPart works in SharePoint: tenant-only storage, client-side rendering, supported hosts, permissions, and GDPR-aligned metadata processing."
 slug: ifc-viewer-sharepoint-architecture-and-data-protection
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-sharepoint-architecture-and-data-protection.html
 lang: en

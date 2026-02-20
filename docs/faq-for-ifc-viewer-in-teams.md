@@ -7,31 +7,31 @@ canonical_url: https://docs.flinker.app/docs/faq-for-ifc-viewer-in-teams.html
 lang: en
 robots: index,follow
 keywords:
-	- IFC Viewer
-	- Microsoft Teams
-	- tab app
-	- setup
-	- SharePoint
-	- OneDrive
-	- file links
-	- permissions
-	- data protection
-	- telemetry
-	- client-side parsing
-	- BCF
+  - IFC Viewer
+  - Microsoft Teams
+  - tab app
+  - setup
+  - SharePoint
+  - OneDrive
+  - file links
+  - permissions
+  - data protection
+  - telemetry
+  - client-side parsing
+  - BCF
 tags:
-	- teams
-	- ifc
-	- viewer
-	- faq
-	- setup
-	- permissions
-	- privacy
+  - teams
+  - ifc
+  - viewer
+  - faq
+  - setup
+  - permissions
+  - privacy
 og:
-	title: FAQs for IFC Viewer in Microsoft Teams
-	description: Setup, files, permissions, and privacy details for the IFC Viewer in Teams.
+  title: FAQs for IFC Viewer in Microsoft Teams
+  description: Setup, files, permissions, and privacy details for the IFC Viewer in Teams.
 twitter:
-	card: summary
+  card: summary
 audience: users, admins
 product: microsoft-teams
 feature: ifc-viewer
