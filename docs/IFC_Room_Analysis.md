@@ -1,6 +1,9 @@
 ---
 uid: ifc-space-analytics
-title: IFC Space Analytics & Occupancy Dashboard
+title: IFC Space Analytics & Occupancy Dashboard (Power BI)
+description: Analyze IFC space and occupancy data in Power BI. Visualize room usage, area, and volume with an interactive 3D viewer and automated usage classification logic.
+keywords: IFC space analytics, IFC occupancy dashboard, Power BI IFC rooms, BIM space analysis, IfcSpace, room usage analytics, facility management BIM, IFC quantity takeoff
+canonical_url: https://docs.flinker.app/docs/IFC_Room_Analysis.html
 ---
 
 # IFC Space Analytics & Occupancy Dashboard

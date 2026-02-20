@@ -2,4 +2,7 @@ User-agent: *
 Disallow: /private/
 Disallow: /temp/
 Disallow: /drafts/
+Disallow: /_backup/
+Disallow: /node_modules/
+Disallow: /my-template/
 Sitemap: https://docs.flinker.app/sitemap.xml

@@ -8,7 +8,11 @@
           
         ],
         "exclude": [
-          "_site/**"
+          "_site/**",
+          "node_modules/**",
+          "_backup/**",
+          "my-template/**",
+          "README.md"
         ]
       }
     ],
@@ -16,7 +20,10 @@
       {
         "files": [
           "_media/**",
-          "favicon.ico"
+          "favicon.ico",
+          "robots.txt",
+          "llms.txt",
+          "llms-full.txt"
         ]
       }
     ],

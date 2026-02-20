@@ -1,7 +1,7 @@
 ---
 title: IFC Viewer for SharePoint
-description: IFC Viewer for SharePoint
-keywords: IFC Viewer, SharePoint,
+description: View IFC and BCF files directly in SharePoint with secure Microsoft 365 integration, faster BIM collaboration, and no extra software or login requirements.
+keywords: IFC Viewer for SharePoint, SharePoint IFC, BCF in SharePoint, BIM collaboration, Microsoft 365 BIM, IFC web part, secure IFC viewer
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-for-sharepoint.html
 ---
 

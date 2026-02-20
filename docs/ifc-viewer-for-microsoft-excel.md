@@ -1,7 +1,7 @@
 ---
 title: IFC Viewer for Microsoft Excel
-description: IFC Viewer for Microsoft Excel
-keywords: IFC Viewer, Microsoft Excel
+description: View and analyze IFC BIM models directly in Microsoft Excel with no extra software, synchronized selection, and seamless integration with Excel and Microsoft 365 workflows.
+keywords: IFC Viewer for Excel, Microsoft Excel IFC, BIM in Excel, IFC add-in, IFC model analysis, Excel BIM workflow, Microsoft 365 BIM
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-for-microsoft-excel.html
 ---
 

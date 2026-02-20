@@ -1,7 +1,7 @@
 ---
-title: Connect BCF to Microsoft List
-description: Sync BCF issues with Microsoft Lists in SharePoint/Teams while preserving full BCF data in your BCF file.
-keywords: BCF, Microsoft List, Microsoft Lists, SharePoint, Teams, BIM, IFC, issue tracking, integration, Flinker
+title: Connect BCF Issues to Microsoft Lists (SharePoint & Teams)
+description: Sync BCF issue metadata with Microsoft Lists in SharePoint and Teams while preserving full BCF data, including viewpoints, in your BCF file.
+keywords: BCF Microsoft Lists, SharePoint BCF integration, Teams BCF issues, BIM issue tracking, IFC BCF workflow, BCF sync, Microsoft Lists BIM
 canonical_url: https://docs.flinker.app/docs/save-bcf-to-sharepoint-lists.html
 ---
 

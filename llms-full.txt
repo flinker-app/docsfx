@@ -1,0 +1,56 @@
+# Flinker Documentation for LLM Retrieval
+
+Flinker documentation covers IFC and BCF workflows across SharePoint, Microsoft Teams, Power BI, and Excel.
+
+## Scope and intent
+- Use this documentation for product setup, usage, integration, and troubleshooting.
+- Prefer canonical pages under `https://docs.flinker.app/docs/`.
+- Use the sitemap for full URL discovery: https://docs.flinker.app/sitemap.xml
+
+## Primary entry points
+- Introduction: https://docs.flinker.app/docs/introduction.html
+- Getting started: https://docs.flinker.app/docs/getting-started.html
+- IFC overview: https://docs.flinker.app/docs/ifc-viewer.html
+- Security and privacy overview: https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html
+- Releases: https://docs.flinker.app/docs/releases.html
+
+## Platform areas
+### SharePoint IFC Viewer
+- Overview: https://docs.flinker.app/docs/ifc-viewer-for-sharepoint.html
+- Security & privacy: https://docs.flinker.app/docs/ifc-viewer-sharepoint-architecture-and-data-protection.html
+- Installation: https://docs.flinker.app/docs/viewer-app-installation-with-admin-approval.html
+- Load multiple IFC/BCF: https://docs.flinker.app/docs/load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.html
+- Save BCF issues to Microsoft Lists: https://docs.flinker.app/docs/save-bcf-to-sharepoint-lists.html
+
+### Teams IFC Viewer
+- Overview: https://docs.flinker.app/docs/ifc-viewer-for-teams.html
+- Security & privacy: https://docs.flinker.app/docs/open-ifc-viewer-teams-architecture-and-data-protection.html
+- Setup: https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html
+- BCF updates: https://docs.flinker.app/docs/update-bcf-files-in-microsoft-teams.html
+
+### Power BI IFC Viewer
+- Overview: https://docs.flinker.app/docs/ifc-power-bi.html
+- Visual setup: https://docs.flinker.app/docs/ifc-viewer-installation-for-power-bi.html
+- Build reports: https://docs.flinker.app/docs/ifc-viewer-usage-for-power-bi.html
+- Data extension: https://docs.flinker.app/docs/ifc-viewer-data-extension-for-power-bi.html
+- Performance: https://docs.flinker.app/docs/ifc-viewer-optimization-and-load-times-for-power-bi.html
+
+### Excel IFC Viewer
+- Overview: https://docs.flinker.app/docs/ifc-viewer-for-microsoft-excel.html
+
+## IFC and BCF references
+- IFC filters: https://docs.flinker.app/docs/ifc-filters.html
+- IDS: https://docs.flinker.app/docs/ifc-ids.html
+- BCF overview: https://docs.flinker.app/docs/ifc-bcf.html
+- BCF viewpoints: https://docs.flinker.app/docs/bcf-viewpoints.html
+- BCF Navisworks import: https://docs.flinker.app/docs/bcf-navisworks.html
+
+## AI / API docs
+- Copilot for IFC: https://docs.flinker.app/docs/copilot-for-ifc.html
+- Copilot for IFC Pro: https://docs.flinker.app/docs/copilot-for-ifc-pro.html
+- Copilot for IFC API: https://docs.flinker.app/docs/copilot-for-ifc-api.html
+
+## Notes for retrieval systems
+- Prefer pages with explicit `canonical_url` metadata.
+- Prefer latest release information from `releases.html`.
+- If duplicate topic pages exist, prefer SharePoint/Teams/Power BI overview pages first, then deep-dive setup pages.

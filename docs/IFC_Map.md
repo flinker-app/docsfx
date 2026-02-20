@@ -1,6 +1,9 @@
 ---
 uid: ifc-map-dashboard
-title: IFC to GIS Map Dashboard
+title: IFC to GIS Portfolio Map Dashboard (Power BI)
+description: Build a Power BI IFC-to-GIS portfolio dashboard. Load multiple IFC files, extract trusted geolocation metadata, apply fallback logic, and map projects.
+keywords: IFC to GIS, Power BI IFC dashboard, BIM portfolio map, IFC geolocation, IfcMapConversion, IfcSite, Azure Maps, multi-file IFC
+canonical_url: https://docs.flinker.app/docs/IFC_Map.html
 ---
 
 # IFC GIS & Portfolio Map Dashboard
@@ -95,13 +98,11 @@ You do not need to create separate queries for each file. Use the **Semicolon De
 **Example String:**
 ```text
 C:\Projects\Tower_Block_A.ifc; C:\Projects\Hospital_Zone_B.ifc; C:\Projects\Stadium_Roof.ifc
-```
 
 ### Supported File Sources
 | Source | Example Path |
 | :--- | :--- |
-| Local Files | `C:\Projects\Building.ifc` |
-| Network Shares | `\\Server\BIM\Project.ifc` |
+canonical_url: https://docs.flinker.app/docs/IFC_Map.html
 | SharePoint/OneDrive | `https://company.sharepoint.com/.../file.ifc` |
 
 
