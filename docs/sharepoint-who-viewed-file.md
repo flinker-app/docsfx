@@ -1,180 +1,155 @@
 ---
 title: How to See Who Viewed Files in SharePoint
-description: Learn how to track who accessed files in SharePoint using built-in file activity, site usage reports, Microsoft Purview audit logs, or custom tracking with Power Automate.
-keywords: SharePoint, File Activity, Microsoft 365, Purview, Audit Logs, Power Automate, Compliance, Document Tracking, View History, Flinker
+description: Learn how to see who viewed a file in SharePoint using SharePoint Viewers for quick checks and Microsoft Purview Audit for compliance-grade tracking.
+keywords: SharePoint, Viewers, File Activity, Microsoft 365, Purview, Audit Logs, Document Tracking, View History, Flinker
 canonical_url: https://docs.flinker.app/docs/sharepoint-who-viewed-file.html
 ---
 
 # How to See Who Viewed Files in SharePoint
 
-### Track document access across your SharePoint and Teams environments
+### Track document access in SharePoint and Teams
 
-Knowing who has viewed or accessed files helps you stay compliant, improve collaboration, and ensure accountability. SharePoint offers several built-in tools - plus deeper integrations with Microsoft 365 - to give you visibility into file activity.
+If you need a quick answer, use **SharePoint Viewers** on the file card.
 
-## Check File Activity in the Document Library
+If you need audit evidence for compliance or investigations, use **Microsoft Purview Audit**.
 
-For quick visibility on recent interactions:
+For permission governance (who can access content), see [Protect app features](~/docs/share-features.md).
 
-1. Go to your **SharePoint document library**
-2. Hover over the file and click **“...” (More options)**
-3. Select **Details**
-4. On the right panel, you’ll see:
-   - Who **opened**, **viewed**, or **edited** the file
-   - The **time and date** of each action
+Microsoft provides two primary options:
 
-> [!TIP]  
-> This panel only shows **recent** actions and doesn’t include the full view history.
+- **SharePoint Viewers** on the file card (user-facing)
+- **Microsoft Purview Audit** (admin/compliance-grade auditing)
 
-> [!NOTE]  
-> This feature currently works **only for Office file types** (Word, Excel, PowerPoint).  
-> **PDFs, images, ZIP files, CAD models, and other formats are not supported** - you won’t see a “View” count for these files.
+You can also use **file activity in a document library** for recent changes.
 
-### What to do instead for PDFs and other file types
+## Option 1: Enable and Use SharePoint Viewers
 
-If you want to track access to **all file types**, including PDFs:
+Microsoft’s official feature is called **SharePoint Viewers**. After activation, users can see viewers and view counts on the file card.
 
-- Use **Microsoft Purview Audit Logs** (see section below)  
-- Or set up a custom log using **Power Automate**
+### Enable SharePoint Viewers (site owner)
 
-These methods give you full transparency across **any file format**, not just Office documents.
+1. Open your SharePoint site.
+2. Select **Settings** (top-right) > **Site information**.
+3. Select **View all site settings**.
+4. Under **Site Actions**, select **Manage site features**.
+5. Find **SharePoint Viewers** and select **Activate**.
 
-## Why “View” Information Might Be Missing
+If you don’t see **Site information**, you don’t have permission to manage this setting.
 
-Even for `.docx` files, the **“1 View”** indicator might not appear in the details pane. Here are the most common reasons:
+### See who viewed a file/page
 
-### Missing Admin Settings or Permissions
+1. Go to the document or pages library.
+2. Point to a file/page to open the **file card**.
+3. Check **Viewers and Views** (names/photos and totals).
 
-| Reason | What to check |
-|--------|---------------|
-| Microsoft Graph or Delve is disabled | Go to **admin.microsoft.com > Org Settings > Microsoft Graph / Delve** and ensure Graph and activity insights are enabled |
-| The site setting “Let viewers see who viewed files” is disabled | See instructions below to enable it |
-| The user is not a licensed Microsoft 365 internal user | Guests and anonymous users are not counted |
-| The file hasn’t been opened by others yet | A file needs to be opened (not just created) to register a view |
-| You are using Classic View or a legacy library | Works only in the modern SharePoint experience |
+Microsoft states that when this feature is enabled, historical viewer data can appear, including views collected while the feature was previously off.
 
-## 🔧 How to Enable “Let viewers see who viewed files”
+The file card is only visible to people who already have access to the file, and content in the card is personalized to the viewer.
 
-> This setting controls whether SharePoint displays the **“View count”** and **recent viewers** in the details pane.
+## Option 2: Check File Activity in the Document Library
 
-### Step-by-step:
+Use this for quick, recent activity directly in a library.
 
-1. Go to [**SharePoint Admin Center**](https://admin.microsoft.com)  
-2. Navigate to **Sites > Active sites**
-3. Select the affected site (e.g. project or team site)
-4. In the site panel, open the tab **Settings**
-5. Scroll down to find:  
-   > **Let viewers see who viewed files**  
-   Turn this setting **ON**  
-6. Click **Save**
+1. Open the document library.
+2. Select **Open the details pane**.
+3. Select **More details** at the bottom of the pane to open **Activity**.
+4. Review the latest file/library activities.
 
-> [!NOTE]  
-> If the option is not visible, it’s likely because **Microsoft Graph or Delve is turned off tenant-wide**. You need to enable them first (see next section).
+Microsoft documents this activity as recent changes such as created/edited/deleted and says activity is available for the last **60 days**.
 
-## Ensure Microsoft Graph & Delve Are Enabled
+## Option 3: Use Site Usage for Trends
 
-To show viewer info, your Microsoft 365 tenant must allow **activity-based insights** from Microsoft Graph.
+Site usage reports are useful for trends (for example, popular content, unique viewers, and total visits), not for detailed compliance investigations. Microsoft notes individual names are shown in the library hover card when SharePoint Viewers is enabled, not on the Site Usage page.
 
-1. Go to [**Microsoft 365 Admin Center**](https://admin.microsoft.com)
-2. Navigate to **Settings > Org settings > Microsoft Graph or Delve**
-3. Ensure the following are enabled:
-   - ✅ “**Delve is On**”
-   - ✅ “**Show documents in Delve and other Graph-powered experiences**”
-   - ✅ “**Let users see file activity**” or similar privacy settings
+## Option 4: Use Microsoft Purview Audit for Full Auditing
 
-> These settings must be changed by a **Global Admin**.
+For exact forensic/compliance tracking (who, when, IP, operation), use **Microsoft Purview Audit**.
 
-## Advanced: Enable with PowerShell (for admins)
+### Official Prerequisites
 
-If you want to enable viewer info programmatically:
+- You need the **Audit Logs** or **View-Only Audit Logs** role.
+- Audit log search is on by default for Microsoft 365/Office 365 enterprise organizations.
+- Retention depends on licensing:
+  - **Audit (Standard):** typically 180 days
+  - **E5 / Audit Premium-related licensing:** up to 1 year by default for key workloads (including SharePoint)
 
-```powershell
-Set-SPOSite -Identity https://yourtenant.sharepoint.com/sites/yoursite -EnableForUserViewing $true
-```
+### How to search SharePoint file access events
 
-To check if it's already enabled:
+1. Open the [Microsoft Purview portal](https://purview.microsoft.com/).
+2. Open **Audit**.
+3. Configure search criteria:
+   - Date/time range (UTC)
+   - **Activities**
+   - **Users** (optional)
+   - **File, folder, or site** (file name/path/URL)
+   - **Workloads** (include SharePoint)
+4. Run search and inspect results for user, activity, IP, and item details.
 
-```powershell
-Get-SPOSite -Identity https://yourtenant.sharepoint.com/sites/yoursite | Select *view*
-```
+Recommended search approach for larger environments:
 
-Requires: SharePoint Online Management Shell and appropriate permissions.
+- Start with a narrow UTC date range and one site path.
+- Use **File, folder, or site** with a full or partial URL/path.
+- Add **Users** only if needed after the first result set.
+- Use export after filtering to keep reports focused.
 
-## Use Site Usage Reports for Trends
+Microsoft notes audit records for core services are typically available within 60–90 minutes, but this isn't guaranteed.
 
-To understand how your SharePoint content is used at a higher level:
+In Purview Audit search UI, the maximum date range per search is 180 days.
 
-1. Navigate to your **SharePoint site**
-2. Click the **⚙️ gear icon** > **Site contents**
-3. Open **Site usage**
-4. You’ll get insights into:
-   - **Page and file views**
-   - **Popular content**
-   - **Traffic patterns over time**
+## Optional: Custom Logging with Power Automate
 
-> [!NOTE]  
-> These reports are **aggregated** and do **not** include individual usernames.
+Power Automate can capture and store events based on available triggers/actions, but it is not a replacement for Purview audit in compliance scenarios.
 
-## Access Audit Logs via Microsoft Purview
+## Troubleshooting: Why Viewer Data May Be Missing
 
-Need to know exactly *who* opened or viewed a file - even if it's a PDF, image, or CAD model?  
-With **Microsoft Purview Audit Logs**, you can search activity across your SharePoint and Teams environment in just a few clicks.
+If names or counts don’t appear as expected:
 
-> [!IMPORTANT]  
-> This requires **Microsoft 365 E5** or **Purview Audit (Standard)**. You also need to have **audit logging enabled** (usually on by default for E5 tenants).
+1. **Confirm SharePoint Viewers is activated** on the site feature page.
+2. **Wait a few minutes** after activation before testing.
+3. **Validate permissions**: users without access won’t see file card insights.
+4. **Check where you’re looking**: individual names appear in the library hover card, not Site Usage.
+5. **For audit searches**, allow for ingestion delay (commonly 60–90 minutes) and verify role assignments.
 
-### Quick Workflow: How to Check Who Viewed a File
+## Known Limits
 
-1. Go to [**Microsoft Purview Compliance Center**](https://compliance.microsoft.com/)
-2. In the left menu, select **Audit**
-3. Click **Search** (or **Start recording user and admin activity**, if prompted)
-4. Under **Activities**, search for:
-   - `Viewed file`
-   - `Accessed file`
-   - `Downloaded file` (if relevant)
-5. Under **File, folder or site**, paste part of the file path or name (e.g. `Document2.pdf`)
-6. Set your **Time range** (e.g. Last 7 days)
-7. (Optional) Add specific users under **Users**
-8. Click **Search**
+- Site Usage is aggregate analytics and does not show per-viewer identity on the Site Usage page.
+- Site Usage can exclude the most recent 60 minutes of activity.
+- Purview audit record availability is not guaranteed at an exact time.
+- If a third-party tool renders PDFs from SPO libraries, those views may not be recorded in file view statistics or reflected in audit log file view stats.
 
-You’ll now see:
-- Who accessed the file
-- When and how (viewed, downloaded, etc.)
-- The device and IP address (if needed)
+## FAQ
 
-> [!TIP]  
-> You can export the results as a `.csv` file and even automate reporting if needed.
+### Why don’t I see viewer names on a file?
 
-### Use Case Example
+Check whether **SharePoint Viewers** is activated for the site, then wait a few minutes and test again from the library hover card.
 
-Want to check if external partners have opened a shared PDF?
+### Do PDF views always appear in SharePoint usage or audit data?
 
-Just search by file name and set a date range. You’ll instantly know if, when, and by whom it was accessed - **even if the file type is not an Office document**.
+Not always. Microsoft notes that if a third-party tool renders PDFs from SharePoint Online libraries, those views may not be recorded in file view statistics and may not be reflected in audit log file view stats.
 
-> [!NOTE]  
-> If you don’t see the Audit menu, contact your IT admin to ensure you have the correct role (e.g. **Compliance Management** or **Audit Reader**).
+### What do I need to search who accessed a file in Purview?
 
-## Build Custom Logs with Power Automate
+You need the **Audit Logs** or **View-Only Audit Logs** role and enough retention coverage for your selected date range.
 
-Want a lightweight, no-code solution?
+### Which option should I use first?
 
-- Use **Power Automate** to log every file open or edit in a SharePoint List
-- Or create a **Read Confirmation Flow**, where users confirm when they’ve accessed a file
+Use **SharePoint Viewers** for a quick check. Use **Microsoft Purview Audit** when you need traceable audit evidence.
 
-This gives you full control - without requiring premium Microsoft 365 plans.
+## Next Steps
 
-> [!NOTE]  
-> This method is flexible but not automatic for views. For PDF tracking, you may need to trigger flows based on file downloads or specific user interactions.
+- [Protect app features](~/docs/share-features.md)
+- [Protect app installation](~/docs/installation.md)
 
-## Summary
+## Microsoft Official References
 
-| Method                      | Supports All File Types | Shows Who Viewed | License Required      | Best For                      |
-|----------------------------|--------------------------|------------------|------------------------|-------------------------------|
-| File Details Pane          | ✗ (Office only)         | Limited          | ✗                     | Quick checks for docx/xlsx    |
-| Site Usage Reports         | ✓                      | ✗               | ✗                     | General usage trends          |
-| Microsoft Purview Logs     | ✓                      | ✓               | Microsoft 365 E5       | Full audit trail              |
-| Power Automate Logging     | ✓ (customizable)       | ✓ (custom)      | ✗                     | Custom tracking               |
+Last verified: 2026-02-20
+
+- [Allow people to see who views their files or pages](https://support.microsoft.com/en-us/office/allow-people-to-see-who-views-their-files-or-pages-ee26dde0-c30e-4eca-b1c3-38922c450967)
+- [See file insights before you open a file](https://support.microsoft.com/en-us/office/see-file-insights-before-you-open-a-file-87a23bbc-a516-42e2-a7b6-0ecb8259e026)
+- [File activity in a document library](https://support.microsoft.com/en-us/office/file-activity-in-a-document-library-6105ecda-1dd0-4f6f-9542-102bf5c0ffe0)
+- [View usage data for your SharePoint site](https://support.microsoft.com/en-us/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e)
+- [Search the audit log (Microsoft Purview)](https://learn.microsoft.com/en-us/purview/audit-search)
 
 ### Need Help?
 
-> [!div class="nextstepaction"]
-> [Talk to us](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
+[Talk to us](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
