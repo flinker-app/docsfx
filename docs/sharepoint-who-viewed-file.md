@@ -2,7 +2,7 @@
 title: How to See Who Viewed Files in SharePoint
 description: Learn how to track who accessed files in SharePoint using built-in file activity, site usage reports, Microsoft Purview audit logs, or custom tracking with Power Automate.
 keywords: SharePoint, File Activity, Microsoft 365, Purview, Audit Logs, Power Automate, Compliance, Document Tracking, View History, Flinker
-canonical_url: https://docs.flinker.app/docs/sharepoint-view-tracking.html
+canonical_url: https://docs.flinker.app/docs/sharepoint-who-viewed-file.html
 ---
 
 # How to See Who Viewed Files in SharePoint

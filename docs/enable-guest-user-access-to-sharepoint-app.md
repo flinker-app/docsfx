@@ -2,7 +2,7 @@
 title: Grant guest users access to individual SharePoint apps
 description: Tutorial to grant external guest users minimal, read-only access to individual apps in the SharePoint app.
 keywords: SharePoint, SPFx, SharePoint app, Guest Users, Permissions, External Access
-canonical_url: https://docs.flinker.app/docs/guest-access-sharepoint-app.html
+canonical_url: https://docs.flinker.app/docs/enable-guest-user-access-to-sharepoint-app.html
 ---
 
 # Grant guest users access to individual apps in SharePoint

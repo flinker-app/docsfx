@@ -2,7 +2,7 @@
 title: Loading and Optimisation of IFC Data in Power BI
 description: Learn what happens during IFC optimisation and refresh in Power BI, how long it typically takes for small and large projects, and how to optimise performance and schedule background refreshes.
 keywords: IFC, Power BI, IFC query, optimisation, load times, refresh, scheduled refresh, performance, BIM, ACC comparison
-canonical_url: https://docs.flinker.app/docs/ifc-loading-and-optimisation-in-power-bi.html
+canonical_url: https://docs.flinker.app/docs/ifc-viewer-optimization-and-load-times-for-power-bi.html
 ---
 
 

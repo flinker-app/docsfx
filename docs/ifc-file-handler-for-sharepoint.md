@@ -2,7 +2,7 @@
 title: Install the IFC Viewer File‑Handler for SharePoint
 description: How to install the IFC Viewer File‑Handler application using Azure AD’s “organizations” endpoint.  
 keywords: IFC Viewer File‑Handler, Flinker, Azure AD, Admin Consent, Tenant‑wide, organizations endpoint  
-canonical_url: https://docs.flinker.app/docs/install-ifc-file-handler-for-sharepoint.html
+canonical_url: https://docs.flinker.app/docs/ifc-file-handler-for-sharepoint.html
 ---
 
 # Install the IFC Viewer File‑Handler for SharePoint
