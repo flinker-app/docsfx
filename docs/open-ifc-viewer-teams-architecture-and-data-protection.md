@@ -37,9 +37,11 @@ tags:
   - sharepoint
   - onedrive
   - entra-id
-og:title: Open IFC Viewer for Microsoft Teams - Architecture and Data Protection
-og:description: Tenant-only storage, client-side rendering, and GDPR-aligned metadata for the Open IFC Viewer in Teams.
-twitter:card: summary_large_image
+og:
+  title: Open IFC Viewer for Microsoft Teams - Architecture and Data Protection
+  description: Tenant-only storage, client-side rendering, and GDPR-aligned metadata for the Open IFC Viewer in Teams.
+twitter:
+  card: summary_large_image
 audience: it-admins, security, compliance, architects
 product: microsoft-teams
 feature: open-ifc-viewer

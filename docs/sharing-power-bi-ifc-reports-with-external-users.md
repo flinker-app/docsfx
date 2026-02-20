@@ -2,7 +2,7 @@
 title: Share Power BI IFC Reports with External Users (Secure Options)
 description: Learn secure, supported ways to share Power BI reports that use the Flinker IFC Viewer for Power BI with external stakeholders—covering Entra B2B guest access, SharePoint/Teams embedding, Power BI Embedded, and when Publish to web is appropriate.
 slug: sharing-power-bi-ifc-reports-with-external-users
-summary: Secure sharing models for Power BI IFC reports: Entra B2B guests, SharePoint/Teams embedding, Power BI Embedded (app-owns-data), and Publish to web for demo-only.
+summary: "Secure sharing models for Power BI IFC reports: Entra B2B guests, SharePoint/Teams embedding, Power BI Embedded (app-owns-data), and Publish to web for demo-only."
 keywords:
   - Power BI
   - IFC
@@ -33,7 +33,7 @@ og:
 twitter:
   card: summary
   title: Share Power BI IFC Reports with External Users (Secure Options)
-  description: Secure sharing models for Power BI IFC reports: B2B guests, SharePoint/Teams, Embedded, and demo-only Publish to web.
+  description: "Secure sharing models for Power BI IFC reports: B2B guests, SharePoint/Teams, Embedded, and demo-only Publish to web."
 ms.date: 2025-12-04
 author: Flinker Team
 ---

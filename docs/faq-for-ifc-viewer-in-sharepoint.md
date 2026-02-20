@@ -7,6 +7,7 @@ canonical_url: https://docs.flinker.app/docs/faq-for-ifc-viewer-in-sharepoint.ht
 lang: en
 robots: index,follow
 keywords:
+
 	- SharePoint Online
 	- SPFx
 	- WebPart
@@ -27,9 +28,11 @@ tags:
 	- faq
 	- privacy
 	- metadata
-og:title: FAQs for IFC Viewer in SharePoint
-og:description: SPFx hosting in M365 CDN, Azure CDN viewer module, and minimal metadata—no IFC/BCF content sent.
-twitter:card: summary
+og:
+	title: FAQs for IFC Viewer in SharePoint
+	description: SPFx hosting in M365 CDN, Azure CDN viewer module, and minimal metadata—no IFC/BCF content sent.
+twitter:
+	card: summary
 audience: users, admins, it
 product: sharepoint-online
 feature: ifc-viewer

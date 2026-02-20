@@ -27,9 +27,11 @@ tags:
 	- setup
 	- permissions
 	- privacy
-og:title: FAQs for IFC Viewer in Microsoft Teams
-og:description: Setup, files, permissions, and privacy details for the IFC Viewer in Teams.
-twitter:card: summary
+og:
+	title: FAQs for IFC Viewer in Microsoft Teams
+	description: Setup, files, permissions, and privacy details for the IFC Viewer in Teams.
+twitter:
+	card: summary
 audience: users, admins
 product: microsoft-teams
 feature: ifc-viewer

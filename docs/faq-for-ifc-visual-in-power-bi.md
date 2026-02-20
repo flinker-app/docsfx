@@ -7,25 +7,25 @@ canonical_url: https://docs.flinker.app/docs/faq-for-ifc-visual-in-power-bi.html
 lang: en
 robots: index,follow
 keywords:
-	- IFC Visual
-	- Power BI
-	- custom visual
-	- licensing
-	- sharing reports
-	- embedding
-	- Publish to web
-	- Azure AD
-	- Entra ID
-	- B2B guests
-	- Premium capacity
-	- Power BI Embedded
+  - IFC Visual
+  - Power BI
+  - custom visual
+  - licensing
+  - sharing reports
+  - embedding
+  - Publish to web
+  - Azure AD
+  - Entra ID
+  - B2B guests
+  - Premium capacity
+  - Power BI Embedded
 tags:
-	- power-bi
-	- ifc
-	- visual
-	- licensing
-	- sharing
-	- embedding
+  - power-bi
+  - ifc
+  - visual
+  - licensing
+  - sharing
+  - embedding
 audience: users, admins, isv
 product: power-bi
 feature: ifc-visual

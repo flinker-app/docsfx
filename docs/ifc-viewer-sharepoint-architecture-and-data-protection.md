@@ -33,9 +33,11 @@ tags:
   - gdpr
   - m365-cdn
   - entra-id
-og:title: IFC Viewer for SharePoint - Architecture and Data Protection
-og:description: Tenant-only storage, client-side rendering, and GDPR-aligned metadata for the IFC Viewer SPFx WebPart.
-twitter:card: summary_large_image
+og:
+  title: IFC Viewer for SharePoint - Architecture and Data Protection
+  description: Tenant-only storage, client-side rendering, and GDPR-aligned metadata for the IFC Viewer SPFx WebPart.
+twitter:
+  card: summary_large_image
 audience: it-admins, security, compliance, architects
 product: sharepoint-online
 feature: ifc-viewer
