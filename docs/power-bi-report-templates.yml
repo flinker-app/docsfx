@@ -23,3 +23,7 @@ items:
     thumbnail: /_media/IFC_Map.png
     description: Visualize multi-project portfolios on an interactive map using extracted IFC geospatial metadata and hybrid geocoding.
     href: IFC_Map.html
+  - name: IFC & BCF Issue Tracker Dashboard
+    thumbnail: /_media/IFC_Bi_BCF.png
+    description: Parse BCF files natively in Power Query and track issues alongside the IFC model with status visualization and comment threading.
+    href: IFC_BCF_Bi.html 

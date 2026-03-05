@@ -103,6 +103,8 @@
           href: IFC_4DPlanning.md
         - name: IFC to GIS Map Dashboard
           href: IFC_Map.md  
+        - name: IFC & BCF Issue Tracker Dashboard
+          href: IFC_BCF_Bi.md  
 - name: Excel IFC Viewer
   href: ifc-viewer-for-microsoft-excel.md
 - name: Project IFC Viewer
