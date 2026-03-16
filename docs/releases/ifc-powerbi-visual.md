@@ -1,4 +1,15 @@
- ### 3.4.0.0 - 2026-01-16
+---
+title: IFC Power BI Visual Release Notes
+description: Changelog for the Flinker IFC Power BI Visual with updates for loading, templates, and feature improvements.
+keywords: IFC visual release notes, Power BI visual changelog, Flinker IFC updates
+canonical_url: https://docs.flinker.app/docs/releases/ifc-powerbi-visual.html
+---
+
+ ### 3.5.0.0 - 2026-02-10
+
+- Added support to load full properties with mez connector
+
+### 3.4.0.0 - 2026-01-16
 
 * Updated report template with multi-ifc loading, attributes parsing and coloring
 

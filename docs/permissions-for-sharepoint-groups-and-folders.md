@@ -1,3 +1,10 @@
+---
+title: Define Custom Permissions for SharePoint Groups and Folders
+description: Configure custom SharePoint permissions for groups, libraries, lists, and folders using the Protect app workflow.
+keywords: SharePoint custom permissions, group permissions, folder permissions, Protect app, Microsoft 365 access control
+canonical_url: https://docs.flinker.app/docs/permissions-for-sharepoint-groups-and-folders.html
+---
+
 # Define custom Permissions for Groups and Folders
 
 ## Define custom permissions 

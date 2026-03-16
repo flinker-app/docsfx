@@ -1,3 +1,10 @@
+---
+title: Flinker Release Notes
+description: Latest release notes for IFC Viewer products across base viewer, SharePoint, Teams, Power BI, and related apps.
+keywords: Flinker releases, IFC Viewer changelog, SharePoint Teams Power BI updates, release notes
+canonical_url: https://docs.flinker.app/docs/releases.html
+---
+
 # Releases
 
 ## Base IFC Viewer

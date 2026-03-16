@@ -1,3 +1,10 @@
+---
+title: IFC Viewer Architecture and Data Protection
+description: Understand the architecture and privacy model of Flinker IFC Viewer apps for SharePoint, Teams, Power BI, and Excel in Microsoft 365.
+keywords: IFC Viewer security, data protection, Microsoft 365 BIM, SharePoint Teams Power BI Excel, privacy architecture
+canonical_url: https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html
+---
+
 # Architecture and Data Protection
 
 The Flinker IFC Viewer Apps for Microsoft 365 (SharePoint, Teams, Power BI, Excel) are fully integrated into your Microsoft 365 environment and operate exclusively within your own tenant.

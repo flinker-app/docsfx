@@ -1,3 +1,10 @@
+---
+title: Invite Users or Add Members to a SharePoint Site
+description: Learn how to invite users and manage Microsoft 365 group membership or SharePoint-only site access.
+keywords: invite users SharePoint, add members Microsoft 365 group, SharePoint access, site permissions
+canonical_url: https://docs.flinker.app/docs/tutorial-to-invite-users-or-add-members-to-sharepoint-site.html
+---
+
 # Invite users to the SharePoint Site or add members to the team or group
 
 Before inviting new members, it's important to understand the difference between:

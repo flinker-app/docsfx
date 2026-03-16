@@ -2,7 +2,7 @@
 title: Share Power BI IFC Reports with External Users (Secure Options)
 description: Learn secure, supported ways to share Power BI reports that use the Flinker IFC Viewer for Power BI with external stakeholders—covering Entra B2B guest access, SharePoint/Teams embedding, Power BI Embedded, and when Publish to web is appropriate.
 slug: sharing-power-bi-ifc-reports-with-external-users
-summary: Secure sharing models for Power BI IFC reports: Entra B2B guests, SharePoint/Teams embedding, Power BI Embedded (app-owns-data), and Publish to web for demo-only.
+summary: "Secure sharing models for Power BI IFC reports: Entra B2B guests, SharePoint/Teams embedding, Power BI Embedded (app-owns-data), and Publish to web for demo-only."
 keywords:
   - Power BI
   - IFC
@@ -25,7 +25,7 @@ tags:
   - sharing
   - security
   - embedded
-canonical_url: https://flinker.app/docs/sharing-power-bi-ifc-reports-with-external-users
+canonical_url: https://docs.flinker.app/docs/sharing-power-bi-ifc-reports-with-external-users.html
 og:
   title: Share Power BI IFC Reports with External Users (Secure Options)
   description: Secure options for sharing Power BI reports with IFC models using the Flinker IFC Viewer—B2B guests, SharePoint/Teams, Embedded, and demo-only Publish to web.
@@ -33,7 +33,7 @@ og:
 twitter:
   card: summary
   title: Share Power BI IFC Reports with External Users (Secure Options)
-  description: Secure sharing models for Power BI IFC reports: B2B guests, SharePoint/Teams, Embedded, and demo-only Publish to web.
+  description: "Secure sharing models for Power BI IFC reports: B2B guests, SharePoint/Teams, Embedded, and demo-only Publish to web."
 ms.date: 2025-12-04
 author: Flinker Team
 ---
@@ -44,6 +44,21 @@ author: Flinker Team
 This article summarizes the supported ways to share Power BI reports that use the **Flinker IFC Viewer for Power BI** with external viewers (clients, partners, contractors).
 
 All options rely on standard **Power BI** and **Microsoft Entra ID (Azure AD)** security. The Flinker BIM Apps for Microsoft 365 never bypass these mechanisms, and all project data remains in your Microsoft 365 tenant.
+
+## How do I share IFC reports?
+
+Match your audience to the right sharing path and plan. Everything stays in your Microsoft 365 tenant.
+
+| If you need to... | Best sharing option | Power BI licensing | Flinker plan |
+|------------------|---------------------|-------------------|--------------|
+| Build & test in Desktop (no sharing) | Power BI Desktop only | Editor: Power BI Desktop | Starter (Free) or Pro |
+| Share with internal viewers | Publish to workspace/app (tenant) | Standard Power BI Service licensing | Pro |
+| Share with named external users | Entra B2B guest sharing (report/app) | Publisher: Pro/PPU; Guests: Pro/PPU or Premium/Fabric capacity | Pro |
+| Portal-like experience in SharePoint/Teams | Embed in SharePoint/Teams + guests | Matches workspace/app licensing | Pro |
+| Branded client portal, many external viewers | Power BI Embedded (app-owns-data) | Capacity-based (Embedded/Fabric); no per-viewer licenses | Enterprise |
+| Public demo or marketing sample | Publish to web (public/unauthenticated) | Publish-to-web rules; demo data only | Any plan; demo content only |
+
+> **Note:** Embedded is an add-on; pricing is capacity-based via Power BI Embedded/Fabric.
 
 ## Scope and constraints
 

@@ -2,7 +2,7 @@
 title: Upgrade IFC Viewer to the Latest Version
 description: Learn how to upgrade your IFC Viewer to the latest version to enjoy enhanced features, security improvements, and performance boosts.
 keywords: IFC Viewer, upgrade, SharePoint, App Store, App Catalog, latest version
-canonical_url: https://docs.flinker.app/docs/upgrade-sharepoint-ifc-viewer.html
+canonical_url: https://docs.flinker.app/docs/upgrade-sharepoint-ifc-viewer-app.html
 ---
 
 # Upgrade IFC Viewer to the Latest Version

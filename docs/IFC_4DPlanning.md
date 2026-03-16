@@ -1,6 +1,9 @@
 ---
 uid: IFC_4DPlanning
-title: 4D Construction Dashboard
+title: IFC 4D Construction Planning Dashboard (Power BI)
+description: Build an IFC 4D construction planning dashboard in Power BI by linking BIM models with schedule data, tracking progress, delays, and task status over time.
+keywords: IFC 4D planning, 4D construction dashboard, Power BI 4D, BIM schedule dashboard, construction progress tracking, IFC timeline, digital twin construction
+canonical_url: https://docs.flinker.app/docs/IFC_4DPlanning.html
 ---
 
 # 4D Construction Dashboard
