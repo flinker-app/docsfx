@@ -113,6 +113,8 @@
   items:
     - name: Features
       href: share-features.md
+    - name: Use Protect app
+      href: use-protect-app.md
     - name: Installation for Admins
       href: installation.md
     - name: Upgrade to latest version
