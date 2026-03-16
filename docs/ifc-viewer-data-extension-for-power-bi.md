@@ -90,9 +90,13 @@ After configuring the parameters and privacy settings:
 2. Go to **Home** > **Get Data** > **More** in Power BI Desktop.
 3. Search for "IFC" in the Get Data dialog.
 4. Select **IFC Viewer (Extended)** from the results and click **Connect**.
-5. When prompted, enter the IFC file URL or SharePoint folder path you want to load. The connector supports single files and folders.
-6. If accessing SharePoint content, sign in with your Microsoft 365 organizational account when prompted.
-7. Choose **Transform Data** to modify the query or **Load** to import directly.
+5. In the **IFC file connector** dialog, go to **Feed Key**, paste your license key into **Account key**, and click **Connect**.
+
+   ![Insert IFC connector license key](/_media/insert-power-bi-ifc-connector-key.png)
+
+6. When prompted, enter the IFC file URL or SharePoint folder path you want to load. The connector supports single files and folders.
+7. If accessing SharePoint content, sign in with your Microsoft 365 organizational account when prompted.
+8. Choose **Transform Data** to modify the query or **Load** to import directly.
 
 After loading, the **IFC** table includes additional columns for:
 
@@ -111,4 +115,3 @@ You can reference these columns directly in visuals, build relationships to mast
 
 - Your organization prefers local connectors and restricts external web endpoints.
 - You need offline development or environments with limited outbound access.
-

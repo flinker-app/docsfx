@@ -1,0 +1,29 @@
+### YamlMime:Dashboard
+---
+title: Report Templates for the IFC Viewer Visual in Power BI
+description: Explore practical Report Templates for integrating IFC Viewer Visual with Power BI to enhance BIM workflows, project management, and data-driven decision-making.
+documentType: dashboard
+_disableAffix: true
+_disableNextArticle: true
+expanded: true
+items:
+  - name: Multi-file Loading & Coloring Sample
+    thumbnail: /_media/multiple-file-loading-power-bi-report.png
+    description: Load multiple IFC files via Folder/Subfolder loading and explore advanced coloring examples.
+    href: IFC_Multi_File_Loading.html
+  - name: IFC Space Analytics & Occupancy Dashboard
+    thumbnail: /_media/space-analysis-power-bi-report.png
+    description: Analyze room usage, occupancy rates, and space utilization with this comprehensive dashboard template.
+    href: IFC_Room_Analysis.html
+  - name: 4D Construction Dashboard
+    thumbnail: /_media/4d-construction-thumb.png
+    description: Visualize construction timelines (4D), validate schedules, and track costs with a digital twin interface.
+    href: IFC_4DPlanning.html
+  - name: IFC to GIS Map Dashboard
+    thumbnail: /_media/IFC_Map.png
+    description: Visualize multi-project portfolios on an interactive map using extracted IFC geospatial metadata and hybrid geocoding.
+    href: IFC_Map.html
+  - name: IFC & BCF Issue Tracker Dashboard
+    thumbnail: /_media/IFC_Bi_BCF.png
+    description: Parse BCF files natively in Power Query and track issues alongside the IFC model with status visualization and comment threading.
+    href: IFC_BCF_Bi.html 

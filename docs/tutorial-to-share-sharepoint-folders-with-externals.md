@@ -1,3 +1,10 @@
+---
+title: Share SharePoint Folders with External Users
+description: Step-by-step guide to share specific SharePoint folders with external users using SharePoint or Microsoft 365 security groups.
+keywords: share SharePoint folder external users, SharePoint groups, Microsoft 365 security groups, external collaboration
+canonical_url: https://docs.flinker.app/docs/tutorial-to-share-sharepoint-folders-with-externals.html
+---
+
 # Sharing a specific SharePoint folder with external users
 
 This guide shows you how to share a dedicated SharePoint folder with external users using groups.

@@ -29,9 +29,9 @@ Example inline code: Use `Flinker.Bcf.SyncService` to sync BCF issues.
 ## 3. Links & xrefs
 
 Link examples:
-- See [BCF sync](~/articles/bcf-sync.md).
-- See [Sync service](xref:Flinker.Bcf.SyncService).
-- `<xref:Flinker.Bcf.SyncService>`
+- See [BCF sync](docs/ifc-lists.md).
+- Example xref syntax: `xref:your.uid.here`
+- Example xref tag: ``<xref:your.uid.here>``
 
 - Prefer `xref:` links for anything that has a UID.
 
@@ -91,7 +91,7 @@ Alert examples:
 - Always provide meaningful alt text.
 
 Image example:
-![BCF issue list in Teams](../images/bcf-issues-teams.png)
+![BCF issue list in Teams](/_media/bcf-issues-teams.png)
 
 ---
 
@@ -101,7 +101,7 @@ Image example:
 - DocFX uses lower-case `include`:
 
 Include example:
-[!include[bcf-warning](../includes/bcf-warning.md)]
+`[!include[bcf-warning](../includes/bcf-warning.md)]`
 
 > Note: Microsoft Learn uses `INCLUDE` in upper case, but the idea is the same.
 

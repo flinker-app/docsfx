@@ -1,3 +1,10 @@
+---
+title: Base IFC Viewer Release Notes
+description: Release history for the base Flinker IFC Viewer, covering model loading, BCF, UI, and performance enhancements.
+keywords: IFC Viewer release notes, base viewer changelog, Flinker IFC updates
+canonical_url: https://docs.flinker.app/docs/releases/ifc-viewer.html
+---
+
  ### 3.1.0 (3.1.0) - 2025-11-26
 
 * Improving the eye-icon button for model visibility and adding toolbar badges

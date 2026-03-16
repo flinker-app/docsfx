@@ -267,6 +267,20 @@ footer {
   text-decoration: none;
 }
 
+.vertical-card:hover {
+  text-decoration: none;
+}
+
+.vertical-card:hover .card-link,
+.vertical-card:focus-visible .card-link {
+  text-decoration: underline;
+}
+
+.vertical-card:focus-visible {
+  outline: 2px solid var(--theme-control-border);
+  outline-offset: 2px;
+}
+
 .vertical-card img,
 .horizontal-card img {
   width: 100%;

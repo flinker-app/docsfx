@@ -40,7 +40,7 @@ All within your existing Microsoft 365 environment. No new software required.
       <a href="/docs/ifc-viewer.html" class="card-link">Online IFC Viewer</a>
       <a href="/docs/ifc-bcf.html" class="card-link">BCF Topics</a>
       <a href="/docs/faq-ifc-viewer.html" class="card-link">Clipping Tool</a>
-      <a href="/docs/ai-search.html" class="card-link">AI Search</a>
+      <a href="/docs/copilot-for-ifc.html" class="card-link">Copilot for IFC</a>
       <a href="/docs/ifc-power-bi.html" class="card-link">Power BI Visual</a>
       <a href="/docs/share-features.html" class="card-link">SharePoint Protect</a>
     </div>
@@ -50,7 +50,7 @@ All within your existing Microsoft 365 environment. No new software required.
       <h3 class="card-title">Frequently Asked Questions</h3>
       <a href="/docs/faq-ifc-viewer.html" class="card-link">IFC Viewer FAQ's</a>
       <a href="/docs/ifc-bcf.html" class="card-link">BCF Integration FAQ's</a>
-      <a href="/docs/ai-search.html" class="card-link">AI Search FAQ's</a>
+      <a href="/docs/copilot-for-ifc.html#faqs" class="card-link">Copilot for IFC FAQ's</a>
       <a href="/docs/faq-share-app-for-microsoft-sharepoint.html" class="card-link">Protect App FAQ's</a>
     </div>
   </div>  

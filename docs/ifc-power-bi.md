@@ -38,35 +38,26 @@ Just copy-paste links from SharePoint, databases, or cloud storage, and see your
 - Instant 3D visualization
 - Compatible with Power BI-supported sources
 
+<video width="100%" height="auto" autoplay><source type="video/mp4" src="/_media/parse-ifc-files-directly-in-power-bi.mp4">Your browser does not support the video tag.</video>
+
 ### 2. Interactive Data
 - The IFC Viewer Visual dynamically links **IFC attributes** to Power BI dashboards for real-time analysis.
-  
-  <video width="100%" height="auto" controls>
-  <source src="/_media/select-any-filters-in-ifc-power-bi-microsoft-app.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 - Select any **IFC element** within the 3D model to **instantly view** its properties and metadata in Power BI.
-  
-  ![Select any element](/_media/select-any-element-of-ifc-model-to-view-its-data-on-the-spot.png)
-
 - Interactive **hover-over analytics** that display key attributes instantly.
-  
-  ![Hover over filters](/_media/hover-over-custom-filters-and-select-any-ifc-elements-such-as-ifc-types.png)
+
+<video width="100%" height="auto" autoplay><source type="video/mp4" src="/_media/create-custom-ifc-viewer-in-power-bi.mp4">Your browser does not support the video tag.</video>
 
 ### 3. Custom Filtering & Selection
 - **Apply custom filters** to isolate specific **IFC types** (e.g., walls, beams, doors, railings, etc.).
 - Click on **filtered IFC components** to highlight corresponding elements in the 3D viewer.
-  
-  ![Click on filters](/_media/click-on-your-costum-filters-to-view-the-items-in-ifc-viewer-instantly.png)
 - Intuitive heatmaps and treemaps categorize elements based on type and attributes.
 
 ### 4. Save filters and views
 
 - With Power BI’s bookmark feature – whether personal or report-level – you can pin your favorite views and switch in seconds.
   
-  <video width="100%" height="auto" controls>
-  <source src="/_media/bookmarks-in-power-bi-ifc-viewer-visual.mp4" type="video/mp4">
+<video width="100%" height="auto" autoplay>
+<source src="/_media/bookmarks-in-power-bi-ifc-viewer-visual.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -111,29 +102,6 @@ The **IFC Viewer Power BI** Microsoft app is ideal for:
 4. **Analyze & interact** with the model data using Power BI’s visualization tools.
 5. **Export & share insights** via Microsoft Teams, SharePoint, or Excel.
 
-![Power BI Integration](/_media/ifc-viewer-app-microsoft-power-bi-in-microsoft-appsource-store.png)
-
-## FAQs
-
-### 1. What file formats does the IFC Viewer support?
-The IFC Viewer supports **IFC2X3** and **IFC4** formats, ensuring compatibility with most BIM applications.
-
-### 2. Can I use this app with SharePoint or Microsoft Teams?
-Yes! The app allows you to **export and sync IFC data** with SharePoint, Teams, and Excel for seamless collaboration.
-
-### 3. How does filtering work in the IFC Viewer?
-You can apply **custom filters** to isolate IFC elements based on type, attributes, or categories. Clicking on a filtered element will highlight the corresponding component in the 3D model.
-
-### 4. Do I need additional software to use IFC Viewer in Power BI?
-No, the IFC Viewer runs **entirely within Power BI** and does not require additional software installations.
-
-### 5. How does the app handle large-scale IFC models?
-The IFC Viewer is **optimized for performance**, ensuring smooth interaction and visualization, even with **complex, large-scale models**.
-
-### 6. What does self-hosted Microsoft app mean?
-The IFC Power BI app uses your own SharePoint as the only server. Your Microsoft 365 is hosting the app without external connection. You have choosen a very secure software tool!
-
 ## Get Started Today!
 > [!div class="nextstepaction"]
 > [Get the sample Power BI report](https://appsource.microsoft.com/en-us/product/power-bi-visuals/flinkergmbh1644589155747.ifc-viewer?src=docs&mktcmpid=ifc_power_pi)
-

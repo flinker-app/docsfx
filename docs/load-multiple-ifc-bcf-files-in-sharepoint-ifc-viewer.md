@@ -1,3 +1,10 @@
+---
+title: Load Multiple IFC or BCF Files in SharePoint IFC Viewer
+description: Step-by-step guide to load multiple IFC and BCF files in the SharePoint IFC Viewer using file links or folder paths.
+keywords: load multiple IFC files, load BCF files, SharePoint IFC Viewer setup, BIM file links, SharePoint folder path IFC
+canonical_url: https://docs.flinker.app/docs/load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.html
+---
+
 
 # How to Load Multiple IFC or BCF Files into the SharePoint IFC Viewer
 

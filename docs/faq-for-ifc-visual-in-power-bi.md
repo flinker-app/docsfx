@@ -7,25 +7,25 @@ canonical_url: https://docs.flinker.app/docs/faq-for-ifc-visual-in-power-bi.html
 lang: en
 robots: index,follow
 keywords:
-	- IFC Visual
-	- Power BI
-	- custom visual
-	- licensing
-	- sharing reports
-	- embedding
-	- Publish to web
-	- Azure AD
-	- Entra ID
-	- B2B guests
-	- Premium capacity
-	- Power BI Embedded
+  - IFC Visual
+  - Power BI
+  - custom visual
+  - licensing
+  - sharing reports
+  - embedding
+  - Publish to web
+  - Azure AD
+  - Entra ID
+  - B2B guests
+  - Premium capacity
+  - Power BI Embedded
 tags:
-	- power-bi
-	- ifc
-	- visual
-	- licensing
-	- sharing
-	- embedding
+  - power-bi
+  - ifc
+  - visual
+  - licensing
+  - sharing
+  - embedding
 audience: users, admins, isv
 product: power-bi
 feature: ifc-visual
@@ -33,6 +33,41 @@ ms.date: 2025-12-04
 ---
 
 # FAQs - IFC Visual - Power BI
+
+## IFC Viewer basics
+
+### What file formats does the IFC Viewer support?
+
+The IFC Viewer supports **IFC2X3** and **IFC4** formats, ensuring compatibility with most BIM applications.
+
+### Can I combine multiple data sources in one dashboard?
+Yes, Power BI allows you to connect and visualize data from IFC models alongside schedules, costs, sensors, and more.
+
+### Is coding required to use the IFC Viewer Visual in Power BI?
+No coding is needed. The integration is designed for business users and BIM professionals.
+
+### Can I add the IFC Viewer Visual to existing Power BI reports?
+Yes, you can add the IFC Viewer Visual to any existing Power BI report by inserting it as a visual from the marketplace and connecting it to your model data.
+
+### Can I use this app with SharePoint or Microsoft Teams?
+
+Yes! The app allows you to **export and sync IFC data** with SharePoint, Teams, and Excel for seamless collaboration.
+
+### How does filtering work in the IFC Viewer?
+
+You can apply **custom filters** to isolate IFC elements based on type, attributes, or categories. Clicking on a filtered element will highlight the corresponding component in the 3D model.
+
+### Do I need additional software to use IFC Viewer in Power BI?
+
+No, the IFC Viewer runs **entirely within Power BI** and does not require additional software installations.
+
+### How does the app handle large-scale IFC models?
+
+The IFC Viewer is **optimized for performance**, ensuring smooth interaction and visualization, even with **complex, large-scale models**.
+
+### What does self-hosted Microsoft app mean?
+
+The IFC Power BI app uses your own SharePoint as the only server. Your Microsoft 365 hosts the app without external connections. You have chosen a very secure software setup.
 
 ## Licensing
 
@@ -44,8 +79,21 @@ Your subscription will automatically renew at the end of each renewal period. If
 ### What does the IFC Power BI Visual license include?
 It includes access to Pro, Business, Enterprise or the Embed Plan and all the future product updates.
 
-### I have already purchased the Power BI subscription. Do I still have to purchase the IFC Visual Power BI license to use the visuals?
+### Marketplace says “Not available in selected billing region", why?
+This is usually fixed by **reloading the page after selecting your billing country** in Microsoft Marketplace. Also ensure the Marketplace **Billing region** and **Language** match (as in the screenshot, e.g., *Norway* + *Bokmål – Norge*). If the problem persists, contact sales@flinker.app.
+
+![Microsoft Marketplace billing country and language](/_media/pbi-ifc-visual-problem-billing-country-not-available.png)
+
+### Can’t find the license key email after purchase?
+Single-user licenses purchased directly via Microsoft AppSource do not come with a license key email. These licenses are managed entirely in your own Microsoft 365 tenant. Go to **admin.microsoft.com** → **Billing** → **Licenses**, find **IFC Visual**, and assign it to the user. This is the same place where other Microsoft licenses are managed. No key is needed; assigning the license in Microsoft 365 is sufficient. All actions are on the customer side; Flinker cannot access or manage your Microsoft 365 licenses.
+
+### How do I buy a monthly “Publish to web” license?
+You can purchase a single-user Business license via Microsoft AppSource at https://marketplace.microsoft.com/en-us/product/flinkergmbh1644589155747.ifc-viewer?tab=PlansAndPrice, or purchase a Business tenant license directly from Flinker at https://flinker.app/products/power-bi-ifc-viewer/.
+
+### Do I need an IFC Visual license if I already have Power BI?
 Yes. The IFC Visual Power BI licensing model is not tied to Microsoft’s subscription-based plans in any way. We are a plug-in solution in the 3D and data visualization field of the Power BI tool. In order to successfully use our custom visuals when creating your Power BI reports, you need to buy an IFC Visual Power BI license as well. As such, IFC Visual Power BI visuals aren’t covered by a Power BI Premium subscription, which has no relation to the usage of the IFC Visual Power BI licenses. Although Power BI Premium capacity enables the sharing of data with anyone, this is not the case with the sharing of IFC reports that use the IFC Visual for Power BI custom visual. An IFC Visual Power BI license is also necessary when viewing (consuming) reports via the Power BI service.
+
+
 
 ## Sharing reports
 
@@ -73,5 +121,4 @@ Use instead:
 
 Note: A custom password page in front of a public link is not real security.
 See also: [Sharing Power BI IFC reports with external users](sharing-power-bi-ifc-reports-with-external-users.md).
-
 

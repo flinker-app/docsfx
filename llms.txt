@@ -1,0 +1,44 @@
+# Flinker Docs
+
+> Technical documentation for Flinker IFC Viewer, BCF workflows, and Microsoft 365 / Power BI integrations.
+
+## Canonical docs index
+- https://docs.flinker.app/docs/introduction.html
+- https://docs.flinker.app/docs/getting-started.html
+- https://docs.flinker.app/docs/ifc-viewer.html
+- https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html
+- https://docs.flinker.app/docs/releases.html
+- https://docs.flinker.app/sitemap.xml
+
+## Product documentation
+### SharePoint IFC Viewer
+- https://docs.flinker.app/docs/ifc-viewer-for-sharepoint.html
+- https://docs.flinker.app/docs/ifc-viewer-sharepoint-architecture-and-data-protection.html
+- https://docs.flinker.app/docs/load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.html
+- https://docs.flinker.app/docs/save-bcf-to-sharepoint-lists.html
+
+### Teams IFC Viewer
+- https://docs.flinker.app/docs/ifc-viewer-for-teams.html
+- https://docs.flinker.app/docs/open-ifc-viewer-teams-architecture-and-data-protection.html
+- https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html
+- https://docs.flinker.app/docs/update-bcf-files-in-microsoft-teams.html
+
+### Power BI IFC Viewer
+- https://docs.flinker.app/docs/ifc-power-bi.html
+- https://docs.flinker.app/docs/ifc-viewer-installation-for-power-bi.html
+- https://docs.flinker.app/docs/ifc-viewer-usage-for-power-bi.html
+- https://docs.flinker.app/docs/ifc-viewer-data-extension-for-power-bi.html
+
+### Excel IFC Viewer
+- https://docs.flinker.app/docs/ifc-viewer-for-microsoft-excel.html
+
+## API and AI
+- https://docs.flinker.app/docs/copilot-for-ifc.html
+- https://docs.flinker.app/docs/copilot-for-ifc-pro.html
+- https://docs.flinker.app/docs/copilot-for-ifc-api.html
+
+## FAQ
+- https://docs.flinker.app/docs/faq-ifc-viewer.html
+- https://docs.flinker.app/docs/faq-for-ifc-viewer-in-sharepoint.html
+- https://docs.flinker.app/docs/faq-for-ifc-viewer-in-teams.html
+- https://docs.flinker.app/docs/faq-for-ifc-visual-in-power-bi.html

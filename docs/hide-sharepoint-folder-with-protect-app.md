@@ -1,3 +1,10 @@
+---
+title: Hide a SharePoint Folder with Protect App Permissions
+description: Use the Protect app to assign folder-level SharePoint permissions and hide folders from users or groups without access.
+keywords: SharePoint folder permissions, Protect app, hide folder SharePoint, unique permissions, Microsoft 365 security
+canonical_url: https://docs.flinker.app/docs/hide-sharepoint-folder-with-protect-app.html
+---
+
 # Hide a SharePoint folder with specific permissions
 
 Use the Protect app to hide a folder from certain audiences (for example, designers) by giving the folder its own permission list. You cannot fully "lock" a folder; instead, explicitly add every group or user who should see it.

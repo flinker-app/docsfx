@@ -1,3 +1,10 @@
+---
+title: IFC SharePoint Viewer Release Notes
+description: Version history for the Flinker IFC Viewer for SharePoint, including BCF, loading, and licensing updates.
+keywords: SharePoint IFC release notes, Flinker SharePoint changelog, BCF updates
+canonical_url: https://docs.flinker.app/docs/releases/ifc-sharepoint.html
+---
+
  ### 2.4.0.0 - 2025-11-27
 
 - Enhanced loading experience

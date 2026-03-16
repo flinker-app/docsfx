@@ -6,7 +6,7 @@
 {{#items.Length}}
 <div class="vertical-card-container">
   {{#items}}
-  <div class="vertical-card">
+  <a class="vertical-card" href="{{href}}">
     {{#thumbnail}}
       <img src="{{thumbnail}}" alt="{{name}}" />
     {{/thumbnail}}
@@ -43,9 +43,9 @@
       {{/usage}}
 
       <!-- Link or button at bottom, if desired -->
-      <a href="{{href}}" class="card-link" style="margin-top:auto;">Learn More</a>
+      <span class="card-link" style="margin-top:auto;">Learn More</span>
     </div>
-  </div>
+  </a>
   {{/items}}
 </div>
 {{/items.Length}}

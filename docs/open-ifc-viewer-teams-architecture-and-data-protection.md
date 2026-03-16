@@ -1,7 +1,7 @@
 ---
 title: Open IFC Viewer for Microsoft Teams - Architecture and Data Protection
 description: Architecture, data flows, permissions, and data protection for the Open IFC Viewer Teams app. Explains tenant-bound storage, security, and metadata handling for IT and compliance.
-summary: How the Open IFC Viewer tab app works in Microsoft Teams: tenant-only storage in SharePoint/OneDrive, client-side rendering, permissions, and GDPR-aligned metadata processing.
+summary: "How the Open IFC Viewer tab app works in Microsoft Teams: tenant-only storage in SharePoint/OneDrive, client-side rendering, permissions, and GDPR-aligned metadata processing."
 slug: open-ifc-viewer-teams-architecture-and-data-protection
 canonical_url: https://docs.flinker.app/docs/open-ifc-viewer-teams-architecture-and-data-protection.html
 lang: en
@@ -37,9 +37,11 @@ tags:
   - sharepoint
   - onedrive
   - entra-id
-og:title: Open IFC Viewer for Microsoft Teams - Architecture and Data Protection
-og:description: Tenant-only storage, client-side rendering, and GDPR-aligned metadata for the Open IFC Viewer in Teams.
-twitter:card: summary_large_image
+og:
+  title: Open IFC Viewer for Microsoft Teams - Architecture and Data Protection
+  description: Tenant-only storage, client-side rendering, and GDPR-aligned metadata for the Open IFC Viewer in Teams.
+twitter:
+  card: summary_large_image
 audience: it-admins, security, compliance, architects
 product: microsoft-teams
 feature: open-ifc-viewer
