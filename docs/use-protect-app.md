@@ -17,21 +17,41 @@ This guide explains the everyday workflow in Protect app, from opening a site to
 
 ## 1. Open Protect app
 
-1. Open the document library and select a file or folder.
-2. Choose **Manage permissions** to open Protect app.
+You can start Protect app directly from a document library or add it to a SharePoint page for quick access.
 
-![Open Manage permissions from a folder](/_media/click-on-manage-permissions-of-a-folder-with-protect-app.png)
+### Open it from a document library
 
-## 2. Choose where to work
+1. Open the target document library or folder.
+2. Open the **...** menu in the command bar.
+3. Select **Manage permissions**.
 
-Protect app gives you two working modes:
+![Open Manage permissions inside a document library](/_media/open-permissions-inside-a-docuemnt-library.png)
 
-- **All sites**: View accessible SharePoint sites and filter by site type, external sharing mode, and lock state.
-- **Site permissions view**: Work on one site or folder path with breadcrumb navigation and full permission details.
+### Add it as a SharePoint web part
+
+If you want a permanent entry point on a site page:
+
+1. Edit the SharePoint page where you want to use Protect.
+2. Add a new web part.
+3. Search for `pro` and select **Protect**.
+4. Save or republish the page.
+
+![Add Protect as a SharePoint web part](/_media/add-protect-app-as-webpart.png)
+
+## 2. Choose a view
+
+Protect app gives you two views:
+
+- **Across sites view**: View accessible SharePoint sites and filter by site type, external sharing mode, and lock state.
+- **Inside a site view**: Work on one site or folder path with breadcrumb navigation and full permission details.
 
 Use the **All sites** button in the breadcrumb to return to site-level overview at any time.
 
 ![Open the All sites overview in Protect](/_media/how-to-open-sites-overview-in-protect.png)
+
+The **All sites** overview shows permissions across accessible SharePoint sites in one table, including site name, connected group or Teams status, external sharing mode, and site admins. The filter panel on the right helps narrow the list by site type, external sharing, and lock state.
+
+![Permissions across sites overview in Protect](/_media/permissions-across-sites-overview.png)
 
 ## 3. Find entries fast
 
