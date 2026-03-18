@@ -51,7 +51,7 @@ To make sure the IFC Viewer web part can load its viewer library in SharePoint, 
 
 1. Open SharePoint Admin Center.
 2. Go to **Advanced** > **Trusted script sources**.
-3. Add `https://viewer.flinker.app`.
+3. Add `https://viewer.flinker.app/`.
 4. Save the change.
 
 ![Add viewer library to trusted script sources](/_media/add-viewer-library-to-trusted-script-sources.png)
