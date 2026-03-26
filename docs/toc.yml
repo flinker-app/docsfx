@@ -64,6 +64,8 @@
       href: ifc-docslink.md
     - name: Update BCF
       href: update-bcf-files-in-microsoft-teams.md
+    - name: Share BCF deep links
+      href: share-bcf-topics-as-teams-deep-links.md
     - name: Save BCF issues to Microsoft Lists
       href: ifc-lists.md
     - name: Save IFC to Excel Online
