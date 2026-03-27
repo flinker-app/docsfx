@@ -133,13 +133,9 @@ By default it reads your files to display the model and BCF data. It only writes
 
 ### Why do you need to grant permissions?
 
-<<<<<<< HEAD
 The IFC Viewer needs permission to read IFC and BCF files stored in your company's SharePoint and Teams so it can load them directly into the tab. If you use save features for BCF files or Microsoft Lists integration, the app also needs write permissions for those actions.
 
 For authentication purposes, the user's **email address and Microsoft tenant ID** are transmitted to Flinker. No IFC/BCF file content or other personal data is shared externally. All file processing happens client-side within your Microsoft 365 tenant.
-=======
-The IFC Viewer needs permission to read IFC and BCF files stored in your company's SharePoint and Teams so it can load them directly into the tab. If you use save features for BCF files or Microsoft Lists integration, the app also needs write permissions for those actions. No external data processing or uploads occur; everything stays within your Microsoft 365 tenant.
->>>>>>> f393cce0a29d9ec725f2c456941cda9f641ac6fb
 
 ### Does the IFC Viewer store my files somewhere?
 
