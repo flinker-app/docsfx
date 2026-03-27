@@ -118,7 +118,9 @@ It only reads your files to display or view the model. It does not edit or delet
 
 ### Why do you need to grant permissions?
 
-The IFC Viewer needs permission to read IFC and BCF files stored in your company's SharePoint. This allows the viewer to load your data directly. No external data processing or uploads occur; everything stays within your Microsoft 365 tenant.
+The IFC Viewer needs permission to read IFC and BCF files stored in your company's SharePoint and Teams so it can load them directly into the tab. If you use save features for BCF files or Microsoft Lists integration, the app also needs write permissions for those actions.
+
+For authentication purposes, the user's **email address and Microsoft tenant ID** are transmitted to Flinker. No IFC/BCF file content or other personal data is shared externally. All file processing happens client-side within your Microsoft 365 tenant.
 
 ### Does the IFC Viewer store my files somewhere?
 
@@ -126,11 +128,43 @@ No. Your data stays within your Microsoft 365 tenant and SharePoint, serving as 
 
 ### Is my data secure when using the IFC Viewer?
 
-Yes, your data remains secure within your Microsoft 365 tenant. The IFC Viewer does not upload or process data externally. All data stays within your company's SharePoint and Microsoft 365 environment, ensuring maximum data security and compliance with your organization's policies.
+Yes. Your IFC and BCF files are never uploaded or processed outside your Microsoft 365 tenant — all file processing happens client-side in the browser within your organization's SharePoint and Teams environment.
+
+For authentication purposes, the user's **email address and Microsoft tenant ID** are transmitted to Flinker. No other personal data or file content is shared. This is consistent with the [Microsoft App Compliance certification](https://learn.microsoft.com/en-us/microsoft-365-app-certification/teams/flinker-gmbh-open-ifc-viewer) for Open IFC Viewer.
 
 ### Can you set which users can see the IFC model in Teams or SharePoint?
 
 Yes, you can determine which users or user groups can see the 3D or IFC model in Teams or SharePoint. To do this, you can use Microsoft security groups, SharePoint groups, or the Protect app. For example, you can restrict access to the IFC model for certain users or groups who are not working on the model or do not need data from it. Additionally, you can set which user groups are allowed to edit the model.
+
+### What specific Microsoft Graph permissions does the IFC Viewer request, and what is their scope?
+
+When you click "Connect", the IFC Viewer requests the following permissions via Microsoft Graph:
+
+| Permission | Type | Purpose |
+|---|---|---|
+| `Files.Read.All` | Delegated | Read IFC/BCF files from SharePoint and Teams on behalf of the signed-in user |
+| `User.Read` | Delegated | Sign in and read the user's basic profile |
+
+Both are **delegated permissions** — the app only acts on behalf of the signed-in user, never autonomously or in the background.
+
+For authentication purposes, the user's **email address and Microsoft tenant ID** are transmitted to Flinker. No IFC/BCF file content or other personal data is shared.
+
+If your organization requires admin approval, your IT admin can grant consent directly using this link:
+[Grant Admin Consent](https://login.microsoftonline.com/organizations/v2.0/adminconsent?client_id=c8f57ea5-d1b6-41a7-a2c2-d10e99d97a97&redirect_uri=https%3A%2F%2Fteamsifcviewer.flinker.app%2Fauth-end.html&scope=https://graph.microsoft.com/Files.Read.All%20https://graph.microsoft.com/offline_access%20openid%20profile&state=12345abc)
+
+You can also review the full Microsoft App Compliance certification:
+[Microsoft App Compliance – Open IFC Viewer](https://learn.microsoft.com/en-us/microsoft-365-app-certification/teams/flinker-gmbh-open-ifc-viewer)
+
+### Which write permissions are requested, and when?
+
+Write permissions are only requested when you explicitly use save features — they are not part of the initial setup. The following write permissions may be requested depending on the features you use:
+
+| Permission | Type | Triggered by |
+|---|---|---|
+| `Files.ReadWrite.All` | Delegated | Saving BCF files back to SharePoint or Teams |
+| `Sites.ReadWrite.All` | Delegated | Microsoft Lists synchronization for BCF topics |
+
+The app never writes to your files without an explicit save action initiated by the user.
 
 ## Tab Management and Visibility
 
