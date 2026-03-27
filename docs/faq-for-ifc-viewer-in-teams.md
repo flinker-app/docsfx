@@ -109,6 +109,18 @@ Yes. You can load multiple IFC models in the Teams IFC Viewer by adding multiple
 
 - Setup guide (add multiple files in the tab): [Click here](https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html#step-3-set-up-the-tab).
 
+### How do I load only specific IFC files, not all files in a folder?
+
+The IFC Viewer loads all IFC files found in the folder path you configure in the tab settings.
+To load only specific files, specify a deeper subfolder path — the folder where exactly
+the files you want are located, rather than a parent folder.
+
+### Can I have multiple IFC Viewer tabs with different folders configured?
+
+Yes. You can add as many IFC Viewer tabs as you like within a Microsoft Teams channel,
+each configured with a different folder path. This allows different teams or projects
+to have their own dedicated viewer tab showing only the relevant models.
+
 ### Can I set a specific BCF issue or clash to open by default in a Teams tab?
 
 Yes. Open the Teams tab settings and paste the topic GUID into **Set your default view (optional)**. After you save the tab, the viewer opens that BCF topic automatically each time the tab is opened.
@@ -190,7 +202,17 @@ In Microsoft Teams, not everyone has access to modify tab settings. Typically, o
 ### Why do I have to keep uploading my files whenever the tab is opened?
 
 * If you set the file links in the Teams tab settings dialog, they will always load automatically when the IFC Viewer tab is opened. You can remove or replace auto-loading files later in the Teams tab settings dialog.
-* If you didn’t set auto-loading, you must manually open files each time.
+* If you didn’t set auto-loading, you must manually open files each time.### Why does the IFC Viewer reload every time I switch tabs?
+
+This is standard browser behaviour in Microsoft Teams. Two workarounds:
+
+1. **Pop out the tab** — click the pop-out icon to open the viewer in a separate window.
+   The model stays loaded as long as the window is open.
+2. **Save a BCF view** — save your current view as a BCF file and store it in SharePoint.
+   Configure it as the default view in the tab settings. The viewer will reload that
+   view automatically each time the tab is opened.
+
+- Setup guide: [Configure Tab Setting – Step 6](https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html#step-6-configure-tab-setting)
 
 ### Does everyone see whenever I open a file or which part I am viewing at?
 
