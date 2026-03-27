@@ -12,6 +12,8 @@
       href: ifc-infra.md
     - name: IFC Filters
       href: ifc-filters.md
+    - name: Real World Map
+      href: real_worldMap.md
 
 - name: IDS
   href: ifc-ids.md
@@ -62,6 +64,8 @@
       href: ifc-docslink.md
     - name: Update BCF
       href: update-bcf-files-in-microsoft-teams.md
+    - name: Share BCF deep links
+      href: share-bcf-topics-as-teams-deep-links.md
     - name: Save BCF issues to Microsoft Lists
       href: ifc-lists.md
     - name: Save IFC to Excel Online
@@ -103,6 +107,8 @@
           href: IFC_4DPlanning.md
         - name: IFC to GIS Map Dashboard
           href: IFC_Map.md  
+        - name: IFC & BCF Issue Tracker Dashboard
+          href: IFC_BCF_Bi.md  
 - name: Excel IFC Viewer
   href: ifc-viewer-for-microsoft-excel.md
 - name: Project IFC Viewer
@@ -117,6 +123,8 @@
   items:
     - name: Features
       href: share-features.md
+    - name: Use Protect app
+      href: use-protect-app.md
     - name: Installation for Admins
       href: installation.md
     - name: Upgrade to latest version

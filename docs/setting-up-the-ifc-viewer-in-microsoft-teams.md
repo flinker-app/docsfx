@@ -1,7 +1,7 @@
 ---
 title: Setting Up the IFC Viewer in Microsoft Teams
-description: Step-by-step guide to set up the IFC Viewer in Microsoft Teams for enhanced collaboration and data privacy.
-keywords: IFC Viewer, Microsoft Teams, 3D models, collaboration, data privacy
+description: Step-by-step guide to set up the IFC Viewer in Microsoft Teams, load IFC and BCF files, and set a default BCF view.
+keywords: IFC Viewer, Microsoft Teams, 3D models, collaboration, data privacy, BCF, topic GUID
 canonical_url: https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html
 ---
 
@@ -35,7 +35,7 @@ You can also add the tab to multiple teams and chats.
 
 ![Select Team and Setup Tab](/_media/teams-apps-ifc-viewer-select-team-and-setup-tab.png)
 
-After setting up the tab, the settings window will automatically appear. To load IFC/BCF files automatically whenever the tab is opened you can add the SharePoint and Teams file links now or return to this window later to add them as needed. Click "Save" to add the tab.
+After setting up the tab, the settings window will automatically appear. To load IFC/BCF files automatically whenever the tab is opened you can add the SharePoint and Teams file links now or return to this window later to add them as needed. If you want the tab to always open on a specific BCF issue, you can also paste its topic GUID into **Set your default view (optional)**. Click "Save" to add the tab.
 
 ![Tab Settings to Connect with Your Files](/_media/teams-apps-ifc-viewer-tab-settings-paste-ifc-file-links-and-save.png)
 
@@ -90,11 +90,16 @@ Paste the copied file links, and save the settings. Pasting file links from Shar
 
 ![Paste IFC File Links and Save](/_media/teams-apps-ifc-viewer-tab-settings-paste-ifc-file-links-and-save.png)
 
+If you also want the tab to always open on one specific BCF topic, use the optional default view field shown below.
+
+![Set a default BCF topic for the Teams IFC Viewer tab](/_media/set-default-view-in-teams-ifc-viewer.png)
+
 ### Done! IFC Files Load Automatically
 IFC and BCF files will load automatically according to the settings whenever you open the tab.
+If you add multiple IFC file links, or a folder link containing IFC and BCF files, the viewer loads them together in the same tab.
 You can restrict upload permissions by adjusting SharePoint settings or using the Protect App. 
 
-![IFC Files from Settings Load Automatically](/_media/teams-apps-ifc-viewer-ifc-files-from-settings-load-automatically.png)
+![Load multiple IFC files in the Teams IFC Viewer](/_media/load-multiple-ifc-files-in-teams-ifc-viewer.png)
 
 That's it! You've successfully set up the IFC Viewer in your Microsoft Teams environment.
 

@@ -1,7 +1,7 @@
 ---
 title: FAQs for IFC Viewer in Microsoft Teams
 description: Answers to setup, files, permissions, and data protection questions for the IFC Viewer app in Microsoft Teams.
-summary: Frequently asked questions on installing the IFC Viewer tab, linking IFC files, permissions, privacy, telemetry, and client-side parsing in Teams.
+summary: Frequently asked questions on installing the IFC Viewer tab, linking IFC and BCF files, default views, Teams deep links, permissions, privacy, telemetry, and client-side parsing in Teams.
 slug: faq-for-ifc-viewer-in-teams
 canonical_url: https://docs.flinker.app/docs/faq-for-ifc-viewer-in-teams.html
 lang: en
@@ -14,6 +14,9 @@ keywords:
   - SharePoint
   - OneDrive
   - file links
+  - deep links
+  - default view
+  - topic GUID
   - permissions
   - data protection
   - telemetry
@@ -35,7 +38,7 @@ twitter:
 audience: users, admins
 product: microsoft-teams
 feature: ifc-viewer
-ms.date: 2025-12-05
+ms.date: 2026-03-26
 ---
 
 # FAQs - IFC Viewer - Teams
@@ -88,7 +91,7 @@ You can get the file link from SharePoint or Teams by:
 
 Only files that are linked to the IFC viewer Tab are also visible to other team members. If the user opens a file using "Open IFC" button, the file will visible to you only and it is temporary. This temporary file will not automatically show whenever the tab is reopened. Also, if you want to restrict certain people from viewing the file, you must adjust file permissions in SharePoint or use the Protect App.
 
-### Can I remove or change the files that are automatically opening whenenever the tab is opened?
+### Can I remove or change the files that are automatically opening whenever the tab is opened?
 
 Yes! You can remove or replace files in IFC Viewer at any time.
 
@@ -102,25 +105,41 @@ No worries! You can upload additional IFC files later in the Teams tab settings 
 
 ### Can I view multiple IFC models at the same time?
 
-Yes! You can load multiple IFC models in the Teams IFC Viewer by adding multiple IFC files in the tab setup.
+Yes. You can load multiple IFC models in the Teams IFC Viewer by adding multiple IFC file links in the tab setup, or by adding a folder link that contains multiple IFC and BCF files.
 
 - Setup guide (add multiple files in the tab): [Click here](https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html#step-3-set-up-the-tab).
+
+### Can I set a specific BCF issue or clash to open by default in a Teams tab?
+
+Yes. Open the Teams tab settings and paste the topic GUID into **Set your default view (optional)**. After you save the tab, the viewer opens that BCF topic automatically each time the tab is opened.
+
+- Setup guide: [Set up IFC Viewer in Teams](https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html)
+
+### Can I share a link to a specific BCF topic in Teams?
+
+Yes. Select the BCF topic in the Teams IFC Viewer and click the **Share** button in the upper-right corner. The generated Teams deep link opens the same tab with that topic selected, so the saved BCF issue context is shown again for the recipient.
+
+- BCF guide: [Load, share, and save BCF files in Microsoft Teams](https://docs.flinker.app/docs/update-bcf-files-in-microsoft-teams.html)
 
 ## Permissions and Security
 
 ### Which permissions need to be granted with the setup?
 
-You need to grant read permissions for the IFC Viewer to access your SharePoint and Teams IFC files. If you can't grant these permissions, you can still load local files from your desktop. In this case, only you will see the IFC models. Other team members can also load local IFC models without granting permissions. To set up a global or master model in a Teams tab, permissions are required to load SharePoint IFC files from your Microsoft 365 tenant.
+You need to grant read permissions so the IFC Viewer can access IFC and BCF files stored in SharePoint or Teams. If you cannot grant these permissions, you can still load local files from your desktop, but only you will see them. If you want to save BCF files back to SharePoint or sync BCF topics to Microsoft Lists, the app will also request write permissions at that point.
 
 ### Can IFC Viewer edit or delete my files, or is it just viewing them?
 
-It only reads your files to display or view the model. It does not edit or delete files.
+By default it reads your files to display the model and BCF data. It only writes when you explicitly use save features such as **Save to Teams/SharePoint** for BCF files or Microsoft Lists synchronization, and those actions require additional write permissions. It does not delete files automatically.
 
 ### Why do you need to grant permissions?
 
+<<<<<<< HEAD
 The IFC Viewer needs permission to read IFC and BCF files stored in your company's SharePoint and Teams so it can load them directly into the tab. If you use save features for BCF files or Microsoft Lists integration, the app also needs write permissions for those actions.
 
 For authentication purposes, the user's **email address and Microsoft tenant ID** are transmitted to Flinker. No IFC/BCF file content or other personal data is shared externally. All file processing happens client-side within your Microsoft 365 tenant.
+=======
+The IFC Viewer needs permission to read IFC and BCF files stored in your company's SharePoint and Teams so it can load them directly into the tab. If you use save features for BCF files or Microsoft Lists integration, the app also needs write permissions for those actions. No external data processing or uploads occur; everything stays within your Microsoft 365 tenant.
+>>>>>>> f393cce0a29d9ec725f2c456941cda9f641ac6fb
 
 ### Does the IFC Viewer store my files somewhere?
 
