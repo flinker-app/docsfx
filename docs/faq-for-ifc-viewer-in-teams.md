@@ -87,6 +87,15 @@ You can get the file link from SharePoint or Teams by:
 - If it's on OneDrive, you need to copy the SharePoint link from OneDrive.
 - If it's on an external drive, you need to upload it to SharePoint or Teams first.
 
+### Can I open a local IFC file from my desktop, and how does that differ from loading a file from SharePoint?
+
+Yes — the IFC Viewer can open an IFC file directly from your local desktop. The file is loaded and processed entirely in your browser (client-side); nothing is uploaded to SharePoint or any external server. Only you can see that model. Other members of the channel or chat cannot see it, and the file is not retained when the tab is closed or reopened.
+
+The shared use case works differently: you store the IFC file in SharePoint or Teams and configure its URL — or a folder URL — in the tab settings. Every channel member with the appropriate SharePoint permissions then sees the same model. Any file updates saved to SharePoint are reflected in the viewer automatically. When a folder is configured as the source, the viewer loads all IFC files in that folder and picks up changes to any of those files without manual reconfiguration. This is the standard setup for a shared coordination model in a Teams project channel or a SharePoint project site (SharePoint CDE).
+
+- Set up a shared model in a Teams tab: [Step 3 – Set up the tab](https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html#step-3-set-up-the-tab)
+- Set up a shared model in SharePoint: [Load multiple IFC/BCF files – Step 2](https://docs.flinker.app/docs/load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.html#step-2-paste-ifc-file-urls)
+
 ### Will everyone in my selected chats or teams also see every file I uploaded?
 
 Only files that are linked to the IFC viewer Tab are also visible to other team members. If the user opens a file using "Open IFC" button, the file will visible to you only and it is temporary. This temporary file will not automatically show whenever the tab is reopened. Also, if you want to restrict certain people from viewing the file, you must adjust file permissions in SharePoint or use the Protect App.
@@ -181,6 +190,10 @@ If your organization requires admin approval, your IT admin can grant consent di
 
 You can also review the full Microsoft App Compliance certification:
 [Microsoft App Compliance – Open IFC Viewer](https://learn.microsoft.com/en-us/microsoft-365-app-certification/teams/flinker-gmbh-open-ifc-viewer)
+
+### Are `Files.Read.All` and `User.Read` the only Microsoft Graph permissions requested for the initial setup?
+
+Yes. `Files.Read.All` is used to read IFC/BCF files from SharePoint/Teams on behalf of the signed-in user, and `User.Read` is used for sign-in and basic profile access. We do not require any additional Microsoft Graph permissions for this setup. If additional Graph permissions were ever needed in the future, those would indeed require separate consent/approval.
 
 ### Which write permissions are requested, and when?
 
