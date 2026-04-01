@@ -109,6 +109,8 @@
           href: IFC_Map.md  
         - name: IFC & BCF Issue Tracker Dashboard
           href: IFC_BCF_Bi.md  
+        - name: IFC-IDS Compliance Dashboard
+          href: IFC_IDS_Compliance.md  
 - name: Excel IFC Viewer
   href: ifc-viewer-for-microsoft-excel.md
 - name: Project IFC Viewer
