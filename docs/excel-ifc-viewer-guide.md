@@ -79,6 +79,8 @@ Use Excel to drive the 3D selection when you want to review items from a filtere
 
 Select rows or cells in Excel that contain valid IFC GUID values.
 
+![Selecting a row in Excel highlights the matching element in the IFC Viewer](/_media/clicking-a-row-with-ifc-element-globalid-selects-the-element-in-the-excel-ifc-viewer.png)
+
 - Only visible cells are used. Filtered-out rows are ignored.
 - The column name does not need to be `GUID` or `GlobalId`.
 - Excel to viewer sync works from the selected visible cell values, not from a required column name.
