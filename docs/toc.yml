@@ -112,7 +112,12 @@
         - name: IFC-IDS Compliance Dashboard
           href: IFC_IDS_Compliance.md  
 - name: Excel IFC Viewer
-  href: ifc-viewer-for-microsoft-excel.md
+  expanded: false
+  items:
+    - name: Overview
+      href: ifc-viewer-for-microsoft-excel.md
+    - name: Guide
+      href: excel-ifc-viewer-guide.md
 - name: Project IFC Viewer
   href: ifc-viewer-project.md
 - name: Power Automate
