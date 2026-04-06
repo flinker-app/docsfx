@@ -1,67 +1,100 @@
 ---
-title: Excel IFC Viewer guide
-description: Guide for loading IFC geometry into Excel, syncing selections with the IFC Viewer, and preparing Excel and IFC data so linking works reliably.
+title: Use the IFC Viewer in Excel
+description: Learn how to load IFC geometry into Excel, sync selections with the IFC Viewer, and prepare your workbook for reliable linking.
 keywords: IFC Excel add-in, Excel IFC Viewer guide, GlobalId sync, ifcChunk, BIM in Excel
 canonical_url: https://docs.flinker.app/docs/excel-ifc-viewer-guide.html
 ---
 
-# Excel IFC Viewer guide
+# Use the IFC Viewer in Excel
 
-This guide shows the clearest way to load IFC geometry into Excel and keep the worksheet linked with the 3D viewer.
+Use this guide to load IFC geometry into Excel, open the model in the IFC Viewer task pane, and keep worksheet selections linked with the 3D model. The workflow is designed for Excel-based review, reporting, and coordination, without moving model data into a separate desktop tool.
 
-## How IFC loading works
+## Overview
 
-### Recommended workflow
+The Excel IFC Viewer works best when the workbook already contains IFC geometry and element identifiers. In that setup, Excel becomes the working surface for tables, filters, formulas, and reports, while the task pane provides the linked 3D view of the same model data.
 
-Use the existing **Power Query from the Power BI sample report**.
+- Load IFC geometry into Excel by using the Power Query from the Power BI sample report.
+- Open the IFC Viewer add-in to load the model from the workbook.
+- Select rows in Excel to select matching elements in the viewer.
+- Select elements in the viewer to highlight matching rows in Excel.
 
-Get it here: [Copy the IFC loading query from the sample report](http://localhost:8080/docs/ifc-viewer-usage-for-power-bi.html#1-copy-the-ifc-loading-query-from-the-sample-report)
+## Before you start
 
-This is the recommended approach because it:
+For most projects, the recommended setup is to use the existing **Power Query from the Power BI sample report**. This creates a workbook structure that the add-in can read consistently and makes the overall workflow easier to maintain.
 
-- keeps the model geometry (`IFC Chunks`) and element IDs in a consistent structure
+Get the query here: [Copy the IFC loading query from the sample report](ifc-viewer-usage-for-power-bi.md#1-copy-the-ifc-loading-query-from-the-sample-report)
+
+The Power Query approach is recommended because it:
+
+- keeps geometry data (`IFC Chunks`) and IFC IDs in a consistent structure
 - makes refresh easier when the IFC file changes
 - makes the workbook easier to reuse and share
 
-### Other loading option
-
-Loading an IFC from a local file path also works.
-
-Use local loading if you only need a quick local test. Use the Power Query workflow if you want a repeatable setup inside the workbook.
-
-### Before you open the add-in
-
-Make sure your workbook contains:
+Before you open the add-in, make sure the workbook contains the data needed by the viewer and by the Excel linking workflow:
 
 - geometry data in `IFC Chunks`
 - IFC element IDs with valid IFC GUID values
 - an Excel table for the model data, if possible
 
-Then open the workbook in Excel and start the **IFC Viewer** add-in from the ribbon.
+> [!NOTE]
+> Loading from a local IFC file path can also work, but the Power Query workflow is the preferred setup for repeatable Excel-based workflows.
 
-### What happens when the add-in opens
+## Load IFC geometry in Excel
 
-- The add-in reads IFC geometry from the workbook.
-- If `IFC Chunks` are present, the model loads automatically.
-- If the source IFC changes, refresh the Power Query and reopen or refresh the add-in.
+Once the query is in place, the loading process is straightforward. The goal is to make sure the workbook contains the current geometry data before the add-in starts.
+
+### Paste the copied Power Query into Excel
+
+After you copy the IFC loading query from the Power BI sample report, add it to your Excel workbook by using Power Query in Excel Desktop.
+
+1. Open the workbook in Excel Desktop.
+2. Go to the **Data** tab.
+3. Open Power Query by choosing **Get Data** and then starting the **Power Query Editor**.
+4. Create a **Blank Query**.
+5. In Power Query Editor, open **Advanced Editor**.
+6. Replace the existing content with the copied IFC loading query.
+7. Select **Done** to save the query.
+8. Select **Close & Load** to load the query results into the workbook.
+
+After the query is loaded, Excel creates the table structure that the IFC Viewer add-in can use for geometry loading and selection linking.
+
+1. Refresh the query so the workbook contains the latest `IFC Chunks` and IFC IDs.
+2. Save the workbook if needed.
+3. Start the **IFC Viewer** add-in from the ribbon.
+4. Wait for the add-in to load the model from the workbook.
+
+When the add-in opens, it reads the workbook content and initializes the viewer from that data:
+
+- it reads IFC geometry from the workbook
+- it loads the model automatically if `IFC Chunks` are present
+- it loads updated geometry after you refresh the query and reopen or refresh the add-in
 
 ## How selection sync works
 
+Selection sync is based on IFC GUID values. This is what allows worksheet data and 3D elements to stay connected while you review the model in Excel.
+
 ### Excel to viewer
 
-- Select rows or cells in Excel that contain valid IFC GUID values.
-- The values must be visible cells. Filtered-out rows are ignored.
-- The column name does **not** need to be `GUID` or `GlobalId`.
+Use Excel to drive the 3D selection when you want to review items from a filtered list, a calculation sheet, or a report table.
 
-This is the important rule: Excel to viewer sync works from the selected visible cell values, not from a required column name.
+Select rows or cells in Excel that contain valid IFC GUID values.
+
+- Only visible cells are used. Filtered-out rows are ignored.
+- The column name does not need to be `GUID` or `GlobalId`.
+- Excel to viewer sync works from the selected visible cell values, not from a required column name.
 
 ### Viewer to Excel
 
-- Select an element in the 3D viewer.
+Use the viewer to drive Excel when you want to inspect which row or record belongs to a selected model element.
+
+Select an element in the 3D viewer.
+
 - Excel highlights matching row values in the active worksheet.
 - This works best when the IFC ID column is named `GUID` or `GlobalId`.
 
-## How to prepare the Excel sheet
+## Prepare the workbook
+
+Workbook preparation has a direct effect on how reliable the linking feels in day-to-day use. A clear and consistent table structure reduces sync issues and makes the workbook easier to share with other users.
 
 Use these rules for the most reliable result:
 
@@ -71,9 +104,9 @@ Use these rules for the most reliable result:
 4. Keep the geometry data (`IFC Chunks`) from the Power Query output.
 5. If you use filters, remember that only visible rows take part in Excel to viewer sync.
 
-## Export from viewer to Excel
+## Export data from the viewer to Excel
 
-The viewer can export data back into Excel.
+The viewer can export data back into Excel as new sheets or tables. This is useful when you want to continue working with viewer output by using standard Excel features such as formulas, pivots, formatting, and charts.
 
 When you run an export:
 
@@ -81,15 +114,17 @@ When you run an export:
 2. The exported data is inserted as Excel sheets/tables.
 3. You can continue working with formulas, pivots, and reports in Excel.
 
-## What is not supported here
+## Limitations
 
-This workflow does not write edited Excel values back into the original `.ifc` file.
+The current workflow focuses on loading IFC data into Excel and using Excel as the working environment around the model. It does not provide direct write-back from edited worksheet values to the original IFC file.
 
 - Loading IFC data into Excel is supported.
 - Exporting viewer data into Excel is supported.
 - Writing edited worksheet values back into the IFC file is not supported in this flow.
 
 ## Troubleshooting
+
+If loading or sync does not work as expected, start by checking the workbook content before looking for viewer issues. In most cases, the cause is missing geometry data, mismatched GUID values, or a workbook structure that no longer matches the expected query output.
 
 ### The model does not load
 
