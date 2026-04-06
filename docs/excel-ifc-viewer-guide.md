@@ -108,6 +108,10 @@ Use these rules for the most reliable result:
 
 The viewer can export data back into Excel as new sheets or tables. This is useful when you want to continue working with viewer output by using standard Excel features such as formulas, pivots, formatting, and charts.
 
+Use the export action in the viewer to send IFC property data into Excel:
+
+![Export IFC properties from the Excel IFC Viewer](/_media/right-click-select-and-click-save-to-excel-for-exporting-ifc-properties-with-excel-ifc-viewer.png)
+
 When you run an export:
 
 1. The add-in creates new worksheet(s) in the workbook.
