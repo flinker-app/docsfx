@@ -139,6 +139,24 @@ This allows users to create clear visual sets and compare different data groups 
 Use the **Reset** button to clear all filters and restore the full model view.  
 You can iteratively refine your analysis by combining, toggling, and adjusting multiple filters.
 
+## Reusing filters across projects
+
+Because filter configurations are saved as part of a **BCF** file, they are inherently portable. The filter state — hidden elements, selected items, clipping planes — is stored inside the file itself, making it part of the open BCF standard.
+
+This means a filter configuration created in one project can be loaded in any other Teams channel, SharePoint folder, or BIM tool instantly — without any manual recreation.
+
+**How to reuse a filter configuration:**
+
+1. Set up the desired filters in the IFC Viewer.
+2. Save the current view as a **BCF topic**.
+3. Store the BCF file in a shared **SharePoint** location.
+4. Load the BCF file in any project or Teams channel to restore the full filter configuration immediately.
+
+Because BCF is an open standard, the same file works across projects, buildings, and tools — any number of times.
+
+> [!TIP]
+> See [BCF Integration](ifc-bcf.md) for a full overview of how BCF files store and transfer view states.
+
 ## How to Get Started
 
 Explore how **_Flinker_** helps you search, compare, and analyze IFC models efficiently.
