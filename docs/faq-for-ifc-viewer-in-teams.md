@@ -240,3 +240,13 @@ No. The Teams IFC Viewer does not send any IFC or BCF content to Flinker. Only m
 ### Is IFC parsing performed entirely in the browser?
 
 Yes. The Teams IFC Viewer parses and processes IFC files entirely client-side in the browser. No IFC model data is sent to Flinker services. For more details, see the Architecture & Data Protection documentation.
+
+## Filters
+
+### Are there built-in standard filter presets in the viewer?
+
+No. The IFC Viewer does not ship with pre-defined filter presets. Filters are created by the user based on the properties available in the loaded IFC model.
+
+The recommended approach is to create your own standard filters once and save them as a **BCF file**. Because filter state is stored inside the BCF file as part of the open BCF standard, you can load that file in any Teams channel or project to restore the full filter configuration instantly — without manual recreation. Store the BCF file in a shared SharePoint location to make it available across all projects that use the same filter setup.
+
+- See [IFC Filters – Reusing filters across projects](ifc-filters.md#reusing-filters-across-projects) for step-by-step instructions.
