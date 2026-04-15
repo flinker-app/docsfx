@@ -130,6 +130,26 @@ Yes. You can add as many IFC Viewer tabs as you like within a Microsoft Teams ch
 each configured with a different folder path. This allows different teams or projects
 to have their own dedicated viewer tab showing only the relevant models.
 
+### Can I create a persistent federated model view for a project with many discipline models?
+
+Yes. A Teams IFC Viewer tab configured with all relevant models acts as the persistent federated view — no re-selection is needed when the tab is reopened.
+
+For projects with many discipline models (for example, 30–35 separate IFC files), the folder link approach is recommended:
+
+1. Store all discipline IFC files in one SharePoint folder.
+2. Add a new IFC Viewer tab to the Teams channel.
+3. In the tab settings, paste the **direct folder path** of that SharePoint folder (not a sharing link).
+4. Save the tab.
+
+Every team member who opens the tab sees all models loaded automatically. Any new IFC file added to the folder is picked up the next time the tab is opened, without reconfiguring the tab.
+
+To share the federated view with colleagues, right-click the tab and select **Copy link to tab**. Anyone with the required SharePoint permissions for the folder will see the same model set.
+
+> [!NOTE]
+> There is no separate "Save as federated view" action. The tab configuration itself is the persistent, shareable federated view. Colleagues who open locally loaded files via the **Open IFC** button see those files only for themselves; those files are not part of the shared tab configuration.
+
+- How to load a folder: [Setting up the IFC Viewer in Teams – Step 5](https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html#step-5-copy-links-of-ifcbcf-files-or-folders)
+
 ### Can I set a specific BCF issue or clash to open by default in a Teams tab?
 
 Yes. Open the Teams tab settings and paste the topic GUID into **Set your default view (optional)**. After you save the tab, the viewer opens that BCF topic automatically each time the tab is opened.

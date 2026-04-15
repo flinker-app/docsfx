@@ -56,6 +56,26 @@ Yes! You can load multiple models in the SharePoint IFC Viewer by adding multipl
 
 - See here how to add multiple files in the IFC SharePoint viewer: [Click here](https://docs.flinker.app/docs/load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.html).
 
+### Can I create a persistent federated model view for a SharePoint page?
+
+Yes. A SharePoint IFC Viewer WebPart configured with all relevant models acts as the persistent federated view — every user who opens the SharePoint page sees all models loaded automatically without re-selecting them.
+
+For projects with many discipline models (for example, 30–35 separate IFC files), the folder link approach is recommended:
+
+1. Store all discipline IFC files in one SharePoint document library folder.
+2. Add the IFC Viewer WebPart to a SharePoint page.
+3. Open the WebPart settings and paste the **direct folder path** of that folder.
+4. Save and publish the page.
+
+All models in the folder load automatically for every user who visits the page and has access to the folder. New IFC files added to the folder are picked up on the next page load without changing the WebPart configuration.
+
+To share the federated view, share the SharePoint page URL. Anyone with read permission for the page and the folder will see the same model set.
+
+> [!NOTE]
+> There is no separate "Save as federated view" action. The WebPart configuration on the SharePoint page is the persistent, shareable federated view. Files opened locally via the **Open IFC** button are visible only to the person who opened them and are not retained on page reload.
+
+- How to configure a folder: [Load multiple IFC/BCF files – Step 3 (folder alternative)](https://docs.flinker.app/docs/load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.html#alternative-load-all-ifc-files-from-a-folder)
+
 ### Can I open a local IFC file from my desktop in the SharePoint IFC Viewer, and how does that differ from loading a file from SharePoint?
 
 Yes — the IFC Viewer WebPart can open an IFC file directly from your local desktop. The file is loaded and processed entirely in your browser (client-side); nothing is uploaded to SharePoint or any external server. Only the user who opened it can see the model; it is not visible to other users visiting the same SharePoint page.
