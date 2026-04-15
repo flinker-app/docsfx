@@ -19,6 +19,10 @@ keywords:
   - BCF
   - privacy
   - data protection
+  - troubleshooting
+  - trusted script sources
+  - upgrade
+  - update
 tags:
   - sharepoint
   - spfx
@@ -27,6 +31,8 @@ tags:
   - faq
   - privacy
   - metadata
+  - troubleshooting
+  - upgrade
 og:
   title: FAQs for IFC Viewer in SharePoint
   description: SPFx hosting in M365 CDN, Azure CDN viewer module, and minimal metadata—no IFC/BCF content sent.
@@ -35,7 +41,7 @@ twitter:
 audience: users, admins, it
 product: sharepoint-online
 feature: ifc-viewer
-ms.date: 2025-12-05
+ms.date: 2026-04-15
 ---
 # FAQs - IFC Viewer - SharePoint
 
@@ -87,3 +93,25 @@ The shared use case works differently: you store the IFC file in a SharePoint do
 ### Can you set which users can see the IFC model in SharePoint?
 
 Yes. You can determine which users or user groups can see the 3D or IFC model by using SharePoint permissions (for the page and the IFC file) and Microsoft security groups. If you need additional protection workflows, you can also use the Protect app to restrict access and define who can edit the model.
+
+## Troubleshooting
+
+### The viewer opens but the screen only darkens and a close button appears — the viewer never fully loads. What should I do?
+
+The Viewer Library is most likely missing from Trusted Script Sources. A SharePoint admin must add `https://viewer.flinker.app/` under **SharePoint Admin Center → Advanced → Trusted script sources**.
+
+Follow the step-by-step instructions: [Step 3 – Add Viewer Library to Trusted Script Sources](https://docs.flinker.app/docs/viewer-app-installation-with-admin-approval.html#3-add-viewer-library-to-trusted-script-sources-required).
+
+> [!NOTE]
+> This step is required for the viewer to load. Without it, the viewer initialises but the script cannot be fetched, leaving only the darkened overlay and close button visible.
+
+## Updates
+
+### How often do I need to update the SharePoint IFC Viewer, and how?
+
+Update the SharePoint IFC Viewer at least 1–2 times per year. Unlike all other Flinker Microsoft apps, the SharePoint IFC Viewer is an SPFx app that Flinker cannot update automatically — you must pull the update manually via the App Catalog.
+
+Follow the step-by-step instructions: [Upgrade IFC Viewer to the Latest Version](https://docs.flinker.app/docs/upgrade-sharepoint-ifc-viewer-app.html).
+
+> [!TIP]
+> Each upgrade delivers the latest features, security patches, and performance improvements. Only a SharePoint administrator can perform the upgrade.
