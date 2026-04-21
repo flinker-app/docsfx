@@ -111,6 +111,8 @@
           href: IFC_BCF_Bi.md  
         - name: IFC-IDS Compliance Dashboard
           href: IFC_IDS_Compliance.md  
+        - name: IFC Excel Cost Tracker
+          href: ifc-excel-cost-tracker.md  
 - name: Excel IFC Viewer
   expanded: false
   items:
