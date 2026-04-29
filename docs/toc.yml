@@ -156,6 +156,8 @@
       href: faq-share-app-for-microsoft-sharepoint.md
 
 - name: WEB APPS & API
+- name: IFC Viewer SDK
+  href: ifc-viewer-sdk.md
 - name: Copilot for IFC
   href: copilot-for-ifc.md
   items:

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { display: flex; flex-direction: column; height: 100vh; }
+    bim-grid { flex: 1; }
+  </style>
+</head>
+<body>
+
+  <bim-grid id="ifc-viewer"></bim-grid>
+
+  <script type="module">
+    import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.1.0/ifc-viewer.es.js";
+
+    const viewer = new IfcViewer("#ifc-viewer");
+    await viewer.ready;
+
+    const base = "https://raw.githubusercontent.com/ThatOpen/engine_components/main/resources/";
+
+    const ifcBytes = new Uint8Array(await (await fetch(base + "ifc/school_str.ifc")).arrayBuffer());
+    await viewer.add("school_str.ifc", ifcBytes);
+
+    const bcfBytes = new Uint8Array(await (await fetch(base + "topics.bcf")).arrayBuffer());
+    await viewer.add("topics.bcf", bcfBytes);
+  </script>
+
+</body>
+</html>
