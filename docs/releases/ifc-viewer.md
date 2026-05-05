@@ -1,11 +1,14 @@
----
-title: Base IFC Viewer Release Notes
-description: Release history for the base Flinker IFC Viewer, covering model loading, BCF, UI, and performance enhancements.
-keywords: IFC Viewer release notes, base viewer changelog, Flinker IFC updates
-canonical_url: https://docs.flinker.app/docs/releases/ifc-viewer.html
----
+ ### 3.2.0 - 2026-05-05
 
- ### 3.1.0 (3.1.0) - 2025-11-26
+- Exposed viewer internals in the SDK.
+- Improved BCF workflows: creatable topic dropdowns, GUID copy support, event exposure, filters, topic panel refactors, deferred selection handling, marker fixes, and parent visibility fixes.
+- Improved rendering: better edges, lighter ghosted items, hidden-preview render fixes, faster coloring, opacity support, and ghosted model visibility handling.
+- Added and improved infrastructure, bridge, road, real-world map, 3D map, and floorplan examples.
+- Added Copilot support, file support, styling fixes, and follow-up Copilot fixes.
+- Improved file loading with folder support, remembered file links, and IFC drag-and-drop on the start window.
+- Updated UI styling and layout: Tailwind fixes, loading UI, tooltips, feedback entry points, fullscreen SharePoint behavior, borders, and auto-expand behavior.
+
+### 3.1.0 - 2025-11-26
 
 * Improving the eye-icon button for model visibility and adding toolbar badges
 * Added IFC loading worker support for specific domains.
@@ -38,9 +41,7 @@ canonical_url: https://docs.flinker.app/docs/releases/ifc-viewer.html
 * Fixed duplicate selection behavior.
 * Fixed the topic panel.
 
----
-
-### 3.0.0 (3.0.0) - 2025-07-28
+### 3.0.0 - 2025-07-28
 
 * Update to high performance fragments
 * Support loading .frag files, added sample
@@ -55,9 +56,7 @@ canonical_url: https://docs.flinker.app/docs/releases/ifc-viewer.html
 * Added filehandler with redirect
 
 
----
-
-### 2.2.0 (2.2.0) - 2025-04-25
+### 2.2.0 - 2025-04-25
 
 * Moved BCF Topics List UI below model viewer
 * Fixed loading of BFC file without adding new viewpoints
@@ -71,30 +70,22 @@ canonical_url: https://docs.flinker.app/docs/releases/ifc-viewer.html
 * Save visible clipping planes whe new BCF topic is created
 * Added ratings
 
----
-
-### 2.1.7 (2.1.7) - 2025-03-20
+### 2.1.7 - 2025-03-20
 
 * Fixed context menu loading for SharePoint list view, properties in table are now selectable
 * Fixed loading floor plans (model does not turn black anymore)
 * Selection information shows correct color in dark mode
 * Fixed search across loaded models
 
----
-
-### 2.1.5 (2.1.5) - 2025-03-07
+### 2.1.5 - 2025-03-07
 
 * Search and filter with ai generated IDS files by ifc classes and properties (property sets, property names and property values)
 * Open IDS files from computer to set filter
 
----
-
-### 2.1.4 (2.1.4) - 2025-03-04
+### 2.1.4 - 2025-03-04
 
 * New UI to toggle left panel
 * Possibility to use the mesarement and clipper at the same time
 * Move clipping, measurements and plans to left navigation
 * Moved toolbar to contextmenu and added viewcube
-
----
 
