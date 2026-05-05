@@ -418,3 +418,57 @@ article table th {
     margin-bottom: 10px;
   }
 }
+
+/* Tabs — Microsoft docs style */
+
+.tabGroup {
+  margin-top: 1rem;
+}
+
+.tabGroup ul[role="tablist"] {
+  display: flex;
+  gap: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid var(--bs-border-color, #edebe9);
+}
+
+.tabGroup ul[role="tablist"] li {
+  margin: 0;
+  padding: 0;
+}
+
+.tabGroup ul[role="tablist"] a[role="tab"] {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-family: "Segoe UI", SegoeUI, sans-serif;
+  font-weight: 400;
+  color: var(--bs-secondary-color, #605e5c);
+  text-decoration: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  background: none;
+  cursor: pointer;
+  transition: color 0.1s, border-color 0.1s;
+}
+
+.tabGroup ul[role="tablist"] a[role="tab"]:hover {
+  color: var(--bs-body-color);
+  text-decoration: none;
+}
+
+.tabGroup ul[role="tablist"] a[role="tab"][aria-selected="true"] {
+  color: #0779ff;
+  border-bottom-color: #0779ff;
+  font-weight: 600;
+}
+
+.tabGroup section[role="tabpanel"] {
+  border: 1px solid var(--bs-border-color, #edebe9);
+  border-top: none;
+  padding: 0;
+  margin: 0;
+}

@@ -43,7 +43,7 @@ When you create new topics, these elements are captured automatically, providing
 - **Saving Filters**: Create a topic in BCF with certain elements hidden or selected to represent a specific issue. This helps team members instantly see the exact condition or scenario you’re describing without manually adjusting their views.
 
 - **Preset Views**: Use clipping planes to clearly highlight structural or mechanical conflicts within the 3D model. Team members can quickly understand and address these issues by simply accessing the topic, seeing the exact viewpoint and configuration you intended.
-
+- **Reusable filter presets**: Because filter state is part of the BCF specification, the same BCF file can be loaded across any number of projects, Teams channels, or BIM tools to restore a complete filter configuration instantly. Store the file once in SharePoint and distribute it to every project that needs it — no duplication, no manual setup.
 This simplifies communication and ensures everyone stays aligned with clear visual context.
 
 ## How to Get Started

@@ -45,7 +45,20 @@ You can add the IFC Viewer to your site directly through the App Catalog or AppS
 
 ![Add IFC Viewer from My Apps](/_media/sharepoint-site-myapps-ifc.viewer-add.png)
 
-## 3. Use IFC Viewer to Open an IFC File
+## 3. Add Viewer Library to Trusted Script Sources (Required)
+
+To make sure the IFC Viewer web part can load its viewer library in SharePoint, add the viewer domain to trusted script sources in SharePoint Admin Center.
+
+1. Open SharePoint Admin Center.
+2. Go to **Advanced** > **Trusted script sources**.
+3. Add `https://viewer.flinker.app/`.
+4. Save the change.
+
+![Add viewer library to trusted script sources](/_media/add-viewer-library-to-trusted-script-sources.png)
+
+If this setting is missing, users may see script loading or CSP errors and the viewer may not open.
+
+## 4. Use IFC Viewer to Open an IFC File
 
 1. Navigate to the document library where your IFC files are stored.
 2. Select the IFC file you want to open.
