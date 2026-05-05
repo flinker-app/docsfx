@@ -1,4 +1,4 @@
- ### 3.2.0 - 2026-05-05
+ ### v3.2.0 - 2026-05-05
 
 - Exposed viewer internals in the SDK.
 - Improved BCF workflows: creatable topic dropdowns, GUID copy support, event exposure, filters, topic panel refactors, deferred selection handling, marker fixes, and parent visibility fixes.
