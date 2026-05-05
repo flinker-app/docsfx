@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { height: 100vh; display: flex; flex-direction: column; }
+    bim-grid { flex: 1; }
+  </style>
+</head>
+<body>
+
+  <bim-grid id="ifc-viewer"></bim-grid>
+
+  <script type="module">
+    import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.2.0/ifc-viewer.es.js";
+
+    const viewer = new IfcViewer("#ifc-viewer");
+    await viewer.ready;
+
+    const model = await loadModel(
+      "NBU_MedicalClinic_Arch-Optimized.ifc",
+      "https://raw.githubusercontent.com/flinker-app/ifc-sample-files/main/NBU_MedicalClinic/NBU_MedicalClinic_Arch-Optimized.ifc"
+    );
+    const { bytes, topicGuid } = await createBCF("Building elements only", {
+      visibility: {
+        default_visibility: true,
+        exceptions: [],
+        view_setup_hints: {
+          spaces_visible: false,
+          openings_visible: false,
+          space_boundaries_visible: false
+        }
+      }
+    });
+
+    await viewer.add("building-elements-only.bcf", bytes);
+    await viewer.select(topicGuid);
+
+    async function loadModel(name, url) {
+      const bytes = new Uint8Array(await (await fetch(url)).arrayBuffer());
+      await viewer.add(name, bytes.slice());
+      return { name, bytes };
+    }
+
+    async function createBCF(title, state) {
+      const topics = viewer.components.get(viewer.OBC.BCFTopics);
+      const viewpoints = viewer.components.get(viewer.OBC.Viewpoints);
+
+      setupTopics(topics);
+      if (!viewpoints.isSetup) viewpoints.setup();
+
+      const viewpoint = viewpoints.create({ components: state });
+      viewpoint.world = viewer.world;
+      await viewpoint.updateCamera(false);
+      viewpoint.snapshot = "snapshot";
+      viewpoints.snapshots.set(viewpoint.snapshot, snapshot());
+
+      const topic = topics.create({ title, type: "Coordination", status: "Open" });
+      topic.viewpoints.add(viewpoint.guid);
+
+      try {
+        const blob = await topics.export([topic]);
+        return { topicGuid: topic.guid, bytes: new Uint8Array(await blob.arrayBuffer()) };
+      } finally {
+        topics.list.delete(topic.guid);
+        viewpoints.list.delete(viewpoint.guid);
+        viewpoints.snapshots.delete(viewpoint.snapshot);
+      }
+    }
+
+    function setupTopics(topics) {
+      if (!topics.isSetup) {
+        topics.setup({
+          version: "3",
+          author: "docs@example.com",
+          types: new Set(["Coordination"]),
+          statuses: new Set(["Open"])
+        });
+      }
+
+      topics.config.version = "3";
+      topics.config.author = "docs@example.com";
+      topics.config.types.add("Coordination");
+      topics.config.statuses.add("Open");
+      topics.config.includeSelectionTag = true;
+    }
+
+    function snapshot() {
+      return Uint8Array.from(
+        atob("iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+/p9sAAAAASUVORK5CYII="),
+        char => char.charCodeAt(0)
+      );
+    }
+  </script>
+
+</body>
+</html>

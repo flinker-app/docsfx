@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { height: 100vh; display: flex; flex-direction: column; }
+    bim-grid { flex: 1; }
+  </style>
+</head>
+<body>
+
+  <bim-grid id="ifc-viewer"></bim-grid>
+
+  <script type="module">
+    import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.2.0/ifc-viewer.es.js";
+
+    const viewer = new IfcViewer("#ifc-viewer");
+    await viewer.ready;
+
+    const model = await loadModel(
+      "NBU_MedicalClinic_Arch-Optimized.ifc",
+      "https://raw.githubusercontent.com/flinker-app/ifc-sample-files/main/NBU_MedicalClinic/NBU_MedicalClinic_Arch-Optimized.ifc"
+    );
+
+    const selected = [
+      ...componentsByType(model, ["IFCDOOR"], 24),
+      ...componentsByType(model, ["IFCWINDOW"], 24),
+      ...componentsByType(model, ["IFCWALLSTANDARDCASE", "IFCWALL"], 16)
+    ];
+
+    const { bytes, topicGuid } = await createBCF("Doors, windows, and walls selected", {
+      selection: selected
+    });
+
+    await viewer.add("doors-windows-and-walls-selected.bcf", bytes);
+    await viewer.select(topicGuid);
+
+    async function loadModel(name, url) {
+      const bytes = new Uint8Array(await (await fetch(url)).arrayBuffer());
+      await viewer.add(name, bytes.slice());
+      return { name, bytes };
+    }
+
+    function componentsByType(file, types, limit = Number.POSITIVE_INFINITY) {
+      file.text ??= new TextDecoder().decode(file.bytes);
+      const components = [];
+
+      for (const type of types) {
+        const regex = new RegExp(`#\\d+\\s*=\\s*${type}\\('([^']+)'`, "g");
+        for (const match of file.text.matchAll(regex)) {
+          components.push({ ifc_guid: match[1], authoring_tool_id: null });
+          if (components.length >= limit) return components;
+        }
+      }
+
+      return components;
+    }
+
+    async function createBCF(title, state) {
+      const topics = viewer.components.get(viewer.OBC.BCFTopics);
+      const viewpoints = viewer.components.get(viewer.OBC.Viewpoints);
+
+      setupTopics(topics);
+      if (!viewpoints.isSetup) viewpoints.setup();
+
+      const viewpoint = viewpoints.create({ components: state });
+      viewpoint.world = viewer.world;
+      await viewpoint.updateCamera(false);
+      viewpoint.snapshot = "snapshot";
+      viewpoints.snapshots.set(viewpoint.snapshot, snapshot());
+
+      const topic = topics.create({ title, type: "Coordination", status: "Open" });
+      topic.viewpoints.add(viewpoint.guid);
+
+      try {
+        const blob = await topics.export([topic]);
+        return { topicGuid: topic.guid, bytes: new Uint8Array(await blob.arrayBuffer()) };
+      } finally {
+        topics.list.delete(topic.guid);
+        viewpoints.list.delete(viewpoint.guid);
+        viewpoints.snapshots.delete(viewpoint.snapshot);
+      }
+    }
+
+    function setupTopics(topics) {
+      if (!topics.isSetup) {
+        topics.setup({
+          version: "3",
+          author: "docs@example.com",
+          types: new Set(["Coordination"]),
+          statuses: new Set(["Open"])
+        });
+      }
+
+      topics.config.version = "3";
+      topics.config.author = "docs@example.com";
+      topics.config.types.add("Coordination");
+      topics.config.statuses.add("Open");
+      topics.config.includeSelectionTag = true;
+    }
+
+    function snapshot() {
+      return Uint8Array.from(
+        atob("iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+/p9sAAAAASUVORK5CYII="),
+        char => char.charCodeAt(0)
+      );
+    }
+  </script>
+
+</body>
+</html>

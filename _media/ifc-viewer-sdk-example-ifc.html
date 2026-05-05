@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { height: 100vh; display: flex; flex-direction: column; }
+    bim-grid { flex: 1; }
+  </style>
+</head>
+<body>
+
+  <bim-grid id="ifc-viewer"></bim-grid>
+
+  <script type="module">
+    import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.2.0/ifc-viewer.es.js";
+
+    const viewer = new IfcViewer("#ifc-viewer");
+    await viewer.ready;
+
+    const base = "https://raw.githubusercontent.com/flinker-app/ifc-sample-files/main/NBU_MedicalClinic/";
+    for (const name of [
+      "NBU_MedicalClinic_Arch-Optimized.ifc",
+      "NBU_MedicalClinic_Eng-HVAC.ifc"
+    ]) {
+      const bytes = new Uint8Array(await (await fetch(base + name)).arrayBuffer());
+      await viewer.add(name, bytes);
+    }
+  </script>
+
+</body>
+</html>

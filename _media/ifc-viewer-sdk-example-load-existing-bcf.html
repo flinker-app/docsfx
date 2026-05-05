@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { height: 100vh; display: flex; flex-direction: column; }
+    bim-grid { flex: 1; }
+  </style>
+</head>
+<body>
+
+  <bim-grid id="ifc-viewer"></bim-grid>
+
+  <script type="module">
+    import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.2.0/ifc-viewer.es.js";
+
+    const viewer = new IfcViewer("#ifc-viewer");
+    await viewer.ready;
+
+    const base = "https://raw.githubusercontent.com/flinker-app/ifc-sample-files/main/NBU_MedicalClinic/";
+
+    const ifcBytes = new Uint8Array(await (await fetch(base + "NBU_MedicalClinic_Arch-Optimized.ifc")).arrayBuffer());
+    await viewer.add("NBU_MedicalClinic_Arch-Optimized.ifc", ifcBytes);
+
+    const sourceBcfName = "NBU_MedicalClinic_BCF_Coordination_Sample.bcf";
+    const bcfBytes = new Uint8Array(await (await fetch(base + sourceBcfName)).arrayBuffer());
+    await viewer.add("coordination-sample.bcf", bcfBytes);
+    await viewer.select("1530757a-ae02-40df-a088-d5c1996ab010");
+  </script>
+
+</body>
+</html>

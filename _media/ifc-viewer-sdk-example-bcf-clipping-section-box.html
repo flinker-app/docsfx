@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; height: 100vh; display: flex; }
+    bim-grid { flex: 1; min-width: 0; min-height: 0; }
+  </style>
+</head>
+<body>
+
+  <bim-grid id="viewer"></bim-grid>
+
+  <script type="module">
+    import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.2.0/ifc-viewer.es.js";
+
+    const viewer = new IfcViewer("#viewer");
+    await viewer.ready;
+
+    const ifcUrl = "https://raw.githubusercontent.com/flinker-app/ifc-sample-files/main/NBU_MedicalClinic/NBU_MedicalClinic_Arch-Optimized.ifc";
+    const ifcBytes = new Uint8Array(await (await fetch(ifcUrl)).arrayBuffer());
+    await viewer.add("NBU_MedicalClinic_Arch-Optimized.ifc", ifcBytes);
+
+    const { blob, topicGuid } = await createBCF();
+    await viewer.add("central-section-box.bcf", new Uint8Array(await blob.arrayBuffer()));
+    await viewer.select(topicGuid);
+    hideClippingPlaneHelpers();
+
+    async function createBCF() {
+      const { OBC, THREE, components, world } = viewer;
+      const Vector3 = THREE.Vector3;
+      const box = await loadedModelBox();
+      const center = box.getCenter(new Vector3());
+      const size = box.getSize(new Vector3());
+
+      const clipper = components.get(OBC.Clipper);
+      const clippingPlanes = createSectionBoxPlanes(clipper, world, center, size, Vector3);
+
+      await setSectionBoxCamera(world, center, size, THREE);
+
+      const topics = components.get(OBC.BCFTopics);
+      const viewpoints = components.get(OBC.Viewpoints);
+      viewpoints.world = world;
+      setupTopics(topics, "Coordination");
+      if (!viewpoints.isSetup) viewpoints.setup();
+
+      const viewpoint = viewpoints.create();
+      viewpoint.world = world;
+      for (const clippingPlane of clippingPlanes) viewpoint.clippingPlanes.add(clippingPlane);
+      await viewpoint.updateCamera(false);
+      viewpoint.snapshot = "snapshot";
+      viewpoints.snapshots.set(viewpoint.snapshot, snapshot());
+
+      const topic = topics.create({ title: "Central section box", type: "Coordination", status: "Open" });
+      topic.viewpoints.add(viewpoint.guid);
+
+      try {
+        return { topicGuid: topic.guid, blob: await topics.export([topic]) };
+      } finally {
+        for (const clippingPlane of clippingPlanes) clipper.delete(world, clippingPlane);
+        topics.list.delete(topic.guid);
+        viewpoints.list.delete(viewpoint.guid);
+        viewpoints.snapshots.delete(viewpoint.snapshot);
+      }
+    }
+
+    function createSectionBoxPlanes(clipper, world, center, size, Vector3) {
+      const half = new Vector3(size.x * 0.32, size.y * 0.42, size.z * 0.32);
+      const planeDefinitions = [
+        { normal: new Vector3(-1, 0, 0), point: new Vector3(center.x + half.x, center.y, center.z) },
+        { normal: new Vector3(1, 0, 0), point: new Vector3(center.x - half.x, center.y, center.z) },
+        { normal: new Vector3(0, -1, 0), point: new Vector3(center.x, center.y + half.y, center.z) },
+        { normal: new Vector3(0, 1, 0), point: new Vector3(center.x, center.y - half.y, center.z) },
+        { normal: new Vector3(0, 0, -1), point: new Vector3(center.x, center.y, center.z + half.z) },
+        { normal: new Vector3(0, 0, 1), point: new Vector3(center.x, center.y, center.z - half.z) }
+      ];
+
+      return planeDefinitions.map(({ normal, point }) => {
+        const clippingPlane = clipper.createFromNormalAndCoplanarPoint(world, normal, point);
+        const plane = clipper.list.get(clippingPlane);
+        plane.enabled = false;
+        plane.visible = false;
+        return clippingPlane;
+      });
+    }
+
+    function setupTopics(topics, type) {
+      if (!topics.isSetup) {
+        topics.setup({
+          version: "3",
+          author: "docs@example.com",
+          types: new Set([type]),
+          statuses: new Set(["Open"])
+        });
+      }
+
+      topics.config.version = "3";
+      topics.config.author = "docs@example.com";
+      topics.config.types.add(type);
+      topics.config.statuses.add("Open");
+    }
+
+    async function loadedModelBox() {
+      const box = new viewer.THREE.Box3();
+
+      for (const model of viewer.fragments.core.models.list.values()) {
+        const modelBox = await model.box;
+        if (modelBox && !modelBox.isEmpty()) box.union(modelBox);
+      }
+
+      return box;
+    }
+
+    function hideClippingPlaneHelpers() {
+      const clipper = viewer.components.get(viewer.OBC.Clipper);
+      clipper.visible = false;
+      for (const plane of clipper.list.values()) plane.visible = false;
+    }
+
+    async function setSectionBoxCamera(world, center, size, THREE) {
+      const camera = world.camera;
+      camera.projection.set("Orthographic");
+      const radius = Math.max(size.x, size.y, size.z) * 0.28;
+      const sphere = new THREE.Sphere(center, radius);
+      const distance = Math.max(size.x, size.y, size.z) * 0.95;
+      await camera.controls.fitToSphere(sphere, false);
+      await camera.controls.setPosition(center.x + distance, center.y + distance * 0.45, center.z + distance, false);
+      await camera.controls.setTarget(center.x, center.y, center.z, false);
+      camera.controls.update(0);
+    }
+
+    function snapshot() {
+      return Uint8Array.from(
+        atob("iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+/p9sAAAAASUVORK5CYII="),
+        char => char.charCodeAt(0)
+      );
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+### YamlMime:Dashboard
+---
+title: Examples
+description: Short browser examples for loading IFC, BCF, and IDS data with the Flinker IFC Viewer SDK.
+documentType: dashboard
+_disableAffix: true
+_disableNextArticle: true
+expanded: true
+items:
+  - name: Display IFC models
+    thumbnail: /_media/ifc-viewer-sdk-thumb-ifc.png
+    description: Loads two NBU Medical Clinic IFC discipline models into one viewer.
+    href: ifc-viewer-sdk-example-ifc.html
+  - name: Load and create BCF topics
+    thumbnail: /_media/ifc-viewer-sdk-thumb-bcf-topics.png
+    description: Loads an existing BCF file and creates a new BCF topic in the browser.
+    href: ifc-viewer-sdk-example-bcf-topics.html
+  - name: BCF selection
+    thumbnail: /_media/ifc-viewer-sdk-thumb-bcf-selection.png
+    description: Creates a BCF topic that selects doors, windows, and walls.
+    href: ifc-viewer-sdk-example-bcf-selection.html
+  - name: BCF coloring
+    thumbnail: /_media/ifc-viewer-sdk-thumb-bcf-coloring.png
+    description: Creates a BCF topic with transparent color groups for model components.
+    href: ifc-viewer-sdk-example-bcf-coloring.html
+  - name: BCF visibility
+    thumbnail: /_media/ifc-viewer-sdk-thumb-bcf-visibility.png
+    description: Creates BCF topics that hide or show components with visibility exceptions and view setup hints.
+    href: ifc-viewer-sdk-example-bcf-visibility.html
+  - name: BCF clipping planes
+    thumbnail: /_media/ifc-viewer-sdk-thumb-bcf-clipping.png
+    description: Creates a BCF topic with a model-derived clipping plane.
+    href: ifc-viewer-sdk-example-bcf-clipping.html
+  - name: Validate with IDS
+    thumbnail: /_media/ifc-viewer-sdk-thumb-ids.png
+    description: Loads the RAC advanced sample IFC model and IDS XML validation data into the viewer.
+    href: ifc-viewer-sdk-example-ids.html
