@@ -1,4 +1,10 @@
- ### v3.2.0 - 2026-05-05
+ ### v3.2.1 - 2026-05-06
+
+- Fix BCF clipping round-trip handling and viewpoint refresh behavior.
+- Use BCF components with compatibility patches for BCF import/export workflows.
+- Add BCF topic pin rendering and buildingSMART sample topic loading.
+
+### v3.2.0 - 2026-05-05
 
 - Exposed viewer internals in the SDK.
 - Improved BCF workflows: creatable topic dropdowns, GUID copy support, event exposure, filters, topic panel refactors, deferred selection handling, marker fixes, and parent visibility fixes.
