@@ -24,7 +24,7 @@ The SDK is distributed as an ES module on Flinker's CDN, no npm install required
 From there, the same viewer can open BCF topics, create new BCF topics from the current view, and show IDS validation results next to the model.
 
 ```js
-import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.2.0/ifc-viewer.es.js";
+import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.2.1/ifc-viewer.es.js";
 
 const viewer = new IfcViewer("#ifc-viewer");
 await viewer.ready;
@@ -33,7 +33,7 @@ const bytes = new Uint8Array(await (await fetch("model.ifc")).arrayBuffer());
 await viewer.add("model.ifc", bytes);
 ```
 
-To pin a specific version, replace `v3.2.0` with the desired release tag.
+To pin a specific version, replace `v3.2.1` with the desired release tag.
 
 ## Examples
 
