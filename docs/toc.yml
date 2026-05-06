@@ -12,6 +12,8 @@
       href: ifc-infra.md
     - name: IFC Filters
       href: ifc-filters.md
+    - name: 2D Floor plans PDF
+      href: PDF-2d.md
     - name: Real World Map
       href: real_worldMap.md
 
