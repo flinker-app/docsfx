@@ -18,7 +18,7 @@ Use this guide to work with the **IFC Excel Cost Tracker** workbook as a practic
 
 The goal is to give project teams a single workflow for reviewing model elements and tracking **budgeted vs. actual cost** with better visibility and traceability.
 
----
+
 
 ## Download the workbook
 
@@ -26,7 +26,7 @@ Download the ready-to-use template and point it to your own IFC file:
 
 - [Download IFC Cost Tracking workbook](../_media/IFC_CostTracking.xlsx)
 
----
+
 
 ## Recommended setup
 
@@ -50,7 +50,7 @@ For the fastest and most reliable refresh experience in a trusted company enviro
 
 > **Note:** Use this setup only for internal, trusted company workflows. Do not apply it for untrusted or highly sensitive mixed-source scenarios without reviewing data governance requirements first.
 
----
+
 
 ## Workbook structure
 
@@ -105,7 +105,7 @@ These fields are driven by ready-to-use template formulas and should not be type
 
 > **Best practice:** rely on `Model_Quantity` by default. Use `Quantity Manual Input` only when a controlled override is required.
 
----
+
 
 ## Quantity fallback logic
 
@@ -133,7 +133,6 @@ The IFC Classes reference table defines the fallback chain for all 99 supported 
 
 - [Download IFC Classes Fallback Reference](../_media/CostTracker_Fallback.xlsx)
 
----
 
 ## Typical workflow
 
@@ -175,7 +174,6 @@ See the overview video:
   Your browser does not support the video tag.
 </video>
 
----
 
 ## How selection sync works
 
@@ -190,8 +188,6 @@ The current sync behavior supports:
 ### Viewer to Excel
 This works best when the IFC identifier column is named `GUID` or `GlobalId`.
 
----
-
 ## Best practices
 
 - do not edit or reformat the IFC ID values
@@ -202,7 +198,7 @@ This works best when the IFC identifier column is named `GUID` or `GlobalId`.
 - keep PivotTables connected to workbook data that still contains the IFC ID source column
 - save the workbook after major refreshes or updates
 
----
+
 
 ## Troubleshooting
 
@@ -238,9 +234,6 @@ Check the following:
 - the PivotTable is connected to the correct workbook table or range
 - the workbook formulas and summary logic were not broken by structural edits
 
-If needed, review the overview video:
-
-- [IFC_CostTracker_Overview.mp4](/_media/IFC_CostTracker_Overview.mp4)
 
 ### The workbook becomes slow
 For better performance:
@@ -251,7 +244,6 @@ For better performance:
 - refresh only after the IFC path is correct
 - avoid unnecessary edits to the source table structure
 
----
 
 ## What is filled automatically vs. manually — quick summary
 
