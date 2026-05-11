@@ -1,4 +1,11 @@
- ### v3.2.1 - 2026-05-06
+ ### v3.2.2 - 2026-05-11
+
+- Added BCF bitmap annotations for drawing and text on viewpoints.
+- Added PDF floor plan import, calibration, and snapping tools.
+- Improved viewer styling, selection details, model tree hierarchy, and quick camera views.
+- Fixed measurement rendering with postproduction edges and visibility consistency across filters.
+
+### v3.2.1 - 2026-05-06
 
 - Fix BCF clipping round-trip handling and viewpoint refresh behavior.
 - Use BCF components with compatibility patches for BCF import/export workflows.
