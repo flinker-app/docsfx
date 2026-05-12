@@ -24,7 +24,7 @@ The goal is to give project teams a single workflow for reviewing model elements
 
 Download the ready-to-use template and point it to your own IFC file:
 
-- [Download IFC Cost Tracking workbook](../_media/IFC_CostTracking.xlsx)
+- [Download IFC Cost Tracking workbook](../_media/IFC_Cost_Tracking.xlsx)
 
 
 
