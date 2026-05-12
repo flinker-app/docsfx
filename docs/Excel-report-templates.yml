@@ -1,0 +1,13 @@
+### YamlMime:Dashboard
+---
+title: Report Templates for the IFC Viewer Visual in Excel
+description: Explore practical Report Templates for integrating IFC Viewer Visual with Excel.
+documentType: dashboard
+_disableAffix: true
+_disableNextArticle: true
+expanded: true
+items:
+  - name: IFC Excel Cost Tracker
+    thumbnail: /_media/ifc-excel-cost-tracker.png
+    description: Track budgeted vs. actual cost in Excel with a ready-to-use IFC-based cost control workbook linked to element geometry, quantities, PivotTables, KPIs, and the IFC Viewer.
+    href: ifc-excel-cost-tracker.html
