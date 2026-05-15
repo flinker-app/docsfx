@@ -49,7 +49,7 @@ This is a complete embedded IFC viewer. Put a `bim-grid` element on the page, im
   <bim-grid id="ifc-viewer"></bim-grid>
 
   <script type="module">
-    import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.2.1/ifc-viewer.es.js";
+    import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.3.0/ifc-viewer.es.js";
 
     const viewer = new IfcViewer("#ifc-viewer");
     await viewer.ready;
@@ -62,7 +62,7 @@ This is a complete embedded IFC viewer. Put a `bim-grid` element on the page, im
 </html>
 ```
 
-To pin a release, keep the version in the CDN URL, for example `v3.2.1`. Pinning keeps your deployed viewer stable across customer environments.
+To pin a release, keep the version in the CDN URL, for example `v3.3.0`. Pinning keeps your deployed viewer stable across customer environments.
 
 ## What You Get
 
@@ -121,7 +121,7 @@ Convert the source file to `Uint8Array` and pass it to `viewer.add(filename, byt
 <bim-grid id="ifc-viewer"></bim-grid>
 
 <script type="module">
-  import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.2.1/ifc-viewer.es.js";
+  import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.3.0/ifc-viewer.es.js";
 
   const viewer = new IfcViewer("#ifc-viewer");
   await viewer.ready;
@@ -158,7 +158,7 @@ for (const file of ["architecture.ifc", "structure.ifc", "mep.ifc"]) {
 The SDK mounts into a DOM element, so it fits normal frontend component lifecycles. Create the element in your component, initialize the viewer after the element exists, and call `viewer.add()` when your app has file bytes.
 
 ```js
-import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.2.1/ifc-viewer.es.js";
+import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.3.0/ifc-viewer.es.js";
 
 let viewer;
 
@@ -226,7 +226,7 @@ Copy this into your coding assistant:
 ```text
 Add a fully working browser IFC viewer with the Flinker IFC Viewer SDK.
 Use this import:
-import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.2.1/ifc-viewer.es.js";
+import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.3.0/ifc-viewer.es.js";
 
 Mount it into a <bim-grid id="ifc-viewer"></bim-grid> element.
 Create the viewer with new IfcViewer("#ifc-viewer").
@@ -238,7 +238,7 @@ Do not upload the IFC file to a backend just to view it.
 Minimal JavaScript:
 
 ```js
-import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.2.1/ifc-viewer.es.js";
+import { IfcViewer } from "https://cdn.flinker.app/ifc-viewer/v3.3.0/ifc-viewer.es.js";
 
 const viewer = new IfcViewer("#ifc-viewer");
 await viewer.ready;
