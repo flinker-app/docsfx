@@ -14,7 +14,7 @@ The **IFC Cloud Semantic Model** is a reusable Power BI dataset pattern that loa
 
 You publish the template into your own Power BI Service workspace, point its parameters at your SharePoint locations, and let Power BI Service handle refresh on a schedule. The IFC parsing is fully automated in the cloud — you no longer need to open Power BI Desktop and click **Refresh** every time the IFC model changes.
 
-For an end-to-end usage example of the IFC multi-file loading pattern this model is built on, see [IFC Multi-File Loading & Coloring Sample (Power BI)](IFC_Multi_File_Loading.md). You can also explore the [live sample semantic model](https://app.powerbi.com/onelake/details/db7b4b0b-8ec6-4f90-925e-113e4aa1c4ee/dataset/e0ccf3e9-b859-493c-aa72-5f8531654a86/overview?experience=power-bi) on Power BI Service for reference.
+For an end-to-end usage example of the IFC multi-file loading pattern this model is built on, see [IFC Multi-File Loading & Coloring Sample (Power BI)](IFC_Multi_File_Loading.md).
 
 ## Why use a cloud semantic model?
 

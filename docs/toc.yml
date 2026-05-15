@@ -126,7 +126,7 @@
       href: excel-ifc-viewer-guide.md
     - name: Report Templates
       expanded: true
-      href: excel-report-templates.yml
+      href: Excel-report-templates.yml
       items:
         - name: IFC Excel Cost Tracker
           href: ifc-excel-cost-tracker.md    
