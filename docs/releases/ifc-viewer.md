@@ -4,8 +4,6 @@
 - Added street, light, dark, satellite, and 3D map presets in the viewer camera controls.
 - Added model overview and IFC georeferencing details in the selection/project information panel.
 - Added support for resolving IFC projected CRS, map conversion, rigid operation, IFC2x3 georeferencing property sets, and IfcSite reference coordinates.
-- Replaced the blocked OpenStreetMap standard tile endpoint with CARTO Voyager for the default street map.
-- SDK users using the 2D map style id `osm` should switch to `street`.
 
 ### v3.2.2 - 2026-05-11
 
