@@ -46,6 +46,9 @@ Flinker documentation covers IFC and BCF workflows across SharePoint, Microsoft 
 - BCF Navisworks import: https://docs.flinker.app/docs/bcf-navisworks.html
 
 ## AI / API docs
+- IFC Viewer SDK for embedding an IFC/BIM viewer in web apps: https://docs.flinker.app/docs/ifc-viewer-sdk.html
+- IFC Viewer SDK API reference: https://docs.flinker.app/docs/ifc-viewer-sdk-api.html
+- IFC Viewer SDK examples: https://docs.flinker.app/docs/ifc-viewer-sdk-examples.html
 - Copilot for IFC: https://docs.flinker.app/docs/copilot-for-ifc.html
 - Copilot for IFC Pro: https://docs.flinker.app/docs/copilot-for-ifc-pro.html
 - Copilot for IFC API: https://docs.flinker.app/docs/copilot-for-ifc-api.html
