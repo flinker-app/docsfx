@@ -103,6 +103,29 @@ You can restrict upload permissions by adjusting SharePoint settings or using th
 
 That's it! You've successfully set up the IFC Viewer in your Microsoft Teams environment.
 
+## Org-Wide Deployment for Administrators
+
+The steps above describe setup for individual users or team owners. If you are a Teams Administrator deploying the IFC Viewer across your organization, use one of the following methods.
+
+### Option A - App Setup Policy
+
+The IFC Viewer can be deployed and pinned tenant-wide or for specific security groups via Teams App Setup Policies in the Teams Admin Center. Contact [support@flinker.app](mailto:support@flinker.app) for setup guidance.
+
+### Option B - Team Templates
+
+Team Templates let you include the IFC Viewer as a pre-configured channel tab in any new team created from the template.
+
+1. Go to Teams Admin Center, then Teams, then Team templates.
+2. Create a new template or edit an existing one.
+3. Add a tab to the desired channel and select the IFC Viewer app.
+4. Save the template.
+
+New teams created from this template will include the IFC Viewer tab automatically. This option applies to new teams only; existing teams are not affected.
+
+### Configuring File Links at Scale
+
+When the IFC Viewer tab is added to a team, the SharePoint file or folder links inside the tab must still be configured. This can be done manually by the team owner, or automated via Microsoft Graph for large-scale rollouts. Contact [support@flinker.app](mailto:support@flinker.app) for guidance.
+
 ## Contact
 
 If you'd like to learn more about how this integration can benefit your workflow, our team is ready to discuss the possibilities with you.
