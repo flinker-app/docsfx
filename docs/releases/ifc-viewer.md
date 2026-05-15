@@ -1,4 +1,13 @@
- ### v3.2.2 - 2026-05-11
+ ### v3.3.0 - 2026-05-15
+
+- Added map placement for georeferenced IFC models, including 2D map tiles and 3D tiles.
+- Added street, light, dark, satellite, and 3D map presets in the viewer camera controls.
+- Added model overview and IFC georeferencing details in the selection/project information panel.
+- Added support for resolving IFC projected CRS, map conversion, rigid operation, IFC2x3 georeferencing property sets, and IfcSite reference coordinates.
+- Replaced the blocked OpenStreetMap standard tile endpoint with CARTO Voyager for the default street map.
+- SDK users using the 2D map style id `osm` should switch to `street`.
+
+### v3.2.2 - 2026-05-11
 
 - Added BCF bitmap annotations for drawing and text on viewpoints.
 - Added PDF floor plan import, calibration, and snapping tools.
