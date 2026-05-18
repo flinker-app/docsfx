@@ -94,8 +94,8 @@
     - name: Performance & load times
       href: ifc-viewer-optimization-and-load-times-for-power-bi.md
     - name: IFC Semantic Model
-      href: IFC_SharedSemanticModel
-    - name: Activate advanced features.md
+      href: IFC_SharedSemanticModel.md
+    - name: Activate advanced features
       href: ifc-viewer-license-key-for-power-bi.md
     - name: Share reports with external users
       href: sharing-power-bi-ifc-reports-with-external-users.md
