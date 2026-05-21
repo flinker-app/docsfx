@@ -12,9 +12,6 @@ canonical_url: https://docs.flinker.app/docs/ifc-power-bi.html
 > [!div class="nextstepaction"]
 > [Get the sample Power BI report](https://appsource.microsoft.com/en-us/product/power-bi-visuals/flinkergmbh1644589155747.ifc-viewer?src=docs&mktcmpid=ifc_power_pi)
 
-> [!NOTE]
-> Need custom Power BI dashboards with integrated data sources? [Book a meeting](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/).
-
 The **IFC Viewer** is a Microsoft Power BI visual available on **Microsoft AppSource**. Use it to view Industry Foundation Classes (IFC) models directly in Power BI and connect model elements to report data.
 
 ## Why choose the IFC Viewer Visual for Power BI?

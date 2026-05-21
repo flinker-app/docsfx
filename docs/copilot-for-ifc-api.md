@@ -65,7 +65,3 @@ Use the Copilot for IFC SDK to turn a user prompt into a Python workflow that ca
 - IFC files can stay on the client (browser memory / local session) when executed with the runtime library.
 - Only user text (and optional metadata you choose to send) needs to be submitted for AI workflow generation.
 - This split supports enterprise requirements around data sovereignty and confidential project data.
-
-
-> [!div class="nextstepaction"]
-> [Request SDK access](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)

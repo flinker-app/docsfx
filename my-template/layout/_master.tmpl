@@ -17,10 +17,11 @@
       {{#description}}<meta name="description" content="{{description}}">{{/description}}
       <link rel="icon" href="{{_rel}}{{{_appFaviconPath}}}{{^_appFaviconPath}}favicon.ico{{/_appFaviconPath}}">
       <link rel="stylesheet" href="{{_rel}}public/docfx.min.css">
-      <link rel="stylesheet" href="{{_rel}}public/main.css">
-      {{#_pageCss}}<link rel="stylesheet" href="{{_rel}}{{_pageCss}}">{{/_pageCss}}
+      <link rel="stylesheet" href="{{_rel}}public/main.css?v=20260521-toc-filter-3">
+      {{#_pageCss}}<link rel="stylesheet" href="{{_rel}}{{_pageCss}}?v=20260521-toc-filter-3">{{/_pageCss}}
       <meta name="docfx:navrel" content="{{_navRel}}">
       <meta name="docfx:tocrel" content="{{_tocRel}}">
+      {{#robots}}<meta name="robots" content="{{robots}}">{{/robots}}
       {{#_noindex}}<meta name="searchOption" content="noindex">{{/_noindex}}
       {{#_enableSearch}}<meta name="docfx:rel" content="{{_rel}}">{{/_enableSearch}}
       {{#_disableNewTab}}<meta name="docfx:disablenewtab" content="true">{{/_disableNewTab}}
@@ -75,7 +76,7 @@
             <div id="navbar">
               <nav class="site-header-links" aria-label="Top navigation">
                 <a href="{{_rel}}index.html">Overview</a>
-                <a href="{{_rel}}docs/apps.html">Microsoft apps</a>
+                <a href="{{_rel}}docs/apps.html">Microsoft solutions</a>
                 <a href="{{_rel}}docs/ifc-viewer-sdk.html">SDK</a>
                 <a href="{{_rel}}docs/releases.html">Releases</a>
                 <a href="https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/" target="_blank" rel="noopener noreferrer" aria-label="Support opens in a new tab">Support <i class="bi bi-box-arrow-up-right external-link-icon" aria-hidden="true"></i></a>
@@ -127,6 +128,19 @@
         <article data-uid="{{uid}}"{{#documentType}} class="docfx-{{documentType}}"{{/documentType}}>
           {{!body}}
         </article>
+
+        {{#lastUpdatedText}}
+        <div class="article-metadata d-print-none">
+          <span>{{lastUpdatedText}}</span>
+        </div>
+        {{/lastUpdatedText}}
+        {{^lastUpdatedText}}
+        {{#lastUpdated}}
+        <div class="article-metadata d-print-none">
+          <span>Last updated on {{lastUpdated}}</span>
+        </div>
+        {{/lastUpdated}}
+        {{/lastUpdatedText}}
 
         {{^_disableContribution}}
         <div class="contribution d-print-none">

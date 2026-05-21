@@ -21,9 +21,9 @@ Your SharePoint administrator receives the app request in Microsoft 365. Many or
 
 Contact your SharePoint administrator if the request is still pending. The administrator must approve and deploy the app before you can use it on a site.
 
-## Support IT security reviews
+## IT security reviews
 
-Send your IT security team the relevant setup, architecture, and data protection documentation. If your organization needs additional documentation, contact [support@flinker.app](mailto:support@flinker.app) with the specific requirements.
+Send your IT security team the relevant setup, architecture, and data protection documentation.
 
 ## Find Protect for SharePoint after setup
 
@@ -53,7 +53,7 @@ If your project uses IFC files in SharePoint or Teams, combine Protect for Share
 
 Protect for SharePoint can manage access to content that is displayed in Microsoft Teams tabs when that content is stored or controlled through Microsoft 365 or SharePoint. For example, you can restrict access to a document, folder, list, URL, or embedded application for specific user groups.
 
-For third-party applications embedded in Teams tabs, contact [support@flinker.app](mailto:support@flinker.app) to review the access-control scenario.
+For third-party applications embedded in Teams tabs, review the access-control scenario before deployment.
 
 ## Hide Teams tabs
 

@@ -32,8 +32,8 @@
     - name: Pro
       href: copilot-for-ifc-pro.md
 
-- name: MICROSOFT 365 APPS
-- name: Microsoft 365 apps overview
+- name: MICROSOFT 365 SOLUTIONS
+- name: Microsoft 365 solutions overview
   href: apps.yml
 - name: Admin deployment overview
   href: it-admin-quickstart.md
@@ -135,13 +135,6 @@
       items:
         - name: IFC Excel cost tracker
           href: ifc-excel-cost-tracker.md    
-- name: IFC Viewer for Microsoft Project
-  href: ifc-viewer-project.md
-- name: IFC workflows for Power Automate
-  href: ifc-power-automate.md
-- name: IFC apps for Power Apps
-  href: ifc-power-apps.md
-
 - name: Protect for SharePoint
   expanded: false
   items:

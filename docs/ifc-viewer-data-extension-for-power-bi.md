@@ -32,7 +32,7 @@ When enabled, our IFC API pre-processes and converts IFC into a compact, Power B
 
 ### Activate in parameters
 
-1. In Power BI Desktop, open your report and go to **Home** > **Edit Parameters**. The Power BI report is available from your Flinker support team.
+1. In Power BI Desktop, open your report and go to **Home** > **Edit Parameters**.
 2. Set the parameter **Use IFC API** to `TRUE`, then click **OK**.
 
 ![Edit Parameters and enable IFC API](/_media/edit-parameters-and-use-ifc-api-in-power-bi.png)
@@ -75,7 +75,7 @@ After configuring the parameters and privacy settings:
 
 ### Install the connector (.mez)
 
-1. Download the latest IFC connector package (`.mez`). The file is available from your Flinker support team.
+1. Download the latest IFC connector package (`.mez`).
 2. Copy the file to `%USERPROFILE%\Documents\Power BI Desktop\Custom Connectors`. Create the `Custom Connectors` folder if it does not exist yet.
 3. Start Power BI Desktop and open **File** > **Options and settings** > **Options**.
 4. Under **Security**, scroll to **Data extensions** and choose **(Not recommended) Allow any extension to load**.

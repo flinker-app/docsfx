@@ -94,11 +94,3 @@ Users can dynamically move through these points, inspect geometry transitions, a
 - **Rail alignment inspection**:  
   Switch between multiple rail alignments and visualize elevation transitions interactively.
 
-## Get started
-
-See how **_Flinker_** brings **Infra-based alignment navigation** into your infrastructure workflows.
-
-> [!div class="nextstepaction"]  
-> [Book a meeting](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
-
-We’ll show you how to manage alignments, stations, and cross-sections interactively  -  directly in your IFC 4.3 infrastructure models.

@@ -22,10 +22,3 @@ The demo shows a browser-based IFC model viewer.
 - **Interactive navigation**: Pan, zoom, orbit, and inspect model elements after loading.
 
 - **Workflow integration**: Use large-model viewing in SharePoint, Teams, or web-based review workflows.
-
-### Request support for larger models
-
-If your models exceed the standard loading profile, contact support to review model size, geometry complexity, and deployment requirements.
-
-> [!div class="nextstepaction"]
-> [Request Support for Larger Models](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)

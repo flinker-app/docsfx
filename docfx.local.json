@@ -25,6 +25,9 @@
       "modern",
       "my-template"
     ],
+    "fileMetadataFiles": [
+      ".docfx/last-updated.json"
+    ],
     "styles": [
       "my-template/public/main.css"
     ]

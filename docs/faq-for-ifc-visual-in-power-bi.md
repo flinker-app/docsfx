@@ -78,7 +78,7 @@ This section explains the common licensing scenarios for IFC Viewer Visual for P
 
 ### How does the IFC Viewer Visual for Power BI license work?
 
-Subscriptions renew automatically at the end of each renewal period. To cancel, contact customer support at least 30 days before the renewal date. For details, see the [Terms and conditions](https://flinker.app/terms/).
+Subscriptions renew automatically at the end of each renewal period. Cancellation requires at least 30 days' notice before the renewal date. For details, see the [Terms and conditions](https://flinker.app/terms/).
 
 ### What does the IFC Viewer Visual for Power BI license include?
 
@@ -86,7 +86,7 @@ The license includes access to the plan you purchased, such as Pro, Business, En
 
 ### Marketplace says “Not available in selected billing region", why?
 
-This message usually appears when the Microsoft Marketplace billing region and language do not match. Select the correct billing country, check that the language matches the selected region, and reload the page. If the message still appears, contact [sales@flinker.app](mailto:sales@flinker.app).
+This message usually appears when the Microsoft Marketplace billing region and language do not match. Select the correct billing country, check that the language matches the selected region, and reload the page.
 
 ![Microsoft Marketplace billing country and language](/_media/pbi-ifc-visual-problem-billing-country-not-available.png)
 
@@ -110,7 +110,7 @@ Users who view reports that include the IFC Viewer Visual for Power BI also need
 
 ### I want to embed my Power BI reports into an app. Can I use the IFC Viewer Visual for Power BI with Power BI Embedded?
 
-Yes. Organizations and ISVs that use Power BI Embedded (A1-A6 SKUs) can include reports that use the IFC Viewer Visual for Power BI in their application or portal. Embedded licensing is separate from per-user licensing. Contact [sales@flinker.app](mailto:sales@flinker.app) for a quote.
+Yes. Organizations and ISVs that use Power BI Embedded (A1-A6 SKUs) can include reports that use the IFC Viewer Visual for Power BI in their application or portal. Embedded licensing is separate from per-user licensing.
 
 ### Can I use the default Power BI Share button for client reports?
 

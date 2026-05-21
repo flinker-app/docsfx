@@ -32,8 +32,3 @@ Flinker can export IFC model data to COBie spreadsheets. The export maps support
 3. Select **COBie Export**.
 4. Review the available export settings.
 5. Select **Export** to generate the COBie spreadsheet.
-
-### Support
-
-> [!div class="nextstepaction"]
-> [Contact support](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)

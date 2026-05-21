@@ -114,7 +114,7 @@ The steps above describe setup for individual users or team owners. If you are a
 
 ### Option A - App setup policy
 
-The IFC Viewer can be deployed and pinned tenant-wide or for specific security groups via Teams App Setup Policies in the Teams Admin Center. Contact [support@flinker.app](mailto:support@flinker.app) for setup guidance.
+The IFC Viewer can be deployed and pinned tenant-wide or for specific security groups via Teams App Setup Policies in the Teams Admin Center.
 
 ### Option B - Team templates
 
@@ -129,12 +129,5 @@ New teams created from this template will include the IFC Viewer tab automatical
 
 ### Configure file links at scale
 
-When the IFC Viewer tab is added to a team, the SharePoint file or folder links inside the tab must still be configured. This can be done manually by the team owner, or automated via Microsoft Graph for large-scale rollouts. Contact [support@flinker.app](mailto:support@flinker.app) for guidance.
-
-## Contact
-
-For deployment guidance or enterprise rollout planning, contact Flinker.
-
-> [!div class="nextstepaction"]
-> [Book a meeting](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
+When the IFC Viewer tab is added to a team, the SharePoint file or folder links inside the tab must still be configured. This can be done manually by the team owner, or automated via Microsoft Graph for large-scale rollouts.
 

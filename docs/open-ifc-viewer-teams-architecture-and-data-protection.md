@@ -156,7 +156,7 @@ All transmissions inside Microsoft 365 and between client and Flinker endpoints 
 
 ## 4. Transmission of technical metadata to Flinker
 
-To support secure operation and anonymous usage analytics, the app may transmit **technical metadata only** to the Flinker Azure backend. This applies also to the Teams app and is aligned with the general IFC Viewer documentation.
+To support secure operation and anonymous usage analytics, the solution may transmit **technical metadata only** to the Flinker Azure backend. This applies also to the Teams solution and is aligned with the general IFC Viewer documentation.
 
 **Types of metadata**
 
@@ -203,26 +203,12 @@ The generic permission texts shown in AppSource (“can send data over the inter
 - Only strictly limited technical metadata (Tenant ID, optional e-mail, anonymized usage metrics) is transmitted to Flinker’s Azure backend.
 - The app has been reviewed and approved by Microsoft as part of the AppSource / Teams Store submission process.
 
-For more details or security review support, contact **support@flinker.app**.
-
 ## 7. Microsoft compliance and security
 
 - The app is certified and reviewed by Microsoft before publication in AppSource and Teams Store.
-- All security and privacy measures follow Microsoft’s own guidelines for Teams apps and tenant-only integrations.
+- All security and privacy measures follow Microsoft’s own guidelines for Teams solutions and tenant-only integrations.
 - For more on Flinker’s continuous security and compliance updates, see  
   [General architecture and data protection](https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html).
-
-
-
-## More information and contact
-
-For technical documentation, a list of transmitted metadata, or to schedule a compliance call:
-
-Flinker GmbH  
-support@flinker.app  
-[www.flinker.app](https://www.flinker.app)
-
-
 
 _For all company-wide privacy and data protection details, visit our  
 [General architecture and data protection](https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html) page._

@@ -1,13 +1,13 @@
 ---
 title: IFC Viewer architecture and data protection
-description: Understand the architecture and privacy model of Flinker IFC Viewer apps for SharePoint, Teams, Power BI, and Excel in Microsoft 365.
+description: Understand the architecture and privacy model of Flinker IFC Viewer solutions for SharePoint, Teams, Power BI, and Excel in Microsoft 365.
 keywords: IFC Viewer security, data protection, Microsoft 365 BIM, SharePoint Teams Power BI Excel, privacy architecture
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html
 ---
 
 # Architecture and data protection
 
-The Flinker IFC Viewer apps for Microsoft 365 integrate with SharePoint, Teams, Power BI, and Excel. IFC files are processed in the browser or within the Microsoft 365 service context used by the app. Flinker receives only the limited technical metadata required for authentication, licensing, support, and anonymized usage analytics.
+The Flinker IFC Viewer solutions for Microsoft 365 integrate with SharePoint, Teams, Power BI, and Excel. IFC files are processed in the browser or within the Microsoft 365 service context used by the solution. Flinker receives only the limited technical metadata required for authentication, licensing, support, and anonymized usage analytics.
 
 ## Privacy model
 
@@ -18,20 +18,20 @@ The architecture is designed so that:
 - File content is not sent to the Flinker Azure backend for model processing.
 - Technical metadata may be transmitted to Flinker as described in [Transmission of technical metadata](#transmission-of-technical-metadata).
 
-This model supports organizations that require tenant-controlled storage, Microsoft 365 governance, and clear separation between project data and app telemetry.
+This model supports organizations that require tenant-controlled storage, Microsoft 365 governance, and clear separation between project data and solution telemetry.
 
 > [!IMPORTANT]
-> Review the product-specific architecture pages for the exact data flow of each app. The SharePoint, Teams, Power BI, and Excel integrations use different Microsoft 365 hosts and permission models.
+> Review the product-specific architecture pages for the exact data flow of each solution. The SharePoint, Teams, Power BI, and Excel integrations use different Microsoft 365 hosts and permission models.
 
 ## Integration and operating model
 
-- The Flinker IFC Viewer apps run entirely within your organization's Microsoft 365 environment (SharePoint, Teams, Power BI, or Excel).
+- The Flinker IFC Viewer solutions run within your organization's Microsoft 365 environment (SharePoint, Teams, Power BI, or Excel).
 - Installation and all access take place under your IT governance and security settings.
 
 <figure class="architecture-diagram" role="img" aria-labelledby="architecture-diagram-title architecture-diagram-desc">
   <svg viewBox="0 0 760 950" xmlns="http://www.w3.org/2000/svg">
     <title id="architecture-diagram-title">Flinker IFC Viewer architecture for Microsoft 365</title>
-    <desc id="architecture-diagram-desc">Diagram showing a Microsoft 365 user opening a tenant-hosted app, client-side IFC processing, tenant-controlled storage, Microsoft Entra ID, and Flinker services that receive only static asset requests and technical metadata.</desc>
+    <desc id="architecture-diagram-desc">Diagram showing a Microsoft 365 user opening a tenant-hosted solution, client-side IFC processing, tenant-controlled storage, Microsoft Entra ID, and Flinker services that receive only static asset requests and technical metadata.</desc>
     <defs>
       <marker id="architectureArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
         <path class="diagram-arrowhead" d="M2,2 L10,6 L2,10 Z" />
@@ -43,7 +43,7 @@ This model supports organizations that require tenant-controlled storage, Micros
     <text class="diagram-small" x="380" y="78" text-anchor="middle">Browser, Teams, SharePoint, Power BI, Excel</text>
     <path class="diagram-arrow" d="M380 102 V145" marker-end="url(#architectureArrow)" />
     <rect class="diagram-edge-bg" x="412" y="113" width="90" height="22" rx="11" />
-    <text class="diagram-edge-label" x="457" y="129" text-anchor="middle">opens app</text>
+    <text class="diagram-edge-label" x="457" y="129" text-anchor="middle">opens solution</text>
     <rect class="diagram-panel diagram-panel-tenant" x="60" y="146" width="640" height="330" rx="8" />
     <text class="diagram-title" x="380" y="180" text-anchor="middle">Customer Microsoft 365 tenant</text>
     <rect class="diagram-node diagram-node-tenant" x="250" y="206" width="260" height="84" rx="6" />
@@ -89,24 +89,24 @@ This model supports organizations that require tenant-controlled storage, Micros
   </svg>
 </figure>
 
-IFC files and project documents remain in the customer's Microsoft 365 storage or local browser session. The Flinker backend receives only the technical metadata required to operate and support the app.
+IFC files and project documents remain in the customer's Microsoft 365 storage or local browser session. The Flinker backend receives only the technical metadata required to operate and support the solution.
 
 ## Processing and protection of sensitive data
 
 - IFC files, BIM data, drawings, 3D models, project documents, and other project information are stored in the Microsoft 365 locations configured by the customer.
 - IFC content such as geometry, property sets, component data, annotations, and project documents is not transmitted to the Flinker backend for processing.
 - Access to project data is governed by the customer's Microsoft 365 permissions, tenant policies, and identity configuration.
-- Flinker does not provide a separate project-data repository for these apps.
+- Flinker does not provide a separate project-data repository for these solutions.
 
 
 ## Technical and organizational measures
 
-- The apps use only Microsoft 365 standard mechanisms and services, as configured in your environment:
-    - **Authentication** via Azure Active Directory (AAD)
-    - **Roles and permissions** are managed by your existing Microsoft 365 security policies
-    - **SPFx web parts** operate in the browser. No local installation, no additional endpoints
-    - **All data transmissions are encrypted (TLS/HTTPS)**
-    - **Microsoft datacenters** are located in the EU (for EU customers)
+- The solutions use Microsoft 365 standard mechanisms and services, as configured in your environment:
+    - **Authentication** through Microsoft Entra ID.
+    - **Roles and permissions** managed by your existing Microsoft 365 security policies.
+    - **SPFx web parts** that operate in the browser without local installation.
+    - **Encrypted transport** through TLS/HTTPS.
+    - **EU Microsoft datacenters** for EU tenants, according to the customer's Microsoft 365 configuration.
 
 
 ## Transmission of technical metadata
@@ -114,7 +114,7 @@ IFC files and project documents remain in the customer's Microsoft 365 storage o
 To ensure secure authentication and enable anonymous usage analytics, the following **technical metadata** may be transmitted to the Flinker Azure Backend:
 
 - **Tenant ID** (for unique identification of your tenant)
-- **(Optional) User email address** (only if required for login/support)
+- **(Optional) User email address** (only if required for login or support)
 - **Anonymized usage and analytics data** (such as feature usage frequency. Never any IFC content or project data)
 
 Project data, IFC file contents, and project documents are not transmitted to the Flinker backend as part of model processing.
@@ -128,8 +128,8 @@ _No technical or usage metadata includes any content, geometry, or business data
 
 ## Component and data flows
 
-- **User:** Accesses the app via Microsoft Teams, SharePoint, Power BI, or Excel.
-- **IFC Viewer App:** Installed and operated directly in your Microsoft 365 tenant.
+- **User:** Accesses the solution via Microsoft Teams, SharePoint, Power BI, or Excel.
+- **IFC Viewer solution:** Installed and operated directly in your Microsoft 365 tenant.
 - **Microsoft 365 Services:** Handles authentication, authorization, and storage (e.g., SharePoint, Teams, OneDrive, Lists, Azure AD).
 - **Flinker Azure Cloud:** Receives only technical metadata for authentication and anonymized analytics, as described above.
 - **Azure CDN (Content Delivery Network):** Delivers viewer assets (such as JavaScript). No project/user data is exchanged via the CDN.
@@ -138,9 +138,9 @@ _No technical or usage metadata includes any content, geometry, or business data
 
 ## Microsoft compliance
 
-- Flinker apps are reviewed by Microsoft before publication in AppSource, Teams, or the SharePoint Store.
+- Flinker solutions are reviewed by Microsoft before publication in AppSource, Teams, or the SharePoint Store.
 - The architecture meets Microsoft 365 and Teams Store security and privacy requirements.
-- Flinker regularly updates its apps to align with evolving best practices and security standards.
+- Flinker regularly updates its solutions to align with evolving best practices and security standards.
 
 
 ## Summary
@@ -148,19 +148,7 @@ _No technical or usage metadata includes any content, geometry, or business data
 - Project data remains under the customer's Microsoft 365 governance and storage configuration.
 - Personal data transmitted to Flinker is limited to technical requirements, such as tenant ID and optional user email address, and can be governed by a DPA where required.
 - Technical metadata is protected through encryption, access controls, and internal operational policies.
-- Flinker does not host IFC model files, project documents, or Power BI report datasets for these apps.
+- Flinker does not host IFC model files, project documents, or Power BI report datasets for these solutions.
 
 
-## IT and compliance audits
-
-Flinker can provide additional technical documentation, a complete list of transmitted metadata, or support compliance and security reviews on request.
-
-
-Contact:  
-Flinker GmbH  
-support@flinker.app  
-[www.flinker.app](https://www.flinker.app)
-
-
-
-*Last updated: July 2025*
+*Last updated: May 2026*

@@ -100,11 +100,6 @@ For example, a BIM coordinator identifies a clash between a pipe and a beam.
 3. A team member is assigned to the issue.
 4. The team comments, updates status, and tracks resolution in Microsoft Lists.
 
-## Request a demo
-
-> [!div class="nextstepaction"]
-> [Book a meeting](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
-
 ## FAQ
 
 ### Can Navisworks XML clash reports be synced with Microsoft Lists?

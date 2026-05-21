@@ -39,12 +39,10 @@ This guide explains how you can work with BCF files in Microsoft Teams.
 > [!NOTE]
 > Saving changes requires proper permissions on SharePoint.
 
-## Troubleshooting and support
+## Troubleshooting
 
 - **Permission issues:**  
   - Ensure you’re logged in with the correct account and have write access to SharePoint.
 - **File loading and saving issues:**  
   - Check your internet connection.
   - Verify that the BCF file is in a supported format (.bcf).
-- **Need help?**  
-  - Contact our support team for further assistance.

@@ -8,8 +8,3 @@ canonical_url: https://docs.flinker.app/docs/use-cases-for-ifc-visual-in-power-b
 # Report templates for the IFC Viewer Visual for Power BI
 
 Use report templates to connect IFC model data with Power BI dashboards. Templates can support model review, cost reporting, schedule analysis, issue tracking, and facility management scenarios.
-
-For a custom report template or deployment guidance, contact the support team.
-
-> [!div class="nextstepaction"]
-> [Request a custom report template](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)

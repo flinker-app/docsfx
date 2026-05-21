@@ -33,6 +33,9 @@
       "modern",
       "my-template"
     ],
+    "fileMetadataFiles": [
+      ".docfx/last-updated.json"
+    ],
     "sitemap": {
       "baseUrl": "https://docs.flinker.app"
     },

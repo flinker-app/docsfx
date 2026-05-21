@@ -109,7 +109,7 @@ Follow the step-by-step instructions: [Step 3 - Add the viewer library to truste
 
 ### How often do I need to update the IFC Viewer for SharePoint, and how?
 
-Update the IFC Viewer for SharePoint at least 1–2 times per year. Unlike all other Flinker Microsoft apps, the IFC Viewer for SharePoint is an SPFx app that Flinker cannot update automatically  -  you must pull the update manually via the App Catalog.
+Update the IFC Viewer for SharePoint at least 1–2 times per year. Unlike other Flinker Microsoft 365 solutions, the IFC Viewer for SharePoint is an SPFx app that Flinker cannot update automatically  -  you must pull the update manually via the App Catalog.
 
 Follow the step-by-step instructions: [Upgrade IFC Viewer to the latest version](https://docs.flinker.app/docs/upgrade-sharepoint-ifc-viewer-app.html).
 

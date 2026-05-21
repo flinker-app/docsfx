@@ -149,7 +149,3 @@ Last verified: 2026-02-20
 - [File activity in a document library](https://support.microsoft.com/en-us/office/file-activity-in-a-document-library-6105ecda-1dd0-4f6f-9542-102bf5c0ffe0)
 - [View usage data for your SharePoint site](https://support.microsoft.com/en-us/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e)
 - [Search the audit log (Microsoft Purview)](https://learn.microsoft.com/en-us/purview/audit-search)
-
-### Need help?
-
-[Talk to us](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)

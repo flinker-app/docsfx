@@ -46,12 +46,3 @@ When you create new topics, these elements are captured automatically, providing
 - **Reusable filter presets**: Because filter state is part of the BCF specification, the same BCF file can be loaded across any number of projects, Teams channels, or BIM tools to restore a complete filter configuration instantly. Store the file once in SharePoint and distribute it to every project that needs it  -  no duplication, no manual setup.
 This simplifies communication and ensures everyone stays aligned with clear visual context.
 
-## Get started
-
-See how ***Flinker*** can bring BCF workflows into your Microsoft 365 setup.
-
-> [!div class="nextstepaction"]
-> [Book a meeting](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
-
-We’ll show you how to manage issues, assign tasks, and collaborate on model data right where your team already works.
-

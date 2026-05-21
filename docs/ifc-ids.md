@@ -66,10 +66,3 @@ When an IDS file is connected to the model, the viewer checks the model data aga
 - **Model delivery checks**: Verify whether models follow project-specific data standards across consultants or project phases.
 
 Use validation results to identify missing information before coordination, submission, or handover.
-
-## Support
-
-For help defining IDS templates or reviewing validation workflows, contact Flinker support.
-
-> [!div class="nextstepaction"]  
-> [Contact support](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)

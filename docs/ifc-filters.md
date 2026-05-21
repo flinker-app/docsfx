@@ -156,11 +156,3 @@ Because BCF is an open standard, the same file works across projects, buildings,
 > [!TIP]
 > See [BCF integration](ifc-bcf.md) for a full overview of how BCF files store and transfer view states.
 
-## Get started
-
-Explore how **_Flinker_** helps you search, compare, and analyze IFC models efficiently.
-
-> [!div class="nextstepaction"]  
-> [Book a meeting](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
-
-We’ll show you how to use IFC model queries and property sets to gain full control over your BIM data  -  directly in your browser.

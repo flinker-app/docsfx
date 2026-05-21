@@ -117,12 +117,3 @@ Yes. After you create the IFC synchronization, customize the workbook with formu
 ### Is the Microsoft Excel integration secure?
 
 Yes. IFC file processing is client-side. Your IFC files stay in your Microsoft 365 tenant and are not uploaded to Flinker or external software platforms. For more details, see [Microsoft App Compliance](https://learn.microsoft.com/en-us/microsoft-365-app-certification/teams/flinker-gmbh-open-ifc-viewer?pivots=general).
-
-
-## Contact
-
-For implementation questions or enterprise deployment support, contact the Flinker team.
-
-> [!div class="nextstepaction"]
-> [Book a meeting](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
-

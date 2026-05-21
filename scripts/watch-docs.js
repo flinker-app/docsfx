@@ -3,6 +3,7 @@ const chokidar = require("chokidar");
 const { spawn } = require("child_process");
 const fs = require("fs");
 const path = require("path");
+const generateLastUpdated = require("./generate-last-updated");
 
 const root = process.cwd();
 const siteDir = path.join(root, "_site");
@@ -28,6 +29,7 @@ const ignored = [
   "**/_site/**",
   "**/node_modules/**",
   "**/.git/**",
+  "**/.docfx/**",
   "**/_backup/**",
   "**/*.log",
   "**/*.tmp",
@@ -101,6 +103,18 @@ function runBuild(reason) {
   const docfxCommand = process.platform === "win32" ? "docfx.exe" : "docfx";
 
   log(`build #${currentBuild} started (${reason})`);
+
+  try {
+    generateLastUpdated();
+  } catch (error) {
+    buildRunning = false;
+    buildProcess = null;
+    log(`build #${currentBuild} could not generate last-updated metadata: ${error.message}`);
+    if (rebuildRequested) {
+      scheduleBuild("queued changes");
+    }
+    return;
+  }
 
   buildProcess = spawn(docfxCommand, ["build"], {
     cwd: root,

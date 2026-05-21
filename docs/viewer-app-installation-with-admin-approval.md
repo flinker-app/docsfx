@@ -1,17 +1,17 @@
 ---
-title: Install the IFC Viewer app for SharePoint
+title: Install the IFC Viewer solution for SharePoint
 description: Step-by-step guide for installing the IFC Viewer in SharePoint with admin approval.
 keywords: IFC Viewer, SharePoint, Installation, Admin Approval, App Catalog, AppSource
 canonical_url: https://docs.flinker.app/docs/viewer-app-installation-with-admin-approval.html
 ---
 
-# Install the IFC Viewer app for SharePoint
+# Install the IFC Viewer solution for SharePoint
 
-This article describes how a SharePoint administrator can approve, install, and validate the IFC Viewer app for SharePoint.
+This article describes how a SharePoint administrator can approve, install, and validate the IFC Viewer solution for SharePoint.
 
 > [!NOTE]
-> - IFC files are processed client-side. The app does not upload IFC files to Flinker.
-> - A SharePoint administrator must approve or install the app before users can add it to a site.
+> - IFC files are processed client-side. The solution does not upload IFC files to Flinker.
+> - A SharePoint administrator must approve or install the solution before users can add it to a site.
 
 ## 1. Add IFC Viewer from the App Catalog or AppSource
 
@@ -33,12 +33,12 @@ Add the IFC Viewer through Microsoft AppSource or from your SharePoint App Catal
 ![Add App from App Catalog](/_media/sharepoint-app-catalog-ifcviewer-add-app-to-site.png)
 
 2. Choose one of the available deployment options:
-    - Select **Enable and Add** to approve the app and add it to sites automatically.
-    - Select **Only Enable** to approve the app without adding it automatically.
+    - Select **Enable and Add** to approve the solution and add it to sites automatically.
+    - Select **Only Enable** to approve the solution without adding it automatically.
 
 ### If you selected Only Enable
 
-1. Open the SharePoint site where the app should be available.
+1. Open the SharePoint site where the solution should be available.
 2. Go to **My apps**.
 3. Select **IFC Viewer**.
 4. Select **Add**.
@@ -69,39 +69,34 @@ If this setting is missing, users may see script loading or content security pol
 
 ![View IFC File](/_media/sharepoint-document-library-view-ifc-file.png)
 
-The IFC Viewer app is installed and available for use in SharePoint.
+The IFC Viewer solution is installed and available for use in SharePoint.
 
 
 ## Permissions and deployment
 
-The Flinker IFC Viewer for SharePoint is provided as a SharePoint Framework (SPFx) solution. The app is deployed through SharePoint and uses the permissions and governance settings configured in your Microsoft 365 tenant.
+The Flinker IFC Viewer for SharePoint is provided as a SharePoint Framework (SPFx) solution. The solution is deployed through SharePoint and uses the permissions and governance settings configured in your Microsoft 365 tenant.
 
 ### Key points
 
 - **SPFx Solution**  
   The IFC Viewer is deployed as a SharePoint Framework (SPFx) client-side solution package (`.sppkg` file).  
   This means:
-  - The app runs within your SharePoint tenant.
+  - The solution runs within your SharePoint tenant.
   - All assets and code are managed within your Microsoft 365 environment.
 
 - **Permissions**  
   - The IFC Viewer only requires the permissions necessary to run as an SPFx web part and extension within your tenant.
   - No additional API permissions (such as Graph API or external data access) are required unless you explicitly configure advanced integrations.
-  - The app uses the permissions and roles defined in your SharePoint and Microsoft 365 security policies.
+  - The solution uses the permissions and roles defined in your SharePoint and Microsoft 365 security policies.
 
 - **Assets and Features**  
-  - The app includes the deployment of client-side assets (JavaScript, CSS, images) as part of the solution.
+  - The deployment includes client-side assets (JavaScript, CSS, images).
   - Features include the registration of custom actions and SPFx web parts for IFC model viewing directly in SharePoint.
-
-- **Developer Information**  
-  - **Publisher:** Flinker GmbH  
-  - [Privacy Policy](https://www.flinker.app/data-protection)  
-  - [Terms of Use](https://www.flinker.app/terms)
 
 ### Security and privacy
 
 - IFC files are processed client-side.
-- The app does not upload IFC files to Flinker.
+- The solution does not upload IFC files to Flinker.
 - Access to SharePoint content is governed by your Microsoft 365 tenant permissions and policies.
 
 For further details on privacy, data flows, and technical security measures, see the [Architecture and Data Protection Overview](https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html).

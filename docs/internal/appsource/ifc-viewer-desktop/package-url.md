@@ -1,6 +1,11 @@
 ---
 title: AppSource package URL
-robots: noindex
+robots: noindex,nofollow
+_noindex: true
+_disableToc: true
+_disableAffix: true
+_disableBreadcrumb: true
+_disableNextArticle: true
 ---
 
 # AppSource package URL

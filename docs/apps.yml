@@ -1,14 +1,14 @@
 ### YamlMime:Dashboard
 ---
-title: Microsoft 365 apps overview
-description: Browse the Flinker apps and admin resources for using IFC model workflows in Microsoft Teams, SharePoint, Power BI, and tenant-managed Microsoft 365 deployments.
+title: Microsoft 365 solutions overview
+description: Browse the Flinker solutions and admin resources for using IFC model workflows in Microsoft Teams, SharePoint, Power BI, and tenant-managed Microsoft 365 deployments.
 documentType: dashboard
 _disableAffix: true
 _disableBreadcrumb: true
 _disableNextArticle: true
 items:
   - name: Admin deployment overview
-    description: Compare the deployment components, administrator roles, approval paths, and installation guides for Flinker apps in Microsoft 365.
+    description: Compare the deployment components, administrator roles, approval paths, and installation guides for Flinker solutions in Microsoft 365.
     thumbnail: /_media/sharepoint-admin-center-pending-requests-ifc-viewer-approve.png
     href: it-admin-quickstart.html
   - name: IFC Viewer for Microsoft Teams

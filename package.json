@@ -1,7 +1,7 @@
 {
   "scripts": {
     "watch": "node scripts/watch-docs.js",
-    "build": "docfx build"
+    "build": "node scripts/generate-last-updated.js && docfx build"
   },
   "devDependencies": {
     "browser-sync": "^3.0.4",

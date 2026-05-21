@@ -186,26 +186,12 @@ This aligns with Microsoft’s SPFx security model and ensures that standard ten
 - Only limited technical metadata (Tenant ID, optional e-mail, anonymized usage metrics) is transmitted to the Flinker Azure backend.
 - All processing follows GDPR and can be covered by a Data Processing Agreement (AVV) where required.
 
-For additional technical documentation or security review support, contact **support@flinker.app**.
-
 ## 7. Microsoft compliance and security
 
 - The app is certified and reviewed by Microsoft before publication in AppSource.
-- All security and privacy measures follow Microsoft’s own guidelines for SharePoint apps and tenant-only integrations.
+- All security and privacy measures follow Microsoft’s own guidelines for SharePoint solutions and tenant-only integrations.
 - For more on Flinker’s continuous security and compliance updates, see  
   [General architecture and data protection](https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html).
-
-
-
-## More information and contact
-
-For technical documentation, a list of transmitted metadata, or to schedule a compliance call:
-
-Flinker GmbH  
-support@flinker.app  
-[www.flinker.app](https://www.flinker.app)
-
-
 
 _For all company-wide privacy and data protection details, visit our  
 [General architecture and data protection](https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html) page._

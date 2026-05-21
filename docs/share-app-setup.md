@@ -16,7 +16,6 @@ This guide helps administrators configure SharePoint and Microsoft Teams permiss
 3. [Tips](#tips)
 4. [Set permissions](#set-permissions)
 5. [Frequently asked questions](#frequently-asked-questions)
-6. [Contact and support](#contact-and-support)
 
 ## Prerequisites
 
@@ -135,11 +134,4 @@ Yes. Use the template file to duplicate folder structures and access rights for 
 ### Question 2: Do I have to create Microsoft security groups?
 
 No. You can use SharePoint groups only. Microsoft security groups are useful when the same user groups are reused across multiple projects or sites.
-
-## Contact and support
-
-For support, contact Flinker:
-
-- **Email:** [support@flinker.app](mailto:support@flinker.app)
-- **Phone:** [+491606469866](tel:+491606469866)
 

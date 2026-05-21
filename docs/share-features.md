@@ -7,29 +7,29 @@ canonical_url: https://docs.flinker.app/docs/share-features.html
 
 # Protect for SharePoint
 
-Protect for SharePoint helps administrators manage SharePoint and Teams permissions from one place.
+Protect for SharePoint helps administrators and workspace owners manage SharePoint and Teams permissions, external sharing, and access reporting from one place.
 
-* **SharePoint integration:** Add Protect for SharePoint from Microsoft AppSource to selected SharePoint sites or to all sites in the organization.
-* **Data protection:** The app runs as a SharePoint Framework (SPFx) app in your Microsoft 365 tenant. Permission operations are handled through SharePoint.
-* **Custom permissions:** Assign access to internal users, external users, and user groups for files, folders, lists, links, and embedded content.
-* **Shared folders report:** Review shared folders across a SharePoint site.
-* **Multi-file sharing:** Use MultiShare to send multiple file links to multiple recipients in one workflow.
+- **Microsoft 365 deployment:** Add Protect for SharePoint from Microsoft AppSource to selected SharePoint sites or to all sites in the organization.
+- **Tenant-based data handling:** The app runs as a SharePoint Framework (SPFx) app in your Microsoft 365 tenant. Permission operations are handled through SharePoint.
+- **Permission governance:** Assign access to internal users, external guests, and user groups for files, folders, lists, links, and embedded content.
+- **Access reporting:** Review shared folders and permission assignments across a SharePoint site.
+- **Multi-file sharing:** Use MultiShare to send multiple file links to multiple recipients in one workflow.
 
 ## Protect for SharePoint vs. standard SharePoint
 
-| Feature                     | Gain                                                                                              | Protect for SharePoint (Enterprise) | Protect for SharePoint (Free) | Standard SharePoint |
+| Feature | Why it matters | Protect for SharePoint (Enterprise) | Protect for SharePoint (Free) | Standard SharePoint |
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------|-------------------------|-------------------------|
-| **User permissions**            | Tailor user permissions to specific needs                                                                        | ✓                            | ✓                      | ✓                      |
-| **Folder access**               | Customized access for each folder                                                                                 | ✓                            | ✓                      | ✓                      |
-| **Customize groups**            | Create user groups for same authorization levels                                                                  | ✓                            | ✓                      | ✓                      |
-| **Customize authorizations**    | Define who can view, edit, or share content with precision                                                       | ✓                            | ✓                      | ✓                      |
-| **External organizations**    | Grant access and authorizations to external organizations and notify users                                                      | ✓                            | ✓                      | ✓                      |
-| **External websites**    | Manage access to embedded external websites                                                      | ✓                            | ✓                      | ✓                      |
-| **Access report**               | Manage and oversee access rights for SharePoint sites and Teams                                                   | ✓                            | ✓                      | ✗                      |
-| **Bulk editing**                | Bulk change access settings across folders                                                                       | ✓                            | ✗                      | ✗                      |
-| **Quick editing**               | Adjust permissions within SharePoint by clicking for groups, authorization levels, folders, websites, MS Lists, etc.                                                                   | ✓                            | ✗                      | ✗                      |
-| **Permission templates**        | Create permission templates in Excel for repeatable SharePoint and Teams setup                         | ✓                            | ✗                      | ✗                      |
-| **MultiShare**                  | Share multiple files or data at the same time securely with multiple users and send them a notification message.                                                | ✓                            | ✗                      | ✗                      |
+| **User permissions** | Assign access to specific users and groups. | ✓ | ✓ | ✓ |
+| **Folder access** | Manage access at folder level for project workspaces. | ✓ | ✓ | ✓ |
+| **Custom groups** | Use groups for repeatable authorization levels. | ✓ | ✓ | ✓ |
+| **Custom authorizations** | Define who can view, edit, or share content. | ✓ | ✓ | ✓ |
+| **External organizations** | Grant external access through approved SharePoint sharing flows. | ✓ | ✓ | ✓ |
+| **Embedded content access** | Manage access to embedded external content where supported. | ✓ | ✓ | ✓ |
+| **Access report** | Review and oversee access rights across SharePoint sites and Teams. | ✓ | ✓ | ✗ |
+| **Bulk editing** | Change access settings across multiple folders. | ✓ | ✗ | ✗ |
+| **Quick editing** | Adjust groups, authorization levels, folders, websites, and Microsoft Lists from one workflow. | ✓ | ✗ | ✗ |
+| **Permission templates** | Create Excel-based permission templates for repeatable SharePoint and Teams setup. | ✓ | ✗ | ✗ |
+| **MultiShare** | Share multiple files with multiple recipients and notify them in one workflow. | ✓ | ✗ | ✗ |
 
 ### Default sharing features in standard SharePoint
 
@@ -55,32 +55,32 @@ Standard SharePoint includes several sharing options for collaboration and acces
    - **Permissions:** Control access levels for the selected users.
    - **Use case:** Internal sharing with more explicit access control.
 
-The **Protect for SharePoint** adds access reporting, bulk permission updates, and template-based permission management for more controlled SharePoint collaboration.
+Protect for SharePoint adds access reporting, bulk permission updates, and template-based permission management for more controlled SharePoint collaboration.
 
 ## Users and benefits
 
-Protect for SharePoint is used by a variety of users, depending on company size, typically from project management or IT security and governance teams. It helps customers efficiently manage SharePoint sites, control access permissions, improve collaboration, and ensure data security and compliance.
+Protect for SharePoint is used by project management, workspace administration, IT security, and governance teams. It helps organizations manage SharePoint sites, control access permissions, improve collaboration, and support internal data governance policies.
 
-#### Project and workspace managers
-* **Project managers**: Manage project collaboration and document sharing.
-* **Workspace managers**: Administer multiple workspaces with custom access controls.
+### Project and workspace managers
+- **Project managers**: Manage project collaboration and document sharing.
+- **Workspace managers**: Administer multiple workspaces with custom access controls.
 
-#### BIM and design platform managers
-* **BIM managers and coordinators**: Control BIM data sharing and permissions.
-* **Admins for Autodesk and other platforms**: Manage data across construction and design platforms.[^1]
+### BIM and design platform managers
+- **BIM managers and coordinators**: Control BIM data sharing and permissions.
+- **Admins for design and construction platforms**: Manage access across connected project environments.[^1]
 
-#### Automation and workflow administrators
-* **Process and automation managers**: Use permission settings to support workflow automation and process management.
+### Automation and workflow administrators
+- **Process and automation managers**: Use permission settings to support workflow automation and process management.
 
-#### Cloud and virtual environment administration
-* **SharePoint and Teams admins**: Manage access for SharePoint sites and Teams.
-* **Virtual data room admins**: Manage controlled external collaboration spaces.
-* **Online drive admins**: Centralize file access management.
-* **Microsoft 365 and Azure admins**: Manage user permissions with existing Microsoft services.
+### Cloud and virtual environment administration
+- **SharePoint and Teams admins**: Manage access for SharePoint sites and Teams.
+- **Virtual data room admins**: Manage controlled external collaboration spaces.
+- **Online drive admins**: Centralize file access management.
+- **Microsoft 365 and Azure admins**: Manage user permissions with existing Microsoft services.
 
-#### IT Security, Compliance, and Governance
-* **IT security admins**: Protect sensitive information and manage user access.
-* **IT compliance managers**: Support compliance with internal policies and external requirements.
-* **IT governance managers**: Oversee access policies and permission processes.
+### IT security, compliance, and governance
+- **IT security admins**: Protect sensitive information and manage user access.
+- **IT compliance managers**: Support compliance with internal policies and external requirements.
+- **IT governance managers**: Oversee access policies and permission processes.
 
-[^1] Or any admins for platforms such as Autodesk BIM 360, Autodesk Construction Cloud, Bentley Systems ProjectWise, Oracle Aconex, Trimble Connect, Procore, Asite, Nemetschek Allplan or Bluebeam, Viewpoint, Kahua, Dalux or Think Project
+[^1] Examples include Autodesk Construction Cloud, Bentley ProjectWise, Oracle Aconex, Trimble Connect, Procore, Asite, Allplan, Bluebeam, Viewpoint, Kahua, Dalux, and Thinkproject.
