@@ -3,7 +3,6 @@
 > Technical documentation for Flinker IFC Viewer, BCF workflows, and Microsoft 365 / Power BI integrations.
 
 ## Canonical docs index
-- https://docs.flinker.app/docs/introduction.html
 - https://docs.flinker.app/docs/getting-started.html
 - https://docs.flinker.app/docs/ifc-viewer.html
 - https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html

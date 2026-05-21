@@ -17,7 +17,7 @@
       {{#description}}<meta name="description" content="{{description}}">{{/description}}
       <link rel="icon" href="{{_rel}}{{{_appFaviconPath}}}{{^_appFaviconPath}}favicon.ico{{/_appFaviconPath}}">
       <link rel="stylesheet" href="{{_rel}}public/docfx.min.css">
-      <link rel="stylesheet" href="{{_rel}}public/main.css?v=20260521-toc-filter-3">
+      <link rel="stylesheet" href="{{_rel}}public/main.css?v=20260521-diagrams-2">
       {{#_pageCss}}<link rel="stylesheet" href="{{_rel}}{{_pageCss}}?v=20260521-toc-filter-3">{{/_pageCss}}
       <meta name="docfx:navrel" content="{{_navRel}}">
       <meta name="docfx:tocrel" content="{{_tocRel}}">
@@ -67,7 +67,7 @@
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="{{_appLogoUrl}}{{^_appLogoUrl}}{{_rel}}index.html{{/_appLogoUrl}}">
             <img id="logo" class="svg" src="{{_rel}}{{{_appLogoPath}}}{{^_appLogoPath}}logo.svg{{/_appLogoPath}}" alt="{{_appName}}" >
-            <span>{{_appName}}</span>
+            <span>Documentation</span>
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -75,9 +75,9 @@
           <div class="collapse navbar-collapse" id="navpanel">
             <div id="navbar">
               <nav class="site-header-links" aria-label="Top navigation">
-                <a href="{{_rel}}index.html">Overview</a>
-                <a href="{{_rel}}docs/apps.html">Microsoft solutions</a>
-                <a href="{{_rel}}docs/ifc-viewer-sdk.html">SDK</a>
+                <a href="{{_rel}}docs/ifc-viewer.html">openBIM</a>
+                <a href="{{_rel}}docs/IFC_SharedSemanticModel.html">Workflows</a>
+                <a href="{{_rel}}docs/ifc-viewer-sdk.html">Developer resources</a>
                 <a href="{{_rel}}docs/releases.html">Releases</a>
                 <a href="https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/" target="_blank" rel="noopener noreferrer" aria-label="Support opens in a new tab">Support <i class="bi bi-box-arrow-up-right external-link-icon" aria-hidden="true"></i></a>
               </nav>
@@ -129,18 +129,18 @@
           {{!body}}
         </article>
 
-        {{#lastUpdatedText}}
         <div class="article-metadata d-print-none">
-          <span>{{lastUpdatedText}}</span>
+          <div class="article-metadata-row">
+            <div class="article-last-updated">
+              {{#lastUpdatedText}}<span>{{lastUpdatedText}}</span>{{/lastUpdatedText}}
+              {{^lastUpdatedText}}{{#lastUpdated}}<span>Last updated on {{lastUpdated}}</span>{{/lastUpdated}}{{/lastUpdatedText}}
+            </div>
+            <a class="article-issue-link" href="https://github.com/flinker-app/docsfx/issues/new" target="_blank" rel="noopener noreferrer" aria-label="Raise an issue on GitHub">
+              <i class="bi bi-exclamation-triangle" aria-hidden="true"></i>
+              <span>Raise issue</span>
+            </a>
+          </div>
         </div>
-        {{/lastUpdatedText}}
-        {{^lastUpdatedText}}
-        {{#lastUpdated}}
-        <div class="article-metadata d-print-none">
-          <span>Last updated on {{lastUpdated}}</span>
-        </div>
-        {{/lastUpdated}}
-        {{/lastUpdatedText}}
 
         {{^_disableContribution}}
         <div class="contribution d-print-none">

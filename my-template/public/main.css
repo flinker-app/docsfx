@@ -824,6 +824,47 @@ body[data-layout="landing"] > main {
   padding-top: 1rem;
 }
 
+.article-metadata-row {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem 1rem;
+  justify-content: space-between;
+}
+
+.article-last-updated {
+  min-width: 0;
+}
+
+.article-issue-link {
+  align-items: center;
+  border: 1px solid var(--docs-border-subtle);
+  border-radius: 999px;
+  color: var(--docs-text-subtle);
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-size: .875rem;
+  font-weight: 400;
+  gap: .45rem;
+  line-height: 1.2;
+  min-height: 34px;
+  padding: .35rem .8rem;
+  text-decoration: none;
+}
+
+.article-issue-link:hover,
+.article-issue-link:focus {
+  background-color: var(--docs-rail);
+  border-color: var(--docs-border);
+  color: var(--docs-text);
+  text-decoration: none;
+}
+
+.article-issue-link .bi {
+  font-size: .95rem;
+  line-height: 1;
+}
+
 /* Article typography */
 
 article {
@@ -998,13 +1039,13 @@ article .mermaid svg {
   overflow-x: auto;
   padding: 1rem;
   transform: translateX(-50%);
-  width: min(760px, calc(100vw - 2rem));
+  width: min(720px, calc(100vw - 2rem));
 }
 
 .architecture-diagram svg {
   display: block;
   height: auto;
-  min-width: 680px;
+  min-width: 620px;
   width: 100%;
 }
 
@@ -1055,16 +1096,18 @@ article .mermaid svg {
 .architecture-diagram .diagram-panel-tenant {
   fill: #f8fbff;
   stroke: #0f6cbd;
+  stroke-width: 2.4px;
 }
 
 .architecture-diagram .diagram-panel-client {
-  fill: #f6fff6;
-  stroke: #0e700e;
+  fill: #ffffff;
+  stroke: #0f6cbd;
+  stroke-width: 2px;
 }
 
 .architecture-diagram .diagram-panel-flinker {
-  fill: #fff9f5;
-  stroke: #8a3707;
+  fill: #fafafa;
+  stroke: #8a8a8a;
 }
 
 .architecture-diagram .diagram-node {
@@ -1077,18 +1120,18 @@ article .mermaid svg {
 }
 
 .architecture-diagram .diagram-node-tenant {
-  fill: #ebf3fc;
+  fill: #ffffff;
   stroke: #0f6cbd;
 }
 
 .architecture-diagram .diagram-node-client {
-  fill: #f1faf1;
-  stroke: #0e700e;
+  fill: #ffffff;
+  stroke: #0f6cbd;
 }
 
 .architecture-diagram .diagram-node-flinker {
-  fill: #fff4e8;
-  stroke: #8a3707;
+  fill: #ffffff;
+  stroke: #8a8a8a;
 }
 
 .architecture-diagram .diagram-arrow {
@@ -1108,9 +1151,14 @@ article .mermaid svg {
 }
 
 .architecture-diagram .diagram-note {
-  fill: var(--theme-primary-background);
-  stroke: var(--theme-primary-dark);
+  fill: #f5f5f5;
+  stroke: #8a8a8a;
   stroke-width: 1px;
+}
+
+.architecture-diagram .diagram-note-safe {
+  fill: #eef6ff;
+  stroke: #0f6cbd;
 }
 
 [data-bs-theme="dark"] .architecture-diagram .diagram-panel-tenant {
@@ -1119,28 +1167,38 @@ article .mermaid svg {
 }
 
 [data-bs-theme="dark"] .architecture-diagram .diagram-panel-client {
-  fill: #0e2b0e;
-  stroke: #9fd89f;
+  fill: #171717;
+  stroke: #75b6e7;
 }
 
 [data-bs-theme="dark"] .architecture-diagram .diagram-panel-flinker {
-  fill: #3b220c;
-  stroke: #fdcfb4;
+  fill: #242424;
+  stroke: #8a8a8a;
 }
 
 [data-bs-theme="dark"] .architecture-diagram .diagram-node-tenant {
-  fill: #123e59;
+  fill: #171717;
   stroke: #75b6e7;
 }
 
 [data-bs-theme="dark"] .architecture-diagram .diagram-node-client {
-  fill: #093b08;
-  stroke: #9fd89f;
+  fill: #171717;
+  stroke: #75b6e7;
 }
 
 [data-bs-theme="dark"] .architecture-diagram .diagram-node-flinker {
-  fill: #4a1e04;
-  stroke: #fdcfb4;
+  fill: #171717;
+  stroke: #8a8a8a;
+}
+
+[data-bs-theme="dark"] .architecture-diagram .diagram-note {
+  fill: #242424;
+  stroke: #8a8a8a;
+}
+
+[data-bs-theme="dark"] .architecture-diagram .diagram-note-safe {
+  fill: #123e59;
+  stroke: #75b6e7;
 }
 
 @media (max-width: 991.98px) {

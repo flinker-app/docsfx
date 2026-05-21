@@ -114,26 +114,65 @@ The app is designed so that IFC files and project documents are read from the cu
 
 Overview of the components in the customer tenant and how the tab loads and renders IFC models.
 
-```mermaid
-flowchart LR
-  subgraph Tenant [Customer Microsoft 365 Tenant]
-    User[User - Teams desktop / web / mobile]
-    TeamsTab[Teams tab - IFC Viewer for Microsoft Teams]
-    SharePoint[SharePoint Online / OneDrive - IFC document libraries]
-    EntraID[Microsoft Entra ID - Azure AD]
-  end
-
-  subgraph Flinker [Flinker Azure EU]
-    ViewerFE[Viewer frontend - teamsifcviewer.flinker.app]
-    Backend[Azure backend - Technical metadata - tenant ID optional email anonymized usage]
-  end
-
-  User -->|opens Teams channel or tab| TeamsTab
-  TeamsTab -->|loads tab content| ViewerFE
-  TeamsTab -->|SSO or token via Azure AD| EntraID
-  TeamsTab -->|reads IFC files with user permissions| SharePoint
-  TeamsTab -.->|sends technical metadata only no IFC content| Backend
-```
+<figure class="architecture-diagram" role="img" aria-labelledby="teams-diagram-title teams-diagram-desc">
+  <svg viewBox="0 0 760 850" xmlns="http://www.w3.org/2000/svg">
+    <title id="teams-diagram-title">IFC Viewer for Microsoft Teams architecture</title>
+    <desc id="teams-diagram-desc">Diagram showing the Teams tab running in the user's client, tenant-controlled SharePoint or OneDrive storage, Microsoft Entra ID, and separate Flinker services that receive only static asset requests and limited technical metadata.</desc>
+    <defs>
+      <marker id="teamsArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+        <path class="diagram-arrowhead" d="M2,2 L10,6 L2,10 Z" />
+      </marker>
+    </defs>
+    <rect class="diagram-bg" x="0" y="0" width="760" height="850" rx="8" />
+    <rect class="diagram-panel diagram-panel-tenant" x="45" y="36" width="670" height="580" rx="8" />
+    <text class="diagram-title" x="380" y="70" text-anchor="middle">Customer Microsoft 365 tenant and Teams client</text>
+    <rect class="diagram-note diagram-note-safe" x="100" y="92" width="560" height="40" rx="20" />
+    <text class="diagram-note-text" x="380" y="117" text-anchor="middle">IFC files, model content, project documents, and Teams data stay inside this boundary.</text>
+    <rect class="diagram-node diagram-node-actor" x="250" y="156" width="260" height="64" rx="6" />
+    <text class="diagram-label" x="380" y="184" text-anchor="middle">User in Microsoft Teams</text>
+    <text class="diagram-small" x="380" y="205" text-anchor="middle">desktop, web, or mobile client</text>
+    <rect class="diagram-panel diagram-panel-client" x="150" y="254" width="460" height="132" rx="8" />
+    <text class="diagram-title" x="380" y="287" text-anchor="middle">Client-side IFC processing</text>
+    <rect class="diagram-node diagram-node-client" x="246" y="310" width="268" height="58" rx="6" />
+    <text class="diagram-label" x="380" y="334" text-anchor="middle">Teams tab IFC Viewer</text>
+    <text class="diagram-small" x="380" y="356" text-anchor="middle">parses and renders IFC locally</text>
+    <path class="diagram-arrow" d="M380 220 V254" marker-end="url(#teamsArrow)" />
+    <rect class="diagram-edge-bg" x="416" y="226" width="118" height="22" rx="11" />
+    <text class="diagram-edge-label" x="475" y="242" text-anchor="middle">opens Teams tab</text>
+    <rect class="diagram-node diagram-node-tenant" x="92" y="438" width="238" height="72" rx="6" />
+    <text class="diagram-label" x="211" y="466" text-anchor="middle">Teams tenant host</text>
+    <text class="diagram-small" x="211" y="489" text-anchor="middle">tab app and configuration</text>
+    <rect class="diagram-node diagram-node-tenant" x="430" y="438" width="238" height="72" rx="6" />
+    <text class="diagram-label" x="549" y="466" text-anchor="middle">SharePoint / OneDrive</text>
+    <text class="diagram-small" x="549" y="489" text-anchor="middle">tenant IFC document storage</text>
+    <rect class="diagram-node diagram-node-tenant" x="250" y="538" width="260" height="58" rx="6" />
+    <text class="diagram-label" x="380" y="562" text-anchor="middle">Microsoft Entra ID</text>
+    <text class="diagram-small" x="380" y="584" text-anchor="middle">SSO, tokens, and permissions</text>
+    <path class="diagram-arrow" d="M294 386 V412 H211 V438" marker-end="url(#teamsArrow)" />
+    <rect class="diagram-edge-bg" x="116" y="398" width="120" height="22" rx="11" />
+    <text class="diagram-edge-label" x="176" y="414" text-anchor="middle">uses Teams host</text>
+    <path class="diagram-arrow" d="M466 386 V412 H549 V438" marker-end="url(#teamsArrow)" />
+    <rect class="diagram-edge-bg" x="530" y="398" width="112" height="22" rx="11" />
+    <text class="diagram-edge-label" x="586" y="414" text-anchor="middle">reads IFC files</text>
+    <path class="diagram-arrow" d="M380 386 V538" marker-end="url(#teamsArrow)" />
+    <rect class="diagram-edge-bg" x="332" y="464" width="96" height="22" rx="11" />
+    <text class="diagram-edge-label" x="380" y="480" text-anchor="middle">uses SSO</text>
+    <rect class="diagram-panel diagram-panel-flinker" x="94" y="674" width="572" height="110" rx="8" />
+    <text class="diagram-title" x="380" y="706" text-anchor="middle">Flinker Azure EU outside project-data boundary</text>
+    <rect class="diagram-node diagram-node-flinker" x="135" y="734" width="220" height="36" rx="6" />
+    <text class="diagram-label" x="245" y="757" text-anchor="middle">Viewer frontend assets</text>
+    <rect class="diagram-node diagram-node-flinker" x="405" y="734" width="220" height="36" rx="6" />
+    <text class="diagram-label" x="515" y="757" text-anchor="middle">Backend metadata only</text>
+    <path class="diagram-arrow" d="M260 386 V430 H70 V752 H135" marker-end="url(#teamsArrow)" />
+    <rect class="diagram-edge-bg" x="72" y="636" width="142" height="22" rx="11" />
+    <text class="diagram-edge-label" x="143" y="652" text-anchor="middle">loads tab content</text>
+    <path class="diagram-arrow diagram-arrow-muted" d="M500 386 V430 H690 V752 H625" marker-end="url(#teamsArrow)" />
+    <rect class="diagram-edge-bg" x="548" y="636" width="174" height="22" rx="11" />
+    <text class="diagram-edge-label" x="635" y="652" text-anchor="middle">technical metadata only</text>
+    <rect class="diagram-note" x="60" y="804" width="640" height="30" rx="15" />
+    <text class="diagram-note-text" x="380" y="824" text-anchor="middle">No IFC content, project documents, Teams messages, or mailbox data are sent to Flinker.</text>
+  </svg>
+</figure>
 
 
 ## 3. Processing and protection of sensitive data

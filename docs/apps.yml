@@ -1,7 +1,7 @@
 ### YamlMime:Dashboard
 ---
 title: Microsoft 365 solutions overview
-description: Browse the Flinker solutions and admin resources for using IFC model workflows in Microsoft Teams, SharePoint, Power BI, and tenant-managed Microsoft 365 deployments.
+description: Browse the Flinker solutions and admin resources for using IFC model workflows in Microsoft Teams, SharePoint, Power BI, Excel, and tenant-managed Microsoft 365 deployments.
 documentType: dashboard
 _disableAffix: true
 _disableBreadcrumb: true
@@ -23,3 +23,7 @@ items:
     description: Display IFC models in Power BI reports and connect model elements with business, schedule, cost, and project data.
     thumbnail: /_media/ifc-viewer-app-microsoft-power-bi-in-microsoft-appsource-store.png
     href: ifc-power-bi.html
+  - name: IFC Viewer add-in for Excel
+    description: View IFC models in Microsoft Excel, sync selections with workbook data, and analyze model properties in familiar spreadsheet workflows.
+    thumbnail: /_media/ifc-viewer-in-excel.png
+    href: ifc-viewer-for-microsoft-excel.html

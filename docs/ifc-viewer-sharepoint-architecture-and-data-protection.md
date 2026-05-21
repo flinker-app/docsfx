@@ -103,28 +103,65 @@ All installation and access remain under the security and governance controls of
 
 Diagram summarizing tenant-resident components and client-side data flows for the IFC Viewer SPFx web part and its Azure CDN module.
 
-```mermaid
-flowchart LR
-  subgraph Tenant
-    BrowserUser[User Browser]
-    SharePointPage[SharePoint page with IFC Viewer SPFx web part]
-    SharePointLib[SharePoint Online IFC document libraries]
-    M365CDN[M365 CDN in customer tenant SPFx bundle]
-    EntraID[Microsoft Entra ID Azure AD]
-  end
-
-  subgraph Flinker
-    ViewerModule[Viewer module Azure CDN]
-    Backend[Azure backend Technical metadata tenant ID optional email usage]
-  end
-
-  BrowserUser -->|opens SharePoint page| SharePointPage
-  SharePointPage -->|loads SPFx assets| M365CDN
-  SharePointPage -->|authentication and tokens| EntraID
-  SharePointPage -->|reads IFC files with user permissions| SharePointLib
-  SharePointPage -->|loads viewer module| ViewerModule
-  SharePointPage -.->|sends technical metadata only no IFC content| Backend
-```
+<figure class="architecture-diagram" role="img" aria-labelledby="sharepoint-diagram-title sharepoint-diagram-desc">
+  <svg viewBox="0 0 760 860" xmlns="http://www.w3.org/2000/svg">
+    <title id="sharepoint-diagram-title">IFC Viewer for SharePoint architecture</title>
+    <desc id="sharepoint-diagram-desc">Diagram showing SharePoint tenant storage, client-side IFC processing in the browser, and separate Flinker Azure services that receive static asset requests and technical metadata only.</desc>
+    <defs>
+      <marker id="sharepointArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+        <path class="diagram-arrowhead" d="M2,2 L10,6 L2,10 Z" />
+      </marker>
+    </defs>
+    <rect class="diagram-bg" x="0" y="0" width="760" height="860" rx="8" />
+    <rect class="diagram-panel diagram-panel-tenant" x="45" y="36" width="670" height="590" rx="8" />
+    <text class="diagram-title" x="380" y="70" text-anchor="middle">Customer Microsoft 365 tenant and user browser</text>
+    <rect class="diagram-note diagram-note-safe" x="100" y="92" width="560" height="40" rx="20" />
+    <text class="diagram-note-text" x="380" y="117" text-anchor="middle">IFC files, model geometry, properties, and project documents stay inside this boundary.</text>
+    <rect class="diagram-node diagram-node-actor" x="250" y="160" width="260" height="64" rx="6" />
+    <text class="diagram-label" x="380" y="188" text-anchor="middle">User browser</text>
+    <text class="diagram-small" x="380" y="209" text-anchor="middle">opens SharePoint page</text>
+    <rect class="diagram-panel diagram-panel-client" x="150" y="260" width="460" height="132" rx="8" />
+    <text class="diagram-title" x="380" y="293" text-anchor="middle">Client-side IFC processing</text>
+    <rect class="diagram-node diagram-node-client" x="246" y="316" width="268" height="58" rx="6" />
+    <text class="diagram-label" x="380" y="340" text-anchor="middle">IFC Viewer SPFx web part</text>
+    <text class="diagram-small" x="380" y="362" text-anchor="middle">parses and renders IFC locally</text>
+    <path class="diagram-arrow" d="M380 224 V260" marker-end="url(#sharepointArrow)" />
+    <rect class="diagram-edge-bg" x="420" y="230" width="104" height="22" rx="11" />
+    <text class="diagram-edge-label" x="472" y="246" text-anchor="middle">loads web part</text>
+    <rect class="diagram-node diagram-node-tenant" x="92" y="444" width="238" height="72" rx="6" />
+    <text class="diagram-label" x="211" y="473" text-anchor="middle">M365 CDN in tenant</text>
+    <text class="diagram-small" x="211" y="496" text-anchor="middle">SPFx bundle and assets</text>
+    <rect class="diagram-node diagram-node-tenant" x="430" y="444" width="238" height="72" rx="6" />
+    <text class="diagram-label" x="549" y="473" text-anchor="middle">SharePoint libraries</text>
+    <text class="diagram-small" x="549" y="496" text-anchor="middle">tenant IFC document storage</text>
+    <rect class="diagram-node diagram-node-tenant" x="250" y="544" width="260" height="58" rx="6" />
+    <text class="diagram-label" x="380" y="568" text-anchor="middle">Microsoft Entra ID</text>
+    <text class="diagram-small" x="380" y="590" text-anchor="middle">authentication and permissions</text>
+    <path class="diagram-arrow" d="M294 392 V418 H211 V444" marker-end="url(#sharepointArrow)" />
+    <rect class="diagram-edge-bg" x="118" y="404" width="118" height="22" rx="11" />
+    <text class="diagram-edge-label" x="177" y="420" text-anchor="middle">loads SPFx assets</text>
+    <path class="diagram-arrow" d="M466 392 V418 H549 V444" marker-end="url(#sharepointArrow)" />
+    <rect class="diagram-edge-bg" x="530" y="404" width="112" height="22" rx="11" />
+    <text class="diagram-edge-label" x="586" y="420" text-anchor="middle">reads IFC files</text>
+    <path class="diagram-arrow" d="M380 392 V544" marker-end="url(#sharepointArrow)" />
+    <rect class="diagram-edge-bg" x="331" y="470" width="98" height="22" rx="11" />
+    <text class="diagram-edge-label" x="380" y="486" text-anchor="middle">uses identity</text>
+    <rect class="diagram-panel diagram-panel-flinker" x="94" y="684" width="572" height="112" rx="8" />
+    <text class="diagram-title" x="380" y="716" text-anchor="middle">Flinker Azure EU outside project-data boundary</text>
+    <rect class="diagram-node diagram-node-flinker" x="135" y="744" width="220" height="38" rx="6" />
+    <text class="diagram-label" x="245" y="768" text-anchor="middle">Viewer module Azure CDN</text>
+    <rect class="diagram-node diagram-node-flinker" x="405" y="744" width="220" height="38" rx="6" />
+    <text class="diagram-label" x="515" y="768" text-anchor="middle">Backend metadata only</text>
+    <path class="diagram-arrow" d="M260 392 V430 H70 V763 H135" marker-end="url(#sharepointArrow)" />
+    <rect class="diagram-edge-bg" x="76" y="646" width="136" height="22" rx="11" />
+    <text class="diagram-edge-label" x="144" y="662" text-anchor="middle">loads viewer code</text>
+    <path class="diagram-arrow diagram-arrow-muted" d="M500 392 V430 H690 V763 H625" marker-end="url(#sharepointArrow)" />
+    <rect class="diagram-edge-bg" x="548" y="646" width="174" height="22" rx="11" />
+    <text class="diagram-edge-label" x="635" y="662" text-anchor="middle">technical metadata only</text>
+    <rect class="diagram-note" x="60" y="812" width="640" height="30" rx="15" />
+    <text class="diagram-note-text" x="380" y="832" text-anchor="middle">No IFC content, SharePoint documents, or project data are sent to Flinker for model processing.</text>
+  </svg>
+</figure>
 
 
 ## 3. Processing and protection of sensitive data
