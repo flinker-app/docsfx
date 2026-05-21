@@ -1,7 +1,7 @@
 ---
-title: FAQs for IFC Viewer in SharePoint
-description: Answers on SPFx hosting, CDN assets, metadata processing, and privacy for the IFC Viewer WebPart in SharePoint Online.
-summary: Frequently asked questions covering SPFx deployment, Microsoft 365 CDN hosting, Azure CDN viewer module, and minimal technical metadata (tenant ID, anonymised usage) without sending IFC/BCF contents.
+title: IFC Viewer in SharePoint FAQ
+description: Answers on SPFx hosting, CDN assets, metadata processing, and privacy for the IFC Viewer web part in SharePoint Online.
+summary: Frequently asked questions covering SPFx deployment, Microsoft 365 CDN hosting, Azure CDN viewer module, and minimal technical metadata (tenant ID, anonymized usage) without sending IFC/BCF contents.
 slug: faq-for-ifc-viewer-in-sharepoint
 canonical_url: https://docs.flinker.app/docs/faq-for-ifc-viewer-in-sharepoint.html
 lang: en
@@ -9,12 +9,12 @@ robots: index,follow
 keywords:
   - SharePoint Online
   - SPFx
-  - WebPart
+  - web part
   - Microsoft 365 CDN
   - Azure CDN
   - metadata
   - tenant ID
-  - anonymised analytics
+  - anonymized analytics
   - IFC
   - BCF
   - privacy
@@ -34,8 +34,8 @@ tags:
   - troubleshooting
   - upgrade
 og:
-  title: FAQs for IFC Viewer in SharePoint
-  description: SPFx hosting in M365 CDN, Azure CDN viewer module, and minimal metadata—no IFC/BCF content sent.
+  title: IFC Viewer in SharePoint FAQ
+  description: SPFx hosting in M365 CDN, Azure CDN viewer module, and minimal metadata - no IFC/BCF content sent.
 twitter:
   card: summary
 audience: users, admins, it
@@ -43,75 +43,75 @@ product: sharepoint-online
 feature: ifc-viewer
 ms.date: 2026-04-15
 ---
-# FAQs - IFC Viewer - SharePoint
+# IFC Viewer in SharePoint FAQ
 
 ## Data processing
 
-### Which usage and metadata does the SharePoint IFC WebPart process?
+### Which usage and metadata does the SharePoint IFC web part process?
 
-The SharePoint IFC WebPart processes the Azure backend metadata described in the Architecture & Data Protection documentation (for example, tenant ID and anonymised usage information). No IFC or BCF content is sent to Flinker.
+The SharePoint IFC web part processes the Azure backend metadata described in the architecture and data protection documentation (for example, tenant ID and anonymized usage information). No IFC or BCF content is sent to Flinker.
 
 
-### Where are the SPFx assets of the SharePoint IFC Viewer hosted?
+### Where are the SPFx assets of the IFC Viewer for SharePoint hosted?
 
-The SPFx assets of the SharePoint IFC Viewer are hosted in the Microsoft 365 CDN of your tenant. At runtime, the viewer module is additionally loaded from a Flinker Azure CDN, as documented in the Architecture & Data Protection section.
+The SPFx assets of the IFC Viewer for SharePoint are hosted in the Microsoft 365 CDN of your tenant. At runtime, the viewer module is additionally loaded from a Flinker Azure CDN, as documented in the architecture and data protection section.
 
 ### Can I view multiple IFC models at the same time?
 
-Yes! You can load multiple models in the SharePoint IFC Viewer by adding multiple IFC files from your SharePoint library.
+Yes! You can load multiple models in the IFC Viewer for SharePoint by adding multiple IFC files from your SharePoint library.
 
 - See here how to add multiple files in the IFC SharePoint viewer: [Click here](https://docs.flinker.app/docs/load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.html).
 
 ### Can I create a persistent federated model view for a SharePoint page?
 
-Yes. A SharePoint IFC Viewer WebPart configured with all relevant models acts as the persistent federated view — every user who opens the SharePoint page sees all models loaded automatically without re-selecting them.
+Yes. An IFC Viewer for SharePoint web part configured with all relevant models acts as the persistent federated view  -  every user who opens the SharePoint page sees all models loaded automatically without re-selecting them.
 
 For projects with many discipline models (for example, 30–35 separate IFC files), the folder link approach is recommended:
 
 1. Store all discipline IFC files in one SharePoint document library folder.
-2. Add the IFC Viewer WebPart to a SharePoint page.
-3. Open the WebPart settings and paste the **direct folder path** of that folder.
+2. Add the IFC Viewer web part to a SharePoint page.
+3. Open the web part settings and paste the **direct folder path** of that folder.
 4. Save and publish the page.
 
-All models in the folder load automatically for every user who visits the page and has access to the folder. New IFC files added to the folder are picked up on the next page load without changing the WebPart configuration.
+All models in the folder load automatically for every user who visits the page and has access to the folder. New IFC files added to the folder are picked up on the next page load without changing the web part configuration.
 
 To share the federated view, share the SharePoint page URL. Anyone with read permission for the page and the folder will see the same model set.
 
 > [!NOTE]
-> There is no separate "Save as federated view" action. The WebPart configuration on the SharePoint page is the persistent, shareable federated view. Files opened locally via the **Open IFC** button are visible only to the person who opened them and are not retained on page reload.
+> There is no separate "Save as federated view" action. The web part configuration on the SharePoint page is the persistent, shareable federated view. Files opened locally via the **Open IFC** button are visible only to the person who opened them and are not retained on page reload.
 
 - How to configure a folder: [Load multiple IFC/BCF files – Step 3 (folder alternative)](https://docs.flinker.app/docs/load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.html#alternative-load-all-ifc-files-from-a-folder)
 
-### Can I open a local IFC file from my desktop in the SharePoint IFC Viewer, and how does that differ from loading a file from SharePoint?
+### Can I open a local IFC file from my desktop in the IFC Viewer for SharePoint, and how does that differ from loading a file from SharePoint?
 
-Yes — the IFC Viewer WebPart can open an IFC file directly from your local desktop. The file is loaded and processed entirely in your browser (client-side); nothing is uploaded to SharePoint or any external server. Only the user who opened it can see the model; it is not visible to other users visiting the same SharePoint page.
+Yes  -  the IFC Viewer web part can open an IFC file directly from your local desktop. The file is loaded and processed entirely in your browser (client-side); nothing is uploaded to SharePoint or any external server. Only the user who opened it can see the model; it is not visible to other users visiting the same SharePoint page.
 
-The shared use case works differently: you store the IFC file in a SharePoint document library and configure its URL — or a folder URL — as the source in the WebPart settings. Every user with permission to access the SharePoint page and the file then sees the same model. Any updates saved to the file in SharePoint are reflected in the viewer automatically. When a folder is configured as the source, the viewer loads all IFC files in that folder and picks up changes to any of those files without manual reconfiguration. This is the standard setup for a shared BIM coordination model in a Teams project channel or a SharePoint project site (SharePoint CDE).
+The shared use case works differently: you store the IFC file in a SharePoint document library and configure its URL  -  or a folder URL  -  as the source in the web part settings. Every user with permission to access the SharePoint page and the file then sees the same model. Any updates saved to the file in SharePoint are reflected in the viewer automatically. When a folder is configured as the source, the viewer loads all IFC files in that folder and picks up changes to any of those files without manual reconfiguration. This is the standard setup for a shared BIM coordination model in a Teams project channel or a SharePoint project site (SharePoint CDE).
 
 - Set up a shared model in SharePoint: [Load multiple IFC/BCF files – Step 2](https://docs.flinker.app/docs/load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.html#step-2-paste-ifc-file-urls)
 
 ### Can you set which users can see the IFC model in SharePoint?
 
-Yes. You can determine which users or user groups can see the 3D or IFC model by using SharePoint permissions (for the page and the IFC file) and Microsoft security groups. If you need additional protection workflows, you can also use the Protect app to restrict access and define who can edit the model.
+Yes. You can determine which users or user groups can see the 3D or IFC model by using SharePoint permissions (for the page and the IFC file) and Microsoft security groups. If you need additional protection workflows, you can also use Protect for SharePoint to restrict access and define who can edit the model.
 
 ## Troubleshooting
 
-### The viewer opens but the screen only darkens and a close button appears — the viewer never fully loads. What should I do?
+### The viewer opens but the screen only darkens and a close button appears  -  the viewer never fully loads. What should I do?
 
-The Viewer Library is most likely missing from Trusted Script Sources. A SharePoint admin must add `https://viewer.flinker.app/` under **SharePoint Admin Center → Advanced → Trusted script sources**.
+The viewer library is most likely missing from trusted script sources. A SharePoint admin must add `https://viewer.flinker.app/` under **SharePoint admin center > Advanced > Trusted script sources**.
 
-Follow the step-by-step instructions: [Step 3 – Add Viewer Library to Trusted Script Sources](https://docs.flinker.app/docs/viewer-app-installation-with-admin-approval.html#3-add-viewer-library-to-trusted-script-sources-required).
+Follow the step-by-step instructions: [Step 3 - Add the viewer library to trusted script sources](https://docs.flinker.app/docs/viewer-app-installation-with-admin-approval.html#3-add-the-viewer-library-to-trusted-script-sources).
 
 > [!NOTE]
-> This step is required for the viewer to load. Without it, the viewer initialises but the script cannot be fetched, leaving only the darkened overlay and close button visible.
+> This step is required for the viewer to load. Without it, the viewer initializes but the script cannot be fetched, leaving only the darkened overlay and close button visible.
 
 ## Updates
 
-### How often do I need to update the SharePoint IFC Viewer, and how?
+### How often do I need to update the IFC Viewer for SharePoint, and how?
 
-Update the SharePoint IFC Viewer at least 1–2 times per year. Unlike all other Flinker Microsoft apps, the SharePoint IFC Viewer is an SPFx app that Flinker cannot update automatically — you must pull the update manually via the App Catalog.
+Update the IFC Viewer for SharePoint at least 1–2 times per year. Unlike other Flinker Microsoft 365 solutions, the IFC Viewer for SharePoint is an SPFx app that Flinker cannot update automatically  -  you must pull the update manually via the App Catalog.
 
-Follow the step-by-step instructions: [Upgrade IFC Viewer to the Latest Version](https://docs.flinker.app/docs/upgrade-sharepoint-ifc-viewer-app.html).
+Follow the step-by-step instructions: [Upgrade IFC Viewer to the latest version](https://docs.flinker.app/docs/upgrade-sharepoint-ifc-viewer-app.html).
 
 > [!TIP]
 > Each upgrade delivers the latest features, security patches, and performance improvements. Only a SharePoint administrator can perform the upgrade.

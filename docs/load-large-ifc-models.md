@@ -1,37 +1,24 @@
 ---
-title: Loading Large IFC Models
-description: Explore how to load and navigate very large IFC models with optimal performance using our advanced viewer technology.
+title: Load large IFC models
+description: Learn how the IFC Viewer loads large IFC models and how to request support for larger datasets.
 keywords: IFC, Large Models, BIM, Optimization, Viewer
 canonical_url: https://docs.flinker.app/docs/load-large-ifc-models.html
 ---
 
-## Loading Large IFC Models
+# Load large IFC models
 
-Our advanced integration allows you to load even the most massive IFC models without compromising performance. Experience smooth and efficient navigation no matter the model size.
+The IFC Viewer is designed to load and navigate large IFC models in the browser. For very large datasets, fragment-based loading can improve startup time and interaction performance.
 
-### Live Demo
+### Live demo
 
-<iframe src="https://viewer.flinker.app/examples/fragments.html" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://viewer.flinker.app/examples/ifc.html" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
 
-The embedded demo above showcases how our solution seamlessly handles large models by loading them in fragments, ensuring quick responsiveness and easy access to the complete model data.
+The demo shows a browser-based IFC model viewer.
 
-### Why Choose Our Large Model Loader?
+### Capabilities
 
-- **High Performance:**  
-Leveraging fragment loading enables rapid visualization even for huge models.
+- **Fragment loading**: Load optimized model fragments instead of processing the full source model at once.
   
-- **Optimized Experience:**  
-Users can smoothly pan, zoom, and interact with the model in real-time.
+- **Interactive navigation**: Pan, zoom, orbit, and inspect model elements after loading.
 
-- **Seamless Integration:**  
-Works effortlessly with your existing workflows to enhance model review sessions.
-
-### Request Even Larger Model Support
-
-Need to load models that go beyond the standard size?  
-We can help tailor solutions to handle the largest datasets. Click the button below to get started.
-
-> [!div class="nextstepaction"]
-> [Request Support for Larger Models](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
-
-Jumpstart your project and experience the full potential of your IFC models, no matter how large they are.
+- **Workflow integration**: Use large-model viewing in SharePoint, Teams, or web-based review workflows.

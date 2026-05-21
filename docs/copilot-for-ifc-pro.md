@@ -17,10 +17,10 @@ On first sign-in, Microsoft may ask you to accept permissions and grant consent:
 
 <img src="/_media/accept-permissions-for-azure-static-web-apps.png" alt="Accept permissions request for Azure Static Web Apps" style="max-width:350px;" />
 
-<img src="/_media/grant-conset-for-ifc-copilot.png" alt="Grant consent for Copilot for IFC" style="max-width:650px;" />
+<img src="/_media/grant-consent-for-ifc-copilot.png" alt="Grant consent for Copilot for IFC" style="max-width:650px;" />
 
 
-## Activate Pro
+## Activate Copilot for IFC Pro
 Make sure you purchase Pro with the **same email address** you use to sign in.
 
 > [!div class="nextstepaction"]

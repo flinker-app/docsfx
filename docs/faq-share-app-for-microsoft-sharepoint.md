@@ -1,72 +1,71 @@
 ---
-title: FAQ for Protect app for Microsoft SharePoint
-description: Frequently asked questions about the Protect app for Microsoft SharePoint, including setup, features, and permissions management.
-keywords: Protect app, Microsoft SharePoint, virtual data rooms, cross company collaboration, IT security, Microsoft Teams, permissions management
+title: Protect for SharePoint FAQ
+description: Frequently asked questions about Protect for SharePoint, including setup, features, and permissions management.
+keywords: Protect for SharePoint, Microsoft SharePoint, virtual data rooms, cross company collaboration, IT security, Microsoft Teams, permissions management
 canonical_url: https://docs.flinker.app/docs/faq-share-app-for-microsoft-sharepoint.html
 ---
 
-# FAQ for Protect app 
+# Protect for SharePoint FAQ
 
-A Microsoft app to turn your Microsoft SharePoint sites into enterprise-level secure virtual data rooms for cross company colllaboration
+Protect for SharePoint helps administrators manage access to SharePoint and Microsoft Teams content. Use it to create controlled project spaces, external collaboration areas, and virtual data rooms in Microsoft 365.
 
-## Where can I download or add the Protect app to my SharePoint site?
+## Add Protect for SharePoint to SharePoint
 
-Please visit [AppSource link](https://appsource.microsoft.com/en-us/product/office/WA200007197?src=docs&mktcmpid=docs_installation) to add the Protect app. You need to be a SharePoint administrator to complete the setup. Click on "Get it now" to proceed with adding the Protect app to your environment.
-If you are not an SharePoint administrator yourself please forward the SharePoint Administrator this setup guidline: [Setup for Admins](https://docs.flinker.app/docs/installation.html)
+Add Protect for SharePoint from [Microsoft AppSource](https://appsource.microsoft.com/en-us/product/office/WA200007197?src=docs&mktcmpid=docs_installation). You must be a SharePoint administrator to complete the setup.
 
-## I have requested the Protect app what happens now?
+If you are not a SharePoint administrator, send the administrator this setup guide: [Setup for admins](https://docs.flinker.app/docs/installation.html).
 
-Usually nothing. Why? Your SharePoint administrator will receive a notification about your requests. Please speak to your SharePoint administrator in person. SharePoint administrator can oversee notifications regularly because they receive many requests emails daily. By default do not expect the SharePoint administrator will setup the Protect app upon your first request but rather expect that you will need to talk to the SharePoint administrator in person and remind him about your request. If you work in a company and you get your SharePoint app timely after your first request - great, you are lucky!
+## After you request the app
 
-## My IT security department has further questions what shall I do?
+Your SharePoint administrator receives the app request in Microsoft 365. Many organizations review these requests manually, so the app might not appear immediately after you submit the request.
 
-Great! As a first step you can send your IT security department this documentation. Companies sometimes need a different set of documentation. If you need more information for your IT security department kindly write us what you need and we will provide it shortly. Please email to support@flinker.app
+Contact your SharePoint administrator if the request is still pending. The administrator must approve and deploy the app before you can use it on a site.
 
-## We have setup the Protect app where do I find it?
+## IT security reviews
 
-The Protect app appears directly within your SharePoint menues and navigation. If you have setup the Protect app in your SharePoint site you will find it in the standard SharePoint menue bar. There is a button named "Manage permissions":
-![Search for IFC Viewer and Click Add](/_media/sharepoint-document-library-view-share-app.png)
+Send your IT security team the relevant setup, architecture, and data protection documentation.
 
-If you do not see this button then select any folder to show it:
+## Find Protect for SharePoint after setup
+
+Protect for SharePoint appears in the SharePoint command bar after it is installed on a site. Look for **Manage permissions** in the document library.
+
+![Search for IFC Viewer and Click Add](/_media/sharepoint-document-library-view-share-add-on.png)
+
+If the button does not appear, select a folder first:
+
 ![Search for IFC Viewer and Click Add](/_media/sharepoint-document-library-view-select-folder.png)
 
-## What features does the Protect app have?
+## View available features
 
-Please find the feature overview page where you see any features and a comparison between SharePoint, Share and Share Premium verison.
+For a feature overview and plan comparison, see [Protect for SharePoint features](share-features.md).
 
-## Which content can be managed with the Microsoft Protect app?
+## Manage SharePoint and Teams content
 
-With the Microsoft Protect app, you can manage all access to content in your OneDrive, SharePoint, or MS Teams. Technically speaking, this concerns all content stored on your Microsoft SharePoint sites. Since files in Microsoft Teams are also stored and synchronized on SharePoint sites, you can use Protect app to easily and granularly control access to all file formats, links/URLs, and folders in your SharePoint or in Microsoft Teams. The Protect app also enables you to securely manage access for users from external companies.
+Use Protect for SharePoint to manage access to content stored in SharePoint, OneDrive, and Microsoft Teams. This includes files, folders, links, pages, and embedded content that are stored or referenced through SharePoint.
 
-Do you use IFC files in your SharePoint? With the IFC Viewer for SharePoint and MS Teams, you can view these files and all changes to them in real time. Use the viewer for a personal quick view of individual or multiple IFC files in the SharePoint document directory or embed it into a SharePoint page or Microsoft Teams. This way, all users in the MS Team or on the SharePoint page can see the changes to their IFC model. This ensures that the correct BIM model and the current version are always displayed to all project participants. Confusion and errors in collaboration are reduced. You can find more information on this topic here.
+Because Teams files are stored in SharePoint, the same permission model applies to content used in Teams channels. Protect for SharePoint also supports external collaboration scenarios where users from other organizations need controlled access.
 
+## Use Protect for SharePoint with IFC files
 
-## Can Microsoft Teams tabs and content be assigned permissions?
+If your project uses IFC files in SharePoint or Teams, combine Protect for SharePoint with IFC Viewer for SharePoint or IFC Viewer for Microsoft Teams. The viewer shows the current IFC model from the document library, while Protect for SharePoint controls who can access the underlying file or folder.
 
-With the Protect app, you can currently manage content in Microsoft Teams for any definable user groups. That means you can, for example, block content displayed in Microsoft Teams tabs for specific users or user groups, so that they do not see any content or data in the tabs. This is possible with all data, content, URLs, or applications that you store or manage in Microsoft 365 or SharePoint. If you want to display an application from an external provider in a Microsoft Teams tab and block it for certain user groups, please contact us at [support@flinker.app](mailto:support@flinker.app). We will gladly examine your case and inform you about the feasibility of your request based on the current development status of the Microsoft Apps.
+## Manage access to Teams tab content
 
+Protect for SharePoint can manage access to content that is displayed in Microsoft Teams tabs when that content is stored or controlled through Microsoft 365 or SharePoint. For example, you can restrict access to a document, folder, list, URL, or embedded application for specific user groups.
 
-## Can Microsoft Teams tabs be completely hidden for certain users or user groups?
+For third-party applications embedded in Teams tabs, review the access-control scenario before deployment.
 
-No, as of the development status in October 2024, it is not possible to show or hide Microsoft Teams tabs with the Protect app. If this feature is still not available at the time of your inquiry, please write to us at [support@flinker.app](mailto:support@flinker.app). We will be happy to inform you when this function will be implemented in the Protect app.
+## Hide Teams tabs
 
+Protect for SharePoint does not currently hide or show the Teams tab itself for specific users. It controls access to the content behind the tab.
 
-## Can the Microsoft Planner be managed with the Protect app?
+## Manage Microsoft Planner tasks
 
-Currently, it is not possible to manage Microsoft Planner with the Protect app. Until October 2024, Microsoft does not offer developer options to control the access rights of tasks in Planner. Therefore, we cannot technically access the tasks in Planner with the Protect app. However, since 2024, Microsoft has been investing heavily in the further development of the Planner app. We therefore expect that managing tasks with the Protect app will soon be possible.
+Protect for SharePoint does not currently manage Microsoft Planner task permissions. Microsoft Planner does not expose the same granular access model for individual task items that SharePoint lists provide.
 
+For task scenarios that require granular permissions, use Microsoft Lists or Microsoft Project. Microsoft Lists works well with Protect for SharePoint because tasks are stored as list items and can use SharePoint permissions.
 
-## Are there alternatives to manage tasks and user groups on a SharePoint page, a Microsoft Teams team, or in so-called Microsoft CDEs/SharePoint project or data rooms with Flinker or the Protect app?
+## Manage access to websites
 
-Yes, there are great alternatives to the Microsoft Planner app. For your task management with internal and external Microsoft users, you can use Microsoft Lists or Microsoft Project. Using Microsoft Lists offers many advantages over Microsoft Planner: tasks are versioned, and you can expand the input fields and labels (so-called tags) as you wish. Additionally, you can communicate with participants within each task. Another advantage is that you can use the Protect app with Microsoft Lists to granularly distribute access rights for task lists. For example, do you not want an internal or external user group to edit or view the tasks of another workgroup? No problem! With the Protect app from Flinker, you can easily define rights and assign them to users or user groups.
-
-
-## Can the access to websites be managed with the Protect app?
-
-Yes, with the Protect app, you can manage access to external websites that you have embedded as tabs in Microsoft Teams or on a SharePoint page.
-
-
-
-
-
+Use Protect for SharePoint to manage access to websites or web applications that are embedded in Microsoft Teams or SharePoint when access is controlled through Microsoft 365, SharePoint, or a supported URL-based configuration.
 

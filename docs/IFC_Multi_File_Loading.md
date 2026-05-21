@@ -1,12 +1,12 @@
 ---
 uid: ifc-multi-file-loading-coloring-sample
-title: IFC Multi-File Loading & Coloring Sample (Power BI)
+title: IFC multi-file loading and coloring sample (Power BI)
 description: Load and analyze multiple IFC files in Power BI with folder and subfolder support, consistent 3D coloring, and cross-model comparison for fast BIM validation.
 keywords: IFC multi-file loading, Power BI IFC, BIM model comparison, IFC folder import, IFC subfolder loading, IFC coloring, 3D BIM analytics, IFC validation
 canonical_url: https://docs.flinker.app/docs/IFC_Multi_File_Loading.html
 ---
 
-# Multi-file Loading & Coloring Sample
+# Multi-file loading and coloring sample
 
 <iframe title="ifc-large" style="width: 100%; aspect-ratio: 16 / 10;" width="100%" src="https://app.powerbi.com/view?r=eyJrIjoiOTgwNmVhYjYtZGFlMS00MGU4LTg4NTItMWU4OWQ3MmU1MDA5IiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
 

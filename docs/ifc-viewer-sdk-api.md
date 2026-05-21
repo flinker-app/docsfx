@@ -1,11 +1,11 @@
 ---
-title: IFC Viewer SDK API Reference
+title: IFC Viewer SDK API reference
 description: API reference for the Flinker IFC Viewer SDK, including constructor options, methods, and exposed runtime properties.
 keywords: IFC Viewer SDK API, JavaScript API, IfcViewer, IFC viewer reference, BCF API
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-sdk-api.html
 ---
 
-# IFC Viewer SDK API Reference
+# IFC Viewer SDK API reference
 
 ## `new IfcViewer(target?)`
 
@@ -26,7 +26,7 @@ const viewer = new IfcViewer(el);
 
 ## `viewer.ready`
 
-`Promise<void>` that resolves once the viewer is fully initialised. Always `await` this before calling any other method.
+`Promise<void>` that resolves once the viewer is fully initialized. Always `await` this before calling any other method.
 
 ```js
 const viewer = new IfcViewer("#ifc-viewer");

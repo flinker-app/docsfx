@@ -1,4 +1,4 @@
-# Flinker DocFX Markdown Style Guide
+# Flinker DocFX Markdown style guide
 
 **Goal:** Use the same Markdown patterns as Microsoft Docs/Learn where DocFX supports them. Keep docs short, scannable, and developer‑friendly.
 
@@ -17,7 +17,7 @@ Example heading structure:
 
 ---
 
-## 2. Text & inline code
+## 2. Text and inline code
 
 - Short paragraphs (max ~3 lines).
 - Use `inline code` for API names, settings, and commands.
@@ -26,7 +26,7 @@ Example inline code: Use `Flinker.Bcf.SyncService` to sync BCF issues.
 
 ---
 
-## 3. Links & xrefs
+## 3. Links and xrefs
 
 Link examples:
 - See [BCF sync](docs/ifc-lists.md).
@@ -91,7 +91,7 @@ Alert examples:
 - Always provide meaningful alt text.
 
 Image example:
-![BCF issue list in Teams](/_media/bcf-issues-teams.png)
+![BCF issue shared in Teams](/_media/share-a-bcf-topic-with-teams-ifc-viewer.png)
 
 ---
 
@@ -103,11 +103,12 @@ Image example:
 Include example:
 `[!include[bcf-warning](../includes/bcf-warning.md)]`
 
-> Note: Microsoft Learn uses `INCLUDE` in upper case, but the idea is the same.
+> [!NOTE]
+> Microsoft Learn uses `INCLUDE` in upper case, but the idea is the same.
 
 ---
 
-## 9. Style Do & Don't
+## 9. Style dos and don'ts
 
 **Do**
 
@@ -121,15 +122,15 @@ Include example:
 - Don’t duplicate content across pages; use includes.
 - Don’t use internal project code names in public docs.
 
-## 10. Sample FAQs
+## 10. Sample FAQ
 
-# Teams IFC Viewer – FAQ
+# Teams IFC Viewer FAQ
 
-## Privacy & data
+## Privacy and data
 
 ### Does the Teams IFC Viewer send any telemetry or IFC data to Flinker?
 
 No. The Teams IFC Viewer does **not** send any IFC or BCF content to Flinker.  
-Only minimal technical metadata is processed, as described in the *Architecture & Data Protection* documentation.
+Only minimal technical metadata is processed, as described in the *architecture and data protection* documentation.
 
 

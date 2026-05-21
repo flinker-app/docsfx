@@ -1,59 +1,60 @@
 ---
-title: Define Custom Permissions for SharePoint Groups and Folders
-description: Configure custom SharePoint permissions for groups, libraries, lists, and folders using the Protect app workflow.
-keywords: SharePoint custom permissions, group permissions, folder permissions, Protect app, Microsoft 365 access control
+title: Define custom permissions for SharePoint groups and folders
+description: Configure custom SharePoint permissions for groups, libraries, lists, and folders using the Protect for SharePoint workflow.
+keywords: SharePoint custom permissions, group permissions, folder permissions, Protect for SharePoint, Microsoft 365 access control
 canonical_url: https://docs.flinker.app/docs/permissions-for-sharepoint-groups-and-folders.html
 ---
 
-# Define custom Permissions for Groups and Folders
+# Define custom permissions for groups and folders
 
-## Define custom permissions 
+Use Protect for SharePoint to configure custom permissions for SharePoint libraries, lists, and folders.
 
-### Prerequisites
-1. Site Owner or Admin Permissions: You must have sufficient permissions to manage site-level permissions in SharePoint.
-2. Existing Groups or Users: Ensure that the SharePoint groups or individual user accounts already exist.
-3. Relevant Libraries, Lists, and Folders: Identify which SharePoint assets (libraries, lists, or folders) you want to secure.
+## Prerequisites
 
-### Create and edit custom permissisons
-1. **Open Protect App**  
-   - Navigate to the desired folder or document library in SharePoint.  
-   - Click **Manage Permissions** in the top navigation bar to launch the Protect App.
+Before you begin, make sure that:
 
-2. **Add New Permissions**  
-   - Click **Add** to assign new permissions to existing SharePoint groups or users.  
-   - This automatically breaks inheritance for that folder or library and ensures you can set custom permissions.
+- You have site owner or administrator permissions for the SharePoint site.
+- The required SharePoint groups, Microsoft Entra security groups, or user accounts already exist.
+- You have identified the libraries, lists, and folders that require custom permissions.
 
-3. **Edit or Delete Permissions**  
-   - Use the **Edit** or **Delete** options to adjust or remove existing permissions.
+## Create and edit custom permissions
 
-> [!Note]
-> - **Least Privilege**: Assign only the access necessary (e.g., Read vs. Edit).  
-> - **Use Groups**: Grant permissions at the group level rather than per individual.  
-> - **Minimize Inheritance Breaks**: Avoid overly complex permission structures.  
-> - **Review Regularly**: Audit permissions to keep access levels up to date.
+1. Open the target folder or document library in SharePoint.
+2. Select **Manage permissions** to open Protect for SharePoint.
+3. Select **Add** to assign permissions to existing SharePoint groups or users.
+4. Review the inheritance change for the selected folder or library.
+5. Use **Edit** or **Delete** to update or remove existing permissions.
 
-## Use the Permissions Template
-This template file can be used to easily duplicate the permission structure and access rights for other SharePoint sites. You will save a lot of time by doing so.
+> [!NOTE]
+> Breaking permission inheritance increases administration effort. Use custom permissions only where the project access model requires them.
 
-### Download Template File from Protect app
+## Permission management recommendations
 
-To download the template file from the Protect app click on the download icon on the top right in the Protect App.
-![Foto](/_media/download-permissions-template.png)
+- Assign the minimum access required for each role.
+- Grant access to groups instead of individual users where possible.
+- Keep inheritance breaks limited and documented.
+- Review permissions regularly as project membership changes.
 
-### Set Permissions in Excel
+## Use the permissions template
 
-Set permissions or permission levels in Excel. 
-The list of created permission groups can be found when you click on the key icon in the Protect app.
-![Foto](/_media/set-authority-levels.png)
+Use the permissions template to duplicate a permission structure across SharePoint sites or project areas.
 
+### Download the template file
 
-To use these authorisation levels just copy the text and paste them into the Excel cells of the template file. Keep attention to avoid typos.
-![Foto](/_media/select-authority-levels.png)
+In Protect for SharePoint, select the download icon in the upper-right corner.
+![Screenshot](/_media/download-permissions-template.png)
 
+### Set permissions in Excel
 
-### Upload Template File to Protect app
+Set the required permission levels in Excel. To view available permission groups, select the key icon in Protect for SharePoint.
+![Screenshot](/_media/set-authority-levels.png)
 
-Upload the template file to the Protect app, review the preview and save it.
-![Foto](/_media/upload-the-permission-template.png)
+Copy the permission level names into the corresponding Excel cells. Match the values exactly to avoid import errors.
+![Screenshot](/_media/select-authority-levels.png)
 
-You have now setup all permissions successfully!
+### Upload the template file
+
+Upload the template file to Protect for SharePoint, review the preview, and save the changes.
+![Screenshot](/_media/upload-the-permission-template.png)
+
+The permissions from the template are applied to the selected SharePoint content.

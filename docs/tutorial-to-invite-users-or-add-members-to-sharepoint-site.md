@@ -1,11 +1,11 @@
 ---
-title: Invite Users or Add Members to a SharePoint Site
+title: Invite users or add members to a SharePoint site
 description: Learn how to invite users and manage Microsoft 365 group membership or SharePoint-only site access.
 keywords: invite users SharePoint, add members Microsoft 365 group, SharePoint access, site permissions
 canonical_url: https://docs.flinker.app/docs/tutorial-to-invite-users-or-add-members-to-sharepoint-site.html
 ---
 
-# Invite users to the SharePoint Site or add members to the team or group
+# Invite users to a SharePoint site or add members to a team or group
 
 Before inviting new members, it's important to understand the difference between:
 
@@ -13,11 +13,11 @@ Before inviting new members, it's important to understand the difference between
 - **SharePoint Site Access Only**: Grants access solely to the SharePoint site, without access to other group resources.
 
 
-## Step 1: Inviting New Members
+## Step 1: Invite new members
 
 In this step, we'll cover how to invite new members using standard Microsoft methods.
 
-### Option A: Inviting Users to the Microsoft 365 Group
+### Option A: Invite users to the Microsoft 365 group
 
 **Purpose:** Add users who require access to all group resources, including the SharePoint site, calendar, conversations, Planner, and Teams.
 
@@ -29,32 +29,32 @@ In this step, we'll cover how to invite new members using standard Microsoft met
    - Select **Site permissions** from the dropdown menu.
    - Or on the SharePoint home site click on the team members in the top right corner.
 
-      ![Foto](/_media/add-members-to-SharePoint-site.png)
+      ![Screenshot](/_media/add-members-to-SharePoint-site.png)
 
 3. **Add internal Members to the Group**
    - In the Site permissions pane, click on **Add members**, and then choose **Add members to group** from the dropdown. Add team members from within your organization (internal members).
    
-      ![Foto](/_media/add-internal-members.png)
+      ![Screenshot](/_media/add-internal-members.png)
 
 4. **Add external Members to the Group** 
 
    Add team members from outside of your organization (external members) if your SharePoint site type is a "team site". 
 
-      - You have to navigate to **Microsoft Teams Group**. In group settings, click add team memebers. Add the external members.
+      - You have to navigate to **Microsoft Teams Group**. In group settings, click add team members. Add the external members.
 
-         ![Foto](/_media/add-external-team-members-3.png)
+         ![Screenshot](/_media/add-external-team-members-3.png)
 
       - Alternatively, navigate to **Outlook** and add the members in the Outlook group dashboard.
       
-         ![Foto](/_media/add-external-team-members-1.png)
+         ![Screenshot](/_media/add-external-team-members-1.png)
 
       - Or navigate directly to Outlook to find the dashboard.
    
-         ![Foto](/_media/add-external-team-members-2.png)
+         ![Screenshot](/_media/add-external-team-members-2.png)
 
 **Result:** Users are added to the Microsoft 365 Group and gain access to all associated resources, including the SharePoint site and other group features like calendars and conversations.
 
-### Option B: Inviting Users Only to the SharePoint Site
+### Option B: Invite users only to the SharePoint site
 
 **Purpose:** Add users who need access only to the SharePoint site, without granting them access to other group resources.
 
@@ -78,27 +78,27 @@ In this step, we'll cover how to invite new members using standard Microsoft met
 
 Official Microsoft Documentation: [Share a site](https://support.microsoft.com/en-us/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658)
 
-## Step 2: Assigning Users to SharePoint Groups for Granular Permissions
+## Step 2: Assign users to SharePoint groups for granular permissions
 
-Now that you've added users to the site, you can assign them to SharePoint groups to manage granular access using the Protect app.
+Now that you've added users to the site, you can assign them to SharePoint groups to manage granular access using Protect for SharePoint.
 
 #### Steps:
 
-1. **Open the Protect app**
+1. **Open Protect for SharePoint**
 2. **View Existing SharePoint Groups**
    - Click on the group icon which will open the group management dashboard.
 
-      ![Foto](/_media/click-on-group-icon-in-protect-app.png)
+      ![Screenshot](/_media/click-on-group-icon-in-protect-app.png)
 
 3. **Assign Users to SharePoint Groups**
 
    - Select or search the SharePoint group to which you want to assign users.
 
-      ![Foto](/_media/Open-user-group.png)
+      ![Screenshot](/_media/Open-user-group.png)
 
    - Add users to the group and a short invitation text.
    
-      ![Foto](/_media/add-new-members-in-the-share-point-group.png)
+      ![Screenshot](/_media/add-new-members-in-the-share-point-group.png)
 
 4. **Create Custom SharePoint Groups (Optional)**
 

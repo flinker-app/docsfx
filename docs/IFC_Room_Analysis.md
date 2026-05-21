@@ -1,12 +1,12 @@
 ---
 uid: ifc-space-analytics
-title: IFC Space Analytics & Occupancy Dashboard (Power BI)
+title: IFC space analytics and occupancy dashboard (Power BI)
 description: Analyze IFC space and occupancy data in Power BI. Visualize room usage, area, and volume with an interactive 3D viewer and automated usage classification logic.
 keywords: IFC space analytics, IFC occupancy dashboard, Power BI IFC rooms, BIM space analysis, IfcSpace, room usage analytics, facility management BIM, IFC quantity takeoff
 canonical_url: https://docs.flinker.app/docs/IFC_Room_Analysis.html
 ---
 
-# IFC Space Analytics & Occupancy Dashboard
+# IFC space analytics and occupancy dashboard
 
 <iframe title="ifcviewer_Room Analysis" style="width: 100%; aspect-ratio: 16 / 9;" src="https://app.powerbi.com/view?r=eyJrIjoiZDA0ZDdkOTMtYjk5ZC00MmEwLWJiZDctZGU5YjJjNWYxMWZiIiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
@@ -19,17 +19,17 @@ This tool is essential for **BIM Managers**, **Facility Managers**, and **Owner 
 
 ---
 
-## Report Structure: Overview vs. Detail
+## Report structure: overview and detail
 
 To provide both high-level insights and granular engineering data, the dashboard is split into two distinct views:
 
-### 1. Space Overview (Executive View)
+### 1. Space overview
 Designed for stakeholders who need quick answers. This page features:
 * **Interactive 3D Viewer:** A large, central visualization color-coded by Room Function.
 * **Gauge Chart:** An instant visual indicator showing the total **Number of Rooms** in the filtered selection.
 * **Usage Summary List:** A color-coded table displaying room types (e.g., Office, Corridor) alongside their count and total area, replacing complex engineering grids.
 
-### 2. Quantity Takeoff (Detailed View)
+### 2. Quantity takeoff
 Designed for engineers and estimators. Accessible via the **"Show Extended Room Details"** navigation button, this page includes:
 * **Detailed Matrix:** A comprehensive table listing every room with its specific properties (Perimeter, Height, Volume).
 * **Advanced Filtering:** Granular control to filter data by Level, Usage, or Name.
@@ -37,14 +37,14 @@ Designed for engineers and estimators. Accessible via the **"Show Extended Room 
 
 ---
 
-## Key Features
+## Key features
 
 * **Automated Usage Detection:** A smart algorithm that identifies room functions regardless of the naming convention used in the source file (Revit, ArchiCAD, etc.).
 * **Data-Driven 3D Visualization:** A fully interactive 3D viewer that color-codes spaces based on their function dynamically.
 * **Consistency Across Visuals:** The color palette used in the 3D model is automatically synchronized with all charts and tables in the report.
 * **Performance Optimized:** Built on a high-performance Power Query ETL process designed to handle large IFC datasets efficiently.
 
-## Technical Logic: The "Priority Matrix"
+## Technical logic: priority matrix
 
 One of the biggest challenges in IFC data is inconsistent naming. Some files use `Occupancy`, others use `Category`, and some stick to standard IFC properties.
 
@@ -58,9 +58,10 @@ To solve this, this dashboard utilizes a **DAX Priority Matrix**. It scans the m
 | **4. Inference** | **Fuzzy Matching** | *Keywords search* | Scans all properties for text containing "Usage" or "Occupancy". |
 | **5. Fallback** | **Default** | *Unassigned* | If no data is found, it is flagged for the BIM Manager to review. |
 
-> **Note:** This logic ensures that 99% of spaces get a meaningful label without manual mapping.
+> [!NOTE]
+> This logic ensures that 99% of spaces get a meaningful label without manual mapping.
 
-## Dynamic Coloring System
+## Dynamic coloring system
 
 Gone are the days of manually setting colors for every room type. This dashboard features an **Algorithmic Coloring Engine**:
 
@@ -68,7 +69,7 @@ Gone are the days of manually setting colors for every room type. This dashboard
 2. **Consistency:** "Kitchen" will always appear in the same specific color, and "Office" in another, ensuring consistent reporting across different projects.
 3. **Scalability:** The system supports an infinite number of room types. Even if a new function like "Laboratory" appears, it automatically gets a distinct color.
 
-## Prerequisites for IFC Files
+## Prerequisites for IFC files
 
 To get the best results when loading your own data, ensure your IFC file meets these criteria:
 

@@ -1,16 +1,25 @@
 ### YamlMime:Dashboard
 ---
-title: Tutorials for permissions management in SharePoint using the Protect App
+title: Protect for SharePoint tutorials
+description: Follow step-by-step tutorials for managing SharePoint groups, folder structures, permissions, external sharing, and site membership with Protect for SharePoint.
 documentType: dashboard
+_disableAffix: true
+_disableBreadcrumb: true
+_disableNextArticle: true
 expanded: true
 items:
-  - name: Create Groups and Folders
+  - name: Create groups and folders
+    description: Create the SharePoint groups and folder structure used by permission management tutorials.
     href: create-sharepoint-group-and-folder-structure.html
-  - name: Set Permissions for Groups and Folders
+  - name: Set permissions for groups and folders
+    description: Assign folder-level permissions to SharePoint groups and validate the resulting access model.
     href: permissions-for-sharepoint-groups-and-folders.html
   - name: Hide a folder with specific permissions
+    description: Hide a SharePoint folder from users who do not have permission to access it.
     href: hide-sharepoint-folder-with-protect-app.html
   - name: Invite users or add members to site
+    description: Add internal users or external guests to a SharePoint site and its connected Microsoft 365 group.
     href: tutorial-to-invite-users-or-add-members-to-sharepoint-site.html
   - name: Share specific folder with externals
+    description: Share selected folders with external users while keeping the rest of the library controlled.
     href: tutorial-to-share-sharepoint-folders-with-externals.html

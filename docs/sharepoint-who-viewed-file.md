@@ -1,11 +1,11 @@
 ---
-title: How to See Who Viewed Files in SharePoint
+title: See who viewed files in SharePoint
 description: Learn how to see who viewed a file in SharePoint using SharePoint Viewers for quick checks and Microsoft Purview Audit for compliance-grade tracking.
 keywords: SharePoint, Viewers, File Activity, Microsoft 365, Purview, Audit Logs, Document Tracking, View History, Flinker
 canonical_url: https://docs.flinker.app/docs/sharepoint-who-viewed-file.html
 ---
 
-# How to See Who Viewed Files in SharePoint
+# See who viewed files in SharePoint
 
 ### Track document access in SharePoint and Teams
 
@@ -13,7 +13,7 @@ If you need a quick answer, use **SharePoint Viewers** on the file card.
 
 If you need audit evidence for compliance or investigations, use **Microsoft Purview Audit**.
 
-For permission governance (who can access content), see [Protect app features](~/docs/share-features.md).
+For permission governance (who can access content), see [Protect for SharePoint features](~/docs/share-features.md).
 
 Microsoft provides two primary options:
 
@@ -22,11 +22,11 @@ Microsoft provides two primary options:
 
 You can also use **file activity in a document library** for recent changes.
 
-## Option 1: Enable and Use SharePoint Viewers
+## Option 1: Enable and use SharePoint Viewers
 
 Microsoft’s official feature is called **SharePoint Viewers**. After activation, users can see viewers and view counts on the file card.
 
-### Enable SharePoint Viewers (site owner)
+### Enable SharePoint Viewers
 
 1. Open your SharePoint site.
 2. Select **Settings** (top-right) > **Site information**.
@@ -46,7 +46,7 @@ Microsoft states that when this feature is enabled, historical viewer data can a
 
 The file card is only visible to people who already have access to the file, and content in the card is personalized to the viewer.
 
-## Option 2: Check File Activity in the Document Library
+## Option 2: Check file activity in the document library
 
 Use this for quick, recent activity directly in a library.
 
@@ -57,15 +57,15 @@ Use this for quick, recent activity directly in a library.
 
 Microsoft documents this activity as recent changes such as created/edited/deleted and says activity is available for the last **60 days**.
 
-## Option 3: Use Site Usage for Trends
+## Option 3: Use site usage for trends
 
 Site usage reports are useful for trends (for example, popular content, unique viewers, and total visits), not for detailed compliance investigations. Microsoft notes individual names are shown in the library hover card when SharePoint Viewers is enabled, not on the Site Usage page.
 
-## Option 4: Use Microsoft Purview Audit for Full Auditing
+## Option 4: Use Microsoft Purview Audit for full auditing
 
 For exact forensic/compliance tracking (who, when, IP, operation), use **Microsoft Purview Audit**.
 
-### Official Prerequisites
+### Official prerequisites
 
 - You need the **Audit Logs** or **View-Only Audit Logs** role.
 - Audit log search is on by default for Microsoft 365/Office 365 enterprise organizations.
@@ -96,11 +96,11 @@ Microsoft notes audit records for core services are typically available within 6
 
 In Purview Audit search UI, the maximum date range per search is 180 days.
 
-## Optional: Custom Logging with Power Automate
+## Optional: Custom logging with Power Automate
 
 Power Automate can capture and store events based on available triggers/actions, but it is not a replacement for Purview audit in compliance scenarios.
 
-## Troubleshooting: Why Viewer Data May Be Missing
+## Troubleshooting: why viewer data may be missing
 
 If names or counts don’t appear as expected:
 
@@ -110,7 +110,7 @@ If names or counts don’t appear as expected:
 4. **Check where you’re looking**: individual names appear in the library hover card, not Site Usage.
 5. **For audit searches**, allow for ingestion delay (commonly 60–90 minutes) and verify role assignments.
 
-## Known Limits
+## Known limits
 
 - Site Usage is aggregate analytics and does not show per-viewer identity on the Site Usage page.
 - Site Usage can exclude the most recent 60 minutes of activity.
@@ -135,12 +135,12 @@ You need the **Audit Logs** or **View-Only Audit Logs** role and enough retentio
 
 Use **SharePoint Viewers** for a quick check. Use **Microsoft Purview Audit** when you need traceable audit evidence.
 
-## Next Steps
+## Next steps
 
-- [Protect app features](~/docs/share-features.md)
-- [Protect app installation](~/docs/installation.md)
+- [Protect for SharePoint features](~/docs/share-features.md)
+- [Protect for SharePoint installation](~/docs/installation.md)
 
-## Microsoft Official References
+## Microsoft official references
 
 Last verified: 2026-02-20
 
@@ -149,7 +149,3 @@ Last verified: 2026-02-20
 - [File activity in a document library](https://support.microsoft.com/en-us/office/file-activity-in-a-document-library-6105ecda-1dd0-4f6f-9542-102bf5c0ffe0)
 - [View usage data for your SharePoint site](https://support.microsoft.com/en-us/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e)
 - [Search the audit log (Microsoft Purview)](https://learn.microsoft.com/en-us/purview/audit-search)
-
-### Need Help?
-
-[Talk to us](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)

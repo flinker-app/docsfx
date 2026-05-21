@@ -1,13 +1,13 @@
 ---
 title: Use the IFC Viewer in Excel
 description: Learn how to load IFC geometry into Excel, sync selections with the IFC Viewer, and prepare your workbook for reliable linking.
-keywords: IFC Excel add-in, Excel IFC Viewer guide, GlobalId sync, ifcChunk, BIM in Excel
+keywords: IFC Excel add-in, IFC Viewer Add-in for Excel guide, GlobalId sync, ifcChunk, BIM in Excel
 canonical_url: https://docs.flinker.app/docs/excel-ifc-viewer-guide.html
 ---
 
 # Use the IFC Viewer in Excel
 
-Use this guide to load IFC geometry into Excel, open the model in the IFC Viewer task pane, and keep worksheet selections linked with the 3D model. The Excel IFC Viewer works best when the workbook already contains IFC geometry and element identifiers, so Excel becomes the working surface for tables, filters, formulas, reports, and connected PivotTables while the task pane provides the linked 3D view.
+Use this guide to load IFC geometry into Excel, open the model in the IFC Viewer task pane, and keep worksheet selections linked with the 3D model. The IFC Viewer Add-in for Excel works best when the workbook already contains IFC geometry and element identifiers, so Excel becomes the working surface for tables, filters, formulas, reports, and connected PivotTables while the task pane provides the linked 3D view.
 
 ## Load IFC geometry in Excel
 
@@ -124,7 +124,7 @@ The viewer can export data back into Excel as new sheets or tables. This is usef
 
 Use the export action in the viewer to send IFC property data into Excel:
 
-![Export IFC properties from the Excel IFC Viewer](/_media/right-click-select-and-click-save-to-excel-for-exporting-ifc-properties-with-excel-ifc-viewer.png)
+![Export IFC properties from the IFC Viewer Add-in for Excel](/_media/right-click-select-and-click-save-to-excel-for-exporting-ifc-properties-with-excel-ifc-viewer.png)
 
 When you run an export:
 

@@ -1,17 +1,17 @@
 ---
-title: Color IFC Elements in the Power BI Viewer
-description: Learn how to highlight IFC model elements with conditional formatting rules inside the Power BI IFC Viewer visual.
+title: Color IFC elements in the Power BI viewer
+description: Learn how to highlight IFC model elements with conditional formatting rules inside the IFC Viewer Visual for Power BI.
 keywords: IFC, Power BI, conditional formatting, color rules, BIM visualization
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-color-rules-for-power-bi.html
 ---
 
-# Color IFC Elements in the Power BI Viewer
+# Color IFC elements in the Power BI viewer
 
 <iframe title="ifc-coloring" style="width: 100%; aspect-ratio: 16 / 10;" width="100%" src="https://app.powerbi.com/view?r=eyJrIjoiOTgwNmVhYjYtZGFlMS00MGU4LTg4NTItMWU4OWQ3MmU1MDA5IiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9&pageName=acea90a710adc19ac142" frameborder="0" allowFullScreen="true"></iframe>
 
 Conditional formatting lets you highlight model elements directly inside the IFC Viewer visual so that stakeholders can instantly see phases, disciplines, or QA findings. Power BI supports two conditional-formatting modes-pick the one that matches how you want to manage colors.
 
-## Option 1: Set Colors Manually
+## Option 1: Set colors manually
 
 ### When to use manual colors
 - You want to quickly highlight a few known categories without changing your data model.
@@ -30,7 +30,7 @@ Conditional formatting lets you highlight model elements directly inside the IFC
 
 ![Conditional formatting using manual color rules](/_media/color-conditional-formatting-in-power-bi-visual.png)
 
-## Option 2: Use Colors from Your Data
+## Option 2: Use colors from your data
 
 ### When to use data-driven colors
 Use this mode when the color should come from the dataset:

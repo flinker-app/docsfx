@@ -28,7 +28,6 @@ _Last updated: July 2025_
 
 _Visual overview:_
 
-![Open IFC Viewer for Teams – Architecture Diagram](/_media/ifc-viewer-architecture-customer-tenant-flinker-app.png)
 
 
 

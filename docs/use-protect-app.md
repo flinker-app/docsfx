@@ -1,23 +1,23 @@
 ---
-title: Use Protect App
-description: Step-by-step guide to use Protect app for reviewing and changing SharePoint access.
-keywords: Protect app, SharePoint permissions, manage access, add access, edit access, remove access, Excel import
+title: Use Protect for SharePoint
+description: Step-by-step guide to use Protect for SharePoint to review and change SharePoint access.
+keywords: Protect for SharePoint, SharePoint permissions, manage access, add access, edit access, remove access, Excel import
 canonical_url: https://docs.flinker.app/docs/use-protect-app.html
 ---
 
-# Use Protect app
+# Use Protect for SharePoint
 
-This guide explains the everyday workflow in Protect app, from opening a site to applying access changes safely.
+This guide explains the everyday workflow in Protect for SharePoint, from opening a site to applying access changes safely.
 
 ## Before you start
 
-- Protect app is installed on the site.
+- Protect for SharePoint is installed on the site.
 - You have SharePoint permission to manage access on the selected content.
 - For licensed actions (such as edit/remove/import), your subscription is active.
 
-## 1. Open Protect app
+## 1. Open Protect for SharePoint
 
-You can start Protect app directly from a document library or add it to a SharePoint page for quick access.
+You can start Protect for SharePoint directly from a document library or add it to a SharePoint page for quick access.
 
 ### Open it from a document library
 
@@ -25,7 +25,7 @@ You can start Protect app directly from a document library or add it to a ShareP
 2. Open the **...** menu in the command bar.
 3. Select **Manage permissions**.
 
-![Open Manage permissions inside a document library](/_media/open-permissions-inside-a-docuemnt-library.png)
+![Open Manage permissions inside a document library](/_media/open-permissions-inside-a-document-library.png)
 
 ### Add it as a SharePoint web part
 
@@ -40,7 +40,7 @@ If you want a permanent entry point on a site page:
 
 ## 2. Choose a view
 
-Protect app gives you two views:
+Protect for SharePoint gives you two views:
 
 - **Across sites view**: View accessible SharePoint sites and filter by site type, external sharing mode, and lock state.
 - **Inside a site view**: Work on one site or folder path with breadcrumb navigation and full permission details.
@@ -84,7 +84,7 @@ If needed, enable **Load nested sharing entries** to include deeper folder conte
 2. Select **Edit** to change the access level in bulk, or **Remove** to revoke access.
 3. Confirm the action.
 
-When all direct entries are removed from a scope, Protect app can reset inheritance automatically to keep permissions consistent.
+When all direct entries are removed from a scope, Protect for SharePoint can reset inheritance automatically to keep permissions consistent.
 
 ## 6. Import or export with Excel
 
@@ -102,12 +102,12 @@ Import remains blocked until validation issues are resolved.
 
 - **You do not have access to this site**: ask a site admin for permission.
 - **Site not found or unavailable**: verify site URL or current context.
-- **Action blocked by subscription**: activate or renew your Protect subscription.
+- **Action blocked by subscription**: activate or renew your Protect for SharePoint subscription.
 - **Long-running load**: leave the tab open until progress completes.
 
 ## Related pages
 
-- [Protect app features](~/docs/share-features.md)
-- [Protect app installation](~/docs/installation.md)
-- [Protect tutorials](~/docs/protect-tutorials.yml)
-- [Protect FAQ](~/docs/faq-share-app-for-microsoft-sharepoint.md)
+- [Protect for SharePoint features](~/docs/share-features.md)
+- [Protect for SharePoint installation](~/docs/installation.md)
+- [Protect for SharePoint tutorials](~/docs/protect-tutorials.yml)
+- [Protect for SharePoint FAQ](~/docs/faq-share-app-for-microsoft-sharepoint.md)

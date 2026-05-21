@@ -1,24 +1,21 @@
 ---
-title: Copilot for IFC API
+title: Copilot for IFC SDK
 description: Generate Python workflows from natural-language prompts for IFC models. Run them client-side with the Copilot for IFC runtime library.
-keywords: Copilot for IFC API, IFC, BIM, AI, Python, browser runtime, Pyodide, IfcOpenShell
+keywords: Copilot for IFC SDK, IFC, BIM, AI, Python, browser runtime, Pyodide, IfcOpenShell
 canonical_url: https://docs.flinker.app/docs/copilot-for-ifc-api.html
 ---
 
-# Copilot for IFC API
+# Copilot for IFC SDK
 
-<iframe src="https://calm-river-02db51810-364.centralus.2.azurestaticapps.net/examples/copilot.html" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
-
-
-Use the Copilot for IFC API to turn a user prompt into a Python workflow that can analyze (and optionally edit) IFC models.
+Use the Copilot for IFC SDK to turn a user prompt into a Python workflow that can analyze (and optionally edit) IFC models.
 
 > [!IMPORTANT]
-> **Access by request:** you'll need API access enabled for your organization. Endpoints, payloads, and model names may evolve during the preview.
+> **Access by request:** you'll need SDK access enabled for your organization. Endpoints, payloads, and model names may evolve during the preview.
 
 ## Typical integration flow
 
 1. Your UI collects a prompt (and optionally IFC file names/metadata).
-2. Your backend calls the Copilot for IFC API and receives a generated Python workflow. Keep the key server-side.
+2. Your backend calls the Copilot for IFC SDK service and receives a generated Python workflow. Keep the key server-side.
    ```js
    // e.g., in an API route /api/copilot
    export default async function handler(req, res) {
@@ -60,10 +57,6 @@ Use the Copilot for IFC API to turn a user prompt into a Python workflow that ca
        text: result.resultText
      };
    }
-
-   // Example:
-   // const { markdown, text } = await runPrompt("How many walls are in Sample.ifc?");
-   // Render markdown/text to your UI.
    ```
 4. Your UI renders outputs and optionally offers the workflow source for audit/reuse (use `result.markdown`, `result.resultText`, and `result.log` from the snippet above).
 
@@ -72,7 +65,3 @@ Use the Copilot for IFC API to turn a user prompt into a Python workflow that ca
 - IFC files can stay on the client (browser memory / local session) when executed with the runtime library.
 - Only user text (and optional metadata you choose to send) needs to be submitted for AI workflow generation.
 - This split supports enterprise requirements around data sovereignty and confidential project data.
-
-
-> [!div class="nextstepaction"]
-> [Request API access](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)

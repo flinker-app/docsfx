@@ -1,6 +1,14 @@
-# IFC-IDS Compliance Dashboard
+---
+uid: ifc-ids-compliance-dashboard
+title: IFC-IDS compliance dashboard (Power BI)
+description: Validate IFC model data against IDS requirements in a Power BI dashboard with result filtering and element-level explanations.
+keywords: IFC IDS compliance, Power BI IDS dashboard, IFC validation, Information Delivery Specification, BIM validation
+canonical_url: https://docs.flinker.app/docs/IFC_IDS_Compliance.html
+---
 
-<iframe title="IFC-IDS_Attribue-Property-material_Check" style="width: 100%; aspect-ratio: 16 / 9;" src="https://app.powerbi.com/view?r=eyJrIjoiODdjODEyNTktNzZiMC00YzFlLTkzYzYtNTAxZDU0Njk4MTQ2IiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
+# IFC-IDS compliance dashboard
+
+<iframe title="IFC-IDS_Attribute-Property-material_Check" style="width: 100%; aspect-ratio: 16 / 9;" src="https://app.powerbi.com/view?r=eyJrIjoiODdjODEyNTktNzZiMC00YzFlLTkzYzYtNTAxZDU0Njk4MTQ2IiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 ---
 
@@ -8,7 +16,7 @@
 
 The dashboard reads an IFC file and an IDS file, then checks every applicable IFC element against every requirement defined in the IDS. Results are shown as **Pass**, **Fail**, or **Not Checked** at the element level, with explanations for every failure.
 
-You can filter results by specification, facet type, element type, and result status — and see which exact elements failed and why.
+You can filter results by specification, facet type, element type, and result status  -  and see which exact elements failed and why.
 
 ---
 
@@ -27,8 +35,8 @@ You can filter results by specification, facet type, element type, and result st
 **1. Set the file locations**
 
 Open Power BI Desktop → Transform Data → Parameters. Set:
-- `FileLocation` — URL or path to your `.ifc` file
-- `IDS_FilePath` — URL or path to your `.ids` file
+- `FileLocation`  -  URL or path to your `.ifc` file
+- `IDS_FilePath`  -  URL or path to your `.ids` file
 
 **2. Refresh the data**
 
@@ -54,9 +62,9 @@ Select any row in the Specifications table on the left to open the **Specificati
 
 | Facet | Checked | What it verifies |
 |---|---|---|
-| **Attribute** | ✅ Pass / Fail | IFC attribute present and not empty (e.g. Name, Description, ObjectType, Tag, PredefinedType) |
-| **Property** | ✅ Pass / Fail | Property exists in the correct Pset with a value (e.g. `Pset_DoorCommon.FireRating`) |
-| **Material** | ✅ Pass / Fail | At least one material is assigned to the element |
+| **Attribute** | Yes Pass / Fail | IFC attribute present and not empty (e.g. Name, Description, ObjectType, Tag, PredefinedType) |
+| **Property** | Yes Pass / Fail | Property exists in the correct Pset with a value (e.g. `Pset_DoorCommon.FireRating`) |
+| **Material** | Yes Pass / Fail | At least one material is assigned to the element |
 
 ### Value checks
 
@@ -72,7 +80,7 @@ The **Actual Value** column always shows what was found in the IFC, whether the 
 
 ### Applicability (which elements are checked)
 
-The dashboard applies each specification to the elements that match its **Entity** filter. Matching uses prefix logic, so `IFCWALL` in the IDS will match both `IFCWALL` and `IFCWALLSTANDARDCASE` in the IFC model — consistent with the IDS standard.
+The dashboard applies each specification to the elements that match its **Entity** filter. Matching uses prefix logic, so `IFCWALL` in the IDS will match both `IFCWALL` and `IFCWALLSTANDARDCASE` in the IFC model  -  consistent with the IDS standard.
 
 ---
 
@@ -92,55 +100,56 @@ Every failed check is classified into one of three types, visible in the **Fail 
 
 The following IDS features are **not yet supported**. Checks that require these features will show as **Not Checked** (grey).
 
-### Applicability — what can be used to select elements
+### Applicability  -  what can be used to select elements
 
 The dashboard currently filters elements by **Entity type only**.
 
 | Applicability condition | Support |
 |---|---|
-| Entity (e.g. `IFCWALL`) | ✅ Supported |
-| PredefinedType (e.g. `IFCPILE.POURED`) | ❌ Not supported — all elements of that entity are checked, regardless of type |
-| Attribute with value in applicability | ❌ Not supported |
-| Property / Pset in applicability | ❌ Not supported |
-| Classification in applicability | ❌ Not supported |
-| Relation-based applicability | ❌ Not supported |
+| Entity (e.g. `IFCWALL`) | Yes Supported |
+| PredefinedType (e.g. `IFCPILE.POURED`) | No Not supported  -  all elements of that entity are checked, regardless of type |
+| Attribute with value in applicability | No Not supported |
+| Property / Pset in applicability | No Not supported |
+| Classification in applicability | No Not supported |
+| Relation-based applicability | No Not supported |
 
-> **Example:** An IDS rule that says "check only piles with PredefinedType = POURED" will be applied to **all** piles in the model, not just the poured ones.
+> [!NOTE]
+> An IDS rule that says "check only piles with PredefinedType = POURED" will be applied to **all** piles in the model, not just the poured ones.
 
-### Requirements — what can be validated
+### Requirements  -  what can be validated
 
 | Requirement facet | Support |
 |---|---|
-| Attribute | ✅ Supported |
-| Property (Pset) | ✅ Supported |
-| Material | ✅ Supported |
-| Classification | ❌ Not supported → Not Checked |
-| IfcType / TypeObject | ❌ Not supported → Not Checked |
-| Relation | ❌ Not supported → Not Checked |
-| Part-of / Aggregation | ❌ Not supported → Not Checked |
+| Attribute | Yes Supported |
+| Property (Pset) | Yes Supported |
+| Material | Yes Supported |
+| Classification | No Not supported → Not Checked |
+| IfcType / TypeObject | No Not supported → Not Checked |
+| Relation | No Not supported → Not Checked |
+| Part-of / Aggregation | No Not supported → Not Checked |
 
 ### Other limitations
 
-- **Single file only** — the dashboard checks one IFC file at a time. Multi-file validation is not supported.
-- **Material check is presence-only** — the dashboard confirms that a material is assigned, but does not validate material name or layer composition against an expected value (unless the IDS specifies an exact value in the `<value>` element).
-- **IFC 2x3 and IFC 4** — both are supported. IFC 4.3 files will load but schema-specific entity names may not all be recognized.
-- **Large files** — performance depends on file size and the number of specifications. Files above ~150 MB may refresh slowly.
+- **Single file only**  -  the dashboard checks one IFC file at a time. Multi-file validation is not supported.
+- **Material check is presence-only**  -  the dashboard confirms that a material is assigned, but does not validate material name or layer composition against an expected value (unless the IDS specifies an exact value in the `<value>` element).
+- **IFC 2x3 and IFC 4**  -  both are supported. IFC 4.3 files will load but schema-specific entity names may not all be recognized.
+- **Large files**  -  performance depends on file size and the number of specifications. Files above ~150 MB may refresh slowly.
 
 ---
 
 ## Result values explained
 
-| Result | Colour | Meaning |
+| Result | Color | Meaning |
 |---|---|---|
-| **Pass** | 🟢 Green | The element satisfies the requirement |
-| **Fail** | 🔴 Red | The element does not satisfy the requirement |
-| **Not Checked** | ⚪ Grey | The requirement uses a facet type that is not yet supported (see limitations above) |
+| **Pass** | Green | The element satisfies the requirement |
+| **Fail** | Red | The element does not satisfy the requirement |
+| **Not Checked** | Gray | The requirement uses a facet type that is not yet supported (see limitations above) |
 
 The overall **Pass Rate** is calculated as `Pass / (Pass + Fail)`. Not Checked rows are excluded from the rate so they do not inflate or deflate the score.
 
 ---
 
-## Some points to note
+## Notes
 
 **Why does a specification show N/A instead of a pass rate?**
 
@@ -154,6 +163,6 @@ Only elements with valid geometry (placement + representation) are loaded from t
 
 Yes. Every specification in the IDS file is parsed and checked independently. The Specifications table shows one row per specification with its own pass rate.
 
-**The pass rate looks wrong — some elements appear multiple times.**
+**The pass rate looks wrong  -  some elements appear multiple times.**
 
-Each row in the compliance table represents one element × one requirement. If a specification has three requirements, a single element will produce three rows. This is by design — it allows you to see exactly which requirement each element passes or fails.
+Each row in the compliance table represents one element × one requirement. If a specification has three requirements, a single element will produce three rows. This is by design  -  it allows you to see exactly which requirement each element passes or fails.

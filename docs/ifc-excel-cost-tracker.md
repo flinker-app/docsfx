@@ -1,12 +1,12 @@
 ---
 uid: ifc-excel-cost-tracker
-title: IFC Excel Cost Tracker
-description: Learn how to use the IFC Excel Cost Tracker workbook — which fields are filled automatically, which fields require manual input, how quantity fallback logic works, and how to troubleshoot common issues.
-keywords: IFC Excel Cost Tracker, IFC cost control, Excel IFC Viewer, cost tracking, BIM cost control, quantity fallback, Power Query IFC
+title: IFC Excel cost tracker
+description: Learn how to use the IFC Excel Cost Tracker workbook  -  which fields are filled automatically, which fields require manual input, how quantity fallback logic works, and how to troubleshoot common issues.
+keywords: IFC Excel Cost Tracker, IFC cost control, IFC Viewer Add-in for Excel, cost tracking, BIM cost control, quantity fallback, Power Query IFC
 canonical_url: https://docs.flinker.app/docs/ifc-excel-cost-tracker.html
 ---
 
-# IFC Excel Cost Tracker
+# IFC Excel cost tracker
 
 Use this guide to work with the **IFC Excel Cost Tracker** workbook as a practical cost-control environment linked to IFC model geometry. The workbook is designed to combine:
 
@@ -48,7 +48,8 @@ For the fastest and most reliable refresh experience in a trusted company enviro
 - keep helper queries as **Connection Only** where applicable
 - load only the final user-facing cost table to the worksheet
 
-> **Note:** Use this setup only for internal, trusted company workflows. Do not apply it for untrusted or highly sensitive mixed-source scenarios without reviewing data governance requirements first.
+> [!NOTE]
+> Use this setup only for internal, trusted company workflows. Do not apply it for untrusted or highly sensitive mixed-source scenarios without reviewing data governance requirements first.
 
 
 
@@ -87,13 +88,13 @@ These fields are intended for user input and project controls updates:
 
 | Field | Description |
 | :--- | :--- |
-| `Quantity Manual Input` | Optional override — use only when you intentionally want to replace the model quantity |
+| `Quantity Manual Input` | Optional override  -  use only when you intentionally want to replace the model quantity |
 | `Unit Rate` | Cost per unit (e.g. €/m², €/m³, €/nr) |
 | `Actual Cost` | Real spend recorded against the element |
 | `% Complete` | Progress as a decimal (0.0 to 1.0) |
 | `Status` | Current element status (e.g. Completed, In Progress, Not Started) |
 
-### Formula / calculated fields
+### Formula and calculated fields
 
 These fields are driven by ready-to-use template formulas and should not be typed manually:
 
@@ -103,7 +104,8 @@ These fields are driven by ready-to-use template formulas and should not be type
 | `Variance` | `=[@[Budgeted Cost]] - [@[Actual Cost]]` |
 | `% Var` | `=IFERROR([@Variance] / [@[Budgeted Cost]], "-")` |
 
-> **Best practice:** rely on `Model_Quantity` by default. Use `Quantity Manual Input` only when a controlled override is required.
+> [!TIP]
+> Rely on `Model_Quantity` by default. Use `Quantity Manual Input` only when a controlled override is required.
 
 
 
@@ -111,7 +113,7 @@ These fields are driven by ready-to-use template formulas and should not be type
 
 The workbook automatically resolves the best available quantity for each IFC element using a **7-step fallback chain** followed by a count-unit default. The chain runs in order and stops at the first successful match.
 
-The fallback logic uses the **IFC Classes reference table** (built into the workbook) to know which property sets and property names to look for — first using standard IFC quantity sets, then software-specific property sets, then keyword-based search.
+The fallback logic uses the **IFC Classes reference table** (built into the workbook) to know which property sets and property names to look for  -  first using standard IFC quantity sets, then software-specific property sets, then keyword-based search.
 
 | Step | Strategy | Source |
 | :---: | :--- | :--- |
@@ -119,11 +121,11 @@ The fallback logic uses the **IFC Classes reference table** (built into the work
 | 2 | Revit property set | `Revit Pset` + `Revit Property` |
 | 3 | OBD property set | `OBD Pset` + `OBD Property` |
 | 4 | ArchiCAD property set | `ArchiCAD Pset` + `ArchiCAD Property` |
-| 5 | Keyword search | `Fallback word1` — matches any numeric property whose name contains this keyword |
+| 5 | Keyword search | `Fallback word1`  -  matches any numeric property whose name contains this keyword |
 | 6 | Keyword search | `Fallback word2` |
 | 7 | Keyword search | `Fallback word3` |
-| 8 | Count-unit default | If unit is `ea`, `nr`, `item`, `count`, or `pcs` and no quantity was found — defaults to **1 per element** |
-| — | Not found | If no step succeeds — `Model_Quantity` = null, `Used Property Set` = "Not Found" |
+| 8 | Count-unit default | If unit is `ea`, `nr`, `item`, `count`, or `pcs` and no quantity was found  -  defaults to **1 per element** |
+|  -  | Not found | If no step succeeds  -  `Model_Quantity` = null, `Used Property Set` = "Not Found" |
 
 The `Used Property Set` and `Used Property` columns in the loaded table always show which step was used for each element, so you can audit the resolution result.
 
@@ -177,7 +179,7 @@ See the overview video:
 
 ## How selection sync works
 
-Selection sync is based on valid IFC identifiers — **GlobalId / GUID**.
+Selection sync is based on valid IFC identifiers  -  **GlobalId / GUID**.
 
 ### Excel to viewer
 The current sync behavior supports:
@@ -194,7 +196,7 @@ This works best when the IFC identifier column is named `GUID` or `GlobalId`.
 - do not remove the `IfcChunk` data
 - keep one clear IFC ID column (`GlobalId` / `GUID`)
 - avoid changing the source table structure unless you know exactly what depends on it
-- use filters carefully — only **visible rows** take part in Excel-to-viewer sync
+- use filters carefully  -  only **visible rows** take part in Excel-to-viewer sync
 - keep PivotTables connected to workbook data that still contains the IFC ID source column
 - save the workbook after major refreshes or updates
 
@@ -245,7 +247,7 @@ For better performance:
 - avoid unnecessary edits to the source table structure
 
 
-## What is filled automatically vs. manually — quick summary
+## What is filled automatically and manually
 
 ### Automatic
 - IFC element IDs and metadata
