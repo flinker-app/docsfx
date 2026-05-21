@@ -1,23 +1,23 @@
 ---
-title: IFC Filters
-description: Learn how the IFC Filters feature in Flinker enables advanced filtering, comparison, and color-coded visualization of IFC elements using models, attributes, classes, storeys, and property sets.
-keywords: IFC Filters, IFC Properties, Property Sets, Pset, BIM Search, IFC Viewer, Filtering, Query, Flinker, Color Filters, BIM Analysis
+title: IFC Model Queries and Property Sets
+description: Learn how to query, compare, and color-code IFC elements using models, attributes, IFC classes, storeys, and property sets.
+keywords: IFC model queries, IFC Properties, Property Sets, Pset, BIM Search, IFC Viewer, Filtering, Query, Flinker, Color Filters, BIM Analysis
 canonical_url: https://docs.flinker.app/docs/ifc-filters.html
 ---
 
-# IFC Filters
+# IFC Model Queries and Property Sets
 
-The **IFC Filters** feature in **Flinker** allows users to create, combine, and toggle multiple filters to quickly locate, isolate, and visually compare IFC elements based on  
+The **IFC Model Queries and Property Sets** feature in **Flinker** allows users to create, combine, and toggle multiple filters to quickly locate, isolate, and visually compare IFC elements based on  
 **models, attributes, classes, storeys, and property set values**.
 
 Each filter represents a logical query and can be displayed using a **distinct color**, enabling clear visual analysis and comparison directly inside the 3D viewer.
 
-![IFC Filters Panel](/_media/filters.png)
+![IFC model queries and property sets panel](/_media/filters.png)
 _Filters panel showing multiple active filters with color-coded visualization in the 3D view._
 
-## What is IFC Filters?
+## What are IFC model queries?
 
-**IFC Filters** is an advanced filtering and visualization tool designed to query IFC models using:
+**IFC model queries** provide advanced filtering and visualization tools to query IFC models using:
 
 - IFC models
 - IFC classes (e.g. `IfcDoor`, `IfcBeam`)
@@ -25,11 +25,11 @@ _Filters panel showing multiple active filters with color-coded visualization in
 - Property sets (Psets)
 - Property values (text, boolean, numeric)
 
-Unlike basic search, IFC Filters allow you to **add multiple filters at the same time**, assign **unique colors**, and **toggle them on or off** to create different analytical views of the same model.
+Unlike basic search, IFC model queries allow you to **add multiple filters at the same time**, assign **unique colors**, and **toggle them on or off** to create different analytical views of the same model.
 
 All filter results are reflected instantly in the 3D view.
 
-## Why Use IFC Filters?
+## Why use IFC model queries?
 
 **Multi-filter analysis**  
 Apply several filters simultaneously to understand how different element groups relate to each other.
@@ -141,9 +141,9 @@ You can iteratively refine your analysis by combining, toggling, and adjusting m
 
 ## Reusing filters across projects
 
-Because filter configurations are saved as part of a **BCF** file, they are inherently portable. The filter state — hidden elements, selected items, clipping planes — is stored inside the file itself, making it part of the open BCF standard.
+Because filter configurations are saved as part of a **BCF** file, they are inherently portable. The filter state  -  hidden elements, selected items, clipping planes  -  is stored inside the file itself, making it part of the open BCF standard.
 
-This means a filter configuration created in one project can be loaded in any other Teams channel, SharePoint folder, or BIM tool instantly — without any manual recreation.
+This means a filter configuration created in one project can be loaded in any other Teams channel, SharePoint folder, or BIM tool instantly  -  without any manual recreation.
 
 **How to reuse a filter configuration:**
 
@@ -152,7 +152,7 @@ This means a filter configuration created in one project can be loaded in any ot
 3. Store the BCF file in a shared **SharePoint** location.
 4. Load the BCF file in any project or Teams channel to restore the full filter configuration immediately.
 
-Because BCF is an open standard, the same file works across projects, buildings, and tools — any number of times.
+Because BCF is an open standard, the same file works across projects, buildings, and tools  -  any number of times.
 
 > [!TIP]
 > See [BCF Integration](ifc-bcf.md) for a full overview of how BCF files store and transfer view states.
@@ -164,4 +164,4 @@ Explore how **_Flinker_** helps you search, compare, and analyze IFC models effi
 > [!div class="nextstepaction"]  
 > [Book a Meeting Now](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 
-We’ll show you how to use IFC Filters to gain full control over your BIM data — directly in your browser.
+We’ll show you how to use IFC model queries and property sets to gain full control over your BIM data  -  directly in your browser.

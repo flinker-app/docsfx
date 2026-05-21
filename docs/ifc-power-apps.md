@@ -1,21 +1,17 @@
 ---
-title: IFC Microsoft Power Apps
-description: Integrate IFC data into customized Microsoft Power Apps for enhanced project collaboration.
+title: IFC apps for Power Apps
+description: Use IFC data in custom Power Apps for project workflows, dashboards, and field processes.
 keywords: IFC, Microsoft Power Apps, project collaboration, data integration
 canonical_url: https://docs.flinker.app/docs/ifc-power-apps.html
 ---
 
-# IFC Microsoft Power Apps
+# IFC apps for Power Apps
 
-With this feature, users integrate IFC data into their customized Microsoft Power Apps and make the IFC data available for organization's customm Microsoft Power apps and dashboards. This integration simplifies project collaboration by ensuring that all relevant data can be reviewed in any kind Power Apps.
+Use IFC data in custom Microsoft Power Apps to support project workflows, dashboards, and field processes. This integration makes model-derived data available in Power Apps without requiring users to work directly in BIM authoring tools.
 
-If you're interested in learning more about how our IFC Microsoft Power App feature can enhance your IFC viewer experience, feel free to schedule a meeting with our support team.
+Common scenarios include issue intake, asset review, room data validation, approval workflows, and project dashboards that combine IFC data with Microsoft 365 business data.
+
+For implementation guidance, schedule a meeting with the support team.
 
 > [!div class="nextstepaction"]
 > [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
-
-We look forward to showing you how Microsoft Power App linking to IFC can improve your project workflows and collaboration.
-
-
-
-

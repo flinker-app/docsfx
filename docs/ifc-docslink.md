@@ -1,18 +1,16 @@
 ---
-title: Document Linking Integration with IFC
+title: Document linking integration with IFC
 description: Automatically access related documents and resources stored in SharePoint and Teams directly from the IFC model view.
 keywords: IFC, document linking, SharePoint, Teams, project collaboration
 canonical_url: https://docs.flinker.app/docs/ifc-docslink.html
 ---
 
-# Document Linking Integration
+# Document linking integration
 
-With this feature, users can automatically access related documents and resources stored in SharePoint and Teams directly from the IFC model view. This integration simplifies project collaboration by ensuring that all relevant files are instantly available alongside your BIM models.
+Document linking lets users open related documents and resources stored in SharePoint or Teams directly from the IFC model view. Use this feature to connect model elements with project files, specifications, drawings, or other supporting documentation.
 
-If you're interested in learning more about how our Document Linking feature can enhance your IFC viewer experience in SharePoint and Teams, feel free to schedule a meeting with our support team.
+For help planning a document-linking workflow for SharePoint or Teams, contact Flinker support.
 
 > [!div class="nextstepaction"]
-> [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
-
-We look forward to showing you how automatic document linking can improve your project workflows and collaboration.
+> [Contact support](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 

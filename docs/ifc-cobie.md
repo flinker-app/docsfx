@@ -1,40 +1,39 @@
 ---
-title: COBie Integration
-description: Learn about the COBie integration for robust import, export, and API features to streamline your facility management processes.
+title: COBie integration
+description: Learn how to export COBie spreadsheets from IFC model data for facility management and handover workflows.
 keywords: COBie, Facility Management, Integration, Import, Export, API
 canonical_url: https://docs.flinker.app/docs/ifc-cobie.html
 ---
 
-# COBie Integration
+# COBie integration
 
-### Bring structure and clarity to your building data with Flinker’s easy COBie export
+Use COBie export to create structured spreadsheet data from IFC models for handover, facility management, and asset information workflows.
 
 ## What is COBie?
-**COBie** *(Construction-Operations Building information exchange)* is a data format used to deliver building information in a structured spreadsheet format. It’s commonly used in the handover stage to give facility managers all the details they need, like equipment lists, contact info, spaces, and more.
+**COBie** (Construction-Operations Building information exchange) is a structured data format for delivering building asset information in spreadsheet form. It is commonly used during project handover to provide facility management teams with equipment, space, contact, and asset data.
 
-- Output is usually a well-organized Excel file
-- Makes it easier to manage buildings after construction
-- Compatible with government and commercial BIM requirements
+- COBie data is commonly delivered as an Excel workbook.
+- COBie helps facility teams operate and maintain buildings after construction.
+- COBie is used in public-sector and commercial BIM delivery requirements.
 
 ## How Flinker supports COBie
-With ***Flinker***, you can export your IFC models into COBie spreadsheets with no fuss and no extra software. Just open your model and export in a few clicks. We make sure the right IFC properties are mapped to the right COBie fields.
+Flinker can export IFC model data to COBie spreadsheets. The export maps supported IFC properties to the corresponding COBie fields so that model data can be reviewed and reused in downstream facility management processes.
 
 > [!TIP]
-> Want the best results? Make sure your IFC file is structured properly with standard object types and classifications (like IFCWall, IFCDoor, etc). The cleaner the data, the prettier the COBie sheet
+> For best results, use IFC files with consistent object types, classifications, and property sets. Structured source data improves the quality and completeness of the COBie output.
 
-## How to Export COBie from Flinker
+## Export COBie from Flinker
 
 > [!IMPORTANT]
-> **You need to upload an IFC file first before exporting COBie.**
+> An IFC model must be loaded before you can export COBie data.
 
-Here’s how to do it:
-1. Open your project in ***Flinker***
-2. Go to the **Integrations** tab in the top menu
-3. Select **COBie Export**
-4. Choose your preferred export settings (if available)
-5. Hit **Export** and your spreadsheet will be ready in seconds! 📥
+1. Open your project in Flinker.
+2. Go to **Integrations**.
+3. Select **COBie Export**.
+4. Review the available export settings.
+5. Select **Export** to generate the COBie spreadsheet.
 
-### Need Help?
+### Support
 
 > [!div class="nextstepaction"]
-> [Talk to us](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
+> [Contact support](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)

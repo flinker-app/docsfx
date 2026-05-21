@@ -1,7 +1,7 @@
 ---
 title: Create SharePoint Groups and Folder Structure
 description: Learn how to create SharePoint groups and folder structures for controlled document access and secure collaboration.
-keywords: SharePoint groups, SharePoint folder structure, Protect app, permissions setup, Microsoft 365 governance
+keywords: SharePoint groups, SharePoint folder structure, Protect for SharePoint, permissions setup, Microsoft 365 governance
 canonical_url: https://docs.flinker.app/docs/create-sharepoint-group-and-folder-structure.html
 ---
 
@@ -9,7 +9,7 @@ canonical_url: https://docs.flinker.app/docs/create-sharepoint-group-and-folder-
 
 ## Create Folder Structure
 
-Create your prefered folders and folder structure in the chosen SharePoint Site. 
+Create your preferred folders and folder structure in the chosen SharePoint Site. 
 
 > Tip: If you are already syncing the SharePoint site with your local OneDrive on your desktop PC or MAC you may also create the folder structure in your file explorer.
 
@@ -17,17 +17,17 @@ Create your prefered folders and folder structure in the chosen SharePoint Site.
 
 ### Option 1: SharePoint Groups
 Create permission groups on SharePoint:
-- Open the Protect app from any given folder.
+- Open Protect for SharePoint from any given folder.
     
-    ![Foto](/_media/open-share-app.png)
+    ![Screenshot](/_media/open-share-app.png)
 
 - Click on the button with the group icon.
 
-    ![Foto](/_media/click-on-group-icon-in-protect-app.png)
+    ![Screenshot](/_media/click-on-group-icon-in-protect-app.png)
 
 - By clicking on "New" you can create new SharePoint user groups:
 
-    ![Foto](/_media/click-on-new-sharepoint-group.png)
+    ![Screenshot](/_media/click-on-new-sharepoint-group.png)
 
 
 > Note: If you have also created Microsoft security groups the SharePoint user groups can be name identical with the existing Microsoft security groups.
@@ -38,5 +38,5 @@ Create permission groups on SharePoint:
 
 - Go to Microsoft admin > active teams and groups > security groups.
 
-    ![Foto](/_media/add-new-security-groups.png)
+    ![Screenshot](/_media/add-new-security-groups.png)
 

@@ -252,7 +252,7 @@ await viewer.add("project.ifc", bytes);
 The examples collection contains short, copy-friendly pages for real IFC viewer workflows. Start with loading one or more IFC models, then add BCF topics for issue views, selections, coloring, visibility, and clipping planes. The IDS example shows validation data in the same viewer experience.
 
 > [!div class="nextstepaction"]
-> [Open IFC Viewer SDK examples](ifc-viewer-sdk-examples.yml)
+> [IFC Viewer SDK examples](ifc-viewer-sdk-examples.yml)
 
 ## Browser Support
 

@@ -1,33 +1,34 @@
 ### YamlMime:Dashboard
 ---
-title: Report Templates for the IFC Viewer Visual in Power BI
-description: Explore practical Report Templates for integrating IFC Viewer Visual with Power BI to enhance BIM workflows, project management, and data-driven decision-making.
+title: Power BI report templates
+description: Explore ready-to-use report templates for the IFC Viewer Visual for Power BI, including model review, space analytics, schedule tracking, issue management, and IDS compliance scenarios.
 documentType: dashboard
 _disableAffix: true
+_disableBreadcrumb: true
 _disableNextArticle: true
 expanded: true
 items:
-  - name: Multi-file Loading & Coloring Sample
+  - name: Multi-file loading and coloring sample
     thumbnail: /_media/multiple-file-loading-power-bi-report.png
     description: Load multiple IFC files via Folder/Subfolder loading and explore advanced coloring examples.
     href: IFC_Multi_File_Loading.html
-  - name: IFC Space Analytics & Occupancy Dashboard
+  - name: IFC space analytics and occupancy dashboard
     thumbnail: /_media/space-analysis-power-bi-report.png
     description: Analyze room usage, occupancy rates, and space utilization with this comprehensive dashboard template.
     href: IFC_Room_Analysis.html
-  - name: 4D Construction Dashboard
+  - name: 4D construction dashboard
     thumbnail: /_media/4d-construction-thumb.png
     description: Visualize construction timelines (4D), validate schedules, and track costs with a digital twin interface.
     href: IFC_4DPlanning.html
-  - name: IFC to GIS Map Dashboard
+  - name: IFC to GIS map dashboard
     thumbnail: /_media/IFC_Map.png
     description: Visualize multi-project portfolios on an interactive map using extracted IFC geospatial metadata and hybrid geocoding.
     href: IFC_Map.html
-  - name: IFC & BCF Issue Tracker Dashboard
+  - name: IFC and BCF issue tracker dashboard
     thumbnail: /_media/IFC_Bi_BCF.png
     description: Parse BCF files natively in Power Query and track issues alongside the IFC model with status visualization and comment threading.
     href: IFC_BCF_Bi.html 
-  - name: IFC-IDS Compliance Dashboard
+  - name: IFC-IDS compliance dashboard
     thumbnail: /_media/IFC_Bi_IDS.PNG
     description: Ensure IFC models comply with IDS requirements and visualize compliance metrics.
     href: IFC_IDS_Compliance.html

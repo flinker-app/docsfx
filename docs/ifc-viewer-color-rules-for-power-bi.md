@@ -1,6 +1,6 @@
 ---
 title: Color IFC Elements in the Power BI Viewer
-description: Learn how to highlight IFC model elements with conditional formatting rules inside the Power BI IFC Viewer visual.
+description: Learn how to highlight IFC model elements with conditional formatting rules inside the IFC Viewer Visual for Power BI.
 keywords: IFC, Power BI, conditional formatting, color rules, BIM visualization
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-color-rules-for-power-bi.html
 ---

@@ -12,7 +12,7 @@ canonical_url: https://docs.flinker.app/docs/IFC_SharedSemanticModel.html
 
 The **IFC Cloud Semantic Model** is a reusable Power BI dataset pattern that loads IFC files directly from SharePoint, parses them in the cloud, and exposes the result as a shared model that any number of Power BI reports can connect to.
 
-You publish the template into your own Power BI Service workspace, point its parameters at your SharePoint locations, and let Power BI Service handle refresh on a schedule. The IFC parsing is fully automated in the cloud — you no longer need to open Power BI Desktop and click **Refresh** every time the IFC model changes.
+You publish the template into your own Power BI Service workspace, point its parameters at your SharePoint locations, and let Power BI Service handle refresh on a schedule. The IFC parsing is fully automated in the cloud  -  you no longer need to open Power BI Desktop and click **Refresh** every time the IFC model changes.
 
 For an end-to-end usage example of the IFC multi-file loading pattern this model is built on, see [IFC Multi-File Loading & Coloring Sample (Power BI)](IFC_Multi_File_Loading.md).
 
@@ -20,11 +20,11 @@ For an end-to-end usage example of the IFC multi-file loading pattern this model
 
 Compared to running IFC parsing manually inside a single `.pbix` on your Desktop, the cloud semantic model gives you:
 
-- **Automated IFC parsing in the cloud** — Power BI Service refreshes the model on a schedule (daily, hourly, or on-demand). No Desktop session required, no manual refresh clicks.
-- **Single source of truth** — one place to maintain the IFC loading logic, relationships, and measures.
-- **Reusability across reports** — multiple thin reports (executive overview, QA dashboard, cost dashboard, etc.) all connect live to the same model.
-- **Smaller, faster reports** — thin reports contain only visuals, no embedded data, so they open faster and are easier to maintain.
-- **Consistent measures** — KPIs and DAX calculations are defined once and behave identically across every report built on the model.
+- **Automated IFC parsing in the cloud**  -  Power BI Service refreshes the model on a schedule (daily, hourly, or on-demand). No Desktop session required, no manual refresh clicks.
+- **Single source of truth**  -  one place to maintain the IFC loading logic, relationships, and measures.
+- **Reusability across reports**  -  multiple thin reports (executive overview, QA dashboard, cost dashboard, etc.) all connect live to the same model.
+- **Smaller, faster reports**  -  thin reports contain only visuals, no embedded data, so they open faster and are easier to maintain.
+- **Consistent measures**  -  KPIs and DAX calculations are defined once and behave identically across every report built on the model.
 
 ## Prerequisites
 
@@ -40,11 +40,11 @@ Compared to running IFC parsing manually inside a single `.pbix` on your Desktop
 
 This is a one-time setup. After it is complete, refresh runs automatically in the cloud and you only return to Desktop if you want to change the model logic itself.
 
-### Step 1 — Download the PBIX template
+### Step 1  -  Download the PBIX template
 
 Download the Flinker IFC `.pbix` template from the [Flinker IFC Viewer page on Microsoft AppSource](https://marketplace.microsoft.com/en-us/product/power-bi-visuals/flinkergmbh1644589155747.ifc-viewer?src=docs&mktcmpid=ifc_power_pi), then open it in **Power BI Desktop**.
 
-### Step 2 — Configure the parameters in Desktop
+### Step 2  -  Configure the parameters in Desktop
 
 In Power BI Desktop, click **Home → Transform data → Edit parameters**.
 
@@ -57,13 +57,13 @@ In the **Edit Parameters** dialog:
 
 > **Tip:** Use the **direct file URL** for individual `.ifc` files, or a **folder URL** if the parameter is meant to scan a whole folder. The account that owns the published model later must have read access to these locations.
 
-### Step 3 — Publish to your Power BI Service workspace
+### Step 3  -  Publish to your Power BI Service workspace
 
 In Power BI Desktop, click **Home → Publish → Select a destination → [Your workspace] → Select**.
 
 After the upload finishes, the model appears in the workspace as a **semantic model**, alongside the report on top of it.
 
-### Step 4 — Configure data source credentials
+### Step 4  -  Configure data source credentials
 
 This step enables cloud refresh. Without it, scheduled refresh will fail.
 
@@ -75,9 +75,9 @@ For each listed data source (typically SharePoint):
 2. Set **Privacy level** to **Organizational**.
 3. Click **Sign in** and authenticate with an account that has read access to the IFC files.
 
-### Step 5 — Set up scheduled refresh (the cloud automation)
+### Step 5  -  Set up scheduled refresh (the cloud automation)
 
-This is the step that automates IFC parsing in the cloud. Once configured, Power BI Service parses your IFC files on its own — no Desktop session, no manual clicks.
+This is the step that automates IFC parsing in the cloud. Once configured, Power BI Service parses your IFC files on its own  -  no Desktop session, no manual clicks.
 
 In the same **Settings** panel for the semantic model, scroll down to **Scheduled refresh**:
 
@@ -91,7 +91,7 @@ From this point on, Power BI Service handles IFC parsing for you on the schedule
 
 > If you see a yellow warning that scheduled refresh is not supported, see the troubleshooting section below.
 
-### Step 6 — Build thin reports on top of the model
+### Step 6  -  Build thin reports on top of the model
 
 You and anyone with **Build** permission on the model can now create reports that live entirely on top of this single model.
 
@@ -99,13 +99,13 @@ You and anyone with **Build** permission on the model can now create reports tha
 
 **From Power BI Desktop:** click **Home → Get data → Power BI semantic models → [Your IFC semantic model] → Connect**.
 
-The connection is **live** — no data is downloaded into the `.pbix`. Build the visuals and click **Home → Publish** to publish the thin report to a workspace.
+The connection is **live**  -  no data is downloaded into the `.pbix`. Build the visuals and click **Home → Publish** to publish the thin report to a workspace.
 
 ## Updating IFC sources later
 
-After the initial setup, parameter updates are the most common ongoing task. You can do them directly in Power BI Service — no Desktop required.
+After the initial setup, parameter updates are the most common ongoing task. You can do them directly in Power BI Service  -  no Desktop required.
 
-### Option A — Edit parameters directly in Service (recommended)
+### Option A  -  Edit parameters directly in Service (recommended)
 
 In Power BI Service, navigate to **Workspaces → [Your workspace] → [Your semantic model] → ⋯ (More options) → Settings**.
 
@@ -115,9 +115,9 @@ In Power BI Service, navigate to **Workspaces → [Your workspace] → [Your sem
 4. Click **Apply**.
 5. Go back to the model page and click **Refresh now** (the circular arrow icon) to apply the change immediately, or wait for the next scheduled refresh to pick it up.
 
-> **Take over** transfers ownership of the same model to your account — it does not create a copy. Subsequent refreshes will use your credentials, and any further changes are attributed to you.
+> **Take over** transfers ownership of the same model to your account  -  it does not create a copy. Subsequent refreshes will use your credentials, and any further changes are attributed to you.
 
-### Option B — Re-publish from Desktop
+### Option B  -  Re-publish from Desktop
 
 If you need to change something deeper than parameters (relationships, measures, or the M code itself), open the original `.pbix` in Desktop, make the change, and click **Home → Publish → [Your workspace] → Replace**.
 
@@ -125,7 +125,7 @@ If you need to change something deeper than parameters (relationships, measures,
 
 - **All reports share the same data.** Every thin report connected to this model sees exactly what the last refresh produced. Use Row-Level Security (RLS) if different audiences need different views.
 - **Parameter changes are not live.** After editing parameters, click **Refresh now** if you need the change to appear immediately. Connected reports will then reflect the new data.
-- **Take over transfers ownership of the same model — it does not create a copy.** To get an independent copy, publish the `.pbix` again under a different name or to a different workspace.
+- **Take over transfers ownership of the same model  -  it does not create a copy.** To get an independent copy, publish the `.pbix` again under a different name or to a different workspace.
 - **Credentials are tied to the owner.** When ownership changes (Take over or re-publish), the new owner needs to re-authenticate the data sources.
 - **External access is per-tenant.** This model lives in your own tenant. Customers, partners, or other organizations who want their own cloud-refreshed IFC model should follow this same setup inside their own tenant.
 

@@ -1,69 +1,51 @@
 ---
-title: IDs Integration
-description: Learn about the IFC IDS (Information Delivery Specification) integration for data validation and model compliance in SharePoint and Teams.
+title: IDS integration
+description: Learn how to validate IFC model data with Information Delivery Specification (IDS) rules in SharePoint and Teams workflows.
 keywords: IDS, IFC, BIM, Validation, SharePoint, Teams, Integration
 canonical_url: https://docs.flinker.app/docs/ifc-ids.html
 ---
 
-# IDS Integration
+# IDS integration
 
-Integrate the **IFC Information Delivery Specification (IDS)** into your SharePoint and Teams workflows to ensure model compliance, data consistency, and delivery standards across all stakeholders.
+Use Information Delivery Specification (IDS) validation to check IFC model data against defined information requirements in SharePoint and Teams workflows.
 
 ## What is IDS?
 
-**Information Delivery Specification (IDS)** is a **buildingSMART standard** for defining information requirements in a computer-interpretable form.  
-It allows for **automatic compliance checking** of IFC models, which increases quality control and improves data fidelity.  
-IDS also supports **efficient data delivery** by setting clear expectations and providing precise guidelines on what needs to be exchanged.
+**Information Delivery Specification (IDS)** is a buildingSMART standard for defining information requirements in a computer-interpretable form. IDS files can be used to check whether IFC model data includes the required objects, classifications, attributes, properties, and values.
 
-With IDS, users can specify how **objects, classifications, materials, properties**, and even **values** should be delivered in an IFC model.
+IDS supports structured model validation by defining what information must be delivered and how it should be represented in the IFC model.
 
 - Enables automatic model validation
-- Increases consistency and quality control
-- Standardizes how data is exchanged and verified
+- Supports consistent information delivery requirements
+- Helps teams identify missing or invalid model data
 
-## Why Use IDS?
+## IDS validation capabilities
 
-**Clarity**  
-IDS helps you automate data exchanges thanks to its clear and strict structure and well-defined requirements.
+- Check IFC models against defined IDS rules directly in Microsoft 365 workflows.
+- Review passing and failing elements in the model viewer.
+- Store IDS files, validation reports, and related model files in SharePoint or Teams.
 
-**Confidence**  
-Enhance interoperability by controlling the quality and reliability of data with IDS.
+## Validate a model with IDS
 
-**Consistency**  
-Ensure all project data adheres to the same specification through the IDS standard.
-
-## Benefits of IDS Integration
-
-- **Automated Data Validation**:  
-  Check IFC models against defined IDS rules directly within Microsoft 365 environments.
-
-- **Quality Assurance in BIM Data**:  
-  Verify that every model meets required specifications before submission or sharing.
-
-- **Centralized Model Management**:  
-  Manage IDS templates, validation reports, and compliance statuses in SharePoint and Teams without switching platforms.
-
-## How to Use IDS in Flinker
-
-Follow these steps to validate your IFC models using the IDS feature inside **Flinker**:
+Follow these steps to validate an IFC model with an IDS file:
 
 1. **Load Your IFC Model**  
-   Start by uploading or opening your IFC file within the viewer.
+   Open the IFC file in the viewer.
 
 2. **Open the IDS Panel**  
-   In the Flinker interface, locate and open the **IDS Panel** to access the validation tools.
+   Open the **IDS** panel.
 
 3. **Load an IDS File**  
-   Click on the **“Open IDS File”** button to select and load your IDS specification file.
+   Select **Open IDS File**, and then choose the IDS specification file.
 
 4. **Review Specifications**  
-   Once the IDS file is loaded, you can view all **information requirements** defined within it — including passing and failing elements.
+   Review the information requirements defined in the IDS file.
 
 5. **Inspect Validation Results and Report**  
    Select a specific specification to see the corresponding elements in the model:
-   - **Passing elements** are highlighted in **green**.
-   - **Failing elements** are highlighted in **red**.  
-     At the same time, you can view a **detailed validation report** summarizing all passed and failed elements, providing full transparency and actionable insights for improving model quality.
+   - Passing elements are highlighted in green.
+   - Failing elements are highlighted in red.
+   - The validation report summarizes passed and failed elements for review.
 
 ![IDS Validation Results](/_media/ifc-ids.png)
 _Example of IDS validation results highlighting passing (green) and failing (red) elements with a summary report._
@@ -72,25 +54,23 @@ _Example of IDS validation results highlighting passing (green) and failing (red
 
 IDS integration supports automated validation for:
 
-- **Required Properties and Attributes**
-- **Classification Codes**
-- **Element Types and Geometry Checks**
+- required properties and attributes
+- classification codes
+- element types and geometry checks
 
-When an IFC model is uploaded or shared, it’s automatically validated against the connected IDS rules, producing clear, actionable compliance reports.
+When an IDS file is connected to the model, the viewer checks the model data against the selected rules and reports the validation result.
 
 ## Practical Examples
 
-- **Property Validation**: Ensure that all _IfcWall_ elements include the required “FireRating” or “LoadBearing” attributes before coordination or review.
-- **Classification Checks**: Automatically detect elements missing Uniclass or OmniClass codes.
-- **Model Delivery Compliance**: Confirm that all models follow the same data standards across multiple consultants or project phases.
+- **Property validation**: Check whether _IfcWall_ elements include required attributes such as `FireRating` or `LoadBearing`.
+- **Classification checks**: Identify elements that are missing required classification codes.
+- **Model delivery checks**: Verify whether models follow project-specific data standards across consultants or project phases.
 
-This improves data quality, minimizes rework, and guarantees that everyone delivers information aligned with the project’s data requirements.
+Use validation results to identify missing information before coordination, submission, or handover.
 
-## How to Get Started
+## Support
 
-See how **_Flinker_** brings **IDS-based validation** directly into your Microsoft 365 ecosystem.
+For help defining IDS templates or reviewing validation workflows, contact Flinker support.
 
 > [!div class="nextstepaction"]  
-> [Book a Meeting Now](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
-
-We’ll show you how to define IDS templates, validate IFC models, and maintain consistent data quality across your entire project workflow.
+> [Contact support](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)

@@ -1,87 +1,78 @@
 ---
-title: Importing Navisworks Clash Reports and BCF Files for Seamless BIM Collaboration
-description: Learn how to import Navisworks clash reports (XML) and BCF files into our platform for seamless BIM collaboration, issue tracking, and integration with SharePoint and Teams.
+title: Import Navisworks clash reports and BCF files
+description: Learn how to import Navisworks clash reports (XML) and BCF files, convert clash results into BCF topics, and sync issues with SharePoint and Teams.
 keywords: Navisworks, BCF, BIM, Collaboration, SharePoint, Teams, Integration, Clash Reports, XML Import
 canonical_url: https://docs.flinker.app/docs/bcf-navisworks.html
 ---
 
-# Importing Your Clash Reports from Navisworks
+# Import Navisworks clash reports
 
-We are excited to introduce our new unified Import feature, designed to streamline the process of importing both **Navisworks clash reports (XML)** into our platform. With a single, intuitive button, you can now effortlessly bring your project data into our system, enhancing your workflow and productivity.
+Use the Import feature to convert **Navisworks clash reports (XML)** into BCF topics. After import, manage the topics in the BCF Topics panel and optionally sync them with Microsoft Lists.
 
-## Step-by-Step Import Guide
+## Import workflow
 
-Follow these simple steps to export your clash reports from Navisworks and import them into our platform:
+Export the clash report from Navisworks, then import the XML file into the viewer.
 
-### 1. Exporting XML Clash Reports from Navisworks
+### 1. Export XML clash reports from Navisworks
 
-Before importing your clash reports, you need to export them from Navisworks in XML format. Follow these steps:
+Before you import clash results, export them from Navisworks in XML format.
 
-1. **Open Your Navisworks Project**: Launch Navisworks and open the project containing the clash detection results you wish to export.
+1. Open the Navisworks project that contains the clash detection results.
+2. Open **Clash Detective**.
+3. Select the **Report** tab.
+4. In the export options, select **XML**.
+5. Select **Write Report**.
 
-2. **Navigate to Clash Detective**: Go to the **"Clash Detective"** tool within Navisworks. This tool is essential for managing and reviewing clash detections.
+### 2. Open the import action
 
-3. **Select the Report Tab**: In the Clash Detective panel, select the **"Report"** tab.
-
-4. **Export the Clashes**:
-   - Choose the **"XML"** format from the available export options.
-   - Click **"Write Report"** to complete the export process.
-
-### 2. Locate the Import Button
-
-Navigate to the **BCF Topics Panel** in the application interface. Here, you will find the new **Import** button alongside other action buttons like **Save Topics** and **Download**.
+Open the **BCF Topics** panel. Select **Import** next to the other topic actions, such as **Save topics** and **Download**.
 
 ![BCF Topics Panel](/_media/viewer-import-navisworks-xml-clash-results-as-bcf.png)
 
-### 3. Select Your File
+### 3. Select the XML file
 
-Click on the **Import** button to open the file selection dialog. You can choose to import either an XML clash report.
+Select the Navisworks clash report file with the `.xml` extension.
 
-- **For Clash Reports**: Select your Navisworks clash report file with the `.xml` extension.
+### 4. Process the file
 
-### 4. Processing Your File
+The viewer detects the XML file and converts each clash result into a BCF topic.
 
-Once you've selected your file, the application will automatically detect the file type and process it accordingly:
+### 5. Review imported topics
 
-- **XML Files**: The system will parse the clash report and convert each clash result into a corresponding BCF topic.
+After the import completes, the new topics appear in the **Topics** list. Review, edit, and manage them like other BCF topics.
 
-### 5. Viewing Imported Topics
-
-After a successful import, your newly added topics will appear in the **Topics List** within the BCF Topics Panel. You can now view, edit, and manage these topics just like any other entries.
-
-- **For Clash Reports**: Each clash is converted into a detailed BCF topic, complete with descriptions, statuses, and viewpoints based on clash points.
+Each clash becomes a BCF topic with metadata, status information, and a viewpoint based on the clash point.
 
 ## Exporting and Syncing Imported Data
 
-Our platform not only allows you to import data but also provides options to export and synchronize your imported clash reports and BCF topics with other tools for enhanced collaboration and management.
+After import, export the converted topics as BCF or sync them with Microsoft Lists for issue tracking in SharePoint and Teams.
 
 ### Export as BCF
 
-After importing your Navisworks XML clash reports, you can export the converted BCF topics for use in other BIM applications or for sharing with your team. To export:
+Export converted topics when you need to use them in another BIM application or share them with a project team.
 
-1. **Navigate to the BCF Topics Panel**.
-2. **Select the Topics** you wish to export or choose to export all topics.
-3. **Click on the "Export BCF" Button**. The system will generate a `.bcf` file containing your selected topics.
+1. Open the **BCF Topics** panel.
+2. Select the topics to export, or select all topics.
+3. Select **Export BCF**.
 
-This functionality ensures that your clash reports are portable and can be integrated into various BIM workflows seamlessly.
+The viewer generates a `.bcf` file that contains the selected topics.
 
 ### Sync with Microsoft Lists
 
-Enhance your collaboration by syncing your imported clash reports with **Microsoft Lists**. This integration allows you to manage and track issues within SharePoint and Teams, leveraging the robust features of Microsoft 365 for communication and task management.
+Sync imported topics with **Microsoft Lists** to track issues in SharePoint and Teams.
 
 To sync with Microsoft Lists:
 
-1. **Ensure Microsoft Lists Integration is Enabled**
-2. **Import your XML Clash Report** as described in the [Step-by-Step Import Guide](#step-by-step-import-guide).
-3. **Navigate to the Sync Option** within the BCF Topics Panel.
-4. **Select "Save BCF"**. The system will automatically synchronize your imported topics with your designated Microsoft List.
-5. **Manage and Collaborate** on your issues directly within SharePoint and Teams, utilizing features like notifications, assignments, and comments.
+1. Confirm that Microsoft Lists integration is enabled.
+2. Import the XML clash report.
+3. Open the sync action in the **BCF Topics** panel.
+4. Select **Save BCF**.
+5. Manage the synchronized issues in SharePoint or Teams.
 
-This seamless synchronization bridges the gap between BIM collaboration and Microsoft's productivity tools, fostering an integrated project management environment.
+The synchronized list can use Microsoft 365 features such as assignments, comments, views, and notifications.
 
 ## FAQs 
 
-A secure and privacy first IFC viewer with a BCF integration that will revolutionize your IFC and BCF project management in Microsoft 365.
+### What happens when imported issues already exist?
 
-1. **What happens when new issues are imported into the MS Viewer alongside existing issues?**  
-    BCFs with the same ID are updated, while BCFs with new IDs, i.e., new issues, are added as new issues.
+BCF topics with matching IDs are updated. Topics with new IDs are added as new issues.

@@ -1,240 +1,212 @@
 ---
-title: Flinker Documentation - Teams & SharePoint Apps IFC Viewer & Permissions Management
-description: Official Flinker documentation for Teams and SharePoint apps. Learn how to use the IFC Viewer for BIM files and manage sharing and permissions with our comprehensive guides.
-keywords: Flinker, Teams Apps, SharePoint Apps, IFC, IFC Viewer, BIM Viewer, Sharing Permissions, Permissions Management, Documentation, IFC GPT, IFC Microsoft, AI, PowerBI, Power Automate
-canonical_url: /docs/index.html
+title: Flinker documentation
+description: Find documentation for Flinker IFC Viewer apps, Protect for SharePoint, openBIM workflows, release notes, and the IFC Viewer SDK.
+keywords: Flinker, IFC Viewer, Microsoft 365, SharePoint, Microsoft Teams, Power BI, Excel, openBIM, IFC, BCF, IDS, SDK, Protect for SharePoint
+canonical_url: https://docs.flinker.app/
+layout: landing
+_pageCss: public/index.css
+_disableToc: true
 _disableAffix: true
 _disableBreadcrumb: true
 _disableNextArticle: true
 ---
 
-# Documentation
-
-This documentation guides you through **setting up**, **using**, and **troubleshooting** Flinker within Microsoft 365.
-
-### What is Flinker?
-
-It is a suite of Microsoft 365 apps designed to streamline BIM workflows for real estate and infrastructure teams:
-
-- IFC model viewing and collaboration
-- Issue tracking and BCF workflows
-- Secure SharePoint Common Data Environment (CDE) setup
-- Custom workflow automations using open standards
-
-All within your existing Microsoft 365 environment. No new software required.
-
-<!-- Vertical Cards -->
-<div class="vertical-card-container">
-  <div class="vertical-card">
-    <div class="vertical-card-content">
-      <h3 class="card-title">Installation Setup Guide</h3>
-      <a href="/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html" class="card-link">IFC Viewer Setup in Microsoft Teams</a>
-      <a href="/docs/viewer-app-installation-with-admin-approval.html" class="card-link">IFC Viewer Setup in SharePoint</a>
-      <a href="/docs/ifc-viewer-installation-for-power-bi.html" class="card-link">IFC Viewer Setup in Power BI</a>
-      <a href="/docs/installation.html" class="card-link">Protect App Setup</a>
+<div class="home-page">
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="home-shell home-hero-shell">
+      <div class="home-hero-content">
+        <h1 id="home-title"><span>Build openBIM workflows</span><span>in Microsoft 365</span></h1>
+        <p class="home-lede">
+          Find guidance for IFC model viewing, BCF collaboration, SharePoint permission management, Power BI reporting, and SDK integrations that keep project data inside your Microsoft 365 environment.
+        </p>
+        <form class="home-search" id="home-search" role="search" aria-label="Search Flinker documentation">
+          <input id="home-search-query" type="search" autocomplete="off" placeholder="Search Flinker documentation" aria-label="Search documentation">
+          <button type="submit"><i class="bi bi-search" aria-hidden="true"></i><span>Search</span></button>
+        </form>
+      </div>
+      <div class="home-hero-visual" aria-hidden="true"></div>
     </div>
-  </div>
-  <div class="vertical-card">
-    <div class="vertical-card-content">
-      <h3 class="card-title">Features</h3>
-      <a href="/docs/ifc-viewer.html" class="card-link">Online IFC Viewer</a>
-      <a href="/docs/ifc-bcf.html" class="card-link">BCF Topics</a>
-      <a href="/docs/faq-ifc-viewer.html" class="card-link">Clipping Tool</a>
-      <a href="/docs/copilot-for-ifc.html" class="card-link">Copilot for IFC</a>
-      <a href="/docs/ifc-power-bi.html" class="card-link">Power BI Visual</a>
-      <a href="/docs/share-features.html" class="card-link">SharePoint Protect</a>
+  </section>
+  <section class="home-section" aria-labelledby="featured-title">
+    <div class="home-section-header">
+      <h2 id="featured-title">Featured documentation</h2>
+      <p>Use these entry points to choose the right product, standard, or implementation path.</p>
     </div>
-  </div>
-  <div class="vertical-card">
-    <div class="vertical-card-content">
-      <h3 class="card-title">Frequently Asked Questions</h3>
-      <a href="/docs/faq-ifc-viewer.html" class="card-link">IFC Viewer FAQ's</a>
-      <a href="/docs/ifc-bcf.html" class="card-link">BCF Integration FAQ's</a>
-      <a href="/docs/copilot-for-ifc.html#faqs" class="card-link">Copilot for IFC FAQ's</a>
-      <a href="/docs/faq-share-app-for-microsoft-sharepoint.html" class="card-link">Protect App FAQ's</a>
+    <div class="home-card-grid home-card-grid-featured">
+      <a class="home-doc-card" href="/docs/apps.html">
+        <span class="home-card-type">Overview</span>
+        <span class="home-card-title">Microsoft 365 apps overview</span>
+        <span class="home-card-description">Compare IFC Viewer experiences for Teams, SharePoint, Power BI, Excel, and admin deployment.</span>
+      </a>
+      <a class="home-doc-card" href="/docs/ifc-viewer.html">
+        <span class="home-card-type">Concept</span>
+        <span class="home-card-title">Industry Foundation Classes (IFC)</span>
+        <span class="home-card-description">Understand IFC as the openBIM model exchange standard and where the Flinker viewer fits.</span>
+      </a>
+      <a class="home-doc-card" href="/docs/ifc-viewer-sdk.html">
+        <span class="home-card-type">Developer</span>
+        <span class="home-card-title">IFC Viewer SDK</span>
+        <span class="home-card-description">Embed IFC, BCF, and IDS model workflows into web apps, portals, and digital twin platforms.</span>
+      </a>
+      <a class="home-doc-card" href="/docs/releases.html">
+        <span class="home-card-type">What's new</span>
+        <span class="home-card-title">Release notes overview</span>
+        <span class="home-card-description">Review update history for hosted viewers, SharePoint apps, Teams apps, and Power BI visuals.</span>
+      </a>
     </div>
-  </div>  
+  </section>
+  <section class="home-section" aria-labelledby="start-title">
+    <div class="home-section-header">
+      <h2 id="start-title">Choose your starting point</h2>
+      <p>Follow the path that matches your role or the workflow you need to implement.</p>
+    </div>
+    <div class="home-panel-grid">
+      <article class="home-link-panel">
+        <div class="home-panel-icon" aria-hidden="true"><i class="bi bi-building"></i></div>
+        <h3>For BIM and project teams</h3>
+        <p>Work with openBIM standards, model data, issue workflows, georeferencing, and delivery requirements.</p>
+        <ul>
+          <li><a href="/docs/ifc-viewer.html">Industry Foundation Classes (IFC)</a></li>
+          <li><a href="/docs/ifc-bcf.html">BIM Collaboration Format (BCF)</a></li>
+          <li><a href="/docs/ifc-ids.html">Information Delivery Specification (IDS)</a></li>
+          <li><a href="/docs/copilot-for-ifc.html">Copilot for IFC</a></li>
+        </ul>
+      </article>
+      <article class="home-link-panel">
+        <div class="home-panel-icon" aria-hidden="true"><i class="bi bi-shield-lock"></i></div>
+        <h3>Microsoft 365 apps</h3>
+        <p>Deploy and use Flinker apps across SharePoint, Teams, Power BI, Excel, Project, Power Automate, and Power Apps.</p>
+        <ul>
+          <li><a href="/docs/apps.html">Microsoft 365 apps overview</a></li>
+          <li><a href="/docs/it-admin-quickstart.html">Admin deployment overview</a></li>
+          <li><a href="/docs/ifc-viewer-architecture-and-data-protection.html">Security and privacy</a></li>
+        </ul>
+      </article>
+      <article class="home-link-panel">
+        <div class="home-panel-icon" aria-hidden="true"><i class="bi bi-code-square"></i></div>
+        <h3>For developers</h3>
+        <p>Use the SDK, API reference, and examples to embed IFC, BCF, IDS, and Copilot workflows.</p>
+        <ul>
+          <li><a href="/docs/ifc-viewer-sdk.html">IFC Viewer SDK</a></li>
+          <li><a href="/docs/copilot-for-ifc-api.html">Copilot for IFC SDK</a></li>
+        </ul>
+      </article>
+    </div>
+  </section>
+  <section class="home-section" aria-labelledby="apps-title">
+    <div class="home-section-header">
+      <h2 id="apps-title">Work inside Microsoft 365</h2>
+      <p>Use familiar Microsoft apps as the surface for BIM model review, reporting, permissions, and collaboration.</p>
+    </div>
+    <div class="home-product-grid">
+      <a class="home-product-card" href="/docs/ifc-viewer-for-teams.html">
+        <img src="_media/Microsoft_Office_Teams_Logo.svg" alt="" aria-hidden="true">
+        <span>
+          <strong>IFC Viewer for Microsoft Teams</strong>
+          Review IFC and BCF files from project channels.
+        </span>
+      </a>
+      <a class="home-product-card" href="/docs/ifc-viewer-for-sharepoint.html">
+        <img src="_media/Microsoft_Office_SharePoint_Logo.svg" alt="" aria-hidden="true">
+        <span>
+          <strong>IFC Viewer for SharePoint</strong>
+          Open models from document libraries and SharePoint pages.
+        </span>
+      </a>
+      <a class="home-product-card" href="/docs/ifc-power-bi.html">
+        <img src="_media/Power_BI_Logo.svg" alt="" aria-hidden="true">
+        <span>
+          <strong>IFC Viewer Visual for Power BI</strong>
+          Connect model elements with business and project data.
+        </span>
+      </a>
+      <a class="home-product-card" href="/docs/ifc-viewer-for-microsoft-excel.html">
+        <img src="_media/Microsoft_Office_Excel_Logo.svg" alt="" aria-hidden="true">
+        <span>
+          <strong>IFC Viewer Add-in for Excel</strong>
+          Export, inspect, and analyze IFC properties in Excel.
+        </span>
+      </a>
+      <a class="home-product-card" href="/docs/share-features.html">
+        <img src="_media/Microsoft_Office_SharePoint_Logo.svg" alt="" aria-hidden="true">
+        <span>
+          <strong>Protect for SharePoint</strong>
+          Manage project permissions and external sharing.
+        </span>
+      </a>
+    </div>
+  </section>
+  <section class="home-callout" aria-labelledby="security-title">
+    <div>
+      <p class="home-eyebrow">Security and privacy</p>
+      <h2 id="security-title">Designed for tenant-owned project data</h2>
+      <p>Flinker documentation focuses on Microsoft 365 deployment paths, admin consent, file access, and browser-based model processing so teams can evaluate how data is handled before rollout.</p>
+    </div>
+    <ul class="home-check-list">
+      <li>Use existing Microsoft identities and workspaces.</li>
+      <li>Keep IFC files in SharePoint, Teams, or approved project storage.</li>
+      <li>Review architecture and data protection notes before deployment.</li>
+    </ul>
+    <a class="home-inline-link" href="/docs/ifc-viewer-architecture-and-data-protection.html">Read security documentation <i class="bi bi-chevron-right" aria-hidden="true"></i></a>
+  </section>
+  <section class="home-section home-two-column" aria-labelledby="more-title">
+    <div class="home-section-header">
+      <h2 id="more-title">More resources</h2>
+      <p>Continue with standards guidance, release updates, or direct support.</p>
+    </div>
+    <div class="home-resource-grid">
+      <a class="home-resource-link" href="/docs/ifc-ids.html">
+        <span class="home-card-type">Standard</span>
+        <strong>Information Delivery Specification (IDS)</strong>
+        <span>Validate model data requirements with openBIM information delivery rules.</span>
+      </a>
+      <a class="home-resource-link" href="/docs/power-bi-report-templates.html">
+        <span class="home-card-type">Templates</span>
+        <strong>Power BI report templates</strong>
+        <span>Start from IFC report examples for model review, 4D planning, GIS, BCF, and IDS scenarios.</span>
+      </a>
+      <a class="home-resource-link" href="/docs/releases.html">
+        <span class="home-card-type">Updates</span>
+        <strong>Release notes</strong>
+        <span>Check what changed across the viewer products and deployment channels.</span>
+      </a>
+      <a class="home-resource-link" href="https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/" target="_blank" rel="noopener noreferrer">
+        <span class="home-card-type">Support</span>
+        <strong>Book a support session <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></strong>
+        <span>Talk to the Flinker team about rollout, integration, or product questions.</span>
+      </a>
+    </div>
+  </section>
 </div>
 
-## Microsoft Partner
+<script>
+  (() => {
+    const form = document.getElementById("home-search");
+    const input = document.getElementById("home-search-query");
 
-All our products are built to integrate seamlessly with your existing Microsoft 365 setup to streamline your project management and collaboration.
+    if (!form || !input) {
+      return;
+    }
 
-<div class="benefits-container">
-  <div class="benefit-item">
-    <a href="/docs/ifc-viewer-for-teams.html">
-      <span class="benefit-icon">
-        <img
-          src="_media\Microsoft_Office_Teams_Logo.svg"
-          alt="Microsoft Teams Logo"
-        >
-      </span>
-      <span class="benefit-text">
-        <b>Teams IFC Viewer</b> - View and interact with IFC and BCF files directly in Teams.
-      </span>
-    </a>
-  </div>
+    function syncSearch() {
+      const globalInput = document.getElementById("search-query");
 
-  <div class="benefit-item">
-    <a href="/docs/ifc-viewer-for-sharepoint.html">
-      <span class="benefit-icon">
-        <img
-          src="_media\Microsoft_Office_SharePoint_Logo.svg"
-          alt="Microsoft SharePoint Logo"
-        >
-      </span>
-      <span class="benefit-text">
-        <b>SharePoint IFC Viewer</b> - View and interact with IFC and BCF files directly in SharePoint.
-      </span>
-    </a>
-  </div>
+      if (!globalInput) {
+        return;
+      }
 
-  <div class="benefit-item">
-    <a href="/docs/ifc-viewer-for-microsoft-excel.html">
-      <span class="benefit-icon">
-        <img
-          src="_media\Microsoft_Office_Excel_Logo.svg"
-          alt="Microsoft Excel Logo"
-        >
-      </span>
-      <span class="benefit-text">
-        <b>Excel IFC Viewer</b> - Visualize, export and link IFC data right inside Excel.
-      </span>
-    </a>
-  </div>
+      globalInput.value = input.value;
+      globalInput.dispatchEvent(new Event("input", { bubbles: true }));
 
-  <div class="benefit-item">
-    <a href="/docs/ifc-power-bi.html">
-      <span class="benefit-icon">
-        <img
-          src="_media\Power_BI_Logo.svg"
-          alt="Microsoft Power BI Logo"
-        >
-      </span>
-      <span class="benefit-text">
-        <b>Power BI IFC Viewer</b> - Visualize and link your IFC data in Power BI with custom data.
-      </span>
-    </a>
-  </div>
+      if (globalInput.disabled && input.value) {
+        window.setTimeout(syncSearch, 200);
+      }
+    }
 
-  <div class="benefit-item">
-    <a href="/docs/share-features.html">
-      <span class="benefit-icon">
-        <img
-          src="_media\Microsoft_Office_SharePoint_Logo.svg"
-          alt="Microsoft SharePoint Logo"
-        >
-      </span>
-      <span class="benefit-text">
-        <b>SharePoint Protect</b> - Secure your project data by managing file permissions within SharePoint and Teams.
-      </span>
-    </a>
-  </div>
-</div>
-
-## openBIM Standards
-
-We provide comprehensive file support centered around open, industry-standard formats, including IFC (Industry Foundation Classes) for exchanging BIM data and BCF (BIM Collaboration Format) for structured communication about BIM issues.
-
-<div class="benefits-container">
-  <div class="benefit-item">
-    <a href="/docs/ifc-viewer.html">
-      <span class="benefit-icon">
-        <img
-          style="clip-path: inset(19%);"
-          src="https://www.buildingsmart.org/wp-content/uploads/2024/07/bsi-icon-download.png"
-          alt="Microsoft Power BI Logo"
-        >
-      </span>
-      <span class="benefit-text">
-        <b>.IFC</b>
-      </span>
-    </a>
-  </div>
-
-  <div class="benefit-item">
-    <a href="/docs/ifc-bcf.html">
-      <span class="benefit-icon">
-        <img
-          style="clip-path: inset(19%);"
-          src="https://www.buildingsmart.org/wp-content/uploads/2024/07/bcf-icon-download.png"
-          alt="Microsoft SharePoint Logo"
-        >
-      </span>
-      <span class="benefit-text">
-        <b>.BCF</b>
-      </span>
-    </a>
-  </div>
-
-  <div class="benefit-item">
-    <a href="/docs/ifc-ids.html">
-      <span class="benefit-icon">
-        <img
-          style="clip-path: inset(19%);"
-          src="https://www.buildingsmart.org/wp-content/uploads/2024/07/ids-icon-download.png"
-          alt="Microsoft SharePoint Logo"
-        >
-      </span>
-      <span class="benefit-text">
-        <b>.IDS</b>
-      </span>
-    </a>
-  </div>
-
-</div>
-
-## Benefits
-
-<div class="benefits-container">
-  <div class="benefit-item">
-    <span class="benefit-icon"><i class="ms-Icon ms-Icon--AppIconDefaultAdd"></i></span>
-    <span class="benefit-text"><b>No new software</b> - Utilize your existing Microsoft tools.</span>
-  </div>
-  <div class="benefit-item">
-    <span class="benefit-icon"><i class="ms-Icon ms-Icon--Lock"></i></span>
-    <span class="benefit-text"><b>Data stays yours</b> - 100% privacy first and data sovereignty</span>
-  </div>
-  <div class="benefit-item">
-    <span class="benefit-icon"><i class="ms-Icon ms-Icon--Shield"></i></span>
-    <span class="benefit-text"><b>Enterprise-grade security</b> - Built on Microsoft's security standards.</span>
-  </div>
-  <div class="benefit-item">
-    <span class="benefit-icon"><i class="ms-Icon ms-Icon--Signin"></i></span>
-    <span class="benefit-text"><b>Single Sign-On</b> for any users</span>
-  </div>
-  <div class="benefit-item">
-    <span class="benefit-icon"><i class="ms-Icon ms-Icon--BookAnswers"></i></span>
-    <span class="benefit-text"><b>Zero training overhead</b> for existing Microsoft users.</span>
-  </div>
-  <div class="benefit-item">
-    <span class="benefit-icon"><i class="ms-Icon ms-Icon--Flow"></i></span>
-    <span class="benefit-text"><b>Built-in automation</b> using Power Automate and Power BI.</span>
-  </div>
-</div>
-
-## Support
-
-If you have any questions about implementation, usage, or bug reports, please feel free to contact us at any time using the contact details below:
-
-<!-- Benefits Container for Contact Information -->
-<div class="benefits-container">
-  <div class="benefit-item">
-    <span class="benefit-text">
-      <h3 class="card-title">Meeting</h3>
-      <a href="https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/" class="contact-link">Reach out to our dedicated support team</a>
-    </span>
-  </div>
-  <div class="benefit-item">
-    <span class="benefit-text">
-      <h3 class="card-title">Email</h3>
-      <a href="mailto:support@flinker.app" class="contact-link">support@flinker.app</a>
-    </span>
-  </div>
-  <div class="benefit-item">
-    <span class="benefit-text">
-      <h3 class="card-title">Phone</h3>
-      <a href="tel:+498926204274" class="contact-link">+49 89 26204274</a>
-    </span>
-  </div>
-</div>
+    input.addEventListener("input", syncSearch);
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      syncSearch();
+    });
+  })();
+</script>

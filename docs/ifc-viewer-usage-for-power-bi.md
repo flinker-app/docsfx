@@ -96,18 +96,18 @@ If you already have an empty Power BI report or an existing report and want to i
 
 ### 3. Add the IFC Viewer Visual from AppSource
 
-1. In Power BI Desktop, go to the Visualizations pane and click on **Get more visuals (… )** to search the IFC Viewer visual in the Appstore and add the IFC Viewer visual to your report.
+1. In Power BI Desktop, go to the Visualizations pane and click on **Get more visuals (… )** to search the IFC Viewer visual in the AppSource and add the IFC Viewer visual to your report.
 2. Once added, find the IFC Viewer icon in the Visualizations pane and click it to add the visual to your report canvas.
 ### 3. Bind the required fields to the IFC Viewer visual
 
 - Drag and drop the `IFC Chunks` field from your `IFC` query table to the **IFC Chunks** data field of the IFC Viewer visual. This field contains the binary or text data representing the IFC model and is essential for rendering the 3D model in the viewer.
 
-- Drag and drop the `GUIDS` field from your `IFC` query table to the **IDs** data field of the IFC Viewer visual. This field contains the unique identifiers for each element in the IFC model and is used to link the IFC data to other tables or visuals in your report.
+- Drag and drop the `GUIDs` field from your `IFC` query table to the **IDs** data field of the IFC Viewer visual. This field contains the unique identifiers for each element in the IFC model and is used to link the IFC data to other tables or visuals in your report.
 
 > [!NOTE]
 > In the IFC Viewer Visual you can show or hide individual building elements (such as walls, floors, doors, windows, columns, beams, stairs etc.) by their unique GlobalId (GUID) e.g. `3zE3wwXjt4f9f19eugD1Q0`. Other IFC objects (property sets, materials, etc.) may also have GUIDs, but they don’t map one-to-one to a visible element in your scene.
 
-![Bind IFC Query Fields to Power BI Visual's Data Fields](/_media/bind-ifc-query-fields-to-power-bi-visuals-data-fields.png)
+![Bind IFC query fields to IFC Viewer Visual for Power BI data fields](/_media/bind-ifc-query-fields-to-power-bi-visuals-data-fields.png)
 
 ### 4. Optional: Link IFC Data to your existing data
 
@@ -116,6 +116,6 @@ If you already have an empty Power BI report or an existing report and want to i
 3. Configure a relationship between your table’s **GUID** column and the `IFC` query’s **GUID** field.
 4. Click **OK** and ensure the relationship is active.
 
-![Link IFC Visual Data to Existing Data](/_media/link-ifc-visual-data-to-existing-data.png)
+![Link IFC Viewer Visual for Power BI data to existing data](/_media/link-ifc-visual-data-to-existing-data.png)
 
 You have now successfully integrated the 3D IFC Viewer into an existing or blank Power BI report. The IFC files will be loaded via the M functions and linked to your dataset by GUID, enabling seamless 3D visualization.

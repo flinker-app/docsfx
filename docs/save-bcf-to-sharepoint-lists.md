@@ -7,7 +7,7 @@ canonical_url: https://docs.flinker.app/docs/save-bcf-to-sharepoint-lists.html
 
 # Connect BCF to Microsoft List
 
-Our SharePoint IFC Viewer webpart can read and write BCF topics from both a **BCF file** and a **Microsoft SharePoint List**. This lets you manage issue metadata in Microsoft Lists while still keeping the full BCF detail (like viewpoints) in a BCF file.
+Our IFC Viewer for SharePoint web part can read and write BCF topics from both a **BCF file** and a **Microsoft SharePoint List**. This lets you manage issue metadata in Microsoft Lists while still keeping the full BCF detail (like viewpoints) in a BCF file.
 
 ## What it does
 
@@ -19,7 +19,7 @@ Our SharePoint IFC Viewer webpart can read and write BCF topics from both a **BC
 
 * **On save (write behavior)**
 
-  * When you click **Save to SharePoint/Teams** in the SharePoint IFC Viewer webpart, topics are saved **to the Microsoft List** (for metadata) **and** **to the BCF file** (for full BCF content).
+  * When you click **Save to SharePoint/Teams** in the IFC Viewer for SharePoint web part, topics are saved **to the Microsoft List** (for metadata) **and** **to the BCF file** (for full BCF content).
 
 * **What’s stored where**
 
@@ -52,12 +52,12 @@ Include these **required columns** and types:
 
 ### 2. Insert the URLs in the web part settings
 
-* Paste the **Microsoft List URL** (List names with special characters are not supported) into the SharePoint IFC Viewer web part settings.
+* Paste the **Microsoft List URL** (List names with special characters are not supported) into the IFC Viewer for SharePoint web part settings.
 * Paste the **BCF URL** so all topic data is also saved as a BCF file. You can use an existing BCF or a sample BCF.
 
 ### 3. Save to Microsoft List (and BCF)
 
-Click **Save to SharePoint/Teams** in the SharePoint IFC Viewer webpart.
+Click **Save to SharePoint/Teams** in the IFC Viewer for SharePoint web part.
 The web part writes topic metadata to the **Microsoft List** and writes the full topic (including viewpoints/clipping) to the **BCF file**.
 
 ## FAQ

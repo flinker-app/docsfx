@@ -1,14 +1,14 @@
 ---
-title: Open IFC Viewer for Microsoft Teams - Architecture and Data Protection
-description: Architecture, data flows, permissions, and data protection for the Open IFC Viewer Teams app. Explains tenant-bound storage, security, and metadata handling for IT and compliance.
-summary: "How the Open IFC Viewer tab app works in Microsoft Teams: tenant-only storage in SharePoint/OneDrive, client-side rendering, permissions, and GDPR-aligned metadata processing."
+title: IFC Viewer for Microsoft Teams - Architecture and Data Protection
+description: Architecture, data flows, permissions, and data protection for the IFC Viewer for Microsoft Teams app. Explains tenant-bound storage, security, and metadata handling for IT and compliance.
+summary: "How the IFC Viewer for Microsoft Teams tab app works in Microsoft Teams: tenant-only storage in SharePoint/OneDrive, client-side rendering, permissions, and GDPR-aligned metadata processing."
 slug: open-ifc-viewer-teams-architecture-and-data-protection
 canonical_url: https://docs.flinker.app/docs/open-ifc-viewer-teams-architecture-and-data-protection.html
 lang: en
 robots: index,follow
 keywords:
   - Microsoft Teams
-  - Open IFC Viewer
+  - IFC Viewer for Microsoft Teams
   - architecture
   - data protection
   - security
@@ -38,8 +38,8 @@ tags:
   - onedrive
   - entra-id
 og:
-  title: Open IFC Viewer for Microsoft Teams - Architecture and Data Protection
-  description: Tenant-only storage, client-side rendering, and GDPR-aligned metadata for the Open IFC Viewer in Teams.
+  title: IFC Viewer for Microsoft Teams - Architecture and Data Protection
+  description: Tenant-only storage, client-side rendering, and GDPR-aligned metadata for IFC Viewer for Microsoft Teams.
 twitter:
   card: summary_large_image
 audience: it-admins, security, compliance, architects
@@ -48,22 +48,22 @@ feature: open-ifc-viewer
 ms.date: 2025-12-05
 ---
 
-# Open IFC Viewer for Microsoft Teams – Architecture and Data Protection
+# IFC Viewer for Microsoft Teams – Architecture and Data Protection
 
 _Last updated: December 2025_
 
-The **Open IFC Viewer for Microsoft Teams** is a tab app that runs inside the customer’s Microsoft 365 tenant. It is designed so that all IFC and project data remain under the control of the customer’s tenant at all times.
+The **IFC Viewer for Microsoft Teams** is a tab app that runs inside the customer’s Microsoft 365 tenant. It is designed so that all IFC and project data remain under the control of the customer’s tenant at all times.
 
 This page describes the architecture, data flows, and data protection measures for IT security and compliance teams.
 
 ## Product-specific Privacy Highlights
 
-- All IFC files, BIM data, and project documents remain 100% inside your Microsoft 365 tenant.
-- Flinker never receives or stores IFC model content, plans, drawings, or other project documents.
+- IFC files, BIM data, and project documents remain in the customer's Microsoft 365 tenant.
+- Flinker does not receive or store IFC model content, plans, drawings, or other project documents.
 - Viewer code is delivered from Flinker (web endpoint / Azure CDN) as static assets only; no customer data is transferred via these endpoints.
 - The app does not read or send Teams messages and does not access mailbox items.
 - No external non-Microsoft business systems or APIs are used; only Microsoft 365 services (Teams, SharePoint, OneDrive, Entra ID).
-- Only strictly limited technical metadata (tenant ID, optional e-mail address, anonymised usage metrics) are sent to the Flinker Azure backend, as described in [section 4](#4-transmission-of-technical-metadata-to-flinker).
+- Only strictly limited technical metadata (tenant ID, optional e-mail address, anonymized usage metrics) are sent to the Flinker Azure backend, as described in [section 4](#4-transmission-of-technical-metadata-to-flinker).
 
 
 
@@ -84,7 +84,7 @@ No separate Flinker tenant is created. All access and governance are controlled 
 
 - **User / Teams Client**  
   - Microsoft Teams desktop, web, or mobile client.
-- **Teams Tab “Open IFC Viewer”**  
+- **Teams Tab “IFC Viewer for Microsoft Teams”**  
   - Configurable tab defined in the app manifest (`configurableTabs`).  
   - Loads the viewer UI as a web application inside Teams.
 - **SharePoint Online / OneDrive (customer tenant)**  
@@ -100,13 +100,13 @@ No separate Flinker tenant is created. All access and governance are controlled 
 
 **Data flows (high-level)**
 
-1. The user opens a Teams channel or chat and selects the **Open IFC Viewer** tab.
+1. The user opens a Teams channel or chat and selects the **IFC Viewer for Microsoft Teams** tab.
 2. Teams loads the tab configuration and requests the viewer page from Flinker (domain listed as `teamsifcviewer.flinker.app` in the manifest).
 3. The viewer frontend (JavaScript) runs in the browser and, using the user’s existing Microsoft 365 identity, reads the configured IFC files from **SharePoint Online / OneDrive** in the same tenant.
 4. The IFC model is parsed and rendered **entirely client-side in the browser** – no IFC content is sent to Flinker servers.
 5. Independently of the IFC file contents, the app may send **technical metadata** to the Flinker Azure backend (see section 4).
 
-At no point are IFC files or project documents transmitted outside the customer’s Microsoft 365 tenant.
+The app is designed so that IFC files and project documents are read from the customer's Microsoft 365 storage and are not sent to the Flinker backend for model processing.
 
 
 
@@ -118,14 +118,14 @@ Overview of the components in the customer tenant and how the tab loads and rend
 flowchart LR
   subgraph Tenant [Customer Microsoft 365 Tenant]
     User[User - Teams desktop / web / mobile]
-    TeamsTab[Teams tab - Open IFC Viewer]
+    TeamsTab[Teams tab - IFC Viewer for Microsoft Teams]
     SharePoint[SharePoint Online / OneDrive - IFC document libraries]
     EntraID[Microsoft Entra ID - Azure AD]
   end
 
   subgraph Flinker [Flinker Azure EU]
     ViewerFE[Viewer frontend - teamsifcviewer.flinker.app]
-    Backend[Azure backend - Technical metadata - tenant ID optional email anonymised usage]
+    Backend[Azure backend - Technical metadata - tenant ID optional email anonymized usage]
   end
 
   User -->|opens Teams channel or tab| TeamsTab
@@ -138,9 +138,9 @@ flowchart LR
 
 ## 3. Processing and Protection of Sensitive Data
 
-The Open IFC Viewer for Microsoft Teams is built with a privacy-first design:
+The IFC Viewer for Microsoft Teams is built with a privacy-first design:
 
-- **100% of IFC and project content stays in the customer’s tenant**
+- **IFC and project content stays in the customer’s tenant**
   - IFC models, BIM data, plans, drawings, and all related project documents are stored and processed only in **SharePoint Online / OneDrive** within the tenant.
   - Flinker cannot access, download, or store these files. No geometries, property sets, or domain-specific project data are transmitted to Flinker.
 - **Viewer execution in the browser**
@@ -164,7 +164,7 @@ To support secure operation and anonymous usage analytics, the app may transmit 
   - Used to uniquely identify the Microsoft 365 tenant and manage licensing.
 - **(Optional) User e-mail address**  
   - Only if required for login, support, or license assignment.
-- **Anonymised usage and analytics data**, for example:
+- **Anonymized usage and analytics data**, for example:
   - feature usage counters,
   - non-content related performance metrics.
 
@@ -174,7 +174,7 @@ To support secure operation and anonymous usage analytics, the app may transmit 
 - No project documents, plans, drawings, or BIM attributes.
 - No Teams chat messages or mailbox contents.
 
-All transmitted metadata is pseudonymised where possible, encrypted in transit and at rest, and accessible only to a small group of authorised Flinker staff in the EU. Processing is performed in line with GDPR and, where applicable, under a Data Processing Agreement (DPA).
+All transmitted metadata is pseudonymized where possible, encrypted in transit and at rest, and accessible only to a small group of authorized Flinker staff in the EU. Processing is performed in line with GDPR and, where applicable, under a Data Processing Agreement (DPA).
 
 
 
@@ -186,7 +186,7 @@ The Teams app manifest defines:
   - `configurableTabs` with `scopes: ["team", "groupchat"]` – the app is used exclusively as a tab in Teams.
 - **Permissions**
   - `"identity"` – used for sign-in and SSO with Microsoft 365.
-  - `"messageTeamMembers"` – permission declared in the manifest. The Open IFC Viewer does **not** use this permission to read or send Teams messages and does not access mailbox items; it is technically limited to rendering IFC models in the tab UI.
+  - `"messageTeamMembers"` – permission declared in the manifest. The IFC Viewer for Microsoft Teams does **not** use this permission to read or send Teams messages and does not access mailbox items; it is technically limited to rendering IFC models in the tab UI.
 
 - **Valid domain**
   - `teamsifcviewer.flinker.app` – the only external domain used by the app for loading viewer resources.
@@ -197,13 +197,13 @@ The generic permission texts shown in AppSource (“can send data over the inter
 
 ## 6. Summary for IT and Compliance
 
-- All IFC and project data remain entirely within the customer’s Microsoft 365 tenant.
+- IFC and project data remain in the customer’s Microsoft 365 tenant.
 - The Teams app runs as a tab and accesses only IFC files in SharePoint/OneDrive using the user’s existing permissions.
 - Flinker does **not** receive or store any IFC model contents or project documents.
-- Only strictly limited technical metadata (Tenant ID, optional e-mail, anonymised usage metrics) is transmitted to Flinker’s Azure backend.
+- Only strictly limited technical metadata (Tenant ID, optional e-mail, anonymized usage metrics) is transmitted to Flinker’s Azure backend.
 - The app has been reviewed and approved by Microsoft as part of the AppSource / Teams Store submission process.
 
-For further details or security reviews, please contact: **support@flinker.app**.
+For more details or security review support, contact **support@flinker.app**.
 
 ## 7. Microsoft Compliance & Security
 

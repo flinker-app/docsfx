@@ -1,23 +1,23 @@
 ---
-title: Infrastructure Integration
-description: Learn how the Infra feature in Flinker enhances alignment navigation, station visualization, and clipping tools for IFC 4.3 infrastructure models.
+title: IFC 4.3 Infrastructure and Alignments
+description: Learn how Flinker supports IFC 4.3 infrastructure models with alignment navigation, station visualization, and clipping tools.
 keywords: Infra, IFC 4.3, Infrastructure, Alignment, Station, Clipping, Navigation, BIM, Roads, Bridges, Flinker
 canonical_url: https://docs.flinker.app/docs/ifc-infra.html
 ---
 
-# Infrastructure Integration
+# IFC 4.3 Infrastructure and Alignments
 
-The **Infrastructure Integration** feature in **Flinker** brings powerful tools for visualizing and interacting with **IFC 4.3 infrastructure models**.  
+The **IFC 4.3 Infrastructure and Alignments** feature in **Flinker** brings tools for visualizing and interacting with **IFC 4.3 infrastructure models**.  
 It focuses on **alignments**, **station navigation**, and **clipping planes**, helping users explore and analyze roads, bridges, and rail models with engineering precision.
 
-With Infra, you can load IFC models containing _IfcAlignment_ entities, navigate along the route, view cross-sections, and inspect data interactively — all inside your browser.
+With Infra, you can load IFC models containing _IfcAlignment_ entities, navigate along the route, view cross-sections, and inspect data interactively  -  all inside your browser.
 
 ![Infra Alignment Navigation](/_media/ifc-infra.png)
 _Example of alignment navigation with station visualization and clipping section in Flinker._
 
-## What is Infra?
+## What is IFC 4.3 infrastructure support?
 
-**Infra** is a specialized viewer module that enhances the visualization and analysis of **IFC 4.3 infrastructure entities**, primarily focusing on:
+This is a specialized viewer module that enhances the visualization and analysis of **IFC 4.3 infrastructure entities**, primarily focusing on:
 
 - _IfcAlignment_ and _IfcAlignmentSegment_ elements
 - Station navigation (chainage or KP)
@@ -26,7 +26,7 @@ _Example of alignment navigation with station visualization and clipping section
 
 It provides engineers with smooth camera navigation along the alignment path and real-time clipping tools to inspect geometry at any chainage point.
 
-## Why Use Infra?
+## Why use IFC 4.3 infrastructure support?
 
 **Precision**  
 Move the camera along exact chainage positions (e.g., 0+060, 0+140) and visualize model sections at any station.
@@ -37,7 +37,7 @@ Display or hide alignment paths and station markers for simplified infrastructur
 **Control**  
 Enable dynamic clipping to generate cross-sectional views for detailed analysis or coordination.
 
-## Benefits of Infra Integration
+## Benefits of IFC 4.3 infrastructure support
 
 - **IFC 4.3 Alignment Support**:  
   Load and visualize _IfcAlignment_ entities directly within the web viewer.
@@ -54,7 +54,7 @@ Enable dynamic clipping to generate cross-sectional views for detailed analysis 
 - **Visual Feedback**:  
   Real-time station highlighting and tagging directly in the 3D view.
 
-## How to Use Infra in Flinker
+## How to use infrastructure tools in Flinker
 
 Follow these steps to work with the **Infra** feature inside Flinker:
 
@@ -102,4 +102,4 @@ See how **_Flinker_** brings **Infra-based alignment navigation** into your infr
 > [!div class="nextstepaction"]  
 > [Book a Meeting Now](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 
-We’ll show you how to manage alignments, stations, and cross-sections interactively — directly in your IFC 4.3 infrastructure models.
+We’ll show you how to manage alignments, stations, and cross-sections interactively  -  directly in your IFC 4.3 infrastructure models.

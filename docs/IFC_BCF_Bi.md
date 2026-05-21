@@ -24,7 +24,7 @@ The report reads `.bcfzip` files entirely within Power BI using Power Query. No 
 - View a stacked bar chart showing topic counts per type, color-coded by status
 - Click any topic row to see the full comment thread with authors and timestamps
 - View the linked IFC model directly next to the issue list
-- Track overdue topics automatically — no manual tagging needed
+- Track overdue topics automatically  -  no manual tagging needed
 
 ## How to Load Your Files
 
@@ -68,7 +68,7 @@ Three cards at the top summarize topic health at a glance:
 | **Closed / Resolved Topics** | Green | Topics marked as completed (Closed, Resolved, Done, etc.) |
 | **Overdue Topics** | Red | Open topics whose due date has passed |
 
-The status logic is universal — it works regardless of which BIM tool created the BCF file. Any status that does not indicate completion (such as Open, Active, Review, or In Progress) is treated as open. Any status that indicates completion (such as Closed, Resolved, Done, Fixed, or Void) is counted as closed.
+The status logic is universal  -  it works regardless of which BIM tool created the BCF file. Any status that does not indicate completion (such as Open, Active, Review, or In Progress) is treated as open. Any status that indicates completion (such as Closed, Resolved, Done, Fixed, or Void) is counted as closed.
 
 ### Filters
 
@@ -86,7 +86,7 @@ All filters interact with each other and update every visual on the page at once
 
 ### Type Distribution Chart
 
-A stacked horizontal bar chart shows how many topics exist per type (for example Clash, Coordination, Issue, or Request). Each bar is split by status color — amber for open, green for closed, red for overdue. The chart adapts automatically to whatever types are present in your BCF file; no manual configuration is needed.
+A stacked horizontal bar chart shows how many topics exist per type (for example Clash, Coordination, Issue, or Request). Each bar is split by status color  -  amber for open, green for closed, red for overdue. The chart adapts automatically to whatever types are present in your BCF file; no manual configuration is needed.
 
 ### Topic Comments Panel
 
@@ -101,7 +101,7 @@ When no topic is selected, the panel shows: *"Please select a Topic to show its 
 
 ### IFC Viewer
 
-The 3D model viewer in the upper right loads the IFC file linked to the BCF. If your BCF references multiple IFC files, each one is loaded through its own parameter. The viewer is interactive — you can orbit, zoom, and inspect model elements.
+The 3D model viewer in the upper right loads the IFC file linked to the BCF. If your BCF references multiple IFC files, each one is loaded through its own parameter. The viewer is interactive  -  you can orbit, zoom, and inspect model elements.
 
 ## BCF Version Compatibility
 
@@ -121,10 +121,10 @@ The parser detects the version automatically and adapts its reading logic. You d
 | :--- | :--- |
 | No topics appear after refresh | Verify that `BCFZIP_Path` points to a valid `.bcfzip` or `.bcf` file and that Power BI can access the path |
 | Comment panel shows nothing when clicking a row | Install the **HTML Content** visual (by Daniel Marsh-Patrick) from the Power BI AppSource marketplace |
-| Open / Active Topics shows (Blank) | Expected — your BCF file has no topics that are open and within their due date |
-| Closed / Resolved Topics shows (Blank) | Expected — no topics in the file have a closed status |
-| Overdue Topics shows (Blank) | Expected — no open topics have a past due date, or no topics have a due date at all |
+| Open / Active Topics shows (Blank) | Expected  -  your BCF file has no topics that are open and within their due date |
+| Closed / Resolved Topics shows (Blank) | Expected  -  no topics in the file have a closed status |
+| Overdue Topics shows (Blank) | Expected  -  no open topics have a past due date, or no topics have a due date at all |
 | Components table is empty | Not all topics include viewpoint component data; this is normal and depends on the exporting tool |
 | IFC model does not load | Check the `IFC_FilePath` values and make sure the file is accessible from Power BI |
 | Refresh error mentioning an unused parameter | Delete any `IFC_FilePath` parameters that are not pointing to a file |
-| Topics showing unexpected statuses | Status values are defined per-project in each BCF file. The report accepts any status string — no manual mapping is needed |
+| Topics showing unexpected statuses | Status values are defined per-project in each BCF file. The report accepts any status string  -  no manual mapping is needed |

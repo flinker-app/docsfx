@@ -26,7 +26,7 @@ const viewer = new IfcViewer(el);
 
 ## `viewer.ready`
 
-`Promise<void>` that resolves once the viewer is fully initialised. Always `await` this before calling any other method.
+`Promise<void>` that resolves once the viewer is fully initialized. Always `await` this before calling any other method.
 
 ```js
 const viewer = new IfcViewer("#ifc-viewer");

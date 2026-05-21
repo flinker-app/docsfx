@@ -1,19 +1,19 @@
 ---
-title: IFC Viewer for Teams
+title: IFC Viewer for Microsoft Teams
 description: View and collaborate on IFC and BCF files directly in Microsoft Teams with secure Microsoft 365 integration, shared coordination tabs, BCF deep links, and default issue views.
-keywords: IFC Viewer for Teams, Teams IFC viewer, BCF in Teams, BIM collaboration, Microsoft Teams BIM, Microsoft 365 IFC, secure IFC workflow, deep link, topic GUID
+keywords: IFC Viewer for Microsoft Teams, IFC Viewer for Microsoft Teams, BCF in Teams, BIM collaboration, Microsoft Teams BIM, Microsoft 365 IFC, secure IFC workflow, deep link, topic GUID
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-for-teams.html
 ---
 
-# IFC Viewer for Teams
+# IFC Viewer for Microsoft Teams
 
-![IFC Viewer for Teams](/_media/load-multiple-ifc-files-in-teams-ifc-viewer.png)
+![IFC Viewer for Microsoft Teams](/_media/load-multiple-ifc-files-in-teams-ifc-viewer.png)
 
-The Teams IFC Viewer brings IFC and BCF coordination directly into Microsoft Teams. Load models from SharePoint or Teams, review BCF topics in the same channel where your team already works, and keep all project data inside Microsoft 365.
+The IFC Viewer for Microsoft Teams brings IFC and BCF coordination directly into Microsoft Teams. Load models from SharePoint or Teams, review BCF topics in the same channel where your team already works, and keep all project data inside Microsoft 365.
 
-## Why choose the IFC Viewer for Teams?
+## Why choose the IFC Viewer for Microsoft Teams?
 
-| Feature | Teams IFC Viewer | Standard IFC Viewer |
+| Feature | IFC Viewer for Microsoft Teams | Standard IFC Viewer |
 | ------- |:------------------:|:------------------:|
 | No extra software/login | ✓ | ✗ |
 | Privacy: User controls data storage | ✓ | ✗ |

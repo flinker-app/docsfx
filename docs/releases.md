@@ -1,30 +1,18 @@
 ---
-title: Flinker Release Notes
-description: Latest release notes for IFC Viewer products across base viewer, SharePoint, Teams, Power BI, and related apps.
+title: Release notes overview
+description: Release note index for IFC Viewer products across the online viewer, SharePoint, Microsoft Teams, Power BI, and related apps.
 keywords: Flinker releases, IFC Viewer changelog, SharePoint Teams Power BI updates, release notes
 canonical_url: https://docs.flinker.app/docs/releases.html
 ---
 
-# Releases
+# Release notes overview
 
-## Base IFC Viewer
-> [!NOTE]
-> Updates for the base IFC Viewer are applied automatically; no manual update is required.
+Use this page to find the update history for each Flinker IFC product. Most hosted products update automatically; SharePoint installations may require an app catalog upgrade.
 
-[!INCLUDE [my-markdown-block](releases/ifc-viewer.md)]
-
-## SharePoint IFC Viewer
-> [!NOTE]
-> Each time a new version is released, please remember to [update your SharePoint IFC Viewer](upgrade-sharepoint-ifc-viewer-app.md).
-
-[!INCLUDE [my-markdown-block](releases/ifc-sharepoint.md)]
-
-## Teams IFC Viewer
-> [!NOTE]
-> Updates for the Teams IFC Viewer are applied automatically; no manual update is required.
-[!INCLUDE [my-markdown-block](releases/ifc-teams.md)]
-
-## Power BI IFC Viewer
-> [!NOTE]
-> Updates for the Power BI IFC Viewer are applied automatically; no manual update is required.
-[!INCLUDE [my-markdown-block](releases/ifc-powerbi-visual.md)]
+| Product | Update behavior |
+|---|---|
+| [IFC Viewer](releases/ifc-viewer.md) | Updates are applied automatically. No manual update is required. |
+| [IFC Viewer for SharePoint](releases/ifc-sharepoint.md) | Updates must be installed from the SharePoint App Catalog. See [upgrade instructions](upgrade-sharepoint-ifc-viewer-app.md). |
+| [IFC Viewer for Microsoft Teams](releases/ifc-teams.md) | Updates are applied automatically. No manual update is required. |
+| [IFC Viewer for Power BI](releases/ifc-powerbi.md) | Updates are applied automatically. No manual update is required. |
+| [IFC Viewer Visual for Power BI](releases/ifc-powerbi-visual.md) | Updates are applied automatically through Microsoft AppSource or your organizational visual deployment. |

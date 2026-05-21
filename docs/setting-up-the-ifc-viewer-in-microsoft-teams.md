@@ -1,46 +1,50 @@
 ---
-title: Setting Up the IFC Viewer in Microsoft Teams
+title: Set up the IFC Viewer in Microsoft Teams
 description: Step-by-step guide to set up the IFC Viewer in Microsoft Teams, load IFC and BCF files, and set a default BCF view.
 keywords: IFC Viewer, Microsoft Teams, 3D models, collaboration, data privacy, BCF, topic GUID
 canonical_url: https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html
 ---
 
-# Setting Up the IFC Viewer in Microsoft Teams
+# Set up the IFC Viewer in Microsoft Teams
 
 Follow these steps to set up the IFC Viewer in your Microsoft Teams environment.
 
 > [!Note]
-> - **Privacy First: Your Data Stays With You!** We do not upload your files anywhere. All processing is client-side, ensuring full privacy and security. For more details, see [Microsoft App Compliance](https://learn.microsoft.com/en-us/microsoft-365-app-certification/teams/flinker-gmbh-open-ifc-viewer?pivots=general).
+> - **Privacy first**: IFC and BCF files are processed client-side. Files are not uploaded to Flinker. For more details, see [Microsoft App Compliance](https://learn.microsoft.com/en-us/microsoft-365-app-certification/teams/flinker-gmbh-open-ifc-viewer?pivots=general).
 
-## Setup
-
-It just takes 2 minutes.
+## Setup steps
 
 ### Step 1: Get the IFC Viewer App
-Option 1: Vist the [Teams App Store link](https://teams.microsoft.com/l/app/828163ae-0b22-445f-85c6-5768b56dfa4e?source=app-details-dialog)
 
-Option 2: Open Microsoft Teams, go to the Apps section, and search for "IFC Viewer." Click on "Add" to start the setup.
+Option 1: Open the [Teams app store listing](https://teams.microsoft.com/l/app/828163ae-0b22-445f-85c6-5768b56dfa4e?source=app-details-dialog).
+
+Option 2: Open Microsoft Teams, go to **Apps**, search for **IFC Viewer**, and select **Add**.
 
 ![Search for IFC Viewer and Click Add](/_media/teams-apps-search-for-ifc-viewer-and-click-add.png)
 
-### Step 2: Add IFC Viewer to Your Team
-Select the team where you want to add the IFC Viewer and click "Set up a tab" or "Add to a Team".
+### Step 2: Add IFC Viewer to your team
+
+Select the team where you want to add the IFC Viewer, then select **Set up a tab** or **Add to a team**.
 
 ![Add to Team](/_media/teams-apps-add-to-team.png)
 
-### Step 3: Set Up the Tab
-Choose the specific team and channel where you want to set up the IFC Viewer tab, then click "Set up."
+### Step 3: Set up the tab
+
+Choose the team and channel where you want to set up the IFC Viewer tab, then select **Set up**.
 You can also add the tab to multiple teams and chats.   
 
 
 ![Select Team and Setup Tab](/_media/teams-apps-ifc-viewer-select-team-and-setup-tab.png)
 
-After setting up the tab, the settings window will automatically appear. To load IFC/BCF files automatically whenever the tab is opened you can add the SharePoint and Teams file links now or return to this window later to add them as needed. If you want the tab to always open on a specific BCF issue, you can also paste its topic GUID into **Set your default view (optional)**. Click "Save" to add the tab.
+After the tab is created, the settings window opens. To load IFC or BCF files automatically, add SharePoint or Teams file links. You can also return to this window later.
+
+To open a specific BCF issue by default, paste its topic GUID into **Set your default view (optional)**. Select **Save** to add the tab.
 
 ![Tab Settings to Connect with Your Files](/_media/teams-apps-ifc-viewer-tab-settings-paste-ifc-file-links-and-save.png)
 
-### Step 4: Connect with Your Files
-Click "Connect" to grant permissions for the IFC Viewer to access your files. This step must be completed to give the app access to the files.
+### Step 4: Connect to your files
+
+Select **Connect** to grant permissions for the IFC Viewer to access files in SharePoint or Teams.
 
 ![Connect and Grant Permissions to Read Your Files](/_media/teams-apps-ifc-viewer-click-connect-and-grant-permissions-to-read-your-files.png)
 
@@ -59,29 +63,30 @@ When you connect, the IFC Viewer will request these scopes:
   _Type: Delegated permission_
 
 > [!Note]
-> **Why Do You Need to Grant File Read Permissions?**
+> **Why file read permissions are required**
 > 
-> The **IFC Viewer** requires permission to read the IFC files stored in your **SharePoint** and **Teams**. This is essential for the app to retrieve and display the files directly from these platforms, allowing you to view them without any manual downloads or transfers.
+> The **IFC Viewer** requires permission to read IFC files stored in **SharePoint** and **Teams**. This lets the app retrieve and display files directly from Microsoft 365 without manual downloads or transfers.
 > 
 > **Your files are not transferred externally**. The app operates **within the SharePoint and Teams environment**, ensuring that all data remains securely within your organization's ecosystem.
 > 
-> If you see a message saying that _"This app requires your admin’s approval,"_ it simply means that your organization's security settings require admin approval before third-party apps can access your files. In this case, you will need to contact your IT admin for approval.
+> If you see _"This app requires your admin’s approval,"_ your organization's security settings require admin approval before the app can access files. Contact your IT administrator.
 
 
-### Step 5: Copy Links of IFC/BCF Files or Folders
-Go to the Files tab and copy the links of the files you want to view in the IFC Viewer.
+### Step 5: Copy links for IFC or BCF files and folders
+
+Go to the **Files** tab and copy the links for the files you want to view in the IFC Viewer.
 Supported links are:
 - Individual **IFC** or **BCF** file links,
 - A **folder** link that contains multiple IFC/BCF files you want to display together
-- If the link is on OneDrive/SharePoint, you need to copy the link from OneDrive/SharePoint. 
-- If it's on an external drive, you need to upload it to SharePoint or Teams first.
+- If the file is in OneDrive or SharePoint, copy the OneDrive or SharePoint link.
+- If the file is on an external drive, upload it to SharePoint or Teams first.
 
 > [!Note]
 > When you open the IFC Viewer tab, you will only be able to load and view files if you have permission to open the file links that were pasted into the settings. If you do not have access to a specific file or folder, it will not appear in the viewer. **Make sure you have the necessary permissions in SharePoint or Teams to view the linked files.**
 
 ![Copy Links of IFC Files](/_media/teams-apps-ifc-viewer-in-files-tab-copy-links-of-ifc-files.png)
 
-### Step 6: Configure Tab Settings
+### Step 6: Configure tab settings
 Return to the tab settings.
 
 ![Return to the tab settings](/_media/teams-apps-ifc-viewer-tab-settings-to-connect-with-your-files.png)
@@ -92,26 +97,26 @@ Paste the copied file links, and save the settings. Pasting file links from Shar
 
 If you also want the tab to always open on one specific BCF topic, use the optional default view field shown below.
 
-![Set a default BCF topic for the Teams IFC Viewer tab](/_media/set-default-view-in-teams-ifc-viewer.png)
+![Set a default BCF topic for the IFC Viewer for Microsoft Teams tab](/_media/set-default-view-in-teams-ifc-viewer.png)
 
-### Done! IFC Files Load Automatically
+### Done: IFC files load automatically
 IFC and BCF files will load automatically according to the settings whenever you open the tab.
 If you add multiple IFC file links, or a folder link containing IFC and BCF files, the viewer loads them together in the same tab.
-You can restrict upload permissions by adjusting SharePoint settings or using the Protect App. 
+You can restrict upload permissions by adjusting SharePoint settings or using Protect for SharePoint. 
 
-![Load multiple IFC files in the Teams IFC Viewer](/_media/load-multiple-ifc-files-in-teams-ifc-viewer.png)
+![Load multiple IFC files in the IFC Viewer for Microsoft Teams](/_media/load-multiple-ifc-files-in-teams-ifc-viewer.png)
 
-That's it! You've successfully set up the IFC Viewer in your Microsoft Teams environment.
+The IFC Viewer tab is now configured in Microsoft Teams.
 
-## Org-Wide Deployment for Administrators
+## Organization-wide deployment for administrators
 
-The steps above describe setup for individual users or team owners. If you are a Teams Administrator deploying the IFC Viewer across your organization, use one of the following methods.
+The steps above describe setup for individual users or team owners. If you are a Teams administrator deploying the IFC Viewer across your organization, use one of the following methods.
 
-### Option A - App Setup Policy
+### Option A - App setup policy
 
 The IFC Viewer can be deployed and pinned tenant-wide or for specific security groups via Teams App Setup Policies in the Teams Admin Center. Contact [support@flinker.app](mailto:support@flinker.app) for setup guidance.
 
-### Option B - Team Templates
+### Option B - Team templates
 
 Team Templates let you include the IFC Viewer as a pre-configured channel tab in any new team created from the template.
 
@@ -122,15 +127,14 @@ Team Templates let you include the IFC Viewer as a pre-configured channel tab in
 
 New teams created from this template will include the IFC Viewer tab automatically. This option applies to new teams only; existing teams are not affected.
 
-### Configuring File Links at Scale
+### Configure file links at scale
 
 When the IFC Viewer tab is added to a team, the SharePoint file or folder links inside the tab must still be configured. This can be done manually by the team owner, or automated via Microsoft Graph for large-scale rollouts. Contact [support@flinker.app](mailto:support@flinker.app) for guidance.
 
 ## Contact
 
-If you'd like to learn more about how this integration can benefit your workflow, our team is ready to discuss the possibilities with you.
+For deployment guidance or enterprise rollout planning, contact Flinker.
 
 > [!div class="nextstepaction"]
 > [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 
-We look forward to exploring how an IFC Microsoft Viewer and it's integrations can enhance your organization's efficiency.

@@ -7,11 +7,11 @@ canonical_url: https://docs.flinker.app/docs/ifc-viewer-for-sharepoint.html
 
 # IFC Viewer for SharePoint
 
-![IFC Viewer for Teams](/_media/sharepoint-webpart-ifc-viewer.gif)
+![IFC Viewer for Microsoft Teams](/_media/sharepoint-webpart-ifc-viewer.gif)
 
 ## Why Choose the IFC Viewer for SharePoint?
 
-| Feature | SharePoint IFC Viewer | Standard IFC Viewer |
+| Feature | IFC Viewer for SharePoint | Standard IFC Viewer |
 | ------- |:------------------:|:------------------:|
 | No extra software/login | ✓ | ✗ |
 | Privacy: User controls data storage | ✓ | ✗ |

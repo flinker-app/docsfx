@@ -1,88 +1,87 @@
 ---
-title: IFC Viewer Installation with Admin Approval
+title: IFC Viewer installation with admin approval
 description: Step-by-step guide for installing the IFC Viewer in SharePoint with admin approval.
 keywords: IFC Viewer, SharePoint, Installation, Admin Approval, App Catalog, AppSource
 canonical_url: https://docs.flinker.app/docs/viewer-app-installation-with-admin-approval.html
 ---
 
-# Install the IFC Viewer App for SharePoint
+# Install the IFC Viewer app for SharePoint
 
-This guide provides detailed steps for installing the IFC Viewer App for SharePoint.
+This article describes how a SharePoint administrator can approve, install, and validate the IFC Viewer app for SharePoint.
 
 > [!Note]
-> - **Privacy First: Your Data Stays With You!** We do not upload your files anywhere. All processing is client-side, ensuring full privacy and security.
-> - **App must be installed by a SharePoint administrator!**
+> - IFC files are processed client-side. The app does not upload IFC files to Flinker.
+> - A SharePoint administrator must approve or install the app before users can add it to a site.
 
 ## 1. Add IFC Viewer from the App Catalog or AppSource
 
-You can add the IFC Viewer to your site directly through the App Catalog or AppSource link.
+Add the IFC Viewer through Microsoft AppSource or from your SharePoint App Catalog.
 
 ### Option 1: From AppSource
 
-1. Visit the [AppSource link](https://appsource.microsoft.com/en-us/product/office/WA200006238?src=docs&mktcmpid=docs_installation).
-2. Click on "Get it now" to proceed with adding the IFC Viewer to your environment.
+1. Open the [IFC Viewer listing on AppSource](https://appsource.microsoft.com/en-us/product/office/WA200006238?src=docs&mktcmpid=docs_installation).
+2. Select **Get it now** and follow the Microsoft 365 installation flow.
 
 ### Option 2: From the App Catalog
 
-1. Go to your App Catalog site: `https://yourdomain.sharepoint.com/sites/appcatalog/_layouts/15/appStore.aspx/appDetail/WA200006238`. Replace `yourdomain` with your specific domain.
+1. Open your App Catalog site: `https://yourdomain.sharepoint.com/sites/appcatalog/_layouts/15/appStore.aspx/appDetail/WA200006238`. Replace `yourdomain` with your SharePoint domain.
 
 ## 2. Add the IFC Viewer
 
-1.  Click on "Add to Apps site" to start the installation process.
+1. Select **Add to Apps site**.
 
 ![Add App from App Catalog](/_media/sharepoint-app-catalog-ifcviewer-add-app-to-site.png)
 
-2. Now you have two options:
-    - Click "Enable and Add" to both approve and add the app to all sites automatically.
-    - Click "Only Enable" to enable the app without adding it automatically.
+2. Choose one of the available deployment options:
+    - Select **Enable and Add** to approve the app and add it to sites automatically.
+    - Select **Only Enable** to approve the app without adding it automatically.
 
-### If You Clicked "Only Enable"
+### If you selected Only Enable
 
-1. The admin or site owner needs to manually add the app to a specifc site.
-2. Go to the site where you want to add the app.
-3. Navigate to "My apps" and select "IFC Viewer".
-4. Click on "Add" to add the IFC Viewer to the site.
+1. Open the SharePoint site where the app should be available.
+2. Go to **My apps**.
+3. Select **IFC Viewer**.
+4. Select **Add**.
 
 ![Add IFC Viewer from My Apps](/_media/sharepoint-site-myapps-ifc.viewer-add.png)
 
-## 3. Add Viewer Library to Trusted Script Sources (Required)
+## 3. Add the viewer library to trusted script sources
 
-To make sure the IFC Viewer web part can load its viewer library in SharePoint, add the viewer domain to trusted script sources in SharePoint Admin Center.
+Add the viewer domain to trusted script sources in the SharePoint admin center so that the IFC Viewer web part can load its viewer library.
 
-1. Open SharePoint Admin Center.
+1. Open the SharePoint admin center.
 2. Go to **Advanced** > **Trusted script sources**.
 3. Add `https://viewer.flinker.app/`.
 4. Save the change.
 
 ![Add viewer library to trusted script sources](/_media/add-viewer-library-to-trusted-script-sources.png)
 
-If this setting is missing, users may see script loading or CSP errors and the viewer may not open.
+If this setting is missing, users may see script loading or content security policy errors, and the viewer may not open.
 
-## 4. Use IFC Viewer to Open an IFC File
+## 4. Validate the installation
 
 1. Navigate to the document library where your IFC files are stored.
 2. Select the IFC file you want to open.
 
 ![Select IFC File](/_media/sharepoint-document-library-select-ifc-file.png)
 
-3. Click on the IFC file to view it using the IFC Viewer.
+3. Open the IFC file with the IFC Viewer.
 
 ![View IFC File](/_media/sharepoint-document-library-view-ifc-file.png)
 
-Congratulations! You have successfully installed and started using the IFC Viewer app in SharePoint.
+The IFC Viewer app is installed and available for use in SharePoint.
 
 
 ## Permissions and Deployment
 
-The Flinker IFC Viewer for SharePoint is provided as a SharePoint Framework (SPFx) solution.  
-This allows seamless integration directly into your SharePoint Online environment and ensures strict adherence to your tenant’s security and compliance standards.
+The Flinker IFC Viewer for SharePoint is provided as a SharePoint Framework (SPFx) solution. The app is deployed through SharePoint and uses the permissions and governance settings configured in your Microsoft 365 tenant.
 
 ### Key Points
 
 - **SPFx Solution**  
   The IFC Viewer is deployed as a SharePoint Framework (SPFx) client-side solution package (`.sppkg` file).  
   This means:
-  - The app runs entirely within your SharePoint tenant—no external processing of your data.
+  - The app runs within your SharePoint tenant.
   - All assets and code are managed within your Microsoft 365 environment.
 
 - **Permissions**  
@@ -92,7 +91,7 @@ This allows seamless integration directly into your SharePoint Online environmen
 
 - **Assets and Features**  
   - The app includes the deployment of client-side assets (JavaScript, CSS, images) as part of the solution.
-  - Features include the registration of custom actions and SPFx web parts for easy access to IFC model viewing directly in SharePoint.
+  - Features include the registration of custom actions and SPFx web parts for IFC model viewing directly in SharePoint.
 
 - **Developer Information**  
   - **Publisher:** Flinker GmbH  
@@ -101,9 +100,9 @@ This allows seamless integration directly into your SharePoint Online environmen
 
 ### Security and Privacy
 
-- The IFC Viewer for SharePoint **does not transmit your SharePoint or IFC data to any external server**.
-- All data processing remains within your Microsoft 365 tenant.
-- The app is suitable for use in highly regulated or security-sensitive environments.
+- IFC files are processed client-side.
+- The app does not upload IFC files to Flinker.
+- Access to SharePoint content is governed by your Microsoft 365 tenant permissions and policies.
 
 For further details on privacy, data flows, and technical security measures, see the [Architecture and Data Protection Overview](https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html).
 

@@ -1,18 +1,17 @@
 ---
-title: IFC Microsoft Power Automate Integration
-description: Integrate IFC data into Microsoft 365 Power Automate workflows in real time to simplify project collaboration.
+title: IFC workflows for Power Automate
+description: Use IFC data in Power Automate workflows for notifications, approvals, reporting, and Microsoft 365 automation.
 keywords: IFC, Microsoft Power Automate, integration, project collaboration, Microsoft 365, SharePoint, Teams
 canonical_url: https://docs.flinker.app/docs/ifc-power-automate.html
 ---
 
-# IFC Microsoft Power Automate Integration
+# IFC workflows for Power Automate
 
-With this feature, users integrate IFC data into their Microsoft 365 Power Automate workflows in real time. This integration simplifies project collaboration by ensuring that all relevant data can be used in any kind of tools within the organization such as Microsoft 365 apps, Azure, databases, APIs or third party apps.
+Use IFC data in Power Automate workflows to connect model-derived information with Microsoft 365, Azure services, databases, APIs, and third-party systems.
 
-If you're interested in learning more about how our IFC Microsoft Power Automate feature can enhance your IFC viewer experience in Microsft 365, SharePoint and Teams, feel free to schedule a meeting with our support team.
+Typical scenarios include approval flows, issue notifications, data synchronization, scheduled reporting, and integration with downstream project systems.
+
+For implementation guidance, schedule a meeting with the support team.
 
 > [!div class="nextstepaction"]
 > [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
-
-We look forward to showing you how automatic Power Automate linking can improve your project workflows and collaboration.
-

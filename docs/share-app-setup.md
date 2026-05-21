@@ -1,135 +1,145 @@
 ---
-title: Protect app Permission Setup
-description: A comprehensive guide for admins to set up SharePoint and Microsoft Teams permissions using the Protect app.
-keywords: Protect app, SharePoint, Microsoft Teams, permissions, setup, guide
+title: Protect for SharePoint permission setup
+description: Guide for administrators who use Protect for SharePoint to configure SharePoint and Microsoft Teams permissions from a permission template.
+keywords: Protect for SharePoint, SharePoint, Microsoft Teams, permissions, setup, guide
 canonical_url: https://docs.flinker.app/docs/share-app-setup.html
 ---
 
-# User Documentation for the Protect app permission setup
+# Protect for SharePoint permission setup
 
-This guide is intended to help admins to setup SharePoint and Microsoft Teams permissions based on a permissions template which is often a permission matrix in an Excel table, e.g. an Excel table with user groups, folder structure and the prefered access rights for each user group and folders.
+This guide helps administrators configure SharePoint and Microsoft Teams permissions from a permission template. The template is typically an Excel matrix that lists user groups, folder structure, and the required access level for each group.
 
-## Table of Contents
+## Table of contents
 
 1. [Prerequisites](#prerequisites)
 2. [Preparation](#preparation)
-3. [Tips & Tricks](#tips--tricks)
-4. [Set Permissions](#set-permissions)
-5. [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
-6. [Contact and Support](#contact-and-support)
+3. [Tips](#tips)
+4. [Set permissions](#set-permissions)
+5. [Frequently asked questions](#frequently-asked-questions)
+6. [Contact and support](#contact-and-support)
 
 ## Prerequisites
 
-### 1.1 Create SharePoint Page
+### 1.1 Create a SharePoint page
 
-Create a new SharePoint page or use an existing SharePoint page in your organisation.
+Create a new SharePoint page or use an existing SharePoint page in your organization.
 
-### 1.2 Install Protect app on SharePoint Page
+### 1.2 Install Protect for SharePoint on a SharePoint page
 
-Install the Protect app on your SharePoint page by a simple click: [Installation Link](https://appsource.microsoft.com/de-de/product/office/WA200007197?tab=Overview)
-![Foto](/_media/MSFT-AppSource-Share-App.png)
+Install Protect for SharePoint from [Microsoft AppSource](https://appsource.microsoft.com/de-de/product/office/WA200007197?tab=Overview).
+
+![Screenshot](/_media/MSFT-AppSource-Share-App.png)
 
 
 ## Preparation
 
-### 2.1 Create Folder Structure
+### 2.1 Create the folder structure
 
-Create your prefered folders and folder structure in the chosen SharePoint Site:
+Create the required folders in the selected SharePoint site:
 
-![Foto](/_media/folder-structure.png)
+![Screenshot](/_media/folder-structure.png)
 
-Add new folders by clicking on "New folder":
+Add folders by selecting **New folder**:
 
-![Foto](/_media/create-new-folders.png)
+![Screenshot](/_media/create-new-folders.png)
 
-If you are already syncing the SharePoint site with your local OneDrive on your desktop PC or MAC you may also create the folder structure in your file explorer:
-![Foto](/_media/sync-with-local-onedrive.png)
+If the SharePoint site is synced with OneDrive, you can also create the folder structure in File Explorer or Finder:
+
+![Screenshot](/_media/sync-with-local-onedrive.png)
 
 
-### 2.2 Create SharePoint Permission Groups
+### 2.2 Create SharePoint permission groups
 
 Create permission groups on SharePoint.
-To do so open the Protect app from any given folder:
-![Foto](/_media/open-share-app.png)
+Open Protect for SharePoint from any folder:
 
-Click on the "home" icon on the top left in the open app window of the Protect app:
-![Foto](/_media/click-on-home-in-share-app.png)
+![Screenshot](/_media/open-share-app.png)
 
-Now click on the button with the group icon:
-![Foto](/_media/click-on-group-icon-in-share-app.png)
+Select the **Home** icon in the upper-left corner:
 
-By clicking on "New" you can create new SharePoint user groups:
-![Foto](/_media/click-on-new-sharepoint-group.png)
+![Screenshot](/_media/click-on-home-in-share-app.png)
 
-Note: If you have also created Microsoft security groups the SharePoint user groups can be name identical with the existing Microsoft security groups.
+Select the group icon:
 
-## Tips & Tricks
+![Screenshot](/_media/click-on-group-icon-in-share-app.png)
 
-### 3.1 Create Permission Groups as Security Groups
+Select **New** to create SharePoint user groups:
 
-If you operate various projects and you have often times a bunch of same users in a groups you can set up so called security groups for these recurring working (user) groups. This will make your live a little bit easier and save you admin time. If you have already setup the Microsoft security groups please skip this step.
+![Screenshot](/_media/click-on-new-sharepoint-group.png)
+
+> [!NOTE]
+> If you also use Microsoft security groups, you can give SharePoint groups matching names to simplify administration.
+
+## Tips
+
+### 3.1 Create permission groups as security groups
+
+For recurring project teams, create Microsoft security groups and reuse them across SharePoint groups. This reduces duplicate user management across projects.
 
 Create permission groups as security groups.
 Go to Microsoft admin > active teams and groups > security groups:
-![Foto](/_media/add-new-security-groups.png)
+
+![Screenshot](/_media/add-new-security-groups.png)
 
 
-### 3.2 Invite Security Groups to SharePoint
+### 3.2 Add security groups to SharePoint groups
 
-Invite security groups to your SharePoint groups by clicking on a SharePoint user groups (click on the group name link, not on edit button):
-![Foto](/_media/click-on-sharepoint-groups-to-add-security-groups.png)
+Invite security groups to your SharePoint groups by selecting the SharePoint group name. Do not select the edit button.
 
-Click on add members:
-![Foto](/_media/add-new-members-to-sharepoint-group.png)
+![Screenshot](/_media/click-on-sharepoint-groups-to-add-security-groups.png)
 
-Search your Microsoft security group and hit enter:
-![Foto](/_media/invite-security-groups.png)
+Select **Add members**:
 
-You have now linked the security group with the SharePoint group.
+![Screenshot](/_media/add-new-members-to-sharepoint-group.png)
 
-## Set Permissions
+Search for the Microsoft security group and press Enter:
 
-### 4.1 Download Template File from Protect app
+![Screenshot](/_media/invite-security-groups.png)
 
-To download the template file from the Protect app click on the download icon on the top right in the Protect app:
-![Foto](/_media/download-permissions-template.png)
+The security group is now linked to the SharePoint group.
 
+## Set permissions
 
-### 4.2 Set Permissions in Excel
+### 4.1 Download the template file
+
+To download the template file, select the download icon in the upper-right corner of Protect for SharePoint:
+
+![Screenshot](/_media/download-permissions-template.png)
+
+### 4.2 Set permissions in Excel
 
 Set permissions or permission levels in Excel. 
-The list of created permission groups can be found when you click on the key icon in the Protect app:
-![Foto](/_media/set-authority-levels.png)
+The list of created permission groups can be found when you click on the key icon in Protect for SharePoint:
+
+![Screenshot](/_media/set-authority-levels.png)
+
+Copy the authorization levels into the Excel cells in the template file. Match the values exactly to avoid import errors.
+
+![Screenshot](/_media/select-authority-levels.png)
 
 
-To use these authorisation levels just copy the text and paste them into the Excel cells of the template file. Keep attenation to avoid typos:
-![Foto](/_media/select-authority-levels.png)
+### 4.3 Upload the template file
 
+Upload the template file to Protect for SharePoint, review the preview and save it.
 
-### 4.3 Upload Template File to Protect app
+![Screenshot](/_media/upload-the-permission-template.png)
 
-Upload the template file to the Protect app, review the preview and save it.
-![Foto](/_media/upload-the-permission-template.png)
+The permissions are now applied.
 
-You have now setup all permissions successfully!
-
-## Frequently Asked Questions (FAQ)
+## Frequently asked questions
 
 ### Question 1: Can I use the template file for other SharePoint pages?
 
-- **Answer:** Yes, this template file can be used to easily duplicate the folder structure and access rights for other SharePoint sites. You will save a lot of time by doing so.
+Yes. Use the template file to duplicate folder structures and access rights for other SharePoint sites.
 
 ### Question 2: Do I have to create Microsoft security groups?
 
-- **Answer:** No, you can also create just the SharePoint groups. If you frequently work with the same user groups, it is worthwhile to create security groups to manage users more efficiently.
+No. You can use SharePoint groups only. Microsoft security groups are useful when the same user groups are reused across multiple projects or sites.
 
-## Contact and Support
+## Contact and support
 
-If you have any further questions or need assistance, you can reach us through the following channels:
+For support, contact Flinker:
 
 - **Email:** [support@flinker.app](mailto:support@flinker.app)
 - **Phone:** [+491606469866](tel:+491606469866)
 
----
-
-Thank you for using the Protect app! Please share with us your feedback and ideas any time 🙏.

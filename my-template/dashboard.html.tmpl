@@ -1,28 +1,31 @@
 {{!Licensed to the .NET Foundation under one or more agreements. The .NET Foundation licenses this file to you under the MIT license.}}
 {{!master(layout/_master.tmpl)}}
 
-<h1>{{title}}</h1>
+<div class="docs-overview">
+  <header class="docs-overview-header">
+    <h1>{{title}}</h1>
+    {{#description}}
+    <div class="docs-overview-description">{{{description}}}</div>
+    {{/description}}
+  </header>
 
-{{#items.Length}}
-<div class="vertical-card-container">
-  {{#items}}
-  <a class="vertical-card" href="{{href}}">
-    {{#thumbnail}}
-      <img src="{{thumbnail}}" alt="{{name}}" />
-    {{/thumbnail}}
-    {{^thumbnail}}
-      <!-- Fallback if no thumbnail is provided -->
-    {{/thumbnail}}
+  {{#items.Length}}
+  <div class="vertical-card-container" aria-label="{{title}}">
+    {{#items}}
+    <a class="vertical-card{{^thumbnail}} vertical-card--text{{/thumbnail}}" href="{{href}}">
+      {{#thumbnail}}
+      <div class="vertical-card-media">
+        <img src="{{thumbnail}}" alt="{{name}}" />
+      </div>
+      {{/thumbnail}}
 
-    <div class="vertical-card-content">
-      <h3 class="card-title">{{name}}</h3>
-      <p class="card-description">{{{description}}}</p>
-      
-      <!-- If you want the title to link somewhere, you could do: -->
-      <!-- <h3 class="card-title"><a href="{{href}}" class="card-link">{{name}}</a></h3> -->
+      <div class="vertical-card-content">
+        <h2 class="card-title">{{name}}</h2>
+        {{#description}}
+        <div class="card-description">{{{description}}}</div>
+        {{/description}}
 
-      <!-- usage block (optional) -->
-      {{#usage}}
+        {{#usage}}
         <div class="usage-block">
           {{#config}}
           <div class="list-group-item">
@@ -40,12 +43,12 @@
           </div>
           {{/init}}
         </div>
-      {{/usage}}
+        {{/usage}}
 
-      <!-- Link or button at bottom, if desired -->
-      <span class="card-link" style="margin-top:auto;">Learn More</span>
-    </div>
-  </a>
-  {{/items}}
+        <span class="card-link">Learn more <i class="bi bi-chevron-right" aria-hidden="true"></i></span>
+      </div>
+    </a>
+    {{/items}}
+  </div>
+  {{/items.Length}}
 </div>
-{{/items.Length}}

@@ -1,9 +1,10 @@
 ### YamlMime:Dashboard
 ---
-title: Examples
-description: Short browser examples for loading IFC, BCF, and IDS data with the Flinker IFC Viewer SDK.
+title: SDK examples
+description: Review focused browser examples for loading IFC, BCF, and IDS data with the Flinker IFC Viewer SDK.
 documentType: dashboard
 _disableAffix: true
+_disableBreadcrumb: true
 _disableNextArticle: true
 expanded: true
 items:

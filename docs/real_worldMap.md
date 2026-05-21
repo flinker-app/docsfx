@@ -1,13 +1,13 @@
 ---
-title: Real World Map
-description: Learn how to place geolocated IFC models on a real-world 3D map, what IFC location data is required, and what to expect when model coordinates are incomplete.
+title: IFC Georeferencing and Maps
+description: Learn how to place georeferenced IFC models on a real-world 3D map, what IFC location data is required, and what to expect when model coordinates are incomplete.
 keywords: real world map, IFC geolocation, IFC map, BIM GIS, IFC site coordinates, IFC map conversion, Google 3D tiles, Flinker
 canonical_url: https://docs.flinker.app/docs/real_worldMap.html
 ---
 
-# Real World Map
+# IFC Georeferencing and Maps
 
-The **Real World Map** feature places your IFC model on top of a real-world 3D map using the location data already stored in the IFC file.
+The **IFC Georeferencing and Maps** feature places your IFC model on top of a real-world 3D map using the location data already stored in the IFC file.
 
 This makes it easier to:
 
@@ -15,7 +15,7 @@ This makes it easier to:
 - compare the model against its surrounding context
 - understand how the building relates to nearby roads, buildings, and landscape
 
-![Real World Map example](/_media/real-world-map-placeholder.png)
+![IFC georeferencing and map context example](/_media/real-world-map-placeholder.png)
 
 
 ## How It Works
@@ -113,4 +113,4 @@ Possible reasons:
 ## Related Features
 
 - [IFC Viewer](ifc-viewer.md)
-- [IFC Filters](ifc-filters.md)
+- [IFC Model Queries and Property Sets](ifc-filters.md)

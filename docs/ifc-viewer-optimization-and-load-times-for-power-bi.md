@@ -1,25 +1,25 @@
 ---
-title: Loading and Optimisation of IFC Data in Power BI
-description: Learn what happens during IFC optimisation and refresh in Power BI, how long it typically takes for small and large projects, and how to optimise performance and schedule background refreshes.
-keywords: IFC, Power BI, IFC query, optimisation, load times, refresh, scheduled refresh, performance, BIM, ACC comparison
+title: Loading and Optimization of IFC Data in Power BI
+description: Learn what happens during IFC optimization and refresh in Power BI, how long it typically takes for small and large projects, and how to optimize performance and schedule background refreshes.
+keywords: IFC, Power BI, IFC query, optimization, load times, refresh, scheduled refresh, performance, BIM, ACC comparison
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-optimization-and-load-times-for-power-bi.html
 ---
 
 
-# Loading and Optimisation with the IFC Data in Power BI
+# Loading and Optimization with the IFC Data in Power BI
 
 This page explains what happens when you parse and load IFC data into Power BI.
 
-## Process Step 1 – IFC Optimisation & Data Refresh (IFC query)
+## Process Step 1 – IFC Optimization & Data Refresh (IFC query)
 
 **Goal:** Turn raw IFC files into efficient Power BI tables.
 
 This step happens when you **refresh** the dataset (or load it for the very first time). Power BI executes the IFC query and the IFC service does the heavy work.
 
-During optimisation and refresh, the IFC query:
+During optimization and refresh, the IFC query:
 
 * Reads all IFC files from your selected data source.
-* Converts the full IFC model — including geometry and all properties — into a simplified, optimised table structure that Power BI can load efficiently.
+* Converts the full IFC model  -  including geometry and all properties  -  into a simplified, optimized table structure that Power BI can load efficiently.
 
 This is computationally expensive, but it only needs to be done **once per model (or when the model changes)**. That’s why you experience a longer wait on the first refresh or after bigger updates to your IFC files.
 
@@ -49,17 +49,17 @@ For reliable performance:
   * Your data source is reachable
   * Your machine has sufficient RAM/CPU
 
-## Process Step 2 – Report Opening & Visualising the Data
+## Process Step 2 – Report Opening & Visualizing the Data
 
 **Goal:** Open the report and work with the already-loaded IFC tables.
 
-Once the data has been refreshed and optimised into Power BI tables:
+Once the data has been refreshed and optimized into Power BI tables:
 
 * Power BI opens the report using the prepared dataset.
-* Measures, visuals, and relationships work on this optimised model.
-* No IFC files are read again while you simply navigate and analyse.
+* Measures, visuals, and relationships work on this optimized model.
+* No IFC files are read again while you simply navigate and analyze.
 
-Result: after the heavy optimisation/refresh step, your report behaves like a typical Power BI model, with:
+Result: after the heavy optimization/refresh step, your report behaves like a typical Power BI model, with:
 
 * **Changing report pages** does *not* reload the entire IFC dataset.
 * Quick filter and slicer interactions, no re-parsing of IFC files on every click.
@@ -68,7 +68,7 @@ Opening the report or switching pages **does not** run a new refresh. A refresh 
 
 ## Advantages vs. Autodesk / Cloud-only approaches
 
-Compared to workflows where optimisation happens entirely in a third-party cloud (e.g. Autodesk Construction Cloud), the Flinker IFC query has several benefits:
+Compared to workflows where optimization happens entirely in a third-party cloud (e.g. Autodesk Construction Cloud), the Flinker IFC query has several benefits:
 
 * **Data stays in your environment**
 
@@ -77,7 +77,7 @@ Compared to workflows where optimisation happens entirely in a third-party cloud
 
 * **Full control over refresh**
 
-  * You decide when optimisation/refresh happens (e.g. nightly, weekly).
+  * You decide when optimization/refresh happens (e.g. nightly, weekly).
   * Use **Power BI Service scheduled refresh** to run heavy work in the background.
 
 * **Transparent scaling**
@@ -93,11 +93,11 @@ Compared to workflows where optimisation happens entirely in a third-party cloud
 
 ## Power BI Service: Background Jobs & Scheduling
 
-For best user experience, run heavy optimisation and loading **in the background** using Power BI Service:
+For best user experience, run heavy optimization and loading **in the background** using Power BI Service:
 
 * Publish your PBIX to Power BI Service.
 * Configure **scheduled refresh** (e.g. nightly or early morning).
-* Let the IFC optimisation + loading run outside working hours.
+* Let the IFC optimization + loading run outside working hours.
 * During the day, users open the report and interact with a **pre-loaded** dataset.
 
 ### Semantic Model in Power BI Service
@@ -133,7 +133,7 @@ When you publish a Power BI Desktop report to the Power BI Service, the data mod
   Begin with a subset of models to validate the setup and performance.
 
 * **Avoid extreme multitasking**
-  Close unused PBIX files and heavy browser sessions during the first optimisation run.
+  Close unused PBIX files and heavy browser sessions during the first optimization run.
 
 * **Use logical model groups**
   Split very large projects into multiple datasets (by phase, building, discipline).

@@ -29,10 +29,10 @@ The extraction engine handles variations in IFC file formatting from different a
 
 | Authoring Tool | IFC Format Pattern | Status |
 | :--- | :--- | :--- |
-| Revit | `#123=IFCPROJECT('guid',...` | ✅ Supported |
-| ArchiCAD | `#123 = IFCPROJECT ('guid',...` | ✅ Supported |
-| DDS-CAD | `#123= IFCPROJECT('guid',...` | ✅ Supported |
-| VectorWorks | `#123=IFCPROJECT('guid',...` | ✅ Supported |
+| Revit | `#123=IFCPROJECT('guid',...` | Yes Supported |
+| ArchiCAD | `#123 = IFCPROJECT ('guid',...` | Yes Supported |
+| DDS-CAD | `#123= IFCPROJECT('guid',...` | Yes Supported |
+| VectorWorks | `#123=IFCPROJECT('guid',...` | Yes Supported |
 
 ## Ideal IFC Specifications
 For optimal performance and automatic georeferencing, input IFC files should adhere to the following standards:
@@ -64,7 +64,7 @@ The dashboard provides visual feedback on the quality of location data for each 
 | :--- | :--- | :--- |
 | ● | **Precise** | Project has valid coordinates from IFC file |
 | ◐ | **City-Based** | No coordinates, but city name available for geocoding |
-| ⚠️ | **Unknown** | No location data available in IFC file |
+| Warning | **Unknown** | No location data available in IFC file |
 
 Projects with "Unknown" status will not appear on the map but remain visible in the project list with a warning indicator.
 
@@ -100,7 +100,7 @@ C:\Projects\Tower_Block_A.ifc; C:\Projects\Hospital_Zone_B.ifc; C:\Projects\Stad
 ### Project List Panel
 Displays all loaded projects with:
 - Active Projects count
-- Location Legend (● Precise, ◐ City, ⚠️ Unknown)
+- Location Legend (● Precise, ◐ City, Warning Unknown)
 - Color-coded project cards with location status icons
 
 ### Map Visual
@@ -122,7 +122,7 @@ Detailed view when a project is selected:
 ### Projects Not Appearing on Map
 | Symptom | Cause | Solution |
 | :--- | :--- | :--- |
-| ⚠️ Warning icon | IFC file has no coordinates or address | Re-export IFC with geolocation enabled |
+| Warning Warning icon | IFC file has no coordinates or address | Re-export IFC with geolocation enabled |
 | No marker on map | Coordinates = 0,0 or missing | Check `IfcSite` RefLatitude/RefLongitude in source file |
 | Wrong location | Coordinates in wrong CRS | Verify source uses WGS84 or has proper `IfcMapConversion` |
 
@@ -197,7 +197,7 @@ The query reads IFC files line-by-line to extract metadata from multiple entity 
 | :--- | :--- |
 | **Name** | `IFC_File_Paths` |
 | **Description** | Enter IFC file paths separated by semicolon (;) |
-| **Required** | ✅ Checked |
+| **Required** | Yes Checked |
 | **Type** | Text |
 | **Suggested Values** | Any value |
 | **Current Value** | *(Your file paths here)* |
@@ -257,10 +257,10 @@ C:\Local\Building.ifc; \\Network\Shared\Tower.ifc; https://sharepoint.com/.../Ho
 │  ┌─────────────────┐                                            │
 │  │ Queries         │    ┌─────────────────────────────────────┐ │
 │  │                 │    │ Parameter: IFC_File_Paths           │ │
-│  │ 📁 Parameters   │    │                                     │ │
+│  │ Folder Parameters   │    │                                     │ │
 │  │   └─ IFC_File.. │◄───│ Current Value:                      │ │
 │  │                 │    │ ┌─────────────────────────────────┐ │ │
-│  │ 📁 Queries      │    │ │ C:\BIM\A.ifc; C:\BIM\B.ifc     │ │ │
+│  │ Folder Queries      │    │ │ C:\BIM\A.ifc; C:\BIM\B.ifc     │ │ │
 │  │   └─ IFC_Map    │    │ └─────────────────────────────────┘ │ │
 │  └─────────────────┘    └─────────────────────────────────────┘ │
 │                                                                 │
