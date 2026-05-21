@@ -7,36 +7,15 @@ canonical_url: https://docs.flinker.app/docs/ifc-viewer.html
 
 # Industry Foundation Classes (IFC)
 
-Industry Foundation Classes (IFC) is an open data standard for describing buildings, infrastructure, and other built assets. It is maintained by buildingSMART and published as the ISO 16739 standard.
+Industry Foundation Classes (IFC) is an openBIM data standard for exchanging building and infrastructure models between software tools.
 
-IFC is not just a 3D file format. An IFC model can contain geometry, object identities, spatial structure, classifications, properties, quantities, materials, systems, relationships, and georeferencing information. This makes IFC useful for model review, coordination, quantity takeoff, asset management, information delivery, and long-term data exchange between software tools.
+Use IFC when you need to review model geometry, inspect object properties, coordinate issues, validate project data, or keep model information usable outside the original authoring application.
 
-## Why IFC matters
+## IFC in brief
 
-IFC supports openBIM workflows because it is vendor-neutral. Project teams can exchange model data without depending on one authoring tool or proprietary platform.
-
-With IFC, teams can:
-
-- exchange model information between architecture, structural, MEP, infrastructure, and facility management tools
-- inspect object properties such as type, material, fire rating, classification, and quantities
-- connect 3D model elements to schedules, costs, documents, issues, and reports
-- validate information requirements with standards such as Information Delivery Specification (IDS)
-- coordinate issues and saved viewpoints with BIM Collaboration Format (BCF)
-- keep model data usable beyond the original authoring software
-
-## What an IFC model contains
-
-An IFC model usually contains more than visible geometry. Depending on export quality, it can include:
-
-- **Objects**: walls, slabs, doors, windows, spaces, beams, pipes, assets, alignments, and other IFC entities
-- **Spatial structure**: sites, buildings, storeys, spaces, zones, and infrastructure breakdowns
-- **Properties and property sets**: structured metadata such as `Pset_WallCommon`, manufacturer data, fire ratings, and custom project properties
-- **Quantities**: lengths, areas, volumes, counts, and other measurable values
-- **Relationships**: containment, aggregation, connections, assignments, and system membership
-- **Georeferencing**: site coordinates, coordinate reference systems, map conversion data, and elevation information
-- **Classifications**: links to classification systems, asset codes, or buildingSMART Data Dictionary references
-
-The quality of an IFC workflow depends heavily on how the model is exported. A good export includes both geometry and reliable structured data.
+- **Open standard**: Vendor-neutral model exchange for architecture, engineering, construction, and facility workflows.
+- **Geometry and data**: IFC can include 3D elements, spatial structure, properties, quantities, materials, classifications, and georeferencing.
+- **Review quality depends on export quality**: Reliable IFC exports include the model content and metadata required for the review task.
 
 ## Inspect IFC models with Flinker IFC Viewer
 
@@ -63,11 +42,11 @@ Flinker IFC Viewer lets you open IFC and 3D model files in the browser so projec
 
 ## Common IFC model review questions
 
-These questions cover general IFC model review behavior. For platform-specific questions, use the Microsoft 365 app FAQs:
+These questions cover general IFC model review behavior. For platform-specific questions, use the Microsoft 365 app FAQ pages:
 
-- [IFC Viewer in Microsoft Teams FAQs](faq-for-ifc-viewer-in-teams.md)
-- [IFC Viewer in SharePoint FAQs](faq-for-ifc-viewer-in-sharepoint.md)
-- [IFC Viewer Visual for Power BI FAQs](faq-for-ifc-visual-in-power-bi.md)
+- [IFC Viewer in Microsoft Teams FAQ](faq-for-ifc-viewer-in-teams.md)
+- [IFC Viewer in SharePoint FAQ](faq-for-ifc-viewer-in-sharepoint.md)
+- [IFC Viewer Visual for Power BI FAQ](faq-for-ifc-visual-in-power-bi.md)
 
 ### Why can an IFC model take a long time to open?
 

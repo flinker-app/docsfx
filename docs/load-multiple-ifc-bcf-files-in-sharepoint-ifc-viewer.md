@@ -1,24 +1,24 @@
 ---
-title: Load Multiple IFC or BCF Files in IFC Viewer for SharePoint
+title: Load multiple IFC or BCF files in IFC Viewer for SharePoint
 description: Step-by-step guide to load multiple IFC and BCF files in the IFC Viewer for SharePoint using file links or folder paths.
 keywords: load multiple IFC files, load BCF files, IFC Viewer for SharePoint setup, BIM file links, SharePoint folder path IFC
 canonical_url: https://docs.flinker.app/docs/load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.html
 ---
 
 
-# How to Load Multiple IFC or BCF Files into the IFC Viewer for SharePoint
+# Load multiple IFC or BCF files in IFC Viewer for SharePoint
 
 ## Step 1: Open the IFC Viewer web part settings  
 Navigate to your SharePoint page where the **IFC Viewer** is embedded. Click on the **settings icon** of the web part to open its configuration.  
-![Open Settings]( /_media/open-settings-of-ifc-viewer-webpart-in-sharepoint.png)
+![Open settings](/_media/open-settings-of-ifc-viewer-webpart-in-sharepoint.png)
 
 ## Step 2: Paste IFC file URLs  
 Copy the SharePoint **file links** of the IFC models you want to load and paste them into the "File Links" field in the IFC Viewer settings.  
-![Paste IFC File URLs]( /_media/paste-ifc-file-urls-from-same-sharepoint-site-document-library.png)
+![Paste IFC file URLs](/_media/paste-ifc-file-urls-from-same-sharepoint-site-document-library.png)
 
 ## Step 3: Get SharePoint links to IFC files  
 Go to the **Document Library** in your SharePoint site where the IFC files are stored. Right-click on an IFC file, select **"Copy link"**, and copy the URL.  
-![Copy Links]( /_media/copy-links-to-ifc-files-in-sharepoint-site.png)
+![Copy links](/_media/copy-links-to-ifc-files-in-sharepoint-site.png)
 
 ### Alternative: Load all IFC files from a folder  
 Instead of copying individual links, you can **copy the direct folder path** (not a sharing link) where all IFC files are stored. This will automatically load all IFC models in the viewer.
@@ -26,15 +26,15 @@ Instead of copying individual links, you can **copy the direct folder path** (no
 > [!NOTE]
 > For folders, only direct paths (not sharing links) are supported. Make sure to use the direct folder path from your SharePoint Document Library (Example path: `https://contoso.sharepoint.com/sites/YourSite/Documents/BIMModels`).
 
-![Copy Folder Link]( /_media/alternatively-copy-sharepoint-folder-of-ifc-files-to-load-all-ifc-files-into-the-sharepoint-ifc-viewer.png)
+![Copy folder link](/_media/alternatively-copy-sharepoint-folder-of-ifc-files-to-load-all-ifc-files-into-the-sharepoint-ifc-viewer.png)
 
-## Step 4: Verify Loaded IFC Files  
+## Step 4: Verify loaded IFC files  
 Once the links have been added, the IFC models should appear in the viewer. You can see all loaded models in the **Models** section.  
-![Loaded IFC Files]( /_media/now-all-ifc-files-from-sharepoint-site-have-been-loaded.png)
+![Loaded IFC files](/_media/now-all-ifc-files-from-sharepoint-site-have-been-loaded.png)
 
-## Step 5: Save and Publish Changes  
+## Step 5: Save and publish changes  
 Finally, click **"Save as Draft"** and **"Republish"** the page to apply the changes. This ensures the IFC Viewer is updated with the new models.  
-![Save and Publish]( /_media/as-last-step-save-and-publish-the-update-of-the-ifc-viewer-webpart-in-your-share-point-site.png)
+![Save and publish](/_media/as-last-step-save-and-publish-the-update-of-the-ifc-viewer-webpart-in-your-share-point-site.png)
 
 > [!NOTE]
 > You can load multiple **BCF files** in the same way!  

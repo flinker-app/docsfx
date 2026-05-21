@@ -46,7 +46,7 @@ Most BIM tools require specialist knowledge and many manual steps. Copilot for I
 3. Type what you want to achieve (for example "Give me a room schedule as CSV").
 4. Review the result (tables, charts, downloads, viewer highlights) and refine your prompt if needed.
 
-## Prompt examples (copy & paste)
+## Prompt examples
 
 Try these prompts to see what's possible:
 
@@ -72,7 +72,7 @@ Copilot for IFC is optimized for IFC exploration, analysis, and controlled edits
 - Exporting results (for example CSV, images, and generated IFC files)
 - Editing *copies* of IFC files (for example adding quantities or updating properties)
 
-## FAQs
+## FAQ
 
 **Do you upload my IFC model to the cloud?**  
 No. Copilot for IFC processes IFC files locally in your browser. Only the text you type is sent for AI processing.

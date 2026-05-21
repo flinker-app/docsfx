@@ -1,18 +1,18 @@
 ---
-title: Share SharePoint Folders with External Users
+title: Share SharePoint folders with external users
 description: Step-by-step guide to share specific SharePoint folders with external users using SharePoint or Microsoft 365 security groups.
 keywords: share SharePoint folder external users, SharePoint groups, Microsoft 365 security groups, external collaboration
 canonical_url: https://docs.flinker.app/docs/tutorial-to-share-sharepoint-folders-with-externals.html
 ---
 
-# Sharing a specific SharePoint folder with external users
+# Share a specific SharePoint folder with external users
 
 This guide shows you how to share a dedicated SharePoint folder with external users using groups.
 
-## Create Groups and Add External Users
+## Create groups and add external users
 We’ll cover two approaches:
   
-### Option 1: Using SharePoint groups
+### Option 1: Use SharePoint groups
 
 1. **Create a SharePoint group for each set of external users** in your SharePoint site.
 2. **Grant each SharePoint group access** to its designated folder.
@@ -23,7 +23,7 @@ When external users are added, they typically receive an invitation email that i
 > - Need site owners and non-admin users to manage group membership directly.
 > - Don’t need to integrate the groups with other Office 365 services.
 
-### Option 2: Using security groups (via Microsoft 365 Admin Center)
+### Option 2: Use security groups in the Microsoft 365 admin center
 
 1. **Work with IT** to create security groups in Microsoft 365 Admin Center.  
    For detailed instructions, see [Create, edit, or delete a security group](https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
@@ -34,7 +34,7 @@ When external users are added, they typically receive an invitation email that i
 > - Want group management through Microsoft 365 Admin Center and Azure AD.
 > - Need to integrate the groups with other Microsoft 365 services.
 
-## Share the Access Link
+## Share the access link
 
 Regardless of whether you used SharePoint groups or Microsoft 365 security groups, the next step is to share a direct link to the folder. This ensures external users can quickly access the correct location.
 
@@ -56,10 +56,10 @@ Regardless of whether you used SharePoint groups or Microsoft 365 security group
 
 5. The external users will get an email containing a URL that takes them directly to the specific folder.
 
-## Experience for the Recipient
+## Experience for the recipient
 When an external user receives a direct link, here’s what they can expect:
 
-### Open the Shared Link
+### Open the shared link
 
 1. The recipient receives an email or link shared by the Microsoft environment owner.
 2. Click on the **Open** or **Open in browser** link provided.
@@ -69,10 +69,10 @@ When an external user receives a direct link, here’s what they can expect:
 ### Option 1: Recipient has a Microsoft account
 1. When someone who has a Microsoft account wants to access the content, Microsoft asks them to **sign in** to their account.
    
-   <img src="/_media/sign-in-filed-for-microsoft-organisation-accounts.png" alt="Enter your non-Microsoft email" style="max-width:350px;" />
+   <img src="/_media/sign-in-field-for-microsoft-organization-accounts.png" alt="Sign-in field for Microsoft organization accounts" style="max-width:350px;" />
 2. And **requests permission** to view their name, email address, and photo to verify their identity.
    
-   <img src="/_media/microsoft-requests-permission-fir-sign-in.png" alt="Enter your non-Microsoft email" style="max-width:350px;" />
+   <img src="/_media/microsoft-requests-permission-for-sign-in.png" alt="Microsoft permission request for sign-in" style="max-width:350px;" />
 
 ### Option 2: Recipient doesn't have a Microsoft account
 Non-Microsoft accounts can access the resources via a temporary passcode:
@@ -93,7 +93,7 @@ Non-Microsoft accounts can access the resources via a temporary passcode:
    
    <img src="/_media/user-with-non-microsoft-account-will-be-granted-access-to-the-shared-file-or-folder.png" alt="User with non-Microsoft account now has access" style="max-width:350px;" />
 
-## Managing shared folders with Protect for SharePoint
+## Manage shared folders with Protect for SharePoint
 Our custom [Protect for SharePoint](~/docs/share-features.md) is designed to simplify the administration of external sharing by providing a centralized dashboard. Once you’ve assigned permissions to multiple users and groups across various folders, our app lets you view and manage these permissions all in one place, streamlining your permission management process:
 
 - **Centralized Overview:** Get a complete view of permissions across multiple folders and groups.

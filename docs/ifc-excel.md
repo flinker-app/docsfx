@@ -7,8 +7,6 @@ canonical_url: https://docs.flinker.app/docs/ifc-excel.html
 
 # IFC data integration for Microsoft Excel
 
-![Link your IFC data query to Microsoft Excel Online Docs Hero Picture](/_media/ifc-excel-hero.png)
-
 ## Overview
 
 Use the IFC Excel integration to extract data from IFC models into Microsoft Excel. Create synchronized Excel Online tables for ongoing analysis, or export `.xlsx` files for one-time workflows.
@@ -24,7 +22,7 @@ The integration supports Microsoft 365-based workflows where IFC files remain in
 - Export local `.xlsx` files for workflows that do not need a live connection.
 - Keep IFC files and generated workbooks in your Microsoft 365 tenant.
 
-## Importance
+## Why use it
 
 The Excel integration helps BIM, project controls, and reporting teams use model data in familiar Microsoft 365 tools. It reduces manual exports and supports repeatable reporting workflows.
 
@@ -85,7 +83,7 @@ Use the data in Power BI:
 ![Share your IFC Excel Online Synchronization](/_media/share-your-ifc-excel-online-synchronization.png)
 
 
-## Use Cases
+## Use cases
 
 1. Link existing Excel calculations to synchronized IFC data.
 2. Build Power BI reports from IFC query outputs.
@@ -94,7 +92,7 @@ Use the data in Power BI:
 5. Export local files for temporary calculations that do not need a live link.
 
 
-## FAQs 
+## FAQ
 
 ### Where are Excel Online files stored?
 
@@ -126,5 +124,5 @@ Yes. IFC file processing is client-side. Your IFC files stay in your Microsoft 3
 For implementation questions or enterprise deployment support, contact the Flinker team.
 
 > [!div class="nextstepaction"]
-> [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
+> [Book a meeting](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 

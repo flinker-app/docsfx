@@ -37,14 +37,14 @@
       "baseUrl": "https://docs.flinker.app"
     },
     "globalMetadata": {
-      "_appName": "Documentation",
-      "_appTitle": "Documentation",
+      "_appName": "Flinker Docs",
+      "_appTitle": "Flinker Docs",
       "_enableNewTab": true,
       "_appLogoPath": "_media/flinker-icon.png",
       "_appFaviconPath": "favicon.ico",
       "_googleAnalyticsTagId": "G-SCD5MD3NQ2",
       "_sitemap": true,
-      "_appFooter": "<div class=\"footer-layout\">\n  <ul class=\"links\" data-bi-name=\"footerlinks\">\n    <li><a href=\"https://docs.flinker.app/\">Docs</a></li>\n    <li><a href=\"https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/\">Support</a></li>\n    <li><a href=\"https://www.flinker.app/data-protection\">Privacy</a></li>\n    <li><a href=\"https://www.flinker.app/impressum\">Legal notice</a></li>\n    <li>&copy; Flinker 2026. Microsoft Partner.</li>\n  </ul>\n</div>",
+      "_appFooter": "<div class=\"footer-layout\">\n  <ul class=\"links\" data-bi-name=\"footerlinks\">\n    <li><a href=\"https://docs.flinker.app/\">Docs</a></li>\n    <li><a href=\"https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/\">Support</a></li>\n    <li><a href=\"https://www.flinker.app/data-protection\">Privacy</a></li>\n    <li><a href=\"https://www.flinker.app/legal\">Legal notice</a></li>\n    <li>&copy; Flinker 2026. Microsoft Partner.</li>\n  </ul>\n</div>",
       "_enableSearch": true,
       "_disableContribution": true,
       "pdf": false

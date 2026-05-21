@@ -1,13 +1,13 @@
 ---
-title: IFC Georeferencing and Maps
+title: IFC georeferencing and maps
 description: Learn how to place georeferenced IFC models on a real-world 3D map, what IFC location data is required, and what to expect when model coordinates are incomplete.
 keywords: real world map, IFC geolocation, IFC map, BIM GIS, IFC site coordinates, IFC map conversion, Google 3D tiles, Flinker
 canonical_url: https://docs.flinker.app/docs/real_worldMap.html
 ---
 
-# IFC Georeferencing and Maps
+# IFC georeferencing and maps
 
-The **IFC Georeferencing and Maps** feature places your IFC model on top of a real-world 3D map using the location data already stored in the IFC file.
+The **IFC georeferencing and maps** feature places your IFC model on top of a real-world 3D map using the location data already stored in the IFC file.
 
 This makes it easier to:
 
@@ -18,23 +18,23 @@ This makes it easier to:
 ![IFC georeferencing and map context example](/_media/real-world-map-placeholder.png)
 
 
-## How It Works
+## How it works
 
 When a model contains usable geolocation, the viewer can show it in its real-world context on the map.
 
 In most cases, this happens automatically when the IFC file includes valid georeferencing data and location information.
 
-## Supported IFC Location Data
+## Supported IFC location data
 
 The feature supports the most common IFC geolocation methods.
 
-### IFC4 Models
+### IFC4 models
 
 For IFC4-based files, the viewer can use coordinate reference system (CRS) information stored in the IFC model.
 
 This is the preferred option for accurate real-world placement.
 
-### IFC2X3 Models
+### IFC2x3 models
 
 For IFC2X3 files, the viewer can use location values stored in `IfcSite`, such as:
 
@@ -43,7 +43,7 @@ For IFC2X3 files, the viewer can use location values stored in `IfcSite`, such a
 - reference elevation
 
 
-## Coordinate System Support
+## Coordinate system support
 
 The viewer can convert supported projected coordinate systems into map coordinates for display on the real-world map.
 
@@ -55,7 +55,7 @@ Current support includes:
 
 If the IFC file contains another EPSG code, placement may still work when the coordinate system can be resolved successfully.
 
-## What You Need in the IFC File
+## What you need in the IFC file
 
 For reliable placement, your IFC model should include at least one of these:
 
@@ -65,7 +65,7 @@ For reliable placement, your IFC model should include at least one of these:
 
 The more complete the geolocation data is, the more accurate the result will be.
 
-## Terrain Placement
+## Terrain placement
 
 The model is displayed so it sits naturally within the real-world map view.
 
@@ -78,7 +78,7 @@ This helps the model align more naturally with:
 If elevation data is available in the IFC file, the vertical position can be more accurate.
 
 
-## Best Results
+## Best results
 
 For the best placement quality:
 
@@ -87,7 +87,7 @@ For the best placement quality:
 - include elevation if available
 - verify that the source model uses the correct project coordinate system
 
-## Known Limitations
+## Known limitations
 
 - Placement quality depends on the geolocation quality stored in the IFC file.
 - Some coordinate systems may not be supported if the EPSG reference is missing or unclear.
@@ -110,7 +110,7 @@ Possible reasons:
 - the coordinate system could not be resolved
 
 
-## Related Features
+## Related features
 
 - [IFC Viewer](ifc-viewer.md)
-- [IFC Model Queries and Property Sets](ifc-filters.md)
+- [IFC model queries and property sets](ifc-filters.md)

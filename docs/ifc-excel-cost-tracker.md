@@ -1,12 +1,12 @@
 ---
 uid: ifc-excel-cost-tracker
-title: IFC Excel Cost Tracker
+title: IFC Excel cost tracker
 description: Learn how to use the IFC Excel Cost Tracker workbook  -  which fields are filled automatically, which fields require manual input, how quantity fallback logic works, and how to troubleshoot common issues.
 keywords: IFC Excel Cost Tracker, IFC cost control, IFC Viewer Add-in for Excel, cost tracking, BIM cost control, quantity fallback, Power Query IFC
 canonical_url: https://docs.flinker.app/docs/ifc-excel-cost-tracker.html
 ---
 
-# IFC Excel Cost Tracker
+# IFC Excel cost tracker
 
 Use this guide to work with the **IFC Excel Cost Tracker** workbook as a practical cost-control environment linked to IFC model geometry. The workbook is designed to combine:
 
@@ -48,7 +48,8 @@ For the fastest and most reliable refresh experience in a trusted company enviro
 - keep helper queries as **Connection Only** where applicable
 - load only the final user-facing cost table to the worksheet
 
-> **Note:** Use this setup only for internal, trusted company workflows. Do not apply it for untrusted or highly sensitive mixed-source scenarios without reviewing data governance requirements first.
+> [!NOTE]
+> Use this setup only for internal, trusted company workflows. Do not apply it for untrusted or highly sensitive mixed-source scenarios without reviewing data governance requirements first.
 
 
 
@@ -93,7 +94,7 @@ These fields are intended for user input and project controls updates:
 | `% Complete` | Progress as a decimal (0.0 to 1.0) |
 | `Status` | Current element status (e.g. Completed, In Progress, Not Started) |
 
-### Formula / calculated fields
+### Formula and calculated fields
 
 These fields are driven by ready-to-use template formulas and should not be typed manually:
 
@@ -103,7 +104,8 @@ These fields are driven by ready-to-use template formulas and should not be type
 | `Variance` | `=[@[Budgeted Cost]] - [@[Actual Cost]]` |
 | `% Var` | `=IFERROR([@Variance] / [@[Budgeted Cost]], "-")` |
 
-> **Best practice:** rely on `Model_Quantity` by default. Use `Quantity Manual Input` only when a controlled override is required.
+> [!TIP]
+> Rely on `Model_Quantity` by default. Use `Quantity Manual Input` only when a controlled override is required.
 
 
 
@@ -245,7 +247,7 @@ For better performance:
 - avoid unnecessary edits to the source table structure
 
 
-## What is filled automatically vs. manually  -  quick summary
+## What is filled automatically and manually
 
 ### Automatic
 - IFC element IDs and metadata

@@ -1,11 +1,11 @@
 ---
-title: 3D IFC Viewer Usage for Power BI
+title: Use the 3D IFC Viewer with Power BI
 description: Step-by-step guide to use the IFC Viewer in Power BI.
 keywords: Power BI, IFC Viewer, Installation, 3D, BIM, Visual
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-installation-for-power-bi.html
 ---
 
-# Using the 3D IFC Viewer with Power BI
+# Use the 3D IFC Viewer with Power BI
 
 You can use the 3D IFC Viewer in Power BI either by quickly starting with the ready-made sample report from AppSource, or by manually integrating the visual and required functions into your own existing or blank report for greater flexibility.
 
@@ -61,7 +61,7 @@ After editing the parameters, apply the changes in Power BI by selecting **Apply
 
 If you are using a SharePoint file, Power BI may prompt you to sign in with your Microsoft organization account to access the file. Sign in to your Microsoft organization account to securely access SharePoint files. Follow the on-screen prompts to provide your corporate credentials.
 
-![Sign In with Your Organization Account](/_media/powerbi-signin-with-your-org-account-and-access-web-content.png)
+![Sign in with your organization account](/_media/power-bi-sign-in-with-your-organization-account-and-access-web-content.png)
 
 ### 4. Confirm loaded properties and model
 

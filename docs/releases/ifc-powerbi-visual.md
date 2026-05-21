@@ -1,11 +1,11 @@
 ---
-title: IFC Viewer Visual for Power BI Release Notes
+title: IFC Viewer Visual for Power BI release notes
 description: Changelog for the Flinker IFC Viewer Visual for Power BI with updates for loading, templates, and feature improvements.
 keywords: IFC visual release notes, Power BI visual changelog, Flinker IFC updates
 canonical_url: https://docs.flinker.app/docs/releases/ifc-powerbi-visual.html
 ---
 
-# IFC Viewer Visual for Power BI Release Notes
+# IFC Viewer Visual for Power BI release notes
 
 ### 3.5.0.0 - 2026-02-10
 

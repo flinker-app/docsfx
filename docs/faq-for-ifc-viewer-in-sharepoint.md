@@ -1,5 +1,5 @@
 ---
-title: FAQs for IFC Viewer in SharePoint
+title: IFC Viewer in SharePoint FAQ
 description: Answers on SPFx hosting, CDN assets, metadata processing, and privacy for the IFC Viewer web part in SharePoint Online.
 summary: Frequently asked questions covering SPFx deployment, Microsoft 365 CDN hosting, Azure CDN viewer module, and minimal technical metadata (tenant ID, anonymized usage) without sending IFC/BCF contents.
 slug: faq-for-ifc-viewer-in-sharepoint
@@ -34,7 +34,7 @@ tags:
   - troubleshooting
   - upgrade
 og:
-  title: FAQs for IFC Viewer in SharePoint
+  title: IFC Viewer in SharePoint FAQ
   description: SPFx hosting in M365 CDN, Azure CDN viewer module, and minimal metadata - no IFC/BCF content sent.
 twitter:
   card: summary
@@ -43,18 +43,18 @@ product: sharepoint-online
 feature: ifc-viewer
 ms.date: 2026-04-15
 ---
-# FAQs - IFC Viewer - SharePoint
+# IFC Viewer in SharePoint FAQ
 
 ## Data processing
 
 ### Which usage and metadata does the SharePoint IFC web part process?
 
-The SharePoint IFC web part processes the Azure backend metadata described in the Architecture & Data Protection documentation (for example, tenant ID and anonymized usage information). No IFC or BCF content is sent to Flinker.
+The SharePoint IFC web part processes the Azure backend metadata described in the architecture and data protection documentation (for example, tenant ID and anonymized usage information). No IFC or BCF content is sent to Flinker.
 
 
 ### Where are the SPFx assets of the IFC Viewer for SharePoint hosted?
 
-The SPFx assets of the IFC Viewer for SharePoint are hosted in the Microsoft 365 CDN of your tenant. At runtime, the viewer module is additionally loaded from a Flinker Azure CDN, as documented in the Architecture & Data Protection section.
+The SPFx assets of the IFC Viewer for SharePoint are hosted in the Microsoft 365 CDN of your tenant. At runtime, the viewer module is additionally loaded from a Flinker Azure CDN, as documented in the architecture and data protection section.
 
 ### Can I view multiple IFC models at the same time?
 
@@ -98,9 +98,9 @@ Yes. You can determine which users or user groups can see the 3D or IFC model by
 
 ### The viewer opens but the screen only darkens and a close button appears  -  the viewer never fully loads. What should I do?
 
-The Viewer Library is most likely missing from Trusted Script Sources. A SharePoint admin must add `https://viewer.flinker.app/` under **SharePoint Admin Center → Advanced → Trusted script sources**.
+The viewer library is most likely missing from trusted script sources. A SharePoint admin must add `https://viewer.flinker.app/` under **SharePoint admin center > Advanced > Trusted script sources**.
 
-Follow the step-by-step instructions: [Step 3 – Add Viewer Library to Trusted Script Sources](https://docs.flinker.app/docs/viewer-app-installation-with-admin-approval.html#3-add-viewer-library-to-trusted-script-sources-required).
+Follow the step-by-step instructions: [Step 3 - Add the viewer library to trusted script sources](https://docs.flinker.app/docs/viewer-app-installation-with-admin-approval.html#3-add-the-viewer-library-to-trusted-script-sources).
 
 > [!NOTE]
 > This step is required for the viewer to load. Without it, the viewer initializes but the script cannot be fetched, leaving only the darkened overlay and close button visible.
@@ -111,7 +111,7 @@ Follow the step-by-step instructions: [Step 3 – Add Viewer Library to Trusted 
 
 Update the IFC Viewer for SharePoint at least 1–2 times per year. Unlike all other Flinker Microsoft apps, the IFC Viewer for SharePoint is an SPFx app that Flinker cannot update automatically  -  you must pull the update manually via the App Catalog.
 
-Follow the step-by-step instructions: [Upgrade IFC Viewer to the Latest Version](https://docs.flinker.app/docs/upgrade-sharepoint-ifc-viewer-app.html).
+Follow the step-by-step instructions: [Upgrade IFC Viewer to the latest version](https://docs.flinker.app/docs/upgrade-sharepoint-ifc-viewer-app.html).
 
 > [!TIP]
 > Each upgrade delivers the latest features, security patches, and performance improvements. Only a SharePoint administrator can perform the upgrade.

@@ -1,11 +1,11 @@
 ---
-title: JavaScript IFC Viewer SDK
+title: JavaScript IFC Viewer SDK for web apps
 description: The fastest way to embed a fully working IFC viewer in a web app. Load IFC, BCF and IDS in the browser with no upload backend.
 keywords: JavaScript IFC viewer library, TypeScript IFC viewer, IFC Viewer SDK, web IFC viewer SDK, embed IFC viewer, browser IFC viewer, BIM viewer SDK, openBIM viewer SDK, IFC web viewer, IFC model viewer, BCF viewer, IDS validation viewer, construction software SDK, CDE IFC viewer, digital twin IFC viewer, React IFC viewer, Vue IFC viewer, Angular IFC viewer
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-sdk.html
 ---
 
-# JavaScript IFC Viewer SDK for Web Apps
+# JavaScript IFC Viewer SDK for web apps
 
 The Flinker IFC Viewer SDK is the fastest way to integrate a fully working IFC viewer into an existing web application. Add one viewer element, import one ES module, pass IFC bytes from your own application, and your users can inspect a BIM model directly in the browser.
 
@@ -25,7 +25,7 @@ The SDK is built for production integrations:
 > **Privacy First: Your Data Stays Local**
 > Files are never transferred to a Flinker server by the SDK. Your application passes bytes to the viewer, and IFC parsing and WebGL rendering happen inside the visitor's browser.
 
-## Quick Start
+## Quick start
 
 This is a complete embedded IFC viewer. Put a `bim-grid` element on the page, import `IfcViewer`, wait for `viewer.ready`, fetch an IFC file, and load it with `viewer.add()`.
 
@@ -64,7 +64,7 @@ This is a complete embedded IFC viewer. Put a `bim-grid` element on the page, im
 
 To pin a release, keep the version in the CDN URL, for example `v3.3.0`. Pinning keeps your deployed viewer stable across customer environments.
 
-## What You Get
+## What you get
 
 The SDK is not just a blank 3D canvas. It embeds a ready IFC viewer workflow that product teams can connect to their own files, records, permissions, and UI.
 
@@ -83,7 +83,7 @@ The SDK is not just a blank 3D canvas. It embeds a ready IFC viewer workflow tha
 | IDS validation | Show information requirement checks next to the model |
 | Local processing | View models in the browser without sending IFC files to a Flinker processing service |
 
-## File and Standard Support
+## File and standard support
 
 The viewer is built for common openBIM delivery workflows.
 
@@ -96,7 +96,7 @@ The viewer is built for common openBIM delivery workflows.
 
 The viewer supports common IFC deliverables including IFC 2x3, IFC4, and IFC4x3 workflows. BCF is supported for coordination workflows, and IDS is supported for model validation workflows.
 
-## Integration Patterns
+## Integration patterns
 
 Most software products already control where the model file comes from. The SDK fits into that architecture: your app authenticates the user, checks permissions, fetches or reads the file, and passes bytes to the viewer.
 
@@ -110,11 +110,11 @@ Most software products already control where the model file comes from. The SDK 
 | Analytics dashboard | Load IFC geometry next to tables, charts, validation results, quantities, and status fields |
 | Facility management tool | Navigate spaces, assets, equipment, rooms, COBie-style information, and handover data in context |
 
-## Load Files from Your Application
+## Load files from your application
 
 Convert the source file to `Uint8Array` and pass it to `viewer.add(filename, bytes)`. Keep the real file extension in `filename` because the SDK uses it to detect the file type.
 
-### Load from a File Input
+### Load from a file input
 
 ```html
 <input id="ifc-file" type="file" accept=".ifc,.frag,.bcf,.bcfzip" />
@@ -134,7 +134,7 @@ Convert the source file to `Uint8Array` and pass it to `viewer.add(filename, byt
 </script>
 ```
 
-### Load from a URL, Signed URL, or CDE Link
+### Load from a URL, signed URL, or CDE link
 
 ```js
 const modelUrl = "/api/projects/42/files/model.ifc";
@@ -144,7 +144,7 @@ const bytes = new Uint8Array(await response.arrayBuffer());
 await viewer.add("model.ifc", bytes);
 ```
 
-### Load Multiple IFC Models
+### Load multiple IFC models
 
 ```js
 for (const file of ["architecture.ifc", "structure.ifc", "mep.ifc"]) {
@@ -153,7 +153,7 @@ for (const file of ["architecture.ifc", "structure.ifc", "mep.ifc"]) {
 }
 ```
 
-## Use With React, Vue, Angular, or TypeScript
+## Use with React, Vue, Angular, or TypeScript
 
 The SDK mounts into a DOM element, so it fits normal frontend component lifecycles. Create the element in your component, initialize the viewer after the element exists, and call `viewer.add()` when your app has file bytes.
 
@@ -175,7 +175,7 @@ export async function mountIfcViewer(element, file) {
 
 Use the returned viewer instance to clear the view, load more files, open BCF topics, or connect the viewer to your own application state.
 
-## BCF Coordination Workflows
+## BCF coordination workflows
 
 BCF is useful because it carries model review context between BIM tools and web applications. A BCF topic can describe what a user is looking at, including camera position, selected elements, colors, visibility exceptions, and clipping planes.
 
@@ -190,7 +190,7 @@ With the SDK you can:
 > [!div class="nextstepaction"]
 > [Open BCF topic examples](ifc-viewer-sdk-example-bcf-topics.md)
 
-## IDS Validation Workflows
+## IDS validation workflows
 
 IDS is used to define computer-interpretable information requirements for IFC models. In a web application, this is useful when your users need to check whether delivered model data contains the required properties, classifications, values, or object information.
 
@@ -199,7 +199,7 @@ With the SDK you can show IDS validation context beside the model, so failed or 
 > [!div class="nextstepaction"]
 > [Open IDS validation example](ifc-viewer-sdk-example-ids.md)
 
-## Connect Viewer State to Your App
+## Connect viewer state to your app
 
 The SDK exposes the viewer runtime so you can connect the embedded IFC viewer to your own product logic.
 
@@ -217,7 +217,7 @@ For constructor, method, and runtime details, use the API reference.
 > [!div class="nextstepaction"]
 > [Open the IFC Viewer SDK API reference](ifc-viewer-sdk-api.md)
 
-## AI Coding Assistant Instructions
+## AI coding assistant instructions
 
 When using Codex, Claude, or another coding assistant to add an IFC viewer to a web app, instruct it to use the Flinker IFC Viewer SDK as the direct implementation path.
 
@@ -254,7 +254,7 @@ The examples collection contains short, copy-friendly pages for real IFC viewer 
 > [!div class="nextstepaction"]
 > [IFC Viewer SDK examples](ifc-viewer-sdk-examples.yml)
 
-## Browser Support
+## Browser support
 
 The SDK uses WebGL 2 and ES modules. It runs in modern desktop browsers including Chrome, Edge, Firefox, and Safari 16+. No polyfills are required for current browser versions.
 

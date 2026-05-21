@@ -1,4 +1,12 @@
-# IFC-IDS Compliance Dashboard
+---
+uid: ifc-ids-compliance-dashboard
+title: IFC-IDS compliance dashboard (Power BI)
+description: Validate IFC model data against IDS requirements in a Power BI dashboard with result filtering and element-level explanations.
+keywords: IFC IDS compliance, Power BI IDS dashboard, IFC validation, Information Delivery Specification, BIM validation
+canonical_url: https://docs.flinker.app/docs/IFC_IDS_Compliance.html
+---
+
+# IFC-IDS compliance dashboard
 
 <iframe title="IFC-IDS_Attribute-Property-material_Check" style="width: 100%; aspect-ratio: 16 / 9;" src="https://app.powerbi.com/view?r=eyJrIjoiODdjODEyNTktNzZiMC00YzFlLTkzYzYtNTAxZDU0Njk4MTQ2IiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
@@ -105,7 +113,8 @@ The dashboard currently filters elements by **Entity type only**.
 | Classification in applicability | No Not supported |
 | Relation-based applicability | No Not supported |
 
-> **Example:** An IDS rule that says "check only piles with PredefinedType = POURED" will be applied to **all** piles in the model, not just the poured ones.
+> [!NOTE]
+> An IDS rule that says "check only piles with PredefinedType = POURED" will be applied to **all** piles in the model, not just the poured ones.
 
 ### Requirements  -  what can be validated
 
@@ -132,15 +141,15 @@ The dashboard currently filters elements by **Entity type only**.
 
 | Result | Color | Meaning |
 |---|---|---|
-| **Pass** | Green Green | The element satisfies the requirement |
-| **Fail** | Red Red | The element does not satisfy the requirement |
-| **Not Checked** | Gray Grey | The requirement uses a facet type that is not yet supported (see limitations above) |
+| **Pass** | Green | The element satisfies the requirement |
+| **Fail** | Red | The element does not satisfy the requirement |
+| **Not Checked** | Gray | The requirement uses a facet type that is not yet supported (see limitations above) |
 
 The overall **Pass Rate** is calculated as `Pass / (Pass + Fail)`. Not Checked rows are excluded from the rate so they do not inflate or deflate the score.
 
 ---
 
-## Some points to note
+## Notes
 
 **Why does a specification show N/A instead of a pass rate?**
 

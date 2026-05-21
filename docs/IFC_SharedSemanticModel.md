@@ -1,12 +1,12 @@
 ---
 uid: IFC_SharedSemanticModel
-title: IFC Cloud Semantic Model (Power BI)
+title: IFC cloud semantic model (Power BI)
 description: Publish your own IFC semantic model in Power BI Service to automate IFC model parsing in the cloud, schedule refresh against SharePoint sources, and reuse the model across multiple Power BI reports.
 keywords: Power BI semantic model, IFC semantic model, SharePoint IFC, automate IFC parsing, cloud refresh Power BI, Power BI parameters, shared dataset, thin report, BIM Power BI
 canonical_url: https://docs.flinker.app/docs/IFC_SharedSemanticModel.html
 ---
 
-# IFC Cloud Semantic Model
+# IFC cloud semantic model
 
 ## What is it?
 
@@ -14,7 +14,7 @@ The **IFC Cloud Semantic Model** is a reusable Power BI dataset pattern that loa
 
 You publish the template into your own Power BI Service workspace, point its parameters at your SharePoint locations, and let Power BI Service handle refresh on a schedule. The IFC parsing is fully automated in the cloud  -  you no longer need to open Power BI Desktop and click **Refresh** every time the IFC model changes.
 
-For an end-to-end usage example of the IFC multi-file loading pattern this model is built on, see [IFC Multi-File Loading & Coloring Sample (Power BI)](IFC_Multi_File_Loading.md).
+For an end-to-end usage example of the IFC multi-file loading pattern this model is built on, see [IFC multi-file loading and coloring sample (Power BI)](IFC_Multi_File_Loading.md).
 
 ## Why use a cloud semantic model?
 
@@ -44,7 +44,7 @@ This is a one-time setup. After it is complete, refresh runs automatically in th
 
 Download the Flinker IFC `.pbix` template from the [Flinker IFC Viewer page on Microsoft AppSource](https://marketplace.microsoft.com/en-us/product/power-bi-visuals/flinkergmbh1644589155747.ifc-viewer?src=docs&mktcmpid=ifc_power_pi), then open it in **Power BI Desktop**.
 
-### Step 2  -  Configure the parameters in Desktop
+### Step 2  -  Configure the parameters in Power BI Desktop
 
 In Power BI Desktop, click **Home → Transform data → Edit parameters**.
 
@@ -55,9 +55,10 @@ In the **Edit Parameters** dialog:
 3. Click **OK**.
 4. Click **Home → Refresh** to confirm the parameters resolve correctly against your SharePoint.
 
-> **Tip:** Use the **direct file URL** for individual `.ifc` files, or a **folder URL** if the parameter is meant to scan a whole folder. The account that owns the published model later must have read access to these locations.
+> [!TIP]
+> Use the **direct file URL** for individual `.ifc` files, or a **folder URL** if the parameter is meant to scan a whole folder. The account that owns the published model later must have read access to these locations.
 
-### Step 3  -  Publish to your Power BI Service workspace
+### Step 3  -  Publish to your Power BI service workspace
 
 In Power BI Desktop, click **Home → Publish → Select a destination → [Your workspace] → Select**.
 
@@ -89,6 +90,7 @@ In the same **Settings** panel for the semantic model, scroll down to **Schedule
 
 From this point on, Power BI Service handles IFC parsing for you on the schedule you set.
 
+> [!WARNING]
 > If you see a yellow warning that scheduled refresh is not supported, see the troubleshooting section below.
 
 ### Step 6  -  Build thin reports on top of the model
@@ -105,7 +107,7 @@ The connection is **live**  -  no data is downloaded into the `.pbix`. Build the
 
 After the initial setup, parameter updates are the most common ongoing task. You can do them directly in Power BI Service  -  no Desktop required.
 
-### Option A  -  Edit parameters directly in Service (recommended)
+### Option A  -  Edit parameters directly in the Power BI service
 
 In Power BI Service, navigate to **Workspaces → [Your workspace] → [Your semantic model] → ⋯ (More options) → Settings**.
 
@@ -115,9 +117,10 @@ In Power BI Service, navigate to **Workspaces → [Your workspace] → [Your sem
 4. Click **Apply**.
 5. Go back to the model page and click **Refresh now** (the circular arrow icon) to apply the change immediately, or wait for the next scheduled refresh to pick it up.
 
+> [!IMPORTANT]
 > **Take over** transfers ownership of the same model to your account  -  it does not create a copy. Subsequent refreshes will use your credentials, and any further changes are attributed to you.
 
-### Option B  -  Re-publish from Desktop
+### Option B  -  Republish from Power BI Desktop
 
 If you need to change something deeper than parameters (relationships, measures, or the M code itself), open the original `.pbix` in Desktop, make the change, and click **Home → Publish → [Your workspace] → Replace**.
 
@@ -145,7 +148,7 @@ If you need to change something deeper than parameters (relationships, measures,
 
 ## Related
 
-- [IFC Multi-File Loading & Coloring Sample (Power BI)](IFC_Multi_File_Loading.md)
+- [IFC multi-file loading and coloring sample (Power BI)](IFC_Multi_File_Loading.md)
 - [Flinker IFC Viewer on Microsoft AppSource](https://marketplace.microsoft.com/en-us/product/power-bi-visuals/flinkergmbh1644589155747.ifc-viewer?src=docs&mktcmpid=ifc_power_pi)
 - [Live sample semantic model on Power BI Service](https://app.powerbi.com/onelake/details/db7b4b0b-8ec6-4f90-925e-113e4aa1c4ee/dataset/e0ccf3e9-b859-493c-aa72-5f8531654a86/overview?experience=power-bi)
 

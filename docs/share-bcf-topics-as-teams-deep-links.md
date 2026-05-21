@@ -1,11 +1,11 @@
 ---
-title: Share BCF Topics as Teams Deep Links
+title: Share BCF topics as Teams deep links
 description: Learn how to share a selected BCF topic from the IFC Viewer for Microsoft Teams as a rich-text Microsoft Teams deep link.
 keywords: BCF, Teams deep link, IFC Viewer, Microsoft Teams, topic GUID, rich text
 canonical_url: https://docs.flinker.app/docs/share-bcf-topics-as-teams-deep-links.html
 ---
 
-# Share BCF Topics as Teams Deep Links
+# Share BCF topics as Teams deep links
 
 Once your IFC and BCF files are loaded in the IFC Viewer for Microsoft Teams, you can share a direct Teams deep link to the currently selected BCF topic.
 
@@ -17,7 +17,7 @@ Once your IFC and BCF files are loaded in the IFC Viewer for Microsoft Teams, yo
 4. Press `Ctrl+C` (`Strg+C` on German keyboards) to copy the link.
 5. Paste the copied rich-text link into your Teams chat, post, or channel message.
 
-> [!Important]
+> [!IMPORTANT]
 > You must press `Ctrl+C` / `Strg+C` while the Teams share dialog is open. If you close the dialog without copying, the deep link is **not** copied.
 
 When someone opens the deep link, the same Teams tab opens with that BCF topic selected so the saved issue context and viewpoint are shown immediately.

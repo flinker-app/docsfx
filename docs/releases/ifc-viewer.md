@@ -1,11 +1,11 @@
 ---
-title: IFC Viewer Release Notes
+title: IFC Viewer release notes
 description: Version history and changelog for the Flinker IFC Viewer.
 keywords: IFC Viewer release notes, Flinker IFC Viewer changelog, online IFC viewer updates
 canonical_url: https://docs.flinker.app/docs/releases/ifc-viewer.html
 ---
 
-# IFC Viewer Release Notes
+# IFC Viewer release notes
 
 ### v3.3.0 - 2026-05-15
 

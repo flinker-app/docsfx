@@ -43,7 +43,7 @@ After the import completes, the new topics appear in the **Topics** list. Review
 
 Each clash becomes a BCF topic with metadata, status information, and a viewpoint based on the clash point.
 
-## Exporting and Syncing Imported Data
+## Export and sync imported data
 
 After import, export the converted topics as BCF or sync them with Microsoft Lists for issue tracking in SharePoint and Teams.
 
@@ -71,7 +71,7 @@ To sync with Microsoft Lists:
 
 The synchronized list can use Microsoft 365 features such as assignments, comments, views, and notifications.
 
-## FAQs 
+## FAQ
 
 ### What happens when imported issues already exist?
 

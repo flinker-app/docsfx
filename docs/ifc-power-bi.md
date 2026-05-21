@@ -13,7 +13,7 @@ canonical_url: https://docs.flinker.app/docs/ifc-power-bi.html
 > [Get the sample Power BI report](https://appsource.microsoft.com/en-us/product/power-bi-visuals/flinkergmbh1644589155747.ifc-viewer?src=docs&mktcmpid=ifc_power_pi)
 
 > [!NOTE]
-> Need custom Power BI dashboards with integrated data sources? [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/).
+> Need custom Power BI dashboards with integrated data sources? [Book a meeting](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/).
 
 The **IFC Viewer** is a Microsoft Power BI visual available on **Microsoft AppSource**. Use it to view Industry Foundation Classes (IFC) models directly in Power BI and connect model elements to report data.
 
@@ -24,7 +24,7 @@ The **IFC Viewer** is a Microsoft Power BI visual available on **Microsoft AppSo
 | No extra software/login | ✓ | ✗ |
 | Privacy: User controls data storage | ✓ | ✗ |
 | Link model to external data (cost, schedule) | ✓ | ✗ |
-| Create 3D views with custom charts & KPIs | ✓ | ✗ |
+| Create 3D views with custom charts and KPIs | ✓ | ✗ |
 | Integrate with Microsoft 365 (Lists, Excel, SharePoint) | ✓ | ✗ |
 | Add custom workflows to your data | ✓ | ✗ |
 | AI-ready data architecture | ✓ | ✗ |
@@ -64,7 +64,7 @@ Add IFC file links from SharePoint, databases, or supported cloud storage source
   Your browser does not support the video tag.
 </video>
 
-### 5. Integration with Power BI and Microsoft 365
+### 5. Integrate with Power BI and Microsoft 365
 
 - Load IFC data from SharePoint, Microsoft Teams, and Excel.
 - Create Power BI reports for Teams, SharePoint sites, and email subscriptions.

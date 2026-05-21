@@ -11,7 +11,7 @@ canonical_url: https://docs.flinker.app/docs/ifc-viewer-installation-for-power-b
 1. Go to the [IFC Viewer AppSource page](https://appsource.microsoft.com/en-us/product/power-bi-visuals/flinkergmbh1644589155747.ifc-viewer).
 2. Follow the **Steps to Use the IFC Viewer in Power BI**.
 
-## 2. Enable Custom Visual Imports (Admins Only)
+## 2. Enable custom visual imports
 
 Only required if your organization currently restricts importing custom visuals. If custom visuals are already allowed, you can skip this step entirely.
 
@@ -22,7 +22,7 @@ Only required if your organization currently restricts importing custom visuals.
 ![Allow Custom Visuals](/_media/allow-visuals-created-using-the-power-bi-sdk.png)
 
 
-## 3. Add IFC Viewer to Organizational Visuals (Admins Only)
+## 3. Add IFC Viewer to organizational visuals
 Optional step. Use only if you want to centrally deploy IFC Viewer so all users in your organization automatically have access without individual installations.
 
 1. Sign in as an administrator at [Power BI Admin Portal](https://app.powerbi.com/admin-portal).
@@ -32,7 +32,7 @@ Optional step. Use only if you want to centrally deploy IFC Viewer so all users 
 
 ![Organizational Visuals Screenshot](/_media/add-ifc-viewer-to-organizational-visuals.png)
 
-## 5. Permissions Required by the IFC Viewer Visual
+## 5. Permissions required by the IFC Viewer Visual
 
 The Flinker IFC Viewer Visual for Power BI requires the following permissions for optimal operation:
 
@@ -51,13 +51,13 @@ The Flinker IFC Viewer Visual for Power BI requires the following permissions fo
 - **Export Content (optional):**  
   Users can export content (such as images or SVGs) from the visual if this permission is enabled.
 
-> **Note:**  
+> [!NOTE]
 > The IFC Viewer Visual for Power BI **never transmits your actual report data, IFC model content, or sensitive business information to external servers**.  
 > All data displayed in the visual is processed locally within the Power BI session and is only accessible to authorized viewers in your workspace.  
 > Web access is strictly for loading assets, icons, and optional help/documentation.
 
 
-## 6. Security & Privacy
+## 6. Security and privacy
 
 - All communications are encrypted (HTTPS).
 - **No project, IFC, or report data is ever sent to Flinker or any third party.**

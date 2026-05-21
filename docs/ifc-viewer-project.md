@@ -1,11 +1,11 @@
 ---
-title: IFC Viewer for Microsoft Project (Coming Soon)
+title: IFC Viewer for Microsoft Project
 description: Preview the upcoming IFC Viewer integration for Microsoft Project to connect BIM data with schedules.
 keywords: IFC Viewer, Microsoft Project, MS Project, BIM, scheduling, 4D, project planning
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-project.html
 ---
 
-# IFC Viewer for Microsoft Project (Coming Soon)
+# IFC Viewer for Microsoft Project
 
 Bring BIM data and schedules together. The upcoming IFC Viewer for Microsoft Project connects your IFC models with MS Project timelines, so planning and coordination stay in sync across your project team.
 
@@ -23,6 +23,6 @@ Projects move faster when models and schedules speak the same language. This int
 If you want early access or a live preview, book a short meeting with our team.
 
 > [!div class="nextstepaction"]
-> [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
+> [Book a meeting](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 
 We would love to show how IFC Viewer for Microsoft Project can improve planning accuracy and team collaboration.

@@ -1,11 +1,11 @@
 ---
-title: Load Complete IFC Attributes with the Power BI Data Extension
+title: Load complete IFC data with the Power BI data extension
 description: Install the extended IFC data connector for Power BI to load attributes, property sets, and quantity sets from your models.
 keywords: IFC, Power BI, data extension, MEZ, property sets, quantity sets, BIM data
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-data-extension-for-power-bi.html
 ---
 
-# Load Complete IFC Data with the Power BI Data Extension
+# Load complete IFC data with the Power BI data extension
 
 The standard IFC Viewer sample query focuses on geometry and a few properties. To load the full metadata footprint of your model (attributes, property sets, quantity sets, classifications, and materials), choose one of the following options. Both are valid; pick what fits your environment best.
 
@@ -30,7 +30,7 @@ When enabled, our IFC API pre-processes and converts IFC into a compact, Power B
 - Faster refresh and smaller in-memory footprint.
 - Enables loading models up to 10 GB into a Power BI report.
 
-### Activate in Parameters
+### Activate in parameters
 
 1. In Power BI Desktop, open your report and go to **Home** > **Edit Parameters**. The Power BI report is available from your Flinker support team.
 2. Set the parameter **Use IFC API** to `TRUE`, then click **OK**.
@@ -48,7 +48,7 @@ After enabling the API, Power BI may prompt for credentials to access the IFC AP
 
 If you are using a SharePoint file, Power BI may prompt you to sign in with your Microsoft organization account to access the file.
 
-![Access Web content sign-in for SharePoint](/_media/powerbi-signin-with-your-org-account-and-access-web-content.png)
+![Access web content sign-in for SharePoint](/_media/power-bi-sign-in-with-your-organization-account-and-access-web-content.png)
 
 After connecting, ensure the privacy level is set to "Organizational":
  
@@ -71,7 +71,7 @@ After configuring the parameters and privacy settings:
 - You work with large, complex IFCs and hit memory or refresh limits.
 - You want faster refreshes for scheduled or incremental loads.
 
-## Option 2: IFC Connector (.mez)
+## Option 2: IFC connector (.mez)
 
 ### Install the connector (.mez)
 

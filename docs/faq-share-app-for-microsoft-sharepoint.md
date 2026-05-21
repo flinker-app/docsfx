@@ -1,11 +1,11 @@
 ---
-title: FAQ for Protect for SharePoint
+title: Protect for SharePoint FAQ
 description: Frequently asked questions about Protect for SharePoint, including setup, features, and permissions management.
 keywords: Protect for SharePoint, Microsoft SharePoint, virtual data rooms, cross company collaboration, IT security, Microsoft Teams, permissions management
 canonical_url: https://docs.flinker.app/docs/faq-share-app-for-microsoft-sharepoint.html
 ---
 
-# FAQ for Protect for SharePoint
+# Protect for SharePoint FAQ
 
 Protect for SharePoint helps administrators manage access to SharePoint and Microsoft Teams content. Use it to create controlled project spaces, external collaboration areas, and virtual data rooms in Microsoft 365.
 

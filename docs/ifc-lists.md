@@ -1,5 +1,5 @@
 ---
-title: Microsoft Lists and BCF Integration
+title: Microsoft Lists and BCF integration
 description: Connect BCF issues with Microsoft Lists to track BIM tasks across teams while preserving full BCF context.
 keywords: Microsoft Lists BCF, BIM issue tracking, IFC Lists integration, Teams BIM workflow, Flinker BCF sync
 canonical_url: https://docs.flinker.app/docs/ifc-lists.html
@@ -12,7 +12,7 @@ Use Microsoft Lists to track BCF topics as structured project issues in Microsof
 ### Key benefits
 
 **Cross-team tracking**  
-Track project issues across teams and projects in one Microsoft List.
+Track project issues across teams and projects in one Microsoft Lists list.
 
 **All tasks in one view**  
 Use Microsoft Lists to manage BCF issues with related project work, such as:
@@ -27,11 +27,11 @@ Find issues and tasks by:
 - Assigned person
 - Due date
 
-## How to set up Microsoft Lists sync for your BCF topics
+## Set up Microsoft Lists sync for BCF topics
 
-### 1. Create your Microsoft List
+### 1. Create a Microsoft Lists list
 
-To sync BCF topics, the Microsoft List must include the following **required columns and types**:
+To sync BCF topics, the Microsoft Lists list must include the following **required columns and types**:
 * **Guid** *(Text)*
 * **Title** *(Text)*
 
@@ -52,30 +52,30 @@ To sync BCF topics, the Microsoft List must include the following **required col
 
 If a column is present, the integration will map and update it.
 
-### 2. Insert the Microsoft List URL
+### 2. Insert the Microsoft Lists URL
 
-- Copy and paste the **Microsoft List URL** (List names with special characters are not supported) into your IFC Viewer for Microsoft Teams app tab settings.
+- Copy and paste the **Microsoft Lists URL** (list names with special characters are not supported) into your IFC Viewer for Microsoft Teams app tab settings.
 - Copy and paste the **BCF URL** in the settings to ensure all topic data is also saved as a BCF file. You can use an existing BCF file, or you can create a sample BCF file.
 
 
 ![Connect SharePoint List](/_media/connect-sharepoint-list-to-teams-ifc-viewer.png)
 
-### 3. Save to Microsoft List 
+### 3. Save to Microsoft Lists
 
-When you click the **Save to SharePoint/Teams** button, loaded topics are automatically saved to your Microsoft List.
+When you click the **Save to SharePoint/Teams** button, loaded topics are automatically saved to your Microsoft Lists list.
 
 ### 4. Choose a view
 
 Use Microsoft Lists views to review issues in the format that matches your workflow.
 
 - **List view** - Use for sorting and scanning issues.
-  ![List Items View](/_media/bcftopics-as-listitems-in-micrsoftlists.png)  
+  ![List items view](/_media/bcf-topics-as-list-items-in-microsoft-lists.png)  
 
 - **Kanban board view** - Move issues across categories such as **To do**, **In progress**, and **Done**.
-  ![Kanban Board View](/_media/bcftopics-as-canbanboard-in-micrsoftlists.png)  
+  ![Kanban board view](/_media/bcf-topics-as-kanban-board-in-microsoft-lists.png)  
 
 - **Calendar view** - Review due dates and milestones.
-  ![Calendar View](/_media/bcftopics-as-calendarview-in-micrsoftlists.png)
+  ![Calendar view](/_media/bcf-topics-as-calendar-view-in-microsoft-lists.png)
 
 ## What the integration provides
 
@@ -96,7 +96,7 @@ Teams work from the same issue list and BCF data.
 For example, a BIM coordinator identifies a clash between a pipe and a beam.
 
 1. The clash is saved as a BCF topic.
-2. The topic is added to the Microsoft List.
+2. The topic is added to Microsoft Lists.
 3. A team member is assigned to the issue.
 4. The team comments, updates status, and tracks resolution in Microsoft Lists.
 
@@ -105,7 +105,7 @@ For example, a BIM coordinator identifies a clash between a pipe and a beam.
 > [!div class="nextstepaction"]
 > [Book a meeting](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 
-## FAQs
+## FAQ
 
 ### Can Navisworks XML clash reports be synced with Microsoft Lists?
 

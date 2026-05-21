@@ -1,5 +1,5 @@
 ---
-title: IFC Viewer installation with admin approval
+title: Install the IFC Viewer app for SharePoint
 description: Step-by-step guide for installing the IFC Viewer in SharePoint with admin approval.
 keywords: IFC Viewer, SharePoint, Installation, Admin Approval, App Catalog, AppSource
 canonical_url: https://docs.flinker.app/docs/viewer-app-installation-with-admin-approval.html
@@ -9,7 +9,7 @@ canonical_url: https://docs.flinker.app/docs/viewer-app-installation-with-admin-
 
 This article describes how a SharePoint administrator can approve, install, and validate the IFC Viewer app for SharePoint.
 
-> [!Note]
+> [!NOTE]
 > - IFC files are processed client-side. The app does not upload IFC files to Flinker.
 > - A SharePoint administrator must approve or install the app before users can add it to a site.
 
@@ -72,11 +72,11 @@ If this setting is missing, users may see script loading or content security pol
 The IFC Viewer app is installed and available for use in SharePoint.
 
 
-## Permissions and Deployment
+## Permissions and deployment
 
 The Flinker IFC Viewer for SharePoint is provided as a SharePoint Framework (SPFx) solution. The app is deployed through SharePoint and uses the permissions and governance settings configured in your Microsoft 365 tenant.
 
-### Key Points
+### Key points
 
 - **SPFx Solution**  
   The IFC Viewer is deployed as a SharePoint Framework (SPFx) client-side solution package (`.sppkg` file).  
@@ -98,7 +98,7 @@ The Flinker IFC Viewer for SharePoint is provided as a SharePoint Framework (SPF
   - [Privacy Policy](https://www.flinker.app/data-protection)  
   - [Terms of Use](https://www.flinker.app/terms)
 
-### Security and Privacy
+### Security and privacy
 
 - IFC files are processed client-side.
 - The app does not upload IFC files to Flinker.

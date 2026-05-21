@@ -1,11 +1,11 @@
 ---
-title: Install the IFC Viewer File‑Handler for SharePoint
+title: Install the IFC Viewer file handler for SharePoint
 description: How to install the IFC Viewer File‑Handler application using Azure AD’s “organizations” endpoint.  
 keywords: IFC Viewer File‑Handler, Flinker, Azure AD, Admin Consent, Tenant‑wide, organizations endpoint  
 canonical_url: https://docs.flinker.app/docs/ifc-file-handler-for-sharepoint.html
 ---
 
-# Install the IFC Viewer File‑Handler for SharePoint
+# Install the IFC Viewer file handler for SharePoint
 
 <video width="100%" height="auto" autoplay>
   <source src="/_media/sharepoint-open-ifc-with-file-handler.mp4" type="video/mp4">
@@ -29,21 +29,21 @@ The IFC Viewer will request these scopes:
   Sign you in and allow the app to read your basic profile.  
   _Type: Delegated permission_
 
-> [!Note]
-> The **IFC Viewer** requires permission to read the IFC files stored in your **SharePoint**. This is essential for the app to retrieve and display the files directly from these platforms, allowing you to view them without any manual downloads or transfers. **Your files are not transferred to external servers**
+> [!NOTE]
+> The **IFC Viewer** requires permission to read the IFC files stored in your **SharePoint**. This is essential for the app to retrieve and display the files directly from these platforms, allowing you to view them without any manual downloads or transfers. **Your files are not transferred to external servers.**
 
 
 
-## 2. Verify Admin Consent
+## 2. Verify admin consent
 
 After granting consent, confirm that the permissions are active:
 
 1. In the Azure Portal, go to **Enterprise applications** → **IFC Viewer** → **Permissions**.
 2. You should see a "Admin consent" next to each permission (`Files.Read.All`, etc.).
 
-## 3. After Consent
+## 3. After consent
 
-> [!Note]
+> [!NOTE]
 > Changes to the file handler take 24-48 hours to appear. See [Refresh file handler cache](https://learn.microsoft.com/en-us/onedrive/developer/file-handlers/reset-cache) for information about how to force the cache to be cleared for development purposes.
 
 Users can now open IFC files from SharePoint/OneDrive by clicking on them without extra prompts.

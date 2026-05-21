@@ -9,12 +9,12 @@ canonical_url: https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-micros
 
 Follow these steps to set up the IFC Viewer in your Microsoft Teams environment.
 
-> [!Note]
+> [!NOTE]
 > - **Privacy first**: IFC and BCF files are processed client-side. Files are not uploaded to Flinker. For more details, see [Microsoft App Compliance](https://learn.microsoft.com/en-us/microsoft-365-app-certification/teams/flinker-gmbh-open-ifc-viewer?pivots=general).
 
 ## Setup steps
 
-### Step 1: Get the IFC Viewer App
+### Step 1: Get the IFC Viewer app
 
 Option 1: Open the [Teams app store listing](https://teams.microsoft.com/l/app/828163ae-0b22-445f-85c6-5768b56dfa4e?source=app-details-dialog).
 
@@ -49,7 +49,7 @@ Select **Connect** to grant permissions for the IFC Viewer to access files in Sh
 ![Connect and Grant Permissions to Read Your Files](/_media/teams-apps-ifc-viewer-click-connect-and-grant-permissions-to-read-your-files.png)
 
 
-#### Admin’s approval
+#### Admin approval
 If your organization requires admin approval, [click here to grant permissions](https://login.microsoftonline.com/organizations/v2.0/adminconsent?client_id=c8f57ea5-d1b6-41a7-a2c2-d10e99d97a97&redirect_uri=https%3A%2F%2Fteamsifcviewer.flinker.app%2Fauth-end.html&scope=https://graph.microsoft.com/Files.Read.All%20https://graph.microsoft.com/offline_access%20openid%20profile&state=12345abc)
 
 When you connect, the IFC Viewer will request these scopes:
@@ -62,7 +62,7 @@ When you connect, the IFC Viewer will request these scopes:
   Sign you in and allow the app to read your basic profile.  
   _Type: Delegated permission_
 
-> [!Note]
+> [!NOTE]
 > **Why file read permissions are required**
 > 
 > The **IFC Viewer** requires permission to read IFC files stored in **SharePoint** and **Teams**. This lets the app retrieve and display files directly from Microsoft 365 without manual downloads or transfers.
@@ -81,7 +81,7 @@ Supported links are:
 - If the file is in OneDrive or SharePoint, copy the OneDrive or SharePoint link.
 - If the file is on an external drive, upload it to SharePoint or Teams first.
 
-> [!Note]
+> [!NOTE]
 > When you open the IFC Viewer tab, you will only be able to load and view files if you have permission to open the file links that were pasted into the settings. If you do not have access to a specific file or folder, it will not appear in the viewer. **Make sure you have the necessary permissions in SharePoint or Teams to view the linked files.**
 
 ![Copy Links of IFC Files](/_media/teams-apps-ifc-viewer-in-files-tab-copy-links-of-ifc-files.png)
@@ -136,5 +136,5 @@ When the IFC Viewer tab is added to a team, the SharePoint file or folder links 
 For deployment guidance or enterprise rollout planning, contact Flinker.
 
 > [!div class="nextstepaction"]
-> [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
+> [Book a meeting](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 

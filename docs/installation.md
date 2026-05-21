@@ -13,7 +13,7 @@ canonical_url: https://docs.flinker.app/docs/installation.html
 > - **Bulk edits**: Update access settings across teams and folders.  
 > - **External collaboration**: Grant controlled access to users outside your organization.  
 
-> [!Note]
+> [!NOTE]
 > - **Privacy first**: Files and permission data remain in SharePoint. Permission management is handled directly in your Microsoft 365 tenant.
 > - **Administrator required**: A SharePoint administrator must install the app.
 

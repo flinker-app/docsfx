@@ -1,5 +1,5 @@
 ---
-title: IFC Viewer for SharePoint - Architecture and Data Protection
+title: IFC Viewer for SharePoint architecture and data protection
 description: Architecture, data flows, permissions, and data protection for the IFC Viewer SPFx web part in SharePoint Online. Explains tenant-bound storage, security, and technical metadata handling for IT and compliance.
 summary: "How the IFC Viewer SPFx web part works in SharePoint: tenant-only storage, client-side rendering, supported hosts, permissions, and GDPR-aligned metadata processing."
 slug: ifc-viewer-sharepoint-architecture-and-data-protection
@@ -34,7 +34,7 @@ tags:
   - m365-cdn
   - entra-id
 og:
-  title: IFC Viewer for SharePoint - Architecture and Data Protection
+  title: IFC Viewer for SharePoint architecture and data protection
   description: Tenant-only storage, client-side rendering, and GDPR-aligned metadata for the IFC Viewer SPFx web part.
 twitter:
   card: summary_large_image
@@ -44,7 +44,7 @@ feature: ifc-viewer
 ms.date: 2025-12-05
 ---
 
-# IFC Viewer for SharePoint – Architecture and Data Protection
+# IFC Viewer for SharePoint architecture and data protection
 
 _Last updated: December 2025_
 
@@ -52,7 +52,7 @@ The **Flinker IFC Viewer for SharePoint** is implemented as a **SharePoint Frame
 
 This page provides an app-specific view for IT security teams.
 
-## Product-specific Privacy Highlights
+## Product-specific privacy highlights
 
 - IFC files, BIM data, and project documents remain in the customer's Microsoft 365 tenant.
 - Flinker does not receive or store IFC model content, plans, drawings, or other project documents.
@@ -61,7 +61,7 @@ This page provides an app-specific view for IT security teams.
 - No external non-Microsoft business systems or APIs are used; only Microsoft 365 services (SharePoint, optional Teams, Entra ID).
 - Only strictly limited technical metadata (tenant ID, optional e-mail address, anonymized usage metrics) are sent to the Flinker Azure backend, as described in [section 4](#4-transmission-of-technical-metadata-to-flinker).
 
-## 1. Integration and Operating Model
+## 1. Integration and operating model
 
 - The app is deployed as an SPFx solution into the customer’s **SharePoint Online** environment.
 - Users add the **“IFC Viewer” web part** to SharePoint pages in sites where IFC files are stored.
@@ -72,7 +72,7 @@ All installation and access remain under the security and governance controls of
 
 
 
-## 2. Components and Data Flows
+## 2. Components and data flows
 
 **Components**
 
@@ -99,7 +99,7 @@ All installation and access remain under the security and governance controls of
 5. Separately from the IFC contents, the web part may send **technical metadata** (Tenant ID, optional e-mail, anonymized usage metrics) to the Flinker Azure backend (see section 4).
 
 
-### Architecture Diagram
+### Architecture diagram
 
 Diagram summarizing tenant-resident components and client-side data flows for the IFC Viewer SPFx web part and its Azure CDN module.
 
@@ -127,7 +127,7 @@ flowchart LR
 ```
 
 
-## 3. Processing and Protection of Sensitive Data
+## 3. Processing and protection of sensitive data
 
 - **All IFC and business data remain in the Microsoft 365 tenant of the customer**
   - IFC models, BIM data, drawings, plans, and all related project documents are stored and processed only in SharePoint Online.
@@ -144,7 +144,7 @@ The complete data sovereignty over IFC and project data always remains with the 
 
 
 
-## 4. Transmission of Technical Metadata to Flinker
+## 4. Transmission of technical metadata to Flinker
 
 Consistent with the general IFC Viewer architecture, only a minimal set of **technical metadata** is transmitted from the SPFx web part to the Flinker Azure backend to support secure operation and anonymized usage analytics.
 
@@ -166,7 +166,7 @@ All metadata is pseudonymized and encrypted; access on Flinker side is restricte
 
 
 
-## 5. SPFx Manifest and Supported Hosts
+## 5. SPFx manifest and supported hosts
 
 The SPFx manifest defines the component as:
 
@@ -178,7 +178,7 @@ This aligns with Microsoft’s SPFx security model and ensures that standard ten
 
 
 
-## 6. Summary for IT and Compliance
+## 6. Summary for IT and compliance
 
 - The IFC Viewer for SharePoint is an SPFx web part operating entirely within the customer’s Microsoft 365 tenant.
 - All IFC and project data are processed and stored exclusively in SharePoint Online; no business data is transferred to Flinker or third parties.
@@ -188,16 +188,16 @@ This aligns with Microsoft’s SPFx security model and ensures that standard ten
 
 For additional technical documentation or security review support, contact **support@flinker.app**.
 
-## 7. Microsoft Compliance & Security
+## 7. Microsoft compliance and security
 
 - The app is certified and reviewed by Microsoft before publication in AppSource.
 - All security and privacy measures follow Microsoft’s own guidelines for SharePoint apps and tenant-only integrations.
 - For more on Flinker’s continuous security and compliance updates, see  
-  [General Architecture & Data Protection](https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html).
+  [General architecture and data protection](https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html).
 
 
 
-## More Information / Contact
+## More information and contact
 
 For technical documentation, a list of transmitted metadata, or to schedule a compliance call:
 
@@ -208,5 +208,5 @@ support@flinker.app
 
 
 _For all company-wide privacy and data protection details, visit our  
-[General Architecture & Data Protection](https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html) page._
+[General architecture and data protection](https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html) page._
 

@@ -1,11 +1,11 @@
 ---
-title: IFC Viewer for Microsoft Teams Release Notes
+title: IFC Viewer for Microsoft Teams release notes
 description: Changelog for the IFC Viewer for Microsoft Teams, including file loading and Microsoft Lists integration updates.
 keywords: Teams IFC release notes, IFC Viewer for Microsoft Teams changelog, BCF Microsoft Lists updates
 canonical_url: https://docs.flinker.app/docs/releases/ifc-teams.html
 ---
 
-# IFC Viewer for Microsoft Teams Release Notes
+# IFC Viewer for Microsoft Teams release notes
 
 ## v2.1.0 (v2.1.0) - 2025-05-09
 

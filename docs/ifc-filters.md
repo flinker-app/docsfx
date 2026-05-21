@@ -1,19 +1,18 @@
 ---
-title: IFC Model Queries and Property Sets
+title: IFC model queries and property sets
 description: Learn how to query, compare, and color-code IFC elements using models, attributes, IFC classes, storeys, and property sets.
 keywords: IFC model queries, IFC Properties, Property Sets, Pset, BIM Search, IFC Viewer, Filtering, Query, Flinker, Color Filters, BIM Analysis
 canonical_url: https://docs.flinker.app/docs/ifc-filters.html
 ---
 
-# IFC Model Queries and Property Sets
+# IFC model queries and property sets
 
-The **IFC Model Queries and Property Sets** feature in **Flinker** allows users to create, combine, and toggle multiple filters to quickly locate, isolate, and visually compare IFC elements based on  
+The **IFC model queries and property sets** feature in **Flinker** allows users to create, combine, and toggle multiple filters to quickly locate, isolate, and visually compare IFC elements based on  
 **models, attributes, classes, storeys, and property set values**.
 
-Each filter represents a logical query and can be displayed using a **distinct color**, enabling clear visual analysis and comparison directly inside the 3D viewer.
+Each filter represents a logical query and can be displayed using a **distinct color**, enabling clear visual analysis and comparison directly inside the 3D viewer. The filters panel shows active filters and applies the selected colors to matching elements in the model view.
 
 ![IFC model queries and property sets panel](/_media/filters.png)
-_Filters panel showing multiple active filters with color-coded visualization in the 3D view._
 
 ## What are IFC model queries?
 
@@ -43,9 +42,9 @@ Enable or disable filters individually to focus on specific datasets without los
 **Data-driven insight**  
 Analyze models based on IFC properties and attributes rather than geometry alone.
 
-## Filter Capabilities
+## Filter capabilities
 
-### Text Search
+### Text search
 
 Use the **Text search** field to match:
 
@@ -56,7 +55,7 @@ Use the **Text search** field to match:
 This is useful for quick lookups when the exact property set is unknown, for example searching by element name, tag, or a full identifier like:  
 `Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:285459`
 
-### Models Filtering
+### Model filtering
 
 The **Model filter** lets you limit results to specific IFC models when multiple models are loaded.
 
@@ -75,7 +74,7 @@ Model filtering is **combined (intersected)** with other active filters:
 Only elements that satisfy **all selected criteria** are returned.  
 This ensures precise filtering across federated models without mixing unrelated elements.
 
-### Class Filtering (Optional)
+### Class filtering
 
 Limit a filter to a specific IFC class, such as:
 
@@ -87,11 +86,11 @@ Limit a filter to a specific IFC class, such as:
 
 This helps reduce noise and improves performance when working with large models.
 
-### Storey Filtering (Optional)
+### Storey filtering
 
 Restrict filters to a specific building storey to analyze elements floor by floor or validate correct element placement.
 
-### Property Set Filtering
+### Property set filtering
 
 Filter elements using **Property Sets (Psets)** and their values.
 
@@ -109,7 +108,7 @@ You can filter by:
 
 This enables precise queries based on BIM data rather than geometry alone.
 
-## Visual Feedback in the Viewer
+## Visual feedback in the viewer
 
 When filters are applied:
 
@@ -120,21 +119,21 @@ When filters are applied:
 
 This allows users to create clear visual sets and compare different data groups directly within the model.
 
-## Practical Use Cases
+## Practical use cases
 
-- **BIM Data Validation**  
+- **BIM data validation**  
   Verify that required properties (e.g. fire rating, external/internal flags) are correctly assigned.
 
-- **Design Review**  
+- **Design review**  
   Visually separate systems such as doors, windows, or structural elements.
 
-- **Model Auditing**  
+- **Model auditing**  
   Detect missing or inconsistent property values across storeys or classes.
 
-- **Facility Management Preparation**  
+- **Facility management preparation**  
   Identify assets based on operational properties before handover.
 
-## Reset and Refinement
+## Reset and refine filters
 
 Use the **Reset** button to clear all filters and restore the full model view.  
 You can iteratively refine your analysis by combining, toggling, and adjusting multiple filters.
@@ -155,13 +154,13 @@ This means a filter configuration created in one project can be loaded in any ot
 Because BCF is an open standard, the same file works across projects, buildings, and tools  -  any number of times.
 
 > [!TIP]
-> See [BCF Integration](ifc-bcf.md) for a full overview of how BCF files store and transfer view states.
+> See [BCF integration](ifc-bcf.md) for a full overview of how BCF files store and transfer view states.
 
-## How to Get Started
+## Get started
 
 Explore how **_Flinker_** helps you search, compare, and analyze IFC models efficiently.
 
 > [!div class="nextstepaction"]  
-> [Book a Meeting Now](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
+> [Book a meeting](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
 
 We’ll show you how to use IFC model queries and property sets to gain full control over your BIM data  -  directly in your browser.

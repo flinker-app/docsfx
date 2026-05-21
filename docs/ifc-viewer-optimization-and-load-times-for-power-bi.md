@@ -1,16 +1,16 @@
 ---
-title: Loading and Optimization of IFC Data in Power BI
+title: Load and optimize IFC data in Power BI
 description: Learn what happens during IFC optimization and refresh in Power BI, how long it typically takes for small and large projects, and how to optimize performance and schedule background refreshes.
 keywords: IFC, Power BI, IFC query, optimization, load times, refresh, scheduled refresh, performance, BIM, ACC comparison
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-optimization-and-load-times-for-power-bi.html
 ---
 
 
-# Loading and Optimization with the IFC Data in Power BI
+# Load and optimize IFC data in Power BI
 
 This page explains what happens when you parse and load IFC data into Power BI.
 
-## Process Step 1 – IFC Optimization & Data Refresh (IFC query)
+## Process step 1: IFC optimization and data refresh
 
 **Goal:** Turn raw IFC files into efficient Power BI tables.
 
@@ -49,7 +49,7 @@ For reliable performance:
   * Your data source is reachable
   * Your machine has sufficient RAM/CPU
 
-## Process Step 2 – Report Opening & Visualizing the Data
+## Process step 2: Open the report and visualize the data
 
 **Goal:** Open the report and work with the already-loaded IFC tables.
 
@@ -66,7 +66,7 @@ Result: after the heavy optimization/refresh step, your report behaves like a ty
 
 Opening the report or switching pages **does not** run a new refresh. A refresh only happens when you explicitly trigger it in Power BI Desktop or via scheduled refresh in the Power BI Service.
 
-## Advantages vs. Autodesk / Cloud-only approaches
+## Advantages compared with cloud-only approaches
 
 Compared to workflows where optimization happens entirely in a third-party cloud (e.g. Autodesk Construction Cloud), the Flinker IFC query has several benefits:
 
@@ -91,7 +91,7 @@ Compared to workflows where optimization happens entirely in a third-party cloud
   * Even if the model has 20+ tables and tens of millions of rows, each report only queries the data needed for its visuals (e.g. door counts, area by zone, selected buildings) – the full dataset is never pulled into the PBIX.
 
 
-## Power BI Service: Background Jobs & Scheduling
+## Power BI service: background jobs and scheduling
 
 For best user experience, run heavy optimization and loading **in the background** using Power BI Service:
 
@@ -100,7 +100,7 @@ For best user experience, run heavy optimization and loading **in the background
 * Let the IFC optimization + loading run outside working hours.
 * During the day, users open the report and interact with a **pre-loaded** dataset.
 
-### Semantic Model in Power BI Service
+### Semantic model in Power BI service
 
 When you publish a Power BI Desktop report to the Power BI Service, the data model inside the PBIX automatically becomes a **Semantic Model**. This is a centralized, reusable model that stores your tables, relationships, measures, and security rules – including any data coming from **IFC/BIM**.
 
@@ -114,10 +114,10 @@ When you publish a Power BI Desktop report to the Power BI Service, the data mod
   You import and map the IFC data once, then reuse it across many reports and dashboards.
   Imagine a Semantic Model with 20 tables and 50 million IFC rows: one report might focus on *door counts*, another on *area by zone*, another on *asset quantities per contractor* – all using the same model, with no extra imports.
 
-* **Better governance & security**
+* **Better governance and security**
   Row-level security and permissions (e.g. per project, building, region, or company) are defined once in the Semantic Model and automatically apply to every connected report.
 
-* **Performance & scalability**
+* **Performance and scalability**
   The model is optimized in the service (VertiPaq / Direct Lake / DirectQuery), and Power BI only retrieves the data needed for the visuals. Power BI does **not** load million IFC rows into the PBIX. It only pulls the filters you applied (project, floor, phase, etc.).
 
 * **Easier maintenance**
@@ -127,7 +127,7 @@ When you publish a Power BI Desktop report to the Power BI Service, the data mod
 * **IFC-specific benefit**
   IFC-derived tables and properties become part of this shared model, so you can easily join BIM data with cost, schedule, maintenance, or sensor data.
 
-## Best Practices for Good Performance
+## Best practices for good performance
 
 * **Start small**
   Begin with a subset of models to validate the setup and performance.

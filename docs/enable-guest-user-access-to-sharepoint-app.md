@@ -49,7 +49,7 @@ Replace `yourtenantname` with your SharePoint tenant name.
 ### 3.1 Share the specific asset folder in **ClientSideAssets** (sometimes required)
 
 > [!NOTE]
-> Whether you this step depends on how your tenant allows external sharing.
+> Whether you need this step depends on how your tenant allows external sharing.
 
 1. Open the assets library:
    `https://<tenant>.sharepoint.com/sites/appcatalog/ClientSideAssets/AllItems.aspx`
@@ -63,10 +63,10 @@ Replace `yourtenantname` with your SharePoint tenant name.
 
 ![Share app](/_media/share-app-assets-with-guest-users-in-app-catalog.png)
 
-### 3.2 App Catalog site sharing & permissions (sometimes required)
+### 3.2 App Catalog site sharing and permissions
 
 > [!NOTE]
-> Whether you this step depends on how your tenant allows external sharing.
+> Whether you need this step depends on how your tenant allows external sharing.
 
 Go to your **App Catalog site** → **Settings** (Site details).
 Look at **External file sharing**:
@@ -76,7 +76,7 @@ Look at **External file sharing**:
     * Ask an admin to switch the site to **Existing guests** temporarily so you can complete Step 5, **or**
     * Skip sharing and use the **Microsoft 365 CDN** approach to serve assets (recommended for stricter environments).
 
-## Step 4: Disable the 'Everyone' claim
+## 4. Disable the 'Everyone' claim
 
 After granting permissions, disable the previously enabled *Everyone* claim:
 
@@ -85,7 +85,7 @@ Connect-PnPOnline -Url https://yourtenantname.sharepoint.com -UseWebLogin
 Set-PnPTenant -ShowEveryoneClaim $false
 ```
 
-## Verification
+## Verify access
 
 Ensure guest users can now access SPFx components within sites they have access to, such as modern search web parts or other custom solutions.
 

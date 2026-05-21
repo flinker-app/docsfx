@@ -1,13 +1,13 @@
 ---
 
-title: Saving Filters and Viewpoints with BCF
+title: Save filters and viewpoints with BCF
 description: Discover how to use BCF (BIM Collaboration Format) to save filters and viewpoints for efficient model-based issue tracking and communication.
 keywords: BCF, BIM, Filters, Viewpoints, Collaboration, Integration
 canonical_url: https://docs.flinker.app/docs/ifc-bcf.html
 
 ---
 
-# Saving filters and viewpoints with BCF
+# Save filters and viewpoints with BCF
 
 <iframe src="https://viewer.flinker.app/examples/bcf.html" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
 
@@ -21,7 +21,7 @@ Saving filters and viewpoints with BCF allows you to:
 - **Preserve Visual Context**: Store precise camera angles, zoom levels, and section cuts, ensuring others see exactly what you intended.
 - **Streamline Communication**: Reduce confusion by sharing model snapshots with all relevant filters and views applied.
 
-## Using filters and viewpoints with BCF
+## Use filters and viewpoints with BCF
 
 When creating a BCF topic, the selection and visibility states of model elements, along with camera position, orientation, and clipping planes, are automatically saved. Every BCF topic acts as a visual bookmark, guiding team members directly to the relevant model area with the intended context.
 

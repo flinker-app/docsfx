@@ -1,5 +1,5 @@
 ---
-title: Hide a SharePoint Folder with Protect for SharePoint Permissions
+title: Hide a SharePoint folder with Protect for SharePoint permissions
 description: Use Protect for SharePoint to assign folder-level SharePoint permissions and hide folders from users or groups without access.
 keywords: SharePoint folder permissions, Protect for SharePoint, hide folder SharePoint, unique permissions, Microsoft 365 security
 canonical_url: https://docs.flinker.app/docs/hide-sharepoint-folder-with-protect-app.html

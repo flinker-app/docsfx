@@ -1,7 +1,7 @@
 ---
-title: FAQs for IFC Viewer Visual for Power BI
+title: IFC Viewer Visual for Power BI FAQ
 description: Answers to licensing, sharing, and embedding questions for the IFC Viewer Visual for Power BI.
-summary: Comprehensive FAQs covering licensing, report sharing, embedding, and usage details for the IFC Viewer Visual for Power BI.
+summary: Frequently asked questions covering licensing, report sharing, embedding, and usage details for the IFC Viewer Visual for Power BI.
 slug: faq-for-ifc-visual-in-power-bi
 canonical_url: https://docs.flinker.app/docs/faq-for-ifc-visual-in-power-bi.html
 lang: en
@@ -32,7 +32,7 @@ feature: ifc-visual
 ms.date: 2025-12-04
 ---
 
-# FAQ for IFC Viewer Visual for Power BI
+# IFC Viewer Visual for Power BI FAQ
 
 ## IFC Viewer basics
 

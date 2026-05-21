@@ -1,11 +1,11 @@
 ---
-title: IFC Viewer Add-in for Excel
+title: IFC Viewer add-in for Excel
 description: View and analyze IFC BIM models directly in Microsoft Excel with synchronized selection and Microsoft 365 workflow support.
 keywords: IFC Viewer Add-in for Excel, Microsoft Excel IFC, BIM in Excel, IFC add-in, IFC model analysis, Excel BIM workflow, Microsoft 365 BIM
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-for-microsoft-excel.html
 ---
 
-# IFC Viewer Add-in for Excel
+# IFC Viewer add-in for Excel
 
 <video width="100%" height="auto" autoplay>
   <source src="/_media/excel-ifc-viewer-demo.mp4" type="video/mp4">
@@ -14,14 +14,14 @@ canonical_url: https://docs.flinker.app/docs/ifc-viewer-for-microsoft-excel.html
 
 Use the IFC Viewer add-in to view BIM models in Excel. Load and inspect IFC data next to workbook tables, then use Excel and Microsoft 365 workflows for analysis and reporting.
 
-## Why choose the IFC Viewer Add-in for Excel?
+## Why choose the IFC Viewer add-in for Excel?
 
 | Feature | IFC Viewer Add-in for Excel | Standard IFC Viewer |
 | ------- |:------------------:|:------------------:|
 | No extra software/login | ✓ | ✗ |
 | Privacy: User controls data storage | ✓ | ✗ |
 | Link model to external data (cost, schedule) | ✓ | ✗ |
-| Create 3D views with custom charts & KPIs | ✓ | ✗ |
+| Create 3D views with custom charts and KPIs | ✓ | ✗ |
 | Integrate with Microsoft 365 (Lists, Excel, SharePoint) | ✓ | ✗ |
 | Add custom workflows to your data | ✓ | ✗ |
 | AI-ready data architecture | ✓ | ✗ |
@@ -75,7 +75,7 @@ No other external servers or cloud services are contacted.
 
 ### Summary
 
-- **Full (read & write) access only to the currently opened Excel document**
+- **Full read and write access only to the currently opened Excel document**
 - **No communication with third-party servers outside of Flinker**
 - **Privacy-first processing model**
 

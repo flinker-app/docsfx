@@ -2,19 +2,19 @@
 - name: Get started
   href: ../index.md
 
-- name: Security & Privacy
+- name: Security and privacy
   href: ifc-viewer-architecture-and-data-protection.md
 - name: openBIM STANDARDS
 - name: Industry Foundation Classes (IFC)
   href: ifc-viewer.md
   items:
-    - name: IFC 4.3 Infrastructure and Alignments
+    - name: IFC 4.3 infrastructure and alignments
       href: ifc-infra.md
-    - name: IFC Model Queries and Property Sets
+    - name: IFC model queries and property sets
       href: ifc-filters.md
-    - name: 2D Drawing Overlays (PDF)
+    - name: 2D drawing overlays (PDF)
       href: PDF-2d.md
-    - name: IFC Georeferencing and Maps
+    - name: IFC georeferencing and maps
       href: real_worldMap.md
 
 - name: Information Delivery Specification (IDS)
@@ -22,9 +22,9 @@
 - name: BIM Collaboration Format (BCF)
   href: ifc-bcf.md
   items:
-    - name: BCF Viewpoints and View States
+    - name: BCF viewpoints and view states
       href: bcf-viewpoints.md
-    - name: Import Navisworks Clash Reports
+    - name: Import Navisworks clash reports
       href: bcf-navisworks.md
 - name: Copilot for IFC
   href: copilot-for-ifc.md
@@ -35,14 +35,14 @@
 - name: MICROSOFT 365 APPS
 - name: Microsoft 365 apps overview
   href: apps.yml
-- name: Admin Deployment Overview
+- name: Admin deployment overview
   href: it-admin-quickstart.md
 - name: IFC Viewer for SharePoint
   expanded: false
   items:
     - name: Overview
       href: ifc-viewer-for-sharepoint.md
-    - name: Security & Privacy
+    - name: Security and privacy
       href: ifc-viewer-sharepoint-architecture-and-data-protection.md
     - name: Set up IFC Viewer in SharePoint
       href: viewer-app-installation-with-admin-approval.md
@@ -50,7 +50,7 @@
       href: ifc-file-handler-for-sharepoint.md
     - name: Use IFC Viewer in SharePoint
       href: using-ifc-viewer-in-sharepoint.md
-    - name: Load multiple IFC & BCF files
+    - name: Load multiple IFC and BCF files
       href: load-multiple-ifc-bcf-files-in-sharepoint-ifc-viewer.md
     - name: Connect BCF issues to Microsoft Lists
       href: save-bcf-to-sharepoint-lists.md
@@ -58,14 +58,14 @@
       href: upgrade-sharepoint-ifc-viewer-app.md
     - name: Enable guest user access
       href: enable-guest-user-access-to-sharepoint-app.md
-    - name: FAQs
+    - name: FAQ
       href: faq-for-ifc-viewer-in-sharepoint.md
 - name: IFC Viewer for Microsoft Teams
   expanded: false
   items:
     - name: Overview
       href: ifc-viewer-for-teams.md
-    - name: Security & Privacy
+    - name: Security and privacy
       href: open-ifc-viewer-teams-architecture-and-data-protection.md
     - name: Set up IFC Viewer in Teams
       href: setting-up-the-ifc-viewer-in-microsoft-teams.md
@@ -81,7 +81,7 @@
       href: ifc-excel.md
     - name: Save IFC to Microsoft Power BI
       href: ifc-excel-power-bi.md
-    - name: FAQs
+    - name: FAQ
       href: faq-for-ifc-viewer-in-teams.md
 - name: IFC Viewer Visual for Power BI
   expanded: false
@@ -96,15 +96,15 @@
       href: ifc-viewer-color-rules-for-power-bi.md
     - name: Load full model data
       href: ifc-viewer-data-extension-for-power-bi.md
-    - name: Performance & load times
+    - name: Performance and load times
       href: ifc-viewer-optimization-and-load-times-for-power-bi.md
-    - name: IFC Semantic Model
+    - name: IFC semantic model
       href: IFC_SharedSemanticModel.md
     - name: Activate advanced features
       href: ifc-viewer-license-key-for-power-bi.md
     - name: Share reports with external users
       href: sharing-power-bi-ifc-reports-with-external-users.md
-    - name: FAQs
+    - name: FAQ
       href: faq-for-ifc-visual-in-power-bi.md
     - name: Power BI report templates
       expanded: true
@@ -116,7 +116,7 @@
           href: IFC_Room_Analysis.md
         - name: 4D construction dashboard
           href: IFC_4DPlanning.md
-        - name: IFC to GIS map dashboard
+        - name: IFC to GIS portfolio map dashboard
           href: IFC_Map.md  
         - name: IFC and BCF issue tracker dashboard
           href: IFC_BCF_Bi.md  
@@ -149,7 +149,7 @@
       href: share-features.md
     - name: Use Protect for SharePoint
       href: use-protect-app.md
-    - name: Installation for Admins
+    - name: Installation for admins
       href: installation.md
     - name: Upgrade to latest version
       href: upgrade-share-app.md
@@ -176,7 +176,7 @@
 - name: IFC Viewer SDK
   href: ifc-viewer-sdk.md
   items:
-    - name: API Reference
+    - name: API reference
       href: ifc-viewer-sdk-api.md
     - name: SDK examples
       expanded: true

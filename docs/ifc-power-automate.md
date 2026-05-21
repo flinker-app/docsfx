@@ -14,4 +14,4 @@ Typical scenarios include approval flows, issue notifications, data synchronizat
 For implementation guidance, schedule a meeting with the support team.
 
 > [!div class="nextstepaction"]
-> [**Book a Meeting Now**](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)
+> [Book a meeting](https://outlook.office365.com/book/SupportConsultingonlinemeeting@flinker.app/)

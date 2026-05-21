@@ -7,9 +7,6 @@ canonical_url: https://docs.flinker.app/docs/copilot-for-ifc-api.html
 
 # Copilot for IFC SDK
 
-<iframe src="https://calm-river-02db51810-364.centralus.2.azurestaticapps.net/examples/copilot.html" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
-
-
 Use the Copilot for IFC SDK to turn a user prompt into a Python workflow that can analyze (and optionally edit) IFC models.
 
 > [!IMPORTANT]
@@ -60,10 +57,6 @@ Use the Copilot for IFC SDK to turn a user prompt into a Python workflow that ca
        text: result.resultText
      };
    }
-
-   // Example:
-   // const { markdown, text } = await runPrompt("How many walls are in Sample.ifc?");
-   // Render markdown/text to your UI.
    ```
 4. Your UI renders outputs and optionally offers the workflow source for audit/reuse (use `result.markdown`, `result.resultText`, and `result.log` from the snippet above).
 

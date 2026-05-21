@@ -25,7 +25,7 @@ You can start Protect for SharePoint directly from a document library or add it 
 2. Open the **...** menu in the command bar.
 3. Select **Manage permissions**.
 
-![Open Manage permissions inside a document library](/_media/open-permissions-inside-a-docuemnt-library.png)
+![Open Manage permissions inside a document library](/_media/open-permissions-inside-a-document-library.png)
 
 ### Add it as a SharePoint web part
 

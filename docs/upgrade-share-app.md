@@ -1,11 +1,11 @@
 ---
-title: Upgrade Protect for SharePoint to the Latest Version
+title: Upgrade Protect for SharePoint to the latest version
 description: Learn how to upgrade your Protect for SharePoint to the latest version to enjoy enhanced features, security improvements, and performance boosts.
 keywords: Protect for SharePoint, upgrade, SharePoint, App Store, App Catalog, latest version
 canonical_url: https://docs.flinker.app/docs/upgrade-share-app.html
 ---
 
-# Upgrade Protect for SharePoint to the Latest Version
+# Upgrade Protect for SharePoint to the latest version
 
 > [!TIP]
 > **Why Upgrade Your Protect for SharePoint?**
@@ -13,7 +13,7 @@ canonical_url: https://docs.flinker.app/docs/upgrade-share-app.html
 > - **Security Improvements**: Protect your data with the newest security patches and updates.
 > - **Performance Boosts**: Experience faster and more reliable app performance.
 >
-> [!Note]
+> [!NOTE]
 > - Important **Admin Permissions Required**: Only SharePoint administrators can perform the app upgrade.
 
 ## 1. Upgrade Protect for SharePoint from the Site App Store

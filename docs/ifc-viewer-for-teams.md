@@ -17,8 +17,8 @@ The IFC Viewer for Microsoft Teams brings IFC and BCF coordination directly into
 | ------- |:------------------:|:------------------:|
 | No extra software/login | ✓ | ✗ |
 | Privacy: User controls data storage | ✓ | ✗ |
-| View IFC & BCF files in Teams | ✓ | ✗ |
-| Load multiple IFC & BCF files in one tab | ✓ | ✗ |
+| View IFC and BCF files in Teams | ✓ | ✗ |
+| Load multiple IFC and BCF files in one tab | ✓ | ✗ |
 | Open saved BCF viewpoints, filters, and clipping | ✓ | ✗ |
 | Share a Teams deep link to a selected BCF topic | ✓ | ✗ |
 | Set a default BCF topic view for a tab | ✓ | ✗ |

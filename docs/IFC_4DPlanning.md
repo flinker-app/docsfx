@@ -1,38 +1,39 @@
 ---
 uid: IFC_4DPlanning
-title: IFC 4D Construction Planning Dashboard (Power BI)
+title: IFC 4D construction planning dashboard (Power BI)
 description: Build an IFC 4D construction planning dashboard in Power BI by linking BIM models with schedule data, tracking progress, delays, and task status over time.
 keywords: IFC 4D planning, 4D construction dashboard, Power BI 4D, BIM schedule dashboard, construction progress tracking, IFC timeline, digital twin construction
 canonical_url: https://docs.flinker.app/docs/IFC_4DPlanning.html
 ---
 
-# 4D Construction Dashboard
+# 4D construction dashboard
 
 <iframe title="ifcviewer_4D" style="width: 100%; aspect-ratio: 16 / 9;" src="https://app.powerbi.com/view?r=eyJrIjoiZmIzMWIwYzAtMzQ3My00MTUxLThhODAtNzlmZDFlNTA4Y2U2IiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
-## Executive Overview
+## Overview
 The **4D Construction Dashboard** serves as a specialized **Digital Twin**, integrating Building Information Modeling (IFC Data) with Construction Scheduling and Management. By linking the physical model (**ifc**) directly to the project schedule, it provides stakeholders with a "time-machine" view of the project's progress.
 
 This tool is essential for **Project Managers**, **Planners**, and **Site Engineers** to validate schedules, track delays, and visualize the sequence of work before execution.
 
 ---
 
-## Input Data Requirements (Critical)
+## Input data requirements
 
 To ensure the dashboard functions correctly, the input data **MUST** follow a strict structure. The Power BI model relies on a specific Excel template linked via parameters.
 
-### 1. Download the Template
+### 1. Download the template
 Start by downloading the standard Excel template. **Do not rename the sheets inside this workbook.**
 
 [Download 4D Planning Template](../_media/4D_Planning_Template.xlsx)
 
 ---
 
-### 2. Sheet: Task_Table (The Schedule Source)
+### 2. Sheet: Task_Table
 This is the primary dataset driving the Gantt chart and 4D simulation.
-> **Important:** The sheet name must remain exactly **Task_Table**.
+> [!IMPORTANT]
+> The sheet name must remain exactly **Task_Table**.
 
-| Attribute Name | Data Type | Description & Usage |
+| Attribute name | Data type | Description and usage |
 | :--- | :--- | :--- |
 | **ActivityID** | Text / Number | **Primary Key.** A unique identifier for each task. This ID is often used to link with the BIM Model (e.g., matching the **Mark** or **Tag** parameter in Revit). |
 | **TaskName** | Text | A descriptive name for the activity (e.g., "Pouring L2 Slab"). Appears in the Gantt Chart. |
@@ -45,30 +46,31 @@ This is the primary dataset driving the Gantt chart and 4D simulation.
 | **ActualFinish** | Date | (Optional) Real-world finish date. |
 | **OriginalDuration** | Number | The planned duration in days. |
 
-![Task Table Example](../_media/task-table-screenshot.png)
+The screenshot below shows a correctly populated **Task_Table**.
 
-*Figure 1: Example of a correctly populated Task_Table.*
+![Task Table Example](../_media/task-table-screenshot.png)
 
 ---
 
-### 3. Sheet: ResourceToTask (Resource Allocation)
+### 3. Sheet: ResourceToTask
 This sheet handles the resource allocation logic by linking specific resources to project activities.
-> **Important:** The sheet name must remain exactly **ResourceToTask**.
+> [!IMPORTANT]
+> The sheet name must remain exactly **ResourceToTask**.
 
-| Attribute Name | Data Type | Description & Usage |
+| Attribute name | Data type | Description and usage |
 | :--- | :--- | :--- |
 | **ResourceGUID** | Text | Unique ID for the resource (Labor, Material, Equipment). |
 | **ActivityID** | Text | **Foreign Key.** This **MUST match** an **ActivityID** from the **Task_Table**. It creates the relationship between the resource and the schedule task. |
 
-![Resource Table Example](../_media/resource-table-screenshot.png)
+The screenshot below shows resources linked to schedule activities in **ResourceToTask**.
 
-*Figure 2: Linking Resources to Activities.*
+![Resource Table Example](../_media/resource-table-screenshot.png)
 
 ---
 
-## Setup & Configuration Guide
+## Set up and configure the dashboard
 
-### How to Link Your Data
+### Link your data
 The dashboard is designed to be dynamic. You don't need to edit the Power BI file structure; simply update the connection parameter.
 
 1.  Open the Power BI Report (**.pbix**).
@@ -78,7 +80,7 @@ The dashboard is designed to be dynamic. You don't need to edit the Power BI fil
     * *Example:* `C:\Users\Name\Projects\4D_Schedule.xlsx`
 5.  Click **OK** and then **Apply Changes**.
 
-### How to Update Progress
+### Update progress
 As the project moves forward, you only need to update the Excel file:
 1.  Open your linked Excel Workbook.
 2.  Update the **Status** column (e.g., change specific tasks from "In Progress" to "Completed").
@@ -88,7 +90,7 @@ As the project moves forward, you only need to update the Excel file:
 
 ---
 
-## Technical Logic: Status & Coloring
+## Technical logic: status and coloring
 
 The dashboard utilizes a **DAX Logic Matrix** to assign statuses dynamically based on the comparison between the **Timeline Date** (selected by the user) and the **Task Dates**.
 

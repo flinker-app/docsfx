@@ -1,5 +1,5 @@
 ---
-title: FAQs for IFC Viewer in Microsoft Teams
+title: IFC Viewer in Microsoft Teams FAQ
 description: Answers to setup, files, permissions, and data protection questions for the IFC Viewer app in Microsoft Teams.
 summary: Frequently asked questions on installing the IFC Viewer tab, linking IFC and BCF files, default views, Teams deep links, permissions, privacy, telemetry, and client-side parsing in Teams.
 slug: faq-for-ifc-viewer-in-teams
@@ -31,7 +31,7 @@ tags:
   - permissions
   - privacy
 og:
-  title: FAQs for IFC Viewer in Microsoft Teams
+  title: IFC Viewer in Microsoft Teams FAQ
   description: Setup, files, permissions, and privacy details for the IFC Viewer in Teams.
 twitter:
   card: summary
@@ -41,7 +41,7 @@ feature: ifc-viewer
 ms.date: 2026-03-26
 ---
 
-# FAQ for IFC Viewer in Microsoft Teams
+# IFC Viewer in Microsoft Teams FAQ
 
 
 ## Setup and installation
@@ -72,7 +72,7 @@ Yes. The IFC Viewer runs as a Teams tab and must be added to a chat or channel.
 
 Yes. Add separate IFC Viewer tabs to multiple teams or chats.
 
-## Files and Links
+## Files and links
 
 ### Where do I get the IFC file link?
 
@@ -245,21 +245,21 @@ This is standard browser behavior in Microsoft Teams. Two workarounds:
    Configure it as the default view in the tab settings. The viewer will reload that
    view automatically each time the tab is opened.
 
-- Setup guide: [Configure Tab Setting – Step 6](https://docs.flinker.app/docs/setting-up-the-ifc-viewer-in-microsoft-teams.html#step-6-configure-tab-setting)
+- Setup guide: [Configure tab settings - Step 6](setting-up-the-ifc-viewer-in-microsoft-teams.md#step-6-configure-tab-settings)
 
 ### Does everyone see whenever I open a file or which part I am viewing at?
 
 No. Other users in Teams do not get a notification when you open a file in IFC Viewer. Each user has an individual view. The model view does not synchronize between users unless you use screen sharing or another collaboration method.
 
-## Data and Processing
+## Data and processing
 
 ### Does the IFC Viewer for Microsoft Teams send any telemetry or IFC data to Flinker?
 
-No. The IFC Viewer for Microsoft Teams does not send any IFC or BCF content to Flinker. Only minimal technical metadata is processed, as described in the Architecture & Data Protection documentation.
+No. The IFC Viewer for Microsoft Teams does not send any IFC or BCF content to Flinker. Only minimal technical metadata is processed, as described in the architecture and data protection documentation.
 
 ### Is IFC parsing performed entirely in the browser?
 
-Yes. The IFC Viewer for Microsoft Teams parses and processes IFC files entirely client-side in the browser. No IFC model data is sent to Flinker services. For more details, see the Architecture & Data Protection documentation.
+Yes. The IFC Viewer for Microsoft Teams parses and processes IFC files entirely client-side in the browser. No IFC model data is sent to Flinker services. For more details, see the architecture and data protection documentation.
 
 ## Filters
 

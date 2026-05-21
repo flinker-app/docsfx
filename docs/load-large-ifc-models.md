@@ -5,15 +5,15 @@ keywords: IFC, Large Models, BIM, Optimization, Viewer
 canonical_url: https://docs.flinker.app/docs/load-large-ifc-models.html
 ---
 
-## Load large IFC models
+# Load large IFC models
 
 The IFC Viewer is designed to load and navigate large IFC models in the browser. For very large datasets, fragment-based loading can improve startup time and interaction performance.
 
 ### Live demo
 
-<iframe src="https://viewer.flinker.app/examples/fragments.html" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://viewer.flinker.app/examples/ifc.html" width="100%" height="500px" frameborder="0" allowfullscreen></iframe>
 
-The demo shows a model loaded with fragment-based rendering.
+The demo shows a browser-based IFC model viewer.
 
 ### Capabilities
 

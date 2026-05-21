@@ -1,13 +1,13 @@
 ---
-title: Admin Deployment Overview
+title: Admin deployment overview
 description: Overview for administrators planning Flinker IFC Viewer deployments across SharePoint Online, OneDrive for work or school, Microsoft Teams, and Microsoft Power BI.
 ---
 
-# Admin Deployment Overview
+# Admin deployment overview
 
 Use this overview to identify each Flinker IFC Viewer component, the product experience it supports, the responsible administrator role, the approval path, and the full installation guide.
 
-## Deployment Components
+## Deployment components
 
 The components are independent from each other. Install only the components required for your rollout.
 
@@ -18,7 +18,7 @@ The components are independent from each other. Install only the components requ
 | IFC Viewer for Microsoft Teams | Embed IFC and BCF model viewing in Microsoft Teams channels and group chats. | Teams Administrator approves and deploys the Teams app with an app setup policy or team template. Global Administrator or Application Administrator grants Microsoft Entra ID admin consent for the required file access permissions. [Installation guide](./setting-up-the-ifc-viewer-in-microsoft-teams.md) |
 | IFC Viewer Visual for Power BI | Display IFC models inside Microsoft Power BI reports with a custom visual. | Fabric Administrator or Power BI Administrator adds the visual as an organizational visual, or allows installation through tenant settings in the Microsoft Fabric Admin Portal or Power BI tenant settings. [Installation guide](./ifc-viewer-installation-for-power-bi.md) |
 
-## Data Protection
+## Data protection
 
 All IFC files, project data, and BIM models are processed client-side in the browser and remain in your Microsoft tenant, workspace, or source system. No project data is sent to Flinker.
 

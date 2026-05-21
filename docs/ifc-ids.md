@@ -48,9 +48,8 @@ Follow these steps to validate an IFC model with an IDS file:
    - The validation report summarizes passed and failed elements for review.
 
 ![IDS Validation Results](/_media/ifc-ids.png)
-_Example of IDS validation results highlighting passing (green) and failing (red) elements with a summary report._
 
-## Automatic Detection and Validation Rules
+## Automatic detection and validation rules
 
 IDS integration supports automated validation for:
 
@@ -60,7 +59,7 @@ IDS integration supports automated validation for:
 
 When an IDS file is connected to the model, the viewer checks the model data against the selected rules and reports the validation result.
 
-## Practical Examples
+## Practical examples
 
 - **Property validation**: Check whether _IfcWall_ elements include required attributes such as `FireRating` or `LoadBearing`.
 - **Classification checks**: Identify elements that are missing required classification codes.
