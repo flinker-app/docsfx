@@ -166,10 +166,10 @@ _disableNextArticle: true
       <p>Use these resources when you need to embed model workflows in web apps, portals, digital twins, intranets, dashboards, or project systems.</p>
     </div>
     <div class="home-resource-grid">
-      <a class="home-resource-link" href="/docs/ifc-viewer-sdk.html">
-        <span class="home-card-type">SDK</span>
-        <strong>IFC Viewer SDK</strong>
-        <span>This article explains how to embed browser-based IFC, BCF, and IDS workflows in custom web applications.</span>
+      <a class="home-resource-link" href="/docs/developer-resources.html">
+        <span class="home-card-type">Overview</span>
+        <strong>Developer resources</strong>
+        <span>Start here for SDKs, API reference, examples, and AI-assisted model workflow integration.</span>
       </a>
       <a class="home-resource-link" href="/docs/ifc-viewer-sdk-api.html">
         <span class="home-card-type">API reference</span>

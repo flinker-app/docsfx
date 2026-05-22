@@ -1,0 +1,15 @@
+### YamlMime:Dashboard
+---
+title: Developer resources
+description: Start here when you need to embed IFC, BCF, IDS, or AI-assisted model workflows in custom applications.
+documentType: dashboard
+_disableAffix: true
+_disableBreadcrumb: true
+_disableNextArticle: true
+items:
+  - name: IFC Viewer SDK
+    description: Embed browser-based IFC, BCF, and IDS model review workflows in custom web applications.
+    href: ifc-viewer-sdk.html
+  - name: Copilot for IFC SDK
+    description: Generate Python workflows from prompts and run controlled IFC model analysis in custom integrations.
+    href: copilot-for-ifc-api.html

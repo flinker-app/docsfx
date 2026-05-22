@@ -32,6 +32,7 @@
 - https://docs.flinker.app/docs/ifc-viewer-for-microsoft-excel.html
 
 ## API and AI
+- https://docs.flinker.app/docs/developer-resources.html
 - https://docs.flinker.app/docs/ifc-viewer-sdk.html
 - https://docs.flinker.app/docs/ifc-viewer-sdk-api.html
 - https://docs.flinker.app/docs/ifc-viewer-sdk-examples.html

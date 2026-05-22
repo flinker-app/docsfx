@@ -45,14 +45,10 @@
       href: ifc-infra.md
     - name: IFC model queries and property sets
       href: ifc-filters.md
-    - name: Load large IFC models
-      href: load-large-ifc-models.md
     - name: IFC georeferencing and maps
       href: real_worldMap.md
     - name: 2D drawing overlays (PDF)
       href: PDF-2d.md
-    - name: COBie handover export
-      href: ifc-cobie.md
 - name: BCF issues
   href: ifc-bcf.md
   items:
@@ -175,6 +171,8 @@
       href: ifc-excel-power-bi.md
 
 - name: Developer
+- name: Developer resources
+  href: developer-resources.yml
 - name: IFC Viewer SDK
   href: ifc-viewer-sdk.md
   items:

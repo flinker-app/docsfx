@@ -1,25 +1,33 @@
 ---
 title: Industry Foundation Classes (IFC)
-description: Learn what Industry Foundation Classes (IFC) are, why IFC is important for openBIM workflows, and how to inspect IFC models with the Flinker IFC Viewer.
+description: Learn how IFC supports openBIM model exchange and how Flinker IFC Viewer handles large and multi-model IFC review workflows.
 keywords: IFC, Industry Foundation Classes, openBIM, buildingSMART, ISO 16739, IFC viewer, BIM data, 3D models, SharePoint, Microsoft Teams
 canonical_url: https://docs.flinker.app/docs/ifc-viewer.html
 ---
 
 # Industry Foundation Classes (IFC)
 
-Industry Foundation Classes (IFC) is an openBIM data standard for exchanging building and infrastructure models between software tools.
+Industry Foundation Classes (IFC) is an openBIM standard for exchanging building and infrastructure models between software tools.
 
-Use IFC when you need to review model geometry, inspect object properties, coordinate issues, validate project data, or keep model information usable outside the original authoring application.
+Use IFC when you need to review model geometry, inspect object data, coordinate issues, validate delivery requirements, or keep model information usable outside the original authoring application.
 
-## IFC in brief
+## What IFC contains
 
-- **Open standard**: Vendor-neutral model exchange for architecture, engineering, construction, and facility workflows.
-- **Geometry and data**: IFC can include 3D elements, spatial structure, properties, quantities, materials, classifications, and georeferencing.
-- **Review quality depends on export quality**: Reliable IFC exports include the model content and metadata required for the review task.
+An IFC file can include model geometry, spatial structure, object properties, quantities, materials, classifications, and georeferencing data. The quality of the review depends on the quality of the export. Reliable IFC exports include the model content and metadata required for the review task.
 
-## Inspect IFC models with Flinker IFC Viewer
+## Review IFC models with Flinker IFC Viewer
 
-Flinker IFC Viewer lets you open IFC and 3D model files in the browser so project teams can inspect model geometry and data without moving files to a separate BIM platform.
+Flinker IFC Viewer lets project teams open IFC and supported 3D model files without moving files to a separate BIM platform.
+
+Use the viewer to:
+
+- Open IFC models in the browser or desktop app.
+- Review large project models and federated discipline models.
+- Inspect geometry, model hierarchy, object properties, and GlobalIds.
+- Filter model elements by class, storey, property set, or attribute value.
+- Coordinate model issues with BCF viewpoints and view states.
+- Review information delivery requirements with IDS workflows.
+- Place supported IFC models on maps by using available coordinate data.
 
 > [!NOTE]
 > **Privacy first**
@@ -31,17 +39,34 @@ Flinker IFC Viewer lets you open IFC and 3D model files in the browser so projec
 > [!div class="nextstepaction"]
 > [Get the Open IFC Viewer desktop app](https://apps.microsoft.com/detail/9ndxqrvvrq0j?hl=de-DE&gl=DE)
 
-## Viewer capabilities
+## Large and multi-model loading
 
-- **Model inspection**: Review geometry, spatial structure, object properties, and GlobalIds.
-- **Property-based queries**: Filter IFC elements by class, storey, property set, and attribute values.
-- **Large-model support**: Load and review large IFC files in the browser.
-- **BCF workflows**: Use BCF viewpoints and view states for model-based issue coordination.
-- **IDS workflows**: Review IFC model data against information delivery requirements.
-- **Georeferencing**: Place supported IFC models on maps using available coordinate data.
-- **Microsoft 365 integration**: View models from SharePoint pages, document libraries, Microsoft Teams tabs, Excel, and Power BI.
+Flinker IFC Viewer supports loading IFC datasets up to multiple GB in supported environments. It is built for high-performance review of large single models and multi-model projects that combine architecture, structure, MEP, site, and infrastructure files.
 
-## Common IFC model review questions
+Performance depends on file size, geometry complexity, export quality, device memory, graphics hardware, browser, and network speed.
+
+For best results:
+
+- Export the model content required for review.
+- Avoid unnecessary authoring detail, temporary objects, and unused geometry.
+- Split very large projects by discipline, building, level, or review scope when that matches the coordination workflow.
+- Use local files, SharePoint files, or network locations with reliable throughput.
+- Test representative project files before a broad rollout.
+
+## Microsoft 365 and app integration
+
+You can use IFC Viewer across Microsoft 365 and custom app workflows.
+
+| Environment | Use case |
+|---|---|
+| Online viewer | Open IFC files quickly for browser-based model review. |
+| Desktop app | Review large local files and multi-GB IFC datasets. |
+| SharePoint | View models from document libraries and SharePoint pages. |
+| Microsoft Teams | Review shared project models in channel workflows. |
+| Power BI and Excel | Connect model geometry with reporting, schedule, cost, and spreadsheet analysis. |
+| SDK | Embed IFC, BCF, and IDS review workflows in custom web applications. |
+
+## Frequently asked IFC model review questions
 
 These questions cover general IFC model review behavior. For platform-specific questions, use the Microsoft 365 app FAQ pages:
 
@@ -51,16 +76,18 @@ These questions cover general IFC model review behavior. For platform-specific q
 
 ### Why can an IFC model take a long time to open?
 
-IFC models can contain geometry, object relationships, property sets, quantities, classifications, materials, spatial structure, and georeferencing data. Large or highly detailed exports may therefore need more time to parse and display in the browser.
+IFC models can contain geometry, object relationships, property sets, quantities, classifications, materials, spatial structure, and georeferencing data. Large or highly detailed exports can need more time to parse, optimize, and display.
 
 If a model opens slowly, check:
 
-1. **IFC export scope** - Export the model content required for review instead of unnecessary authoring detail.
-2. **Model size and structure** - Large geometry, repeated complex objects, and excessive property data can increase load time.
-3. **Device resources** - Browser-based model review depends on available memory, CPU, and graphics resources.
-4. **Network connection** - Opening files from cloud storage can be delayed by slow or unstable connectivity.
+| Area | What to check |
+|---|---|
+| IFC export scope | Export the model content required for review instead of unnecessary authoring detail. |
+| Model size and structure | Large geometry, repeated complex objects, and excessive property data can increase load time. |
+| Device resources | Browser-based model review depends on available memory, CPU, and graphics resources. |
+| Network connection | Opening files from cloud storage can be delayed by slow or unstable connectivity. |
 
-For better openBIM exchange, keep stable `GlobalId` values, include the required property sets and quantities, and validate model data against the project information requirements where possible.
+For better openBIM exchange, keep stable `GlobalId` values, include the required property sets and quantities, and validate model data against project information requirements where possible.
 
 ### Can I open Autodesk Revit or Navisworks files directly?
 
