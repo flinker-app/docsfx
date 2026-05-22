@@ -36,6 +36,9 @@ jobs:
     # Install DocFX as a global tool
     - run: dotnet tool update -g docfx
 
+    # Generate file metadata consumed by docfx.json
+    - run: node scripts/generate-last-updated.js
+
     # Build the documentation using docfx.json in the root directory
     - run: docfx docfx.json
 
