@@ -1,68 +1,108 @@
 ---
-title: IDS integration
-description: Learn how to validate IFC model data with Information Delivery Specification (IDS) rules in SharePoint and Teams workflows.
-keywords: IDS, IFC, BIM, Validation, SharePoint, Teams, Integration
+title: Information Delivery Specification (IDS)
+description: Learn how Information Delivery Specification (IDS) supports structured IFC validation and how Flinker IFC Viewer brings IDS workflows into Microsoft 365.
+keywords: IDS, Information Delivery Specification, buildingSMART, openBIM, IFC validation, IFC Viewer, SharePoint, Microsoft Teams, Power BI
 canonical_url: https://docs.flinker.app/docs/ifc-ids.html
 ---
 
-# IDS integration
+# Information Delivery Specification (IDS)
 
-Use Information Delivery Specification (IDS) validation to check IFC model data against defined information requirements in SharePoint and Teams workflows.
+Information Delivery Specification (IDS) is a buildingSMART openBIM standard for defining model information requirements in a machine-readable format.
 
-## What is IDS?
+Use IDS when you need to check whether IFC model data contains the required objects, classifications, attributes, properties, and values for a project milestone, exchange requirement, tender, approval, or handover.
 
-**Information Delivery Specification (IDS)** is a buildingSMART standard for defining information requirements in a computer-interpretable form. IDS files can be used to check whether IFC model data includes the required objects, classifications, attributes, properties, and values.
+## What IDS contains
 
-IDS supports structured model validation by defining what information must be delivered and how it should be represented in the IFC model.
+An IDS file describes the information that must be present in an IFC model. It can define requirements for element types, classifications, attributes, property sets, property names, property values, and other model data rules.
 
-- Enables automatic model validation
-- Supports consistent information delivery requirements
-- Helps teams identify missing or invalid model data
+IDS does not replace project information requirements. It makes those requirements testable so teams can validate model data consistently before coordination, submission, or handover.
 
-## IDS validation capabilities
+## File example
 
-- Check IFC models against defined IDS rules directly in Microsoft 365 workflows.
-- Review passing and failing elements in the model viewer.
-- Store IDS files, validation reports, and related model files in SharePoint or Teams.
+An IDS file is XML. A shortened IDS 1.0 requirement can look like this:
 
-## Validate a model with IDS
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<ids:ids xmlns:ids="http://standards.buildingsmart.org/IDS">
+  <ids:info>
+    <ids:title>Door fire rating requirement</ids:title>
+  </ids:info>
+  <ids:specifications>
+    <ids:specification name="Doors require FireRating" ifcVersion="IFC4">
+      <ids:applicability>
+        <ids:entity>
+          <ids:name>
+            <ids:simpleValue>IFCDOOR</ids:simpleValue>
+          </ids:name>
+        </ids:entity>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property dataType="IFCLABEL">
+          <ids:propertySet>
+            <ids:simpleValue>Pset_DoorCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:name>
+            <ids:simpleValue>FireRating</ids:simpleValue>
+          </ids:name>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+  </ids:specifications>
+</ids:ids>
+```
 
-Follow these steps to validate an IFC model with an IDS file:
+## Supported versions and references
 
-1. **Load Your IFC Model**  
-   Open the IFC file in the viewer.
+Flinker IFC Viewer supports IDS 1.0 validation workflows for IFC model data. Earlier IDS draft files should be updated or validated against IDS 1.0 before they are used in controlled project workflows. For the standard overview, see buildingSMART [Information Delivery Specification](https://www.buildingsmart.org/standards/bsi-standards/information-delivery-specification-ids/).
 
-2. **Open the IDS Panel**  
-   Open the **IDS** panel.
+| Version | Support |
+|---|---|
+| IDS 1.0 | Supported for checking IFC model data against machine-readable information requirements. |
+| Earlier IDS drafts | Not recommended for controlled project workflows. Convert or validate them against IDS 1.0 where possible. |
 
-3. **Load an IDS File**  
-   Select **Open IDS File**, and then choose the IDS specification file.
+For implementation details, use the [IDS 1.0 final standard release](https://github.com/buildingSMART/IDS/releases/tag/v1.0.0) and the buildingSMART [IDS GitHub repository](https://github.com/buildingSMART/IDS).
 
-4. **Review Specifications**  
-   Review the information requirements defined in the IDS file.
+## Validate IFC models with Flinker IFC Viewer
 
-5. **Inspect Validation Results and Report**  
-   Select a specific specification to see the corresponding elements in the model:
-   - Passing elements are highlighted in green.
-   - Failing elements are highlighted in red.
-   - The validation report summarizes passed and failed elements for review.
+Flinker IFC Viewer lets project teams load IDS files and validate IFC model data in the model review workflow.
 
-![IDS Validation Results](/_media/ifc-ids.png)
+Use the viewer to:
 
-## Automatic detection and validation rules
+- Open an IFC model and an IDS specification together.
+- Review the information requirements in the IDS file.
+- Check model elements against required classifications, attributes, properties, and values.
+- Highlight passing and failing elements in the model viewer.
+- Use validation results to identify missing or invalid model data.
+- Keep IDS files, IFC models, and validation outputs in Microsoft 365 project locations.
 
-IDS integration supports automated validation for:
+![Screenshot of IDS validation results in the IFC Viewer](/_media/ifc-ids.png)
 
-- required properties and attributes
-- classification codes
-- element types and geometry checks
+## Information validation at scale
 
-When an IDS file is connected to the model, the viewer checks the model data against the selected rules and reports the validation result.
+IDS helps owners, contractors, BIM managers, and information managers move from manual model checks to repeatable validation workflows. It supports consistent information delivery across disciplines, project phases, and suppliers.
 
-## Practical examples
+For governed project workflows, use IDS to:
 
-- **Property validation**: Check whether _IfcWall_ elements include required attributes such as `FireRating` or `LoadBearing`.
-- **Classification checks**: Identify elements that are missing required classification codes.
-- **Model delivery checks**: Verify whether models follow project-specific data standards across consultants or project phases.
+- Validate project information requirements before model exchange.
+- Reduce manual checking of object properties and classification data.
+- Compare delivery quality across consultants and project phases.
+- Identify missing data before coordination, approval, or handover.
+- Store requirements and validation evidence with project files in Microsoft 365.
+- Connect validation outcomes with reporting and governance workflows.
 
-Use validation results to identify missing information before coordination, submission, or handover.
+## Microsoft 365 and app integration
+
+You can use IDS validation across Microsoft 365 and custom app scenarios.
+
+| Environment | Use case |
+|---|---|
+| SharePoint | Store IFC and IDS files with project documentation and review validation results with controlled permissions. |
+| Microsoft Teams | Review validation issues with project teams in channel workflows. |
+| Power BI | Report IDS compliance across models, disciplines, milestones, or projects. |
+| SDK | Embed IDS loading and validation workflows in custom web applications. |
+
+## Related articles
+
+- [Industry Foundation Classes (IFC)](ifc-viewer.md)
+- [IFC model queries and property sets](ifc-filters.md)
+- [IFC-IDS compliance dashboard](IFC_IDS_Compliance.md)

@@ -15,6 +15,36 @@ Use IFC when you need to review model geometry, inspect object data, coordinate 
 
 An IFC file can include model geometry, spatial structure, object properties, quantities, materials, classifications, and georeferencing data. The quality of the review depends on the quality of the export. Reliable IFC exports include the model content and metadata required for the review task.
 
+## File example
+
+An IFC file is commonly exchanged as STEP text. A shortened example can look like this:
+
+```text
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('ViewDefinition [CoordinationView]'),'2;1');
+FILE_SCHEMA(('IFC4'));
+ENDSEC;
+DATA;
+#10=IFCPROJECT('0JqL9x8rP2R8N3bK7s5wQ1',$,'Sample project',$,$,$,$,$,$);
+#42=IFCWALL('2hF6q9aQj8ZP1rL5mV3dT2',$,'External wall',$,$,$,$,$,$);
+#84=IFCPROPERTYSINGLEVALUE('FireRating',$,IFCLABEL('EI60'),$);
+ENDSEC;
+END-ISO-10303-21;
+```
+
+## Supported versions and references
+
+Flinker IFC Viewer supports common IFC deliverables, including IFC2x3, IFC4, and IFC4x3 workflows. Version-specific behavior depends on the exported geometry, schema content, and model data quality. For the official schema history, see the buildingSMART [IFC schema specifications](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/).
+
+| Version | Support |
+|---|---|
+| IFC2x3 | Supported for common building model review, properties, quantities, and georeferencing data where available. |
+| IFC4 | Supported for model review, properties, quantities, CRS data, and map conversion workflows. |
+| IFC4x3 | Supported for infrastructure and alignment workflows where the model contains supported geometry and schema data. |
+
+For the standard overview, see buildingSMART [Industry Foundation Classes](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/). For infrastructure schema details, see the buildingSMART [IFC4.3 specification](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/HTML/).
+
 ## Review IFC models with Flinker IFC Viewer
 
 Flinker IFC Viewer lets project teams open IFC and supported 3D model files without moving files to a separate BIM platform.
