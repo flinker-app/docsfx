@@ -83,10 +83,13 @@ function generate() {
 
   const metadata = {
     lastUpdated: {},
+    lastUpdatedText: {},
   };
 
   for (const file of files) {
-    metadata.lastUpdated[file.relPath] = fileDate(file.relPath, file.absPath);
+    const date = fileDate(file.relPath, file.absPath);
+    metadata.lastUpdated[file.relPath] = date;
+    metadata.lastUpdatedText[file.relPath] = `Last updated on ${date}`;
   }
 
   fs.mkdirSync(outputDir, { recursive: true });

@@ -37,7 +37,24 @@ function normalizeDate(value) {
     return '';
   }
 
-  return String(value).trim();
+  if (Object.prototype.toString.call(value) === '[object Date]' && !isNaN(value.getTime())) {
+    return value.toISOString().slice(0, 10);
+  }
+
+  var text = String(value).trim();
+  var isoDate = text.match(/^(\d{4}-\d{2}-\d{2})/);
+
+  if (isoDate) {
+    return isoDate[1];
+  }
+
+  var parsedDate = Date.parse(text);
+
+  if (!isNaN(parsedDate) && /\b\d{4}\b/.test(text) && /\b\d{1,2}\b/.test(text)) {
+    return new Date(parsedDate).toISOString().slice(0, 10);
+  }
+
+  return text;
 }
 
 function formatLastUpdatedText(value) {
@@ -45,5 +62,5 @@ function formatLastUpdatedText(value) {
     return '';
   }
 
-  return /^\d{4}-\d{2}-\d{2}$/.test(value) ? 'Last updated on ' + value : 'Last updated: ' + value;
+  return 'Last updated on ' + value;
 }

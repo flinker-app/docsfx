@@ -1,16 +1,16 @@
 ### YamlMime:Dashboard
 ---
 title: Microsoft 365 solutions overview
-description: Browse the Flinker solutions and admin resources for using IFC model workflows in Microsoft Teams, SharePoint, Power BI, Excel, and tenant-managed Microsoft 365 deployments.
+description: Browse the Flinker solutions for IFC model workflows, reporting, spreadsheet analysis, and SharePoint access governance in Microsoft 365.
 documentType: dashboard
 _disableAffix: true
 _disableBreadcrumb: true
 _disableNextArticle: true
 items:
-  - name: Admin deployment overview
-    description: Compare the deployment components, administrator roles, approval paths, and installation guides for Flinker solutions in Microsoft 365.
-    thumbnail: /_media/sharepoint-admin-center-pending-requests-ifc-viewer-approve.png
-    href: it-admin-quickstart.html
+  - name: Protect for SharePoint
+    description: Manage SharePoint and Teams permissions, external sharing, and access reporting from one place in Microsoft 365.
+    thumbnail: /_media/permissions-across-sites-overview.png
+    href: share-features.html
   - name: IFC Viewer for Microsoft Teams
     description: Add IFC and BCF model viewing to Microsoft Teams channels so project members can review shared model files in their Microsoft 365 workspace.
     thumbnail: /_media/teams-apps-ifc-viewer-ifc-files-from-settings-load-automatically.png

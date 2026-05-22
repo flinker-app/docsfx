@@ -1,10 +1,10 @@
-- name: OVERVIEW
+- name: Overview
 - name: Getting started
   href: getting-started.md
-- name: Microsoft 365 solutions overview
+- name: Microsoft 365 solutions
   href: apps.yml
 
-- name: SECURITY AND DEPLOYMENT
+- name: Security and deployment
 - name: Security and privacy
   href: ifc-viewer-architecture-and-data-protection.md
   items:
@@ -12,9 +12,9 @@
       href: ifc-viewer-sharepoint-architecture-and-data-protection.md
     - name: Microsoft Teams architecture and data protection
       href: open-ifc-viewer-teams-architecture-and-data-protection.md
-- name: Admin deployment overview
+- name: Admin deployment
   href: it-admin-quickstart.md
-- name: Deploy apps in Microsoft 365
+- name: App deployment
   expanded: false
   items:
     - name: Install IFC Viewer for SharePoint
@@ -29,7 +29,7 @@
       href: ifc-viewer-installation-for-power-bi.md
     - name: Activate IFC Viewer Visual for Power BI
       href: ifc-viewer-license-key-for-power-bi.md
-- name: Upgrade deployed apps
+- name: App upgrades
   expanded: false
   items:
     - name: Upgrade IFC Viewer to the latest version
@@ -37,8 +37,8 @@
     - name: Upgrade Protect for SharePoint to the latest version
       href: upgrade-share-app.md
 
-- name: MODEL DATA AND OPENBIM
-- name: Industry Foundation Classes (IFC)
+- name: OpenBIM data
+- name: IFC models
   href: ifc-viewer.md
   items:
     - name: IFC 4.3 infrastructure and alignments
@@ -53,23 +53,23 @@
       href: PDF-2d.md
     - name: COBie handover export
       href: ifc-cobie.md
-- name: BIM Collaboration Format (BCF)
+- name: BCF issues
   href: ifc-bcf.md
   items:
     - name: BCF viewpoints and view states
       href: bcf-viewpoints.md
     - name: Import Navisworks clash reports
       href: bcf-navisworks.md
-- name: Information Delivery Specification (IDS)
+- name: IDS validation
   href: ifc-ids.md
 
-- name: MODEL REVIEW AND COORDINATION
-- name: Review IFC models in SharePoint
+- name: Model review
+- name: IFC models in SharePoint
   href: ifc-viewer-for-sharepoint.md
   items:
     - name: Use IFC Viewer in SharePoint
       href: using-ifc-viewer-in-sharepoint.md
-- name: Review IFC models in Microsoft Teams
+- name: IFC models in Teams
   href: ifc-viewer-for-teams.md
   items:
     - name: Microsoft Teams quick guide
@@ -82,7 +82,7 @@
       href: share-bcf-topics-as-teams-deep-links.md
     - name: Link documents to model elements
       href: ifc-docslink.md
-- name: Coordinate issues with Microsoft Lists
+- name: Issues in Microsoft Lists
   expanded: false
   items:
     - name: Connect BCF issues to Microsoft Lists
@@ -90,8 +90,8 @@
     - name: Microsoft Lists and BCF integration
       href: ifc-lists.md
 
-- name: REPORTING AND ANALYTICS
-- name: Power BI model reporting
+- name: "Analytics & intelligence"
+- name: Power BI reporting
   href: ifc-power-bi.md
   items:
     - name: Use the 3D IFC Viewer with Power BI
@@ -100,7 +100,7 @@
       href: ifc-viewer-color-rules-for-power-bi.md
     - name: Share Power BI IFC reports with external users
       href: sharing-power-bi-ifc-reports-with-external-users.md
-- name: Power BI report templates
+- name: Power BI templates
   href: power-bi-report-templates.yml
   items:
     - name: Report template scenarios
@@ -117,7 +117,7 @@
       href: IFC_BCF_Bi.md
     - name: IFC-IDS compliance dashboard
       href: IFC_IDS_Compliance.md
-- name: Excel model analysis
+- name: Excel analysis
   href: ifc-viewer-for-microsoft-excel.md
   items:
     - name: IFC data integration for Microsoft Excel
@@ -130,7 +130,7 @@
         - name: IFC Excel cost tracker
           href: ifc-excel-cost-tracker.md
 
-- name: ACCESS GOVERNANCE
+- name: Access governance
 - name: Protect for SharePoint
   href: share-features.md
   items:
@@ -158,13 +158,13 @@
     - name: Grant guest users access to SharePoint solutions
       href: enable-guest-user-access-to-sharepoint-app.md
 
-- name: WORKFLOW AUTOMATION
+- name: Workflows
 - name: Copilot for IFC
   href: copilot-for-ifc.md
   items:
     - name: Copilot for IFC Pro
       href: copilot-for-ifc-pro.md
-- name: Power BI semantic model workflows
+- name: Power BI semantic models
   href: IFC_SharedSemanticModel.md
   items:
     - name: Load complete IFC data in Power BI
@@ -174,7 +174,7 @@
     - name: Connect IFC data from Excel to Power BI
       href: ifc-excel-power-bi.md
 
-- name: DEVELOPER RESOURCES
+- name: Developer
 - name: IFC Viewer SDK
   href: ifc-viewer-sdk.md
   items:
@@ -200,7 +200,7 @@
 - name: Copilot for IFC SDK
   href: copilot-for-ifc-api.md
 
-- name: REFERENCE
+- name: Reference
 - name: FAQs
   expanded: false
   items:
