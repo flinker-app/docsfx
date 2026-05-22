@@ -16,10 +16,11 @@ body[data-layout="landing"] > main > .content > .actionbar {
 }
 
 body[data-layout="landing"] > main > .content > .article-metadata {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: min(1600px, calc(100% - 48px));
+  display: none;
+}
+
+body[data-layout="landing"] > footer {
+  display: none;
 }
 
 body[data-layout="landing"] article {
