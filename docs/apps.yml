@@ -9,21 +9,21 @@ _disableNextArticle: true
 items:
   - name: Protect for SharePoint
     description: Manage SharePoint and Teams permissions, external sharing, and access reporting from one place in Microsoft 365.
-    thumbnail: /_media/permissions-across-sites-overview.png
+    thumbnail: /_media/appsource-protect-for-sharepoint.png
     href: share-features.html
   - name: IFC Viewer for Microsoft Teams
     description: Add IFC and BCF model viewing to Microsoft Teams channels so project members can review shared model files in their Microsoft 365 workspace.
-    thumbnail: /_media/teams-apps-ifc-viewer-ifc-files-from-settings-load-automatically.png
+    thumbnail: /_media/appsource-ifc-viewer-for-teams.png
     href: setting-up-the-ifc-viewer-in-microsoft-teams.html
   - name: IFC Viewer for SharePoint
     description: View IFC models from SharePoint document libraries and embed model views on SharePoint pages while keeping files in your Microsoft 365 tenant.
-    thumbnail: /_media/sharepoint-document-library-view-ifc-file.png
+    thumbnail: /_media/appsource-ifc-viewer-for-sharepoint.png
     href: viewer-app-installation-with-admin-approval.html
   - name: IFC Viewer Visual for Power BI
     description: Display IFC models in Power BI reports and connect model elements with business, schedule, cost, and project data.
-    thumbnail: /_media/ifc-viewer-app-microsoft-power-bi-in-microsoft-appsource-store.png
+    thumbnail: /_media/appsource-ifc-viewer-for-power-bi.png
     href: ifc-power-bi.html
   - name: IFC Viewer add-in for Excel
     description: View IFC models in Microsoft Excel, sync selections with workbook data, and analyze model properties in familiar spreadsheet workflows.
-    thumbnail: /_media/ifc-viewer-in-excel.png
+    thumbnail: /_media/appsource-ifc-viewer-for-excel.png
     href: ifc-viewer-for-microsoft-excel.html
