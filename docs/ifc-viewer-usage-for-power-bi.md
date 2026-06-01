@@ -81,7 +81,7 @@ If you already have an empty Power BI report or an existing report and want to i
 
 ### 1. Copy the IFC loading query from the sample report
 
-1. Open the sample report ([download from AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/flinkergmbh1644589155747.ifc-viewer?src=docs&mktcmpid=ifc_power_pi)) in Power BI Desktop.
+1. Open the sample report .pbix ([download from AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/flinkergmbh1644589155747.ifc-viewer?src=docs&mktcmpid=ifc_power_pi)) in Power BI Desktop.
 2. Go to **Transform Data**.
 3. Locate the query used to load IFC files (usually named `IFC` or similar).
 4. Right-click the query and select **Copy**.
@@ -91,12 +91,17 @@ If you already have an empty Power BI report or an existing report and want to i
 ### 2. Paste the query into your own report
 
 5. Open your own report, go to **Transform Data**, right-click in the Queries pane, and select **Paste**.
+![Paste Query in Own Report](/_media/paste-query-in-own-report-flinker-pbi-visual.png)
+
 6. Adjust the [file location parameter](/docs/ifc-viewer-usage-for-power-bi.html#2-paste-the-ifc-file-path-into-parameters) to connect your model.
+  Click [here](#folder-loading) to learn how to point and load multiple IFC files from a folder.
 7. Click **Close & Apply** to save the changes and load the data into your report.
 
 ### 3. Add the IFC Viewer Visual from AppSource
 
 1. In Power BI Desktop, go to the Visualizations pane and click on **Get more visuals (… )** to search the IFC Viewer visual in the AppSource and add the IFC Viewer visual to your report.
+
+![Add IFC Flinker IFC Visual to Blank Report](/_media/add-ifc-flinker-ifc-visual-to-blank-report.png)
 2. Once added, find the IFC Viewer icon in the Visualizations pane and click it to add the visual to your report canvas.
 ### 3. Bind the required fields to the IFC Viewer visual
 

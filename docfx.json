@@ -42,6 +42,7 @@
     "globalMetadata": {
       "_appName": "Documentation",
       "_appTitle": "Documentation",
+      "_description": "Technical documentation for Flinker IFC Viewer, BCF workflows, IDS validation, and Microsoft 365 integrations.",
       "_enableNewTab": true,
       "_appLogoPath": "_media/flinker-icon.png",
       "_appFaviconPath": "favicon.ico",
