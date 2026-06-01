@@ -77,7 +77,11 @@ You are now ready to visualize your IFC model directly in Power BI using the IFC
 
 ## Option 2: Integrate into an existing or blank Power BI report
 
-If you already have an empty Power BI report or an existing report and want to integrate our IFC Viewer visual, follow these additional steps.
+If you already have an empty Power BI report or an existing report and want to integrate our IFC Viewer visual, watch the video and follow the below steps:
+
+<video controls style="width: 100%; max-width: 720px; border-radius: 6px; margin: 12px 0;">
+  <source src="/_media/Bi_QueryCopy_YouTube.mp4" type="video/mp4">
+</video>
 
 ### 1. Copy the IFC loading query from the sample report
 
