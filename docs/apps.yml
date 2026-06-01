@@ -7,7 +7,7 @@ _disableAffix: true
 _disableBreadcrumb: true
 _disableNextArticle: true
 items:
-  - name: Protect for SharePoint
+  - name: ISO 19650
     description: Manage SharePoint and Teams permissions, external sharing, and access reporting from one place in Microsoft 365.
     thumbnail: /_media/appsource-protect-for-sharepoint.png
     href: share-features.html

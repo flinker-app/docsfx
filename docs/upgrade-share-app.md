@@ -1,14 +1,14 @@
 ---
-title: Upgrade Protect for SharePoint to the latest version
-description: Learn how to upgrade your Protect for SharePoint to the latest version to enjoy enhanced features, security improvements, and performance boosts.
-keywords: Protect for SharePoint, upgrade, SharePoint, App Store, App Catalog, latest version
+title: Upgrade ISO 19650 to the latest version
+description: Learn how to upgrade your ISO 19650 to the latest version to enjoy enhanced features, security improvements, and performance boosts.
+keywords: ISO 19650, upgrade, SharePoint, App Store, App Catalog, latest version
 canonical_url: https://docs.flinker.app/docs/upgrade-share-app.html
 ---
 
-# Upgrade Protect for SharePoint to the latest version
+# Upgrade ISO 19650 to the latest version
 
 > [!TIP]
-> **Why Upgrade Your Protect for SharePoint?**
+> **Why Upgrade Your ISO 19650?**
 > - **Enhanced Features**: Gain access to the latest functionalities that improve your workflow.
 > - **Security Improvements**: Protect your data with the newest security patches and updates.
 > - **Performance Boosts**: Experience faster and more reliable app performance.
@@ -16,9 +16,9 @@ canonical_url: https://docs.flinker.app/docs/upgrade-share-app.html
 > [!NOTE]
 > - Important **Admin Permissions Required**: Only SharePoint administrators can perform the app upgrade.
 
-## 1. Upgrade Protect for SharePoint from the Site App Store
+## 1. Upgrade ISO 19650 from the Site App Store
 
-You can upgrade Protect for SharePoint in your site directly through the App Store.
+You can upgrade ISO 19650 in your site directly through the App Store.
 
 1. **Go to your site App Store**:
    
@@ -32,15 +32,15 @@ You can upgrade Protect for SharePoint in your site directly through the App Sto
    
    If an update is available, you will see an **Upgrade** button or a notification indicating that an update is available.
    
-   ![Protect for SharePoint Details Page](/_media/sharepoint-site-app-details-upgrade.png)
+   ![ISO 19650 Details Page](/_media/sharepoint-site-app-details-upgrade.png)
 
 3. **Upgrade the App**:
    
    Click the **Upgrade** button and ensure that the version information reflects the latest version.
 
-## 2. Upgrade Protect for SharePoint from the App Catalog
+## 2. Upgrade ISO 19650 from the App Catalog
 
-Alternatively, administrators can upgrade Protect for SharePoint directly from the SharePoint App Catalog. This method is particularly useful for managing apps across multiple sites.
+Alternatively, administrators can upgrade ISO 19650 directly from the SharePoint App Catalog. This method is particularly useful for managing apps across multiple sites.
 
 1. **Access the App Catalog**:
    
@@ -52,16 +52,16 @@ Alternatively, administrators can upgrade Protect for SharePoint directly from t
    
    Replace `yourdomain` with your specific domain.
 
-2. **Select Protect for SharePoint**:
+2. **Select ISO 19650**:
    
-   In the App Catalog, select the **Protect for SharePoint** you wish to upgrade.
+   In the App Catalog, select the **ISO 19650** you wish to upgrade.
 
 3. **Upgrade to the Latest Version**:
    
    - Click on **Upgrade Store App**.
    - Confirm any prompts to replace the existing app.
 
-   ![Upgrade Protect for SharePoint from App Catalog](/_media/sharepoint-appcatalog-upgrade-store-app.png)
+   ![Upgrade ISO 19650 from App Catalog](/_media/sharepoint-appcatalog-upgrade-store-app.png)
 
 4. **Confirm the Upgrade**:
    

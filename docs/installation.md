@@ -1,14 +1,14 @@
 ---
-title: Protect for SharePoint installation
-description: Step-by-step guide to install and manage Protect for SharePoint in SharePoint.
+title: ISO 19650 installation
+description: Step-by-step guide to install and manage ISO 19650 in SharePoint.
 keywords: SharePoint, Teams, Access Control, Installation, Permissions
 canonical_url: https://docs.flinker.app/docs/installation.html
 ---
 
-# Protect for SharePoint installation
+# ISO 19650 installation
 
 > [!TIP]  
-> **Protect for SharePoint capabilities**  
+> **ISO 19650 capabilities**
 > - **Access reports**: Review who can access, edit, or share files.  
 > - **Bulk edits**: Update access settings across teams and folders.  
 > - **External collaboration**: Grant controlled access to users outside your organization.  
@@ -18,20 +18,20 @@ canonical_url: https://docs.flinker.app/docs/installation.html
 > - **Administrator required**: A SharePoint administrator must install the app.
 
 
-## 1. Add Protect for SharePoint from the App Catalog or AppSource
+## 1. Add ISO 19650 from the App Catalog or AppSource
 
-You can add Protect for SharePoint to your site directly through the App Catalog or AppSource link.
+You can add ISO 19650 to your site directly through the App Catalog or AppSource link.
 
 ### Option 1: From AppSource
 
 1. Open the [AppSource listing](https://appsource.microsoft.com/en-us/product/office/WA200007197?src=docs&mktcmpid=docs_installation).
-2. Select **Get it now** to add Protect for SharePoint to your environment.
+2. Select **Get it now** to add ISO 19650 to your environment.
 
 ### Option 2: From the App Catalog
 
 1. Go to your App Catalog site: `https://yourdomain.sharepoint.com/sites/appcatalog/_layouts/15/appStore.aspx/appDetail/WA200007197`. Replace `yourdomain` with your specific domain.
 
-## 2. Add Protect for SharePoint
+## 2. Add ISO 19650
 
 1. Select **Add to Apps site** to start the installation.
 
@@ -45,12 +45,12 @@ You can add Protect for SharePoint to your site directly through the App Catalog
 
 1. The admin or site owner needs to manually add the app to a specific site.
 2. Go to the site where you want to add the app.
-3. Navigate to "My apps" and select "Protect for SharePoint".
-4. Select **Add** to add Protect for SharePoint to the site.
+3. Navigate to "My apps" and select "ISO 19650".
+4. Select **Add** to add ISO 19650 to the site.
 
-![Add Protect for SharePoint from My Apps](/_media/sharepoint-site-myapps-share-app-add.png)
+![Add ISO 19650 from My Apps](/_media/sharepoint-site-myapps-share-app-add.png)
 
-## 3. Manage permissions with Protect for SharePoint
+## 3. Manage permissions with ISO 19650
 
 1. Navigate to the document library where your content is stored.
 2. Select the folder or file for which you want to manage permissions.

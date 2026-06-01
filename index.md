@@ -1,7 +1,7 @@
 ---
 title: Documentation
 description: Documentation for setting up, securing, and using openBIM workflows in Microsoft 365 with IFC, BCF, IDS, Power BI, SharePoint, Teams, Excel, Copilot, and SDK resources.
-keywords: Flinker, IFC Viewer, Microsoft 365, SharePoint, Microsoft Teams, Power BI, Excel, openBIM, IFC, BCF, IDS, SDK, Protect for SharePoint, security, permissions
+keywords: Flinker, IFC Viewer, Microsoft 365, SharePoint, Microsoft Teams, Power BI, Excel, openBIM, IFC, BCF, IDS, SDK, ISO 19650, security, permissions
 canonical_url: https://docs.flinker.app/
 layout: landing
 _pageCss: public/index.css
@@ -128,7 +128,7 @@ _disableNextArticle: true
         <div class="home-learn-list">
           <a class="home-learn-item" href="/docs/share-features.html">
             <img src="_media/Microsoft_Office_SharePoint_Logo.svg" alt="" aria-hidden="true">
-            <span><strong>Protect for SharePoint</strong><span>This article explains how to manage permissions, reporting, and external access workflows.</span></span>
+            <span><strong>ISO 19650</strong><span>This article explains how to manage permissions, reporting, and external access workflows.</span></span>
           </a>
           <a class="home-learn-item" href="/docs/protect-tutorials.html">
             <span class="home-learn-icon"><i class="bi bi-people" aria-hidden="true"></i></span>

@@ -102,7 +102,7 @@ If you also want the tab to always open on one specific BCF topic, use the optio
 ### Done: IFC files load automatically
 IFC and BCF files will load automatically according to the settings whenever you open the tab.
 If you add multiple IFC file links, or a folder link containing IFC and BCF files, the viewer loads them together in the same tab.
-You can restrict upload permissions by adjusting SharePoint settings or using Protect for SharePoint. 
+You can restrict upload permissions by adjusting SharePoint settings or using ISO 19650.
 
 ![Load multiple IFC files in the IFC Viewer for Microsoft Teams](/_media/load-multiple-ifc-files-in-teams-ifc-viewer.png)
 

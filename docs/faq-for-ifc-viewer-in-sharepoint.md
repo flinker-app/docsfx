@@ -92,7 +92,7 @@ The shared use case works differently: you store the IFC file in a SharePoint do
 
 ### Can you set which users can see the IFC model in SharePoint?
 
-Yes. You can determine which users or user groups can see the 3D or IFC model by using SharePoint permissions (for the page and the IFC file) and Microsoft security groups. If you need additional protection workflows, you can also use Protect for SharePoint to restrict access and define who can edit the model.
+Yes. You can determine which users or user groups can see the 3D or IFC model by using SharePoint permissions (for the page and the IFC file) and Microsoft security groups. If you need additional protection workflows, you can also use ISO 19650 to restrict access and define who can edit the model.
 
 ## Troubleshooting
 

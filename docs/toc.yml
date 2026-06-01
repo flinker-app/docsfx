@@ -34,7 +34,7 @@
   items:
     - name: Upgrade IFC Viewer to the latest version
       href: upgrade-sharepoint-ifc-viewer-app.md
-    - name: Upgrade Protect for SharePoint to the latest version
+    - name: Upgrade ISO 19650 to the latest version
       href: upgrade-share-app.md
 
 - name: OpenBIM data
@@ -127,12 +127,12 @@
           href: ifc-excel-cost-tracker.md
 
 - name: Access governance
-- name: Protect for SharePoint
+- name: ISO 19650
   href: share-features.md
   items:
-    - name: Install Protect for SharePoint
+    - name: Install ISO 19650
       href: installation.md
-    - name: Use Protect for SharePoint
+    - name: Use ISO 19650
       href: use-protect-app.md
     - name: Set up permissions from a template
       href: share-app-setup.md
@@ -208,7 +208,7 @@
       href: faq-for-ifc-viewer-in-teams.md
     - name: IFC Viewer Visual for Power BI FAQ
       href: faq-for-ifc-visual-in-power-bi.md
-    - name: Protect for SharePoint FAQ
+    - name: ISO 19650 FAQ
       href: faq-share-app-for-microsoft-sharepoint.md
 - name: Release notes
   href: releases.md

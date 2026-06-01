@@ -1,7 +1,7 @@
 ---
 title: Create SharePoint groups and folder structure
 description: Learn how to create SharePoint groups and folder structures for controlled document access and secure collaboration.
-keywords: SharePoint groups, SharePoint folder structure, Protect for SharePoint, permissions setup, Microsoft 365 governance
+keywords: SharePoint groups, SharePoint folder structure, ISO 19650, permissions setup, Microsoft 365 governance
 canonical_url: https://docs.flinker.app/docs/create-sharepoint-group-and-folder-structure.html
 ---
 
@@ -18,7 +18,7 @@ Create your preferred folders and folder structure in the chosen SharePoint Site
 
 ### Option 1: SharePoint groups
 Create permission groups on SharePoint:
-- Open Protect for SharePoint from any given folder.
+- Open ISO 19650 from any given folder.
     
     ![Screenshot](/_media/open-share-app.png)
 

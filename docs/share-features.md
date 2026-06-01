@@ -1,23 +1,23 @@
 ---
-title: Protect for SharePoint
-description: Overview of Protect for SharePoint features for SharePoint permissions, access reporting, data protection, and external collaboration.
+title: ISO 19650
+description: Overview of ISO 19650 features for SharePoint permissions, access reporting, data protection, and external collaboration.
 keywords: Permissions app, SharePoint, data protection, user permissions, access control, Microsoft AppSource, SPFx, multi file sharing
 canonical_url: https://docs.flinker.app/docs/share-features.html
 ---
 
-# Protect for SharePoint
+# ISO 19650
 
-Protect for SharePoint helps administrators and workspace owners manage SharePoint and Teams permissions, external sharing, and access reporting from one place.
+ISO 19650 helps administrators and workspace owners manage SharePoint and Teams permissions, external sharing, and access reporting from one place.
 
-- **Microsoft 365 deployment:** Add Protect for SharePoint from Microsoft AppSource to selected SharePoint sites or to all sites in the organization.
+- **Microsoft 365 deployment:** Add ISO 19650 from Microsoft AppSource to selected SharePoint sites or to all sites in the organization.
 - **Tenant-based data handling:** The app runs as a SharePoint Framework (SPFx) app in your Microsoft 365 tenant. Permission operations are handled through SharePoint.
 - **Permission governance:** Assign access to internal users, external guests, and user groups for files, folders, lists, links, and embedded content.
 - **Access reporting:** Review shared folders and permission assignments across a SharePoint site.
 - **Multi-file sharing:** Use MultiShare to send multiple file links to multiple recipients in one workflow.
 
-## Protect for SharePoint vs. standard SharePoint
+## ISO 19650 vs. standard SharePoint
 
-| Feature | Why it matters | Protect for SharePoint (Enterprise) | Protect for SharePoint (Free) | Standard SharePoint |
+| Feature | Why it matters | ISO 19650 (Enterprise) | ISO 19650 (Free) | Standard SharePoint |
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------|-------------------------|-------------------------|
 | **User permissions** | Assign access to specific users and groups. | ✓ | ✓ | ✓ |
 | **Folder access** | Manage access at folder level for project workspaces. | ✓ | ✓ | ✓ |
@@ -55,11 +55,11 @@ Standard SharePoint includes several sharing options for collaboration and acces
    - **Permissions:** Control access levels for the selected users.
    - **Use case:** Internal sharing with more explicit access control.
 
-Protect for SharePoint adds access reporting, bulk permission updates, and template-based permission management for more controlled SharePoint collaboration.
+ISO 19650 adds access reporting, bulk permission updates, and template-based permission management for more controlled SharePoint collaboration.
 
 ## Users and benefits
 
-Protect for SharePoint is used by project management, workspace administration, IT security, and governance teams. It helps organizations manage SharePoint sites, control access permissions, improve collaboration, and support internal data governance policies.
+ISO 19650 is used by project management, workspace administration, IT security, and governance teams. It helps organizations manage SharePoint sites, control access permissions, improve collaboration, and support internal data governance policies.
 
 ### Project and workspace managers
 - **Project managers**: Manage project collaboration and document sharing.

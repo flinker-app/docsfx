@@ -17,7 +17,7 @@ Start with the path that matches your role and rollout goal.
 | Review IFC models in SharePoint | [IFC Viewer for SharePoint](ifc-viewer-for-sharepoint.md) |
 | Review IFC models in Teams | [IFC Viewer for Microsoft Teams](ifc-viewer-for-teams.md) |
 | Build BIM dashboards in Power BI | [IFC Viewer Visual for Power BI](ifc-power-bi.md) |
-| Manage SharePoint access and external sharing | [Protect for SharePoint](share-features.md) |
+| Manage SharePoint access and external sharing | [ISO 19650](share-features.md) |
 | Embed the viewer in a custom application | [IFC Viewer SDK](ifc-viewer-sdk.md) |
 
 ## Recommended rollout sequence
@@ -42,5 +42,5 @@ Start with the path that matches your role and rollout goal.
 - [Set up IFC Viewer in SharePoint](viewer-app-installation-with-admin-approval.md)
 - [Set up IFC Viewer in Microsoft Teams](setting-up-the-ifc-viewer-in-microsoft-teams.md)
 - [Install IFC Viewer Visual for Power BI](ifc-viewer-installation-for-power-bi.md)
-- [Install Protect for SharePoint](installation.md)
+- [Install ISO 19650](installation.md)
 - [Review release notes](releases.md)

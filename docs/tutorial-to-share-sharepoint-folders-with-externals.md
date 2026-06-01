@@ -93,12 +93,12 @@ Non-Microsoft accounts can access the resources via a temporary passcode:
    
    <img src="/_media/user-with-non-microsoft-account-will-be-granted-access-to-the-shared-file-or-folder.png" alt="User with non-Microsoft account now has access" style="max-width:350px;" />
 
-## Manage shared folders with Protect for SharePoint
-Our custom [Protect for SharePoint](~/docs/share-features.md) is designed to simplify the administration of external sharing by providing a centralized dashboard. Once you’ve assigned permissions to multiple users and groups across various folders, our app lets you view and manage these permissions all in one place, streamlining your permission management process:
+## Manage shared folders with ISO 19650
+Our custom [ISO 19650](~/docs/share-features.md) is designed to simplify the administration of external sharing by providing a centralized dashboard. Once you’ve assigned permissions to multiple users and groups across various folders, our app lets you view and manage these permissions all in one place, streamlining your permission management process:
 
 - **Centralized Overview:** Get a complete view of permissions across multiple folders and groups.
 - **Real-Time Management:** Quickly update or revoke permissions with immediate effect across your SharePoint site.
 - **Bulk Operations:** Apply changes to multiple folders or groups simultaneously, saving time when managing large numbers of users.
 - **Audit and Reporting:** Track permission changes with built-in audit logs to help maintain compliance and security.
 
-By integrating Protect for SharePoint into your workflow, you can significantly reduce the effort required to manage external sharing. This tool is particularly beneficial when handling multiple external users and groups, ensuring that permissions are consistent, up-to-date, and easy to manage from a single location.
+By integrating ISO 19650 into your workflow, you can significantly reduce the effort required to manage external sharing. This tool is particularly beneficial when handling multiple external users and groups, ensuring that permissions are consistent, up-to-date, and easy to manage from a single location.

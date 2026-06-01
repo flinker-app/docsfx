@@ -13,7 +13,7 @@ If you need a quick answer, use **SharePoint Viewers** on the file card.
 
 If you need audit evidence for compliance or investigations, use **Microsoft Purview Audit**.
 
-For permission governance (who can access content), see [Protect for SharePoint features](~/docs/share-features.md).
+For permission governance (who can access content), see [ISO 19650 features](~/docs/share-features.md).
 
 Microsoft provides two primary options:
 
@@ -137,8 +137,8 @@ Use **SharePoint Viewers** for a quick check. Use **Microsoft Purview Audit** wh
 
 ## Next steps
 
-- [Protect for SharePoint features](~/docs/share-features.md)
-- [Protect for SharePoint installation](~/docs/installation.md)
+- [ISO 19650 features](~/docs/share-features.md)
+- [ISO 19650 installation](~/docs/installation.md)
 
 ## Microsoft official references
 

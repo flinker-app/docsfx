@@ -80,11 +80,11 @@ Official Microsoft Documentation: [Share a site](https://support.microsoft.com/e
 
 ## Step 2: Assign users to SharePoint groups for granular permissions
 
-Now that you've added users to the site, you can assign them to SharePoint groups to manage granular access using Protect for SharePoint.
+Now that you've added users to the site, you can assign them to SharePoint groups to manage granular access using ISO 19650.
 
 #### Steps:
 
-1. **Open Protect for SharePoint**
+1. **Open ISO 19650**
 2. **View Existing SharePoint Groups**
    - Click on the group icon which will open the group management dashboard.
 

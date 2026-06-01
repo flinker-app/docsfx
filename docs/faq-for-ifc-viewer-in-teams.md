@@ -100,7 +100,7 @@ The shared use case works differently: you store the IFC file in SharePoint or T
 
 Only files linked in the IFC Viewer tab settings are visible to other team members. Files opened with **Open IFC** are local to the current user session and are not saved to the shared tab configuration.
 
-To restrict access, update SharePoint file or folder permissions, or use Protect for SharePoint.
+To restrict access, update SharePoint file or folder permissions, or use ISO 19650.
 
 ### Can I remove or change the files that are automatically opening whenever the tab is opened?
 
@@ -188,7 +188,7 @@ For authentication purposes, the user's **email address and Microsoft tenant ID*
 
 ### Can you set which users can see the IFC model in Teams or SharePoint?
 
-Yes. Use Microsoft security groups, SharePoint groups, or Protect for SharePoint to control who can access the IFC file or folder. Use SharePoint permissions to control read or edit access.
+Yes. Use Microsoft security groups, SharePoint groups, or ISO 19650 to control who can access the IFC file or folder. Use SharePoint permissions to control read or edit access.
 
 ### What specific Microsoft Graph permissions does the IFC Viewer request, and what is their scope?
 

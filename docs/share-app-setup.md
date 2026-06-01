@@ -1,11 +1,11 @@
 ---
-title: Protect for SharePoint permission setup
-description: Guide for administrators who use Protect for SharePoint to configure SharePoint and Microsoft Teams permissions from a permission template.
-keywords: Protect for SharePoint, SharePoint, Microsoft Teams, permissions, setup, guide
+title: ISO 19650 permission setup
+description: Guide for administrators who use ISO 19650 to configure SharePoint and Microsoft Teams permissions from a permission template.
+keywords: ISO 19650, SharePoint, Microsoft Teams, permissions, setup, guide
 canonical_url: https://docs.flinker.app/docs/share-app-setup.html
 ---
 
-# Protect for SharePoint permission setup
+# ISO 19650 permission setup
 
 This guide helps administrators configure SharePoint and Microsoft Teams permissions from a permission template. The template is typically an Excel matrix that lists user groups, folder structure, and the required access level for each group.
 
@@ -23,9 +23,9 @@ This guide helps administrators configure SharePoint and Microsoft Teams permiss
 
 Create a new SharePoint page or use an existing SharePoint page in your organization.
 
-### 1.2 Install Protect for SharePoint on a SharePoint page
+### 1.2 Install ISO 19650 on a SharePoint page
 
-Install Protect for SharePoint from [Microsoft AppSource](https://appsource.microsoft.com/de-de/product/office/WA200007197?tab=Overview).
+Install ISO 19650 from [Microsoft AppSource](https://appsource.microsoft.com/de-de/product/office/WA200007197?tab=Overview).
 
 ![Screenshot](/_media/MSFT-AppSource-Share-App.png)
 
@@ -50,7 +50,7 @@ If the SharePoint site is synced with OneDrive, you can also create the folder s
 ### 2.2 Create SharePoint permission groups
 
 Create permission groups on SharePoint.
-Open Protect for SharePoint from any folder:
+Open ISO 19650 from any folder:
 
 ![Screenshot](/_media/open-share-app.png)
 
@@ -101,14 +101,14 @@ The security group is now linked to the SharePoint group.
 
 ### 4.1 Download the template file
 
-To download the template file, select the download icon in the upper-right corner of Protect for SharePoint:
+To download the template file, select the download icon in the upper-right corner of ISO 19650:
 
 ![Screenshot](/_media/download-permissions-template.png)
 
 ### 4.2 Set permissions in Excel
 
 Set permissions or permission levels in Excel. 
-The list of created permission groups can be found when you click on the key icon in Protect for SharePoint:
+The list of created permission groups can be found when you click on the key icon in ISO 19650:
 
 ![Screenshot](/_media/set-authority-levels.png)
 
@@ -119,7 +119,7 @@ Copy the authorization levels into the Excel cells in the template file. Match t
 
 ### 4.3 Upload the template file
 
-Upload the template file to Protect for SharePoint, review the preview and save it.
+Upload the template file to ISO 19650, review the preview and save it.
 
 ![Screenshot](/_media/upload-the-permission-template.png)
 
