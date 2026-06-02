@@ -162,22 +162,22 @@ If loading or sync does not work as expected, start by checking the workbook con
 
 ### FAQs
 
-## Working from Excel — how to work with models hosted on SharePoint?
+#### Working from Excel — how to work with models hosted on SharePoint?
 
 The recommended setup is to use Power Query to load the IFC model data into the Excel workbook. The Power Query can point to an IFC file hosted on SharePoint as its data source. Once the query is set up, refresh it inside Excel Desktop to pull the latest geometry and element data from the SharePoint-hosted file directly into the workbook. After refresh, the IFC Viewer add-in reads the geometry from the workbook itself — not directly from SharePoint — so the viewer works reliably regardless of where the source file is stored.
 
-## From Excel, when loading data, why do we have to click "Load from SharePoint"?
+#### From Excel, when loading data, why do we have to click "Load from SharePoint"?
 
 The IFC Viewer add-in reads geometry from the Excel workbook, not directly from SharePoint. The "Load from SharePoint" step triggers the Power Query refresh, which fetches the latest IFC data from SharePoint and writes it into the workbook. This is a one-time step per session or per model update — once the geometry is loaded into the workbook, the viewer initializes directly from that workbook content without needing to contact SharePoint again.
 
-## How to save work in Excel without having to reload the model?
+#### How to save work in Excel without having to reload the model?
 
 The model data is stored inside the workbook itself through Power Query output. This means You can save the workbook at any point without triggering a model reload.
 Saving does not refresh the Power Query — a refresh only happens when you explicitly run Data > Refresh All or refresh a specific query.
 The IFC Viewer add-in reloads the model only when you reopen or refresh the add-in, not when you save the workbook.
 To preserve your current state (commercial inputs, filters, notes), simply save the workbook normally — the model geometry and your manual data stay together in the same file.
 
-## Is it possible to create a PivotTable from the data table and have the selection reflected in the viewer at the same time?
+#### Is it possible to create a PivotTable from the data table and have the selection reflected in the viewer at the same time?
 
 Yes. The IFC Viewer for Excel supports selection sync from PivotTables. When you select a row label or a value cell in a PivotTable, the add-in resolves the selection back to the underlying source rows, collects their IFC GUID values, and highlights the matching elements in the 3D viewer.
 
