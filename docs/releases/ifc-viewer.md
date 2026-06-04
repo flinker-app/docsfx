@@ -1,11 +1,11 @@
----
-title: IFC Viewer release notes
-description: Version history and changelog for the Flinker IFC Viewer.
-keywords: IFC Viewer release notes, Flinker IFC Viewer changelog, online IFC viewer updates
-canonical_url: https://docs.flinker.app/docs/releases/ifc-viewer.html
----
+ ### v3.3.1 - 2026-06-04
 
-# IFC Viewer release notes
+## What's Changed
+- Improve index project cards and recents
+- Fix Excel save action and bundled logos (#517)
+- Add selection Excel column customization (#519)
+
+**Full Changelog**: https://github.com/flinker-app/ifc-viewer/compare/v3.3.0...v3.3.1
 
 ### v3.3.0 - 2026-05-15
 
@@ -19,7 +19,7 @@ canonical_url: https://docs.flinker.app/docs/releases/ifc-viewer.html
 - Added BCF bitmap annotations for drawing and text on viewpoints.
 - Added PDF floor plan import, calibration, and snapping tools.
 - Improved viewer styling, selection details, model tree hierarchy, and quick camera views.
-- Fixed measurement rendering with post-production edges and visibility consistency across filters.
+- Fixed measurement rendering with postproduction edges and visibility consistency across filters.
 
 ### v3.2.1 - 2026-05-06
 
@@ -82,7 +82,7 @@ canonical_url: https://docs.flinker.app/docs/releases/ifc-viewer.html
 * Added orthogonal BCF sample
 * Correctly fit camera when multiple models are loaded
 * Updated UI
-* Added file handler with redirect
+* Added filehandler with redirect
 
 
 ### 2.2.0 - 2025-04-25
@@ -114,6 +114,7 @@ canonical_url: https://docs.flinker.app/docs/releases/ifc-viewer.html
 ### 2.1.4 - 2025-03-04
 
 * New UI to toggle left panel
-* Possibility to use the measurement and clipper at the same time
+* Possibility to use the mesarement and clipper at the same time
 * Move clipping, measurements and plans to left navigation
 * Moved toolbar to contextmenu and added viewcube
+
