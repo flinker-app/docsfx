@@ -1,11 +1,8 @@
  ### v3.3.1 - 2026-06-04
 
-## What's Changed
 - Improve index project cards and recents
-- Fix Excel save action and bundled logos (#517)
-- Add selection Excel column customization (#519)
-
-**Full Changelog**: https://github.com/flinker-app/ifc-viewer/compare/v3.3.0...v3.3.1
+- Fix Excel save action and bundled logos
+- Added properties table with column customization
 
 ### v3.3.0 - 2026-05-15
 
