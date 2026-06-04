@@ -45,6 +45,8 @@
       href: ifc-infra.md
     - name: IFC model queries and property sets
       href: ifc-filters.md
+    - name: View and export IFC properties
+      href: ifc-properties.md
     - name: IFC georeferencing and maps
       href: real_worldMap.md
     - name: 2D drawing overlays (PDF)

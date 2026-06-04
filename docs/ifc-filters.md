@@ -133,6 +133,12 @@ This allows users to create clear visual sets and compare different data groups 
 - **Facility management preparation**  
   Identify assets based on operational properties before handover.
 
+## Export filtered properties
+
+After a filter creates a selection, you can open the selection properties panel to inspect the matching element data or export it to Excel.
+
+Use the properties table to choose which property sets, quantities, relationships, and element fields are included in the export. For the full workflow, see [View and export IFC properties](ifc-properties.md).
+
 ## Reset and refine filters
 
 Use the **Reset** button to clear all filters and restore the full model view.  
