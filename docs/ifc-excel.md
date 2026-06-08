@@ -13,6 +13,8 @@ Save to Excel is supported in the IFC Viewer Add-in for Excel and in the IFC Vie
 
 For the general properties panel workflow, including selecting columns before export, see [View and export IFC properties](ifc-properties.md).
 
+For manual length and area measurements, see [Export manual measurements to Excel](ifc-measurements-excel.md).
+
 ## Choose what is exported
 
 Before exporting, select one or more model elements. You can select elements directly in the model or use filters to create a larger selection.

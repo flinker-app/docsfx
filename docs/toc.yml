@@ -47,6 +47,8 @@
       href: ifc-filters.md
     - name: View and export IFC properties
       href: ifc-properties.md
+    - name: Measure and export manual measurements
+      href: ifc-measurements.md
     - name: IFC georeferencing and maps
       href: real_worldMap.md
     - name: 2D drawing overlays (PDF)
@@ -120,6 +122,8 @@
   items:
     - name: IFC data integration for Microsoft Excel
       href: ifc-excel.md
+    - name: Export manual measurements to Excel
+      href: ifc-measurements-excel.md
     - name: Use IFC Viewer in Excel
       href: excel-ifc-viewer-guide.md
     - name: Excel report templates
