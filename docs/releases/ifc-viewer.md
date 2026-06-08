@@ -1,4 +1,11 @@
- ### v3.3.1 - 2026-06-04
+ ### v3.3.2 - 2026-06-08
+
+- Added manual measurement Excel export.
+- Added Download Excel and Save to Excel actions for measurements.
+- Added a measurement panel list with per-measurement delete actions.
+- Exported measurement type, values, units, XYZ reference, and XYZ point data.
+
+### v3.3.1 - 2026-06-04
 
 - Improve index project cards and recents
 - Fix Excel save action and bundled logos
