@@ -82,7 +82,7 @@ After calibration, show the overlay and review the aligned DXF directly on top o
 
 ![Screenshot of a calibrated DXF overlay shown together with the clipped 3D IFC model](/_media/dxf-overlay-3d-clipping.png)
 
-## Load and align a DXF floor plan
+## IFC Viewer - Load and align a DXF floor plan 
 
 1. Open the IFC model in the viewer.
 2. Open the floor plan or overlay tools from the left toolbar.
