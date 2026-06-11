@@ -53,6 +53,8 @@
       href: real_worldMap.md
     - name: 2D drawing overlays (PDF)
       href: PDF-2d.md
+    - name: DXF floor plan overlays
+      href: DXF_Load.md
 - name: BCF issues
   href: ifc-bcf.md
   items:
