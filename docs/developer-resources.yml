@@ -13,3 +13,6 @@ items:
   - name: Copilot for IFC SDK
     description: Generate Python workflows from prompts and run controlled IFC model analysis in custom integrations.
     href: copilot-for-ifc-api.html
+  - name: IFC MCP
+    description: Connect MCP-compatible AI assistants to local IFC analysis, generated reports, BCF viewpoints, and the local IFC viewer.
+    href: ifc-mcp.html

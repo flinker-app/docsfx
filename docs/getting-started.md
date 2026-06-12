@@ -18,6 +18,7 @@ Start with the path that matches your role and rollout goal.
 | Review IFC models in Teams | [IFC Viewer for Microsoft Teams](ifc-viewer-for-teams.md) |
 | Build BIM dashboards in Power BI | [IFC Viewer Visual for Power BI](ifc-power-bi.md) |
 | Manage SharePoint access and external sharing | [ISO 19650](share-features.md) |
+| Use AI assistants with local IFC files | [IFC MCP](ifc-mcp.md) |
 | Embed the viewer in a custom application | [IFC Viewer SDK](ifc-viewer-sdk.md) |
 
 ## Recommended rollout sequence

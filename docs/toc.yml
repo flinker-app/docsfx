@@ -168,6 +168,11 @@
   items:
     - name: Copilot for IFC Pro
       href: copilot-for-ifc-pro.md
+- name: IFC MCP
+  href: ifc-mcp.md
+  items:
+    - name: Set up IFC MCP
+      href: ifc-mcp-setup.md
 - name: Power BI semantic models
   href: IFC_SharedSemanticModel.md
   items:
