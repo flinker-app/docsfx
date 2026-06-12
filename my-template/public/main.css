@@ -704,6 +704,15 @@ body[data-layout="landing"] > main {
   font-weight: 600;
 }
 
+.toc li.active.expanded:not(:has(ul li.active)) > a[href] {
+  background-color: var(--docs-rail-selected);
+  border-radius: 2px;
+  color: var(--docs-text) !important;
+  font-weight: 600;
+  margin-left: -.2rem;
+  padding: .1rem .3rem;
+}
+
 .toc .active a {
   color: var(--docs-text) !important;
 }
@@ -770,6 +779,10 @@ body[data-layout="landing"] > main {
 .affix ul li a {
   color: var(--docs-text-subtle);
   display: block;
+}
+
+.affix ul li > a.link-secondary {
+  padding-left: .85rem;
 }
 
 .affix ul li a:hover,
