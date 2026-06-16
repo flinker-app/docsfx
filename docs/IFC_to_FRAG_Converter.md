@@ -16,7 +16,7 @@ This document covers both how to deploy the notebook (either by importing the re
 
 ## Why Convert to `.frag`?
 
-The `.frag` format (from the open-source [That Open Fragments](https://github.com/ThatOpen/engine_fragment) library) is a compact, geometry-centric binary built on FlatBuffers and zlib compression. Compared to a plain `.ifc` source the same model becomes substantially smaller and faster to load in the viewer.
+The `.frag` format is a compact, geometry-centric binary built on FlatBuffers and zlib compression. Compared to a plain `.ifc` source the same model becomes substantially smaller and faster to load in the viewer.
 
 | Aspect | `.ifc` source | `.frag` source |
 | :--- | :--- | :--- |
@@ -26,7 +26,7 @@ The `.frag` format (from the open-source [That Open Fragments](https://github.co
 | **Attributes** | Full IFC property semantics | Identity only (Entity, GlobalId, ExpressId) |
 | **Filtering in Power BI** | All slicers populated | Slicers on Entity, GlobalId, and ExpressId only |
 
-Use `.frag` whenever the model is primarily consumed visually (3D viewing, navigation, GUID-based highlighting, BCF integration). Stick with `.ifc` when the dashboard relies on attribute-driven slicers such as `Name`, `Building Storey`, `Room Name`, or `PredefinedType`. Those columns are not preserved by the current converter (see [Limitations](#limitations)).
+Use `.frag` whenever the model is primarily consumed visually (3D viewing, navigation, GUID-based highlighting, BCF integration). Stick with `.ifc` when the dashboard relies on attribute-driven slicers such as `Name`, `Building Storey`, `Room Name`, or `PredefinedType`.
 
 ## Prerequisites
 
