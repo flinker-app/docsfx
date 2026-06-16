@@ -62,6 +62,8 @@
       href: bcf-viewpoints.md
     - name: Import Navisworks clash reports
       href: bcf-navisworks.md
+    - name: BCF 2D issues
+      href: bcf-2d.md
 - name: IDS validation
   href: ifc-ids.md
 
