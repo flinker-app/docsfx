@@ -184,6 +184,8 @@
       href: ifc-viewer-optimization-and-load-times-for-power-bi.md
     - name: Connect IFC data from Excel to Power BI
       href: ifc-excel-power-bi.md
+    - name: IFC to Frag convertor
+      href: IFC_to_FRAG_Converter.md  
 
 - name: Developer
 - name: Developer resources
