@@ -65,7 +65,6 @@ After configuring the parameters and privacy settings:
 > [!NOTE]
 > The initial load can take several minutes (or longer for very large models) while the IFC API processes and optimizes the model for Power BI. Once the API has finished processing and the optimized data is stored in the report, subsequent opens load much faster.
 
-
 ### When to choose IFC API
 
 - You work with large, complex IFCs and hit memory or refresh limits.
@@ -110,6 +109,13 @@ You can reference these columns directly in visuals, build relationships to mast
 
 > [!TIP]
 > When multiple attributes exist for the same element, duplicate rows appear (one per attribute/property/quantity). Use grouping or summarizing in Power Query/DAX when you need a pivoted structure for charts or slicers.
+
+See the video here:
+
+<video controls style="width: 100%; max-width: 720px; border-radius: 6px; margin: 12px 0;">
+  <source src="/_media/Pbi_FolderPath_loading.mp4" type="video/mp4">
+</video>
+
 
 ### When to choose the MEZ connector
 
