@@ -12,19 +12,24 @@ Large IFC files slow Power BI reports down. A 200 to 300 MB model can take minut
 
 ## Try the live report
 
-The report below loads three real models that started life as heavy IFC files. Click any element to inspect it, switch between models with the Filename slicer, and notice how fast the navigation feels even with 12,000 plus elements in view.
+The report below loads multiple real models that started life as heavy IFC files. Click any element to inspect it, switch between models with the Filename slicer, and notice how fast the navigation feels even with 61,000 plus elements in view.
 
 <iframe title="IFC&Frag_Parser" width="100%" height="540" src="https://app.powerbi.com/view?r=eyJrIjoiMzNlYmQ1MTktYWRjMC00ZTRjLTg1NjAtMTQ4ZTg5YjE3NWY3IiwidCI6IjQ0YjY0MGYzLTQ5YjAtNDMwNC05Yzk4LWM2MWQwYmMwZGMwMiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 The three models loaded in the report are public test datasets we used to validate the workflow end to end:
 
 | Model | Source IFC size | Optimized `.frag` size | Element count |
-| :--- | :--- | :--- | :--- |
-| LTU A-House (redesign) | ~250 MB | ~11 MB | 8,400 |
-| NBU Medical Clinic (Architecture) | ~210 MB | ~9 MB | 3,250 |
-| NVW DCR LOD300 (Architecture) | ~290 MB | ~12 MB | 5,800 |
+|------|----------------|-----------------------|---------------|
+| LTU A-House – Air | 24.2 MB | 7.67 MB | 17,000 |
+| LTU A-House – Cooling | 30.8 MB | 16.6 MB | 21,000 |
+| LTU A-House – Ducting | 7.99 MB | 4.12 MB | 4,068 |
+| LTU A-House – Heating | 32.6 MB | 12.7 MB | 23,000 |
+| LTU A-House – K-modell | 30.9 MB | 3.23 MB | 6,667 |
+| LTU A-House – Redesign | 173 MB | 24.0 MB | 9,714 |
+| LTU A-House – Sanitation | 25.7 MB | 11.5 MB | 18,000 |
+| LTU A-House – Voids | 24.1 MB | 7.68 MB | 17,000 |
 
-On average a 200 to 300 MB IFC becomes a `.frag` of around 10 MB, roughly a 20 to 25 times reduction. The Power BI IFC Viewer then renders the `.frag` in seconds rather than the minutes the original IFC would take.
+On average a 200 to 300 MB IFC becomes a `.frag` of around 25 MB, roughly a 10 to 15 times reduction. The Power BI IFC Viewer then renders the `.frag` in seconds rather than the minutes the original IFC would take.
 
 ## Why this matters
 
