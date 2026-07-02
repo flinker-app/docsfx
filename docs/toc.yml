@@ -62,6 +62,8 @@
       href: bcf-viewpoints.md
     - name: Import Navisworks clash reports
       href: bcf-navisworks.md
+    - name: BCF 2D issues
+      href: bcf-2d.md
 - name: IDS validation
   href: ifc-ids.md
 
@@ -184,6 +186,8 @@
       href: ifc-viewer-optimization-and-load-times-for-power-bi.md
     - name: Connect IFC data from Excel to Power BI
       href: ifc-excel-power-bi.md
+    - name: IFC to Frag convertor
+      href: IFC_to_FRAG_Converter.md  
 
 - name: Developer
 - name: Developer resources
