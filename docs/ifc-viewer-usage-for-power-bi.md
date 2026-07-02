@@ -49,6 +49,8 @@ To load multiple IFC files at once, paste a folder path into `Filepath` (instead
 
 ![Edit Parameters for folder loading](/_media/edit-parameters-in-power-bi-connector-for-folder-loading.png)
 
+If your report opens with an active filter, connect that filter to the IFC files by `Filepath` or `Filename`. For details, see [Load and filter multiple IFC files in Power BI](ifc-viewer-filter-multiple-ifc-files-power-bi.md).
+
 
 ### 3. Apply changes
 
