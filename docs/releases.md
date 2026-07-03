@@ -14,5 +14,4 @@ Use this page to find the update history for each Flinker IFC product. Most host
 | [IFC Viewer](releases/ifc-viewer.md) | Updates are applied automatically. No manual update is required. |
 | [IFC Viewer for SharePoint](releases/ifc-sharepoint.md) | Updates must be installed from the SharePoint App Catalog. See [upgrade instructions](upgrade-sharepoint-ifc-viewer-app.md). |
 | [IFC Viewer for Microsoft Teams](releases/ifc-teams.md) | Updates are applied automatically. No manual update is required. |
-| [IFC Viewer for Power BI](releases/ifc-powerbi.md) | Updates are applied automatically. No manual update is required. |
 | [IFC Viewer Visual for Power BI](releases/ifc-powerbi-visual.md) | Updates are applied automatically through Microsoft AppSource or your organizational visual deployment. |

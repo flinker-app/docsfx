@@ -238,7 +238,5 @@
       href: releases/ifc-sharepoint.md
     - name: IFC Viewer for Microsoft Teams
       href: releases/ifc-teams.md
-    - name: IFC Viewer for Power BI
-      href: releases/ifc-powerbi.md
     - name: IFC Viewer Visual for Power BI
       href: releases/ifc-powerbi-visual.md
