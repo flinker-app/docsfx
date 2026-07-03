@@ -1,4 +1,12 @@
- ### v3.3.2 - 2026-06-08
+ ### v3.4.0 - 2026-07-03
+
+* IFC loading performance update
+* Seamless BCF support in 2D and 3D
+* DXF loading support
+
+
+
+### v3.3.2 - 2026-06-08
 
 - Added manual measurement Excel export.
 - Added Download Excel and Save to Excel actions for measurements.
