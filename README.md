@@ -1,47 +1,70 @@
 # Docs
 
-## Markdown reference and styling
-- [Learn Markdown reference](https://learn.microsoft.com/en-us/contribute/content/markdown-reference)
-- [Text formatting guidelines](https://learn.microsoft.com/en-us/contribute/content/text-formatting-guidelines)
-- [Use links in documentation](https://learn.microsoft.com/en-us/contribute/content/how-to-write-links)
+Welcome to the public documentation repository for Flinker openBIM workflows in Microsoft 365.
 
-## Local development
+Use this repository to improve docs for IFC model review, BCF issue coordination, Power BI reporting, SharePoint permissions, Microsoft Teams workflows, Excel analysis, and SDK integration.
 
-> Prerequisites
-> - Familiarity with the command line
-> - Install [.NET SDK](https://dotnet.microsoft.com/en-us/download) 8.0 or higher
-> - Install [Node.js](https://nodejs.org/) v20 or higher (Optional: It's required when using [Create PDF Files](https://filzrev.github.io/docfx/docs/pdf.html))
+[Read the docs](https://docs.flinker.app/) | [Open an issue](https://github.com/flinker-app/docs/issues/new) | [View open issues](https://github.com/flinker-app/docs/issues) | [Review releases](docs/releases.md)
 
-Make sure you have [.NET SDK](https://dotnet.microsoft.com/en-us/download) installed, then open a terminal and enter the following command to install the latest docfx:
+## Contribute
+
+The easiest way to contribute is to [open an issue](https://github.com/flinker-app/docs/issues/new).
+
+Open an issue when:
+
+- A step is missing, unclear, or out of date.
+- A screenshot does not match the current product.
+- You found a typo, broken link, or confusing term.
+- You expected a guide for a task but could not find one.
+- You have a real project workflow that should be documented.
+
+Small reports are useful. If you can, include the page link, what you tried, what was confusing, and a screenshot if it helps.
+
+Do not share customer data, tenant names, email addresses, license keys, secrets, private IFC models, or confidential screenshots in public issues.
+
+You can also open a pull request for small fixes, clearer steps, better screenshots, or short examples from real IFC, BCF, IDS, SharePoint, Teams, Power BI, or Excel workflows.
+
+## Edit and preview the docs
+
+Use this path when you want to edit the docs directly:
+
+1. Fork the repository.
+2. Edit Markdown files in `docs/` or the landing page in `index.md`.
+3. Add screenshots or other article assets to `_media/`.
+4. Keep navigation updates in `docs/toc.yml`.
+5. Open a pull request and describe the change.
+
+Write in a task-focused style. Keep paragraphs short, use clear headings, and place the most important information first.
+
+You only need a local preview for larger edits or navigation changes. Install [.NET SDK 8.0 or later](https://dotnet.microsoft.com/download), [Node.js 20 or later](https://nodejs.org/), and DocFX:
 
 ```bash
 dotnet tool update -g docfx
 ```
 
-### Live reload (recommended)
-1. Install dependencies (one-time): `npm install`
-2. Build once to create `_site`: `npm run build`
-3. Start watch + live reload: `npm run watch`
+Then run:
 
-This runs `docfx build` on Markdown/YAML changes and serves `_site` at http://localhost:8080 with BrowserSync auto-reloading the page.
-
-### Manual DocFX serve
-If you prefer the CLI only:
-````
-docfx docfx.json --serve
-````
-This hosts the last build on http://localhost:8080; rerun `docfx docfx.json` after edits to regenerate `_site`.
-
-### Local and faster builds
-
-By using `docfx.local.json` for local development, you can avoid the PDF generation process and speed up the build time.
-
-This command walks you through creating a new docfx project under the current working directory. To build the docset, run:
-
+```bash
+npm install
+npm run build
+npm run watch
 ```
-docfx docfx.local.json --serve
-```
-To preview your local changes, save changes then run this command in a new terminal to rebuild the website:
-```
-docfx docfx.local.json
-```
+
+The preview runs at `http://localhost:8080`.
+
+## Documentation style
+
+Follow the Microsoft Learn style where possible:
+
+- Use simple, direct sentences.
+- Use sentence case for headings.
+- Use `inline code` for file names, commands, settings, and literal values.
+- Use fenced code blocks with a language name.
+- Keep procedures focused on one task.
+- Use meaningful alt text for screenshots.
+
+Helpful references:
+
+- [Microsoft Learn Markdown reference](https://learn.microsoft.com/contribute/content/markdown-reference)
+- [Text formatting guidelines](https://learn.microsoft.com/contribute/content/text-formatting-guidelines)
+- [How to write links](https://learn.microsoft.com/contribute/content/how-to-write-links)
