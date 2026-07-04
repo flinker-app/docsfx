@@ -1,4 +1,8 @@
- ### v3.4.0 - 2026-07-03
+ ### v3.4.1 - 2026-07-04
+
+* Fix lazy IFC property loading
+
+### v3.4.0 - 2026-07-03
 
 * IFC loading performance update
 * Seamless BCF support in 2D and 3D
