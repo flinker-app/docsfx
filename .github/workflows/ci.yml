@@ -7,6 +7,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
+  contents: read
   actions: read
   pages: write
   id-token: write
@@ -25,13 +26,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
+
+    - name: Configure GitHub Pages
+      uses: actions/configure-pages@v5
     
     # Set up Dotnet
     - name: Dotnet Setup
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.x
+
+    - name: Node Setup
+      uses: actions/setup-node@v4
+      with:
+        node-version: 24
 
     # Install DocFX as a global tool
     - run: dotnet tool update -g docfx
@@ -41,6 +50,15 @@ jobs:
 
     # Build the documentation using docfx.json in the root directory
     - run: docfx docfx.json
+
+    - name: Remove generated source maps
+      run: find _site -type f -name '*.map' -delete
+
+    - name: Report site size
+      run: |
+        du -sh _site
+        echo "Largest generated site files:"
+        find _site -type f -printf '%s %p\n' | sort -nr | head -20
 
     # Upload the site files generated in the _site directory
     - name: Upload artifact
