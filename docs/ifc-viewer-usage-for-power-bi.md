@@ -45,9 +45,13 @@ The following file paths are supported:
 
 #### Folder loading
 
-To load multiple IFC files at once, paste a folder path into `Filepath` (instead of a single `.ifc` file). Set **Subfolders** to `TRUE` if you want to include IFC files from nested folders, then click **OK**.
+To load multiple IFC files without the IFC connector (`.mez`), use direct IFC file paths in `Filepath`, `Filepath2`, and `Filepath3`.
 
-![Edit Parameters for folder loading](/_media/edit-parameters-in-power-bi-connector-for-folder-loading.png)
+Folder loading requires the IFC connector (`.mez`) and Pro features. After the connector is installed, paste a folder path into `Filepath` instead of a single `.ifc` file. Set **Subfolders** to `TRUE` if you want to include IFC files from nested folders, then select **OK**.
+
+![Screenshot of Power BI Edit Parameters for folder loading](/_media/edit-parameters-in-power-bi-connector-for-folder-loading.png)
+
+For more information about the connector, see [Load complete IFC data with the Power BI data extension](ifc-viewer-data-extension-for-power-bi.md).
 
 If your report opens with an active filter, connect that filter to the IFC files by `Filepath` or `Filename`. For details, see [Load and filter multiple IFC files in Power BI](ifc-viewer-filter-multiple-ifc-files-power-bi.md).
 

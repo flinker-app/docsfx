@@ -1,76 +1,59 @@
 ---
 title: Load complete IFC data with the Power BI data extension
-description: Install the extended IFC data connector for Power BI to load attributes, property sets, and quantity sets from your models.
+description: Install the extended IFC data connector for Power BI to load attributes, property sets, quantities, materials, and classifications from IFC models.
 keywords: IFC, Power BI, data extension, MEZ, property sets, quantity sets, BIM data
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-data-extension-for-power-bi.html
 ---
 
 # Load complete IFC data with the Power BI data extension
 
-The standard IFC Viewer sample query focuses on geometry and a few properties. To load the full metadata footprint of your model (attributes, property sets, quantity sets, classifications, and materials), choose one of the following options. Both are valid; pick what fits your environment best.
+The standard IFC Viewer sample query is optimized to load geometry and core element fields for the visual. Install the IFC connector (`.mez`) when you also need IFC metadata for reporting, QA checks, quantity takeoff, materials, classifications, cost data, or schedule joins.
 
-- Option 1 (recommended for big models): **Use the IFC API** via a parameter in your report.
-- Option 2: **Install the IFC connector (.mez)** and use it directly in Power BI Desktop.
+<video controls style="width: 100%; max-width: 720px; border-radius: 6px; margin: 12px 0;">
+  <source src="/_media/Pbi_FolderPath_loading.mp4" type="video/mp4">
+</video>
 
-## Extended query
+## Advantages
 
-With either option enabled, the `IFC` table exposes a richer set of BIM metadata:
+### Reporting advantages
 
-- Attribute-level columns (`Attribute Name`, `Attribute Value`, `Classification Name`, `Classification Value`) let you classify and color the model using standard systems or review states.
-- Property-set columns (`Property Set Name`, `Property Name`, `Property Value`) surface detailed BIM properties for compliance dashboards, QA checks, or maintenance workflows.
-- Quantity columns (`Quantity Name`, `Quantity Set Name`, `Quantity Value`) enable conditional formatting or calculations based on numeric ranges - for example, highlight elements by area or volume brackets.
-- Material and layering columns (`Material Layer Set Name`, `Material Name`, `Material Thickness`, `LineData`) capture construction context that you can join to cost or scheduling tables.
-- Keep `GUID` and `IFC Chunks` connected to the viewer visual, and use relationships or lookup tables when you model attributes separately for reporting.
+- Load many IFC models from one folder instead of adding each file path manually.
+- Include nested project folders by setting `Subfolders` to `TRUE`.
+- Build reports from IFC properties, quantities, materials, classifications, and building metadata.
+- Use the same loaded data for filters, slicers, color rules, QA checks, quantity takeoff, cost reports, and schedule joins.
+- Keep reports lighter when needed by setting `Fullproperties` to `FALSE`.
 
-## Option 1: Use the IFC API (recommended for big models)
+### Advantages of the .mez connector
 
-When enabled, our IFC API pre-processes and converts IFC into a compact, Power BI-friendly shape before the data reaches your report. This is designed for very large models and premium capacities.
+- Give report authors a Power BI connector in **Get Data** instead of asking them to maintain long Power Query code.
+- Help teams use the same IFC loading logic across reports and workstations.
+- Deploy and update one `.mez` connector package for Power BI Desktop users.
+- Keep license access in the connector sign-in flow instead of adding connector-specific setup steps to every report.
 
-- Optimized conversion for Power Query tables and relationships.
-- Faster refresh and smaller in-memory footprint.
-- Enables loading models up to 10 GB into a Power BI report.
+## What you get with the connector
 
-### Activate in parameters
+The connector adds two capabilities to the AppSource sample report: folder loading and complete IFC data for reporting in Power BI.
 
-1. In Power BI Desktop, open your report and go to **Home** > **Edit Parameters**.
-2. Set the parameter **Use IFC API** to `TRUE`, then click **OK**.
+### Folder and subfolder loading
 
-![Edit Parameters and enable IFC API](/_media/edit-parameters-and-use-ifc-api-in-power-bi.png)
+- Use a folder path in `Filepath` to load all `.ifc` files from a SharePoint or local folder.
+- Set `Subfolders` to `TRUE` to include `.ifc` files from nested folders.
+- Use `Filepath2` and `Filepath3` for additional direct IFC file paths.
 
-### Sign in and set privacy levels
+### Complete IFC data for reporting
 
-After enabling the API, Power BI may prompt for credentials to access the IFC API endpoint.
+Set `Fullproperties` to `TRUE` to load detailed IFC data into the `IFC` table. The connector adds these reporting fields when the data exists in the IFC model:
 
-1. In the **Access Web content** dialog, select **Anonymous**.
-2. Click **Connect** to continue.
+- Element data includes `Name`, `Description`, `ObjectType`, `PredefinedType`, `Tag`, `LongName`, `Type Name`, `Entity`, `Building Storey`, and `Building Name`.
+- Element dimensions and placement data includes `ObjectPlacement`, `Representation`, `CompositionType`, `InteriorOrExteriorSpace`, `OverallWidth`, and `OverallHeight`.
+- Property set data includes `Property Set Name`, `Property Name`, and `Property Value`.
+- Quantity data includes `Quantity Set Name`, `Quantity Name`, and `Quantity Value`.
+- Material data includes `Material Layer Set Name`, `Material Name`, `Material Layer`, and `Material Thickness`.
+- Classification data includes `Classification Name` and `Classification Identification`.
 
-![Access Web content sign-in for IFC API](/_media/sign-in-for-api-for-access-web-content-in-power-bi.png)
+Use this data for Power BI tables, slicers, filters, color rules, QA checks, quantity takeoff, cost reports, and schedule joins. Keep `Fullproperties` set to `FALSE` when you only need the standard viewer data or when the connector is not installed.
 
-If you are using a SharePoint file, Power BI may prompt you to sign in with your Microsoft organization account to access the file.
-
-![Access web content sign-in for SharePoint](/_media/power-bi-sign-in-with-your-organization-account-and-access-web-content.png)
-
-After connecting, ensure the privacy level is set to "Organizational":
- 
-1. Set the **Privacy level** to **Organizational**, then click **Save**.
-
-![Set privacy level to Organizational](/_media/privacy-levels-for-api-for-access-web-content-in-power-bi.png)
-
-### Apply changes and refresh data
-
-After configuring the parameters and privacy settings:
-
-1. Click **Apply Changes** if Power BI does not start loading automatically.
-
-> [!NOTE]
-> The initial load can take several minutes (or longer for very large models) while the IFC API processes and optimizes the model for Power BI. Once the API has finished processing and the optimized data is stored in the report, subsequent opens load much faster.
-
-### When to choose IFC API
-
-- You work with large, complex IFCs and hit memory or refresh limits.
-- You want faster refreshes for scheduled or incremental loads.
-
-## Option 2: IFC connector (.mez)
+## How to use
 
 ### Install the connector (.mez)
 
@@ -88,36 +71,39 @@ After configuring the parameters and privacy settings:
 1. Restart Power BI Desktop to ensure the connector is loaded.
 2. Go to **Home** > **Get Data** > **More** in Power BI Desktop.
 3. Search for "IFC" in the Get Data dialog.
-4. Select **IFC Viewer (Extended)** from the results and click **Connect**.
-5. In the **IFC file connector** dialog, go to **Feed Key**, paste your license key into **Account key**, and click **Connect**.
+4. Select **IFC** from the results, then select **Connect**.
+5. In the **IFC file connector** dialog, go to **Feed Key**, paste your license key into **Account key**, and select **Connect**.
 
-   ![Insert IFC connector license key](/_media/insert-power-bi-ifc-connector-key.png)
+   ![Screenshot of IFC connector license key sign-in dialog](/_media/insert-power-bi-ifc-connector-key.png)
 
-6. When prompted, enter the IFC file URL or SharePoint folder path you want to load. The connector supports single files and folders.
+6. When prompted, enter the IFC file URL, SharePoint folder path, or local folder path you want to load. The connector supports single `.ifc` files and folders that contain `.ifc` files.
 7. If accessing SharePoint content, sign in with your Microsoft 365 organizational account when prompted.
 8. Choose **Transform Data** to modify the query or **Load** to import directly.
 
-After loading, the **IFC** table includes additional columns for:
-
-- **Element context**: building, storey, element names, predefined type, ExpressID, filenames, sizes.
-- **Attributes and classifications**: attribute names/values and classification systems applied to the element.
-- **Property sets**: property set names with their corresponding property names and values.
-- **Quantities**: take-off data such as area, volume, and count per element.
-- **Materials**: layer sets, material names, and thickness values.
-
-You can reference these columns directly in visuals, build relationships to master data tables (for example, cost libraries or QA registers), or create calculated tables for specialized reporting.
+After loading, you can reference the connector columns directly in visuals, build relationships to master data tables, or create calculated tables for specialized reporting.
 
 > [!TIP]
-> When multiple attributes exist for the same element, duplicate rows appear (one per attribute/property/quantity). Use grouping or summarizing in Power Query/DAX when you need a pivoted structure for charts or slicers.
+> The connector returns one row for each extracted item. The same `GlobalId` can appear on multiple rows when an element has several properties, quantities, materials, or classifications. Use grouping or summarizing in Power Query or DAX when you need one row per element for charts or slicers.
 
-See the video here:
+### Load folders and subfolders
 
-<video controls style="width: 100%; max-width: 720px; border-radius: 6px; margin: 12px 0;">
-  <source src="/_media/Pbi_FolderPath_loading.mp4" type="video/mp4">
-</video>
+In the current AppSource sample report, direct IFC file paths work in `Filepath`, `Filepath2`, and `Filepath3` without the connector. Folder loading and subfolder loading require the IFC connector (`.mez`) and Pro features. The `Subfolders` parameter works after the connector is installed.
 
+1. In Power BI Desktop, open **Home** > **Edit parameters**.
+2. Paste a folder path into `Filepath`.
+3. Leave `Subfolders` set to `FALSE` to load only IFC files directly in that folder.
+4. Set `Subfolders` to `TRUE` to also load IFC files from nested folders.
+5. Select **OK**, then apply the changes.
 
-### When to choose the MEZ connector
+Use `Filepath2` and `Filepath3` for additional direct IFC file paths. For folder loading, use `Filepath`.
 
-- Your organization prefers local connectors and restricts external web endpoints.
-- You need offline development or environments with limited outbound access.
+### Enable complete IFC data
+
+The AppSource sample report includes the `Fullproperties` parameter. Use this parameter to control whether the report loads the standard viewer data or the complete IFC metadata.
+
+1. Install the IFC connector (`.mez`).
+2. Open **Home** > **Edit parameters**.
+3. Set `Fullproperties` to `TRUE`.
+4. Select **OK**, then apply the changes.
+
+Keep `Fullproperties` set to `FALSE` when you only need the standard viewer data or when the connector is not installed.
