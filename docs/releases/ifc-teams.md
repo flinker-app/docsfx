@@ -1,4 +1,8 @@
- ## v2.1.1 - 2026-07-06
+ ## v2.1.2 - 2026-07-07
+
+- Fix viewer reload on tab rerenders/BCF data loading issue
+
+## v2.1.1 - 2026-07-06
 
 - Added support for IFCZIP and DXF model files.
 - Added support for BCFZIP issue files.
