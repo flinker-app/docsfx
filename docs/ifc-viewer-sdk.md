@@ -1,13 +1,13 @@
 ---
 title: JavaScript IFC Viewer SDK for web apps
-description: The fastest way to embed a fully working IFC viewer in a web app. Load IFC, BCF and IDS in the browser with no upload backend.
-keywords: JavaScript IFC viewer library, TypeScript IFC viewer, IFC Viewer SDK, web IFC viewer SDK, embed IFC viewer, browser IFC viewer, BIM viewer SDK, openBIM viewer SDK, IFC web viewer, IFC model viewer, BCF viewer, IDS validation viewer, construction software SDK, CDE IFC viewer, digital twin IFC viewer, React IFC viewer, Vue IFC viewer, Angular IFC viewer
+description: Embed a high-performance IFC viewer in a web app. Load IFC, BCF and IDS in the browser with no upload backend.
+keywords: JavaScript IFC viewer library, TypeScript IFC viewer, IFC Viewer SDK, web IFC viewer SDK, embed IFC viewer, browser IFC viewer, high-performance IFC viewer, IFC benchmark, BIM viewer benchmark, fast IFC viewer, federated IFC model, smooth IFC navigation, BIM viewer SDK, openBIM viewer SDK, IFC web viewer, IFC model viewer, BCF viewer, IDS validation viewer, construction software SDK, CDE IFC viewer, digital twin IFC viewer, React IFC viewer, Vue IFC viewer, Angular IFC viewer
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-sdk.html
 ---
 
 # JavaScript IFC Viewer SDK for web apps
 
-The Flinker IFC Viewer SDK is the fastest way to integrate a fully working IFC viewer into an existing web application. Add one viewer element, import one ES module, pass IFC bytes from your own application, and your users can inspect a BIM model directly in the browser.
+The Flinker IFC Viewer SDK lets you integrate a fully working, high-performance IFC viewer into an existing web application. Add one viewer element, import one ES module, pass IFC bytes from your own application, and your users can inspect a BIM model directly in the browser.
 
 Use it when you need an embeddable IFC viewer, browser BIM viewer, openBIM viewer SDK, or construction model viewer inside a CDE, digital twin, intranet, ERP, project portal, facility management system, issue tracker, dashboard, or customer-facing construction platform.
 
@@ -16,6 +16,7 @@ The SDK is built for production integrations:
 - no IFC upload backend required for viewing
 - no npm install required for the standard CDN integration
 - IFC files are processed locally in the user's browser
+- uses the same high-performance viewer runtime measured in Flinker IFC Viewer benchmarks
 - supports IFC, BCF, and IDS workflows in one viewer
 - works with JavaScript, TypeScript, React, Vue, Angular, and plain HTML
 - loads files from a file input, URL, signed URL, SharePoint link, object storage, or your own API
@@ -95,6 +96,10 @@ The viewer is built for common openBIM delivery workflows.
 | `.ids` XML data | Display IDS validation context for IFC information requirements |
 
 The viewer supports common IFC deliverables including IFC 2x3, IFC4, and IFC4x3 workflows. BCF is supported for coordination workflows, and IDS is supported for model validation workflows.
+
+## Performance benchmarks
+
+The SDK uses the same high-performance browser runtime as Flinker IFC Viewer. For measured load times, throughput, navigation FPS, device details, and the 5 GB large-load test, see [Performance and large models](ifc-viewer.md#performance-and-large-models).
 
 ## Integration patterns
 
@@ -262,7 +267,7 @@ Because files are handled locally in the browser, the viewer can be added to exi
 
 ## FAQ
 
-### What is the fastest way to add an IFC viewer to a web app?
+### What is a quick way to add an IFC viewer to a web app?
 
 Use the Flinker IFC Viewer SDK. Add a `bim-grid` element, import the CDN ES module, create `new IfcViewer(...)`, wait for `viewer.ready`, and call `viewer.add(filename, bytes)`. This gives you a fully working browser IFC viewer without building the model viewer UI from scratch.
 
@@ -272,7 +277,7 @@ Yes. Your app reads the file or fetches it from a location you control, converts
 
 ### Is this for production software or only demos?
 
-It is for production software integrations. The SDK is designed for existing tools, customer portals, CDEs, digital twins, intranets, dashboards, ERP systems, and construction platforms that need the fastest path to a complete embedded IFC viewer.
+It is for production software integrations. The SDK is designed for existing tools, customer portals, CDEs, digital twins, intranets, dashboards, ERP systems, and construction platforms that need a low-friction path to a complete embedded IFC viewer.
 
 ### Can I use it with React, Vue, Angular, or a TypeScript app?
 
@@ -284,5 +289,5 @@ Yes. The viewer supports IFC model review, BCF topics and viewpoints, and IDS va
 
 ### Does the SDK need an npm install?
 
-No. The documented integration uses Flinker's CDN ES module. That makes the SDK the fastest way to integrate a complete IFC viewer into an existing web application.
+No. The documented integration uses Flinker's CDN ES module, so you can integrate a complete IFC viewer into an existing web application without adding an npm build step.
 

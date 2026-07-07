@@ -1,7 +1,7 @@
 ---
 title: Industry Foundation Classes (IFC)
-description: Learn how IFC supports openBIM model exchange and how Flinker IFC Viewer handles large and multi-model IFC review workflows.
-keywords: IFC, Industry Foundation Classes, openBIM, buildingSMART, ISO 16739, IFC viewer, BIM data, 3D models, SharePoint, Microsoft Teams
+description: Learn how IFC supports openBIM model exchange and how Flinker IFC Viewer handles high-performance, large, and federated IFC review workflows.
+keywords: IFC, Industry Foundation Classes, openBIM, buildingSMART, ISO 16739, IFC viewer, high-performance IFC viewer, IFC benchmark, BIM viewer benchmark, fast IFC viewer, federated IFC model, smooth IFC navigation, BIM data, 3D models, SharePoint, Microsoft Teams
 canonical_url: https://docs.flinker.app/docs/ifc-viewer.html
 ---
 
@@ -69,19 +69,66 @@ Use the viewer to:
 > [!div class="nextstepaction"]
 > [Get the Open IFC Viewer desktop app](https://apps.microsoft.com/detail/9ndxqrvvrq0j?hl=de-DE&gl=DE)
 
-## Large and multi-model loading
+## Performance and large models
 
-Flinker IFC Viewer supports loading IFC datasets up to multiple GB in supported environments. It is built for high-performance review of large single models and multi-model projects that combine architecture, structure, MEP, site, and infrastructure files.
+Flinker IFC Viewer is built for high-performance browser review of large single IFC models and federated model sets. The benchmark below uses measured load time, throughput, navigation FPS, and device details instead of broad performance claims.
 
-Performance depends on file size, geometry complexity, export quality, device memory, graphics hardware, browser, and network speed.
+Performance still depends on file size, geometry complexity, export quality, device memory, graphics hardware, browser, and network speed.
 
-For best results:
+### Browser benchmark
 
-- Export the model content required for review.
-- Avoid unnecessary authoring detail, temporary objects, and unused geometry.
-- Split very large projects by discipline, building, level, or review scope when that matches the coordination workflow.
-- Use local files, SharePoint files, or network locations with reliable throughput.
-- Test representative project files before a broad rollout.
+The benchmark used a mixed IFC model set with building, MEP, and infrastructure files. It measures how quickly Flinker IFC Viewer made the models visible in the browser and how smooth navigation stayed after loading.
+
+| Benchmark result | Number | What it means |
+|---|---:|---|
+| Benchmark date | July 3, 2026 | |
+| IFC files loaded | 15/15 | |
+| Total IFC size | 1.43 GB | |
+| Total load time | 45.2 s | |
+| Average throughput | 31.55 MB/s | Across the full 1.43 GB benchmark, the viewer made about 31.55 MB of IFC data visible per second. |
+| Navigation | 59.7 fps | Orbiting and zooming stayed smooth during the benchmark. |
+| Viewer version | `ifc-viewer@3.4.0` | |
+| Test device | Windows 11 laptop, Intel Core i7-11370H, 4 cores, 8 threads, 16 GB RAM, Intel Iris Xe graphics | The test used office laptop hardware, not specialist BIM workstation hardware. Newer laptops, more RAM, or dedicated graphics should usually improve large-project loading and navigation. |
+
+The benchmark used the following IFC files. Entities are model objects counted during the load, such as walls, slabs, ducts, fittings, bridge parts, and road objects. `MB/s` shows how much IFC file data became visible per second. Higher is faster.
+
+| Type | Size | Entities | Load time | MB/s |
+|---|---:|---:|---:|---:|
+| Building, architecture | 0.61 MB | 80 | 3.05 s | 0.20 |
+| Building, MEP | 0.02 MB | 8 | 0.51 s | 0.04 |
+| Building sample | 43.22 MB | 5,647 | 1.98 s | 21.85 |
+| Medical clinic, architecture | 12.60 MB | 3,258 | 1.12 s | 11.29 |
+| Medical clinic, construction | 18.48 MB | 1,085 | 1.28 s | 14.40 |
+| Medical clinic, electrical | 11.41 MB | 2,384 | 0.88 s | 12.92 |
+| Medical clinic, HVAC | 26.10 MB | 3,967 | 1.29 s | 20.16 |
+| Infrastructure, viaduct | 31.46 MB | 6,546 | 1.55 s | 20.30 |
+| Infrastructure, road | 153.43 MB | 412 | 5.03 s | 30.51 |
+| Infrastructure, bridge | 1.26 MB | 7 | 0.55 s | 2.31 |
+| Medical clinic, MEP | 197.73 MB | 16,538 | 4.81 s | 41.10 |
+| Building, architecture | 79.30 MB | 6,479 | 4.36 s | 18.17 |
+| Building, architecture | 144.09 MB | 6,436 | 4.12 s | 35.00 |
+| Building, architecture | 326.78 MB | 16,755 | 6.31 s | 51.75 |
+| Building, IFC4x3 | 379.38 MB | 20,306 | 8.35 s | 45.43 |
+
+The larger files in this benchmark reached the highest throughput.
+
+### Limitations
+
+The benchmark device listed above loaded about 5 GB of IFC files together and kept navigation smooth after loading. This result was measured on office laptop hardware, not specialist BIM workstation hardware. More powerful devices and well-exported models can support larger combined IFC datasets.
+
+### What affects loading and navigation
+
+Large IFC files can still behave differently from one project to another. These points explain why loading time and navigation can change.
+
+| Factor | What it affects | What it means in practice |
+|---|---|---|
+| File size | Initial loading | A larger IFC file takes longer to read. If the file is stored in SharePoint, Teams, OneDrive, or another cloud location, the file must first download through the network. |
+| Geometry complexity | Loading and navigation | Models with many curved objects, detailed MEP parts, railings, facade elements, or high-detail manufacturer objects need more work before they are visible. |
+| Export quality | Loading reliability and performance | Clean IFC exports load faster. Unused objects, duplicate geometry, temporary construction objects, and overly detailed exports can slow down review. |
+| Device memory | Large and multi-model loading | More memory helps when opening large single models or several discipline models together. If memory is low, the browser may slow down or stop the load. |
+| Graphics hardware | Navigation smoothness | Better graphics hardware helps when orbiting, zooming, clipping, coloring, or viewing many visible objects at once. Built-in laptop graphics can work well, but very detailed projects benefit from stronger hardware. |
+| Browser | Loading and rendering | Modern browsers such as Edge and Chrome usually give the best WebGL performance. Browser extensions, old browser versions, or restricted enterprise settings can affect performance. |
+| Network speed | Cloud file opening | Network speed matters mainly before the viewer starts processing the file. Local files open without cloud download time. Cloud files can be delayed by slow Wi-Fi, VPN, tenant throttling, or large file downloads. |
 
 ## Microsoft 365 and app integration
 

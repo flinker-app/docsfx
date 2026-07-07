@@ -17,6 +17,7 @@ Flinker documentation covers IFC and BCF workflows across SharePoint, Microsoft 
 ## Intent map
 - Onboarding or first-time setup: https://docs.flinker.app/docs/getting-started.html
 - Security, privacy, or architecture review: https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html
+- High-performance IFC viewer, IFC benchmark, BIM viewer benchmark, federated IFC model benchmark, smooth IFC navigation, 5 GB IFC load test, browser IFC viewer speed, or JavaScript IFC Viewer SDK performance: https://docs.flinker.app/docs/ifc-viewer.html
 - SharePoint deployment or usage: https://docs.flinker.app/docs/ifc-viewer-for-sharepoint.html
 - Teams deployment or usage: https://docs.flinker.app/docs/ifc-viewer-for-teams.html
 - Power BI reporting and dashboard work: https://docs.flinker.app/docs/ifc-power-bi.html
