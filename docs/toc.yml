@@ -240,3 +240,5 @@
       href: releases/ifc-teams.md
     - name: IFC Viewer Visual for Power BI
       href: releases/ifc-powerbi-visual.md
+    - name: ISO 19650
+      href: releases/protect-iso.md
