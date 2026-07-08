@@ -10,7 +10,7 @@ exports.postTransform = function (model) {
 
   model.lastUpdated = normalizeDate(metadataDate || manualDate);
   model.lastUpdatedText = formatLastUpdatedText(model.lastUpdated);
-  model.conceptual = replaceDocsVariables(removeManualLastUpdated(model.conceptual), model);
+  model.conceptual = removeManualLastUpdated(model.conceptual);
 
   return model;
 };
@@ -30,14 +30,6 @@ function removeManualLastUpdated(content) {
   }
 
   return content.replace(/<p[^>]*>\s*<em[^>]*>\s*Last updated:\s*[^<]+?\s*<\/em>\s*<\/p>\s*/gi, '');
-}
-
-function replaceDocsVariables(content, model) {
-  if (!content) {
-    return content;
-  }
-
-  return content.replace(/\{\{ifcViewerSdkVersion\}\}/g, model.ifcViewerSdkVersion || '');
 }
 
 function normalizeDate(value) {
