@@ -1,10 +1,16 @@
- ### v3.4.2 - 2026-07-07
+ ### v3.4.3 - 2026-07-08
 
-- Keep Copilot IFC sources lazy.
-- Fix IDS report panel scrolling.
-- Fix multi-IFC property fallback.
-- Fix filter isolation performance and loading feedback.
-- Fix filter color visibility repaint.
+- fix: resolve BCF GUIDs with lazy properties
+
+
+### v3.4.2 - 2026-07-07
+
+- fix: keep copilot IFC sources lazy
+- Fix IDS report panel scrolling
+- Fix multi-IFC property fallback
+- Fix filter isolation performance and loading feedback
+- Fix filter color visibility repaint
+
 
 ### v3.4.1 - 2026-07-04
 
@@ -141,3 +147,4 @@
 * Possibility to use the mesarement and clipper at the same time
 * Move clipping, measurements and plans to left navigation
 * Moved toolbar to contextmenu and added viewcube
+
