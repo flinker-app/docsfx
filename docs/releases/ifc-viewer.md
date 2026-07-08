@@ -1,4 +1,9 @@
- ### v3.4.3 - 2026-07-08
+ ### v3.4.4 - 2026-07-08
+
+- Fix/bcf lazy property bridge
+
+
+### v3.4.3 - 2026-07-08
 
 - fix: resolve BCF GUIDs with lazy properties
 
