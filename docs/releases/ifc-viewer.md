@@ -1,4 +1,10 @@
- ### v3.4.4 - 2026-07-08
+ ### v3.4.5 - 2026-07-10
+
+- Feature/infra alignment selection
+- Show licensing integration details in Help panel
+
+
+### v3.4.4 - 2026-07-08
 
 - Fix/bcf lazy property bridge
 
