@@ -1,4 +1,10 @@
- ### v3.4.5 - 2026-07-10
+ ### v3.4.6 - 2026-07-10
+
+- feat: group IDS validation results into BCF topics
+- fix: make BCF viewpoint application reliable
+
+
+### v3.4.5 - 2026-07-10
 
 - Feature/infra alignment selection
 - Show licensing integration details in Help panel
