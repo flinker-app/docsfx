@@ -1,68 +1,59 @@
 ---
-title: Install IFC Viewer Visual for Power BI
-description: Clear, step-by-step guide for installing and managing the IFC Viewer Visual for Power BI.
-keywords: Power BI, IFC Viewer, Installation, 3D, BIM, Visual
+title: Deploy IFC Viewer Visual for Power BI across your organization
+description: Learn how a Fabric administrator deploys IFC Viewer through organizational visuals or allows users to add it from AppSource.
+keywords: Power BI, IFC Viewer, organizational visuals, AppSource visuals, organization-wide deployment, Fabric administrator
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-installation-for-power-bi.html
 ---
 
-# Install IFC Viewer Visual for Power BI
+# Deploy IFC Viewer Visual for Power BI across your organization
 
-## 1. Install IFC Viewer from Microsoft AppSource
-1. Go to the [IFC Viewer AppSource page](https://appsource.microsoft.com/en-us/product/power-bi-visuals/flinkergmbh1644589155747.ifc-viewer).
-2. Follow the **Steps to Use the IFC Viewer in Power BI**.
+Choose how users in your organization get the IFC Viewer Visual. You can deploy it centrally through organizational visuals or allow users to add it themselves from AppSource.
 
-## 2. Enable custom visual imports
+> [!IMPORTANT]
+> A Fabric administrator deploys the visual. For Enterprise licensing, report creators must [add the license key to the report](ifc-viewer-license-key-for-power-bi.md).
 
-Only required if your organization currently restricts importing custom visuals. If custom visuals are already allowed, you can skip this step entirely.
+## Option 1: Add IFC Viewer to organizational visuals
 
-1. Sign in as an administrator at [Power BI Admin Portal](https://app.powerbi.com/admin-portal).
-2. Under the **Tenant settings**, enable importing custom visuals from AppSource or file.
-3. After enabling, users will be able to directly install custom visuals, including the IFC Viewer.
+Use this option to approve the visual centrally and make it available in the Visualizations pane for everyone in your organization.
 
-![Allow Custom Visuals](/_media/allow-visuals-created-using-the-power-bi-sdk.png)
+1. Sign in to the [Fabric admin portal](https://app.fabric.microsoft.com/admin-portal).
+2. Select **Organizational visuals**.
+3. Select **Add visual** > **From AppSource**.
+4. Search for **Open IFC Viewer**.
+5. Confirm that the publisher is **Flinker GmbH**, and then select **Add**.
+6. Select the added visual, and then select **Enable for Visualization Pane**.
+7. Allow time for the change to reach users. Ask users who already have Power BI Desktop open to restart it.
 
+![Screenshot of adding the IFC Viewer from AppSource to organizational visuals](/_media/add-ifc-viewer-to-organizational-visuals.png)
 
-## 3. Add IFC Viewer to organizational visuals
-Optional step. Use only if you want to centrally deploy IFC Viewer so all users in your organization automatically have access without individual installations.
+<a id="2-enable-custom-visual-imports"></a>
 
-1. Sign in as an administrator at [Power BI Admin Portal](https://app.powerbi.com/admin-portal).
-2. Select **Admin portal** from the left menu.
-3. Click **Organizational visuals**.
-4. Choose **From AppSource**, search for **IFC Viewer**, and click **Add**.
+## Option 2: Allow users to add IFC Viewer from AppSource
 
-![Organizational Visuals Screenshot](/_media/add-ifc-viewer-to-organizational-visuals.png)
+Use this option if your organization wants to use IFC Viewer without adding it to organizational visuals.
 
-## 5. Permissions required by the IFC Viewer Visual
+1. Sign in to the [Fabric admin portal](https://app.fabric.microsoft.com/admin-portal).
+2. Select **Tenant settings** > **Power BI visuals**.
+3. Expand **Allow visuals created using the Power BI SDK**.
+4. Select **Enabled**.
+5. Choose the entire organization or the security groups that should be allowed to add AppSource visuals.
+6. Select **Apply**.
 
-The Flinker IFC Viewer Visual for Power BI requires the following permissions for optimal operation:
+![Screenshot of allowing visuals created with the Power BI SDK](/_media/allow-visuals-created-using-the-power-bi-sdk.png)
 
-- **Web Access:**  
-  The visual loads resources and assets from the following domains:
-  - `https://viewer.flinker.app/` (Flinker Viewer core)
-  - `https://docs.flinker.app/` (documentation/help)
-  - `https://api.flinker.app/` (Flinker API endpoints)
-  - `https://unpkg.com` (public JS/CDN resources)
-  - `https://api.simplesvg.com/` and `https://api.iconify.design/` (icons)
-  - `https://forms.office.com/` (for feedback or surveys)
+The tenant setting applies to the Power BI service. If your organization controls custom visuals in Power BI Desktop through Group Policy, allow them for the intended users there as well.
 
-- **Local Storage:**  
-  The visual uses your browser’s local storage to store settings or temporary data, improving your experience.
+Users can then [add IFC Viewer from AppSource](ifc-viewer-usage-for-power-bi.md#if-your-organization-has-not-deployed-the-visual).
 
-- **Export Content (optional):**  
-  Users can export content (such as images or SVGs) from the visual if this permission is enabled.
+## Get the Enterprise license key
 
-> [!NOTE]
-> The IFC Viewer Visual for Power BI **never transmits your actual report data, IFC model content, or sensitive business information to external servers**.  
-> All data displayed in the visual is processed locally within the Power BI session and is only accessible to authorized viewers in your workspace.  
-> Web access is strictly for loading assets, icons, and optional help/documentation.
+Authorized administrators can view the Enterprise license key in the [Flinker billing portal](https://billing.stripe.com/p/login/dRm9AS1Ue8he8sAfzhcZa00). Share the key with report creators through your organization's approved internal channel.
 
+## Verify the deployment
 
-## 6. Security and privacy
+1. Sign in to Power BI Desktop with a user account from your organization.
+2. For option 1, confirm that the IFC Viewer icon appears in the Visualizations pane.
+3. For option 2, confirm that the user can find **Open IFC Viewer** under **Get more visuals** > **AppSource visuals**.
+4. Add the visual to a test report and confirm that the IFC model loads.
 
-- All communications are encrypted (HTTPS).
-- **No project, IFC, or report data is ever sent to Flinker or any third party.**
-- The visual is suitable for enterprises with strict security and compliance requirements.
-- For further details, see the [Architecture and Data Protection Overview](https://docs.flinker.app/docs/ifc-viewer-architecture-and-data-protection.html).
-
-
-*Last updated: July 2025*
+For report configuration, see [Use the 3D IFC Viewer with Power BI](ifc-viewer-usage-for-power-bi.md). For the security review, see [Power BI architecture and data protection](ifc-viewer-power-bi-architecture-and-data-protection.md).

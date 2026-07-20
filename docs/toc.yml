@@ -12,9 +12,10 @@
       href: ifc-viewer-sharepoint-architecture-and-data-protection.md
     - name: Microsoft Teams architecture and data protection
       href: open-ifc-viewer-teams-architecture-and-data-protection.md
+    - name: Power BI architecture and data protection
+      href: ifc-viewer-power-bi-architecture-and-data-protection.md
 - name: Admin deployment
   href: it-admin-quickstart.md
-- name: App deployment
   expanded: false
   items:
     - name: Install IFC Viewer for SharePoint
@@ -25,10 +26,8 @@
       href: setting-up-the-ifc-viewer-in-microsoft-teams.md
     - name: Add IFC Viewer from SharePoint to Microsoft Teams
       href: adding-ifc-viewer-app-from-sharepoint-to-teams.md
-    - name: Install IFC Viewer Visual for Power BI
+    - name: Deploy IFC Viewer Visual for Power BI
       href: ifc-viewer-installation-for-power-bi.md
-    - name: Activate IFC Viewer Visual for Power BI
-      href: ifc-viewer-license-key-for-power-bi.md
 - name: App upgrades
   expanded: false
   items:
@@ -106,6 +105,8 @@
       href: ifc-viewer-color-rules-for-power-bi.md
     - name: Share Power BI IFC reports with external users
       href: sharing-power-bi-ifc-reports-with-external-users.md
+    - name: Add an Enterprise license key
+      href: ifc-viewer-license-key-for-power-bi.md
 - name: Power BI templates
   href: power-bi-report-templates.yml
   items:

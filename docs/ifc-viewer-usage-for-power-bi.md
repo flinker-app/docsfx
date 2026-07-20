@@ -107,13 +107,33 @@ If you already have an empty Power BI report or an existing report and want to i
   Click [here](#folder-loading) to learn how to point and load multiple IFC files from a folder.
 7. Click **Close & Apply** to save the changes and load the data into your report.
 
-### 3. Add the IFC Viewer Visual from AppSource
+<a id="3-add-the-ifc-viewer-visual-from-appsource"></a>
 
-1. In Power BI Desktop, go to the Visualizations pane and click on **Get more visuals (… )** to search the IFC Viewer visual in the AppSource and add the IFC Viewer visual to your report.
+### 3. Add the IFC Viewer Visual
 
-![Add IFC Flinker IFC Visual to Blank Report](/_media/add-ifc-flinker-ifc-visual-to-blank-report.png)
-2. Once added, find the IFC Viewer icon in the Visualizations pane and click it to add the visual to your report canvas.
-### 3. Bind the required fields to the IFC Viewer visual
+Use the option that matches your organization's deployment.
+
+In the **Visualizations** pane, select the ellipsis (**...**), and then select **Get more visuals**.
+
+![Screenshot of selecting Get more visuals in the Power BI Visualizations pane](/_media/power-bi-get-more-visuals.png)
+
+#### If your organization deployed the visual
+
+1. Select **My organization**.
+2. Find **Open IFC Viewer**, and then select **Add**.
+
+#### If your organization has not deployed the visual
+
+1. Select **AppSource visuals**.
+2. Search for **Open IFC Viewer** from **Flinker GmbH**, and then select **Add**.
+
+![Screenshot of adding the Flinker IFC Viewer Visual from AppSource](/_media/add-ifc-flinker-ifc-visual-to-blank-report.png)
+
+If AppSource visuals are unavailable, ask your Fabric administrator to [deploy the IFC Viewer Visual for your organization](ifc-viewer-installation-for-power-bi.md).
+
+After adding the visual, select the IFC Viewer icon in the **Visualizations** pane to add it to the report canvas.
+
+### 4. Bind the required fields to the IFC Viewer visual
 
 - Drag and drop the `IFC Chunks` field from your `IFC` query table to the **IFC Chunks** data field of the IFC Viewer visual. This field contains the binary or text data representing the IFC model and is essential for rendering the 3D model in the viewer.
 
@@ -124,7 +144,7 @@ If you already have an empty Power BI report or an existing report and want to i
 
 ![Bind IFC query fields to IFC Viewer Visual for Power BI data fields](/_media/bind-ifc-query-fields-to-power-bi-visuals-data-fields.png)
 
-### 4. Optional: Link IFC Data to your existing data
+### 5. Optional: Link IFC data to your existing data
 
 1. In the **Model** view, select your existing data table.
 2. Click **Manage Relationships** > **New**.

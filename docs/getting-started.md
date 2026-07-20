@@ -42,6 +42,6 @@ Start with the path that matches your role and rollout goal.
 
 - [Set up IFC Viewer in SharePoint](viewer-app-installation-with-admin-approval.md)
 - [Set up IFC Viewer in Microsoft Teams](setting-up-the-ifc-viewer-in-microsoft-teams.md)
-- [Install IFC Viewer Visual for Power BI](ifc-viewer-installation-for-power-bi.md)
+- [Deploy IFC Viewer Visual for Power BI across your organization](ifc-viewer-installation-for-power-bi.md)
 - [Install ISO 19650](installation.md)
 - [Review release notes](releases.md)

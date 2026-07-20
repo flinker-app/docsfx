@@ -1,17 +1,17 @@
 ---
-title: Activate IFC Viewer Visual for Power BI with a license key
-description: Step-by-step instructions to enter your Flinker Pro or Premium license key in the IFC Viewer Visual for Power BI.
-keywords: Power BI, IFC Viewer, license key, activation, Flinker
+title: Add an Enterprise license key to IFC Viewer Visual for Power BI
+description: Learn how to add a Flinker Enterprise tenant license key to the IFC Viewer Visual for Power BI.
+keywords: Power BI, IFC Viewer, Enterprise license key, tenant license, activation, Flinker
 canonical_url: https://docs.flinker.app/docs/ifc-viewer-license-key-for-power-bi.html
 ---
 
-# Activate IFC Viewer Visual for Power BI with a license key
+# Add an Enterprise license key to IFC Viewer Visual for Power BI
 
-Unlock advanced features in the IFC Viewer Visual for Power BI by activating your visual with a Flinker Pro or Premium license key. Entering your license key enables enhanced capabilities and premium tools within your Power BI reports. Follow this guide to learn when a license key is required and how to add it to your reports.
+Use this procedure if your organization has selected Enterprise in the [Power BI IFC Viewer pricing and plans](https://flinker.app/products/power-bi-ifc-viewer/#pricing-title) and received a tenant license key from Flinker. Entering your license key enables enhanced capabilities within your Power BI reports.
 
-## Get your license key
+## Get your Enterprise license key
 
-New Flinker Pro and Premium subscribers receive their key by email after purchase.
+Get the Enterprise license key from your organization's administrator. Administrators can [retrieve the key from the billing portal](ifc-viewer-installation-for-power-bi.md#get-the-enterprise-license-key).
 
 > [!NOTE]
 > License keys are bound to your subscription. Contact Flinker support again if you need to move the key to another tenant or if it should be revoked.
@@ -21,9 +21,12 @@ New Flinker Pro and Premium subscribers receive their key by email after purchas
 1. Open the report in Power BI Desktop and select the **IFC Viewer** visual.
 2. In the **Visualizations** pane, switch to **Format visual**.
 3. Expand **License** > **Activation** and paste the key into **License key**.
-4. The visual reloads and activates the Pro or Premium features.
+4. The visual reloads and activates the Enterprise tenant license.
 
 ![Enter the license key in the Format visual pane](/_media/set-license-key-in-power-bi-visual.png)
+
+> [!NOTE]
+> Enter the Enterprise license key for every new IFC Viewer visual that you add to a report.
 
 ## Publish to the Power BI service
 
