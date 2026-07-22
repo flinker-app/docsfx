@@ -1,11 +1,10 @@
----
-title: IFC Viewer for SharePoint release notes
-description: Version history for the Flinker IFC Viewer for SharePoint, including BCF, loading, and licensing updates.
-keywords: SharePoint IFC release notes, Flinker SharePoint changelog, BCF updates
-canonical_url: https://docs.flinker.app/docs/releases/ifc-sharepoint.html
----
+ ### 2.5.0.0 - 2026-07-22
 
-# IFC Viewer for SharePoint release notes
+* Use the Viewer SDK for SharePoint file loading
+* Load viewer models faster
+* Support additional viewer file formats: IFCZIP, BCFZIP and DXF
+* Remove licensing gates
+
 
 ### 2.4.0.0 - 2025-11-27
 
@@ -14,7 +13,7 @@ canonical_url: https://docs.flinker.app/docs/releases/ifc-sharepoint.html
 
 ### 2.3.0.0 - 2025-08-26
 
-- Load BCF Topics from Microsoft List into the viewer web part
+- Load BCF Topics from Microsoft List into the viewer webpart
 
 ### 2.2.0.0 - 2025-07-14
 
@@ -23,13 +22,13 @@ canonical_url: https://docs.flinker.app/docs/releases/ifc-sharepoint.html
 ### 2.1.0.0 - 2025-05-16
 
 **Features**
-- Open/load multiple BCF from SharePoint web part and List view
-- Support folder url for web part to automatically load all IFC and BCF files inside the folder
+- Open/load multiple BCF from SharePoint webpart and List view
+- Support folder url for webpart to automatically load all IFC and BCF files inside the folder
 
 ### 2.0.1.0 - 2025-02-21
 
 **Features**
-- Added multiple URL input fields to load multiple models for web part
+- Added multiple URL input fields to load multiple models for webpart
 
 **Fixes**
 - Fixed issues for typing i and s in textbox
