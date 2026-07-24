@@ -1,7 +1,7 @@
 ---
 title: IFC Viewer in SharePoint FAQ
-description: Answers on SPFx hosting, CDN assets, metadata processing, and privacy for the IFC Viewer web part in SharePoint Online.
-summary: Frequently asked questions covering SPFx deployment, Microsoft 365 CDN hosting, Azure CDN viewer module, and minimal technical metadata (tenant ID, anonymized usage) without sending IFC/BCF contents.
+description: Fix a SharePoint viewer that stopped working or a Flinker SharePoint IFC Viewer that no longer loads.
+summary: Troubleshoot an IFC Viewer in SharePoint that stopped working, configure trusted script sources, install manual updates, and review hosting and data processing.
 slug: faq-for-ifc-viewer-in-sharepoint
 canonical_url: https://docs.flinker.app/docs/faq-for-ifc-viewer-in-sharepoint.html
 lang: en
@@ -20,7 +20,12 @@ keywords:
   - privacy
   - data protection
   - troubleshooting
+  - SharePoint viewer stopped working
+  - SharePoint IFC viewer Flinker stopped working
+  - SharePoint viewer gray screen
   - trusted script sources
+  - Content Security Policy
+  - CSP
   - upgrade
   - update
 tags:
@@ -41,9 +46,12 @@ twitter:
 audience: users, admins, it
 product: sharepoint-online
 feature: ifc-viewer
-ms.date: 2026-04-15
+ms.date: 2026-07-24
 ---
 # IFC Viewer in SharePoint FAQ
+
+> [!IMPORTANT]
+> Microsoft began enforcing Content Security Policy (CSP) in SharePoint Online on March 1, 2026. A SharePoint administrator must add `https://viewer.flinker.app/` to the tenant's trusted script sources. This requirement applies to new and existing IFC Viewer installations.
 
 ## Data processing
 
@@ -96,14 +104,27 @@ Yes. You can determine which users or user groups can see the 3D or IFC model by
 
 ## Troubleshooting
 
-### The viewer opens but the screen only darkens and a close button appears  -  the viewer never fully loads. What should I do?
+### Why has the SharePoint viewer stopped working or started showing a gray screen?
 
-The viewer library is most likely missing from trusted script sources. A SharePoint admin must add `https://viewer.flinker.app/` under **SharePoint admin center > Advanced > Trusted script sources**.
+If the SharePoint viewer stopped working and now shows a gray or dark screen, SharePoint is most likely blocking the external viewer library because its domain is missing from trusted script sources. This issue can affect an existing installation even if the viewer worked before SharePoint began enforcing CSP.
 
-Follow the step-by-step instructions: [Step 3 - Add the viewer library to trusted script sources](https://docs.flinker.app/docs/viewer-app-installation-with-admin-approval.html#3-add-the-viewer-library-to-trusted-script-sources).
+Ask a SharePoint administrator to complete these steps:
 
-> [!NOTE]
-> This step is required for the viewer to load. Without it, the viewer initializes but the script cannot be fetched, leaving only the darkened overlay and close button visible.
+1. Open the SharePoint admin center.
+2. Go to **Advanced** > **Trusted script sources**.
+3. Add `https://viewer.flinker.app/`, including the trailing slash.
+4. Save the change.
+5. Upgrade the IFC Viewer app to the latest version.
+6. Return to the document library and refresh the page with `Ctrl+F5`.
+
+For detailed instructions, see [Add the viewer library to trusted script sources](viewer-app-installation-with-admin-approval.md#3-add-the-viewer-library-to-trusted-script-sources) and [Upgrade IFC Viewer to the latest version](upgrade-sharepoint-ifc-viewer-app.md).
+
+Microsoft explains this SharePoint security control in [Support for Content Security Policy in SharePoint Online](https://learn.microsoft.com/sharepoint/dev/spfx/content-securty-policy-trusted-script-sources).
+
+If the viewer still does not load, open the browser developer tools and check the **Console** and **Network** tabs. Send Flinker support a screenshot of the CSP error or failed request.
+
+> [!IMPORTANT]
+> A SharePoint IT administrator must update the IFC Viewer app manually and regularly. Flinker cannot deploy these app updates to your tenant. Check for an update at least once or twice per year and whenever Flinker announces a required update.
 
 ## Updates
 

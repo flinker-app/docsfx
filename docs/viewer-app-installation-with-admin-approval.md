@@ -49,14 +49,18 @@ Add the IFC Viewer through Microsoft AppSource or from your SharePoint App Catal
 
 Add the viewer domain to trusted script sources in the SharePoint admin center so that the IFC Viewer web part can load its viewer library.
 
+> [!IMPORTANT]
+> This step is required for new and existing installations. SharePoint Online CSP blocks the external viewer library unless its domain is trusted. An affected viewer can show a gray or dark screen without loading the IFC model.
+
 1. Open the SharePoint admin center.
 2. Go to **Advanced** > **Trusted script sources**.
-3. Add `https://viewer.flinker.app/`.
+3. Add `https://viewer.flinker.app/`, including the trailing slash.
 4. Save the change.
+5. Return to the SharePoint document library and refresh the page with `Ctrl+F5`.
 
 ![Add viewer library to trusted script sources](/_media/add-viewer-library-to-trusted-script-sources.png)
 
-If this setting is missing, users may see script loading or content security policy errors, and the viewer may not open.
+For more information about this SharePoint security control, see [Support for Content Security Policy in SharePoint Online](https://learn.microsoft.com/sharepoint/dev/spfx/content-securty-policy-trusted-script-sources).
 
 ## 4. Validate the installation
 
@@ -103,4 +107,4 @@ For further details on privacy, data flows, and technical security measures, see
 
 
 
-*Last updated: July 2025*
+*Last updated: July 2026*
